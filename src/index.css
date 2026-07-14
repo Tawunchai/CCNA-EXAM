@@ -1,0 +1,414 @@
+@import 'tailwindcss';
+
+/* ─────────────────────────────────────────────────────────────
+   Design tokens — a single clean white "exam sheet" identity.
+   Exposed to Tailwind as utilities: bg-brand, text-ink, border-line, …
+   ───────────────────────────────────────────────────────────── */
+@theme {
+  /* neutrals, biased slightly cool toward the Cisco-blue accent */
+  --color-ink: #0b2b3c;
+  --color-body: #51616e;
+  --color-paper: #ffffff;
+  --color-panel: #f6f8fa;
+  --color-panel-2: #eef2f6;
+  --color-line: #e3e9ef;
+  --color-line-strong: #cfd8e0;
+
+  /* accent — Cisco blue */
+  --color-brand: #0a6fb5;
+  --color-brand-ink: #075a94;
+  --color-brand-soft: #e8f2fa;
+  --color-brand-line: #9fc7e6;
+
+  /* semantic (kept separate from the accent) */
+  --color-ok: #1f9d55;
+  --color-ok-soft: #e7f6ee;
+  --color-err: #d64545;
+  --color-err-soft: #fbeaea;
+  --color-warn: #c07d1e;
+  --color-warn-soft: #fbf1de;
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'SF Mono', Consolas, monospace;
+
+  --shadow-card: 0 1px 2px rgb(11 43 60 / 0.06);
+  --shadow-pop: 0 6px 20px -8px rgb(11 43 60 / 0.18), 0 2px 6px -2px rgb(11 43 60 / 0.08);
+}
+
+/* The exam sheet deliberately commits to one light world — the viewer's OS
+   dark mode must not repaint it. */
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  body {
+    @apply m-0 bg-paper font-sans text-[16px] leading-relaxed text-body antialiased;
+  }
+  #root {
+    @apply mx-auto flex min-h-svh w-full flex-col bg-paper text-left;
+  }
+  h1 {
+    @apply m-0 text-3xl font-bold tracking-tight text-ink text-balance;
+  }
+  h2 {
+    @apply m-0 text-xl font-semibold tracking-tight text-ink text-balance;
+  }
+  p {
+    @apply m-0;
+  }
+}
+
+@layer components {
+  /* ── buttons ───────────────────────────────────────────── */
+  .btn {
+    @apply cursor-pointer rounded-lg border-[1.5px] border-transparent px-[18px] py-2.5 text-[15px]
+           font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50
+           focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand;
+  }
+  .btn-primary {
+    @apply bg-brand text-white shadow-card hover:not-disabled:bg-brand-ink;
+  }
+  .btn-outline {
+    @apply border-line-strong bg-paper text-ink hover:not-disabled:border-brand hover:not-disabled:text-brand-ink;
+  }
+  .btn-sm {
+    @apply px-3 py-[7px] text-[13px];
+  }
+
+  /* ── start screen ──────────────────────────────────────── */
+  .start-screen {
+    @apply mx-auto w-full max-w-[680px] px-6 py-14;
+  }
+  .start-brand {
+    @apply mb-[18px] inline-flex items-center gap-2 rounded-full border border-brand-line
+           bg-brand-soft px-3 py-[5px] font-mono text-xs font-bold tracking-[1.5px]
+           text-brand-ink uppercase;
+  }
+  .subtitle {
+    @apply mb-7 max-w-[60ch] leading-relaxed text-body;
+  }
+  .start-card {
+    @apply rounded-2xl border border-line bg-panel p-7;
+  }
+  .start-options {
+    @apply mb-6 grid grid-cols-[repeat(auto-fit,minmax(120px,1fr))] gap-3;
+  }
+  .start-tips {
+    @apply m-0 list-disc pl-5 text-sm leading-8 text-body marker:text-brand;
+  }
+
+  /* ── shell / sticky exam toolbar ───────────────────────── */
+  .app-shell {
+    @apply flex min-h-svh w-full flex-col;
+  }
+  .app-header {
+    @apply sticky top-0 z-10 border-b border-line bg-paper/90 backdrop-blur-md backdrop-saturate-150;
+  }
+  .app-header-bar {
+    @apply mx-auto flex max-w-[1120px] flex-wrap items-center justify-between gap-3 px-8 py-3.5;
+  }
+  .app-header-left {
+    @apply flex items-baseline gap-3 text-ink;
+  }
+  .app-header-right {
+    @apply flex items-center gap-3.5 text-[13px];
+  }
+  .app-title {
+    @apply text-[15px] font-bold tracking-wide text-ink;
+  }
+  .dot-cisco {
+    @apply text-brand;
+  }
+  .score-text strong {
+    @apply text-ok;
+  }
+  .progress-text {
+    @apply text-[13px] text-body tabular-nums;
+  }
+  .timer,
+  .score-text {
+    @apply inline-flex items-center gap-1.5 text-[13px] text-body tabular-nums;
+  }
+  .progress-track {
+    @apply h-[3px] bg-panel-2;
+  }
+  .progress-fill {
+    @apply h-full bg-brand transition-[width] duration-300 ease-out;
+  }
+  .app-main {
+    @apply mx-auto w-full max-w-[1120px] flex-1 px-8 pt-8 pb-18;
+  }
+
+  /* ── question card ─────────────────────────────────────── */
+  .question-card {
+    @apply mb-5 rounded-2xl border border-line bg-paper p-6 shadow-card;
+  }
+  .exhibit {
+    @apply mb-[18px] overflow-hidden rounded-xl border border-line bg-white;
+  }
+  .exhibit img {
+    @apply block h-auto w-full;
+  }
+  .q-head {
+    @apply mb-3 flex items-center gap-2.5;
+  }
+  .qnum-badge {
+    @apply inline-flex shrink-0 rounded-md bg-brand px-2.5 py-[3px] font-mono text-xs
+           font-bold tracking-wide text-white;
+  }
+  .qkind-badge {
+    @apply rounded-full border border-line-strong px-2 py-[2px] text-[11px] font-bold
+           tracking-wider text-body uppercase;
+  }
+  .prompt {
+    @apply mb-1.5 text-[17px] leading-relaxed font-semibold whitespace-pre-line text-ink;
+  }
+  .hint {
+    @apply mb-3.5 text-[13px] font-semibold text-brand-ink;
+  }
+
+  /* ── options (A/B/C/D) ─────────────────────────────────── */
+  .options {
+    @apply my-4 flex flex-col gap-2.5;
+  }
+  .opt {
+    @apply flex cursor-pointer items-start gap-3 rounded-xl border-[1.5px] border-line bg-paper
+           px-3.5 py-3 transition-colors hover:border-brand-line hover:bg-panel
+           has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2
+           has-[input:focus-visible]:outline-brand;
+  }
+  .opt.selected {
+    @apply border-brand bg-brand-soft;
+  }
+  .opt.correct {
+    @apply border-ok bg-ok-soft;
+  }
+  .opt.incorrect {
+    @apply border-err bg-err-soft;
+  }
+  .opt input {
+    @apply pointer-events-none absolute opacity-0;
+  }
+  .opt-key {
+    @apply inline-flex size-[26px] shrink-0 items-center justify-center rounded-full
+           border-[1.5px] border-line-strong bg-panel-2 text-[13px] font-bold text-ink;
+  }
+  .opt.selected .opt-key {
+    @apply border-brand bg-brand text-white;
+  }
+  .opt.correct .opt-key {
+    @apply border-ok bg-ok text-white;
+  }
+  .opt.incorrect .opt-key {
+    @apply border-err bg-err text-white;
+  }
+  .opt-text {
+    @apply flex-1 pt-[3px] font-mono text-[13.5px] leading-normal break-words whitespace-pre-wrap text-ink;
+  }
+  .mark {
+    @apply self-center rounded-md px-2 py-[3px] text-[11.5px] font-bold whitespace-nowrap;
+  }
+  .mark.ok {
+    @apply bg-ok-soft text-ok;
+  }
+  .mark.bad {
+    @apply bg-err-soft text-err;
+  }
+
+  /* ── feedback / explanation ────────────────────────────── */
+  .feedback {
+    @apply rounded-xl border border-l-[5px] px-5 py-[18px];
+  }
+  .feedback.good {
+    @apply border-ok bg-ok-soft;
+  }
+  .feedback.bad {
+    @apply border-err bg-err-soft;
+  }
+  .feedback-title {
+    @apply mb-3 border-b border-line-strong pb-2.5 text-[15.5px] font-extrabold text-ink;
+  }
+  /* Explanations mix Thai prose with indented calculations and ASCII tables.
+     pre-wrap keeps that layout; mono-first keeps the box characters aligned
+     while Thai falls back to a proportional face. */
+  .feedback-body {
+    @apply overflow-x-auto font-mono text-[13.5px] leading-[1.9] whitespace-pre-wrap text-ink;
+  }
+  .option-notes {
+    @apply mt-2.5 list-disc pl-[18px] leading-7;
+  }
+
+  /* ── drag & drop ───────────────────────────────────────── */
+  .drag-pool {
+    @apply my-3.5 flex min-h-[52px] flex-wrap gap-2.5 rounded-xl border-[1.5px] border-dashed
+           border-line-strong bg-panel p-3.5;
+  }
+  .pool-empty {
+    @apply p-2 text-[13px] text-body italic;
+  }
+  .chip {
+    @apply cursor-grab rounded-lg border-[1.5px] border-line-strong bg-paper px-3 py-2.5
+           font-mono text-[13px] shadow-card transition-colors select-none hover:border-brand;
+  }
+  .chip.picked {
+    @apply border-brand bg-brand-soft;
+  }
+  .chip.placed {
+    @apply cursor-pointer shadow-none;
+  }
+  .chip.chip-ok {
+    @apply border-ok bg-ok-soft;
+  }
+  .chip.chip-bad {
+    @apply border-err bg-err-soft;
+  }
+  .drag-categories {
+    @apply mb-[18px] grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-3.5;
+  }
+  .drag-category {
+    @apply min-h-24 rounded-xl border-[1.5px] border-line bg-panel p-3.5 transition-colors hover:border-brand-line;
+  }
+  .drag-category.cat-ok {
+    @apply border-ok;
+  }
+  .drag-category.cat-bad {
+    @apply border-err;
+  }
+  .drag-category-title {
+    @apply mb-2.5 text-sm font-bold text-ink;
+  }
+  .drag-category-slots {
+    @apply flex min-h-[38px] flex-wrap gap-2;
+  }
+  .correct-answer-note {
+    @apply mt-2.5 border-t border-dashed border-line-strong pt-2 text-[12.5px] text-body;
+  }
+
+  /* ── navigation + navigator grid ───────────────────────── */
+  .nav-buttons {
+    @apply mb-6 flex justify-between gap-3;
+  }
+  .navigator {
+    @apply border-t border-line pt-5;
+  }
+  .navigator-legend {
+    @apply mb-3.5 flex flex-wrap gap-3.5 text-[12.5px] text-body;
+  }
+  .navigator-legend span {
+    @apply inline-flex items-center gap-1.5;
+  }
+  .dot {
+    @apply inline-block size-2.5 rounded-full border-[1.5px] border-line-strong;
+  }
+  .dot-current {
+    @apply border-brand bg-brand;
+  }
+  .dot-answered {
+    @apply border-warn bg-warn;
+  }
+  .dot-correct {
+    @apply border-ok bg-ok;
+  }
+  .dot-incorrect {
+    @apply border-err bg-err;
+  }
+  .dot-empty {
+    @apply bg-paper;
+  }
+  .navigator-grid {
+    @apply grid grid-cols-[repeat(auto-fill,minmax(40px,1fr))] gap-2;
+  }
+  .nav-btn {
+    @apply cursor-pointer rounded-lg border-[1.5px] border-line-strong bg-paper py-2
+           font-mono text-[13px] font-semibold text-ink transition-colors hover:border-brand;
+  }
+  .nav-btn.answered {
+    @apply border-warn bg-warn-soft;
+  }
+  .nav-btn.correct {
+    @apply border-ok bg-ok-soft;
+  }
+  .nav-btn.incorrect {
+    @apply border-err bg-err-soft;
+  }
+  .nav-btn.current {
+    @apply outline-2 outline-offset-1 outline-brand;
+  }
+
+  /* ── summary ───────────────────────────────────────────── */
+  .summary-screen {
+    @apply mx-auto w-full max-w-[760px] px-6 pt-11 pb-16;
+  }
+  .summary-screen h1 {
+    @apply mb-6 text-center;
+  }
+  .start-screen h1 {
+    @apply mb-3;
+  }
+  .score-panel {
+    @apply mb-7 rounded-2xl border border-line bg-panel px-6 py-8 text-center;
+  }
+  .score-ring {
+    @apply mx-auto mb-2 grid size-32 place-items-center rounded-full;
+    background: conic-gradient(var(--color-brand) calc(var(--pct) * 1%), var(--color-panel-2) 0);
+  }
+  .score-ring-inner {
+    @apply grid size-25 place-items-center rounded-full bg-paper text-[26px] font-extrabold text-ink tabular-nums;
+  }
+  .score-big {
+    @apply text-3xl font-extrabold text-ink tabular-nums;
+  }
+  .score-sub {
+    @apply my-2.5 mb-5 text-[14.5px] text-body;
+  }
+  .review-heading {
+    @apply mb-1 text-sm font-bold tracking-wide text-ink uppercase;
+  }
+  .review-list {
+    @apply flex flex-col gap-2.5;
+  }
+  .review-item {
+    @apply cursor-pointer rounded-xl border border-line bg-paper px-4 py-3 transition
+           hover:border-brand-line hover:shadow-card;
+  }
+  .review-ok {
+    @apply border-l-4 border-l-ok;
+  }
+  .review-bad {
+    @apply border-l-4 border-l-err;
+  }
+  .review-skip {
+    @apply border-l-4 border-l-line-strong;
+  }
+  .review-badge {
+    @apply mb-1 flex items-center gap-2 text-sm font-bold text-ink;
+  }
+  .review-origid {
+    @apply font-mono text-xs font-normal text-body;
+  }
+  .review-prompt {
+    @apply line-clamp-2 text-[13px] whitespace-pre-line text-body;
+  }
+}
+
+/* Tighter gutters on small screens */
+@media (max-width: 640px) {
+  .app-header-bar {
+    @apply px-4 py-2.5;
+  }
+  .app-main {
+    @apply px-4 pt-5 pb-14;
+  }
+  .question-card {
+    @apply px-4 py-5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
