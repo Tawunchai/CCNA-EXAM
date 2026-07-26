@@ -1,15 +1,19 @@
 import { useEffect, useMemo, useState } from 'react'
 import { QUESTIONS } from './data/questions'
+import { QUESTIONS_V2 } from './data/questionsV2'
 import { shuffle } from './utils/shuffle'
 import { gradeChoice, gradeDrag } from './utils/grade'
 import type { AnswerState, ChoiceQuestion, DragQuestion, Option, Question } from './types'
 import StartScreen from './components/StartScreen'
+import type { BankId } from './components/StartScreen'
 import QuestionCard from './components/QuestionCard'
 import DragDropQuestion from './components/DragDropQuestion'
 import Navigator from './components/Navigator'
 import SummaryScreen from './components/SummaryScreen'
 
 type Screen = 'start' | 'quiz' | 'summary'
+
+const BANKS: Record<BankId, Question[]> = { v1: QUESTIONS, v2: QUESTIONS_V2 }
 
 function emptyAnswer(q: Question): AnswerState {
   if (q.kind === 'drag') {
@@ -28,6 +32,7 @@ function formatTime(totalSeconds: number) {
 
 function App() {
   const [screen, setScreen] = useState<Screen>('start')
+  const [bank, setBank] = useState<BankId>('v1')
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([])
   const [displayOptions, setDisplayOptions] = useState<Record<number, Option[]>>({})
   const [dragPools, setDragPools] = useState<Record<number, string[]>>({})
@@ -42,7 +47,7 @@ function App() {
   }, [screen])
 
   function startQuiz(count: number) {
-    const picked = shuffle(QUESTIONS).slice(0, count)
+    const picked = shuffle(BANKS[bank]).slice(0, count)
     const opts: Record<number, Option[]> = {}
     const pools: Record<number, string[]> = {}
     picked.forEach((q) => {
@@ -141,7 +146,7 @@ function App() {
   const correctCount = statuses.filter((s) => s.checked && s.correct).length
 
   if (screen === 'start') {
-    return <StartScreen total={QUESTIONS.length} onStart={startQuiz} />
+    return <StartScreen bank={bank} total={BANKS[bank].length} onBankChange={setBank} onStart={startQuiz} />
   }
 
   if (screen === 'summary') {
@@ -168,6 +173,7 @@ function App() {
             <span className="app-title">
               CCNA 200-301 <span className="dot-cisco">●</span> Practice Exam
             </span>
+            <span className="bank-badge">{bank === 'v1' ? 'V1' : 'V2'}</span>
             <span className="progress-text">
               ข้อ {currentIndex + 1} / {quizQuestions.length}
             </span>

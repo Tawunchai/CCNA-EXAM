@@ -1,11 +1,21 @@
+export type BankId = 'v1' | 'v2'
+
 interface Props {
+  bank: BankId
   total: number
+  onBankChange: (bank: BankId) => void
   onStart: (count: number) => void
 }
 
 const OPTIONS = [20, 50, 100, 150]
 
-function StartScreen({ total, onStart }: Props) {
+const BANKS: { id: BankId; label: string; note: string }[] = [
+  { id: 'v1', label: 'Version 1', note: '700 ข้อ' },
+  { id: 'v2', label: 'Version 2', note: '100 ข้อ' },
+]
+
+function StartScreen({ bank, total, onBankChange, onStart }: Props) {
+  const counts = OPTIONS.filter((n) => n < total)
   return (
     <div className="start-screen">
       <span className="start-brand">
@@ -17,9 +27,24 @@ function StartScreen({ total, onStart }: Props) {
         (ตัวเลือกเรียง A → D คงที่) เฉลยผ่านการตรวจทานตามเนื้อหา CCNA จริง
       </p>
       <div className="start-card">
+        <h2>เลือกชุดข้อสอบ</h2>
+        <div className="bank-switch">
+          {BANKS.map((b) => (
+            <button
+              key={b.id}
+              className={`bank-option${bank === b.id ? ' is-active' : ''}`}
+              aria-pressed={bank === b.id}
+              onClick={() => onBankChange(b.id)}
+            >
+              <span className="bank-option-label">{b.label}</span>
+              <span className="bank-option-note">{b.note}</span>
+            </button>
+          ))}
+        </div>
+
         <h2>เลือกจำนวนข้อที่ต้องการทำ</h2>
         <div className="start-options">
-          {OPTIONS.map((n) => (
+          {counts.map((n) => (
             <button key={n} className="btn btn-outline" onClick={() => onStart(n)}>
               {n} ข้อ
             </button>

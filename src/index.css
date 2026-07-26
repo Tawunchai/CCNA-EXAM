@@ -93,6 +93,30 @@
   .start-options {
     @apply mb-6 grid grid-cols-[repeat(auto-fit,minmax(120px,1fr))] gap-3;
   }
+  .bank-switch {
+    @apply mb-7 grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-3;
+  }
+  .bank-option {
+    @apply flex cursor-pointer flex-col items-start gap-0.5 rounded-xl border border-line-strong
+           bg-paper px-4 py-3 text-left transition-colors
+           hover:border-brand hover:text-brand-ink;
+  }
+  .bank-option.is-active {
+    @apply border-brand bg-brand-soft text-brand-ink;
+  }
+  .bank-option-label {
+    @apply text-sm font-bold;
+  }
+  .bank-option-note {
+    @apply font-mono text-xs text-body;
+  }
+  .bank-option.is-active .bank-option-note {
+    @apply text-brand-ink;
+  }
+  .bank-badge {
+    @apply rounded-md border border-brand-line bg-brand-soft px-2 py-0.5
+           font-mono text-[11px] font-bold tracking-wide text-brand-ink;
+  }
   .start-tips {
     @apply m-0 list-disc pl-5 text-sm leading-8 text-body marker:text-brand;
   }
