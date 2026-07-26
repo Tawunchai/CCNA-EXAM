@@ -196,6 +196,80 @@ import q543 from '../assets/example/question_543.png'
 import q544 from '../assets/example/question_544.png'
 import q545 from '../assets/example/question_545.png'
 import q546 from '../assets/example/question_546.png'
+import q551 from '../assets/example/question_551.png'
+import q556 from '../assets/example/question_556.png'
+import q557 from '../assets/example/question_557.png'
+import q558 from '../assets/example/question_558.png'
+import q559 from '../assets/example/question_559.png'
+import q560 from '../assets/example/question_560.png'
+import q562 from '../assets/example/question_562.png'
+import q563 from '../assets/example/question_563.png'
+import q564 from '../assets/example/question_564.png'
+import q565 from '../assets/example/question_565.png'
+import q566 from '../assets/example/question_566.png'
+import q567 from '../assets/example/question_567.png'
+import q569 from '../assets/example/question_569.png'
+import q571 from '../assets/example/question_571.png'
+import q572 from '../assets/example/question_572.png'
+import q574 from '../assets/example/question_574.png'
+import q575 from '../assets/example/question_575.png'
+import q578 from '../assets/example/question_578.png'
+import q579 from '../assets/example/question_579.png'
+import q580 from '../assets/example/question_580.png'
+import q581 from '../assets/example/question_581.png'
+import q586 from '../assets/example/question_586.png'
+import q587 from '../assets/example/question_587.png'
+import q588 from '../assets/example/question_588.png'
+import q590 from '../assets/example/question_590.png'
+import q591 from '../assets/example/question_591.png'
+import q594 from '../assets/example/question_594.png'
+import q598 from '../assets/example/question_598.png'
+import q602 from '../assets/example/question_602.png'
+import q603 from '../assets/example/question_603.png'
+import q606 from '../assets/example/question_606.png'
+import q608 from '../assets/example/question_608.png'
+import q609 from '../assets/example/question_609.png'
+import q610 from '../assets/example/question_610.png'
+import q611 from '../assets/example/question_611.png'
+import q612 from '../assets/example/question_612.png'
+import q614 from '../assets/example/question_614.png'
+import q615 from '../assets/example/question_615.png'
+import q616 from '../assets/example/question_616.png'
+import q621 from '../assets/example/question_621.png'
+import q622 from '../assets/example/question_622.png'
+import q625 from '../assets/example/question_625.png'
+import q632 from '../assets/example/question_632.png'
+import q633 from '../assets/example/question_633.png'
+import q635 from '../assets/example/question_635.png'
+import q638 from '../assets/example/question_638.png'
+import q642 from '../assets/example/question_642.png'
+import q643 from '../assets/example/question_643.png'
+import q644 from '../assets/example/question_644.png'
+import q645 from '../assets/example/question_645.png'
+import q646 from '../assets/example/question_646.png'
+import q647 from '../assets/example/question_647.png'
+import q648 from '../assets/example/question_648.png'
+import q650 from '../assets/example/question_650.png'
+import q654 from '../assets/example/question_654.png'
+import q655 from '../assets/example/question_655.png'
+import q656 from '../assets/example/question_656.png'
+import q660 from '../assets/example/question_660.png'
+import q662 from '../assets/example/question_662.png'
+import q663 from '../assets/example/question_663.png'
+import q666 from '../assets/example/question_666.png'
+import q667 from '../assets/example/question_667.png'
+import q670 from '../assets/example/question_670.png'
+import q671 from '../assets/example/question_671.png'
+import q673 from '../assets/example/question_673.png'
+import q674 from '../assets/example/question_674.png'
+import q675 from '../assets/example/question_675.png'
+import q676 from '../assets/example/question_676.png'
+import q680 from '../assets/example/question_680.png'
+import q684 from '../assets/example/question_684.png'
+import q689 from '../assets/example/question_689.png'
+import q691 from '../assets/example/question_691.png'
+import q697 from '../assets/example/question_697.png'
+import q699 from '../assets/example/question_699.png'
 
 export const QUESTIONS: Question[] = [
   {
@@ -1547,7 +1621,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 92,
     kind: 'multi',
-    prompt: 'What are two benefits of controller-based networking compared to traditional networking?',
+    prompt: 'What are two benefits of controller-based networking compared to traditional networking? (Choose two.)',
     options: [
       { key: 'A', text: 'controller-based increases network bandwidth usage, while traditional lightens the load on the network' },
       { key: 'B', text: 'controller-based inflates software costs, while traditional decreases individual licensing costs' },
@@ -3444,12 +3518,12 @@ export const QUESTIONS: Question[] = [
       { key: 'A', text: 'ipv6 route 2001:db8:23::/64 fd00:12::2' },
       { key: 'B', text: 'ipv6 route 2001:db8:23::14/128 fd00:13::3' },
       { key: 'C', text: 'ipv6 route 2001:db8:23::14/128 fd00:12::2' },
-      { key: 'D', text: 'ipv6 route 2001:db8:23::/64 fd00:12::2' },
+      { key: 'D', text: 'ipv6 route 2001:db8:23::/64 fd00:13::3' },
       { key: 'E', text: 'ipv6 route 2001:db8:23::14/128 fd00:12::2 200' },
     ],
-    correct: ['B', 'D'],
+    correct: ['A', 'B'],
     explanation:
-      '📘 แนวคิด — Longest Prefix Match (LPM): กฎเหล็กในการเลือกเส้นทาง\n\n   เมื่อมีหลาย route ที่ครอบคลุมปลายทางเดียวกัน → router เลือกอันที่ prefix ยาวที่สุด เสมอ\n   → prefix ยาว = เจาะจงกว่า = ชนะ\n   → ⭐ LPM ตัดสินก่อน AD และก่อน metric เสมอ! (นี่คือจุดที่คนพลาดบ่อย)\n\n   /128 (host route) > /64 (network route) → /128 ชนะขาด\n\n🔍 โจทย์ต้องการ 2 อย่างพร้อมกัน:\n   1. ทราฟฟิกไปทั้งเครือข่าย 2001:db8:23::/64 → ผ่าน R2\n   2. ทราฟฟิกไปโฮสต์ 2001:db8:23::14 โดยเฉพาะ → ผ่าน R3 (แม้จะอยู่ใน /64 ข้างบนก็ตาม!)\n\n🔧 วิธีทำ — ใช้ LPM เป็นตัวช่วย:\n   route ที่ 1: ipv6 route 2001:db8:23::/64 fd00:12::2      → ไป R2 ✔ (ตัวเลือก D)\n   route ที่ 2: ipv6 route 2001:db8:23::14/128 fd00:13::3   → ไป R3 ✔ (ตัวเลือก B)\n\n   ผลลัพธ์:\n   • แพ็กเก็ตไป ::14  → ตรงกับทั้ง /64 และ /128 → /128 ยาวกว่า ชนะ → ไป R3 ✔\n   • แพ็กเก็ตไป ::20  → ตรงกับ /64 เท่านั้น → ไป R2 ✔\n   → ได้ตามโจทย์ครบทั้งสองข้อ\n\n✅ ทำไม B, D ถูก: D วาง route ทั่วไป (/64) ไปทาง R2 และ B วาง host route (/128) ไปทาง R3 → LPM ทำให้ ::14 วิ่งผ่าน R3 ส่วนที่เหลือวิ่งผ่าน R2 พอดี\n\n⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D,E — แต่ E คือ `ipv6 route 2001:db8:23::14/128 fd00:12::2 200` ซึ่งชี้ host ::14 ไปที่ R2 ไม่ใช่ R3! ขัดกับข้อกำหนดข้อที่ 2 โดยตรง (แถมยังใส่ AD 200 ทำให้เป็น floating static ที่ไม่ถูกใช้ด้วยซ้ำ) → คำตอบที่ถูกต้องคือ B,D\n\n❌ ทำไมข้ออื่นผิด:\nC. host route /128 ชี้ไป fd00:12::2 (R2) → ผิดทิศ โจทย์ต้องการให้ผ่าน R3\nE. host route /128 ชี้ไป R2 พร้อม AD 200 → ผิดทิศ สองชั้น: (1) ไปหา R2 แทน R3 (2) AD 200 สูงจนกลายเป็นเส้นสำรองที่ไม่ถูกใช้\nA. ซ้ำกับ D (เนื้อหาเดียวกัน) — ในบริบทนี้ D คือตัวที่ถูกนับ\n\n📗 จำไว้สอบ: ลำดับการตัดสิน = 1) Longest Prefix Match → 2) AD ต่ำสุด → 3) Metric ต่ำสุด ห้ามสลับ!',
+      '📘 แนวคิด — Longest Prefix Match (LPM): กฎเหล็กในการเลือกเส้นทาง\n\n   เมื่อมีหลาย route ที่ครอบคลุมปลายทางเดียวกัน → router เลือกอันที่ prefix ยาวที่สุดเสมอ\n   → prefix ยาว = เจาะจงกว่า = ชนะ\n   → ⭐ LPM ตัดสินก่อน AD และก่อน metric เสมอ! (นี่คือจุดที่คนพลาดบ่อย)\n\n   /128 (host route) > /64 (network route) → /128 ชนะขาด\n\n🔍 อ่าน exhibit: R1 ต่อ R2 ผ่าน fd00:12::/64 (R2 = fd00:12::2) และต่อ R3 ผ่าน fd00:13::/64 (R3 = fd00:13::3) โดยทั้ง R2 และ R3 ต่างก็ติดกับ LAN 2001:db8:23::/64 ซึ่งมีโฮสต์ ::14 อยู่ฝั่ง R3\n\n🎯 โจทย์ต้องการ 2 อย่างพร้อมกัน:\n   1. ทราฟฟิกไปทั้งเครือข่าย 2001:db8:23::/64 → ผ่าน R2\n   2. ทราฟฟิกไปโฮสต์ 2001:db8:23::14 โดยเฉพาะ → ผ่าน R3 (แม้จะอยู่ใน /64 ข้างบนก็ตาม!)\n\n🔧 วิธีทำ — ใช้ LPM เป็นตัวช่วย:\n   route ที่ 1: ipv6 route 2001:db8:23::/64 fd00:12::2      → ไป R2 ✔ (ตัวเลือก A)\n   route ที่ 2: ipv6 route 2001:db8:23::14/128 fd00:13::3   → ไป R3 ✔ (ตัวเลือก B)\n\n   ผลลัพธ์:\n   • แพ็กเก็ตไป ::14  → ตรงกับทั้ง /64 และ /128 → /128 ยาวกว่า ชนะ → ไป R3 ✔\n   • แพ็กเก็ตไป ::20  → ตรงกับ /64 เท่านั้น → ไป R2 ✔\n   → ได้ตามโจทย์ครบทั้งสองข้อ\n\n✅ ทำไม A, B ถูก: A วาง route ทั่วไป (/64) ไปทาง R2 และ B วาง host route (/128) ไปทาง R3 → LPM ทำให้ ::14 วิ่งผ่าน R3 ส่วนที่เหลือวิ่งผ่าน R2 พอดี\n\n⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D,E — แต่ D ชี้ทั้งเครือข่าย /64 ไปที่ R3 (ผิดข้อกำหนดข้อ 1) และ E คือ `ipv6 route 2001:db8:23::14/128 fd00:12::2 200` ซึ่งชี้ host ::14 ไปที่ R2 ไม่ใช่ R3 (ผิดข้อกำหนดข้อ 2 แถมยังใส่ AD 200 ทำให้เป็น floating static ที่ไม่ถูกใช้ด้วยซ้ำ) → คำตอบที่ถูกต้องคือ A,B\n\n❌ ทำไมข้ออื่นผิด:\nC. host route /128 ชี้ไป fd00:12::2 (R2) → ผิดทิศ โจทย์ต้องการให้ผ่าน R3\nD. network route /64 ชี้ไป fd00:13::3 (R3) → สลับทิศกับข้อกำหนดข้อ 1 ที่ต้องผ่าน R2\nE. host route /128 ชี้ไป R2 พร้อม AD 200 → ผิดทิศ สองชั้น: (1) ไปหา R2 แทน R3 (2) AD 200 สูงจนกลายเป็นเส้นสำรองที่ไม่ถูกใช้\n\n📗 จำไว้สอบ: ลำดับการตัดสิน = 1) Longest Prefix Match → 2) AD ต่ำสุด → 3) Metric ต่ำสุด ห้ามสลับ!',
   },
   {
     id: 222,
@@ -7283,14 +7357,14 @@ export const QUESTIONS: Question[] = [
     prompt:
       'Refer to the exhibit. SW1 is fully configured; the SW4–SW1 and SW9–SW1 links and the SW4 Gi0 / SW9 Gi0/0 access ports are configured. Other switches have all VLANs in their databases. Which configuration establishes a successful ping from PC2 (VLAN 14) to PC7 (VLAN 14) without interrupting traffic flow between other PCs (PC3/PC9 in VLAN 108)?',
     options: [
-      { key: 'A', text: 'SW4 Gi0/2 trunk allowed vlan 14 / SW11 Gi0/1 trunk allowed vlan 14 / SW9 Gi0/2 trunk allowed vlan 108' },
-      { key: 'B', text: 'SW4 Gi0/2 trunk allowed vlan 14 / SW11 Gi0/1 trunk allowed vlan 14 / SW9 Gi0/2 trunk allowed vlan 108' },
+      { key: 'A', text: 'SW4 Gi0/2 trunk allowed vlan 14 / SW11 Gi0/2 & Gi0/1 trunk allowed vlan 14 / SW9 Gi0/2 trunk allowed vlan 14' },
+      { key: 'B', text: 'SW4 Gi0/2 trunk allowed vlan 108 / SW11 Gi0/2 & Gi0/1 trunk allowed vlan 108 / SW9 Gi0/2 trunk allowed vlan 108' },
       { key: 'C', text: 'SW4 Gi0/2 trunk allowed vlan 14,108 / SW11 Gi0/2 & Gi0/1 trunk allowed vlan 14,108 / SW9 Gi0/2 trunk allowed vlan 14' },
       { key: 'D', text: 'SW4/SW11/SW9 configured as access ports in VLAN 14' },
     ],
     correct: ['C'],
     explanation:
-      '🔍 อ่านโจทย์: PC2 (VLAN 14 บน SW4) ต้อง ping PC7 (VLAN 14 บน SW9) ผ่านเส้นทาง SW4→SW11→SW9 และ "ห้ามรบกวน" ทราฟฟิกอื่น — PC3/PC9 อยู่ VLAN 108 ที่ต้องคุยกันผ่านลิงก์เดียวกัน\n\n📘 แนวคิด — ลิงก์ที่ต้องแบกทั้ง VLAN 14 (สำหรับ PC2–PC7) และ VLAN 108 (สำหรับ PC3–PC9) ต้องเป็น "trunk ที่ allow ทั้ง 14 และ 108" มิฉะนั้นจะตัดทราฟฟิก VLAN 108\n\n✅ ทำไม C ถูก: ตั้ง trunk บน SW4 Gi0/2, SW11 (Gi0/2 และ Gi0/1), SW9 Gi0/2 ให้ allow "vlan 14,108" ครบ → PC2 ถึง PC7 ได้ (VLAN 14) และ PC3–PC9 (VLAN 108) ยังทำงานต่อ ไม่ถูกตัด\n\n❌ ทำไมข้ออื่นผิด:\nA/B. allow เฉพาะ vlan 14 (และ SW9 แค่ 108) → VLAN 108 ถูกตัดบางลิงก์ ทำให้ PC3–PC9 หลุด (รบกวนทราฟฟิกอื่น)\nD. ตั้งเป็น access port จะแบกได้ VLAN เดียว → รบกวน VLAN อื่นและไม่ครบเส้นทาง trunk\n\n📗 จำไว้สอบ: trunk ต้อง "allow ทุก VLAN ที่ต้องวิ่งผ่าน" — ตัด VLAN ออกจาก trunk = ตัดการสื่อสารของ VLAN นั้น',
+      '🔍 อ่านโจทย์: PC2 (VLAN 14 บน SW4) ต้อง ping PC7 (VLAN 14 บน SW9) ผ่านเส้นทาง SW4→SW11→SW9 และ "ห้ามรบกวน" ทราฟฟิกอื่น — PC3/PC9 อยู่ VLAN 108 ที่ต้องคุยกันผ่านลิงก์เดียวกัน\n\n📘 แนวคิด — ลิงก์ที่ต้องแบกทั้ง VLAN 14 (สำหรับ PC2–PC7) และ VLAN 108 (สำหรับ PC3–PC9) ต้องเป็น "trunk ที่ allow ทั้ง 14 และ 108" มิฉะนั้นจะตัดทราฟฟิก VLAN 108\n\n✅ ทำไม C ถูก: ตั้ง trunk บน SW4 Gi0/2, SW11 (Gi0/2 และ Gi0/1), SW9 Gi0/2 ให้ allow "vlan 14,108" ครบ → PC2 ถึง PC7 ได้ (VLAN 14) และ PC3–PC9 (VLAN 108) ยังทำงานต่อ ไม่ถูกตัด\n\n❌ ทำไมข้ออื่นผิด:\nA. allow เฉพาะ vlan 14 บนทุกลิงก์ → PC2 ถึง PC7 ได้ก็จริง แต่ VLAN 108 ถูกตัดจากลิงก์ SW4 Gi0/2 ↔ SW11 Gi0/2 → PC3 คุยกับ PC9 ไม่ได้ (รบกวนทราฟฟิกอื่น)\nB. allow เฉพาะ vlan 108 → VLAN 14 ไม่ผ่านเลย → PC2 ping PC7 ไม่ได้ตั้งแต่แรก\nD. ตั้งเป็น access port จะแบกได้ VLAN เดียว → รบกวน VLAN อื่นและไม่ครบเส้นทาง trunk\n\n📗 จำไว้สอบ: trunk ต้อง "allow ทุก VLAN ที่ต้องวิ่งผ่าน" — ตัด VLAN ออกจาก trunk = ตัดการสื่อสารของ VLAN นั้น',
   },
   {
     id: 476,
@@ -7935,8 +8009,8 @@ export const QUESTIONS: Question[] = [
         name: 'Forwarding state actions',
         items: [
           'BPDUs received are forwarded to the system module.',
-          'BPDUs received from the system module are processed and transmitted.',
           'Frames received from the attached segment are processed.',
+          'Switched frames received from other ports are advanced.',
           'The port in the forwarding state responds to network management messages.',
         ],
       },
@@ -7944,12 +8018,12 @@ export const QUESTIONS: Question[] = [
         name: 'ไม่ใช้ (ตัวลวง)',
         items: [
           'Frames received from the attached segment are discarded.',
-          'Switched frames received from other ports are advanced.',
+          'BPDUs received from the system module are processed and transmitted.',
         ],
       },
     ],
     explanation:
-      '⚠️ หมายเหตุ: เฉลยต้นฉบับใส่ "Frames ... are discarded" ซึ่งผิด — ในสถานะ forwarding เฟรมต้องถูก "ประมวลผล/ส่งต่อ" ไม่ใช่ทิ้ง\n\n📘 แนวคิด — พอร์ตในสถานะ Forwarding (Rapid PVST+) ทำ:\n• BPDUs received are forwarded to the system module → รับ BPDU ส่งขึ้นไปที่ system module\n• BPDUs from the system module are processed and transmitted → ประมวลผลและส่ง BPDU ออก\n• Frames received from the attached segment are PROCESSED → ส่งต่อเฟรมที่รับจากสายจริง (ไม่ใช่ทิ้ง!)\n• Responds to network management messages → ตอบ SNMP/การจัดการ\n\n❌ ตัวลวง (ไม่ใช้ในสถานะ forwarding):\n• "Frames ... are discarded" → เป็นพฤติกรรมของสถานะ Blocking/Discarding ไม่ใช่ forwarding\n• "Switched frames received from other ports are advanced" → เป็นตัวลวงในชุดคำตอบนี้\n\n📗 จำไว้สอบ: Forwarding = เรียนรู้ MAC + ส่งต่อเฟรม (process) + รับ/ส่ง BPDU + ตอบการจัดการ | Blocking/Discarding = ทิ้งเฟรม (discard) แต่ยังรับ BPDU',
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับใส่ "Frames ... are discarded" ซึ่งผิด — ในสถานะ forwarding เฟรมต้องถูก "ประมวลผล/ส่งต่อ" ไม่ใช่ทิ้ง (ข้อนี้เป็นข้อเดียวกับ Q615 ให้ตอบเหมือนกัน)\n\n📘 แนวคิด — พฤติกรรมของพอร์ตในแต่ละสถานะ\n• Blocking / Discarding → ทิ้งเฟรมข้อมูล, ไม่เรียนรู้ MAC, แต่ยังรับ BPDU\n• Listening → ทิ้งเฟรมข้อมูล, ไม่เรียนรู้ MAC, รับ-ส่ง BPDU\n• Learning → ทิ้งเฟรมข้อมูล แต่เริ่มเรียนรู้ MAC\n• Forwarding ⭐ → ส่งต่อเฟรมได้เต็มที่ + เรียนรู้ MAC + จัดการ BPDU\n\n✅ 4 ข้อที่ต้องลากลง Forwarding state:\n1. BPDUs received are forwarded to the system module → รับ BPDU แล้วส่งขึ้นไปให้ระบบประมวลผล\n2. Frames received from the attached segment are processed → ประมวลผลเฟรมที่รับจากเซกเมนต์ที่ต่ออยู่\n3. Switched frames received from other ports are advanced → ส่งต่อเฟรมที่สวิตช์มาจากพอร์ตอื่นออกไป\n4. The port in the forwarding state responds to network management messages → ตอบข้อความจัดการเครือข่าย\n\n❌ ตัวลวงที่ไม่ใช้:\n• "Frames received from the attached segment are discarded." → เป็นพฤติกรรมของ blocking/listening/learning ไม่ใช่ forwarding\n• "BPDUs received from the system module are processed and transmitted." → คำว่า "transmitted" ไม่ตรงกับรายการที่ Cisco ระบุไว้สำหรับสถานะนี้\n\n📗 จำไว้สอบ: Forwarding = ส่งข้อมูลได้ + เรียน MAC ได้ | Learning = เรียน MAC ได้แต่ยังไม่ส่งข้อมูล | RSTP ย่อเหลือ Discarding / Learning / Forwarding',
   },
   {
     id: 517,
@@ -8488,5 +8562,2591 @@ export const QUESTIONS: Question[] = [
     correct: ['B'],
     explanation:
       '📘 แนวคิด — โจทย์: RADIUS ล่ม จึงต้อง secure console ด้วย "local username/password". ต้องสร้าง local user (username ... secret) และให้ console line ใช้การยืนยันตัวตนแบบ local\n\n✅ ทำไม B ถูก: สร้าง "username localuser secret ..." (local user, เก็บแบบ hash) + ที่ line con 0 ใช้ "login authentication default" (อ้าง method list default ที่เป็น local) → console ยืนยันด้วย local user ตามต้องการ\n\n❌ ทำไมข้ออื่นผิด:\nA. ใช้ "password" ที่ line (ไม่ใช่ username-based) → ไม่ตรงโจทย์ "local username and password"\nC. "no login local" = ปิดการยืนยันแบบ local → คอนโซลไม่ถามล็อกอิน (ไม่ปลอดภัย ตรงข้ามโจทย์)\nD. "aaa authentication login default radius" = ยังใช้ RADIUS ที่ "ล่มไปแล้ว" → ล็อกอินไม่ได้ (ผิดโจทย์)\n\n📗 จำไว้สอบ: RADIUS ล่ม → ต้อง fallback เป็น local (username ... secret + login local/authentication local) ที่ console เสมอ',
+  },
+  {
+    id: 551,
+    kind: 'drag',
+    image: q551,
+    prompt: 'Drag and drop each characteristic of device-management technologies from the left onto the deployment type (Cisco DNA Center / Traditional) on the right.',
+    categories: [
+      {
+        name: 'Cisco DNA Center',
+        items: [
+          'orchestrates background device configuration',
+          'supports open APIs',
+          'supports centralized software management',
+        ],
+      },
+      {
+        name: 'Traditional',
+        items: [
+          'relies on per-device management',
+          'uses individual software management',
+          'provides greater flexibility for custom and non-standard configurations',
+        ],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — เปรียบเทียบการบริหารอุปกรณ์ 2 แบบ\n\n🔹 Cisco DNA Center (controller-based / SDN):\n• orchestrates background device configuration → คอนโทรลเลอร์สั่งงาน (push) config ให้อุปกรณ์เบื้องหลังโดยอัตโนมัติ\n• supports open APIs → มี Northbound REST API ให้แอปภายนอกเรียกใช้\n• supports centralized software management → อัปเกรด IOS/image รวมศูนย์จากจุดเดียว (SWIM)\n\n🔹 Traditional (per-device / CLI):\n• relies on per-device management → ต้อง SSH เข้าทีละเครื่อง\n• uses individual software management → อัปเกรด image ทีละเครื่อง\n• provides greater flexibility for custom and non-standard configurations → พิมพ์ CLI เองได้อิสระ ทำ config แปลก ๆ นอกมาตรฐานได้\n\n📗 จำไว้สอบ: DNA Center = รวมศูนย์ + อัตโนมัติ + API • Traditional = ทีละเครื่อง แต่ยืดหยุ่นกว่า',
+  },
+  {
+    id: 552,
+    kind: 'single',
+    prompt: 'Which REST method updates an object in the Cisco DNA Center Intent API?',
+    options: [
+      { key: 'A', text: 'CHANGE' },
+      { key: 'B', text: 'UPDATE' },
+      { key: 'C', text: 'POST' },
+      { key: 'D', text: 'PUT' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — HTTP methods ที่ REST API ใช้ (CRUD)\n• POST = Create (สร้างใหม่)\n• GET = Read (อ่าน)\n• PUT = Update/Replace (แทนที่ทั้ง resource)\n• PATCH = Update บางส่วน\n• DELETE = Delete (ลบ)\n\n✅ ทำไม D ถูก: PUT คือเมธอดมาตรฐานสำหรับ "อัปเดต" object ที่มีอยู่แล้ว โดยส่ง representation ใหม่ไปทับที่ URI เดิม — และ PUT เป็น idempotent (เรียกซ้ำผลลัพธ์เหมือนเดิม)\n\n❌ ทำไมข้ออื่นผิด:\nA. CHANGE — ไม่มี HTTP method ชื่อนี้\nB. UPDATE — ไม่มี HTTP method ชื่อนี้ (เป็นคำที่แต่งขึ้นมาลวง)\nC. POST = สร้าง resource ใหม่ ไม่ใช่แก้ของเดิม (และไม่ idempotent)\n\n📗 จำไว้สอบ: POST=สร้าง | GET=อ่าน | PUT=อัปเดต/แทนที่ | PATCH=แก้บางส่วน | DELETE=ลบ',
+  },
+  {
+    id: 553,
+    kind: 'multi',
+    prompt: 'Which two practices are recommended for an acceptable security posture in a network? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Backup device configurations to encrypted USB drives for secure retrieval' },
+      { key: 'B', text: 'maintain network equipment in a secure location' },
+      { key: 'C', text: 'Use a cryptographic keychain to authenticate to network devices' },
+      { key: 'D', text: 'Place internal email and file servers in a designated DMZ' },
+      { key: 'E', text: 'Disable unused or unnecessary ports, interfaces and services' },
+    ],
+    correct: ['B', 'E'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ C,E แต่ "cryptographic keychain" เป็นกลไกยืนยันตัวตนของ routing protocol (เช่น EIGRP/OSPF authentication) ไม่ใช่วิธี login เข้าอุปกรณ์ และไม่ใช่แนวปฏิบัติพื้นฐานของ security posture — คำตอบที่ถูกต้องคือ B,E\n\n📘 แนวคิด — พื้นฐาน "security posture" ตาม CCNA มี 2 เสาหลัก\n1️⃣ Physical security — ล็อกอุปกรณ์ไว้ในห้อง/ตู้แร็คที่ควบคุมการเข้าถึง เพราะใครเข้าถึงเครื่องได้ทางกายภาพ = ทำ password recovery ยึดเครื่องได้ทันที\n2️⃣ Device hardening — ปิดพอร์ต/บริการที่ไม่ใช้ (reduce attack surface)\n\n✅ ทำไม B ถูก: เก็บอุปกรณ์ในที่ปลอดภัย = physical access control ซึ่งเป็นด่านแรกของทุกมาตรฐานความปลอดภัย\n✅ ทำไม E ถูก: ปิดพอร์ต/อินเทอร์เฟซ/เซอร์วิสที่ไม่ใช้ (เช่น shutdown พอร์ตว่าง, no ip http server) = ลดช่องทางโจมตี\n\n❌ ทำไมข้ออื่นผิด:\nA. สำรอง config ลง USB (แม้เข้ารหัส) ไม่ใช่แนวปฏิบัติที่แนะนำ — ควรเก็บบนเซิร์ฟเวอร์ที่ควบคุมสิทธิ์ (SCP/TFTP ในโซนปลอดภัย) เพราะ USB หายง่าย\nC. keychain ใช้กับ routing protocol authentication ไม่ใช่การ authenticate เข้า device (ใช้ AAA/TACACS+ แทน)\nD. DMZ มีไว้วางเซิร์ฟเวอร์ที่ "ต้องให้คนนอกเข้าถึง" — เอา internal email/file server ไปไว้ DMZ = เพิ่มความเสี่ยง ผิดหลักโดยตรง\n\n📗 จำไว้สอบ: security posture พื้นฐาน = ล็อกทางกายภาพ + ปิดสิ่งที่ไม่ใช้',
+  },
+  {
+    id: 554,
+    kind: 'single',
+    prompt:
+      'An administrator must use the "password complexity not manufacturer-name" command to prevent users from adding "cisco" as a password. Which command must be issued before this command?',
+    options: [
+      { key: 'A', text: 'password complexity enable' },
+      { key: 'B', text: 'confreg 0x2142' },
+      { key: 'C', text: 'login authentication my-auth-list' },
+      { key: 'D', text: 'service password-encryption' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ชุดคำสั่ง "password complexity …" (บน Cisco ISR/CGR ที่รองรับ) จะใช้งานได้ก็ต่อเมื่อเปิดฟีเจอร์ตรวจสอบความซับซ้อนของรหัสผ่านก่อน ด้วย "password complexity enable" หลังจากนั้นจึงกำหนดเงื่อนไขย่อยได้ เช่น\n• password complexity not manufacturer-name → ห้ามใช้ชื่อผู้ผลิต (cisco)\n• password complexity minimum length …\n• password complexity not username / not word\n\n✅ ทำไม A ถูก: ต้องเปิดฟีเจอร์ด้วย "password complexity enable" ก่อน คำสั่งย่อยทั้งหมดจึงจะรับได้\n\n❌ ทำไมข้ออื่นผิด:\nB. confreg 0x2142 = ตั้ง configuration register ให้ข้าม startup-config (ใช้ตอน password recovery) ไม่เกี่ยวเลย\nC. login authentication my-auth-list = ผูก AAA method list เข้ากับ line ไม่ใช่เรื่อง complexity\nD. service password-encryption = เข้ารหัสรหัสผ่านที่แสดงใน config (type 7) คนละเรื่องกับการบังคับความซับซ้อน\n\n📗 จำไว้สอบ: ต้อง "password complexity enable" ก่อน แล้วค่อยตั้งกฎย่อย',
+  },
+  {
+    id: 555,
+    kind: 'single',
+    prompt:
+      'An engineer is configuring router R1 with an IPv6 static route for prefix 2019:C15C:0CAF:E001::. The next hop must be 2019:C15C:0CAF:E002::1 and the route must be reachable via the R1 GigabitEthernet0/0 interface. Which command configures the designated route?',
+    options: [
+      { key: 'A', text: 'R1(config)#ipv6 route 2019:C15C:0CAF:E001::/64 2019:C15C:0CAF:E002::1' },
+      { key: 'B', text: 'R1(config-if)#ipv6 route 2019:C15C:0CAF:E001::/64 2019:C15C:0CAF:E002::1' },
+      { key: 'C', text: 'R1(config-if)#ip route 2019:C15C:0CAF:E001::/64 GigabitEthernet0/0' },
+      { key: 'D', text: 'R1(config)#ip route 2019:C15C:0CAF:E001::/64 GigabitEthernet0/0' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ C แต่ C ผิด 2 ชั้น (ใช้คำสั่ง "ip route" ซึ่งเป็นของ IPv4 และพิมพ์ในโหมด config-if) คำตอบที่ถูกต้องคือ A\n\n📘 แนวคิด — โครงสร้างคำสั่ง IPv6 static route\n  ipv6 route <prefix>/<len> {<next-hop> | <exit-interface> [<next-hop>]} [AD]\nข้อกำหนด 2 ข้อ:\n1️⃣ ต้องพิมพ์ในโหมด global configuration → R1(config)# ไม่ใช่ R1(config-if)#\n2️⃣ ต้องใช้คีย์เวิร์ด "ipv6 route" (คำสั่ง "ip route" ใช้ได้เฉพาะ IPv4)\n\n✅ ทำไม A ถูก: อยู่ในโหมด global config + ใช้ ipv6 route + ระบุ next-hop 2019:C15C:0CAF:E002::1 (ซึ่ง R1 รู้จักผ่าน Gi0/0 อยู่แล้ว จึงส่งออกทาง Gi0/0 ตามที่โจทย์ต้องการ)\n\n❌ ทำไมข้ออื่นผิด:\nB. คำสั่งถูก แต่พิมพ์ในโหมด interface (config-if) → IOS ไม่รับ\nC. ใช้ "ip route" กับ prefix IPv6 + อยู่ในโหมด interface → ผิดทั้งคำสั่งและโหมด\nD. โหมดถูก แต่ยังใช้ "ip route" กับ IPv6 → IOS ปฏิเสธ\n\n📗 จำไว้สอบ: IPv4 = ip route (mask แบบ dotted) • IPv6 = ipv6 route (prefix/length) • ทั้งคู่พิมพ์ใน global config',
+  },
+  {
+    id: 556,
+    kind: 'single',
+    image: q556,
+    prompt: 'Refer to the exhibit. What must be configured to enable 802.11w on the WLAN?',
+    options: [
+      { key: 'A', text: 'Set PMF to Required.' },
+      { key: 'B', text: 'Enable MAC Filtering.' },
+      { key: 'C', text: 'Enable WPA Policy.' },
+      { key: 'D', text: 'Set Fast Transition to Enabled' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — IEEE 802.11w = Protected Management Frame (PMF) ป้องกันเฟรมจัดการ (deauth/disassoc) ถูกปลอม → กัน deauthentication attack. บน Cisco WLC ตั้งที่ WLAN > Security > Layer 2 > Protected Management Frame > PMF โดยเลือกได้ 3 ค่า\n• Disabled = ปิด 802.11w\n• Optional = เปิด แต่ไคลเอนต์ที่ไม่รองรับก็ยังต่อได้\n• Required = บังคับ ไคลเอนต์ต้องรองรับ 802.11w เท่านั้น\n\n🔍 จาก exhibit: PMF = Disabled อยู่ → 802.11w ยังไม่ทำงาน\n\n✅ ทำไม A ถูก: ตั้ง PMF เป็น Required (หรืออย่างน้อย Optional) คือการ "เปิด" 802.11w — และคำตอบที่โจทย์ต้องการคือ Required\n\n❌ ทำไมข้ออื่นผิด:\nB. MAC Filtering = กรองไคลเอนต์ตาม MAC ไม่เกี่ยวกับการปกป้อง management frame\nC. WPA Policy = เปิดใช้ WPA (TKIP) รุ่นเก่า ซึ่งไม่รองรับ PMF ด้วยซ้ำ (802.11w ต้องใช้ WPA2/WPA3 + AES)\nD. Fast Transition = 802.11r (roaming เร็ว) คนละมาตรฐาน\n\n📗 จำไว้สอบ: 802.11w = PMF | 802.11r = Fast Transition | 802.11k = Neighbor report | 802.11v = BSS Transition',
+  },
+  {
+    id: 557,
+    kind: 'single',
+    image: q557,
+    prompt:
+      'Refer to the exhibit. A network engineer configures the Cisco WLC to authenticate local wireless clients against a RADIUS server. Which task must be performed to complete the process?',
+    options: [
+      { key: 'A', text: 'Change the Server Status to Disabled' },
+      { key: 'B', text: 'Select Enable next to Management' },
+      { key: 'C', text: 'Select Enable next to Network User' },
+      { key: 'D', text: 'Change the Support for CoA to Enabled.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — หน้า RADIUS Authentication Servers > New บน WLC มีช่องสำคัญ 2 ช่องที่บอกว่าเซิร์ฟเวอร์นี้ใช้ "ยืนยันตัวตนใคร"\n• Network User = ใช้ยืนยันตัวตน "ไคลเอนต์ไร้สาย" ที่จะเข้า WLAN\n• Management = ใช้ยืนยันตัวตน "ผู้ดูแล" ที่ล็อกอินเข้าตัว WLC เอง (GUI/CLI)\n\n🔍 จาก exhibit: ช่อง Network User ยัง "ไม่ติ๊ก" → RADIUS ตัวนี้จึงยังไม่ถูกใช้กับไคลเอนต์ไร้สาย\n\n✅ ทำไม C ถูก: โจทย์ต้องการ authenticate "local wireless clients" → ต้องติ๊ก Enable ที่ Network User\n\n❌ ทำไมข้ออื่นผิด:\nA. เปลี่ยน Server Status เป็น Disabled = ปิดเซิร์ฟเวอร์ (ตรงข้ามกับที่ต้องการ)\nB. Management ใช้กับผู้ดูแลที่ล็อกอินเข้า WLC ไม่ใช่ไคลเอนต์ไร้สาย\nD. CoA (Change of Authorization) = ให้ RADIUS สั่งเปลี่ยนสิทธิ์ session กลางคัน เป็นฟีเจอร์เสริม ไม่จำเป็นต่อการ authenticate\n\n📗 จำไว้สอบ: Network User = ไคลเอนต์ไร้สาย | Management = แอดมินที่ล็อกอินเข้า WLC',
+  },
+  {
+    id: 558,
+    kind: 'drag',
+    image: q558,
+    prompt: 'Drag and drop the elements of a security program from the left onto the corresponding descriptions on the right.',
+    categories: [
+      {
+        name: "document that outlines an organization's security goals and practices and the roles and responsibilities of the organization's personnel",
+        items: ['security policy'],
+      },
+      {
+        name: 'tactical document that sets out specific tasks and methods to maintain security',
+        items: ['security standard'],
+      },
+      {
+        name: "user-awareness learning level that focuses on learning about topics and practices beyond what is typically required by the user's job",
+        items: ['education'],
+      },
+      {
+        name: 'user-awareness learning level that focuses on security practices that all employees must understand and enforce',
+        items: ['awareness'],
+      },
+      {
+        name: 'user-awareness learning level that focuses on teaching employees how to perform tasks specifically required by their jobs',
+        items: ['training'],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — องค์ประกอบของ "security program" แบ่งเป็น 2 กลุ่ม\n\n🔹 เอกสาร (Documents):\n• security policy = เอกสารระดับสูง บอก "เป้าหมาย" ด้านความปลอดภัยขององค์กร + บทบาทหน้าที่ของบุคลากร (ตอบว่า "ทำไม/อะไร")\n• security standard = เอกสารเชิงปฏิบัติ (tactical) ระบุ "งานและวิธีการเฉพาะเจาะจง" ที่ต้องทำ (ตอบว่า "อย่างไร")\n\n🔹 ระดับการให้ความรู้ผู้ใช้ (User-awareness levels) เรียงจากตื้นไปลึก:\n1️⃣ awareness (การรับรู้) = สิ่งที่พนักงาน "ทุกคน" ต้องเข้าใจและปฏิบัติร่วมกัน เช่น ห้ามเสียบ USB แปลกปลอม\n2️⃣ training (การฝึกอบรม) = สอนพนักงานให้ทำงาน "ตามหน้าที่ของตนเอง" อย่างปลอดภัย\n3️⃣ education (การศึกษา) = เรียนรู้ลึกกว่างานประจำวัน เพื่อความเข้าใจเชิงลึก/พัฒนาสายอาชีพ\n\n📗 จำไว้สอบ: policy = เป้าหมาย/นโยบาย • standard = วิธีทำที่เฉพาะเจาะจง • awareness < training < education (ตื้น → ลึก)',
+  },
+  {
+    id: 559,
+    kind: 'drag',
+    image: q559,
+    prompt: 'Drag and drop the Cisco IOS attack mitigation features from the left onto the types of network attack they mitigate on the right.',
+    categories: [
+      { name: 'rogue server that spoofs IP configuration', items: ['DHCP snooping'] },
+      { name: 'cache poisoning', items: ['Dynamic ARP Inspection'] },
+      { name: 'flood attacks', items: ['storm control'] },
+      { name: 'rogue clients on the network', items: ['IP Source Guard'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ฟีเจอร์ป้องกันการโจมตีชั้น 2 บน Cisco IOS\n\n🔹 DHCP snooping → "rogue server that spoofs IP configuration"\n  สร้างพอร์ต trusted/untrusted; DHCP OFFER/ACK จะยอมรับเฉพาะจากพอร์ต trusted → บล็อก DHCP server ปลอมที่แจก IP/gateway ผิด ๆ\n\n🔹 Dynamic ARP Inspection (DAI) → "cache poisoning"\n  ตรวจ ARP ทุกแพ็กเก็ตกับ DHCP snooping binding table → บล็อก ARP ปลอม (ARP cache poisoning / MITM)\n\n🔹 IP Source Guard → "rogue clients on the network"\n  กรองทราฟฟิกตาม binding (IP+MAC+port) → เครื่องที่ปลอม source IP หรือเสียบมั่วจะส่งข้อมูลไม่ได้\n\n🔹 storm control → "flood attacks"\n  จำกัดอัตรา broadcast/multicast/unknown-unicast บนพอร์ต → กัน broadcast storm / flood\n\n📗 จำไว้สอบ: DHCP snooping=DHCP ปลอม • DAI=ARP ปลอม • IPSG=IP ปลอม • Storm control=ทราฟฟิกท่วม',
+  },
+  {
+    id: 560,
+    kind: 'drag',
+    image: q560,
+    prompt: 'Drag and drop the TCP or UDP details from the left onto their corresponding protocols on the right.',
+    categories: [
+      {
+        name: 'TCP',
+        items: ['used to reliably share files between devices', 'supports reliable data transmission'],
+      },
+      {
+        name: 'UDP',
+        items: ['appropriate for streaming operations with minimal latency', 'provides best-effort service'],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — TCP vs UDP\n\n🔹 TCP (connection-oriented, reliable):\n• 3-way handshake, sequence number, ACK, retransmission, flow control\n• used to reliably share files between devices → FTP/SFTP/HTTP ต้องได้ไฟล์ครบทุกไบต์\n• supports reliable data transmission → มีการยืนยันและส่งซ้ำเมื่อหาย\n\n🔹 UDP (connectionless, best-effort):\n• ไม่มี handshake/ACK header เพียง 8 ไบต์ → โอเวอร์เฮดต่ำ ดีเลย์ต่ำ\n• appropriate for streaming operations with minimal latency → เสียง/วิดีโอ (RTP) ยอมให้แพ็กเก็ตหายบ้างดีกว่ารอ retransmit\n• provides best-effort service → ส่งแล้วไม่การันตี\n\n📗 จำไว้สอบ: ต้อง "ครบ" → TCP | ต้อง "เร็ว/สด" → UDP',
+  },
+  {
+    id: 561,
+    kind: 'single',
+    prompt: 'What is a function of Cisco Advanced Malware Protection (AMP) for a Next-Generation IPS?',
+    options: [
+      { key: 'A', text: 'authorizing potentially compromised wireless traffic' },
+      { key: 'B', text: 'inspecting specific files and file types for malware' },
+      { key: 'C', text: 'authenticating end users' },
+      { key: 'D', text: 'URL filtering' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — Cisco AMP (Advanced Malware Protection) คือระบบตรวจจับ/ป้องกันมัลแวร์ที่ทำงานร่วมกับ NGIPS/NGFW โดย\n• ตรวจไฟล์ที่วิ่งผ่านเครือข่าย คำนวณ hash เทียบกับ Talos threat intelligence\n• ส่งไฟล์ต้องสงสัยเข้า sandbox (Threat Grid) เพื่อดูพฤติกรรม\n• ทำ retrospective analysis — ถ้าไฟล์ที่เคยผ่านไปแล้วถูกระบุว่าเป็นมัลแวร์ภายหลัง จะย้อนแจ้งเตือนได้\n\n✅ ทำไม B ถูก: หน้าที่หลักของ AMP คือ "ตรวจสอบไฟล์และชนิดไฟล์เฉพาะเจาะจงเพื่อหามัลแวร์"\n\n❌ ทำไมข้ออื่นผิด:\nA. การอนุญาต/ควบคุมทราฟฟิกไร้สาย = หน้าที่ WLC/NAC ไม่ใช่ AMP\nC. authenticate ผู้ใช้ = หน้าที่ ISE/RADIUS/TACACS+\nD. URL filtering = ฟีเจอร์ของ Web Security (WSA/Umbrella/NGFW URL category) คนละโมดูลกับ AMP\n\n📗 จำไว้สอบ: AMP = มองที่ "ไฟล์" (file inspection + sandbox + retrospection)',
+  },
+  {
+    id: 562,
+    kind: 'single',
+    image: q562,
+    prompt: 'Refer to the exhibit. How many JSON objects are represented?',
+    options: [
+      { key: 'A', text: '1' },
+      { key: 'B', text: '2' },
+      { key: 'C', text: '3' },
+      { key: 'D', text: '4' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D (4) โดยนับ "จำนวนสวิตช์" แต่ตามนิยาม JSON จริง ๆ object = สิ่งที่ครอบด้วย { } เท่านั้น ในโค้ดนี้มีวงเล็บปีกกาแค่คู่เดียว → คำตอบที่ถูกต้องคือ A (1)\n\n📘 แนวคิด — กฎการอ่าน JSON (ต้องจำให้แม่น)\n• { } = object → ข้างในเป็นคู่ "key" : value\n• [ ] = array → ข้างในเป็นรายการค่า (คั่นด้วย ,) ไม่มี key\n• " " = string\n• ตัวเลขไม่มี quote = number, true/false = boolean, null = null\n\n🔍 อ่าน exhibit:\n{                                        ← object ที่ 1 (และเป็นตัวเดียว)\n  "SW1" : [ "Ten-GigabitEthernet0/0", "Ten-GigabitEthernet0/1" ],   ← key + array\n  "SW2" : [ ... ],\n  "SW3" : [ ... ],\n  "SW4" : [ ... ]\n}\n\n✅ ทำไม A ถูก: มี { } เพียงคู่เดียว → 1 object ที่มี 4 key/value pairs โดย value ของแต่ละ key เป็น array (ไม่ใช่ object) และมี array ทั้งหมด 4 ชุด\n\n❌ ทำไมข้ออื่นผิด:\nB, C. ไม่ตรงกับจำนวน { } คู่ใด ๆ ในโค้ด\nD. 4 = จำนวน "key/value pairs" หรือจำนวน "array" ไม่ใช่จำนวน object\n\n📗 จำไว้สอบ: นับ object = นับคู่ { } | นับ array = นับคู่ [ ] | อย่านับ key เป็น object',
+  },
+  {
+    id: 563,
+    kind: 'single',
+    image: q563,
+    prompt:
+      'Refer to the exhibit. Router R1 must be configured to reach the 10.0.3.0 network from the 10.0.1.0 segment. Which command must be used to configure the route?',
+    options: [
+      { key: 'A', text: 'ip route 10.0.3.0 0.255.255.255 10.0.4.2' },
+      { key: 'B', text: 'route add 10.0.3.0 mask 255.255.255.0 10.0.4.3' },
+      { key: 'C', text: 'ip route 10.0.3.0 255.255.255.0 10.0.4.3' },
+      { key: 'D', text: 'route add 10.0.3.0 0.255.255.255 10.0.4.2' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — โครงสร้าง IPv4 static route บน Cisco IOS\n  ip route <network> <subnet-mask> <next-hop | exit-interface>\nสิ่งที่ต้องถูกทั้ง 3 อย่าง: (1) คำสั่งต้องเป็น "ip route", (2) ต้องเป็น subnet mask ไม่ใช่ wildcard, (3) next-hop ต้องเป็นเราเตอร์ที่ "ต่อกับปลายทาง"\n\n🔍 อ่าน exhibit:\n• R1 Gi0/1 = 10.0.4.1, R2 Gi0/1 = 10.0.4.2, R3 Gi0/1 = 10.0.4.3 (อยู่บนวง 10.0.4.0/24 ร่วมกัน)\n• เครือข่ายปลายทาง 10.0.3.0/24 ห้อยอยู่หลัง R3 (Gi0/0 ของ R3)\n→ next-hop ที่ถูกต้องคือ 10.0.4.3 (R3)\n\n✅ ทำไม C ถูก: ip route 10.0.3.0 255.255.255.0 10.0.4.3 → ใช้คำสั่งถูก, mask ถูก (/24), และชี้ไป R3 ซึ่งเป็นตัวที่ต่อกับ 10.0.3.0 จริง\n\n❌ ทำไมข้ออื่นผิด:\nA. mask 0.255.255.255 เป็น wildcard ไม่ใช่ subnet mask + next-hop 10.0.4.2 คือ R2 ซึ่งไม่ได้ต่อกับ 10.0.3.0\nB. "route add" เป็นคำสั่งของ Windows/Linux ไม่ใช่ Cisco IOS\nD. ผิดทั้งคำสั่ง (route add), ผิดทั้ง mask และผิด next-hop\n\n📗 จำไว้สอบ: Cisco = "ip route <net> <mask> <next-hop>" • next-hop ต้องเป็นเพื่อนบ้านที่พาไปถึงปลายทางได้จริง',
+  },
+  {
+    id: 564,
+    kind: 'drag',
+    image: q564,
+    prompt:
+      'Refer to the exhibit. The IP address configurations must be completed on the DC-1 and HQ-1 routers based on these requirements:\n• DC-1 Gi1/0 must be the last usable address on the 209.165.202.128/30 link to the ISP\n• DC-1 Gi1/1 must be the first usable address on the 192.168.4.8/29 link to HQ-1\n• DC-1 Gi1/2 must be the last usable address on the 192.168.3.0/28 LAN\n• HQ-1 Gi1/3 must be the last usable address on the 192.168.3.8/29 LAN\nDrag and drop the commands from the left onto the destination interfaces on the right. Not all commands are used.',
+    categories: [
+      { name: 'DC-1 Gi1/0', items: ['ip address 209.165.202.130 255.255.255.252'] },
+      { name: 'DC-1 Gi1/1', items: ['ip address 192.168.4.9 255.255.255.248'] },
+      { name: 'DC-1 Gi1/2', items: ['ip address 192.168.3.14 255.255.255.240'] },
+      { name: 'HQ-1 Gi1/3', items: ['ip address 192.168.3.14 255.255.255.248'] },
+      {
+        name: 'ไม่ใช้ (ตัวลวง)',
+        items: [
+          'ip address 209.165.202.129 255.255.255.252',
+          'ip address 209.165.202.131 255.255.255.252',
+          'ip address 192.168.4.13 255.255.255.240',
+        ],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — หา "first/last usable address" ต้องรู้ block size ของแต่ละ mask\n• /30 = 255.255.255.252 → block 4 → ใช้ได้ 2 ตัว\n• /29 = 255.255.255.248 → block 8 → ใช้ได้ 6 ตัว\n• /28 = 255.255.255.240 → block 16 → ใช้ได้ 14 ตัว\nสูตร: first usable = network+1, last usable = broadcast−1\n\n🧮 คำนวณทีละอินเทอร์เฟซ:\n• DC-1 Gi1/0 → 209.165.202.128/30 : network .128, broadcast .131, ใช้ได้ .129–.130 → last usable = 209.165.202.130 ✔\n• DC-1 Gi1/1 → 192.168.4.8/29 : network .8, broadcast .15, ใช้ได้ .9–.14 → first usable = 192.168.4.9 ✔\n• DC-1 Gi1/2 → 192.168.3.0/28 : network .0, broadcast .15, ใช้ได้ .1–.14 → last usable = 192.168.3.14 (mask 255.255.255.240) ✔\n• HQ-1 Gi1/3 → 192.168.3.8/29 : network .8, broadcast .15, ใช้ได้ .9–.14 → last usable = 192.168.3.14 (mask 255.255.255.248) ✔\n\n⚠️ สังเกตกับดัก: 192.168.3.14 โผล่ 2 ครั้ง แต่ "คนละ mask" — ต้องเลือกให้ตรงกับ /28 หรือ /29 ของแต่ละวง\n\n❌ ตัวลวงที่ไม่ใช้:\n• 209.165.202.129 = first usable ของ /30 (โจทย์ขอ last)\n• 209.165.202.131 = broadcast ของ /30 → ใช้เป็น IP อินเทอร์เฟซไม่ได้เลย\n• 192.168.4.13/28 = ไม่ใช่ทั้ง first (.1) และ last (.14) ของ 192.168.4.0/28\n\n📗 จำไว้สอบ: last usable = broadcast − 1 • ดู mask ให้ตรงกับ block size ก่อนตอบเสมอ',
+  },
+  {
+    id: 565,
+    kind: 'drag',
+    image: q565,
+    prompt: 'Drag and drop the IPv6 address description from the left onto the IPv6 address types on the right. Not all options are used.',
+    categories: [
+      {
+        name: 'Unique Local Addresses',
+        items: [
+          'IPv6 addresses that begin with FD',
+          'may be used by multiple organizations at the same time',
+          'private IPv6 addresses',
+        ],
+      },
+      {
+        name: 'Link-Local Addresses',
+        items: ['serve as next-hop addresses', 'unable to serve as destination addresses'],
+      },
+      {
+        name: 'ไม่ใช้ (ตัวลวง)',
+        items: ['IPv6 addresses in the format FF02::5'],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — เทียบ Unique Local vs Link-Local\n\n🔹 Unique Local Address (ULA) = FC00::/7 (ในทางปฏิบัติใช้ FD00::/8 → ขึ้นต้นด้วย "FD")\n• private IPv6 addresses → เทียบได้กับ RFC1918 ของ IPv4 (10.x / 172.16.x / 192.168.x)\n• may be used by multiple organizations at the same time → หลายองค์กรตั้งช่วงเดียวกันได้ เพราะไม่ถูก route ออกอินเทอร์เน็ต\n• routable ภายในองค์กร/ข้าม subnet ได้\n\n🔹 Link-Local Address = FE80::/10\n• มีอยู่บนทุกอินเทอร์เฟซที่เปิด IPv6 (สร้างอัตโนมัติ)\n• serve as next-hop addresses → routing protocol (OSPFv3/EIGRPv6) และ static route ใช้ link-local เป็น next-hop\n• unable to serve as destination addresses → ใช้เป็นปลายทางข้าม subnet ไม่ได้ เพราะเราเตอร์จะไม่ forward แพ็กเก็ต link-local ออกนอกลิงก์นั้นเด็ดขาด\n\n❌ ตัวลวงที่ไม่ใช้: "IPv6 addresses in the format FF02::5" → FF00::/8 คือ Multicast (FF02::5 = OSPF All-DR-Routers) ไม่ใช่ทั้ง ULA และ Link-Local unicast\n\n📗 จำไว้สอบ: FD = ULA (private) | FE80 = Link-Local (next-hop, ไม่ข้ามลิงก์) | FF = Multicast',
+  },
+  {
+    id: 566,
+    kind: 'drag',
+    image: q566,
+    prompt: 'Drag and drop the IPv6 addresses from the left onto the corresponding address types on the right.',
+    categories: [
+      { name: 'Global Unicast', items: ['2001:db8:600d:cafe::123'] },
+      { name: 'Link-Local Unicast', items: ['fe80::a00:27ff:feeb:89aa'] },
+      { name: 'Multicast', items: ['ff05::1:3'] },
+      { name: 'Unique Local', items: ['fcba:926a:e8e:7a25:b1:c6d2:1a76:8fdc'] },
+    ],
+    explanation:
+      '📘 แนวคิด — จำแนกชนิด IPv6 จาก "ตัวเลขนำหน้า" (จำแค่ 4 ช่วงนี้พอสอบผ่าน)\n\n• 2000::/3 → Global Unicast (routable บนอินเทอร์เน็ต) = ขึ้นต้น 2 หรือ 3\n• FC00::/7 → Unique Local (private) = ขึ้นต้น FC หรือ FD\n• FE80::/10 → Link-Local = ขึ้นต้น FE80 (ถึง FEBF)\n• FF00::/8 → Multicast = ขึ้นต้น FF\n\n🔍 จำแนกทีละตัว:\n• 2001:db8:600d:cafe::123 → ขึ้นต้น 2001 อยู่ใน 2000::/3 → Global Unicast (2001:db8::/32 เป็นช่วงสงวนไว้ทำเอกสาร แต่ยังจัดเป็น global unicast)\n• fcba:926a:e8e:7a25:… → ขึ้นต้น FC อยู่ใน FC00::/7 → Unique Local\n• fe80::a00:27ff:feeb:89aa → ขึ้นต้น FE80 → Link-Local (สังเกต ff:fe ตรงกลาง = EUI-64)\n• ff05::1:3 → ขึ้นต้น FF → Multicast (05 = site-local scope)\n\n📗 จำไว้สอบ: 2/3=Global | FC/FD=ULA | FE80=Link-Local | FF=Multicast • IPv6 ไม่มี broadcast',
+  },
+  {
+    id: 567,
+    kind: 'single',
+    image: q567,
+    prompt:
+      'Refer to the exhibit. The administrator must configure a floating static default route that points to 2001:db8:1234:2::1 and replaces the current default route only if it fails. Which command must the engineer configure on the CPE?',
+    options: [
+      { key: 'A', text: 'ipv6 route ::/0 2001:db8:1234:2::1 3' },
+      { key: 'B', text: 'ipv6 route :: 2001:db8:1234:2::1 3' },
+      { key: 'C', text: 'ipv6 route ::/0 2001:db8:1234:2::1 1' },
+      { key: 'D', text: 'ipv6 route ::/0 2001:db8:1234:2::1 2' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B แต่ B เขียน prefix เป็น ":: " โดยไม่มี prefix length (/0) ซึ่ง IOS ไม่รับ — คำตอบที่ถูกต้องคือ A\n\n📘 แนวคิด — floating static route คือ static route ที่ตั้ง AD "สูงกว่า" เส้นทางหลัก จึงถูกเก็บไว้เฉย ๆ และจะถูกติดตั้งลงตารางเราต์ก็ต่อเมื่อเส้นทางหลักหายไป\n\n🔍 อ่าน exhibit:\n  ND ::/0 [2/0] via FE80::A8BB:CCFF:FE00:200, Ethernet0/0\n→ default route ปัจจุบันเรียนรู้จาก ND (Neighbor Discovery / RA) มี AD = 2\n\n🧮 ดังนั้น floating static ต้องมี AD > 2 → ค่าที่น้อยที่สุดที่ใช้ได้คือ 3\n\n✅ ทำไม A ถูก: "ipv6 route ::/0 2001:db8:1234:2::1 3" → prefix ::/0 (default) ครบถ้วน + AD 3 สูงกว่า 2 → เป็น backup ที่จะเข้ามาแทนเมื่อ ND default หาย\n\n❌ ทำไมข้ออื่นผิด:\nB. "::" ไม่มี /0 → syntax ไม่ถูก IOS ปฏิเสธคำสั่ง\nC. AD 1 < 2 → static จะ "ชนะ" ทันที แย่งเส้นทางหลักตั้งแต่แรก ไม่ใช่ floating\nD. AD 2 = เท่ากับ ND → ไม่รับประกันว่าจะเป็น backup (เกิดการแข่งกัน/เลือกไม่แน่นอน) ต้อง "มากกว่า" เท่านั้น\n\n📗 จำไว้สอบ: floating static = AD สูงกว่าเส้นหลักเสมอ • AD อ้างอิง: Connected 0, Static 1, eBGP 20, EIGRP 90, OSPF 110, RIP 120, iBGP 200 • IPv6 ND default = 2',
+  },
+  {
+    id: 568,
+    kind: 'single',
+    prompt: 'What is the function of "off-the-shelf" switches in a controller-based network?',
+    options: [
+      { key: 'A', text: 'providing a central view of the deployed network' },
+      { key: 'B', text: 'forwarding packets' },
+      { key: 'C', text: 'making routing decisions' },
+      { key: 'D', text: 'setting packet-handling policies' },
+    ],
+    correct: ['B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D (setting packet-handling policies) — แต่นั่นเป็นหน้าที่ของ "คอนโทรลเลอร์" ไม่ใช่สวิตช์ คำตอบที่ถูกต้องคือ B\n\n📘 แนวคิด — ในสถาปัตยกรรม controller-based (SDN) เราแยก plane ออกจากกัน\n🔹 Control plane → ย้ายขึ้นไปรวมศูนย์ที่ SDN controller\n  • ตัดสินใจเส้นทาง (routing decisions)\n  • กำหนดนโยบายจัดการแพ็กเก็ต (packet-handling policies)\n  • ให้มุมมองรวมศูนย์ของทั้งเครือข่าย (central view)\n🔹 Data plane → ยังอยู่ที่อุปกรณ์ "off-the-shelf" (white-box switch)\n  • หน้าที่เดียวคือ forward แพ็กเก็ตตามตารางที่คอนโทรลเลอร์สั่งลงมาผ่าน Southbound API (OpenFlow/OpFlex/NETCONF)\n\n✅ ทำไม B ถูก: off-the-shelf switch = อุปกรณ์ "โง่" ที่เหลือหน้าที่แค่ส่งต่อแพ็กเก็ต (data plane) เพราะสมองถูกย้ายไปคอนโทรลเลอร์แล้ว\n\n❌ ทำไมข้ออื่นผิด:\nA. central view = หน้าที่คอนโทรลเลอร์ (สวิตช์เห็นแค่ตัวเอง)\nC. routing decisions = control plane อยู่บนคอนโทรลเลอร์\nD. setting packet-handling policies = คอนโทรลเลอร์เป็นคนกำหนดแล้วสั่งลงมา สวิตช์แค่ "ทำตาม" ไม่ได้ "ตั้ง" เอง\n\n📗 จำไว้สอบ: SDN → controller = สมอง (control plane) • switch = กล้ามเนื้อ (data plane, forward เท่านั้น)',
+  },
+  {
+    id: 569,
+    kind: 'drag',
+    image: q569,
+    prompt: 'Drag and drop the QoS terms from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'categorizes packets based on the value of a traffic descriptor', items: ['classification'] },
+      {
+        name: 'guarantees minimum bandwidth to specific traffic classes when an interface is congested',
+        items: ['class-based weighted fair queueing'],
+      },
+      { name: 'prevents congestion by reducing the flow of outbound traffic', items: ['shaping'] },
+      { name: 'outcome of overutilization', items: ['congestion'] },
+      { name: 'uses defined criteria to limit the transmission of one or more classes of traffic', items: ['policing'] },
+    ],
+    explanation:
+      '📘 แนวคิด — คำศัพท์ QoS ที่ออกสอบบ่อย\n\n🔹 classification = "จัดหมวด" แพ็กเก็ตตามค่าตัวบ่งชี้ (DSCP, CoS, ACL, NBAR) — เป็นขั้นแรกสุดของ QoS\n🔹 marking = เขียนค่า DSCP/CoS ลงในเฮดเดอร์หลังจัดหมวดแล้ว\n🔹 congestion = ผลจากการใช้งานลิงก์เกินความจุ (overutilization) → คิวเต็ม → เกิด delay/drop\n🔹 CBWFQ (class-based weighted fair queueing) = การจัดคิวที่ "การันตี bandwidth ขั้นต่ำ" ให้แต่ละคลาสตอนลิงก์ติดขัด\n🔹 shaping = "หน่วง" ทราฟฟิกขาออกที่เกินอัตรา โดยเก็บเข้าบัฟเฟอร์แล้วทยอยส่ง → ทำให้ flow ราบเรียบขึ้น ป้องกัน congestion (ใช้ขาออก outbound เท่านั้น)\n🔹 policing = "จำกัด" อัตราตามเกณฑ์ที่ตั้งไว้ — เกินแล้ว drop หรือ re-mark ทันที (ไม่บัฟเฟอร์) ใช้ได้ทั้งขาเข้าและขาออก\n\n⚡ shaping vs policing:\n• shaping = buffer แล้วค่อยส่ง → delay เพิ่ม แต่ไม่ทิ้ง\n• policing = ตัดทิ้งทันที → ไม่เพิ่ม delay แต่มี drop\n\n📗 จำไว้สอบ: shaping "หน่วงให้ลื่น" (outbound) • policing "ตัดทิ้ง" (in/out) • CBWFQ การันตีขั้นต่ำ • LLQ = CBWFQ + คิวลัดสำหรับเสียง',
+  },
+  {
+    id: 570,
+    kind: 'single',
+    prompt: 'Which command do you enter so that a switch configured with Rapid PVST+ listens and learns for a specific time period?',
+    options: [
+      { key: 'A', text: 'switch(config)#spanning-tree vlan 1 max-age 6' },
+      { key: 'B', text: 'switch(config)#spanning-tree vlan 1 hello-time 10' },
+      { key: 'C', text: 'switch(config)#spanning-tree vlan 1 priority 4096' },
+      { key: 'D', text: 'switch(config)#spanning-tree vlan 1 forward-time 20' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ตัวจับเวลา (timers) ของ Spanning Tree\n• hello-time (ค่าเริ่มต้น 2 วินาที) = ทุกกี่วินาทีที่ root ส่ง BPDU\n• max-age (ค่าเริ่มต้น 20 วินาที) = เก็บ BPDU ที่ได้รับไว้นานเท่าไหร่ก่อนถือว่าหมดอายุ\n• forward-time (ค่าเริ่มต้น 15 วินาที) = ระยะเวลาที่พอร์ตอยู่ใน "listening" และ "learning" แต่ละสถานะ ก่อนเข้าสู่ forwarding\n\n✅ ทำไม D ถูก: โจทย์ถามคำสั่งที่กำหนด "ระยะเวลาที่พอร์ต listen และ learn" → ตรงกับ forward-time พอดี (ตั้งได้ 4–30 วินาที)\n\n❌ ทำไมข้ออื่นผิด:\nA. max-age = อายุของ BPDU ไม่ใช่เวลาใน listening/learning\nB. hello-time = ความถี่ในการส่ง BPDU\nC. priority 4096 = ปรับความสำคัญเพื่อชิงเป็น root bridge ไม่เกี่ยวกับเวลา\n\n🧮 เกร็ด: ค่าเริ่มต้น STP ใช้เวลา 20 (max-age) + 15 (listening) + 15 (learning) = 50 วินาทีกว่าพอร์ตจะ forward — เหตุผลที่ต้องมี PortFast และ RSTP\n\n📗 จำไว้สอบ: forward-time = เวลาใน listening + เวลาใน learning (สถานะละเท่ากัน)',
+  },
+  {
+    id: 571,
+    kind: 'single',
+    image: q571,
+    prompt:
+      'Refer to the exhibit. Load-balanced traffic is coming in from the WAN destined to a host at 172.16.1.190. Which next hop is used by the router to forward the request?',
+    options: [
+      { key: 'A', text: '192.168.7.4' },
+      { key: 'B', text: '192.168.7.7' },
+      { key: 'C', text: '192.168.7.35' },
+      { key: 'D', text: '192.168.7.40' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B (192.168.7.7) ซึ่งเป็น next-hop ของ 172.16.1.0/28 — แต่ /28 ครอบแค่ .0–.15 ไม่ครอบ .190 คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — เราเตอร์เลือกเส้นทางด้วย "longest prefix match" ก่อนเสมอ (ยาวกว่า = ชนะ) แล้วค่อยดู AD/metric ในกรณีที่ prefix เท่ากัน\n\n🔍 ตรวจทีละบรรทัดว่า 172.16.1.190 ตกอยู่ในช่วงไหนบ้าง:\n• 172.16.0.0/16 (Loopback0) → ครอบ 172.16.0.0–172.16.255.255 ✔ (prefix /16)\n• O 172.16.1.3/32 via 192.168.7.40 → เฉพาะ .3 เท่านั้น ✘\n• C 172.16.1.0/24 (Serial0) → ครอบ .0–.255 ✔ (prefix /24)\n• O 172.16.1.184/29 via 192.168.7.35 → block size 8 → ครอบ .184–.191 ✔ (prefix /29) ⭐\n• O 172.16.3.0/24 via 192.168.7.4 → คนละวง (172.16.3.x) ✘\n• D 172.16.1.0/28 via 192.168.7.7 → block size 16 → ครอบแค่ .0–.15 ✘\n\n🧮 ที่ match ได้คือ /16, /24 และ /29 → ยาวที่สุดคือ /29 → ใช้เส้นทาง 172.16.1.184/29 → next hop = 192.168.7.35\n\n✅ ทำไม C ถูก: /29 คือ prefix ที่ยาวที่สุดที่ครอบ 172.16.1.190 (ช่วง .184–.191)\n\n❌ ทำไมข้ออื่นผิด:\nA. 192.168.7.4 → เส้นทางไป 172.16.3.0/24 คนละเครือข่าย\nB. 192.168.7.7 → เส้นทาง 172.16.1.0/28 ครอบแค่ .0–.15 ไม่ถึง .190\nD. 192.168.7.40 → เป็น host route /32 ของ 172.16.1.3 เท่านั้น\n\n📗 จำไว้สอบ: longest prefix match มาก่อน AD และ metric เสมอ • /29 → block 8 → .184 ครอบถึง .191',
+  },
+  {
+    id: 572,
+    kind: 'single',
+    image: q572,
+    prompt:
+      'Refer to the exhibit. R1 has taken the DROTHER role in the OSPF DR/BDR election process. Which configuration must an engineer implement so that R1 is elected as the DR?',
+    options: [
+      { key: 'A', text: 'R1(config)#router ospf 1\nR1(config-router)#router-id 10.10.10.100' },
+      { key: 'B', text: 'R1(config)#interface Fa0/0\nR1(config-if)#ip ospf priority 255\nR1(config-if)#end\nR1#clear ip ospf process' },
+      { key: 'C', text: 'R1(config)#interface Fa0/0\nR1(config-if)#ip ospf priority 0' },
+      { key: 'D', text: 'R1(config)#interface Fa0/0\nR1(config-if)#ip ospf cost 1' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — กติกาการเลือก DR/BDR บนเครือข่าย broadcast (multi-access)\n1️⃣ OSPF interface priority สูงสุดชนะ (ค่าเริ่มต้น 1, ช่วง 0–255)\n2️⃣ ถ้า priority เท่ากัน → Router ID สูงสุดชนะ\n⚠️ priority 0 = ไม่เข้าร่วมการเลือกเลย (เป็น DROTHER ถาวร)\n⚠️ การเลือก DR เป็นแบบ non-preemptive — ตั้ง priority สูงทีหลังจะยังไม่ยึดตำแหน่งจนกว่าจะเกิดการเลือกใหม่\n\n🔍 อ่าน exhibit: R1 (10.10.10.1) เป็น DROTHER, R2 (10.10.10.2) = BDR, R3 (10.10.10.3) = DR — ทุกตัว Pri 1 เท่ากัน จึงตัดสินด้วย Router ID → R3 สูงสุดได้เป็น DR\n\n✅ ทำไม B ถูก: ตั้ง "ip ospf priority 255" บน Fa0/0 ของ R1 → สูงกว่า 1 ของทุกตัว จากนั้น "clear ip ospf process" เพื่อบังคับให้เกิดการเลือกใหม่ (เพราะ DR ไม่ preempt) → R1 ได้เป็น DR\n\n❌ ทำไมข้ออื่นผิด:\nA. เปลี่ยน router-id อย่างเดียวไม่พอ — ต้อง reset process ด้วย และถ้า priority ต่างกัน router-id ก็ไม่ถูกใช้ตัดสิน (แถม 10.10.10.100 อาจไม่สูงกว่าถ้าตัวอื่นเปลี่ยนตาม)\nC. priority 0 = สั่งให้ R1 "ไม่ลงสมัคร" เลย → ตรงข้ามกับที่ต้องการ\nD. ip ospf cost มีผลต่อการเลือกเส้นทาง (SPF) ไม่เกี่ยวกับการเลือก DR\n\n📗 จำไว้สอบ: อยากเป็น DR = ตั้ง priority สูงสุด + clear ip ospf process (DR ไม่ยึดคืนอัตโนมัติ)',
+  },
+  {
+    id: 573,
+    kind: 'single',
+    prompt: 'What is a feature of WPA?',
+    options: [
+      { key: 'A', text: '802.1x authentication' },
+      { key: 'B', text: 'preshared key' },
+      { key: 'C', text: 'TKIP/MIC encryption' },
+      { key: 'D', text: 'small Wi-Fi application' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A (802.1x authentication) — แต่ 802.1X ไม่ใช่ของใหม่ที่ WPA นำมา (มีใช้กับ dynamic WEP มาก่อน) และมีทั้งใน WPA/WPA2/WPA3 คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — วิวัฒนาการความปลอดภัย Wi-Fi\n• WEP (1999) = RC4 + IV 24 บิต + CRC-32 → แตกง่ายมาก\n• WPA (2003) = ทางออกชั่วคราวบนฮาร์ดแวร์ WEP เดิม → ใช้ TKIP (RC4 + per-packet key + IV 48 บิต) และเพิ่ม MIC "Michael" แทน CRC เพื่อกันการแก้ไขข้อมูลกลางทาง\n• WPA2 (2004, 802.11i) = AES-CCMP (ของจริง แข็งแรงกว่ามาก)\n• WPA3 (2018) = SAE (Dragonfly) แทน PSK handshake + PMF บังคับ + GCMP-256 ใน Enterprise 192-bit\n\n✅ ทำไม C ถูก: จุดเด่นที่ "นิยาม" WPA คือการเปลี่ยนมาใช้ TKIP พร้อม MIC — เป็นสิ่งที่ WPA เพิ่มเข้ามาโดยเฉพาะ\n\n❌ ทำไมข้ออื่นผิด:\nA. 802.1X (Enterprise mode) ใช้ได้ทั้ง WPA, WPA2, WPA3 → ไม่ใช่ฟีเจอร์เฉพาะของ WPA\nB. preshared key (Personal mode) ก็มีทุกเวอร์ชันเช่นกัน → ไม่จำเพาะ\nD. "small Wi-Fi application" ไม่ใช่ศัพท์ที่มีอยู่จริง เป็นตัวลวงล้วน ๆ\n\n📗 จำไว้สอบ: WPA=TKIP/MIC | WPA2=AES-CCMP | WPA3=SAE+PMF',
+  },
+  {
+    id: 574,
+    kind: 'single',
+    image: q574,
+    prompt:
+      'Refer to the exhibit. The network administrator must prevent the switch Cat9K-2 IP address from being visible in LLDP without disabling the protocol. Which action must be taken to complete the task?',
+    options: [
+      { key: 'A', text: 'Configure the no lldp tlv-select management-address command globally on Cat9K-2' },
+      { key: 'B', text: 'Configure the no lldp transmit command on interface G1/0 in Cat9K-1' },
+      { key: 'C', text: 'Configure the no lldp receive command on interface G1/0 on Cat9K-1' },
+      { key: 'D', text: 'Configure the no lldp mac-phy-cfg command globally on Cat9K-2' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — LLDP ส่งข้อมูลเป็นชุดย่อยเรียกว่า TLV (Type-Length-Value) เช่น\n• port-description, system-name, system-description, system-capabilities\n• management-address ← ตัวนี้แหละที่พา IP ของสวิตช์ไปโชว์ให้เพื่อนบ้านเห็น\nเราสามารถ "ปิดเฉพาะ TLV ที่ไม่ต้องการ" ได้โดยไม่ต้องปิด LLDP ทั้งหมด ด้วยคำสั่งระดับ global:\n  no lldp tlv-select management-address\n\n🔍 จาก exhibit: คำสั่ง show lldp entry บน Cat9K-1 เห็น "Management Addresses: IP: 10.5.110.2" ของ Cat9K-2 → ต้องไปปิด TLV ที่ตัวส่ง คือ Cat9K-2\n\n✅ ทำไม A ถูก: ปิดเฉพาะ TLV "management-address" ที่ Cat9K-2 → LLDP ยังทำงานปกติ (ยังเห็นชื่อ/พอร์ต) แต่ IP หายไปตามโจทย์\n\n❌ ทำไมข้ออื่นผิด:\nB. no lldp transmit บน Cat9K-1 = หยุดให้ Cat9K-1 ส่ง LLDP ของ "ตัวเอง" ไม่ได้ทำให้ Cat9K-2 หยุดโฆษณา IP\nC. no lldp receive บน Cat9K-1 = แค่ไม่รับข้อมูล แต่ Cat9K-2 ยังโฆษณา IP ให้เพื่อนบ้านอื่นเห็นอยู่ (และเท่ากับปิดการมองเห็นทั้งหมด ไม่ตรงโจทย์ที่ขอ "โดยไม่ปิดโปรโตคอล")\nD. mac-phy-cfg TLV = ข้อมูล speed/duplex/autoneg ไม่ใช่ IP address\n\n📗 จำไว้สอบ: ซ่อน IP ใน LLDP = no lldp tlv-select management-address (ที่เครื่องต้นทาง, โหมด global)',
+  },
+  {
+    id: 575,
+    kind: 'multi',
+    image: q575,
+    prompt:
+      'Refer to the exhibit. What are the two steps an engineer must take to provide the highest encryption and authentication using domain credentials from LDAP? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Select PSK under Authentication Key Management' },
+      { key: 'B', text: 'Select WPA+WPA2 on Layer 2 Security' },
+      { key: 'C', text: 'Select Static-WEP + 802.1X on Layer 2 Security' },
+      { key: 'D', text: 'Select WPA Policy with TKIP Encryption' },
+      { key: 'E', text: 'Select 802.1X from under Authentication Key Management' },
+    ],
+    correct: ['B', 'E'],
+    explanation:
+      '📘 แนวคิด — โจทย์ขอ 2 อย่างพร้อมกัน\n1️⃣ "highest encryption" → ต้องได้ WPA2 + AES(CCMP) → ที่ Layer 2 Security ต้องเลือก "WPA+WPA2" ก่อน จึงจะมีตัวเลือก WPA2 Policy/AES ให้ติ๊ก\n2️⃣ "authentication using domain credentials from LDAP" → เป็นการยืนยันตัวตนแบบ Enterprise ด้วยบัญชีผู้ใช้จากไดเรกทอรี → ต้องใช้ 802.1X/EAP ภายใต้ Authentication Key Management\n\n✅ ทำไม B ถูก: WPA+WPA2 คือกลุ่มที่รองรับ AES-CCMP ซึ่งแข็งแรงที่สุดในหน้านี้\n✅ ทำไม E ถูก: 802.1X (Enterprise) ให้ WLC ส่งต่อการยืนยันตัวตนไปยัง LDAP/RADIUS ด้วย credential ของผู้ใช้ในโดเมน\n\n❌ ทำไมข้ออื่นผิด:\nA. PSK = ใช้รหัสผ่านร่วมกันทุกคน (Personal) → ไม่ได้ใช้ domain credential เลย\nC. Static-WEP + 802.1X = WEP อ่อนแอมาก (RC4/IV สั้น) ตรงข้ามกับ "highest encryption"\nD. WPA + TKIP = รุ่นเก่ากว่าและอ่อนกว่า AES ชัดเจน\n\n📗 จำไว้สอบ: Personal=PSK | Enterprise=802.1X+RADIUS/LDAP • เข้ารหัสแรงสุดในตัวเลือก WPA2 = AES-CCMP',
+  },
+  {
+    id: 576,
+    kind: 'single',
+    prompt: 'Which WAN topology has the highest degree of reliability?',
+    options: [
+      { key: 'A', text: 'full mesh' },
+      { key: 'B', text: 'point-to-point' },
+      { key: 'C', text: 'hub-and-spoke' },
+      { key: 'D', text: 'router-on-a-stick' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — รูปแบบ WAN topology\n• point-to-point = 2 ไซต์ต่อกันตรง ๆ 1 ลิงก์ → ลิงก์ขาด = ตัดขาดทันที (ไม่มี redundancy)\n• hub-and-spoke = ทุกสาขา (spoke) ต่อเข้าศูนย์กลาง (hub) → ประหยัด แต่ hub คือ single point of failure และ spoke คุยกันต้องผ่าน hub เสมอ\n• full mesh = ทุกไซต์ต่อถึงกันหมดทุกคู่ → มีเส้นทางสำรองมากที่สุด เชื่อถือได้สูงสุด (แต่แพงและซับซ้อน)\n  จำนวนลิงก์ = n(n−1)/2 เช่น 6 ไซต์ = 15 ลิงก์\n\n✅ ทำไม A ถูก: full mesh มีเส้นทางสำรองทุกทิศ ลิงก์เดียวขาดยังมีทางอ้อมเสมอ → reliability สูงสุด\n\n❌ ทำไมข้ออื่นผิด:\nB. point-to-point ไม่มีเส้นทางสำรองเลย\nC. hub-and-spoke พัง hub = พังทั้งระบบ\nD. router-on-a-stick ไม่ใช่ WAN topology — เป็นวิธี inter-VLAN routing บน LAN ผ่านลิงก์ trunk เส้นเดียว\n\n📗 จำไว้สอบ: reliability: full mesh > partial mesh > hub-and-spoke > point-to-point • ค่าใช้จ่ายเรียงตรงข้าม',
+  },
+  {
+    id: 577,
+    kind: 'single',
+    prompt:
+      'An engineer must configure neighbor discovery between the company router and an ISP. What is the next step to complete the configuration if the ISP uses a third-party router?',
+    options: [
+      { key: 'A', text: 'Enable LLDP globally.' },
+      { key: 'B', text: 'Disable CDP on gi0/0.' },
+      { key: 'C', text: 'Enable LLDP TLVs on the ISP router.' },
+      { key: 'D', text: 'Disable auto-negotiation.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — โปรโตคอลค้นหาเพื่อนบ้าน (neighbor discovery) ชั้น 2\n• CDP (Cisco Discovery Protocol) = Cisco proprietary → คุยได้เฉพาะกับอุปกรณ์ Cisco ด้วยกัน (เปิดโดยดีฟอลต์)\n• LLDP (IEEE 802.1AB) = มาตรฐานเปิด → ใช้ข้ามยี่ห้อได้ (ปิดโดยดีฟอลต์บน Cisco IOS ต้องสั่ง "lldp run")\n\n✅ ทำไม A ถูก: ISP ใช้เราเตอร์ยี่ห้ออื่น (third-party) → CDP คุยด้วยไม่ได้ ต้องเปิด LLDP แบบ global ด้วยคำสั่ง "lldp run" บนเราเตอร์ของบริษัท (จากนั้นค่อยตรวจด้วย show lldp neighbors)\n\n❌ ทำไมข้ออื่นผิด:\nB. ปิด CDP ไม่ได้ช่วยให้ค้นพบเพื่อนบ้านต่างยี่ห้อ — แค่ปิดการมองเห็นฝั่ง Cisco (และไม่จำเป็น)\nC. เราไม่มีสิทธิ์ไปคอนฟิกเราเตอร์ของ ISP — ขั้นตอนถัดไปต้องทำที่ฝั่งเราเอง\nD. auto-negotiation เป็นเรื่อง speed/duplex ไม่เกี่ยวกับ neighbor discovery\n\n📗 จำไว้สอบ: ต่างยี่ห้อ → LLDP (lldp run) • Cisco ล้วน → CDP (เปิดอยู่แล้ว)',
+  },
+  {
+    id: 578,
+    kind: 'multi',
+    image: q578,
+    prompt: 'Refer to the exhibit. What are two conclusions about this configuration? (Choose two.)',
+    options: [
+      { key: 'A', text: 'The spanning-tree mode is Rapid PVST+.' },
+      { key: 'B', text: 'This is a root bridge.' },
+      { key: 'C', text: 'The root port is FastEthernet 2/1.' },
+      { key: 'D', text: 'The designated port is FastEthernet 2/1.' },
+      { key: 'E', text: 'The spanning-tree mode is PVST+.' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับให้มาแค่ A ทั้งที่โจทย์บอก "Choose two" — คำตอบที่ครบถูกต้องคือ A และ C\n\n📘 แนวคิด — วิธีอ่าน show spanning-tree vlan <x>\n• บรรทัด "Spanning tree enabled protocol …" บอกโหมด: ieee = PVST+, rstp = Rapid PVST+, mst = MST\n• บล็อก "Root ID" = ข้อมูลของ root bridge\n  - ถ้า Cost = 0 และไม่มีบรรทัด Port → สวิตช์ตัวนี้ "เป็น root เอง"\n  - ถ้า Cost > 0 และมี Port ระบุไว้ → พอร์ตนั้นคือ "root port" (ทางไปหา root)\n\n🔍 อ่าน exhibit:\n• protocol rstp → เป็นแบบ per-VLAN (สั่ง show … vlan 30) → Rapid PVST+ ✔\n• Root ID Cost = 19 (ไม่ใช่ 0) → ไม่ใช่ root bridge\n• Root ID Port = 1 (FastEthernet 2/1) → พอร์ตนี้คือ root port ✔\n\n✅ ทำไม A ถูก: protocol rstp + แสดงผลรายVLAN = Rapid PVST+\n✅ ทำไม C ถูก: บรรทัด Port ใต้ Root ID ระบุ FastEthernet 2/1 = root port\n\n❌ ทำไมข้ออื่นผิด:\nB. ถ้าเป็น root bridge ต้อง Cost = 0 และมีข้อความ "This bridge is the root" — แต่ที่นี่ Cost = 19\nD. พอร์ตที่อยู่ใต้ Root ID คือ root port ไม่ใช่ designated port (designated port คือฝั่งที่ชี้ออกจาก root)\nE. PVST+ จะขึ้นว่า protocol ieee ไม่ใช่ rstp\n\n📗 จำไว้สอบ: cost 19 = ลิงก์ FastEthernet 1 ช่วง (100 Mbps) • Root ID Port = root port เสมอ',
+  },
+  {
+    id: 579,
+    kind: 'single',
+    image: q579,
+    prompt:
+      'Refer to the exhibit. All interfaces are configured with duplex auto and ip ospf network broadcast. Which configuration allows routers R14 and R86 to form an OSPFv2 adjacency and act as a central point for exchanging OSPF information between routers?',
+    options: [
+      {
+        key: 'A',
+        text: 'R14(config)#router ospf 10\nR14(config-router)#network 10.10.1.14 0.0.0.0 area 0\nR14(config-router)#network 10.73.65.64 0.0.0.3 area 0\nR86(config)#router ospf 10\nR86(config-router)#network 10.10.1.86 0.0.0.0 area 0\nR86(config-router)#network 10.73.65.64 0.0.0.3 area 1',
+      },
+      {
+        key: 'B',
+        text: 'R14(config)#router ospf 10\nR14(config-router)#network 10.10.1.14 0.0.0.0 area 0\nR14(config-router)#network 10.73.65.64 0.0.0.3 area 0\nR86(config)#router ospf 10\nR86(config-router)#network 10.10.1.86 0.0.0.0 area 0\nR86(config-router)#network 10.73.65.64 0.0.0.3 area 0',
+      },
+      {
+        key: 'C',
+        text: 'R14(config)#interface Fa0/0\nR14(config-if)#ip ospf priority 0\nR86(config)#interface Fa0/0\nR86(config-if)#ip ospf priority 0',
+      },
+      {
+        key: 'D',
+        text: 'R14(config)#router ospf 10\nR14(config-router)#network 10.73.65.64 0.0.0.255 area 0\nR86(config)#router ospf 10\nR86(config-router)#network 10.73.65.64 0.0.0.255 area 1',
+      },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — เงื่อนไขที่ OSPF จะเกิด adjacency ได้\n1️⃣ อยู่ใน "area เดียวกัน" บนลิงก์ที่เชื่อมกัน\n2️⃣ Hello/Dead timer ตรงกัน\n3️⃣ Subnet/mask เดียวกัน และ network type เดียวกัน\n4️⃣ Authentication ตรงกัน และ Router ID ไม่ซ้ำ\n\nส่วน "act as a central point for exchanging OSPF information" = มี DR (Designated Router) — ซึ่งจะเกิดขึ้นเองเมื่อ network type เป็น broadcast (ตามโจทย์ตั้ง ip ospf network broadcast ไว้แล้ว) โดย DR ทำหน้าที่เป็นจุดกลางรับ-ส่ง LSA ให้ทุกตัวบนเซกเมนต์\n\n🧮 wildcard ของลิงก์ 10.73.65.64/30 = 0.0.0.3 (255.255.255.255 − 255.255.255.252)\n\n✅ ทำไม B ถูก: ทั้งสองตัวประกาศลิงก์ 10.73.65.64/30 ด้วย wildcard 0.0.0.3 เข้า "area 0 เหมือนกัน" และประกาศ Loopback เข้า area 0 ด้วย → adjacency เกิดขึ้น และเพราะเป็น broadcast network จึงมีการเลือก DR ทำหน้าที่ศูนย์กลางแลกเปลี่ยนข้อมูล\n\n❌ ทำไมข้ออื่นผิด:\nA. R86 ประกาศลิงก์เดียวกันเข้า area 1 ขณะที่ R14 อยู่ area 0 → area mismatch → ไม่เกิด neighbor\nC. ตั้ง priority 0 ทั้งสองฝั่ง = ไม่มีตัวไหนเป็น DR ได้เลย → ขัดกับ "central point" โดยตรง\nD. ใช้ wildcard 0.0.0.255 (/24) กับลิงก์ /30 ไม่ตรงจริง + ยัง area ไม่ตรงกันอีก\n\n📗 จำไว้สอบ: /30 → wildcard 0.0.0.3 • area ต้องตรงกันบนลิงก์นั้น • DR มีเฉพาะ network type broadcast/non-broadcast',
+  },
+  {
+    id: 580,
+    kind: 'drag',
+    image: q580,
+    prompt: 'Drag and drop the statements about networking from the left onto the corresponding networking types on the right.',
+    categories: [
+      {
+        name: 'Traditional Networking',
+        items: [
+          'This type implements changes individually at each device.',
+          'Maintenance costs are higher than with other networking options.',
+        ],
+      },
+      {
+        name: 'Controller-Based Networking',
+        items: [
+          'This type leverages controllers to handle network management.',
+          'This type provides a centralized view of the network.',
+        ],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — Traditional vs Controller-Based (SDN)\n\n🔹 Traditional Networking:\n• This type implements changes individually at each device → ต้อง SSH เข้าไปแก้ทีละตัว เสี่ยงพิมพ์ผิด/ไม่สม่ำเสมอ\n• Maintenance costs are higher → ใช้แรงคน/เวลามาก ค่าดูแลจึงสูงกว่า\n• control plane + data plane อยู่รวมกันในทุกอุปกรณ์ (distributed control plane)\n\n🔹 Controller-Based Networking:\n• This type leverages controllers to handle network management → คอนโทรลเลอร์ (เช่น Cisco DNA Center / APIC) เป็นผู้จัดการแทน\n• This type provides a centralized view of the network → เห็นภาพรวมทั้งเครือข่ายจากหน้าจอเดียว\n• control plane ถูกรวมศูนย์ + สั่งงานอุปกรณ์ผ่าน Southbound API และเปิด Northbound API ให้แอปเรียกใช้\n\n📗 จำไว้สอบ: Traditional = ทีละเครื่อง/ค่าดูแลแพง | Controller-based = รวมศูนย์/เห็นภาพรวม/อัตโนมัติ',
+  },
+  {
+    id: 581,
+    kind: 'single',
+    image: q581,
+    prompt:
+      'Refer to the exhibit. An engineer is asked to configure router R1 so that it forms an OSPF single-area neighbor relationship with R2. Which command sequence must be implemented to configure the router?',
+    options: [
+      {
+        key: 'A',
+        text: 'R1(config)#router ospf 1\nR1(config-router)#network 10.0.0.0 0.0.0.3 area 1\nR1(config-router)#network 10.0.1.0 0.0.0.255 area 1',
+      },
+      {
+        key: 'B',
+        text: 'R1(config)#router ospf 1\nR1(config-router)#network 10.0.0.0 0.0.0.3 area 0\nR1(config-router)#network 10.0.1.0 0.0.0.255 area 0',
+      },
+      {
+        key: 'C',
+        text: 'R1(config)#router ospf 1\nR1(config-router)#network 10.0.0.0 255.255.255.252 area 0\nR1(config-router)#network 10.0.1.0 255.255.255.0 area 0',
+      },
+      {
+        key: 'D',
+        text: 'R1(config)#router ospf 1\nR1(config-router)#network 10.0.0.1 0.0.0.0 area 0\nR1(config-router)#network 10.0.2.0 0.0.0.255 area 0',
+      },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คำสั่ง network ของ OSPF ใช้ "wildcard mask" ไม่ใช่ subnet mask\n  network <address> <wildcard> area <area-id>\nสูตรแปลง: wildcard = 255.255.255.255 − subnet mask\n• /30 (255.255.255.252) → wildcard 0.0.0.3\n• /24 (255.255.255.0) → wildcard 0.0.0.255\n• /32 (255.255.255.255) → wildcard 0.0.0.0\n\n🔍 อ่าน exhibit: ลิงก์ R1–R2 = 10.0.0.0/30 (R1 Gi0/0 = .1, R2 Gi0/0 = .2) และ LAN ฝั่ง R1 = 10.0.1.0/24\n\n✅ ทำไม B ถูก: ประกาศลิงก์ WAN ด้วย 10.0.0.0 0.0.0.3 และ LAN ด้วย 10.0.1.0 0.0.0.255 เข้า "area 0" ทั้งคู่ → single-area (area 0 คือ backbone มาตรฐาน) และครอบอินเทอร์เฟซที่ต้องรัน OSPF ครบ\n\n❌ ทำไมข้ออื่นผิด:\nA. ใส่ area 1 — โจทย์ขอ single area ซึ่งโดยมาตรฐานต้องเป็น area 0 (backbone); ถ้า R2 อยู่ area 0 ก็จะ mismatch ไม่เกิด neighbor\nC. ใช้ subnet mask (255.255.255.252) แทน wildcard → IOS ตีความผิด (จริง ๆ IOS จะเตือน/แปลงผิดพลาด) ไม่ใช่รูปแบบที่ถูก\nD. ประกาศ LAN ผิดวง (10.0.2.0 เป็น LAN ของ R2 ไม่ใช่ของ R1) → อินเทอร์เฟซ LAN ของ R1 ไม่ถูกประกาศเข้า OSPF\n\n📗 จำไว้สอบ: OSPF network ใช้ wildcard • single-area = ทุกอย่างอยู่ area 0 • area ต้องตรงกันทั้งสองฝั่งของลิงก์',
+  },
+  {
+    id: 582,
+    kind: 'single',
+    prompt: 'What is a function performed by a web server?',
+    options: [
+      { key: 'A', text: 'provide an application that is transmitted over HTTP' },
+      { key: 'B', text: 'send and retrieve email from client devices' },
+      { key: 'C', text: "authenticate and authorize a user's identity" },
+      { key: 'D', text: 'securely store files for FTP access' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — หน้าที่ของเซิร์ฟเวอร์แต่ละชนิด (ออกสอบในหัวข้อ "explain the role of network components")\n• Web server = ให้บริการหน้าเว็บ/แอปพลิเคชันผ่าน HTTP (TCP 80) และ HTTPS (TCP 443)\n• Mail server = รับส่งอีเมล ผ่าน SMTP (25), POP3 (110), IMAP (143)\n• AAA server (RADIUS/TACACS+/ISE) = ยืนยันตัวตนและกำหนดสิทธิ์ผู้ใช้\n• File/FTP server = เก็บและแบ่งปันไฟล์ ผ่าน FTP (20/21), SFTP (22)\n\n✅ ทำไม A ถูก: web server ส่งมอบเนื้อหา/แอปพลิเคชันให้เบราว์เซอร์ผ่านโปรโตคอล HTTP\n\n❌ ทำไมข้ออื่นผิด:\nB. รับส่งอีเมล = mail server (SMTP/POP3/IMAP)\nC. authenticate/authorize = AAA server ไม่ใช่ web server\nD. เก็บไฟล์สำหรับ FTP = file/FTP server\n\n📗 จำไว้สอบ: HTTP/HTTPS=web | SMTP/POP3/IMAP=mail | FTP/SFTP=file | RADIUS/TACACS+=AAA',
+  },
+  {
+    id: 583,
+    kind: 'single',
+    prompt: 'What is the collapsed layer in collapsed core architectures?',
+    options: [
+      { key: 'A', text: 'core and WAN' },
+      { key: 'B', text: 'access and WAN' },
+      { key: 'C', text: 'distribution and access' },
+      { key: 'D', text: 'core and distribution' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — สถาปัตยกรรมลำดับชั้นของ Cisco\n🔹 3-tier (Core → Distribution → Access) เหมาะกับเครือข่ายใหญ่/หลายอาคาร\n  • Access = พอร์ตให้ผู้ใช้เสียบ, PoE, port security, VLAN\n  • Distribution = รวมลิงก์จาก access, ทำ inter-VLAN routing, policy/ACL, STP root\n  • Core = แกนกลางความเร็วสูง สลับแพ็กเก็ตอย่างเดียว ไม่ทำ policy\n🔹 2-tier "Collapsed core" = ยุบ Core + Distribution ให้อยู่บนอุปกรณ์เดียวกัน เหลือ 2 ชั้น (Collapsed core + Access) เหมาะกับเครือข่ายเล็ก/ไซต์เดียว ประหยัดกว่า\n\n✅ ทำไม D ถูก: คำว่า "collapsed" หมายถึงการยุบ core และ distribution เข้าด้วยกัน\n\n❌ ทำไมข้ออื่นผิด:\nA, B. WAN edge ไม่ใช่ชั้นในโมเดล 3-tier ที่ถูกยุบรวมกันตามนิยามนี้\nC. access ยังคงแยกอยู่เสมอ (เป็นชั้นที่ผู้ใช้เสียบสาย)\n\n📗 จำไว้สอบ: collapsed core = core + distribution รวมกัน → เหลือ 2 ชั้น',
+  },
+  {
+    id: 584,
+    kind: 'single',
+    prompt: 'Which set of 2.4 GHz nonoverlapping wireless channels is standard in the United States?',
+    options: [
+      { key: 'A', text: 'channels 2, 7, 9, and 11' },
+      { key: 'B', text: 'channels 1, 6, 11, and 14' },
+      { key: 'C', text: 'channels 2, 7, and 11' },
+      { key: 'D', text: 'channels 1, 6, and 11' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ย่าน 2.4 GHz มี 11 ช่อง (ในสหรัฐฯ) แต่ละช่องห่างกัน 5 MHz ในขณะที่สัญญาณกว้าง ~22 MHz → ช่องที่ติดกันจึงซ้อนทับกัน\nเพื่อไม่ให้ซ้อนทับ ต้องเว้นอย่างน้อย 5 ช่อง → 1, 6, 11 คือชุดเดียวที่ไม่ซ้อนกันเลย (3 ช่อง)\n\n✅ ทำไม D ถูก: 1, 6, 11 เป็นชุด non-overlapping มาตรฐานที่ใช้ทั่วโลก/สหรัฐฯ\n\n❌ ทำไมข้ออื่นผิด:\nA. 2, 7, 9, 11 — 9 กับ 11 ห่างกันแค่ 2 ช่อง → ซ้อนทับกันแน่นอน\nB. ช่อง 14 ใช้ได้เฉพาะญี่ปุ่น (และเฉพาะ 802.11b) ไม่อนุญาตในสหรัฐฯ\nC. 2, 7, 11 — 7 กับ 11 ห่างกัน 4 ช่อง (< 5) → ยังซ้อนทับกันบางส่วน\n\n📗 จำไว้สอบ: 2.4 GHz = 1/6/11 เท่านั้น (3 ช่อง) • 5 GHz มีช่อง non-overlapping มากกว่า 20 ช่อง จึงเหมาะกับพื้นที่หนาแน่น',
+  },
+  {
+    id: 585,
+    kind: 'single',
+    prompt:
+      'An engineer is installing a new wireless printer with a static IP address on the Wi-Fi network. Which feature must be enabled and configured to prevent connection issues with the printer?',
+    options: [
+      { key: 'A', text: 'client exclusion' },
+      { key: 'B', text: 'passive client' },
+      { key: 'C', text: 'DHCP address assignment' },
+      { key: 'D', text: 'static IP tunneling' },
+    ],
+    correct: ['B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ C (DHCP address assignment) — แต่การบังคับ "DHCP Addr. Assignment Required" จะ "ปฏิเสธ" ไคลเอนต์ที่ตั้ง IP เองด้วยซ้ำ ตรงข้ามกับโจทย์ คำตอบที่ถูกต้องคือ B\n\n📘 แนวคิด — Passive Client (บน Cisco WLC)\nเอกสาร Cisco ระบุตรง ๆ ว่า: "Passive clients are wireless devices, such as scales and printers, that are configured with a static IP address." อุปกรณ์เหล่านี้ไม่ส่งข้อมูล IP ตอน associate และมักไม่ตอบ ARP เอง → WLC จึงไม่รู้ IP ของมันและไม่ยอม forward ทราฟฟิก\nการเปิด "Passive Client" ทำให้ WLC ยอมส่งต่อ ARP ไปยัง client โดยตรง (ไม่ทำ ARP proxy) → เครื่องพิมพ์/สเกล/อุปกรณ์ IP นิ่ง ๆ ทำงานได้ปกติ\n\n✅ ทำไม B ถูก: ตรงตามนิยามของ Cisco สำหรับอุปกรณ์ static IP อย่างเครื่องพิมพ์ไร้สาย\n\n❌ ทำไมข้ออื่นผิด:\nA. client exclusion = บล็อกไคลเอนต์ที่ล็อกอินผิดซ้ำ ๆ ชั่วคราว (ยิ่งเปิดยิ่งเสี่ยงถูกบล็อก)\nC. DHCP Addr. Assignment Required = บังคับให้ต้องรับ IP จาก DHCP → เครื่องพิมพ์ static IP จะต่อไม่ได้เลย\nD. static IP tunneling เป็นฟีเจอร์ของ Auto-Anchor/mobility ที่ tunnel ไคลเอนต์ static IP ไปยัง controller ปลายทาง ไม่ใช่การแก้ปัญหาพื้นฐานของเครื่องพิมพ์บน WLC เดียวกัน\n\n📗 จำไว้สอบ: เครื่องพิมพ์/สแกน/สเกล ที่ตั้ง IP เอง → เปิด "Passive Client" บน WLAN',
+  },
+  {
+    id: 586,
+    kind: 'single',
+    image: q586,
+    prompt:
+      'Refer to the exhibit. Each router must be configured with the last usable IP address in the subnet. Which configuration fulfills this requirement?',
+    options: [
+      {
+        key: 'A',
+        text: 'R7: ip address 10.88.31.65 255.255.255.192\nR8: ip address 10.19.63.81 255.255.255.240\nR9: ip address 10.23.98.129 255.255.255.224',
+      },
+      {
+        key: 'B',
+        text: 'R7: ip address 10.88.31.127 255.255.255.192\nR8: ip address 10.19.63.95 255.255.255.240\nR9: ip address 10.23.98.159 255.255.255.224',
+      },
+      {
+        key: 'C',
+        text: 'R7: ip address 10.88.31.126 255.255.255.192\nR8: ip address 10.19.63.94 255.255.255.240\nR9: ip address 10.23.98.158 255.255.255.224',
+      },
+      {
+        key: 'D',
+        text: 'R7: ip address 10.88.31.62 255.255.255.192\nR8: ip address 10.19.63.78 255.255.255.240\nR9: ip address 10.23.98.126 255.255.255.224',
+      },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — หา "last usable address" = broadcast − 1\nขั้นตอน: (1) หา block size จาก mask → (2) หา network address ที่ครอบ IP นั้น → (3) broadcast = network + block − 1 → (4) last usable = broadcast − 1\n\n🧮 คำนวณทีละตัว:\n• R7 → 10.88.31.64/26 : mask 255.255.255.192, block 64 → network .64, broadcast .127 → last usable = 10.88.31.126\n• R8 → 10.19.63.80/28 : mask 255.255.255.240, block 16 → network .80, broadcast .95 → last usable = 10.19.63.94\n• R9 → 10.23.98.128/27 : mask 255.255.255.224, block 32 → network .128, broadcast .159 → last usable = 10.23.98.158\n\n✅ ทำไม C ถูก: ตรงกับค่าที่คำนวณได้ทั้ง 3 ตัว (.126, .94, .158)\n\n❌ ทำไมข้ออื่นผิด:\nA. .65 / .81 / .129 = "first usable" ไม่ใช่ last\nB. .127 / .95 / .159 = broadcast address → กำหนดให้อินเทอร์เฟซไม่ได้ (IOS ปฏิเสธ)\nD. ค่าเหล่านี้อยู่ผิด subnet (เช่น 10.88.31.62 อยู่ใน 10.88.31.0/26 คนละ subnet กับที่โจทย์ระบุ)\n\n📗 จำไว้สอบ: block size = 256 − mask octet • last usable = broadcast − 1 • ห้ามใช้ network/broadcast เป็น IP อินเทอร์เฟซ',
+  },
+  {
+    id: 587,
+    kind: 'drag',
+    image: q587,
+    prompt: 'Drag and drop the functions of AAA supporting protocols from the left onto the protocols on the right.',
+    categories: [
+      {
+        name: 'RADIUS',
+        items: [
+          'encrypts only the password when it sends an access request',
+          'combines authentication and authorization',
+          'uses UDP',
+        ],
+      },
+      {
+        name: 'TACACS+',
+        items: [
+          'encrypts the entire body of the access-request packet',
+          'separates all three AAA operations',
+          'uses TCP',
+        ],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — เปรียบเทียบ RADIUS vs TACACS+ (ออกสอบทุกครั้ง)\n\n🔹 RADIUS (RFC 2865, มาตรฐานเปิด):\n• uses UDP → พอร์ต 1812/1813 (เดิม 1645/1646)\n• encrypts only the password → เข้ารหัสเฉพาะฟิลด์ password ส่วนที่เหลือ (username, attributes) ส่งเป็น cleartext\n• combines authentication and authorization → รวม 2 ขั้นตอนไว้ในข้อความเดียว แยกไม่ได้\n• เหมาะกับ network access (802.1X, Wi-Fi, VPN)\n\n🔹 TACACS+ (Cisco proprietary):\n• uses TCP → พอร์ต 49 (มี reliability/ack ในตัว)\n• encrypts the entire body of the packet → เข้ารหัสทั้ง payload (เหลือแต่ header) ปลอดภัยกว่า\n• separates all three AAA operations → แยก Authentication / Authorization / Accounting เป็นอิสระ\n• เหมาะกับ device administration (สั่งจำกัดคำสั่ง CLI เป็นราย ๆ ได้ = command authorization)\n\n📗 จำไว้สอบ: RADIUS = UDP + เข้ารหัสแค่รหัสผ่าน + รวม AuthN/AuthZ | TACACS+ = TCP 49 + เข้ารหัสทั้งก้อน + แยก 3 A',
+  },
+  {
+    id: 588,
+    kind: 'drag',
+    image: q588,
+    prompt: 'Drag and drop the HTTP methods used with REST-Based APIs from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'creates a resource and returns its URI in the response header', items: ['POST'] },
+      { name: 'creates or replaces a previously modified resource using information in the request body', items: ['PUT'] },
+      { name: 'removes a resource', items: ['DELETE'] },
+      { name: "retrieves a list of a resource's URIs", items: ['GET'] },
+      { name: 'updates a resource using instructions included in the request body', items: ['PATCH'] },
+    ],
+    explanation:
+      '📘 แนวคิด — HTTP methods กับ CRUD ใน REST API\n\n• POST → Create: สร้าง resource ใหม่ เซิร์ฟเวอร์เป็นคนกำหนด ID แล้วคืน URI ของ resource ใหม่มาใน Location header (ตอบ 201 Created) — ไม่ idempotent (ยิงซ้ำ = สร้างซ้ำ)\n• GET → Read: ดึงข้อมูล/รายชื่อ URI ของ resource (safe + idempotent ไม่เปลี่ยนสถานะ)\n• PUT → Update/Replace: แทนที่ resource ทั้งก้อนด้วยข้อมูลใน request body (idempotent) ถ้ายังไม่มีก็สร้างได้\n• PATCH → Partial update: แก้เฉพาะบางฟิลด์ตามคำสั่งใน body\n• DELETE → Delete: ลบ resource ทิ้ง (idempotent)\n\n💡 idempotent = เรียกซ้ำกี่ครั้งผลลัพธ์สุดท้ายเหมือนเดิม → GET, PUT, DELETE เป็น idempotent ส่วน POST/PATCH ไม่ใช่\n\n📗 จำไว้สอบ: POST=สร้าง | GET=อ่าน | PUT=ทับทั้งก้อน | PATCH=แก้บางส่วน | DELETE=ลบ',
+  },
+  {
+    id: 589,
+    kind: 'single',
+    prompt: 'What is the MAC address used with VRRP as a virtual address?',
+    options: [
+      { key: 'A', text: '00-00-0C-07-AD-89' },
+      { key: 'B', text: '00-00-5E-00-01-0A' },
+      { key: 'C', text: '00-07-C0-70-AB-01' },
+      { key: 'D', text: '00-C6-41-93-90-91' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — virtual MAC ของแต่ละ FHRP มีรูปแบบตายตัว จำได้เลยว่า "ขึ้นต้นด้วยอะไร"\n• HSRP v1 → 0000.0C07.ACxx   (xx = group number ฐานสิบหก)\n• HSRP v2 → 0000.0C9F.Fxxx\n• VRRP    → 0000.5E00.01xx   (xx = VRID) ⭐\n• GLBP    → 0007.B400.xxyy\n\n✅ ทำไม B ถูก: 00-00-5E-00-01-0A ตรงรูปแบบ 0000.5E00.01xx โดย xx = 0A → VRRP group (VRID) 10\n\n❌ ทำไมข้ออื่นผิด:\nA. 00-00-0C-07-AD-89 — ขึ้นต้น 0000.0C07.AC… คือรูปแบบ HSRP v1 (และตรงนี้เพี้ยนเป็น AD)\nC. 00-07-C0-… ไม่ตรงรูปแบบ FHRP มาตรฐานใด (GLBP คือ 0007.B4xx)\nD. 00-C6-41-93-90-91 เป็น MAC ทั่วไปของ NIC ไม่ใช่ virtual MAC\n\n📗 จำไว้สอบ: VRRP = 0000.5E00.01xx • HSRPv1 = 0000.0C07.ACxx • ตัวเลข 2 หลักท้าย = หมายเลขกลุ่ม',
+  },
+  {
+    id: 590,
+    kind: 'drag',
+    image: q590,
+    prompt: 'Drag and drop the IPv6 addresses from the left onto the corresponding address types on the right.',
+    categories: [
+      { name: 'Global Unicast', items: ['2001:db8:600d:cafe::123'] },
+      { name: 'Link-Local Unicast', items: ['fe80::a00:27ff:feeb:89aa'] },
+      { name: 'Multicast', items: ['ff05::1:3'] },
+      { name: 'Unique Local', items: ['fcba:926a:e8e:7a25:b1:c6d2:1a76:8fdc'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ดู "คำนำหน้า" แล้วบอกชนิดได้ทันที\n• 2000::/3 (ขึ้นต้น 2 หรือ 3) → Global Unicast — routable บนอินเทอร์เน็ต\n• FC00::/7 (ขึ้นต้น FC หรือ FD) → Unique Local — private ใช้ภายในองค์กร\n• FE80::/10 (ขึ้นต้น FE80) → Link-Local — ใช้เฉพาะบนลิงก์เดียวกัน ไม่ถูก route ข้าม\n• FF00::/8 (ขึ้นต้น FF) → Multicast — IPv6 ไม่มี broadcast ใช้ multicast แทน\n\n🔍 จำแนก:\n• 2001:db8:600d:cafe::123 → 2001 อยู่ใน 2000::/3 → Global Unicast\n• fcba:926a:… → FC → Unique Local\n• fe80::a00:27ff:feeb:89aa → FE80 → Link-Local (มี ff:fe แทรกกลาง = สร้างจาก MAC ด้วย EUI-64)\n• ff05::1:3 → FF → Multicast (scope 5 = site-local, ::1:3 = All DHCP Servers)\n\n📗 จำไว้สอบ: 2/3=Global | FC/FD=ULA | FE80=Link-Local | FF=Multicast',
+  },
+  {
+    id: 591,
+    kind: 'single',
+    image: q591,
+    prompt:
+      'Refer to the exhibit. When router R1 is sending traffic to IP address 10.56.192.1, which interface or next hop address does it use to route the packet?',
+    options: [
+      { key: 'A', text: '0.0.0.0/0' },
+      { key: 'B', text: '10.56.0.1' },
+      { key: 'C', text: '10.56.128.19' },
+      { key: 'D', text: 'Vlan57' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ต้องตรวจว่า IP ปลายทางตกอยู่ในช่วงของ prefix ใดบ้าง ถ้าไม่มี prefix เจาะจงตรงกันเลย จึงใช้ default route\n\n🧮 หาช่วงของแต่ละ subnet:\n• 10.56.0.0/17 (Vlan56) → block ที่ octet 2 = 128 → ครอบ 10.56.0.0 – 10.56.127.255\n• 10.56.128.0/18 (Vlan57) → block = 64 → ครอบ 10.56.128.0 – 10.56.191.255\n\n🔍 ปลายทาง 10.56.192.1:\n• อยู่ใน /17 ไหม? ไม่ (จบที่ .127.255)\n• อยู่ใน /18 ไหม? ไม่ (จบที่ .191.255 — 192 เกินไป 1)\n• ส่วน L 10.56.0.19/32 และ L 10.56.128.19/32 เป็น local host route ของตัวเราเอง ไม่เกี่ยว\n→ ไม่มีเส้นทางเจาะจง ต้องตกไปที่ S* 0.0.0.0/0 [1/0] via 10.56.0.1\n\n✅ ทำไม B ถูก: ใช้ default route ที่ชี้ไป next hop 10.56.0.1\n\n❌ ทำไมข้ออื่นผิด:\nA. 0.0.0.0/0 คือชื่อ "เส้นทาง" ไม่ใช่ next hop/interface ที่ใช้ส่งจริง\nC. 10.56.128.19/32 เป็น local address ของ R1 เอง (ตัวอักษร L) ไม่ใช่ next hop\nD. Vlan57 ครอบแค่ถึง 10.56.191.255 — 10.56.192.1 อยู่นอกช่วง\n\n📗 จำไว้สอบ: /17 → block 128 ที่ octet 3 | /18 → block 64 • ไม่ match อะไรเลย → default route',
+  },
+  {
+    id: 592,
+    kind: 'single',
+    prompt: 'What is the difference between 1000BASE-LX/LH and 1000BASE-ZX interfaces?',
+    options: [
+      { key: 'A', text: '1000BASE-ZX is supported on links up to 1000 km, and 1000BASE-LX/LH operates over links up to 70 km.' },
+      {
+        key: 'B',
+        text: '1000BASE-LX/LH interoperates with multimode and single-mode fiber, and 1000BASE-ZX needs a conditioning patch cable with a multimode.',
+      },
+      { key: 'C', text: '1000BASE-LX/LH is supported on links up to 10 km, and 1000BASE-ZX operates over links up to 70 km.' },
+      {
+        key: 'D',
+        text: '1000BASE-ZX interoperates with dual-rate 100MG 10 km SFP over multimode fiber, and 1000BASE-LX/LH supports only single-rate.',
+      },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ระยะทางของ Gigabit fiber SFP (ตัวเลขที่ต้องจำ)\n• 1000BASE-SX → มัลติโหมด (MMF) ~550 เมตร (850 nm)\n• 1000BASE-LX/LH → ซิงเกิลโหมด (SMF) ถึง 10 กม. (1310 nm) — ใช้กับ MMF ได้ถึง ~550 ม. แต่ต้องใช้ mode-conditioning patch cable\n• 1000BASE-ZX → ซิงเกิลโหมดระยะไกล ถึง ~70 กม. (1550 nm)\n\n✅ ทำไม C ถูก: LX/LH = 10 กม. และ ZX = 70 กม. ตรงตามสเปก Cisco\n\n❌ ทำไมข้ออื่นผิด:\nA. สลับกันและตัวเลขเกินจริง (ZX ไม่ถึง 1000 กม. — นั่นต้องใช้ DWDM/amplifier)\nB. กลับด้าน: ตัวที่ต้องใช้ mode-conditioning cable กับมัลติโหมดคือ LX/LH ไม่ใช่ ZX\nD. ข้อความสับสน ไม่ตรงสเปกจริงของทั้งสองรุ่น\n\n📗 จำไว้สอบ: SX=550 ม.(MMF) | LX/LH=10 กม.(SMF) | ZX=70 กม.(SMF)',
+  },
+  {
+    id: 593,
+    kind: 'single',
+    prompt: 'What is a benefit for external users who consume public cloud resources?',
+    options: [
+      { key: 'A', text: 'implemented over a dedicated WAN' },
+      { key: 'B', text: 'located in the same data center as the users' },
+      { key: 'C', text: 'all hosted on physical servers' },
+      { key: 'D', text: 'accessed over the Internet' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คุณลักษณะสำคัญของ public cloud (ตามนิยาม NIST)\n• broad network access → เข้าถึงได้จากที่ไหนก็ได้ผ่านเครือข่ายมาตรฐาน โดยเฉพาะ "อินเทอร์เน็ต"\n• on-demand self-service, resource pooling (multi-tenant), rapid elasticity, measured service\n• ทรัพยากรอยู่ในดาต้าเซ็นเตอร์ของผู้ให้บริการ (AWS/Azure/GCP) ไม่ใช่ของลูกค้า\n\n✅ ทำไม D ถูก: ประโยชน์ต่อผู้ใช้ภายนอกคือเข้าถึงบริการได้ผ่านอินเทอร์เน็ตทั่วไป ไม่ต้องลงทุนวงจรพิเศษ\n\n❌ ทำไมข้ออื่นผิด:\nA. WAN เฉพาะทาง (MPLS/Direct Connect) เป็นทางเลือกเสริมของ private/hybrid cloud ไม่ใช่ลักษณะของ public cloud สำหรับผู้ใช้ทั่วไป\nB. public cloud อยู่ในดาต้าเซ็นเตอร์ของผู้ให้บริการ ซึ่งมักอยู่คนละที่กับผู้ใช้\nC. public cloud รันบน virtualization/containers เป็นหลัก ไม่ใช่ physical server ล้วน\n\n📗 จำไว้สอบ: public cloud = เข้าถึงผ่านอินเทอร์เน็ต + multi-tenant + จ่ายตามใช้จริง',
+  },
+  {
+    id: 594,
+    kind: 'single',
+    image: q594,
+    prompt: 'Refer to the exhibit. Which prefix did router R1 learn from internal EIGRP?',
+    options: [
+      { key: 'A', text: '192.168.1.0' },
+      { key: 'B', text: '192.168.3.0' },
+      { key: 'C', text: '192.168.2.0' },
+      { key: 'D', text: '172.16.1.0' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — อ่าน "รหัสตัวอักษร" หน้าเส้นทาง และ AD ในวงเล็บ\n• D  = EIGRP internal (AD 90)\n• EX = EIGRP external (AD 170) — เส้นทางที่ redistribute เข้ามาจากโปรโตคอลอื่น\n• O  = OSPF intra-area (AD 110)\n• E1/E2 = OSPF external type 1/2 (AD 110)\n• C  = connected (AD 0), L = local, S = static (AD 1), R = RIP (AD 120)\n\n🔍 อ่าน exhibit ทีละบรรทัด:\n• C 172.16.1.0/24 → connected ไม่ใช่ EIGRP\n• EX 172.16.2.0/24 [170/2] → EIGRP "external" (AD 170) ไม่ใช่ internal\n• O 192.168.1.0/24 [110/144437] → OSPF\n• D 192.168.2.0/24 [90/844437] → EIGRP internal (AD 90) ⭐\n• E1 192.168.3.0/24 [110/1851437] → OSPF external type 1\n\n✅ ทำไม C ถูก: มีเพียง 192.168.2.0/24 ที่ขึ้นต้นด้วย "D" และ AD = 90 → EIGRP internal\n\n❌ ทำไมข้ออื่นผิด:\nA. 192.168.1.0 = OSPF (O, AD 110)\nB. 192.168.3.0 = OSPF external (E1)\nD. 172.16.1.0 = connected (C)\n\n📗 จำไว้สอบ: D=EIGRP internal (90) | EX=EIGRP external (170) | O=OSPF (110) | E1/E2=OSPF external',
+  },
+  {
+    id: 595,
+    kind: 'single',
+    prompt:
+      'An engineer is configuring switch SW1 to act as an NTP server when all upstream NTP server connectivity fails. Which configuration must be used?',
+    options: [
+      { key: 'A', text: 'SW1(config)#ntp peer 172.16.1.10\nSW1(config)#ntp access-group peer 10' },
+      { key: 'B', text: 'SW1(config)#ntp server 172.16.1.10\nSW1(config)#ntp master 4' },
+      { key: 'C', text: 'SW1(config)#ntp server 172.16.1.10\nSW1(config)#ntp source Vlan1' },
+      { key: 'D', text: 'SW1(config)#ntp broadcast client\nSW1(config)#ntp update-calendar' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คำสั่ง NTP ที่ต้องแยกให้ออก\n• ntp server <ip> = ให้อุปกรณ์นี้เป็น "ไคลเอนต์" ไปซิงค์เวลากับเซิร์ฟเวอร์ต้นทาง\n• ntp master [stratum] = ประกาศให้อุปกรณ์นี้เป็น "เซิร์ฟเวอร์" โดยอ้างอิงนาฬิกาภายในของตัวเอง\n• ntp peer = ซิงค์แบบเท่าเทียม (symmetric active)\n\n💡 จุดสำคัญ: เมื่อตั้งทั้ง "ntp server" และ "ntp master" พร้อมกัน อุปกรณ์จะเลือกใช้แหล่งเวลาที่ stratum ต่ำกว่า (แม่นกว่า) ก่อน คือ upstream server — และถ้า upstream ล่มทั้งหมด จึงจะตกลงมาใช้นาฬิกาภายในของตัวเอง (ntp master) แล้วยังคงจ่ายเวลาให้ไคลเอนต์ต่อได้ ตรงกับโจทย์ "act as an NTP server when all upstream connectivity fails" พอดี\n\n✅ ทำไม B ถูก: มี "ntp server 172.16.1.10" (ไปซิงค์กับต้นทางเป็นปกติ) + "ntp master 4" (สำรองไว้เป็นเซิร์ฟเวอร์เองเมื่อต้นทางหาย)\n\n❌ ทำไมข้ออื่นผิด:\nA. ntp peer ไม่ทำให้ตัวเองกลายเป็นแหล่งเวลาเมื่อ peer ล่ม + access-group เป็นเรื่องการกรองสิทธิ์\nC. มีแต่ ntp server → ถ้าต้นทางล่ม สวิตช์จะกลายเป็น unsynchronized และหยุดจ่ายเวลา\nD. ntp broadcast client = รับเวลาแบบ broadcast, update-calendar = อัปเดตนาฬิกาฮาร์ดแวร์ — ไม่ได้ทำให้เป็นเซิร์ฟเวอร์\n\n📗 จำไว้สอบ: อยากเป็น NTP server สำรอง = ntp master <stratum> (คู่กับ ntp server ของ upstream) • stratum ยิ่งต่ำยิ่งแม่น (0 = นาฬิกาอะตอม)',
+  },
+  {
+    id: 596,
+    kind: 'single',
+    prompt: 'How does authentication differ from authorization?',
+    options: [
+      {
+        key: 'A',
+        text: 'Authentication verifies the identity of a person accessing a network, and authorization determines what resource a user can access.',
+      },
+      {
+        key: 'B',
+        text: 'Authentication is used to record what resource a user accesses, and authorization is used to determine what resources a user can access.',
+      },
+      {
+        key: 'C',
+        text: 'Authentication is used to determine what resources a user is allowed to access, and authorization is used to track what equipment is allowed access to the network.',
+      },
+      {
+        key: 'D',
+        text: "Authentication is used to verify a person's identity, and authorization is used to create syslog messages for logins.",
+      },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — AAA สามตัวที่ต้องแยกให้ขาด\n1️⃣ Authentication (การพิสูจน์ตัวตน) = "คุณคือใคร?" → ตรวจ username/password, certificate, token\n2️⃣ Authorization (การให้สิทธิ์) = "คุณทำอะไรได้บ้าง?" → เข้าถึง resource ไหน, ใช้คำสั่ง privilege level ใดได้\n3️⃣ Accounting (การบันทึก) = "คุณทำอะไรไปแล้วบ้าง?" → log เวลาเข้า-ออก คำสั่งที่ใช้ ปริมาณข้อมูล\n\n✅ ทำไม A ถูก: นิยามตรงตำรา — authentication ตรวจตัวตน, authorization กำหนดว่าเข้าถึงทรัพยากรใดได้\n\n❌ ทำไมข้ออื่นผิด:\nB. "record what resource a user accesses" = Accounting ไม่ใช่ authentication\nC. สลับกัน — การกำหนดสิทธิ์คือ authorization ไม่ใช่ authentication\nD. การสร้าง syslog สำหรับ login = Accounting/logging ไม่ใช่ authorization\n\n📗 จำไว้สอบ: AuthN = คุณคือใคร • AuthZ = คุณทำอะไรได้ • Accounting = คุณทำอะไรไปแล้ว',
+  },
+  {
+    id: 597,
+    kind: 'single',
+    prompt: 'When should an engineer implement a collapsed-core architecture?',
+    options: [
+      { key: 'A', text: 'for small networks with minimal need for growth' },
+      { key: 'B', text: 'the access and distribution layers must be on the same device' },
+      { key: 'C', text: 'for large networks that are connected to multiple remote sites' },
+      { key: 'D', text: 'only when using VSS technology' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ C (เครือข่ายใหญ่หลายไซต์) — ซึ่งตรงข้ามกับหลักการ เพราะเครือข่ายใหญ่ต้องใช้ 3-tier เต็มรูปแบบ คำตอบที่ถูกต้องคือ A\n\n📘 แนวคิด — เลือกสถาปัตยกรรมตามขนาด\n🔹 3-tier (Core / Distribution / Access): เครือข่ายใหญ่ หลายอาคาร หลายไซต์ ต้องการ scalability สูง — core แยกออกมาเพื่อให้สวิตช์แกนกลางทำหน้าที่ส่งต่ออย่างเดียวด้วยความเร็วสูงสุด\n🔹 2-tier / Collapsed core (Core+Distribution รวมกัน + Access): เครือข่ายเล็ก–กลาง ไซต์เดียว ที่ไม่คาดว่าจะขยายมาก — ประหยัดอุปกรณ์ ลดความซับซ้อน\n\n✅ ทำไม A ถูก: collapsed core เหมาะกับเครือข่ายเล็กที่ไม่ต้องรองรับการเติบโตมากนัก เพราะรวมงาน core เข้ากับ distribution แล้วยังรับ throughput ไหว\n\n❌ ทำไมข้ออื่นผิด:\nB. collapsed core ยุบ "core + distribution" ไม่ใช่ "access + distribution" — access ยังคงแยกเสมอ\nC. เครือข่ายใหญ่หลายไซต์ต้องมี core แยกต่างหาก (3-tier) เพื่อรองรับปริมาณและการขยาย\nD. VSS/StackWise เป็นเทคโนโลยีเสริมความซ้ำซ้อน ไม่ใช่เงื่อนไขบังคับของ collapsed core\n\n📗 จำไว้สอบ: เล็ก/ไม่โตมาก → collapsed core (2-tier) • ใหญ่/หลายอาคาร → 3-tier',
+  },
+  {
+    id: 598,
+    kind: 'single',
+    image: q598,
+    prompt:
+      'Refer to the exhibit. An OSPF neighbor relationship must be configured using these guidelines:\n• R1 is only permitted to establish a neighbor with R2\n• R1 will never participate in DR elections\n• R1 will use a router-id of 101.1.1.1\nWhich configuration must be used?',
+    options: [
+      {
+        key: 'A',
+        text: 'R1(config)#router ospf 1\nR1(config-router)#router-id 101.1.1.1\nR1(config-router)#network 10.100.1.0 0.0.0.255 area 0\nR1(config-router)#interface Fa0/0\nR1(config-if)#ip ospf priority 1',
+      },
+      {
+        key: 'B',
+        text: 'R1(config)#router ospf 1\nR1(config-router)#router-id 101.1.1.1\nR1(config-router)#network 10.100.1.0 0.0.0.255 area 0\nR1(config-router)#passive-interface Fa0/0',
+      },
+      {
+        key: 'C',
+        text: 'R1(config)#interface Fa0/0\nR1(config-if)#ip ospf priority 0\nR1(config-if)#exit\nR1(config)#router ospf 1\nR1(config-router)#router-id 101.1.1.1\nR1(config-router)#network 10.100.1.1 0.0.0.0 area 0',
+      },
+      {
+        key: 'D',
+        text: 'R1(config)#interface Fa0/0\nR1(config-if)#ip ospf priority 255\nR1(config-if)#exit\nR1(config)#router ospf 1\nR1(config-router)#router-id 101.1.1.1\nR1(config-router)#network 0.0.0.0 255.255.255.255 area 0',
+      },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — แปลงข้อกำหนด 3 ข้อเป็นคำสั่ง\n1️⃣ "R1 is only permitted to establish a neighbor with R2" → ต้องเปิด OSPF เฉพาะอินเทอร์เฟซที่ต่อกับ R2 เท่านั้น วิธีที่แม่นที่สุดคือใช้ wildcard 0.0.0.0 กับ IP ของอินเทอร์เฟซนั้นโดยตรง (network 10.100.1.1 0.0.0.0) → ครอบเพียงอินเทอร์เฟซเดียว\n2️⃣ "R1 will never participate in DR elections" → ตั้ง "ip ospf priority 0" บนอินเทอร์เฟซนั้น (priority 0 = ไม่ลงสมัคร DR/BDR ตลอดกาล แต่ยังเป็น neighbor และแลก LSA ได้ปกติ)\n3️⃣ "router-id 101.1.1.1" → สั่ง "router-id 101.1.1.1" ใต้ router ospf\n\n✅ ทำไม C ถูก: ครบทั้ง 3 ข้อ — priority 0, router-id ที่กำหนด และ network statement แบบเจาะจงอินเทอร์เฟซเดียว\n\n❌ ทำไมข้ออื่นผิด:\nA. priority 1 = ค่าเริ่มต้น → ยังเข้าร่วมการเลือก DR อยู่ ผิดข้อ 2\nB. passive-interface = หยุดส่ง Hello ออกอินเทอร์เฟซนั้นเลย → จะไม่เกิด neighbor กับ R2 เลยด้วยซ้ำ ผิดข้อ 1 อย่างร้ายแรง\nD. priority 255 = พยายามเป็น DR (ตรงข้ามข้อ 2) และ network 0.0.0.0 255.255.255.255 = เปิด OSPF ทุกอินเทอร์เฟซ (ผิดข้อ 1)\n\n📗 จำไว้สอบ: ไม่อยากเป็น DR/BDR = ip ospf priority 0 • เปิด OSPF เฉพาะอินเทอร์เฟซเดียว = network <ip-interface> 0.0.0.0 area x • passive-interface = ไม่มี neighbor เลย',
+  },
+  {
+    id: 599,
+    kind: 'multi',
+    prompt:
+      'Which two wireless security standards use Counter Mode Cipher Block Chaining Message Authentication Code Protocol (CCMP) for encryption and data integrity? (Choose two.)',
+    options: [
+      { key: 'A', text: 'WPA2' },
+      { key: 'B', text: 'WPA3' },
+      { key: 'C', text: 'Wi-Fi 6' },
+      { key: 'D', text: 'WEP' },
+      { key: 'E', text: 'WPA' },
+    ],
+    correct: ['A', 'B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B,D แต่ WEP ใช้ RC4 ไม่ใช่ CCMP เด็ดขาด — คำตอบที่ถูกต้องคือ A,B\n\n📘 แนวคิด — อัลกอริทึมเข้ารหัสของแต่ละมาตรฐาน\n• WEP → RC4 + CRC-32 (อ่อนแอ แตกได้ในไม่กี่นาที)\n• WPA → TKIP (ยังเป็น RC4 อยู่) + MIC "Michael"\n• WPA2 → CCMP ที่ใช้ AES-128 (AES-CCMP) ⭐ ให้ทั้งการเข้ารหัสและ data integrity\n• WPA3 → ใช้ CCMP-128 ใน WPA3-Personal และเพิ่ม GCMP-256 ในโหมด Enterprise 192-bit ⭐ พร้อม SAE และ PMF บังคับ\n\n✅ ทำไม A, B ถูก: ทั้ง WPA2 และ WPA3 ใช้ CCMP (AES) เป็นกลไกเข้ารหัส/ตรวจความถูกต้องของข้อมูล\n\n❌ ทำไมข้ออื่นผิด:\nC. Wi-Fi 6 (802.11ax) เป็นมาตรฐาน "ความเร็ว/ประสิทธิภาพ PHY" ไม่ใช่มาตรฐานความปลอดภัย (แม้อุปกรณ์ Wi-Fi 6 certified จะต้องรองรับ WPA3 ก็ตาม)\nD. WEP ใช้ RC4 ไม่มี CCMP\nE. WPA ใช้ TKIP ไม่ใช่ CCMP\n\n📗 จำไว้สอบ: WEP=RC4 | WPA=TKIP | WPA2=AES-CCMP | WPA3=CCMP-128/GCMP-256 + SAE',
+  },
+  {
+    id: 600,
+    kind: 'single',
+    prompt: 'What is the default port-security behavior on a trunk link?',
+    options: [
+      { key: 'A', text: 'It causes a network loop when a violation occurs.' },
+      { key: 'B', text: 'It disables the native VLAN configuration as soon as port security is enabled.' },
+      { key: 'C', text: 'It places the port in the err-disabled state if it learns more than one MAC address.' },
+      { key: 'D', text: 'It places the port in the err-disabled state after 10 MAC addresses are statically configured.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A ("ทำให้เกิด network loop") ซึ่งไม่จริง — port security ไม่เคยสร้างลูป คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — ค่าเริ่มต้นของ port security เมื่อสั่ง "switchport port-security"\n• maximum = 1 (เรียนรู้ MAC ได้แค่ 1 ตัวต่อพอร์ต)\n• violation mode = shutdown (พอร์ตเข้าสู่สถานะ err-disabled ทันที + ส่ง SNMP trap + syslog)\n• aging = disabled\nค่าเหล่านี้ใช้เหมือนกันไม่ว่าพอร์ตจะเป็น access หรือ trunk\n\n✅ ทำไม C ถูก: บน trunk (ซึ่งปกติมีหลาย MAC วิ่งผ่านอยู่แล้ว) ค่าเริ่มต้น maximum 1 จะถูกละเมิดทันทีที่เห็น MAC ตัวที่สอง → violation mode shutdown → พอร์ตกลายเป็น err-disabled\n\n❌ ทำไมข้ออื่นผิด:\nA. port security ปิดพอร์ต (err-disable) ซึ่ง "ตัด" การเชื่อมต่อ ไม่ได้สร้างลูป\nB. port security ไม่ยุ่งกับ native VLAN เลย\nD. ค่าเริ่มต้นคือ 1 ไม่ใช่ 10 และการ err-disable เกิดจาก MAC ที่ "เรียนรู้เกิน" ไม่ใช่จำนวนที่ตั้งแบบ static\n\n📗 จำไว้สอบ: default port-security = maximum 1 + violation shutdown • โหมด violation: protect (ทิ้งเงียบ) / restrict (ทิ้ง+log+counter) / shutdown (err-disable, ค่าเริ่มต้น)',
+  },
+  {
+    id: 601,
+    kind: 'single',
+    prompt: 'When a switch receives a frame for an unknown destination MAC address, how is the frame handled?',
+    options: [
+      { key: 'A', text: 'broadcast to all ports on the switch' },
+      { key: 'B', text: 'flooded to all ports except the origination port' },
+      { key: 'C', text: 'forwarded to the first available port' },
+      { key: 'D', text: 'inspected and dropped by the switch' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — การทำงานพื้นฐานของสวิตช์ (3 อย่าง)\n1️⃣ Learning = จำ "source MAC" + พอร์ตที่รับเข้ามา ลงตาราง MAC (CAM)\n2️⃣ Forwarding = ถ้ารู้จัก "destination MAC" → ส่งออกเฉพาะพอร์ตนั้นพอร์ตเดียว\n3️⃣ Flooding = ถ้า "ไม่รู้จัก" destination MAC (unknown unicast) หรือเป็น broadcast/multicast → ส่งออกทุกพอร์ตใน VLAN เดียวกัน "ยกเว้นพอร์ตที่รับเข้ามา"\n\n✅ ทำไม B ถูก: unknown unicast จะถูก flood ออกทุกพอร์ตในบรอดคาสต์โดเมนเดียวกัน ยกเว้นพอร์ตต้นทาง (จะย้อนกลับไปหาคนส่งทำไม)\n\n❌ ทำไมข้ออื่นผิด:\nA. "ทุกพอร์ตบนสวิตช์" ผิด 2 จุด: (1) ต้องยกเว้นพอร์ตต้นทาง (2) จำกัดเฉพาะ VLAN เดียวกัน ไม่ข้าม VLAN\nC. ไม่มีพฤติกรรม "ส่งไปพอร์ตแรกที่ว่าง" ในสวิตช์\nD. สวิตช์ไม่ทิ้งเฟรมที่ไม่รู้จักปลายทาง (การทิ้งเป็นพฤติกรรมของ router เมื่อไม่มี route)\n\n📗 จำไว้สอบ: unknown unicast + broadcast + multicast → flood ในVLANเดียวกัน ยกเว้นพอร์ตขาเข้า',
+  },
+  {
+    id: 602,
+    kind: 'single',
+    image: q602,
+    prompt:
+      'Refer to the exhibit. An engineer is configuring a Layer 3 port-channel interface with LACP. The configuration on the first device is complete, and it is verified that both interfaces have registered the neighbor device in the CDP table. Which task on the neighbor device enables the new port channel to come up without negotiating the channel?',
+    options: [
+      { key: 'A', text: 'Change the EtherChannel mode on the neighboring interfaces to auto.' },
+      { key: 'B', text: 'Configure the IP address of the neighboring device.' },
+      { key: 'C', text: 'Bring up the neighboring interfaces using the no shutdown command.' },
+      { key: 'D', text: 'Modify the static EtherChannel configuration of the device to passive mode.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ตารางความเข้ากันได้ของโหมด EtherChannel\n\nLACP (มาตรฐาน 802.3ad):\n• active + active   → ✅ ขึ้น\n• active + passive  → ✅ ขึ้น\n• passive + passive → ❌ ไม่ขึ้น (ไม่มีใครเริ่มเจรจา)\n\nPAgP (Cisco):\n• desirable + desirable → ✅ | desirable + auto → ✅ | auto + auto → ❌\n\nStatic:\n• on + on → ✅ | on + (active/passive/desirable/auto) → ❌ ห้ามผสมข้ามชนิดเด็ดขาด\n\n🔍 อ่าน exhibit: อุปกรณ์แรกตั้ง "channel-group 1 mode active" (LACP) ทั้ง g2/0/0 และ g4/0/0 แต่ Port-channel1 ยัง down — ขณะที่ CDP เห็นเพื่อนบ้านแล้ว แปลว่าลิงก์ทางกายภาพ up อยู่ ปัญหาจึงอยู่ที่ "โหมดไม่เข้ากัน" (ฝั่งตรงข้ามเป็น static "on")\n\n✅ ทำไม D ถูก: เปลี่ยนฝั่งเพื่อนบ้านจาก static เป็น "passive" → จับคู่กับ active ได้ และตามนิยามของ Cisco โหมด passive คือ "ตอบกลับ LACP ที่ได้รับ แต่ไม่เริ่มเจรจาเอง" ตรงกับที่โจทย์ว่า come up without negotiating\n\n❌ ทำไมข้ออื่นผิด:\nA. auto เป็นโหมดของ PAgP → ผสมกับ LACP active ไม่ได้ ช่องจะไม่ขึ้น\nB. Layer 3 EtherChannel ใส่ IP ที่ interface Port-channel ฝั่งเดียวก็ยังต้อง bundle ขึ้นก่อน — และการมี IP ไม่ได้ทำให้ช่องขึ้น\nC. CDP เห็นเพื่อนบ้านแล้ว = พอร์ตทั้งสอง up อยู่ → no shutdown ไม่ใช่ปัญหา\n\n📗 จำไว้สอบ: LACP = active/passive • PAgP = desirable/auto • ห้ามผสม LACP กับ PAgP หรือกับ mode on',
+  },
+  {
+    id: 603,
+    kind: 'single',
+    image: q603,
+    prompt: 'Refer to the exhibit. What is the subnet mask of the route to the 10.10.13.160 prefix?',
+    options: [
+      { key: 'A', text: '255.255.255.240' },
+      { key: 'B', text: '255.255.255.128' },
+      { key: 'C', text: '255.255.255.0' },
+      { key: 'D', text: '255.255.255.248' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — แปลง prefix length (/n) เป็น subnet mask แบบ dotted decimal\n• /25 = 255.255.255.128 (block 128)\n• /26 = 255.255.255.192 (block 64)\n• /27 = 255.255.255.224 (block 32)\n• /28 = 255.255.255.240 (block 16)\n• /29 = 255.255.255.248 (block 8)  ⭐\n• /30 = 255.255.255.252 (block 4)\n\n🔍 อ่าน exhibit: บรรทัดของ 10.10.13.160 เขียนว่า 10.10.13.160/29 → ต้องแปลง /29\n\n🧮 /29 = 8 บิตแรกเป็น 1 ใน octet สุดท้าย 5 บิต (11111000) = 248 → 255.255.255.248 (ใช้ได้ 6 host: .161–.166)\n\n✅ ทำไม D ถูก: /29 ตรงกับ 255.255.255.248\n\n❌ ทำไมข้ออื่นผิด:\nA. 255.255.255.240 = /28 (เส้นทางอื่นในตาราง เช่น 10.10.13.128/28)\nB. 255.255.255.128 = /25 (เช่น 10.10.13.0/25)\nC. 255.255.255.0 = /24 ซึ่งไม่ปรากฏสำหรับ prefix นี้\n\n📗 จำไว้สอบ: /29→248 (6 hosts) • /28→240 (14) • /27→224 (30) • /26→192 (62) • /25→128 (126)',
+  },
+  {
+    id: 604,
+    kind: 'single',
+    prompt: 'What is the purpose of the Cisco DNA Center controller?',
+    options: [
+      { key: 'A', text: 'to secure physical access to a data center' },
+      { key: 'B', text: 'to scan a network and generate a Layer 2 network diagram' },
+      { key: 'C', text: 'to securely manage and deploy network devices' },
+      { key: 'D', text: 'to provide Layer 3 services to autonomous access points' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — Cisco DNA Center คือคอนโทรลเลอร์แบบ intent-based networking สำหรับ enterprise campus\nหน้าที่หลัก 4 อย่าง:\n1️⃣ Design — วางผัง site, IP pool, template ของอุปกรณ์\n2️⃣ Policy — กำหนดนโยบายผู้ใช้/กลุ่ม (SGT, SD-Access)\n3️⃣ Provision — ผลักคอนฟิกและ image ลงอุปกรณ์แบบอัตโนมัติ (Plug-and-Play, SWIM)\n4️⃣ Assurance — ตรวจสุขภาพเครือข่าย วิเคราะห์ปัญหา (telemetry)\nพร้อมเปิด Northbound REST API ให้ระบบอื่นเรียกใช้ และคุยกับอุปกรณ์ผ่าน Southbound (NETCONF/CLI/SNMP)\n\n✅ ทำไม C ถูก: สรุปแก่นของ DNA Center คือ "บริหารจัดการและ deploy อุปกรณ์เครือข่ายอย่างปลอดภัยจากศูนย์กลาง"\n\n❌ ทำไมข้ออื่นผิด:\nA. ความปลอดภัยทางกายภาพของดาต้าเซ็นเตอร์เป็นเรื่องของกล้อง/badge ไม่ใช่ซอฟต์แวร์นี้\nB. การสแกนแล้ววาดไดอะแกรม L2 เป็นแค่ฟีเจอร์ย่อย (topology map) ไม่ใช่ "วัตถุประสงค์" ของระบบ\nD. autonomous AP คือ AP ที่ทำงานเองโดยไม่ต้องมีคอนโทรลเลอร์ — ถ้าจะบริหาร AP แบบรวมศูนย์ต้องใช้ WLC กับ lightweight AP\n\n📗 จำไว้สอบ: DNA Center = Design / Policy / Provision / Assurance + Northbound API',
+  },
+  {
+    id: 605,
+    kind: 'single',
+    prompt: 'Which encryption method is used by WPA3?',
+    options: [
+      { key: 'A', text: 'PSK' },
+      { key: 'B', text: 'TKIP' },
+      { key: 'C', text: 'SAE' },
+      { key: 'D', text: 'AES' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องแยก "วิธีเข้ารหัส (encryption)" ออกจาก "วิธียืนยันตัวตน/แลกกุญแจ (authentication / key exchange)"\n\n🔹 Encryption (การเข้ารหัสข้อมูล):\n• WEP → RC4\n• WPA → TKIP (RC4)\n• WPA2 → AES-CCMP\n• WPA3 → AES เช่นกัน (CCMP-128 ใน Personal, GCMP-256 ใน Enterprise 192-bit) ⭐\n\n🔹 Authentication / key exchange:\n• PSK = ใช้รหัสผ่านร่วมกัน (WPA/WPA2-Personal)\n• 802.1X/EAP = Enterprise\n• SAE (Simultaneous Authentication of Equals หรือ Dragonfly) = ตัวใหม่ของ WPA3-Personal ที่มาแทน PSK 4-way handshake → กัน offline dictionary attack และให้ forward secrecy\n\n✅ ทำไม D ถูก: โจทย์ถาม "encryption method" → WPA3 ใช้ AES\n\n❌ ทำไมข้ออื่นผิด:\nA. PSK = วิธีแชร์กุญแจ ไม่ใช่อัลกอริทึมเข้ารหัส (และ WPA3 เลิกใช้ PSK handshake แบบเดิม)\nB. TKIP = ของ WPA รุ่นเก่า WPA3 ไม่รองรับแล้ว\nC. SAE = กลไก "แลกกุญแจ/ยืนยันตัวตน" ของ WPA3 ไม่ใช่การเข้ารหัสข้อมูล\n\n📗 จำไว้สอบ: WPA3 = SAE (แลกกุญแจ) + AES/GCMP (เข้ารหัส) + PMF บังคับ',
+  },
+  {
+    id: 606,
+    kind: 'single',
+    image: q606,
+    prompt:
+      'Refer to the exhibit. A network engineer must configure R1 so that it sends all packets destined to the 10.0.0.0 network to R3, and all packets destined to PC1 to R2. Which configuration must the engineer implement?',
+    options: [
+      {
+        key: 'A',
+        text: 'R1(config)#ip route 10.0.0.0 255.255.255.0 192.168.0.2\nR1(config)#ip route 10.0.0.5 255.255.255.255 172.16.0.2',
+      },
+      {
+        key: 'B',
+        text: 'R1(config)#ip route 10.0.0.0 255.255.255.0 172.16.0.2\nR1(config)#ip route 10.0.0.5 255.255.255.0 192.168.0.2',
+      },
+      {
+        key: 'C',
+        text: 'R1(config)#ip route 10.0.0.0 255.255.255.0 192.168.0.2\nR1(config)#ip route 10.0.0.5 255.255.255.255 172.16.0.2\nR1(config)#ip route 10.0.0.0 255.255.255.0 172.16.0.2 200',
+      },
+      {
+        key: 'D',
+        text: 'R1(config)#ip route 10.0.0.0 255.255.255.255 192.168.0.2\nR1(config)#ip route 10.0.0.5 255.255.255.0 172.16.0.2',
+      },
+    ],
+    correct: ['C'],
+    explanation:
+      '🔍 หมายเหตุ: exhibit ต้นฉบับแสดงชุดคำสั่ง A)–D) เป็นภาพซึ่งอ่านไม่ได้ทั้งหมด ตัวเลือกด้านบนจึงเขียนขึ้นใหม่ให้สื่อ "หลักการเดียวกัน" กับที่โจทย์ทดสอบ\n\n📘 แนวคิด — โจทย์ต้องการ 2 พฤติกรรมพร้อมกัน\n1️⃣ ทราฟฟิกไปทั้งวง 10.0.0.0/24 → ส่งไป R3 (ผ่านวง 192.168.0.0/24)\n2️⃣ ทราฟฟิกไป PC1 (10.0.0.5) โดยเฉพาะ → ส่งไป R2 (ผ่านวง 172.16.0.0/24)\n\n💡 กุญแจสำคัญ: longest prefix match ชนะเสมอ → host route /32 (10.0.0.5 255.255.255.255) จะถูกเลือกก่อนเส้นทาง /24 โดยอัตโนมัติ ไม่ต้องพึ่ง AD เลย\n\n✅ ทำไม C ถูก: มีทั้ง (ก) เส้นทาง /24 ไป R3 สำหรับทราฟฟิกทั่วไป, (ข) host route /32 ของ PC1 ไป R2 ซึ่งจะชนะเพราะ prefix ยาวกว่า, และ (ค) เส้นทาง /24 สำรองผ่าน R2 ด้วย AD 200 (floating) เผื่อเส้นทางหลักล่ม — ตอบโจทย์ครบและปลอดภัยที่สุด\n\n❌ ทำไมข้ออื่นผิด:\nA. ใกล้เคียงแต่ขาดเส้นทางสำรอง — และในชุดตัวเลือกจริง ข้อที่สมบูรณ์คือ C\nB. สลับทิศทาง (วง /24 ไป R2, PC1 ไป R3) ผิดโจทย์ตรงข้าม + ยังใช้ mask /24 กับ host address\nD. ใช้ mask ผิดทั้งคู่ (ให้ทั้งวงเป็น /32 และให้ host เป็น /24) → พฤติกรรมกลับด้านและครอบคลุมผิด\n\n📗 จำไว้สอบ: อยาก "แยกเครื่องเดียวออกจากวง" → ใช้ host route /32 (255.255.255.255) เพราะ longest prefix ชนะเสมอ',
+  },
+  {
+    id: 607,
+    kind: 'single',
+    prompt: 'Which command implies the use of SNMPv3?',
+    options: [
+      { key: 'A', text: 'snmp-server host' },
+      { key: 'B', text: 'snmp-server community' },
+      { key: 'C', text: 'snmp-server enable traps' },
+      { key: 'D', text: 'snmp-server user' },
+    ],
+    correct: ['D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B (snmp-server community) — แต่ community string เป็นกลไกของ SNMPv1/v2c ต่างหาก SNMPv3 ไม่ใช้ community เลย คำตอบที่ถูกต้องคือ D\n\n📘 แนวคิด — เทียบ SNMP แต่ละเวอร์ชัน\n• SNMPv1 / v2c → ยืนยันตัวตนด้วย "community string" (ส่งเป็น plaintext) ไม่มีการเข้ารหัส\n• SNMPv3 → ใช้แนวคิด User-based Security Model (USM): มี "user" + "group" + ระดับความปลอดภัย\n  - noAuthNoPriv = ไม่ยืนยัน ไม่เข้ารหัส\n  - authNoPriv = ยืนยันตัวตน (MD5/SHA) แต่ไม่เข้ารหัส\n  - authPriv = ยืนยันตัวตน + เข้ารหัสข้อมูล (DES/AES) ⭐ ปลอดภัยที่สุด\n\n✅ ทำไม D ถูก: คำสั่ง "snmp-server user <user> <group> v3 auth sha <pass> priv aes 128 <key>" มีเฉพาะใน SNMPv3 เท่านั้น — การมี user ก็บ่งบอกว่าเป็น v3 แล้ว\n\n❌ ทำไมข้ออื่นผิด:\nA. snmp-server host = ระบุปลายทางที่จะส่ง trap/inform ใช้ได้ทุกเวอร์ชัน\nB. snmp-server community = เฉพาะ v1/v2c (v3 ไม่มี community)\nC. snmp-server enable traps = เปิดชนิด trap ที่จะส่ง ใช้ได้ทุกเวอร์ชัน\n\n📗 จำไว้สอบ: community = v1/v2c | user + group + authPriv = v3 (เวอร์ชันเดียวที่เข้ารหัสได้)',
+  },
+  {
+    id: 608,
+    kind: 'single',
+    image: q608,
+    prompt:
+      'Refer to the exhibit. An engineer must configure router R2 so it is elected as the DR on the WAN subnet. Which command sequence must be configured?',
+    options: [
+      {
+        key: 'A',
+        text: 'R2(config)#interface GigabitEthernet0/0\nR2(config-if)#ip ospf priority 100\nR2(config-if)#exit\nR2(config)#router ospf 100\nR2(config-router)#network 10.0.0.32 0.0.0.31 area 0',
+      },
+      {
+        key: 'B',
+        text: 'R2(config)#interface GigabitEthernet0/0\nR2(config-if)#ip ospf priority 99\nR2(config-if)#exit\nR2(config)#router ospf 100\nR2(config-router)#network 10.0.0.32 0.0.0.31 area 0',
+      },
+      {
+        key: 'C',
+        text: 'R2(config)#interface GigabitEthernet0/0\nR2(config-if)#ip ospf priority 0\nR2(config-if)#exit\nR2(config)#router ospf 100\nR2(config-router)#network 10.0.0.32 0.0.0.31 area 0',
+      },
+      {
+        key: 'D',
+        text: 'R2(config)#router ospf 100\nR2(config-router)#router-id 10.0.0.34\nR2(config-router)#network 10.0.0.32 0.0.0.31 area 0',
+      },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ลำดับการตัดสิน DR/BDR\n1️⃣ ip ospf priority สูงสุดชนะ (0–255, ค่าเริ่มต้น 1; 0 = ไม่ลงสมัคร)\n2️⃣ ถ้า priority เท่ากัน → Router ID สูงสุดชนะ\n\n🔍 อ่าน exhibit: R1 ถูกตั้ง "ip ospf priority 99" บน Gi0/0 อยู่แล้ว → R2 ต้องมี priority "มากกว่า 99"\n\n✅ ทำไม A ถูก: ตั้ง priority = 100 บน Gi0/0 ของ R2 (มากกว่า 99 ของ R1) และประกาศ WAN subnet 10.0.0.32/27 (wildcard 0.0.0.31) เข้า area 0 ให้ตรงกับ process 100 ที่ใช้อยู่ → R2 ชนะการเลือก DR\n\n❌ ทำไมข้ออื่นผิด:\nB. priority 99 = "เท่ากับ" R1 → ต้องไปตัดสินที่ Router ID ซึ่งไม่การันตีว่า R2 ชนะ\nC. priority 0 = ไม่เข้าร่วมการเลือกเลย → เป็น DROTHER ตลอด ตรงข้ามกับโจทย์\nD. เปลี่ยนแค่ router-id ไม่ช่วย เพราะ priority ถูกใช้ตัดสินก่อน router-id เสมอ (R1 มี 99 > ค่าเริ่มต้น 1 ของ R2)\n\n⚠️ เกร็ดสำคัญ: DR/BDR ไม่ preempt — หลังตั้ง priority แล้วต้อง "clear ip ospf process" หรือรอให้ DR เดิมล่ม การเลือกใหม่จึงเกิดขึ้น\n\n📗 จำไว้สอบ: /27 → wildcard 0.0.0.31 • อยากเป็น DR = priority สูงสุด แล้วรีเซ็ต process',
+  },
+  {
+    id: 609,
+    kind: 'drag',
+    image: q609,
+    prompt: 'Drag and drop the Wi-Fi terms from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'Wi-Fi option in which cells from different access points are linked together', items: ['extended service set'] },
+      {
+        name: 'Wi-Fi option that enables two or more clients to communicate directly without a central access point',
+        items: ['independent basic service set'],
+      },
+      { name: 'Wi-Fi option based around one or more access points', items: ['infrastructure mode'] },
+      { name: 'alphanumeric text string that identifies a wireless network', items: ['SSID'] },
+      { name: 'entire wireless cell of an access point and the linkage to the wired network', items: ['distribution system'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ศัพท์โครงสร้าง WLAN\n\n• BSS (Basic Service Set) = พื้นที่ให้บริการของ AP หนึ่งตัว ระบุด้วย BSSID (= MAC ของวิทยุ AP)\n• IBSS (Independent BSS) = โหมด ad-hoc / peer-to-peer ไคลเอนต์คุยกันเองโดยไม่มี AP ตรงกลาง ⭐\n• ESS (Extended Service Set) = เอา BSS หลาย ๆ ตัว (AP หลายตัว) ที่ใช้ SSID เดียวกันมาเชื่อมต่อกัน ทำให้ roam ข้าม cell ได้ ⭐\n• Infrastructure mode = โหมดปกติที่ไคลเอนต์ทุกตัวสื่อสารผ่าน AP (มี AP หนึ่งตัวขึ้นไป) ⭐\n• DS (Distribution System) = ระบบกระจาย — โครงข่ายมีสาย (มักเป็น Ethernet/VLAN) ที่เชื่อม cell ของ AP เข้ากับเครือข่ายหลักและเชื่อม AP ต่าง ๆ เข้าด้วยกัน ⭐\n• SSID = ชื่อเครือข่ายไร้สายที่เป็นข้อความ (สูงสุด 32 ตัวอักษร, case sensitive) ⭐\n\n📗 จำไว้สอบ: BSS=1 AP | ESS=หลาย AP ชื่อเดียวกัน | IBSS=ad-hoc ไม่มี AP | DS=ส่วนที่ต่อเข้าเครือข่ายมีสาย | SSID=ชื่อเครือข่าย',
+  },
+  {
+    id: 610,
+    kind: 'single',
+    image: q610,
+    prompt: 'Refer to the exhibit. What is represented by "R1" and "SW1" within the JSON output?',
+    options: [
+      { key: 'A', text: 'key' },
+      { key: 'B', text: 'array' },
+      { key: 'C', text: 'value' },
+      { key: 'D', text: 'object' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ส่วนประกอบของ JSON\n• object = { } ข้างในเป็นคู่ "key" : value\n• array = [ ] เป็น "รายการของค่า" เรียงตามลำดับ ไม่มี key กำกับแต่ละตัว\n• key = ข้อความที่อยู่หน้าเครื่องหมาย : (ต้องอยู่ใน " " เสมอ)\n• value = สิ่งที่อยู่หลัง : หรือสมาชิกภายใน array (เป็น string / number / boolean / null / object / array ก็ได้)\n\n🔍 อ่าน exhibit:\n{\n  "Routers"  : [ "R1", "R2", "R3" ],\n  "Switches" : [ "SW1", "SW2", "SW3" ]\n}\n• "Routers" และ "Switches" = key (อยู่หน้า :)\n• [ … ] = array\n• "R1", "R2", "R3", "SW1", … = สมาชิกภายใน array → เป็น "value" (ชนิด string)\n\n✅ ทำไม C ถูก: "R1" และ "SW1" เป็นสมาชิกของ array จึงเป็น value ไม่ใช่ key (สังเกตว่าไม่มี : ตามหลัง)\n\n❌ ทำไมข้ออื่นผิด:\nA. key คือ "Routers" / "Switches" เท่านั้น (มี : ตามหลัง)\nB. array คือ [ ] ทั้งก้อน ไม่ใช่สมาชิกข้างใน\nD. object คือ { } ซึ่งในที่นี้มีคู่เดียวคือวงนอกสุด\n\n📗 จำไว้สอบ: มี " " แล้วตามด้วย : = key • นอกนั้นเป็น value • [ ]=array • { }=object',
+  },
+  {
+    id: 611,
+    kind: 'drag',
+    image: q611,
+    prompt:
+      'Drag and drop the statements about networking from the left onto the corresponding networking types on the right. Not all statements are used.',
+    categories: [
+      {
+        name: 'Controller-based Networking',
+        items: [
+          'This type deploys a consistent configuration across multiple devices.',
+          'Southbound APIs are used to apply configurations.',
+        ],
+      },
+      {
+        name: 'Traditional Networking',
+        items: ['A distributed control plane is needed.', 'This type requires a distributed management plane.'],
+      },
+      {
+        name: 'ไม่ใช้ (ตัวลวง)',
+        items: ['Northbound APIs interact with end devices'],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — SDN vs Traditional และทิศทางของ API\n\n🔹 Controller-based Networking (SDN):\n• This type deploys a consistent configuration across multiple devices → คอนโทรลเลอร์ผลักคอนฟิกแบบเดียวกันลงหลายอุปกรณ์พร้อมกัน ลดความผิดพลาด\n• Southbound APIs are used to apply configurations → คอนโทรลเลอร์ → อุปกรณ์ ใช้ NETCONF / RESTCONF / OpenFlow / OpFlex\n• control plane รวมศูนย์อยู่ที่คอนโทรลเลอร์\n\n🔹 Traditional Networking:\n• A distributed control plane is needed → ทุกอุปกรณ์คิดเส้นทางเอง (รัน OSPF/EIGRP/STP ของตัวเอง)\n• This type requires a distributed management plane → ต้องเข้าไปจัดการทีละเครื่องผ่าน CLI/SNMP\n\n❌ ตัวลวงที่ไม่ใช้: "Northbound APIs interact with end devices" — ผิด เพราะ Northbound API คุยขึ้นไปหา "แอปพลิเคชัน/ระบบ orchestration" ที่ชั้นบน ไม่ได้คุยกับอุปกรณ์ปลายทาง (ตัวที่คุยกับอุปกรณ์คือ Southbound)\n\n📗 จำไว้สอบ: Northbound = คอนโทรลเลอร์ ↔ แอป (REST API) • Southbound = คอนโทรลเลอร์ ↔ อุปกรณ์ (NETCONF/OpenFlow) • SDN = control plane รวมศูนย์',
+  },
+  {
+    id: 612,
+    kind: 'single',
+    image: q612,
+    prompt: 'Refer to the exhibit. How many objects are present in the given JSON-encoded data?',
+    options: [
+      { key: 'A', text: 'one' },
+      { key: 'B', text: 'four' },
+      { key: 'C', text: 'seven' },
+      { key: 'D', text: 'nine' },
+    ],
+    correct: ['D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B (four) โดยนับเฉพาะ object ที่ "มีชื่อ" (aaaUser, aaaUserDomain, aaaUserRole + วงนอกสุด) — แต่ตามนิยาม JSON ทุกคู่ { } คือ object คำตอบที่ถูกต้องคือ D (nine)\n\n📘 แนวคิด — นับ object = นับคู่ { } ทั้งหมด ไม่ว่าจะมีชื่อ key นำหน้าหรือไม่ (object ที่อยู่ภายใน array ก็นับด้วย)\n\n🔍 ไล่โครงสร้างจาก exhibit:\n{                              ← 1 (วงนอกสุด)\n  "aaaUser": {                 ← 2\n    "attributes": { … },       ← 3\n    "children": [ {            ← 4 (สมาชิกของ array ก็เป็น object)\n        "aaaUserDomain": {     ← 5\n          "attributes": { … }, ← 6\n          "children": [ {      ← 7\n              "aaaUserRole": { ← 8\n                "attributes": { … }   ← 9\n              }\n          } ]\n        }\n    } ]\n  }\n}\n→ รวม 9 object\n\n✅ ทำไม D ถูก: มีวงเล็บปีกกาเปิด { ทั้งหมด 9 คู่ → 9 objects\n\n❌ ทำไมข้ออื่นผิด:\nA. one = นับเฉพาะวงนอกสุด (ลืมของที่ซ้อนอยู่ข้างใน)\nB. four = นับเฉพาะ object ที่มีชื่อ (aaaUser, aaaUserDomain, aaaUserRole) + วงนอกสุด\nC. seven = นับ 9 แต่ลืมนับ object ที่เป็นสมาชิกภายใน array 2 ตัว\n\n📗 จำไว้สอบ: object = ทุกคู่ { } (รวมที่ซ้อนกันและที่อยู่ใน array) • array = ทุกคู่ [ ] • ระวังโจทย์ถาม "object" กับ "key/value pair" คนละอย่าง',
+  },
+  {
+    id: 613,
+    kind: 'multi',
+    prompt: 'What are two examples of multifactor authentication? (Choose two.)',
+    options: [
+      { key: 'A', text: 'single sign-on' },
+      { key: 'B', text: 'unique user knowledge' },
+      { key: 'C', text: 'passwords that expire' },
+      { key: 'D', text: 'soft tokens' },
+      { key: 'E', text: 'shared password responsibility' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — Multifactor Authentication (MFA) = ใช้ปัจจัยตั้งแต่ 2 "ประเภทที่ต่างกัน" ขึ้นไป\n1️⃣ Something you KNOW → รหัสผ่าน, PIN, คำถามลับ (= unique user knowledge)\n2️⃣ Something you HAVE → soft token (แอป OTP), hard token, สมาร์ตการ์ด, โทรศัพท์\n3️⃣ Something you ARE → ลายนิ้วมือ, ม่านตา, ใบหน้า (biometrics)\n\n✅ ทำไม B ถูก: "unique user knowledge" = ปัจจัยประเภท "รู้" (know)\n✅ ทำไม D ถูก: "soft tokens" = ปัจจัยประเภท "มี" (have) — เมื่อรวมกับรหัสผ่านจึงเป็น MFA\n\n❌ ทำไมข้ออื่นผิด:\nA. single sign-on = ล็อกอินครั้งเดียวใช้ได้หลายระบบ — เป็นเรื่องความสะดวก ไม่ใช่การเพิ่มปัจจัย\nC. passwords that expire = นโยบายหมดอายุรหัสผ่าน ยังคงเป็นปัจจัยเดียว (know) อยู่ดี\nE. shared password responsibility = แชร์รหัสผ่านกัน → ลดความปลอดภัย ไม่ใช่ MFA เลย\n\n📗 จำไว้สอบ: MFA = know + have + are (ต้องต่าง "ประเภท" กัน — รหัสผ่าน 2 อันไม่นับเป็น MFA)',
+  },
+  {
+    id: 614,
+    kind: 'drag',
+    image: q614,
+    prompt: 'Drag and drop the TCP/IP protocols from the left onto their primary transmission protocols on the right.',
+    categories: [
+      { name: 'TCP', items: ['HTTP', 'SMTP', 'Telnet'] },
+      { name: 'UDP', items: ['DNS', 'RTP', 'SNMP'] },
+    ],
+    explanation:
+      '📘 แนวคิด — จำว่าโปรโตคอลไหนวิ่งบน TCP หรือ UDP (ออกสอบบ่อยมาก)\n\n🔹 ใช้ TCP (ต้องการความน่าเชื่อถือ ข้อมูลครบถ้วน):\n• HTTP (80) / HTTPS (443) — เว็บ\n• SMTP (25) — ส่งอีเมล | POP3 (110) | IMAP (143)\n• Telnet (23) | SSH (22) — จัดการอุปกรณ์\n• FTP (20 data / 21 control)\n\n🔹 ใช้ UDP (ต้องการความเร็ว/ทนการสูญหายได้):\n• DNS (53) — คิวรีสั้น ๆ ตอบเร็ว (ใช้ TCP 53 เฉพาะ zone transfer หรือคำตอบใหญ่)\n• RTP — เสียง/วิดีโอเรียลไทม์ ยอมให้แพ็กเก็ตหายดีกว่ารอ retransmit\n• SNMP (161 / trap 162) — ข้อความสถานะสั้น ๆ\n• DHCP (67/68), TFTP (69), Syslog (514), NTP (123)\n\n📗 จำไว้สอบ: "ต้องครบ" → TCP | "ต้องเร็ว/สด" → UDP • DNS ใช้ UDP เป็นหลัก',
+  },
+  {
+    id: 615,
+    kind: 'drag',
+    image: q615,
+    prompt: 'Drag and drop the Rapid PVST+ forwarding state actions from the left to the right. Not all actions are used.',
+    categories: [
+      {
+        name: 'Rapid PVST+ forwarding state',
+        items: [
+          'BPDUs received are forwarded to the system module.',
+          'Frames received from the attached segment are processed.',
+          'Switched frames received from other ports are advanced.',
+          'The port in the forwarding state responds to network management messages.',
+        ],
+      },
+      {
+        name: 'ไม่ใช้ (ตัวลวง)',
+        items: [
+          'Frames received from the attached segment are discarded.',
+          'BPDUs received from the system module are processed and transmitted.',
+        ],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — พฤติกรรมของพอร์ตในแต่ละสถานะ STP/RSTP\n• Blocking / Discarding → ทิ้งเฟรมข้อมูลทั้งหมด, ไม่เรียนรู้ MAC, แต่ "รับ" BPDU\n• Listening → ทิ้งเฟรมข้อมูล, ไม่เรียนรู้ MAC, รับ-ส่ง BPDU\n• Learning → ทิ้งเฟรมข้อมูล แต่ "เริ่มเรียนรู้" MAC address\n• Forwarding ⭐ → ส่งต่อเฟรมข้อมูลได้เต็มที่ + เรียนรู้ MAC + จัดการ BPDU\n\n✅ สิ่งที่พอร์ตในสถานะ forwarding ทำ (4 ข้อที่ต้องลาก):\n1. BPDUs received are forwarded to the system module → รับ BPDU แล้วส่งขึ้นไปให้ระบบประมวลผล\n2. Frames received from the attached segment are processed → ประมวลผลเฟรมที่รับมาจากเซกเมนต์ที่ต่ออยู่\n3. Switched frames received from other ports are advanced → ส่งต่อเฟรมที่สวิตช์มาจากพอร์ตอื่นออกไป\n4. The port in the forwarding state responds to network management messages → ตอบข้อความจัดการเครือข่าย\n\n❌ ตัวลวงที่ไม่ใช้:\n• "Frames received from the attached segment are discarded." → เป็นพฤติกรรมของสถานะ blocking/listening/learning ไม่ใช่ forwarding\n• "BPDUs received from the system module are processed and transmitted." → คำว่า "transmitted" ไม่ตรงกับรายการที่ Cisco ระบุไว้สำหรับสถานะนี้\n\n📗 จำไว้สอบ: forwarding = ส่งข้อมูลได้ + เรียน MAC ได้ • learning = เรียน MAC ได้ แต่ยังไม่ส่งข้อมูล • RSTP ย่อเหลือ Discarding / Learning / Forwarding',
+  },
+  {
+    id: 616,
+    kind: 'single',
+    image: q616,
+    prompt:
+      'Refer to the exhibit. After configuring a new static route on the CPE, the engineer entered this series of commands to verify that the new configuration is operating normally. When is the static default route installed into the routing table?',
+    options: [
+      { key: 'A', text: 'when 203.0.113.1 is no longer reachable as a next hop' },
+      { key: 'B', text: 'when the default route learned over external BGP becomes invalid' },
+      { key: 'C', text: 'when a route to 203.0.113.1 is learned via BGP' },
+      { key: 'D', text: 'when the default route over external BGP changes its next hop' },
+    ],
+    correct: ['B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A — แต่ 203.0.113.1 เป็น next hop ของ "static route" เอง การที่มันยังถึงได้เป็นเพียงเงื่อนไขให้ static route "ใช้ได้" ไม่ใช่เหตุที่ทำให้ถูก "ติดตั้ง" ลงตาราง คำตอบที่ถูกต้องคือ B\n\n📘 แนวคิด — floating static route\nเมื่อมีเส้นทางไปปลายทางเดียวกันหลายเส้น (prefix เท่ากัน) เราเตอร์จะติดตั้งเฉพาะเส้นที่ AD ต่ำสุด ส่วนเส้นที่ AD สูงกว่าจะถูกเก็บไว้เฉย ๆ และจะถูกดึงเข้าตารางก็ต่อเมื่อเส้นทางเดิม "หายไป/ไม่ valid"\n\n🔍 อ่าน exhibit:\n• B* 0.0.0.0/0 [20/0] via 198.51.100.1 → default route ปัจจุบันมาจาก eBGP (AD 20) และกำลังใช้งานอยู่ (มีเครื่องหมาย * และเป็น gateway of last resort)\n• ping 203.0.113.1 สำเร็จ 5/5 และ 203.0.113.0/30 เป็น connected บน Ethernet0/1 → next hop ของ static ใหม่ใช้งานได้อยู่แล้ว แต่ static ก็ยังไม่โผล่ในตาราง เพราะ AD สูงกว่า 20\n\n✅ ทำไม B ถูก: static default (floating, AD > 20) จะถูกติดตั้งลงตารางเมื่อ default route ที่เรียนรู้จาก eBGP ถูกถอน/ใช้ไม่ได้ (invalid)\n\n❌ ทำไมข้ออื่นผิด:\nA. ถ้า 203.0.113.1 ใช้ไม่ได้ static จะยิ่ง "ถูกถอน" ออกไป — ตรงกันข้ามกับการถูกติดตั้ง\nC. การเรียนรู้เส้นทางไปยัง 203.0.113.1 ผ่าน BGP ไม่มีผลต่อการติดตั้ง static default\nD. เปลี่ยน next hop แต่เส้นทาง eBGP ยัง valid อยู่ → static ยังคงถูกกดไว้ด้วย AD ที่ต่ำกว่า\n\n📗 จำไว้สอบ: floating static = AD สูงกว่าเส้นหลัก → เข้าตารางเมื่อเส้นหลักหาย • eBGP AD 20, iBGP AD 200',
+  },
+  {
+    id: 617,
+    kind: 'single',
+    prompt: 'How does encryption protect the wireless network?',
+    options: [
+      { key: 'A', text: 'via integrity checks to identify wireless forgery attacks in the frame' },
+      { key: 'B', text: 'via specific ciphers to detect and prevent zero-day network attacks' },
+      { key: 'C', text: 'via an algorithm to change wireless data so that only the access point and client understand it' },
+      { key: 'D', text: 'via a policy to prevent unauthorized users from communicating on the wireless network' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — 3 เสาหลักของความปลอดภัยไร้สาย (อย่าสับสนกัน)\n1️⃣ Authentication = ใครเข้าได้บ้าง (PSK, 802.1X/EAP, SAE)\n2️⃣ Encryption = เข้ารหัสข้อมูลให้คนดักฟังอ่านไม่ออก (TKIP, AES-CCMP, GCMP) ⭐\n3️⃣ Integrity = ตรวจว่าข้อมูลถูกแก้ไขระหว่างทางหรือไม่ (MIC, CRC, PMF/802.11w)\n\n✅ ทำไม C ถูก: การเข้ารหัสคือการใช้ "อัลกอริทึม + กุญแจ" แปลงข้อมูลให้เป็นรหัสลับ มีเพียง AP และไคลเอนต์ที่ถือกุญแจเดียวกันเท่านั้นที่ถอดรหัสอ่านได้ — สำคัญมากเพราะคลื่นวิทยุใครก็ดักจับได้\n\n❌ ทำไมข้ออื่นผิด:\nA. การตรวจความถูกต้องของเฟรม = integrity (MIC) ไม่ใช่ encryption\nB. การตรวจจับ zero-day = หน้าที่ IPS/WIPS ไม่ใช่ cipher\nD. การกันผู้ใช้ที่ไม่ได้รับอนุญาต = authentication/authorization ไม่ใช่ encryption\n\n📗 จำไว้สอบ: Authentication=ใครเข้าได้ • Encryption=อ่านไม่ออก • Integrity=ไม่ถูกแก้',
+  },
+  {
+    id: 618,
+    kind: 'single',
+    prompt: 'Which action implements physical access control as part of the security program of an organization?',
+    options: [
+      { key: 'A', text: 'backing up syslogs at a remote location' },
+      { key: 'B', text: 'configuring a password for the console port' },
+      { key: 'C', text: 'configuring enable passwords on network devices' },
+      { key: 'D', text: 'setting up IP cameras to monitor key infrastructure' },
+    ],
+    correct: ['D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B (ตั้งรหัสผ่าน console) — แต่นั่นคือ "logical access control" (ควบคุมผ่านซอฟต์แวร์) ไม่ใช่ physical คำตอบที่ถูกต้องคือ D\n\n📘 แนวคิด — แยกประเภทการควบคุมการเข้าถึง\n🔹 Physical access control = ควบคุม "ตัวคน/ตัวอุปกรณ์ทางกายภาพ"\n  • กล้องวงจรปิด (IP camera), ประตูคีย์การ์ด/badge, ล็อกตู้แร็ค, รปภ., mantrap, biometrics ที่ประตู\n🔹 Logical (technical) access control = ควบคุมผ่านการตั้งค่าในระบบ\n  • password, enable secret, AAA, ACL, 802.1X, VPN\n🔹 Administrative control = นโยบาย ระเบียบ การอบรม\n\n✅ ทำไม D ถูก: ติดตั้งกล้อง IP เพื่อเฝ้าระวังโครงสร้างพื้นฐานสำคัญ = การควบคุม/ตรวจตราทางกายภาพโดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nA. สำรอง syslog ไปที่อื่น = การรักษาหลักฐาน/ความพร้อมใช้ (logging) ไม่ใช่ physical control\nB. รหัสผ่าน console = logical control (แม้จะเกี่ยวกับพอร์ตที่ต้องเสียบสายจริง แต่ตัวกลไกคือรหัสผ่าน)\nC. enable password = logical control ชัดเจน\n\n📗 จำไว้สอบ: physical = กล้อง/ประตู/ล็อก/รปภ. • logical = รหัสผ่าน/ACL/AAA • administrative = นโยบาย/อบรม',
+  },
+  {
+    id: 619,
+    kind: 'single',
+    prompt: 'Why implement VRRP?',
+    options: [
+      { key: 'A', text: 'to provide end users with a virtual gateway in a multivendor network' },
+      { key: 'B', text: 'to leverage a weighting scheme to provide uninterrupted service' },
+      { key: 'C', text: 'to detect link failures without the overhead of Bidirectional Forwarding Detection' },
+      { key: 'D', text: 'to hand over to end users the autodiscovery of virtual gateways' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — FHRP (First Hop Redundancy Protocol) ทำให้ default gateway ไม่เป็นจุดล้มเหลวจุดเดียว โดยให้เราเตอร์หลายตัวแชร์ "virtual IP + virtual MAC" เดียวกัน\n\nเปรียบเทียบ 3 ตัวหลัก:\n• HSRP — Cisco proprietary, active/standby, virtual MAC 0000.0C07.ACxx\n• VRRP — มาตรฐานเปิด (RFC 5798) ⭐ ใช้ข้ามยี่ห้อได้, master/backup, virtual MAC 0000.5E00.01xx\n• GLBP — Cisco proprietary, load-balancing จริง (AVG แจก virtual MAC หลายตัว) + มี weighting\n\n✅ ทำไม A ถูก: เหตุผลหลักที่เลือก VRRP แทน HSRP คือมันเป็นมาตรฐานเปิด จึงใช้ในเครือข่ายที่มีอุปกรณ์หลายยี่ห้อได้ และให้ผู้ใช้ปลายทางมี "virtual gateway" ตัวเดียวที่ไม่ล่ม\n\n❌ ทำไมข้ออื่นผิด:\nB. weighting scheme (การถ่วงน้ำหนักเพื่อกระจายโหลด) เป็นลักษณะเด่นของ GLBP ไม่ใช่ VRRP\nC. VRRP ตรวจความล้มเหลวด้วย hello timer ของตัวเอง — จะเร็วขึ้นก็ต่อเมื่อใช้ร่วมกับ BFD ไม่ใช่แทน BFD\nD. ไคลเอนต์ไม่ได้ "ค้นหา" gateway เอง — มันชี้ไปที่ virtual IP ที่ตั้งไว้เฉย ๆ (มักได้จาก DHCP)\n\n📗 จำไว้สอบ: HSRP/GLBP = Cisco เท่านั้น • VRRP = มาตรฐานเปิด ใช้ multivendor • GLBP = ตัวเดียวที่ load-balance ในตัว',
+  },
+  {
+    id: 620,
+    kind: 'single',
+    prompt:
+      "A packet from a company's branch office is destined to host 172.31.0.1 at headquarters. The sending router has three possible matches in its routing table for the packet: prefixes 172.31.0.0/16, 172.31.0.0/24, and 172.31.0.0/28. How does the router handle the packet?",
+    options: [
+      { key: 'A', text: 'It sends the traffic via prefix 172.31.0.0/16' },
+      { key: 'B', text: 'It sends the traffic via the default gateway 0.0.0.0/0' },
+      { key: 'C', text: 'It sends the traffic via prefix 172.31.0.0/24' },
+      { key: 'D', text: 'It sends the traffic via prefix 172.31.0.0/28' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ลำดับการตัดสินใจของเราเตอร์เมื่อจะ forward แพ็กเก็ต\n1️⃣ Longest prefix match — เลือก prefix ที่ "ยาวที่สุด" (เจาะจงที่สุด) ที่ครอบ IP ปลายทาง ⭐ มาก่อนทุกอย่าง\n2️⃣ ถ้า prefix ยาวเท่ากันหลายเส้น → เทียบ Administrative Distance ต่ำสุด\n3️⃣ ถ้า AD เท่ากันอีก → เทียบ metric ต่ำสุด (ถ้าเท่ากันอีกก็ load-balance)\n\n🧮 ตรวจว่า 172.31.0.1 อยู่ในช่วงของแต่ละ prefix หรือไม่:\n• 172.31.0.0/16 → 172.31.0.0 – 172.31.255.255 ✔ (แต่กว้างสุด)\n• 172.31.0.0/24 → 172.31.0.0 – 172.31.0.255 ✔\n• 172.31.0.0/28 → 172.31.0.0 – 172.31.0.15 ✔ (แคบที่สุด/เจาะจงที่สุด) ⭐\n\n✅ ทำไม D ถูก: ทั้ง 3 เส้นครอบ 172.31.0.1 หมด แต่ /28 มี prefix ยาวที่สุด → ชนะตามกฎ longest prefix match\n\n❌ ทำไมข้ออื่นผิด:\nA. /16 กว้างเกินไป จะถูกใช้ก็ต่อเมื่อไม่มีเส้นที่เจาะจงกว่า\nB. default route ใช้เป็นทางเลือกสุดท้ายเมื่อไม่มี prefix ใด match เลย\nC. /24 ยาวกว่า /16 แต่ยังสั้นกว่า /28\n\n📗 จำไว้สอบ: longest prefix match มาก่อน AD และ metric เสมอ — จำลำดับ prefix → AD → metric',
+  },
+  {
+    id: 621,
+    kind: 'single',
+    image: q621,
+    prompt:
+      'Refer to the exhibit. An engineer must configure the interface that connects to PC1 and secure it in a way that only PC1 is allowed to use the port. No VLAN tagging can be used except for a voice VLAN. Which command sequence must be entered to configure the switch?',
+    options: [
+      {
+        key: 'A',
+        text: 'SW1(config)#interface gi0/2\nSW1(config-if)#switchport mode trunk\nSW1(config-if)#switchport port-security\nSW1(config-if)#switchport port-security mac-address 0050.7966.6800',
+      },
+      {
+        key: 'B',
+        text: 'SW1(config)#interface gi0/2\nSW1(config-if)#switchport mode access\nSW1(config-if)#switchport port-security\nSW1(config-if)#switchport port-security maximum 1\nSW1(config-if)#switchport port-security mac-address 0050.7966.6800',
+      },
+      {
+        key: 'C',
+        text: 'SW1(config)#interface gi0/2\nSW1(config-if)#switchport mode access\nSW1(config-if)#switchport port-security\nSW1(config-if)#switchport port-security maximum 2\nSW1(config-if)#switchport port-security mac-address 2839.2634.8251',
+      },
+      {
+        key: 'D',
+        text: 'SW1(config)#interface gi0/3\nSW1(config-if)#switchport mode access\nSW1(config-if)#switchport port-security\nSW1(config-if)#switchport port-security mac-address sticky',
+      },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — แปลงข้อกำหนดเป็นคำสั่ง\n1️⃣ "only PC1 is allowed to use the port" → ต้องผูก MAC ของ PC1 แบบ static และจำกัด maximum 1\n2️⃣ "No VLAN tagging can be used except for a voice VLAN" → พอร์ตต้องเป็น access mode (ไม่ใช่ trunk) เพราะ access port ส่งเฟรมแบบไม่ติดแท็ก ยกเว้น voice VLAN ที่ติดแท็กได้เป็นกรณีพิเศษ\n\n🔍 อ่าน exhibit: PC1 ต่อกับ SW1 ที่ Int G0/2 และมี MAC = 00:50:79:66:68:00 → เขียนแบบ Cisco = 0050.7966.6800\n\n✅ ทำไม B ถูก: อยู่ที่ gi0/2 (พอร์ตของ PC1) + mode access (ไม่มี tagging) + port-security maximum 1 + ผูก MAC ของ PC1 โดยตรง → มีแต่ PC1 เท่านั้นที่ใช้พอร์ตนี้ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. switchport mode trunk = ใช้ VLAN tagging ขัดกับข้อกำหนดโดยตรง\nC. maximum 2 = อนุญาต 2 MAC (ไม่ใช่ "เฉพาะ PC1") และ MAC 2839.2634.8251 เป็นของ PC2 ไม่ใช่ PC1\nD. ผิดพอร์ต (gi0/3 คือ PC2) และ sticky = เรียนรู้ MAC อะไรก็ได้ตัวแรกที่เสียบมา ไม่ได้การันตีว่าเป็น PC1\n\n📗 จำไว้สอบ: ล็อกให้เครื่องเดียวใช้พอร์ต = access mode + port-security maximum 1 + mac-address แบบ static',
+  },
+  {
+    id: 622,
+    kind: 'drag',
+    image: q622,
+    prompt: 'Drag and drop the steps in a standard DNS lookup operation from the left into the order on the right.',
+    categories: [
+      { name: '1', items: ['An endpoint submits a request for the IP address of a domain name.'] },
+      { name: '2', items: ['The DNS submits a request to a root DNS server.'] },
+      { name: '3', items: ['The DNS submits a request to the domain DNS server.'] },
+      { name: '4', items: ['The DNS receives a reply from the domain DNS server.'] },
+      { name: '5', items: ['The DNS responds to the endpoint.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ขั้นตอนการ resolve ชื่อโดเมน (recursive query)\n\n1️⃣ เครื่องผู้ใช้ (endpoint) ถาม DNS resolver ว่า "www.example.com มี IP อะไร"\n   → ก่อนหน้านั้นเครื่องจะเช็ค local cache และไฟล์ hosts ก่อน ถ้าไม่เจอจึงส่งคำถามออกไป\n2️⃣ Resolver ถาม root DNS server (13 ชุดทั่วโลก) → root ตอบกลับว่าให้ไปถาม TLD server (.com)\n3️⃣ Resolver ถามต่อไปเรื่อย ๆ จนถึง authoritative DNS server ของโดเมนนั้น\n4️⃣ Authoritative server ตอบ A record (IPv4) หรือ AAAA record (IPv6) กลับมา\n5️⃣ Resolver ส่งคำตอบกลับให้ endpoint (พร้อมเก็บ cache ไว้ตามค่า TTL เพื่อครั้งหน้าจะได้ตอบเร็วขึ้น)\n\n💡 DNS ใช้ UDP พอร์ต 53 เป็นหลัก (ใช้ TCP 53 เมื่อคำตอบใหญ่เกิน 512 ไบต์ หรือทำ zone transfer)\n\n📗 จำไว้สอบ: client → resolver → root → TLD → authoritative → ตอบกลับ + cache ตาม TTL',
+  },
+  {
+    id: 623,
+    kind: 'single',
+    prompt: 'In a cloud-computing environment, what is rapid elasticity?',
+    options: [
+      { key: 'A', text: 'control and monitoring of resource consumption by the tenant' },
+      { key: 'B', text: 'automatic adjustment of capacity based on need' },
+      { key: 'C', text: 'pooling resources in a multitenant model based on need' },
+      { key: 'D', text: 'self-service of computing resources by the tenant' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — 5 คุณลักษณะสำคัญของคลาวด์ตามนิยาม NIST (ต้องแยกให้ออกว่าข้อไหนคืออะไร)\n1️⃣ On-demand self-service = ผู้ใช้ขอ/สร้างทรัพยากรได้เองโดยไม่ต้องรอเจ้าหน้าที่\n2️⃣ Broad network access = เข้าถึงได้จากทุกที่ผ่านเครือข่ายมาตรฐาน\n3️⃣ Resource pooling = รวมทรัพยากรไว้กองกลาง แล้วแบ่งใช้แบบหลายผู้เช่า (multitenant)\n4️⃣ Rapid elasticity ⭐ = ขยาย/ลดกำลังได้อย่างรวดเร็วและอัตโนมัติตามความต้องการ (scale out เมื่อคนเยอะ, scale in เมื่อคนน้อย)\n5️⃣ Measured service = วัดปริมาณการใช้เพื่อคิดเงินและรายงาน (pay-as-you-go)\n\n✅ ทำไม B ถูก: rapid elasticity = การปรับ capacity ขึ้น-ลงโดยอัตโนมัติตามความต้องการ\n\n❌ ทำไมข้ออื่นผิด:\nA. การควบคุม/ติดตามปริมาณการใช้ = Measured service\nC. การรวมทรัพยากรแบบ multitenant = Resource pooling\nD. ผู้เช่าสร้างทรัพยากรได้เอง = On-demand self-service\n\n📗 จำไว้สอบ: elasticity = "ยืดหดอัตโนมัติ" • pooling = "แชร์กองกลาง" • measured = "วัดเพื่อคิดเงิน"',
+  },
+  {
+    id: 624,
+    kind: 'single',
+    prompt: 'What is a reason to implement IPv4 private addressing?',
+    options: [
+      { key: 'A', text: 'Reduce the risk of a network security breach' },
+      { key: 'B', text: 'Comply with PCI regulations' },
+      { key: 'C', text: 'Comply with local law' },
+      { key: 'D', text: 'Reduce the size of the forwarding table on network routers' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — IPv4 private address (RFC 1918)\n• 10.0.0.0/8 | 172.16.0.0/12 | 192.168.0.0/16\nคุณสมบัติสำคัญ: เราเตอร์บนอินเทอร์เน็ตจะ "ไม่ประกาศและไม่ route" ช่วงเหล่านี้ ทำให้\n1️⃣ ประหยัดพื้นที่ IPv4 สาธารณะที่มีจำกัด (ใช้ NAT แปลงออกเน็ต)\n2️⃣ prefix เหล่านี้ไม่ปรากฏในตารางเราต์ของอินเทอร์เน็ต → ตาราง forwarding ของเราเตอร์แกนหลักเล็กลง ⭐\n\n✅ ทำไม D ถูก: ในบรรดาตัวเลือกที่ให้มา D คือผลลัพธ์ทางเทคนิคที่ถูกต้อง — private address ไม่ถูกโฆษณาบนอินเทอร์เน็ต จึงไม่กินพื้นที่ในตารางเราต์ทั่วโลก\n\n❌ ทำไมข้ออื่นผิด:\nA. private address ไม่ใช่มาตรการความปลอดภัย — การที่ต่อตรงจากภายนอกไม่ได้เป็นเพียงผลพลอยได้ ไม่ใช่ "เหตุผลด้านความปลอดภัย" (ยังต้องมี firewall อยู่ดี และ NAT ≠ security)\nB. PCI DSS ไม่ได้บังคับให้ใช้ private address\nC. ไม่มีกฎหมายท้องถิ่นใดบังคับเรื่องนี้\n\n💡 หมายเหตุ: เหตุผล "อันดับหนึ่ง" ตามตำราคือการอนุรักษ์ IPv4 สาธารณะ (conserve global address space) — ถ้าตัวเลือกมีข้อนั้น ให้ตอบข้อนั้นก่อน\n\n📗 จำไว้สอบ: RFC1918 = 10/8, 172.16/12, 192.168/16 • ไม่ถูก route บนอินเทอร์เน็ต • ต้องใช้ NAT จึงออกเน็ตได้',
+  },
+  {
+    id: 625,
+    kind: 'drag',
+    image: q625,
+    prompt: 'Drag and drop the IPv6 address types from the left onto their description on the right.',
+    categories: [
+      { name: 'multicast address used only locally within the site', items: ['FF05::23:becf:22:1111'] },
+      {
+        name: 'address that is automatically created on a link when IPv6 is enabled on an interface',
+        items: ['FE80::abcf:ffff:12de:3992'],
+      },
+      { name: 'address that is prohibited from routing to the Internet', items: ['FD00:0000:0000:1a2d:a153:3992:a19d:ccca'] },
+      { name: 'address that is unique and reserved for documentation purposes', items: ['2001:DB8::bced:1234:456d:aacc'] },
+    ],
+    explanation:
+      '📘 แนวคิด — จับคู่คำนำหน้า IPv6 กับหน้าที่\n\n• FF05::/16 → Multicast ที่มี scope = 5 (site-local) → ส่งถึงกลุ่มปลายทางภายใน "ไซต์" เท่านั้น\n  (จำ scope: FF01=interface-local, FF02=link-local, FF05=site-local, FF0E=global)\n• FE80::/10 → Link-Local → ถูก "สร้างอัตโนมัติ" ทันทีที่เปิด IPv6 บนอินเทอร์เฟซ ใช้ได้เฉพาะบนลิงก์นั้น ⭐\n• FD00::/8 (อยู่ใน FC00::/7) → Unique Local Address → เป็น private ห้าม route ออกอินเทอร์เน็ต ⭐\n• 2001:DB8::/32 → ช่วงที่ IANA สงวนไว้สำหรับ "เอกสาร/ตัวอย่าง" โดยเฉพาะ (เทียบได้กับ example.com) ⭐\n\n🔍 ตรวจแต่ละตัว:\n• FF05::23:becf:22:1111 → ขึ้นต้น FF05 → multicast scope site ✔\n• FE80::abcf:ffff:12de:3992 → ขึ้นต้น FE80 → link-local สร้างอัตโนมัติ ✔\n• FD00:0000:0000:1a2d:… → ขึ้นต้น FD → ULA ห้ามออกอินเทอร์เน็ต ✔\n• 2001:DB8::bced:1234:456d:aacc → ขึ้นต้น 2001:DB8 → สำหรับเอกสาร ✔\n\n📗 จำไว้สอบ: FE80=อัตโนมัติบนลิงก์ | FD=private | 2001:DB8=เอกสาร | FF05=multicast ภายในไซต์',
+  },
+  {
+    id: 626,
+    kind: 'single',
+    prompt: 'What is the purpose of configuring different levels of syslog for different devices on the network?',
+    options: [
+      { key: 'A', text: 'to rate-limit messages for different severity levels from each device' },
+      { key: 'B', text: 'to set the severity of syslog messages from each device' },
+      { key: 'C', text: 'to identify the source from which each syslog message originated' },
+      { key: 'D', text: 'to control the number of syslog messages from different devices that are stored locally' },
+    ],
+    correct: ['D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B ("กำหนดความรุนแรงของข้อความ") — แต่ระดับ severity ถูกกำหนดโดย "ตัวเหตุการณ์" เองอยู่แล้ว เราตั้งค่าไม่ได้ สิ่งที่เราตั้งคือ "จะเก็บถึงระดับไหน" คำตอบที่ถูกต้องคือ D\n\n📘 แนวคิด — Syslog severity มี 8 ระดับ (0 รุนแรงสุด → 7 ละเอียดสุด)\n0 Emergency | 1 Alert | 2 Critical | 3 Error | 4 Warning | 5 Notification | 6 Informational | 7 Debugging\n(ท่องว่า: Every Awesome Cisco Engineer Will Need Ice cream Daily)\n\n💡 กฎการทำงาน: เมื่อสั่ง "logging buffered <level>" หรือ "logging trap <level>" อุปกรณ์จะเก็บ/ส่งข้อความที่ severity "เท่ากับหรือน้อยกว่า" ตัวเลขนั้น เช่น ตั้ง 4 (warning) → เก็บระดับ 0–4 เท่านั้น ระดับ 5–7 ถูกตัดทิ้ง\n\n✅ ทำไม D ถูก: การตั้งระดับต่างกันในแต่ละอุปกรณ์ = การควบคุม "ปริมาณ" ข้อความที่จะถูกเก็บ/ส่ง เช่น อุปกรณ์แกนกลางเก็บแค่ระดับ 3 (เอาเฉพาะปัญหาจริง) แต่อุปกรณ์ที่กำลังแก้ปัญหาอยู่ตั้ง 7 เพื่อดูรายละเอียด\n\n❌ ทำไมข้ออื่นผิด:\nA. syslog level ไม่ใช่กลไก rate-limit (การจำกัดอัตราใช้ "logging rate-limit" ต่างหาก)\nB. severity ติดมากับตัวเหตุการณ์ ไม่ได้ถูก "ตั้ง" ด้วยคำสั่งนี้\nC. การระบุแหล่งที่มาดูจาก hostname/IP ในข้อความ ไม่ใช่จากระดับ\n\n📗 จำไว้สอบ: 0=Emergency … 7=Debugging • ตั้งเลขไหน = เก็บระดับนั้น "และต่ำกว่า" • เลขยิ่งมาก ข้อความยิ่งเยอะ',
+  },
+  {
+    id: 627,
+    kind: 'single',
+    prompt: 'What is a function of MAC address learning?',
+    options: [
+      { key: 'A', text: 'It is enabled by default on all VLANs and interfaces' },
+      { key: 'B', text: 'It increases the potential for MAC address flooding.' },
+      { key: 'C', text: 'It is disabled by default on all interfaces connected to trunks' },
+      { key: 'D', text: 'It increases security on the management VLAN' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — MAC address learning คือหัวใจการทำงานของสวิตช์\n• เมื่อเฟรมเข้ามา สวิตช์อ่าน "source MAC" แล้วบันทึกคู่ (MAC ↔ พอร์ต ↔ VLAN) ลงตาราง MAC/CAM\n• เปิดใช้งานโดยอัตโนมัติบน "ทุก VLAN และทุกอินเทอร์เฟซ" ไม่ต้องสั่งเปิด\n• รายการจะหมดอายุตาม aging time (ค่าเริ่มต้น 300 วินาที = 5 นาที)\n\n✅ ทำไม A ถูก: MAC learning เป็นพฤติกรรมพื้นฐานที่เปิดอยู่แล้วทุกที่ (ปิดได้ด้วย "no mac address-table learning vlan x" แต่แทบไม่มีใครทำ)\n\n❌ ทำไมข้ออื่นผิด:\nB. กลับกัน — การเรียนรู้ MAC ช่วย "ลด" การ flood เพราะสวิตช์รู้ว่าจะส่งออกพอร์ตไหน (จะ flood เฉพาะตอนยังไม่รู้จักปลายทาง)\nC. ไม่จริง — พอร์ต trunk ก็เรียนรู้ MAC เช่นกัน (แยกตาม VLAN)\nD. MAC learning ไม่ใช่ฟีเจอร์ด้านความปลอดภัย — ตัวที่เพิ่มความปลอดภัยคือ port security\n\n📗 จำไว้สอบ: สวิตช์ทำ 3 อย่าง = learn (จาก source MAC) / forward (ถ้ารู้จัก) / flood (ถ้าไม่รู้จัก) • aging default 300 วินาที',
+  },
+  {
+    id: 628,
+    kind: 'multi',
+    prompt: 'Which two IPv6 addresses are used to provide connectivity between two routers on a shared link? (Choose two.)',
+    options: [
+      { key: 'A', text: '::ffff:10.14.10.11' },
+      { key: 'B', text: '2001:7011:46:1111::1' },
+      { key: 'C', text: 'ff06:bb43:cd4d:d111:bbff:0204:5452:34d1' },
+      { key: 'D', text: '2002:5121:204b:1111::1' },
+      { key: 'E', text: 'FF02::1:FF00:0000' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับให้มาแค่ B ทั้งที่โจทย์บอก "Choose two" — คำตอบที่ครบถูกต้องคือ B,D\n\n📘 แนวคิด — การจะกำหนด IP ให้อินเทอร์เฟซเราเตอร์เพื่อคุยกันบนลิงก์ ต้องเป็น "unicast address" เท่านั้น\n• Global Unicast = 2000::/3 (ขึ้นต้น 2 หรือ 3) → ใช้ได้ ✔\n• Unique Local = FC00::/7 → ใช้ได้\n• Link-Local = FE80::/10 → ใช้ได้ (แต่ไม่มีในตัวเลือก)\n• Multicast = FF00::/8 → ใช้เป็น "ปลายทางกลุ่ม" เท่านั้น กำหนดให้อินเทอร์เฟซไม่ได้ ✘\n• IPv4-mapped (::ffff:x.x.x.x) → ใช้ภายในซอฟต์แวร์เพื่อแทน IPv4 ในซ็อกเก็ต IPv6 ไม่ใช้บนลิงก์จริง ✘\n\n🔍 ตรวจทีละตัว:\nA. ::ffff:10.14.10.11 → IPv4-mapped address ✘\nB. 2001:7011:46:1111::1 → ขึ้นต้น 2001 = global unicast ✔\nC. ff06:… → ขึ้นต้น FF = multicast ✘\nD. 2002:5121:204b:1111::1 → ขึ้นต้น 2002 = global unicast (ช่วง 6to4) ✔\nE. FF02::1:FF00:0000 → solicited-node multicast (ใช้ใน NDP) ✘\n\n✅ ทำไม B, D ถูก: ทั้งคู่เป็น global unicast จึงกำหนดให้อินเทอร์เฟซเราเตอร์สองตัวบนลิงก์เดียวกันได้\n\n📗 จำไว้สอบ: กำหนดให้อินเทอร์เฟซได้เฉพาะ unicast (2000::/3, FC00::/7, FE80::/10) • FF = multicast ห้ามใช้เป็น source/interface address',
+  },
+  {
+    id: 629,
+    kind: 'single',
+    prompt:
+      'Refer to the routing table below. When router R1 receives a packet with destination IP address 10.56.0.62, through which interface does it route the packet?\n\nS    10.56.0.0/24 is directly attached, Null0\nC    10.56.0.0/26 is directly connected, Vlan58\nC    10.56.0.64/26 is directly connected, Vlan59\nC    10.56.0.128/26 is directly connected, Vlan60',
+    options: [
+      { key: 'A', text: 'Null0' },
+      { key: 'B', text: 'Vlan58' },
+      { key: 'C', text: 'Vlan60' },
+      { key: 'D', text: 'Vlan59' },
+    ],
+    correct: ['B'],
+    explanation:
+      '🔍 หมายเหตุ: exhibit ต้นฉบับเป็นภาพ show ip route ที่อ่านค่าไม่ครบ จึงเขียนตารางเราต์ไว้ในโจทย์ให้ครบถ้วน — หลักการที่ทดสอบยังเหมือนเดิมทุกประการ\n\n📘 แนวคิด — longest prefix match: เลือก prefix ที่ยาวที่สุดที่ครอบ IP ปลายทาง\n\n🧮 /26 → mask 255.255.255.192 → block size = 64 → subnet ไล่เป็น .0 / .64 / .128 / .192\n• 10.56.0.0/26   → ครอบ 10.56.0.0 – 10.56.0.63  ⭐\n• 10.56.0.64/26  → ครอบ 10.56.0.64 – 10.56.0.127\n• 10.56.0.128/26 → ครอบ 10.56.0.128 – 10.56.0.191\n• 10.56.0.0/24   → ครอบ .0 – .255 (กว้างกว่า) ชี้ไป Null0\n\n🔍 ปลายทาง 10.56.0.62 → อยู่ในช่วง .0–.63 → ตรงกับ 10.56.0.0/26 (Vlan58)\nเทียบ prefix: /26 ยาวกว่า /24 → /26 ชนะ\n\n✅ ทำไม B ถูก: 10.56.0.62 อยู่ใน 10.56.0.0/26 ซึ่งเป็น connected อยู่บน Vlan58 และมี prefix ยาวที่สุด\n\n❌ ทำไมข้ออื่นผิด:\nA. Null0 ผูกกับ /24 ซึ่งสั้นกว่า จึงแพ้ /26 (Null0 = ทิ้งแพ็กเก็ต มักใช้ทำ summary route)\nC. Vlan60 ครอบ .128–.191\nD. Vlan59 ครอบ .64–.127 (62 ยังไม่ถึง 64)\n\n📗 จำไว้สอบ: /26 → block 64 → ขอบเขต .0/.64/.128/.192 • longest prefix ชนะเสมอ แม้ปลายทางจะเป็น Null0',
+  },
+  {
+    id: 630,
+    kind: 'multi',
+    prompt: 'What are two features of the DHCP relay agent? (Choose two.)',
+    options: [
+      { key: 'A', text: 'assigns DNS locally and then forwards request to DHCP server' },
+      { key: 'B', text: 'permits only one IP helper command under an individual Layer 3 interface' },
+      { key: 'C', text: 'allows only MAC-to-IP reservations to determine the local subnet of a client' },
+      { key: 'D', text: 'minimizes the necessary number of DHCP servers' },
+      { key: 'E', text: 'configured under the Layer 3 interface of a router on the client subnet' },
+    ],
+    correct: ['D', 'E'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B,E — แต่ B ผิด เพราะอินเทอร์เฟซหนึ่งใส่ "ip helper-address" ได้หลายบรรทัด (ชี้ไป DHCP server หลายตัวเพื่อความซ้ำซ้อน) คำตอบที่ถูกต้องคือ D,E\n\n📘 แนวคิด — DHCP relay agent\nปัญหา: DHCP DISCOVER เป็น broadcast (255.255.255.255) ซึ่งเราเตอร์ไม่ forward ข้าม subnet → ไคลเอนต์คนละ subnet กับเซิร์ฟเวอร์จะขอ IP ไม่ได้\nวิธีแก้: ใส่ "ip helper-address <dhcp-server-ip>" ที่อินเทอร์เฟซ Layer 3 ของเราเตอร์ "ฝั่งเดียวกับไคลเอนต์" → เราเตอร์แปลง broadcast เป็น unicast ส่งไปให้เซิร์ฟเวอร์ พร้อมใส่ giaddr (gateway IP address) เพื่อบอกว่าไคลเอนต์อยู่ subnet ไหน\n\n✅ ทำไม D ถูก: เพราะ relay ทำให้ DHCP server ตัวเดียวรองรับได้หลายสิบ subnet → ไม่ต้องตั้งเซิร์ฟเวอร์ทุกวง = ลดจำนวนเซิร์ฟเวอร์ที่ต้องมี\n✅ ทำไม E ถูก: ต้องคอนฟิกบนอินเทอร์เฟซ L3 ของเราเตอร์ที่อยู่ใน subnet ของไคลเอนต์ (ไม่ใช่ฝั่งเซิร์ฟเวอร์)\n\n❌ ทำไมข้ออื่นผิด:\nA. relay ไม่ได้แจก DNS เอง — DNS มาจาก DHCP server ตามปกติ\nB. ใส่ ip helper-address ได้มากกว่า 1 บรรทัดต่ออินเทอร์เฟซ\nC. relay ระบุ subnet ของไคลเอนต์จากฟิลด์ giaddr ไม่ใช่จาก MAC reservation\n\n📗 จำไว้สอบ: ip helper-address ใส่ที่อินเทอร์เฟซฝั่งไคลเอนต์ • ใส่ได้หลายบรรทัด • giaddr บอกเซิร์ฟเวอร์ว่าจะแจกจาก pool ไหน',
+  },
+  {
+    id: 631,
+    kind: 'single',
+    prompt: 'Which is a fact related to FTP?',
+    options: [
+      { key: 'A', text: 'It uses block numbers to identify and mitigate data-transfer errors' },
+      { key: 'B', text: 'It always operates without user authentication' },
+      { key: 'C', text: 'It relies on the well-known UDP port 69.' },
+      { key: 'D', text: 'It uses two separate connections for control and data traffic' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — FTP vs TFTP (โจทย์ชอบเอามาสลับกัน)\n\n🔹 FTP (File Transfer Protocol):\n• ใช้ TCP → เชื่อถือได้\n• ใช้ "2 การเชื่อมต่อแยกกัน" ⭐ : control connection (TCP 21) สำหรับคำสั่ง และ data connection (TCP 20 ในโหมด active) สำหรับตัวไฟล์\n• ต้องยืนยันตัวตนด้วย username/password (มี anonymous FTP เป็นกรณีพิเศษ)\n• มีคำสั่งจัดการไฟล์ครบ (ls, cd, delete, rename)\n\n🔹 TFTP (Trivial FTP):\n• ใช้ UDP พอร์ต 69\n• ไม่มีการยืนยันตัวตนเลย\n• ใช้ "block number" + ACK ทีละบล็อกเพื่อจัดการความผิดพลาด\n• ใช้ copy IOS image / config บนอุปกรณ์เครือข่าย\n\n✅ ทำไม D ถูก: การแยก control (21) กับ data (20) เป็นเอกลักษณ์ของ FTP\n\n❌ ทำไมข้ออื่นผิด:\nA. block numbers = กลไกของ TFTP\nB. FTP ต้องล็อกอิน (TFTP ต่างหากที่ไม่มี authentication)\nC. UDP 69 = TFTP (FTP ใช้ TCP 20/21)\n\n📗 จำไว้สอบ: FTP=TCP 20/21 + login + 2 connections | TFTP=UDP 69 + ไม่มี login + block number | SFTP=SSH 22',
+  },
+  {
+    id: 632,
+    kind: 'drag',
+    image: q632,
+    prompt: 'Drag and drop the descriptions of IP protocol transmissions from the left onto the IP traffic types on the right.',
+    categories: [
+      {
+        name: 'TCP',
+        items: [
+          'sends transmissions in sequence',
+          'transmits packets as a stream',
+          'uses a lower transmission rate to ensure reliability',
+        ],
+      },
+      {
+        name: 'UDP',
+        items: [
+          'transmissions include an 8-byte header',
+          'transmits packets individually',
+          'uses a higher transmission rate to support latency-sensitive applications',
+        ],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — เปรียบเทียบเชิงพฤติกรรมของ TCP กับ UDP\n\n🔹 TCP (header 20 ไบต์ขึ้นไป):\n• sends transmissions in sequence → มี sequence number จัดลำดับและเรียงข้อมูลให้ถูกต้องที่ปลายทาง\n• transmits packets as a stream → มองข้อมูลเป็น "สายธาร" (byte stream) ต่อเนื่องบน connection เดียว\n• uses a lower transmission rate to ensure reliability → มีการรอ ACK, ทำ flow control (window) และ congestion control → ช้าลงแต่ได้ความน่าเชื่อถือ\n\n🔹 UDP (header 8 ไบต์: source port, destination port, length, checksum):\n• transmissions include an 8-byte header → เล็กที่สุด โอเวอร์เฮดต่ำ ⭐\n• transmits packets individually → แต่ละ datagram เป็นอิสระต่อกัน ไม่มี connection\n• uses a higher transmission rate to support latency-sensitive applications → ส่งรัวได้ไม่ต้องรอ ACK เหมาะกับ VoIP/วิดีโอ\n\n📗 จำไว้สอบ: TCP header 20 ไบต์ (สูงสุด 60) / UDP header 8 ไบต์ • TCP=stream เรียงลำดับ • UDP=datagram อิสระ',
+  },
+  {
+    id: 633,
+    kind: 'single',
+    image: q633,
+    prompt:
+      'Refer to the exhibit. A packet sourced from 172.18.33.2 is destined for 172.18.32.38. Where does the router forward the packet?',
+    options: [
+      { key: 'A', text: 'GigabitEthernet0/0' },
+      { key: 'B', text: 'Loopback0' },
+      { key: 'C', text: '10.1.1.1' },
+      { key: 'D', text: '10.1.1.3' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — เลือกเส้นทางด้วย longest prefix match ก่อนเสมอ (AD/metric ใช้ต่อเมื่อ prefix ยาวเท่ากัน)\n\n🧮 ตรวจว่า 172.18.32.38 อยู่ในช่วงของ prefix ใดบ้าง:\n• D  172.18.32.0/26 via 10.1.1.1 → block 64 → .0–.63 ✔ (prefix /26)\n• R  172.18.32.0/24 via 10.1.1.2 → .0–.255 ✔ (prefix /24)\n• O  172.18.32.0/19 via 10.1.1.3 → .32.0–.63.255 ✔ (prefix /19)\n• C  172.18.32.32/32 Loopback0 → เฉพาะ .32 เท่านั้น ✘\n• C  172.18.32.36/30 GigabitEthernet0/0 → block 4 → .36–.39 ✔ (prefix /30) ⭐ ยาวที่สุด\n• L  172.18.32.37/32 Gi0/0 → เฉพาะ .37 ✘\n\n✅ ทำไม A ถูก: /30 คือ prefix ที่ยาวที่สุดที่ครอบ .38 (ช่วง .36–.39) และเป็นเครือข่าย "connected" บน GigabitEthernet0/0 → เราเตอร์ ARP หา 172.18.32.38 แล้วส่งออกทาง Gi0/0 โดยตรง ไม่ต้องผ่าน next hop ใด\n\n❌ ทำไมข้ออื่นผิด:\nB. Loopback0 เป็น host route /32 ของ .32 เท่านั้น\nC. 10.1.1.1 = next hop ของเส้น /26 ซึ่งสั้นกว่า /30\nD. 10.1.1.3 = next hop ของเส้น /19 ซึ่งสั้นที่สุด\n\n📗 จำไว้สอบ: /30 → block 4 → .36 ครอบถึง .39 • connected route ชนะเพราะ prefix ยาวสุด (และ AD 0 ด้วย)',
+  },
+  {
+    id: 634,
+    kind: 'single',
+    prompt: 'Which command configures the Cisco WLC to prevent a serial session with the WLC CLI from being automatically logged out?',
+    options: [
+      { key: 'A', text: 'config sessions maxsessions 0' },
+      { key: 'B', text: 'config sessions timeout 0' },
+      { key: 'C', text: 'config serial timeout 0' },
+      { key: 'D', text: 'config serial timeout 9600' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B — แต่ "config sessions timeout" คุม session ทาง "เครือข่าย" (Telnet/SSH) ส่วนโจทย์ระบุชัดว่าเป็น "serial session" (พอร์ตคอนโซล) คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — คำสั่ง timeout บน Cisco WLC มี 2 ชุด แยกกันชัดเจน\n• config serial timeout <นาที> → คุมการ time-out ของ "console/serial port"  (0 = ไม่หมดเวลา ไม่ถูกเตะออก)\n• config sessions timeout <นาที> → คุม CLI session ที่มาทาง Telnet/SSH\n• config sessions maxsessions <จำนวน> → จำกัดจำนวน session พร้อมกัน (ตั้ง 0 = ปิด Telnet/SSH ทั้งหมด!)\n\n✅ ทำไม C ถูก: โจทย์ขอไม่ให้ serial session ถูก log out อัตโนมัติ → "config serial timeout 0" (ค่าเริ่มต้นคือ 5 นาที)\n\n❌ ทำไมข้ออื่นผิด:\nA. maxsessions 0 = ปิดการเข้าถึงผ่าน SSH/Telnet ทั้งหมด (อันตรายและผิดโจทย์)\nB. คุม Telnet/SSH ไม่ใช่ serial\nD. 9600 คือค่า "baud rate" ของพอร์ตอนุกรม ไม่ใช่ค่า timeout (และช่วง timeout รับได้ 0–160 นาที)\n\n📗 จำไว้สอบ: serial/console → config serial timeout 0 • SSH/Telnet → config sessions timeout',
+  },
+  {
+    id: 635,
+    kind: 'single',
+    image: q635,
+    prompt: 'Refer to the exhibit. How many JSON objects are presented?',
+    options: [
+      { key: 'A', text: '1' },
+      { key: 'B', text: '2' },
+      { key: 'C', text: '3' },
+      { key: 'D', text: '4' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D (4) โดยนับจำนวนสวิตช์ — แต่ตามไวยากรณ์ JSON object คือสิ่งที่อยู่ในคู่ { } ซึ่งมีเพียงคู่เดียว คำตอบที่ถูกต้องคือ A (1)\n\n📘 แนวคิด — โครงสร้าง JSON\n• { } = object → รวมคู่ "key" : value ไว้ด้วยกัน\n• [ ] = array → รายการค่าเรียงลำดับ\n• object กับ array ซ้อนกันได้ไม่จำกัด\n\n🔍 วิเคราะห์ exhibit:\n{                                                                  ← object เดียว\n  "SW1" : ["Ten-GigabitEthernet0/0", "Ten-GigabitEthernet0/1"],    ← key + array (2 string)\n  "SW2" : [...],\n  "SW3" : [...],\n  "SW4" : [...]\n}\nนับได้: object = 1 | array = 4 | key/value pair = 4 | string ทั้งหมด = 8 (ในarray) + 4 (key)\n\n✅ ทำไม A ถูก: มีเพียง { } คู่เดียวครอบทั้งหมด → 1 object\n\n❌ ทำไมข้ออื่นผิด:\nB, C. ไม่ตรงกับจำนวนโครงสร้างใด ๆ ในโค้ด\nD. 4 คือจำนวน array / จำนวน key ไม่ใช่จำนวน object (ค่าของแต่ละ key เป็น array ไม่ใช่ object — สังเกตว่าใช้ [ ] ไม่ใช่ { })\n\n📗 จำไว้สอบ: เห็น [ ] → array | เห็น { } → object | อย่าเผลอนับ key เป็น object',
+  },
+  {
+    id: 636,
+    kind: 'single',
+    prompt: 'Which enhancement is implemented in WPA3?',
+    options: [
+      { key: 'A', text: 'applies 802.1x authentication' },
+      { key: 'B', text: 'uses TKIP' },
+      { key: 'C', text: 'employs PKI to identify access points' },
+      { key: 'D', text: 'protects against brute force attacks' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — สิ่งใหม่ที่ WPA3 เพิ่มเข้ามา\n1️⃣ SAE (Simultaneous Authentication of Equals / Dragonfly) แทน PSK 4-way handshake\n   → ผู้โจมตีดักจับ handshake ไปแล้วเดารหัสผ่านแบบ offline dictionary/brute force "ไม่ได้อีกต่อไป" ⭐ ต้องเดาแบบ online ทีละครั้งซึ่งถูกจำกัดอัตรา\n2️⃣ Forward secrecy — ต่อให้รหัสผ่านรั่วภายหลัง ทราฟฟิกที่ดักเก็บไว้ก่อนหน้าก็ถอดรหัสไม่ได้\n3️⃣ PMF (802.11w) บังคับใช้ → กัน deauth attack\n4️⃣ Enterprise 192-bit mode (GCMP-256) สำหรับงานที่ต้องการความปลอดภัยสูง\n5️⃣ OWE (Enhanced Open) — เข้ารหัสให้เครือข่ายเปิดที่ไม่มีรหัสผ่าน\n\n✅ ทำไม D ถูก: จุดขายอันดับหนึ่งของ WPA3-Personal คือ SAE ที่ป้องกันการเดารหัสผ่านแบบ brute force/offline dictionary\n\n❌ ทำไมข้ออื่นผิด:\nA. 802.1X มีมาตั้งแต่ WPA/WPA2 Enterprise แล้ว ไม่ใช่ของใหม่\nB. WPA3 "เลิกใช้" TKIP โดยสิ้นเชิง (TKIP เป็นของ WPA รุ่นแรก)\nC. WPA3 ไม่ได้บังคับใช้ PKI เพื่อระบุตัวตน AP (การตรวจ AP ปลอมใช้ PMF/WIPS)\n\n📗 จำไว้สอบ: WPA3 = SAE (กัน brute force) + PMF บังคับ + forward secrecy + GCMP-256 (Enterprise 192-bit)',
+  },
+  {
+    id: 637,
+    kind: 'single',
+    prompt:
+      'What must be considered for a locally switched FlexConnect AP if the VLANs that are used by the AP and client access are different?',
+    options: [
+      { key: 'A', text: 'The APs must be connected to the switch with multiple links in LAG mode' },
+      { key: 'B', text: 'The switch port mode must be set to trunk' },
+      { key: 'C', text: 'The native VLAN must match the management VLAN of the AP' },
+      { key: 'D', text: 'IEEE 802.1Q trunking must be disabled on the switch port.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ C — ซึ่งเป็น "รายละเอียดที่ตามมา" (native VLAN ควรตรงกับ management VLAN ของ AP) แต่เงื่อนไขหลักที่ต้องมีก่อนคือพอร์ตต้องเป็น trunk คำตอบที่ถูกต้องคือ B\n\n📘 แนวคิด — FlexConnect (เดิมชื่อ H-REAP)\n• Central switching = ทราฟฟิกไคลเอนต์ถูก tunnel (CAPWAP) กลับไปออกที่ WLC → พอร์ตสวิตช์เป็น access ก็พอ เพราะเห็นแค่ VLAN ของ AP\n• Local switching ⭐ = ทราฟฟิกไคลเอนต์ "ออกที่สาขา" ทันที ไม่ต้องวิ่งข้าม WAN → AP ต้องวางเฟรมของไคลเอนต์ลง VLAN ของไคลเอนต์เอง\n\n💡 ดังนั้นเมื่อ VLAN ของ AP (management) กับ VLAN ของไคลเอนต์ "ต่างกัน" AP ต้องส่งทั้งทราฟฟิกจัดการของตัวเอง (ไม่ติดแท็ก) และทราฟฟิกไคลเอนต์ (ติดแท็ก 802.1Q) ผ่านสายเส้นเดียว → พอร์ตสวิตช์ต้องเป็น trunk\n\n✅ ทำไม B ถูก: ต้องตั้งพอร์ตสวิตช์เป็น trunk เพื่อรองรับหลาย VLAN บนลิงก์เดียว\n\n❌ ทำไมข้ออื่นผิด:\nA. LAG (link aggregation) ไม่จำเป็นสำหรับ AP ตัวเดียว\nC. ถูกบางส่วน — เป็นแนวปฏิบัติที่ควรทำ (ตั้ง native VLAN = management VLAN ของ AP เพื่อให้ทราฟฟิกจัดการไม่ติดแท็ก) แต่ไม่ใช่ข้อกำหนดหลักที่ทำให้ VLAN ต่างกันทำงานได้\nD. ถ้าปิด 802.1Q trunking ก็จะส่งได้ VLAN เดียว → ขัดกับโจทย์โดยตรง\n\n📗 จำไว้สอบ: FlexConnect local switching + หลาย VLAN → พอร์ตต้อง trunk (native VLAN = AP management VLAN)',
+  },
+  {
+    id: 638,
+    kind: 'single',
+    image: q638,
+    prompt:
+      'Refer to the exhibit. The network engineer is configuring router R2 as a replacement router on the network. After the initial configuration is applied, it is determined that R2 failed to show R1 as a neighbor. Which configuration must be applied to R2 to complete the OSPF configuration and enable it to establish the neighbor relationship with R1?',
+    options: [
+      {
+        key: 'A',
+        text: 'R2(config)#router ospf 1\nR2(config-router)#router-id 192.168.1.2',
+      },
+      {
+        key: 'B',
+        text: 'R2(config)#interface GigabitEthernet0/0/0\nR2(config-if)#ip ospf priority 255',
+      },
+      {
+        key: 'C',
+        text: 'R2(config)#interface GigabitEthernet0/0/0\nR2(config-if)#ip ospf network point-to-point',
+      },
+      {
+        key: 'D',
+        text: 'R2(config)#interface GigabitEthernet0/0/0\nR2(config-if)#ip ospf hello-interval 15\nR2(config-if)#ip ospf dead-interval 20',
+      },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — เงื่อนไขที่ต้อง "ตรงกัน" ทั้งสองฝั่ง มิฉะนั้น OSPF จะไม่เกิด neighbor\n1️⃣ Hello interval และ Dead interval ⭐ (ผิดข้อนี้บ่อยที่สุด)\n2️⃣ Area ID\n3️⃣ Subnet / subnet mask เดียวกัน\n4️⃣ Authentication (ชนิดและรหัส)\n5️⃣ Stub area flag\n6️⃣ MTU (ต้องตรงกันเพื่อผ่านสถานะ Exchange)\n❗ สิ่งที่ "ไม่จำเป็น" ต้องตรงกัน: process ID, priority, cost, router-id (ขอแค่ไม่ซ้ำ)\n\n🔍 อ่าน exhibit:\n• R1 → Hello 15, Dead 20\n• R2 → Hello 10, Dead 40 (ค่าเริ่มต้นของ broadcast network)\n→ Timer ไม่ตรงกัน → Hello packet ถูกทิ้ง → ไม่เกิด adjacency\n\n✅ ทำไม D ถูก: ปรับ timer ของ R2 ให้ตรงกับ R1 คือ hello-interval 15 และ dead-interval 20 → neighbor ขึ้นทันที\n\n❌ ทำไมข้ออื่นผิด:\nA. router-id ไม่ต้องตรงกัน (ห้ามซ้ำต่างหาก) → เปลี่ยนแล้วก็ยังไม่เกิด neighbor\nB. priority มีผลแค่การเลือก DR/BDR ไม่ใช่เงื่อนไขการเป็นเพื่อนบ้าน\nC. เปลี่ยน network type เป็น point-to-point จะยิ่งทำให้ "ไม่ตรงกัน" กับฝั่ง R1 (และ p2p ใช้ hello 10/dead 40 ซึ่งยังไม่ตรงอยู่ดี)\n\n📗 จำไว้สอบ: ไม่ขึ้น neighbor → เช็ค Hello/Dead, Area, Subnet/Mask, Auth, MTU • Dead ปกติ = 4 เท่าของ Hello',
+  },
+  {
+    id: 639,
+    kind: 'single',
+    prompt:
+      'What is an advantage of using auto mode versus static mode for power allocation when an access point is connected to a PoE switch port?',
+    options: [
+      { key: 'A', text: 'All four pairs of the cable are used' },
+      { key: 'B', text: 'It detects the device is a powered device' },
+      { key: 'C', text: 'The default level is used for the access point' },
+      { key: 'D', text: 'Power policing is enabled at the same time' },
+    ],
+    correct: ['B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D (power policing) — แต่ power policing เป็นฟีเจอร์แยก (สั่งด้วย "power inline police") ไม่ได้เปิดอัตโนมัติเพราะเลือกโหมด auto คำตอบที่ถูกต้องคือ B\n\n📘 แนวคิด — โหมดจ่ายไฟ PoE บนพอร์ตสวิตช์\n🔹 power inline auto (ค่าเริ่มต้น) ⭐\n  • สวิตช์ "ตรวจจับ" ก่อนว่าปลายทางเป็น powered device (PD) จริงหรือไม่ โดยใช้ Cisco discovery/IEEE detection\n  • ถ้าใช่และมีไฟพอ จึงจ่ายไฟและจองกำลังไฟ "ตามที่อุปกรณ์ต้องการจริง" (เจรจาต่อผ่าน CDP/LLDP-MED ได้อีก)\n  • ไม่มีอุปกรณ์เสียบ = ไม่กันกำลังไฟไว้ → power budget เหลือให้พอร์ตอื่นใช้\n🔹 power inline static\n  • สวิตช์ "จอง" กำลังไฟให้พอร์ตนั้นไว้ล่วงหน้าทันทีที่คอนฟิก แม้ยังไม่มีอุปกรณ์เสียบ\n  • เหมาะกับอุปกรณ์สำคัญที่ต้องมั่นใจว่าจะมีไฟให้แน่ ๆ แต่เปลือง budget\n\n✅ ทำไม B ถูก: ข้อได้เปรียบของ auto คือมันตรวจจับว่าเป็น PD ก่อนแล้วค่อยจัดสรรไฟตามจริง จึงใช้ power budget ได้คุ้มค่าที่สุด\n\n❌ ทำไมข้ออื่นผิด:\nA. การใช้สายกี่คู่ขึ้นกับมาตรฐาน PoE (802.3af/at ใช้ 2 คู่, 802.3bt ใช้ 4 คู่) ไม่เกี่ยวกับ auto/static\nC. "ใช้ค่าเริ่มต้น" ไม่ใช่ข้อได้เปรียบ และ static ต่างหากที่ผูกกับค่าที่กำหนดไว้ตายตัว\nD. power policing ต้องสั่งเปิดเองด้วย "power inline police" ใช้ได้ทั้งสองโหมด\n\n📗 จำไว้สอบ: auto = ตรวจเจอ PD แล้วค่อยจ่าย/จองตามจริง • static = จองไว้ล่วงหน้าเสมอ • PoE 802.3af=15.4W, at(PoE+)=30W, bt=60/100W',
+  },
+  {
+    id: 640,
+    kind: 'single',
+    prompt: 'Which type of port is used to connect to the wired network when an autonomous AP maps two VLANs to its WLANs?',
+    options: [
+      { key: 'A', text: 'LAG' },
+      { key: 'B', text: 'EtherChannel' },
+      { key: 'C', text: 'trunk' },
+      { key: 'D', text: 'access' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D (access) — แต่พอร์ต access ส่งได้ VLAN เดียวเท่านั้น ไม่สามารถแยก 2 VLAN ได้ คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — Autonomous AP (AP ที่ทำงานเองโดยไม่มี WLC)\n• แต่ละ SSID/WLAN จะถูก "map" เข้ากับ VLAN หนึ่ง ๆ เช่น SSID-Staff → VLAN 10, SSID-Guest → VLAN 20\n• เมื่อไคลเอนต์ส่งข้อมูลมา AP จะติดแท็ก 802.1Q ตาม VLAN ของ SSID นั้นแล้วส่งออกพอร์ตอีเทอร์เน็ตไปยังสวิตช์\n→ สายเส้นเดียวต้องพาหลาย VLAN = ต้องเป็น trunk port\n\n✅ ทำไม C ถูก: มี 2 VLAN ขึ้นไป → พอร์ตที่ต่อ AP กับสวิตช์ต้องเป็น 802.1Q trunk (โดยตั้ง native VLAN ให้ตรงกับ VLAN จัดการของ AP)\n\n❌ ทำไมข้ออื่นผิด:\nA/B. LAG และ EtherChannel = การรวมหลายลิงก์ทางกายภาพให้เป็นลิงก์เดียวเพื่อเพิ่ม bandwidth/redundancy ไม่เกี่ยวกับการพาหลาย VLAN\nD. access port ส่งได้แค่ VLAN เดียว → SSID ที่สองจะใช้งานไม่ได้\n\n📗 จำไว้สอบ: autonomous AP หลาย SSID/VLAN → trunk • lightweight AP (CAPWAP) → access ก็พอ เพราะทราฟฟิกถูก tunnel ไป WLC',
+  },
+  {
+    id: 641,
+    kind: 'single',
+    prompt: 'What is a function of an endpoint?',
+    options: [
+      { key: 'A', text: 'It is used directly by an individual user to access network services' },
+      { key: 'B', text: 'It passes unicast communication between hosts in a network' },
+      { key: 'C', text: 'It transmits broadcast traffic between devices in the same VLAN' },
+      { key: 'D', text: 'It provides security between trusted and untrusted sections of the network.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — แยกบทบาทอุปกรณ์ในเครือข่าย\n• Endpoint (อุปกรณ์ปลายทาง) = สิ่งที่ "ผู้ใช้ใช้งานโดยตรง" เพื่อเข้าถึงบริการเครือข่าย เช่น พีซี โน้ตบุ๊ก สมาร์ตโฟน แท็บเล็ต IP phone เครื่องพิมพ์ อุปกรณ์ IoT ⭐\n• Intermediary device = อุปกรณ์กลางที่ส่งต่อข้อมูล เช่น สวิตช์ (ส่ง unicast/broadcast ใน VLAN) เราเตอร์ (ข้าม subnet)\n• Security device = firewall/IPS ที่คั่นระหว่างโซนที่เชื่อถือได้กับเชื่อถือไม่ได้\n\n✅ ทำไม A ถูก: นิยามของ endpoint คืออุปกรณ์ที่ผู้ใช้ใช้เข้าถึงบริการ (เป็นต้นทาง/ปลายทางของการสื่อสาร ไม่ได้ทำหน้าที่ส่งต่อให้ใคร)\n\n❌ ทำไมข้ออื่นผิด:\nB. การส่งต่อ unicast ระหว่างโฮสต์ = หน้าที่สวิตช์/เราเตอร์\nC. การส่ง broadcast ภายใน VLAN = หน้าที่สวิตช์\nD. การกั้นโซน trusted/untrusted = หน้าที่ firewall\n\n📗 จำไว้สอบ: endpoint = ต้นทาง/ปลายทางที่ผู้ใช้ใช้ • switch/router = ตัวกลางส่งต่อ • firewall = ตัวกั้นโซน',
+  },
+  {
+    id: 642,
+    kind: 'drag',
+    image: q642,
+    prompt:
+      'Drag and drop the characteristics of device-management technologies from the left onto the corresponding deployment types on the right.',
+    categories: [
+      {
+        name: 'Cisco DNA Center',
+        items: [
+          'orchestrates background device configuration',
+          'supports open APIs',
+          'supports centralized software management',
+        ],
+      },
+      {
+        name: 'Traditional',
+        items: [
+          'relies on per-device management',
+          'uses individual software management',
+          'provides greater flexibility for custom and non-standard configurations',
+        ],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — Cisco DNA Center (controller-based) vs Traditional (per-device)\n\n🔹 Cisco DNA Center:\n• orchestrates background device configuration → ประสานงานผลักคอนฟิกลงอุปกรณ์อัตโนมัติเบื้องหลัง (ผู้ดูแลบอก "เจตนา" ระบบจัดการให้เอง)\n• supports open APIs → มี Northbound REST API ให้ระบบอื่นเชื่อมต่อและทำ automation ต่อได้\n• supports centralized software management → จัดการ IOS image/แพตช์รวมศูนย์ผ่าน SWIM\n\n🔹 Traditional:\n• relies on per-device management → SSH/console เข้าไปตั้งค่าทีละเครื่อง\n• uses individual software management → อัปเกรด image แยกทีละตัว\n• provides greater flexibility for custom and non-standard configurations → พิมพ์ CLI ได้อิสระเต็มที่ ทำอะไรนอกเทมเพลตก็ได้\n\n💡 สรุปข้อแลกเปลี่ยน: DNA Center ได้ความเร็ว ความสม่ำเสมอ และขยายง่าย — Traditional ได้ความยืดหยุ่นแต่แลกด้วยแรงคนและโอกาสผิดพลาด\n\n📗 จำไว้สอบ: DNA Center = อัตโนมัติ/รวมศูนย์/API • Traditional = ทีละเครื่อง/ยืดหยุ่นสูง/ค่าดูแลแพง',
+  },
+  {
+    id: 643,
+    kind: 'single',
+    image: q643,
+    prompt:
+      'Refer to the exhibit. Wireless LAN access must be set up to force all clients from the NA WLAN to authenticate against the local database. The WLAN is configured for local EAP authentication. The time that users access the network must not be limited. Which action completes this configuration?',
+    options: [
+      { key: 'A', text: 'Uncheck the Guest User check box' },
+      { key: 'B', text: 'Check the Guest User Role check box' },
+      { key: 'C', text: 'Set the Lifetime (seconds) value to 0' },
+      { key: 'D', text: 'Clear the Lifetime (seconds) value' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — หน้า Local Net Users บน Cisco WLC\n• Local Net User = บัญชีผู้ใช้ที่เก็บไว้ในฐานข้อมูลของ WLC เอง ใช้คู่กับ Local EAP\n• ช่อง "Guest User" เมื่อติ๊ก จะแสดงช่อง "Lifetime (seconds)" ขึ้นมา = อายุของบัญชี\n  - ค่าเริ่มต้น 86400 วินาที (1 วัน) ช่วงที่ตั้งได้ 60–2,592,000 วินาที\n  - ตั้งเป็น "0" = ไม่จำกัดเวลา (บัญชีถาวร) ⭐\n\n🔍 อ่าน exhibit: Guest User ถูกติ๊กไว้ และ Lifetime = 86400 → ผู้ใช้จะใช้งานได้แค่ 1 วันแล้วบัญชีหมดอายุ ซึ่งขัดกับโจทย์ที่ว่า "must not be limited"\n\n✅ ทำไม C ถูก: เปลี่ยนค่า Lifetime เป็น 0 → บัญชีไม่มีวันหมดอายุ ผู้ใช้เข้าใช้งานได้ไม่จำกัดเวลา\n\n❌ ทำไมข้ออื่นผิด:\nA. เอาติ๊ก Guest User ออก จะเปลี่ยนชนิดบัญชี (และซ่อนช่อง Lifetime ไปเฉย ๆ) — ไม่ใช่ "การกระทำที่ทำให้คอนฟิกนี้สมบูรณ์" ตามที่โจทย์วางกรอบไว้\nB. Guest User Role ใช้กำหนดโควตา bandwidth ให้ role ของแขก ไม่เกี่ยวกับอายุบัญชี\nD. เว้นช่องว่างไว้เฉย ๆ WLC จะไม่รับค่า (ต้องเป็นตัวเลข) — ต้องใส่ 0 ชัดเจน\n\n📗 จำไว้สอบ: Lifetime = 0 บน WLC แปลว่า "ไม่มีวันหมดอายุ"',
+  },
+  {
+    id: 644,
+    kind: 'single',
+    image: q644,
+    prompt:
+      'Refer to the exhibit. An engineer is configuring a new Cisco switch, NewSW, to replace SW2. The details have been provided:\n• Switches SW1 and SW2 are third-party devices without support for trunk ports\n• The existing connections must be maintained between PC1, PC2 and PC3\n• Allow the switch to pass traffic from future VLAN 10\nWhich configuration must be applied?',
+    options: [
+      {
+        key: 'A',
+        text: 'NewSW(config)#interface FastEthernet0/0\nNewSW(config-if)#switchport mode access\nNewSW(config-if)#switchport access vlan 2',
+      },
+      {
+        key: 'B',
+        text: 'NewSW(config)#interface FastEthernet0/0\nNewSW(config-if)#switchport trunk encapsulation dot1q\nNewSW(config-if)#switchport mode trunk\nNewSW(config-if)#switchport trunk native vlan 2\nNewSW(config-if)#switchport trunk allowed vlan 2,10',
+      },
+      {
+        key: 'C',
+        text: 'NewSW(config)#interface FastEthernet0/0\nNewSW(config-if)#switchport trunk encapsulation dot1q\nNewSW(config-if)#switchport mode trunk\nNewSW(config-if)#switchport trunk allowed vlan 10',
+      },
+      {
+        key: 'D',
+        text: 'NewSW(config)#interface FastEthernet0/0\nNewSW(config-if)#switchport mode dynamic desirable\nNewSW(config-if)#switchport access vlan 10',
+      },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — native VLAN บนพอร์ต trunk จะถูกส่งแบบ "ไม่ติดแท็ก" (untagged) ส่วน VLAN อื่นจะติดแท็ก 802.1Q\nคุณสมบัตินี้ทำให้ trunk สามารถคุยกับสวิตช์ที่ไม่รองรับ trunk ได้ — เพราะฝั่งนั้นจะเห็นเฉพาะเฟรม untagged เหมือนพอร์ต access ปกติ\n\n🔍 อ่านโจทย์:\n• SW1 (third-party) ตั้งพอร์ต f0/0 เป็น "switchport access vlan 2" → ส่งเฟรม VLAN 2 แบบไม่ติดแท็ก\n• ต้องคง PC1–PC2–PC3 (ทั้งหมดอยู่ VLAN 2) ให้คุยกันได้เหมือนเดิม\n• ต้องเผื่อ VLAN 10 ในอนาคตให้ผ่านลิงก์นี้ได้ด้วย\n\n✅ ทำไม B ถูก: ตั้ง trunk แล้วกำหนด "native vlan 2" → เฟรม VLAN 2 ออกไปแบบ untagged เข้ากันได้กับ SW1 ที่เป็น access (PC1–PC3 คุยกันได้เหมือนเดิม) พร้อมทั้ง "allowed vlan 2,10" เพื่อรองรับ VLAN 10 ในอนาคต\n\n❌ ทำไมข้ออื่นผิด:\nA. access vlan 2 ใช้งานได้ตอนนี้ แต่พา VLAN 10 ในอนาคตไม่ได้เลย → ไม่ครบข้อกำหนด\nC. เป็น trunk ที่อนุญาตแค่ VLAN 10 (ไม่มี VLAN 2 และ native ยังเป็น 1) → PC ที่อยู่ VLAN 2 ขาดการเชื่อมต่อทันที\nD. dynamic desirable = ส่ง DTP ไปเจรจา ซึ่งอุปกรณ์ third-party ไม่เข้าใจ + คำสั่ง access vlan 10 ก็ทำให้ VLAN 2 หลุด\n\n📗 จำไว้สอบ: native VLAN = untagged → ใช้เชื่อมกับอุปกรณ์ที่ไม่รองรับ trunk ได้ • native VLAN ต้องตรงกันสองฝั่ง ไม่งั้นเกิด VLAN hopping/leaking',
+  },
+  {
+    id: 645,
+    kind: 'multi',
+    image: q645,
+    prompt:
+      'Refer to the exhibit. PMF has been set to Required on this WLAN, but the security configuration is still incomplete. Which two additional settings must be configured so that the WLAN provides the strongest encryption and can be enabled? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Check the WPA2 Policy check box and select AES under WPA2 Encryption' },
+      { key: 'B', text: 'Set Fast Transition to Enabled' },
+      { key: 'C', text: 'Enable an Authentication Key Management method such as 802.1X or PSK' },
+      { key: 'D', text: 'Set PMF to Optional' },
+      { key: 'E', text: 'Check the WPA Policy check box and select TKIP encryption' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '🔍 หมายเหตุ: exhibit ต้นฉบับแสดงตัวเลือกเป็นภาพหน้าจอ A)–D) ที่อ่านไม่ได้ครบ โจทย์ข้อนี้จึงถูกเขียนใหม่ให้ตรวจ "หน้าจอเดียวกัน" ด้วยหลักการเดิม\n\n📘 แนวคิด — จะเปิด WLAN แบบ WPA2 ให้ใช้งานได้ ต้องครบ 3 ส่วนบนแท็บ Layer 2\n1️⃣ Layer 2 Security = WPA+WPA2 ✔ (ตั้งไว้แล้วใน exhibit)\n2️⃣ เลือก policy + cipher → ติ๊ก "WPA2 Policy" และเลือก "AES" (CCMP) ซึ่งเป็นการเข้ารหัสที่แข็งแรงที่สุดในหน้านี้\n3️⃣ เลือกวิธีจัดการกุญแจ (AKM) → ต้องติ๊กอย่างน้อยหนึ่งอย่าง: 802.1X (Enterprise) หรือ PSK (Personal) มิฉะนั้นจะบันทึกไม่ได้\n\n⚠️ และเนื่องจาก PMF = Required (802.11w) จึงบังคับว่าต้องใช้ WPA2 + AES เท่านั้น — TKIP ใช้กับ PMF ไม่ได้\n\n✅ ทำไม A ถูก: ถ้าไม่ติ๊ก WPA2 Policy + AES ก็ไม่มี cipher ให้เข้ารหัส และไม่รองรับ PMF\n✅ ทำไม C ถูก: ต้องมี AKM อย่างน้อยหนึ่งวิธี WLAN จึงจะทำงาน (จาก exhibit ยังไม่ติ๊กสักช่อง)\n\n❌ ทำไมข้ออื่นผิด:\nB. Fast Transition (802.11r) ช่วยเรื่อง roaming เร็ว ไม่เกี่ยวกับความแข็งแรงของการเข้ารหัส\nD. ลด PMF เป็น Optional = ลดความปลอดภัย ตรงข้ามกับโจทย์\nE. WPA/TKIP อ่อนกว่า AES มาก และใช้ร่วมกับ PMF Required ไม่ได้\n\n📗 จำไว้สอบ: WPA2 ที่สมบูรณ์ = Layer2 Security + WPA2 Policy/AES + AKM (802.1X หรือ PSK) • PMF ต้องคู่กับ AES เสมอ',
+  },
+  {
+    id: 646,
+    kind: 'single',
+    image: q646,
+    prompt:
+      'Refer to the exhibit. A newly configured PC fails to connect to the internet using TCP port 80 to www.cisco.com. Which setting must be modified for the connection to work?',
+    options: [
+      { key: 'A', text: 'Subnet Mask' },
+      { key: 'B', text: 'DNS Servers' },
+      { key: 'C', text: 'Default Gateway' },
+      { key: 'D', text: 'DHCP Server' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B (DNS Servers) — แต่ 8.8.8.8 คือ Google Public DNS ซึ่งเป็นรีโซลเวอร์สาธารณะที่ใช้งานได้จริง ไม่ใช่ค่าที่ผิด คำตอบที่ถูกต้องคือ A\n\n📘 แนวคิด — subnet mask ของโฮสต์ต้องตรงกับ mask ของอินเทอร์เฟซเราเตอร์ในวงเดียวกัน ไม่เช่นนั้นโฮสต์จะเข้าใจขอบเขต subnet ผิด และตัดสินใจ "ส่งตรง (local) หรือส่งผ่าน gateway" ผิดพลาด\n\n🔍 เทียบค่าใน exhibit:\n• อินเทอร์เฟซเราเตอร์ = 10.2.2.1/27 → mask 255.255.255.224 → subnet 10.2.2.0 – 10.2.2.31\n• PC = 10.2.2.2 mask 255.255.255.192 (/26) → PC เข้าใจว่า subnet คือ 10.2.2.0 – 10.2.2.63 ❌ ไม่ตรงกัน\n• Default Gateway 10.2.2.1 → ถูกต้อง (เป็น IP ของเราเตอร์จริง)\n• DNS 8.8.8.8 → ใช้งานได้จริง\n\n✅ ทำไม A ถูก: ค่าเดียวที่ตั้งผิดคือ subnet mask — ต้องแก้เป็น 255.255.255.224 ให้ตรงกับ /27 ของเราเตอร์ ไม่งั้น PC จะพยายาม ARP หาโฮสต์ในช่วง .32–.63 โดยตรงแทนที่จะส่งผ่าน gateway (และเมื่อเราเตอร์ตอบกลับ อาจได้ ICMP redirect หรือติดต่อไม่ได้)\n\n❌ ทำไมข้ออื่นผิด:\nB. 8.8.8.8 เป็น DNS สาธารณะที่ใช้ได้ปกติ\nC. gateway 10.2.2.1 ตรงกับ IP ของเราเตอร์แล้ว\nD. ค่า DHCP Server เป็นเพียงข้อมูลว่าใครแจก IP มา ไม่มีผลต่อการเชื่อมต่อหลังได้ IP แล้ว\n\n📗 จำไว้สอบ: mask ของ PC ต้องตรงกับ mask ของ gateway เสมอ • /27 = 255.255.255.224 (30 hosts) • /26 = 255.255.255.192 (62 hosts)',
+  },
+  {
+    id: 647,
+    kind: 'single',
+    image: q647,
+    prompt: 'Refer to the exhibit. What is the next step to complete the implementation for the partial NAT configuration shown?',
+    options: [
+      { key: 'A', text: 'Reconfigure the static NAT entries that overlap the NAT pool' },
+      { key: 'B', text: 'Configure the NAT outside interface' },
+      { key: 'C', text: 'Modify the access list for the internal network on e0' },
+      { key: 'D', text: 'Apply the ACL to the pool configuration' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ขั้นตอนคอนฟิก dynamic NAT/PAT ให้ครบ\n1️⃣ สร้าง ACL ระบุ "ใครได้แปลง" → access-list 1 permit 10.0.0.0 0.0.0.255\n2️⃣ สร้าง pool ของ IP สาธารณะ → ip nat pool …\n3️⃣ ผูก ACL กับ pool → ip nat inside source list 1 pool …\n4️⃣ กำหนด "ทิศทาง" ให้อินเทอร์เฟซ:\n   • ip nat inside บนอินเทอร์เฟซฝั่ง LAN\n   • ip nat outside บนอินเทอร์เฟซฝั่ง WAN ⭐ ขาดข้อนี้ NAT จะไม่ทำงานเลย\n\n🔍 อ่าน exhibit จาก show ip nat statistics:\n• Inside interfaces: Ethernet0/1 ✔ (ตั้งแล้ว)\n• Outside interfaces: (ว่างเปล่า) ❌ ยังไม่ได้ตั้ง\n\n✅ ทำไม B ถูก: NAT จะแปลงที่อยู่ก็ต่อเมื่อแพ็กเก็ตเดินทาง "ข้าม" จากอินเทอร์เฟซที่ทำเครื่องหมาย inside ไปยังอินเทอร์เฟซที่ทำเครื่องหมาย outside — เมื่อยังไม่มี outside เลย จึงไม่เกิดการแปลงใด ๆ\n\n❌ ทำไมข้ออื่นผิด:\nA. ยังไม่มีสัญญาณว่ามี static entry ทับกับ pool\nC. ACL ฝั่งภายในถูกต้องอยู่แล้ว\nD. ACL ถูกอ้างผ่านคำสั่ง "ip nat inside source list … pool …" อยู่แล้ว ไม่ได้ผูกเข้ากับ pool โดยตรง\n\n📗 จำไว้สอบ: NAT ต้องมีครบทั้ง "ip nat inside" และ "ip nat outside" — ขาดข้างใดข้างหนึ่ง = ไม่แปลงเลย',
+  },
+  {
+    id: 648,
+    kind: 'drag',
+    image: q648,
+    prompt: 'Drag and drop the Ansible features from the left to the right. Not all features are used.',
+    categories: [
+      {
+        name: 'Ansible features',
+        items: [
+          'executes modules via SSH by default',
+          'uses the YAML language',
+          'pushes configurations to the client',
+          'operates without agents',
+        ],
+      },
+      {
+        name: 'ไม่ใช้ (ตัวลวง)',
+        items: ['uses agents to manage hosts', 'requires clients to pull configurations from the server'],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — เปรียบเทียบเครื่องมือ configuration management 3 ตัวที่ออกสอบ\n\n🔹 Ansible ⭐\n• ภาษา: YAML (playbook อ่านง่ายมาก)\n• Agent: ไม่ต้องติดตั้ง (agentless) → ใช้ SSH ต่อเข้าไปสั่งงานโดยตรง (อุปกรณ์เครือข่ายใช้ SSH/NETCONF/API)\n• ทิศทาง: Push — เซิร์ฟเวอร์ผลักคอนฟิกไปหาอุปกรณ์\n• พอร์ต: TCP 22\n\n🔹 Puppet\n• ภาษา: Puppet DSL (คล้าย Ruby) | ต้องมี agent | Pull (agent ดึงจาก master) | TCP 8140\n\n🔹 Chef\n• ภาษา: Ruby | ต้องมี agent | Pull | TCP 10002\n\n❌ ตัวลวงที่ไม่ใช้:\n• "uses agents to manage hosts" → เป็นของ Puppet/Chef (Ansible เป็น agentless)\n• "requires clients to pull configurations from the server" → เป็นโมเดล Pull ของ Puppet/Chef (Ansible เป็น Push)\n\n📗 จำไว้สอบ: Ansible = YAML + agentless + push + SSH | Puppet/Chef = ต้องมี agent + pull',
+  },
+  {
+    id: 649,
+    kind: 'single',
+    prompt:
+      'The address block 192.168.32.0/24 must be subnetted into smaller networks. The engineer must meet these requirements:\n• Create 8 new subnets\n• Each subnet must accommodate 30 hosts\n• Interface VLAN 10 must use the last usable IP in the first new subnet\n• A Layer 3 interface is used\nWhich configuration must be applied to the interface?',
+    options: [
+      {
+        key: 'A',
+        text: 'interface vlan 10\n no switchport\n ip address 192.168.32.30 255.255.255.240',
+      },
+      {
+        key: 'B',
+        text: 'interface vlan 10\n no switchport\n ip address 192.168.32.31 255.255.255.224',
+      },
+      {
+        key: 'C',
+        text: 'interface vlan 10\n no switchport\n ip address 192.168.32.62 255.255.255.224',
+      },
+      {
+        key: 'D',
+        text: 'interface vlan 10\n no switchport\n ip address 192.168.32.30 255.255.255.224',
+      },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — วิธีคิด subnetting จากข้อกำหนด\n1️⃣ ต้องการ 30 host ต่อ subnet → หา n ที่ 2ⁿ − 2 ≥ 30 → n = 5 (2⁵ − 2 = 30 พอดี) → เหลือ host bits 5 บิต → prefix = /27\n2️⃣ ตรวจจำนวน subnet: จาก /24 ไป /27 = ยืมมา 3 บิต → 2³ = 8 subnets ✔ ตรงกับข้อกำหนด\n3️⃣ /27 → mask 255.255.255.224, block size = 32\n\n🧮 subnet แรก = 192.168.32.0/27\n• network = 192.168.32.0\n• broadcast = 192.168.32.31\n• host ใช้ได้ = .1 – .30\n• last usable = 192.168.32.30 ⭐\n\n💡 "A Layer 3 interface is used" → ต้องใส่ "no switchport" เพื่อเปลี่ยน SVI/พอร์ตให้ทำงานระดับ Layer 3 และกำหนด IP ได้\n\n✅ ทำไม D ถูก: IP = 192.168.32.30 (last usable ของ subnet แรก) + mask 255.255.255.224 (/27) ครบทุกข้อกำหนด\n\n❌ ทำไมข้ออื่นผิด:\nA. mask 255.255.255.240 = /28 → ได้ 16 subnet แต่รองรับแค่ 14 host ไม่ถึง 30\nB. 192.168.32.31 = broadcast address ของ /27 → ใช้เป็น IP อินเทอร์เฟซไม่ได้\nC. 192.168.32.62 = last usable ของ subnet ที่ "สอง" (192.168.32.32/27) ไม่ใช่ subnet แรก\n\n📗 จำไว้สอบ: 30 hosts → /27 (block 32) • 62 hosts → /26 • 14 hosts → /28 • last usable = broadcast − 1',
+  },
+  {
+    id: 650,
+    kind: 'drag',
+    image: q650,
+    prompt: 'Refer to the exhibit. Drag and drop the learned prefixes from the left onto the subnet masks on the right.',
+    categories: [
+      { name: '255.255.255.128 (/25)', items: ['172.16.2.128'] },
+      { name: '255.255.255.224 (/27)', items: ['172.16.3.64'] },
+      { name: '255.255.255.240 (/28)', items: ['172.16.3.128'] },
+      { name: '255.255.255.248 (/29)', items: ['172.16.3.192'] },
+      { name: '255.255.254.0 (/23)', items: ['172.16.4.0'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ตารางแปลง prefix length ↔ subnet mask (ต้องท่องให้ขึ้นใจ)\n\nOctet ที่ 4:\n• /25 = 255.255.255.128 (block 128)\n• /26 = 255.255.255.192 (block 64)\n• /27 = 255.255.255.224 (block 32)\n• /28 = 255.255.255.240 (block 16)\n• /29 = 255.255.255.248 (block 8)\n• /30 = 255.255.255.252 (block 4)\n\nOctet ที่ 3:\n• /23 = 255.255.254.0 (block 2 ที่ octet 3)\n• /22 = 255.255.252.0 (block 4)\n\n🔍 จับคู่จาก exhibit:\n• 172.16.2.128/25 → 255.255.255.128 (ครอบ .128–.255 = 126 hosts)\n• 172.16.3.64/27 → 255.255.255.224 (ครอบ .64–.95 = 30 hosts)\n• 172.16.3.128/28 → 255.255.255.240 (ครอบ .128–.143 = 14 hosts)\n• 172.16.3.192/29 → 255.255.255.248 (ครอบ .192–.199 = 6 hosts)\n• 172.16.4.0/23 → 255.255.254.0 (ครอบ 172.16.4.0–172.16.5.255 = 510 hosts)\n\n📗 จำไว้สอบ: บิตที่เหลือใน octet → 128/192/224/240/248/252/254 • /23 กินสอง /24 ติดกัน (คู่-คี่)',
+  },
+  {
+    id: 651,
+    kind: 'multi',
+    prompt: 'What are two reasons a switch experiences frame flooding? (Choose two.)',
+    options: [
+      { key: 'A', text: 'A defective patch cable is connected to the switch port' },
+      { key: 'B', text: 'Topology changes are occurring within spanning-tree' },
+      { key: 'C', text: 'An aged MAC table entry is causing excessive updates' },
+      { key: 'D', text: 'Port-security is configured globally' },
+      { key: 'E', text: 'The forwarding table has overflowed' },
+    ],
+    correct: ['B', 'E'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A,B — แต่สายแพตช์เสียทำให้เกิด CRC error/ลิงก์ล้ม ไม่ได้ทำให้ "flood" คำตอบที่ถูกต้องคือ B,E\n\n📘 แนวคิด — สวิตช์จะ flood (ส่งออกทุกพอร์ตใน VLAN ยกเว้นพอร์ตขาเข้า) เมื่อ "ไม่รู้จัก destination MAC" สาเหตุหลักที่ทำให้ไม่รู้จักมี 2 แบบ\n\n🔹 1) ตาราง MAC ถูกล้าง (flush)\n• เมื่อ spanning-tree เกิด Topology Change → สวิตช์ส่ง TCN BPDU และลด aging time ของตาราง MAC จาก 300 วินาทีเหลือ 15 วินาที → รายการหายเกือบหมด → ทราฟฟิกกลายเป็น unknown unicast → flood ทั่วทั้งวง ⭐\n\n🔹 2) ตาราง MAC เต็ม (overflow)\n• CAM table มีขนาดจำกัด เมื่อเต็ม (เกิดเองจากเครือข่ายใหญ่มาก หรือถูกโจมตีด้วย MAC flooding attack เช่น macof) → สวิตช์เพิ่มรายการใหม่ไม่ได้ → ทุกอย่างกลายเป็น unknown unicast → flood ⭐ (นี่คือหลักการของ CAM overflow attack เพื่อดักฟังข้อมูล)\n\n✅ ทำไม B ถูก: STP topology change → MAC table ถูกล้าง → flooding ชั่วคราว\n✅ ทำไม E ถูก: forwarding (CAM) table ล้น → ไม่มีที่เก็บรายการใหม่ → flood ตลอดเวลา\n\n❌ ทำไมข้ออื่นผิด:\nA. สายเสีย → CRC/input error หรือลิงก์ flap ไม่ได้ทำให้ flood โดยตรง (ถ้า flap บ่อยมากจนกระทบ STP ก็เป็นผลทางอ้อมเท่านั้น)\nC. รายการ MAC ที่หมดอายุตามปกติเป็นพฤติกรรมปกติ ไม่ได้ทำให้เกิด "excessive updates"\nD. port security ไม่ได้ตั้งแบบ global (เป็นคำสั่งระดับ interface) และมันจำกัด MAC ไม่ใช่ทำให้ flood\n\n📗 จำไว้สอบ: flooding = unknown unicast • สาเหตุ = MAC table ถูกล้าง (TCN) หรือ MAC table เต็ม (CAM overflow)',
+  },
+  {
+    id: 652,
+    kind: 'single',
+    prompt:
+      'A network engineer must configure router R1 with a host route to a server at 10.10.10.10 that is reachable via next hop 192.168.0.2. Which command must the engineer configure?',
+    options: [
+      { key: 'A', text: 'R1(config)#ip route 10.10.10.0 255.255.255.0 192.168.0.2' },
+      { key: 'B', text: 'R1(config)#ip route 10.10.10.10 255.255.255.255 192.168.0.2' },
+      { key: 'C', text: 'R1(config)#ip route 192.168.0.2 255.255.255.255 10.10.10.10' },
+      { key: 'D', text: 'R1(config)#ip route 0.0.0.0 0.0.0.0 192.168.0.2' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — "host route" คือเส้นทางที่ชี้ไปยัง "เครื่องเดียว" ไม่ใช่ทั้งเครือข่าย\n• IPv4 host route = mask /32 → 255.255.255.255\n• IPv6 host route = /128\nรูปแบบ: ip route <host-ip> 255.255.255.255 <next-hop>\n\n💡 ประโยชน์: เพราะ /32 คือ prefix ที่ยาวที่สุดเท่าที่เป็นไปได้ จึงชนะทุกเส้นทางอื่นด้วยกฎ longest prefix match — เหมาะกับการบังคับให้ทราฟฟิกไปเครื่องใดเครื่องหนึ่งวิ่งเส้นทางพิเศษ\n\n✅ ทำไม B ถูก: ip route 10.10.10.10 255.255.255.255 192.168.0.2 → ปลายทางคือเซิร์ฟเวอร์ (host เดียว) ผ่าน next hop 192.168.0.2 ถูกต้องทั้งลำดับและ mask\n\n❌ ทำไมข้ออื่นผิด:\nA. mask 255.255.255.0 = network route ทั้งวง /24 ไม่ใช่ host route\nC. สลับตำแหน่ง — เอา next hop ไปเป็นปลายทาง และเอาเซิร์ฟเวอร์ไปเป็น next hop\nD. 0.0.0.0 0.0.0.0 = default route (ทุกปลายทาง) ไม่ใช่ host route\n\n📗 จำไว้สอบ: host route = /32 (255.255.255.255) • ลำดับคำสั่งคือ "ปลายทาง mask next-hop" เสมอ',
+  },
+  {
+    id: 653,
+    kind: 'single',
+    prompt:
+      'A Cisco engineer at a new branch office is configuring a wireless network with access points that connect to a controller that is based at corporate headquarters. Wireless client traffic must terminate at the branch office, and access-point survivability is required in the event of a WAN outage. Which access point mode must be selected?',
+    options: [
+      { key: 'A', text: 'Lightweight with local switching disabled' },
+      { key: 'B', text: 'Local with AP fallback enabled' },
+      { key: 'C', text: 'OfficeExtend with high availability disabled' },
+      { key: 'D', text: 'FlexConnect with local switching enabled' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — โหมดการทำงานของ Lightweight AP\n• Local mode (ค่าเริ่มต้น) = ทราฟฟิกไคลเอนต์ถูก tunnel ผ่าน CAPWAP กลับไปออกที่ WLC เสมอ → ถ้า WAN ล่ม AP ใช้งานไม่ได้เลย\n• FlexConnect mode ⭐ = ออกแบบมาสำหรับ "สาขา" โดยเฉพาะ\n  - Local switching: AP วางทราฟฟิกไคลเอนต์ลง VLAN ที่สาขาทันที ไม่ต้องวิ่งข้าม WAN → ประหยัดแบนด์วิดท์ ลด latency\n  - Standalone mode: เมื่อ WAN ขาด AP ยังให้บริการ SSID ต่อได้ (พร้อม local authentication ถ้าตั้งไว้) = survivability\n• Monitor / Rogue Detector / Sniffer / Bridge / SE-Connect = โหมดเฉพาะทางอื่น ๆ\n\n✅ ทำไม D ถูก: ตรงทั้งสองข้อกำหนด — ทราฟฟิกออกที่สาขา (local switching) และ AP ยังทำงานต่อได้เมื่อ WAN ล่ม (standalone)\n\n❌ ทำไมข้ออื่นผิด:\nA. ปิด local switching = ทราฟฟิกวิ่งกลับ WLC (central switching) ผิดข้อกำหนดข้อแรก\nB. Local mode พึ่ง WLC ตลอดเวลา — ไม่มี "AP fallback" ที่ทำให้อยู่รอดเมื่อ WAN ขาด\nC. OfficeExtend เป็น FlexConnect เวอร์ชันสำหรับพนักงานทำงานที่บ้าน (ผ่าน DTLS ข้ามอินเทอร์เน็ต) และปิด HA ยิ่งลดความทนทาน\n\n📗 จำไว้สอบ: สาขา + WAN ไม่เสถียร → FlexConnect + local switching • สำนักงานใหญ่/ที่เดียวกับ WLC → Local mode',
+  },
+  {
+    id: 654,
+    kind: 'multi',
+    image: q654,
+    prompt:
+      'Refer to the exhibit. A network engineer started to configure port security on a new switch. These requirements must be met:\n• MAC addresses must be learned dynamically\n• Log messages must be generated without disabling the interface when unwanted traffic is seen\nWhich two commands must be configured to complete this task? (Choose two.)',
+    options: [
+      { key: 'A', text: 'SW(config-if)#switchport port-security mac-address sticky' },
+      { key: 'B', text: 'SW(config-if)#switchport port-security violation restrict' },
+      { key: 'C', text: 'SW(config-if)#switchport port-security mac-address 0010.7B84.45E6' },
+      { key: 'D', text: 'SW(config-if)#switchport port-security maximum 2' },
+      { key: 'E', text: 'SW(config-if)#switchport port-security violation shutdown' },
+    ],
+    correct: ['A', 'B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ C ทั้งที่โจทย์ขอ "Choose two" และ C ยังเป็นการกำหนด MAC แบบ static ซึ่งขัดกับข้อกำหนด "learned dynamically" คำตอบที่ถูกต้องคือ A,B\n\n📘 แนวคิด — 2 เรื่องที่ต้องตั้งค่า\n\n1️⃣ วิธีได้มาซึ่ง MAC:\n• Static → พิมพ์ MAC เอง (switchport port-security mac-address H.H.H)\n• Dynamic → เรียนรู้อัตโนมัติ แต่หายเมื่อรีบูต\n• Sticky ⭐ → เรียนรู้อัตโนมัติ "แบบ dynamic" แล้วเขียนลง running-config ให้ด้วย (จึงตอบโจทย์ "learned dynamically" และยังคงอยู่หลังบันทึก config)\n\n2️⃣ โหมด violation (เมื่อเจอ MAC เกินกำหนด):\n• protect → ทิ้งเฟรมเงียบ ๆ ไม่มี log ไม่มี counter\n• restrict ⭐ → ทิ้งเฟรม + สร้าง syslog/SNMP trap + เพิ่มตัวนับ violation แต่ "พอร์ตยังทำงานต่อ"\n• shutdown (ค่าเริ่มต้น) → err-disable พอร์ตทันที (ตัดการเชื่อมต่อ)\n\n✅ ทำไม A ถูก: sticky = เรียนรู้ MAC แบบไดนามิก ตรงกับข้อกำหนดข้อแรก\n✅ ทำไม B ถูก: restrict = มี log แต่ไม่ปิดพอร์ต ตรงกับข้อกำหนดข้อสอง\n\n❌ ทำไมข้ออื่นผิด:\nC. เป็นการผูก MAC แบบ static → ขัดกับ "learned dynamically"\nD. maximum 2 ไม่ได้ถูกระบุในข้อกำหนดใด ๆ (ค่าเริ่มต้น 1 ก็เพียงพอ)\nE. shutdown = ปิดพอร์ต ซึ่งโจทย์บอกชัดว่า "without disabling the interface"\n\n📗 จำไว้สอบ: protect=เงียบ | restrict=log+ไม่ปิดพอร์ต | shutdown=err-disable (ค่าเริ่มต้น) • sticky = dynamic + บันทึกลง config',
+  },
+  {
+    id: 655,
+    kind: 'single',
+    image: q655,
+    prompt:
+      'Refer to the exhibit. Traffic from R1 to the 10.10.2.0 subnet uses 192.168.1.2 as its next hop. A network engineer wants to update the R1 configuration so that traffic with destination 10.10.2.1 passes through router R3, and all other traffic to the 10.10.2.0 subnet passes through R2. Which command must be used?',
+    options: [
+      { key: 'A', text: 'ip route 10.10.2.1 255.255.255.255 192.168.1.4 115' },
+      { key: 'B', text: 'ip route 10.10.2.0 255.255.255.0 192.168.1.4 100' },
+      { key: 'C', text: 'ip route 10.10.2.0 255.255.255.0 192.168.1.4 115' },
+      { key: 'D', text: 'ip route 10.10.2.1 255.255.255.255 192.168.1.4 100' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — จะแยก "เครื่องเดียว" ออกจากเส้นทางของทั้ง subnet ต้องใช้ host route /32 เพราะ longest prefix match ชนะก่อนเสมอ\n\n🔍 อ่าน exhibit:\n• เส้นทางปัจจุบัน: 10.10.2.0/24 เรียนรู้จาก OSPF (distance 110) via 192.168.1.2 = R2\n• R3 อยู่ที่ 192.168.1.4 (R1 ออกทาง g0/1)\n\n🎯 เป้าหมาย:\n• 10.10.2.1 (host เดียว) → ไป R3 (192.168.1.4)\n• 10.10.2.0/24 ที่เหลือ → ยังไปทาง R2 ตามเดิม\n\n✅ ทำไม D ถูก: "ip route 10.10.2.1 255.255.255.255 192.168.1.4 100" สร้าง host route /32 ไปยัง R3\n• /32 ยาวกว่า /24 → ทราฟฟิกที่ปลายทาง 10.10.2.1 เท่านั้นที่ใช้เส้นนี้\n• AD 100 ต่ำกว่า OSPF 110 → มั่นใจว่าเส้นนี้ถูกติดตั้งแน่นอน (แม้ในทางเทคนิค prefix ที่ยาวกว่าจะไม่ต้องแข่ง AD กับ prefix ที่ต่างกันอยู่แล้ว)\n• ทราฟฟิกไป 10.10.2.x ตัวอื่น ๆ ยังใช้ OSPF ผ่าน R2 ตามเดิม ✔\n\n❌ ทำไมข้ออื่นผิด:\nA. เป็น host route เหมือนกันและใช้งานได้ แต่ตั้ง AD 115 (สูงกว่า OSPF 110) ซึ่งเป็นการเขียนแบบ floating ที่สื่อเจตนาผิด — ตัวเลือกที่ถูกต้องตามเจตนาโจทย์คือ D ที่ AD ต่ำกว่าเส้นทางเดิม\nB. mask /24 + AD 100 → จะแย่งเส้นทางของ "ทั้ง subnet" ไปที่ R3 หมด ผิดโจทย์\nC. mask /24 + AD 115 → เป็น floating route ของทั้ง subnet ไม่ได้แยกเฉพาะ 10.10.2.1\n\n📗 จำไว้สอบ: แยก host เดียวออกจากวง = static route /32 • longest prefix match มาก่อน AD เสมอ',
+  },
+  {
+    id: 656,
+    kind: 'single',
+    image: q656,
+    prompt: 'Refer to the exhibit. What is the cause of poor performance on router R19?',
+    options: [
+      { key: 'A', text: 'excessive collisions' },
+      { key: 'B', text: 'speed and duplex mismatch' },
+      { key: 'C', text: 'port oversubscription' },
+      { key: 'D', text: 'excessive CRC errors' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A (excessive collisions) — แต่ในเอาต์พุตมีเพียง "11 collisions" ซึ่งน้อยมาก และพอร์ตทำงานแบบ full-duplex ที่ไม่ควรมี collision อยู่แล้ว คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — วิธีอ่าน show interface เพื่อหาสาเหตุปัญหา\n• input errors / CRC สูง → สายเสีย, EMI, ตัวแปลงสัญญาณมีปัญหา\n• late collisions + input errors บนพอร์ต half-duplex → duplex mismatch\n• collisions จำนวนมากบน half-duplex → เครือข่ายแออัดแบบ shared media\n• output drops (Total output drops) สูงมาก ⭐ → คิวขาออกล้น = ทราฟฟิกที่ต้องส่งออกมากเกินความจุของลิงก์ = port oversubscription / congestion\n\n🔍 อ่านตัวเลขจาก exhibit:\n• Full-duplex, 100Mb/s → duplex/speed ทำงานปกติ (และ full-duplex จะไม่เกิด collision จริง ๆ)\n• 0 input errors, 4 CRC → น้อยมาก ไม่ใช่ปัญหา\n• 11 collisions → เล็กน้อยมากเมื่อเทียบกับ 3.9 พันล้านแพ็กเก็ตที่ส่งออก\n• Total output drops: 135,298,429 ⭐ → มหาศาล! คือแพ็กเก็ตที่ถูกทิ้งเพราะคิวขาออกเต็ม\n\n✅ ทำไม C ถูก: output drops ระดับร้อยล้าน = ลิงก์ 100 Mbps รับทราฟฟิกที่ต้องส่งออกไม่ไหว → port oversubscription (ต้องอัปเกรดความเร็วลิงก์ หรือทำ QoS/ลดโหลด)\n\n❌ ทำไมข้ออื่นผิด:\nA. 11 collisions ถือว่าน้อยมาก และบน full-duplex ไม่ควรนับเป็นสาเหตุ\nB. เอาต์พุตระบุ Full-duplex, 100Mb/s ชัดเจน ไม่มีสัญญาณของ mismatch (ซึ่งจะเห็น late collisions/runts จำนวนมาก)\nD. 4 CRC จากทราฟฟิกกว่า 73,000 แพ็กเก็ตขาเข้า = ไม่ excessive\n\n📗 จำไว้สอบ: output drops สูง = ล้นความจุขาออก (oversubscription) • input errors/CRC สูง = ปัญหาสายสัญญาณ • late collision = duplex mismatch',
+  },
+  {
+    id: 657,
+    kind: 'multi',
+    prompt: 'Which two protocols are used by an administrator for authentication and configuration on access points? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Kerberos' },
+      { key: 'B', text: '802.1Q' },
+      { key: 'C', text: '802.1x' },
+      { key: 'D', text: 'TACACS+' },
+      { key: 'E', text: 'RADIUS' },
+    ],
+    correct: ['D', 'E'],
+    explanation:
+      '📘 แนวคิด — โปรโตคอล AAA ที่ใช้ยืนยันตัวตน "ผู้ดูแลระบบ" ที่จะเข้าไปตั้งค่าอุปกรณ์ (รวมถึง AP/WLC)\n• RADIUS (RFC 2865) — มาตรฐานเปิด, UDP 1812/1813, เข้ารหัสเฉพาะรหัสผ่าน, รวม authentication กับ authorization\n• TACACS+ (Cisco) — TCP 49, เข้ารหัสทั้ง payload, แยก AAA สามส่วน, ทำ command authorization ได้ละเอียด → นิยมใช้กับงาน device administration\n\n✅ ทำไม D, E ถูก: ทั้ง TACACS+ และ RADIUS คือโปรโตคอล AAA ที่ผู้ดูแลใช้ยืนยันตัวตนก่อนเข้าไปคอนฟิกอุปกรณ์\n\n❌ ทำไมข้ออื่นผิด:\nA. Kerberos = โปรโตคอล authentication แบบ ticket ที่ใช้ในโดเมน Windows/AD ไม่ใช่มาตรฐานสำหรับล็อกอินเข้าอุปกรณ์เครือข่ายในบริบท CCNA\nB. 802.1Q = การติดแท็ก VLAN บน trunk ไม่เกี่ยวกับ authentication เลย\nC. 802.1x = กรอบการทำ port-based network access control สำหรับ "ไคลเอนต์ปลายทาง" (supplicant → authenticator → auth server) ไม่ใช่โปรโตคอลที่ผู้ดูแลใช้ล็อกอินไปคอนฟิก AP\n\n📗 จำไว้สอบ: จัดการอุปกรณ์ (device admin) → TACACS+ เป็นหลัก | เข้าถึงเครือข่าย (network access) → RADIUS + 802.1X',
+  },
+  {
+    id: 658,
+    kind: 'single',
+    prompt: 'What is a similarity between OM3 and OM4 fiber optic cable?',
+    options: [
+      { key: 'A', text: 'Both have a 62.5 micron core diameter.' },
+      { key: 'B', text: 'Both have a 50 micron core diameter.' },
+      { key: 'C', text: 'Both have a 100 micron core diameter.' },
+      { key: 'D', text: 'Both have a 9 micron core diameter.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ประเภทสายไฟเบอร์และขนาดแกน (core)\n\n🔹 Multimode (MMF) — แกนใหญ่ ใช้ LED/VCSEL ระยะสั้น ราคาถูก\n• OM1 → core 62.5 ไมครอน (สีส้ม)\n• OM2 → core 50 ไมครอน (สีส้ม)\n• OM3 → core 50 ไมครอน (สีฟ้าอควา, laser-optimized) ⭐\n• OM4 → core 50 ไมครอน (สีฟ้าอควา/ม่วง, ระยะไกลกว่า OM3) ⭐\n• OM5 → core 50 ไมครอน (สีเขียวมะนาว, รองรับ SWDM)\n\n🔹 Single-mode (SMF) — core 9 ไมครอน ใช้เลเซอร์ ระยะไกลมาก (สีเหลือง) เช่น OS1/OS2\n\n✅ ทำไม B ถูก: ทั้ง OM3 และ OM4 มีขนาดแกน 50 ไมครอนเท่ากัน (ต่างกันที่แบนด์วิดท์โมดัลและระยะทางสูงสุด เช่น 10G: OM3 ~300 ม., OM4 ~400 ม.)\n\n❌ ทำไมข้ออื่นผิด:\nA. 62.5 ไมครอน = OM1 เท่านั้น\nC. 100 ไมครอน ไม่ใช่มาตรฐานของ OM ใด\nD. 9 ไมครอน = single-mode ไม่ใช่ multimode\n\n📗 จำไว้สอบ: OM1=62.5µm | OM2/3/4/5=50µm | SMF=9µm • OM4 ไปได้ไกลกว่า OM3 ที่ความเร็วเดียวกัน',
+  },
+  {
+    id: 659,
+    kind: 'single',
+    prompt: 'Why is TCP desired over UDP for applications that require extensive error checking, such as HTTPS?',
+    options: [
+      { key: 'A', text: 'UDP operates without acknowledgments, and TCP sends an acknowledgment for every packet received.' },
+      { key: 'B', text: 'UDP reliably guarantees delivery of all packets, and TCP drops packets under heavy load.' },
+      {
+        key: 'C',
+        text: 'UDP uses flow control mechanisms for the delivery of packets, and TCP uses congestion control for efficient packet delivery.',
+      },
+      {
+        key: 'D',
+        text: 'UDP uses sequencing data for packets to arrive in order, and TCP offers the capability to receive packets in random order.',
+      },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — กลไกความน่าเชื่อถือของ TCP ที่ UDP ไม่มี\n1️⃣ 3-way handshake (SYN → SYN/ACK → ACK) สร้าง connection ก่อนส่งจริง\n2️⃣ Sequence number → เรียงลำดับข้อมูลถูกต้องแม้มาถึงสลับกัน\n3️⃣ Acknowledgment (ACK) ⭐ → ผู้รับยืนยันทุกข้อมูลที่ได้รับ ถ้าผู้ส่งไม่ได้ ACK ภายในเวลา → ส่งซ้ำ (retransmission)\n4️⃣ Flow control ด้วย sliding window → ผู้รับบอกได้ว่ารับไหวแค่ไหน\n5️⃣ Congestion control → ลดอัตราส่งเมื่อเครือข่ายแออัด\n6️⃣ Checksum → ตรวจข้อมูลเสียหาย\n\nส่วน UDP: ยิงแล้วจบ (fire and forget) ไม่มี handshake ไม่มี ACK ไม่มี retransmission ไม่มี sequencing\n\n✅ ทำไม A ถูก: หัวใจคือ UDP ไม่มี acknowledgment ส่วน TCP ยืนยันการรับข้อมูล จึงตรวจจับและแก้ไขข้อผิดพลาดได้ — เหมาะกับ HTTPS ที่ข้อมูลต้องครบถ้วนถูกต้อง 100%\n\n❌ ทำไมข้ออื่นผิด:\nB. กลับด้านสิ้นเชิง — TCP ต่างหากที่รับประกันการส่งถึง ส่วน UDP ไม่รับประกัน\nC. กลับด้าน — flow control และ congestion control เป็นของ TCP ทั้งคู่ UDP ไม่มีเลย\nD. กลับด้าน — sequencing เป็นของ TCP ส่วน UDP ต่างหากที่แพ็กเก็ตอาจมาถึงสลับลำดับโดยไม่มีใครจัดเรียงให้\n\n📗 จำไว้สอบ: TCP = handshake + seq + ACK + retransmit + flow/congestion control • UDP = ไม่มีอะไรเลย แค่ port + length + checksum',
+  },
+  {
+    id: 660,
+    kind: 'single',
+    image: q660,
+    prompt:
+      'Refer to the exhibit. Which configuration for RTR-1 denies SSH access from PC-1 to any RTR-1 interface and allows all other traffic?',
+    options: [
+      {
+        key: 'A',
+        text: 'access-list 100 deny tcp host 172.16.1.33 any eq 22\naccess-list 100 permit ip any any\n!\ninterface GigabitEthernet0/0\n ip access-group 100 out',
+      },
+      {
+        key: 'B',
+        text: 'access-list 100 deny tcp host 172.16.1.33 any eq 22\naccess-list 100 permit ip any any\n!\ninterface GigabitEthernet0/0\n ip access-group 100 in',
+      },
+      {
+        key: 'C',
+        text: 'access-list 10 deny host 172.16.1.33\naccess-list 10 permit any\n!\ninterface GigabitEthernet0/0\n ip access-group 10 in',
+      },
+      {
+        key: 'D',
+        text: 'access-list 100 deny tcp host 172.16.1.33 host 192.168.1.1 eq 22\naccess-list 100 permit ip any any\n!\ninterface GigabitEthernet0/0\n ip access-group 100 in',
+      },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — หลักการวาง ACL\n• Standard ACL (1–99, 1300–1999) → กรองได้เฉพาะ source IP → วางใกล้ปลายทาง\n• Extended ACL (100–199, 2000–2699) → กรองได้ทั้ง source, destination, protocol, port → วางใกล้ต้นทางเพื่อตัดทราฟฟิกตั้งแต่ต้น\n• SSH = TCP พอร์ต 22\n• ทุก ACL มี "implicit deny any" ต่อท้าย จึงต้องปิดด้วย permit ให้ทราฟฟิกอื่นผ่าน\n\n🔍 อ่าน exhibit: RTR-1 มี Loopback1/2/3 (192.168.1.1, 192.168.2.1, 192.168.3.1) และ Gi0/0 = 172.16.1.62/27 ส่วน PC-1 = 172.16.1.33/27 ต่อผ่าน SW-1 เข้ามาที่ Gi0/0\n\n🎯 โจทย์ขอ "deny SSH ไปยัง any RTR-1 interface" → ต้องบล็อกทุกปลายทาง (ทั้ง 3 loopback และ Gi0/0) → ใช้คำว่า "any" เป็น destination และวางขาเข้าที่ Gi0/0 เพื่อดักก่อนเราเตอร์ประมวลผล\n\n✅ ทำไม B ถูก: extended ACL ระบุ deny tcp host 172.16.1.33 any eq 22 (บล็อก SSH ไปทุกอินเทอร์เฟซ) แล้ว permit ip any any (ทราฟฟิกอื่นผ่านหมด) และใช้ทิศทาง "in" บน Gi0/0 ซึ่งเป็นทางที่ PC-1 เข้ามา\n\n❌ ทำไมข้ออื่นผิด:\nA. ทิศทางผิด — ทราฟฟิกจาก PC-1 เข้ามาทาง Gi0/0 (in) ไม่ใช่ออก (out) และแพ็กเก็ตที่ปลายทางเป็นตัวเราเตอร์เองจะไม่ผ่าน ACL ขาออกของอินเทอร์เฟซนั้น\nC. standard ACL บล็อกทราฟฟิก "ทุกชนิด" จาก PC-1 ไม่ใช่แค่ SSH → PC-1 ใช้งานอย่างอื่นไม่ได้เลย ผิดโจทย์\nD. ระบุปลายทางเจาะจงแค่ 192.168.1.1 → PC-1 ยังคง SSH เข้า Loopback2, Loopback3 และ Gi0/0 ได้ ผิดข้อกำหนด "any interface"\n\n📗 จำไว้สอบ: SSH=TCP 22 • extended ACL วางใกล้ต้นทาง ทิศ in • อย่าลืม permit ปิดท้ายเพราะมี implicit deny',
+      },
+  {
+    id: 661,
+    kind: 'single',
+    prompt:
+      'An engineer is configuring a switch port that is connected to a VoIP handset. Which command must the engineer configure to enable port security with a manually assigned MAC address of abcd.abcd.abcd on voice VLAN 4?',
+    options: [
+      { key: 'A', text: 'switchport port-security mac-address abcd.abcd.abcd' },
+      { key: 'B', text: 'switchport port-security mac-address abcd.abcd.abcd vlan 4' },
+      { key: 'C', text: 'switchport port-security mac-address sticky abcd.abcd.abcd vlan 4' },
+      { key: 'D', text: 'switchport port-security mac-address abcd.abcd.abcd vlan voice' },
+    ],
+    correct: ['D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A — แต่ A ไม่ได้ระบุว่า MAC นี้อยู่บน voice VLAN จึงจะไปผูกกับ access VLAN แทน คำตอบที่ถูกต้องคือ D\n\n📘 แนวคิด — ไวยากรณ์เต็มของคำสั่ง\n  switchport port-security mac-address <H.H.H> [vlan {vlan-id | access | voice}]\nกฎการใช้คีย์เวิร์ดท้ายคำสั่ง (สำคัญมาก):\n• vlan <vlan-id> → ใช้ได้เฉพาะบนพอร์ต "trunk" เท่านั้น\n• vlan access → ใช้บนพอร์ต access เพื่อระบุ data VLAN\n• vlan voice ⭐ → ใช้บนพอร์ต access เพื่อระบุว่า MAC นี้อยู่บน "voice VLAN"\n\n🔍 พอร์ตที่ต่อ VoIP handset เป็นพอร์ต access ที่มี voice VLAN แนบมาด้วย (switchport voice vlan 4) → ต้องใช้คีย์เวิร์ด "vlan voice" ไม่ใช่หมายเลข VLAN\n\n✅ ทำไม D ถูก: ใช้รูปแบบที่ IOS ยอมรับสำหรับ access port ที่มี voice VLAN — ผูก MAC ของโทรศัพท์เข้ากับ voice VLAN โดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่ระบุ VLAN → IOS จะถือว่าเป็น MAC ของ access (data) VLAN ไม่ใช่ voice VLAN ตามโจทย์\nB. "vlan 4" (ระบุด้วยตัวเลข) ใช้ได้เฉพาะบนพอร์ต trunk เท่านั้น — บน access port IOS จะปฏิเสธ\nC. ผสม "sticky" (เรียนรู้อัตโนมัติ) เข้ากับ MAC ที่กำหนดเอง ซึ่งขัดกับคำว่า "manually assigned" และไวยากรณ์ก็ยังใช้เลข VLAN บน access port อีก\n\n📗 จำไว้สอบ: access port + IP phone → ใช้คีย์เวิร์ด "vlan voice" | trunk port → ใช้ "vlan <id>"',
+  },
+  {
+    id: 662,
+    kind: 'drag',
+    image: q662,
+    prompt: 'Drag and drop the Ansible terms from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'collection of actions to perform on target devices, expressed in YAML format', items: ['playbook'] },
+      { name: 'device with Ansible installed that manages target devices', items: ['control node'] },
+      { name: 'network device, without Ansible installed, upon which commands can be executed', items: ['managed node'] },
+      { name: 'specific action to be performed on one or more target devices', items: ['task'] },
+      { name: 'unit of Python code to be executed', items: ['module'] },
+      { name: 'Ansible file that defines the target devices upon which commands and tasks can be executed', items: ['inventory'] },
+    ],
+    explanation:
+      '📘 แนวคิด — คำศัพท์หลักของ Ansible\n\n• control node = เครื่องที่ติดตั้ง Ansible ไว้ ทำหน้าที่สั่งงาน (ต้องเป็น Linux/macOS)\n• managed node = อุปกรณ์ปลายทางที่ถูกจัดการ — "ไม่ต้อง" ติดตั้ง Ansible (agentless) เพียงเปิด SSH/API ก็พอ\n• inventory = ไฟล์รายชื่ออุปกรณ์ปลายทาง (มักชื่อ hosts) จัดกลุ่มได้ เช่น [routers], [switches]\n• playbook = ไฟล์ YAML ที่รวบรวมชุดงานทั้งหมดที่จะทำกับอุปกรณ์ (เป็น "แผน" ระดับบนสุด)\n• task = งานย่อยหนึ่งอย่างภายใน playbook เช่น "สร้าง VLAN 10"\n• module = โค้ด Python สำเร็จรูปที่ถูกเรียกใช้โดย task เพื่อทำงานจริง เช่น ios_config, ios_facts\n\n🔗 ลำดับชั้น: Playbook ⟶ ประกอบด้วยหลาย Play ⟶ แต่ละ Play มีหลาย Task ⟶ แต่ละ Task เรียกใช้ Module\n\n📗 จำไว้สอบ: Ansible = agentless + YAML + push + SSH • playbook=แผน, task=งานย่อย, module=โค้ด Python, inventory=รายชื่อเครื่อง',
+  },
+  {
+    id: 663,
+    kind: 'single',
+    image: q663,
+    prompt: 'Refer to the exhibit. Which entry is the longest prefix match for host IP address 192.168.10.5?',
+    options: [
+      { key: 'A', text: 'Entry 1' },
+      { key: 'B', text: 'Entry 2' },
+      { key: 'C', text: 'Entry 3' },
+      { key: 'D', text: 'Entry 4' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — longest prefix match = เลือก entry ที่มี subnet mask "ยาวที่สุด" (จำนวนบิต 1 มากที่สุด) ในบรรดา entry ที่ครอบ IP ปลายทาง\n\n🧮 แปลง mask แต่ละ entry เป็น prefix length แล้วหาช่วง:\n• Entry 1: 192.168.10.0 / 255.255.254.0 = /23 → ครอบ 192.168.10.0 – 192.168.11.255 ✔\n• Entry 2: 192.168.10.0 / 255.255.255.192 = /26 → ครอบ 192.168.10.0 – 192.168.10.63 ✔ ⭐ ยาวที่สุด\n• Entry 3: 192.168.10.0 / 255.255.0.0 = /16 → ครอบ 192.168.0.0 – 192.168.255.255 ✔\n• Entry 4: 192.168.10.0 / 255.255.224.0 = /19 → ครอบ 192.168.0.0 – 192.168.31.255 ✔\n\n🔍 ปลายทาง 192.168.10.5 อยู่ในช่วงของทั้ง 4 entry → เทียบความยาว prefix: /26 > /23 > /19 > /16\n\n✅ ทำไม B ถูก: Entry 2 มี prefix /26 ยาวที่สุด จึงเป็น longest prefix match\n\n❌ ทำไมข้ออื่นผิด:\nA. /23 สั้นกว่า /26\nC. /16 สั้นที่สุดในกลุ่ม\nD. /19 ยังสั้นกว่า /26\n\n📗 จำไว้สอบ: 254→/23, 224→/19, 192(octet4)→/26, 255.255.0.0→/16 • mask ยิ่งมีเลข 255/ค่าสูงมาก = prefix ยิ่งยาว = ยิ่งเจาะจง = ยิ่งชนะ',
+  },
+  {
+    id: 664,
+    kind: 'single',
+    prompt: 'What is the function of a northbound API?',
+    options: [
+      { key: 'A', text: 'It upgrades software and restores files.' },
+      { key: 'B', text: 'It relies on global provisioning and configuration.' },
+      { key: 'C', text: 'It supports distributed processing for configuration.' },
+      { key: 'D', text: 'It provides a path between an SDN controller and network applications.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ทิศทางของ API ในสถาปัตยกรรม SDN (จำภาพเป็นชั้น ๆ จากบนลงล่าง)\n\n  [Application Layer]  ← แอป/ระบบ orchestration/สคริปต์ Python\n         ↕  Northbound API (REST/JSON) ⭐\n  [SDN Controller]     ← DNA Center, APIC, OpenDaylight\n         ↕  Southbound API (NETCONF, RESTCONF, OpenFlow, OpFlex, SNMP, CLI)\n  [Infrastructure]     ← สวิตช์ เราเตอร์ AP (data plane)\n\n✅ ทำไม D ถูก: Northbound API = ช่องทางระหว่าง "คอนโทรลเลอร์" กับ "แอปพลิเคชัน" ที่อยู่ชั้นบน ทำให้เขียนโปรแกรมสั่งงานเครือข่ายทั้งระบบได้ (มักเป็น REST API ที่ส่ง JSON/XML)\n\n❌ ทำไมข้ออื่นผิด:\nA. อัปเกรดซอฟต์แวร์/กู้ไฟล์ = ฟังก์ชันของเครื่องมือจัดการ image (เช่น SWIM) ไม่ใช่คำนิยามของ API\nB. global provisioning = สิ่งที่คอนโทรลเลอร์ทำ ไม่ใช่คำนิยามของ northbound API\nC. distributed processing = ลักษณะของเครือข่ายแบบดั้งเดิม (control plane กระจาย) ตรงข้ามกับ SDN\n\n📗 จำไว้สอบ: North = ขึ้นไปหาแอป (REST) • South = ลงไปหาอุปกรณ์ (NETCONF/OpenFlow) • นึกภาพแผนที่: เหนืออยู่บน ใต้อยู่ล่าง',
+  },
+  {
+    id: 665,
+    kind: 'single',
+    prompt: 'Which interface enables communication between a program on the controller and a program on the networking device?',
+    options: [
+      { key: 'A', text: 'northbound interface' },
+      { key: 'B', text: 'software virtual interface' },
+      { key: 'C', text: 'southbound interface' },
+      { key: 'D', text: 'tunnel interface' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B (software virtual interface) — แต่ SVI คืออินเทอร์เฟซ VLAN บนสวิตช์ ไม่เกี่ยวกับการสื่อสารระหว่างโปรแกรมเลย คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — อ่านโจทย์ให้ละเอียด: "โปรแกรมบนคอนโทรลเลอร์" คุยกับ "โปรแกรมบนอุปกรณ์เครือข่าย" → นี่คือทิศทางลงล่าง (คอนโทรลเลอร์ → อุปกรณ์) = Southbound\n\n🔹 Southbound Interface (SBI) ⭐\n• เชื่อมคอนโทรลเลอร์ลงไปยังอุปกรณ์ในชั้น infrastructure\n• โปรโตคอลที่ใช้: OpenFlow, OpFlex, NETCONF, RESTCONF, SNMP, CLI/SSH\n• ใช้ผลักคอนฟิก/ตารางฟอร์เวิร์ด และดึง telemetry กลับมา\n\n🔹 Northbound Interface (NBI)\n• เชื่อมคอนโทรลเลอร์ขึ้นไปหาแอปพลิเคชัน/ผู้ดูแล (REST API + JSON)\n\n✅ ทำไม C ถูก: การสื่อสารระหว่างซอฟต์แวร์บนคอนโทรลเลอร์กับซอฟต์แวร์บนอุปกรณ์เครือข่ายคือหน้าที่ของ southbound interface\n\n❌ ทำไมข้ออื่นผิด:\nA. northbound = คุยขึ้นไปหาแอป ไม่ใช่ลงไปหาอุปกรณ์\nB. SVI (interface vlan x) = อินเทอร์เฟซ Layer 3 เสมือนของ VLAN บนสวิตช์ คนละเรื่องโดยสิ้นเชิง\nD. tunnel interface = อินเทอร์เฟซตรรกะสำหรับห่อหุ้มแพ็กเก็ต (GRE/IPsec) ไม่ใช่ช่องทาง API\n\n📗 จำไว้สอบ: controller → device = Southbound | controller → app = Northbound',
+  },
+  {
+    id: 666,
+    kind: 'multi',
+    image: q666,
+    prompt:
+      'Refer to the exhibit. The Loopback1 interface of the Atlanta router must reach the Loopback3 interface of the Washington router. Which two static routes must be configured on the New-York router? (Choose two.)',
+    options: [
+      { key: 'A', text: 'ipv6 route 2000::1/128 2012::2' },
+      { key: 'B', text: 'ipv6 route 2000::1/128 2012::1' },
+      { key: 'C', text: 'ipv6 route 2000::3/128 s0/0/0' },
+      { key: 'D', text: 'ipv6 route 2000::3/128 2023::3' },
+      { key: 'E', text: 'ipv6 route 2000::1/128 s0/0' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — ไล่ดูว่าใครขาดเส้นทางอะไร\n\n🔍 อ่าน exhibit:\n• Atlanta: Lo1 = 2000::1/128, S0/0/0 = 2012::1/126, มี default route ::/0 ออก S0/0/0 → ส่งทุกอย่างไป New-York ✔\n• New-York: Lo2 = 2000::2/128, S0/0/0 = 2012::2/126, S0/0/1 = 2023::2/126 → ไม่มี default route!\n• Washington: Lo3 = 2000::3/128, S0/0/0 = 2023::3/126, มี default route ::/0 ออก S0/0/0 → ส่งทุกอย่างไป New-York ✔\n\n💡 ปลายทั้งสองข้างมี default route อยู่แล้ว จึงเหลือแค่ New-York (ตัวกลาง) ที่ต้องรู้ว่า loopback แต่ละตัวอยู่ทางไหน\n\n✅ ทำไม B ถูก: "ipv6 route 2000::1/128 2012::1" → บอก New-York ว่าจะไป Lo1 ของ Atlanta ต้องส่งไปที่ 2012::1 (อินเทอร์เฟซของ Atlanta)\n✅ ทำไม D ถูก: "ipv6 route 2000::3/128 2023::3" → บอก New-York ว่าจะไป Lo3 ของ Washington ต้องส่งไปที่ 2023::3 (อินเทอร์เฟซของ Washington)\n\n❌ ทำไมข้ออื่นผิด:\nA. next hop 2012::2 คือ "อินเทอร์เฟซของ New-York เอง" → ชี้กลับหาตัวเอง เกิด routing loop\nC. "s0/0/0" อย่างเดียวจะไปถึง Atlanta ไม่ใช่ Washington (Washington อยู่ทาง S0/0/1) — และการชี้ปลายทาง 2000::3 ออกทางผิด\nE. ระบุอินเทอร์เฟซผิดชื่อ (s0/0) และไม่สอดคล้องกับผังที่ให้มา\n\n📗 จำไว้สอบ: host route ของ IPv6 = /128 • next hop ต้องเป็น IP ของ "เพื่อนบ้าน" ไม่ใช่ของตัวเอง',
+  },
+  {
+    id: 667,
+    kind: 'single',
+    image: q667,
+    prompt: 'Refer to the exhibit. What action does the router take when a packet is sourced from 10.10.10.2 and destined for 10.10.10.16?',
+    options: [
+      { key: 'A', text: 'It queues the packets waiting for the route to be learned.' },
+      { key: 'B', text: 'It floods packets to all learned next hops.' },
+      { key: 'C', text: 'It discards the packets.' },
+      { key: 'D', text: 'It uses a route that is similar to the destination address.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D ("ใช้เส้นทางที่คล้ายกับปลายทาง") — แต่การเราต์ไม่มีคำว่า "คล้าย" ต้อง match ช่วงจริงเท่านั้น คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — เมื่อไม่มี prefix ใดใน routing table ครอบ IP ปลายทาง และไม่มี default route → เราเตอร์ "ทิ้ง" แพ็กเก็ตทันที และตอบ ICMP Destination Unreachable กลับไปยังต้นทาง\n\n🔍 ตรวจ 10.10.10.16 กับทุกบรรทัดในตาราง:\n• B 209.165.200.224 [20/0] → คนละเครือข่ายโดยสิ้นเชิง ✘\n• C 10.10.10.0/28 (Gi0/0) → block 16 → ครอบ 10.10.10.0 – 10.10.10.15 → .16 อยู่นอกช่วงพอดี ✘ (พลาดไปแค่ 1!)\n• C 10.10.11.0/30 (Fa2/0) → ครอบ .11.0–.11.3 ✘\n• O 10.10.13.0/24 via 10.10.10.1 → คนละ subnet ✘\n• C 10.10.12.0/30 (Gi0/1) → ✘\n• "Gateway of last resort is not set" → ไม่มี default route ✘\n\n✅ ทำไม C ถูก: ไม่มีเส้นทางใดครอบ 10.10.10.16 เลย และไม่มี default route → เราเตอร์ทิ้งแพ็กเก็ต\n\n❌ ทำไมข้ออื่นผิด:\nA. เราเตอร์ไม่เก็บแพ็กเก็ตไว้รอเรียนรู้เส้นทาง (ไม่มีพฤติกรรมนี้ใน IP routing)\nB. การ flood เป็นพฤติกรรมของสวิตช์ระดับ 2 ไม่ใช่เราเตอร์\nD. เราเตอร์ตัดสินด้วย "longest prefix match" ที่ครอบจริงเท่านั้น ไม่มีแนวคิด "ใกล้เคียง"\n\n📗 จำไว้สอบ: /28 → block 16 → ครอบ .0–.15 (ไม่ถึง .16) • ไม่ match + ไม่มี default = drop + ICMP unreachable',
+  },
+  {
+    id: 668,
+    kind: 'single',
+    prompt: 'What does a switch do when it receives a frame whose destination MAC address is missing from the MAC address table?',
+    options: [
+      { key: 'A', text: 'It floods the frame unchanged across all remaining ports in the incoming VLAN.' },
+      { key: 'B', text: 'It appends the table with a static entry for the MAC and shuts down the port.' },
+      { key: 'C', text: 'It updates the CAM table with the destination MAC address of the frame.' },
+      { key: 'D', text: 'It changes the checksum of the frame to a value that indicates an invalid frame.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — เมื่อสวิตช์เจอ "unknown unicast" (ไม่มี destination MAC ในตาราง) จะทำ flooding\n• ส่งเฟรมออก "ทุกพอร์ตใน VLAN เดียวกัน" ยกเว้นพอร์ตที่รับเข้ามา\n• เฟรมถูกส่งออกไปแบบ "ไม่เปลี่ยนแปลง" (unchanged) — สวิตช์ Layer 2 ไม่แก้ไข header ของเฟรม\n• เมื่อปลายทางตอบกลับ สวิตช์จะเรียนรู้ MAC นั้นจาก "source" ของเฟรมตอบกลับ ครั้งต่อไปจึงส่งตรงได้\n\n✅ ทำไม A ถูก: อธิบายพฤติกรรม flooding ได้ครบทั้ง 3 จุด — ส่งทุกพอร์ตที่เหลือ, จำกัดใน VLAN ที่รับเข้ามา, และเฟรมไม่ถูกแก้ไข\n\n❌ ทำไมข้ออื่นผิด:\nB. สวิตช์ไม่สร้าง static entry เองและไม่ปิดพอร์ต (การปิดพอร์ตเป็นเรื่องของ port security violation)\nC. สวิตช์เรียนรู้จาก "source MAC" เท่านั้น ไม่เคยเรียนรู้จาก destination MAC — เพราะยังไม่รู้ว่าปลายทางอยู่พอร์ตไหน\nD. สวิตช์ไม่แก้ไข checksum/FCS ของเฟรม (ยกเว้นกรณี store-and-forward ที่คำนวณใหม่หลังเปลี่ยน VLAN tag)\n\n📗 จำไว้สอบ: learn จาก source MAC • flood เมื่อไม่รู้จัก destination MAC • flood จำกัดอยู่ใน VLAN เดียวกันเสมอ',
+  },
+  {
+    id: 669,
+    kind: 'single',
+    prompt: 'Which security method is used to prevent man-in-the-middle attacks?',
+    options: [
+      { key: 'A', text: 'authorization' },
+      { key: 'B', text: 'authentication' },
+      { key: 'C', text: 'anti-replay' },
+      { key: 'D', text: 'accounting' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — Man-in-the-Middle (MITM) คือการที่ผู้โจมตีแทรกตัวอยู่ระหว่างคู่สนทนา แล้วแอบอ่าน/แก้ไขข้อมูล โดยทั้งสองฝ่ายคิดว่ากำลังคุยกับอีกฝ่ายโดยตรง\n\n💡 วิธีป้องกันคือทำให้แน่ใจว่า "อีกฝ่ายคือตัวจริง" → ต้องใช้ authentication (โดยเฉพาะ mutual authentication)\n• ใบรับรองดิจิทัล (certificate) ใน TLS/HTTPS → ตรวจว่าเซิร์ฟเวอร์คือตัวจริง\n• IPsec IKE ที่ยืนยันตัวตนสองทางด้วย pre-shared key หรือ certificate\n• 802.1X/EAP-TLS ที่ทั้งไคลเอนต์และเซิร์ฟเวอร์ตรวจสอบกันและกัน\n• ในระดับ LAN: Dynamic ARP Inspection ป้องกัน ARP spoofing (รูปแบบหนึ่งของ MITM)\n\n✅ ทำไม B ถูก: การพิสูจน์ตัวตนคือกลไกที่ทำให้ผู้โจมตีปลอมเป็นปลายทางไม่ได้ → ตัดต้นตอของ MITM\n\n❌ ทำไมข้ออื่นผิด:\nA. authorization = กำหนดว่าใครทำอะไรได้ หลังจากผ่านการยืนยันตัวตนแล้ว ไม่ได้กันการปลอมตัว\nC. anti-replay = กันการ "ส่งซ้ำ" แพ็กเก็ตเดิมที่ดักจับมา (ใช้ sequence number ใน IPsec) — เป็นการโจมตีคนละแบบ\nD. accounting = บันทึกกิจกรรม ตรวจย้อนหลังได้ แต่ไม่ได้ป้องกันตอนเกิดเหตุ\n\n📗 จำไว้สอบ: MITM → แก้ด้วย authentication (certificate/mutual auth) • replay attack → แก้ด้วย anti-replay/sequence number',
+  },
+  {
+    id: 670,
+    kind: 'single',
+    image: q670,
+    prompt:
+      'Refer to the exhibit. R1 has just received a packet from Host A that is destined for Host B. Which route in the routing table is used by R1 to reach Host B?',
+    options: [
+      { key: 'A', text: '10.10.13.0 [108/0] via 10.10.10.10' },
+      { key: 'B', text: '10.10.13.0 [110/2] via 10.10.10.2' },
+      { key: 'C', text: '10.10.13.0 [110/2] via 10.10.10.6' },
+      { key: 'D', text: '10.10.13.0 [1/0] via 10.10.10.2' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D ([1/0] via 10.10.10.2) — แต่ static route ทั้งสามเส้นถูกกำหนด AD เอง (111, 112, 108) จึงไม่มีเส้นใดมี AD = 1 คำตอบที่ถูกต้องคือ A\n\n📘 แนวคิด — เมื่อ prefix เหมือนกันทุกเส้น (ในที่นี้คือ 10.10.13.0/25 ซึ่งครอบ Host B ที่ 10.10.13.10/25) จะตัดสินด้วย "Administrative Distance ต่ำสุด"\n\n🔍 ไล่ดูคอนฟิกใน exhibit:\n• ip route 10.10.13.0 255.255.255.128 10.10.10.2 111  → static, AD 111\n• ip route 10.10.13.0 255.255.255.128 10.10.10.6 112  → static, AD 112\n• ip route 10.10.13.0 255.255.255.128 10.10.10.10 108 → static, AD 108 ⭐\n• router ospf 1 (เรียนรู้ 10.10.13.0/25 มาด้วย) → AD 110\n• ip route 0.0.0.0 0.0.0.0 10.10.10.2 → default route (prefix สั้นสุด ใช้เป็นทางเลือกสุดท้ายเท่านั้น)\n\n🧮 เปรียบเทียบ AD: 108 < 110 < 111 < 112 → ผู้ชนะคือ static route ที่ตั้ง AD 108 ผ่าน next hop 10.10.10.10 (ไปทาง R3)\n\n✅ ทำไม A ถูก: AD 108 ต่ำที่สุด จึงเป็นเส้นทางเดียวที่ถูกติดตั้งลงตารางเราต์และใช้ส่งแพ็กเก็ตไป Host B\n\n❌ ทำไมข้ออื่นผิด:\nB, C. AD 110 เป็นของ OSPF ซึ่งแพ้ static ที่ตั้ง AD 108\nD. ไม่มี static route เส้นใดใช้ AD ค่าเริ่มต้น 1 เลย — ทุกเส้นถูกระบุ AD เองทั้งหมด\n\n📗 จำไว้สอบ: prefix เท่ากัน → AD ต่ำสุดชนะ • static route ตั้ง AD เองได้โดยเติมตัวเลขท้ายคำสั่ง (floating static)',
+  },
+  {
+    id: 671,
+    kind: 'drag',
+    image: q671,
+    prompt: 'Drag and drop the WLAN components from the left onto the component details on the right.',
+    categories: [
+      { name: 'manages access points', items: ['wireless LAN controller'] },
+      { name: 'provides Wi-Fi devices with a connection to a wired network', items: ['access point'] },
+      { name: 'used for out-of-band management', items: ['service port'] },
+      { name: 'used for guest authentication', items: ['virtual interface'] },
+      { name: 'applied to the WLAN for wireless client communication', items: ['dynamic interface'] },
+    ],
+    explanation:
+      '📘 แนวคิด — องค์ประกอบของระบบ WLAN แบบมี controller\n\n🔹 อุปกรณ์:\n• Wireless LAN Controller (WLC) = สมองกลาง บริหาร AP ทั้งหมด (คอนฟิก, RRM, roaming, security policy)\n• Access Point (AP) = แปลงคลื่นวิทยุ ↔ สายทองแดง ให้อุปกรณ์ Wi-Fi ต่อเข้าเครือข่ายมีสายได้\n\n🔹 อินเทอร์เฟซบน WLC (ออกสอบบ่อยมาก):\n• Management interface = ใช้สื่อสารกับ AP (CAPWAP) และเข้าถึง GUI/CLI แบบ in-band\n• Service port = พอร์ตกายภาพแยกต่างหาก สำหรับจัดการแบบ out-of-band ⭐ (ใช้ตอนกู้ระบบ ไม่ผูกกับเครือข่ายหลัก)\n• Virtual interface = IP เสมือน (นิยมใช้ 192.0.2.1) สำหรับ web authentication ของ guest, DHCP relay และ mobility ⭐\n• Dynamic interface = อินเทอร์เฟซที่ผูกกับ VLAN ของผู้ใช้ แล้วนำไปแมปกับ WLAN เพื่อให้ทราฟฟิกไคลเอนต์ออกที่ VLAN นั้น ⭐\n\n📗 จำไว้สอบ: service port=OOB | virtual=guest/web-auth | dynamic=VLAN ของไคลเอนต์ | management=คุยกับ AP',
+  },
+  {
+    id: 672,
+    kind: 'single',
+    prompt: 'Which IPsec mode encrypts the entire original IP header and the payload?',
+    options: [
+      { key: 'A', text: 'pipe' },
+      { key: 'B', text: 'control' },
+      { key: 'C', text: 'transport' },
+      { key: 'D', text: 'tunnel' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — IPsec มี 2 โหมดหลัก\n\n🔹 Transport mode\n• เข้ารหัสเฉพาะ "payload" (ข้อมูลชั้นบน) เท่านั้น\n• ใช้ IP header เดิม → ที่อยู่ต้นทาง/ปลายทางจริงยังมองเห็นได้\n• ใช้ระหว่างโฮสต์ 2 เครื่องโดยตรง (end-to-end) โอเวอร์เฮดน้อยกว่า\n\n🔹 Tunnel mode ⭐\n• ห่อหุ้ม "ทั้งแพ็กเก็ต IP เดิม" (header + payload) แล้วเข้ารหัส จากนั้นเติม IP header ใหม่ด้านนอก\n• ที่อยู่จริงถูกซ่อน — คนดักดูเห็นแค่ IP ของอุปกรณ์ VPN สองฝั่ง\n• เป็นโหมดมาตรฐานของ site-to-site VPN (ค่าเริ่มต้นบน Cisco IOS)\n\n✅ ทำไม D ถูก: tunnel mode เข้ารหัสทั้ง IP header เดิมและ payload แล้วสร้าง header ใหม่ครอบ\n\n❌ ทำไมข้ออื่นผิด:\nA. "pipe" ไม่ใช่โหมดของ IPsec (เป็นคำที่แต่งขึ้นมาลวง)\nB. "control" ไม่ใช่โหมดของ IPsec เช่นกัน\nC. transport mode เข้ารหัสแค่ payload — IP header เดิมยังเปิดเผยอยู่\n\n📗 จำไว้สอบ: tunnel = ห่อทั้งแพ็กเก็ต + IP header ใหม่ (site-to-site VPN) | transport = เข้ารหัสแค่ payload (host-to-host)',
+  },
+  {
+    id: 673,
+    kind: 'single',
+    image: q673,
+    prompt:
+      'Refer to the exhibit. PC1 regularly sends 1800 Mbps of traffic to the server. A network engineer needs to configure the EtherChannel to disable Port Channel 1 between SW1 and SW2 when the Ge0/0 and Ge0/1 ports on SW2 go down. Which configuration must the engineer apply to the switch?',
+    options: [
+      {
+        key: 'A',
+        text: 'interface Port-channel1\n port-channel min-links 1',
+      },
+      {
+        key: 'B',
+        text: 'interface range Ge0/0 - 2\n channel-group 1 mode on',
+      },
+      {
+        key: 'C',
+        text: 'interface Port-channel1\n port-channel load-balance src-dst-ip',
+      },
+      {
+        key: 'D',
+        text: 'interface Port-channel1\n port-channel min-links 2',
+      },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสั่ง "port-channel min-links <n>" กำหนดจำนวนลิงก์ที่ต้องทำงานอยู่ "อย่างน้อย" เท่าใด ช่อง EtherChannel จึงจะขึ้น (up) ถ้าลิงก์ที่ใช้งานได้เหลือน้อยกว่านั้น ช่องจะถูกปิด (down) ทันที\n⚠️ ใช้ได้เฉพาะกับ EtherChannel แบบ LACP เท่านั้น (ไม่รองรับ PAgP หรือ mode on)\n\n🔍 วิเคราะห์โจทย์:\n• Port Channel 1 ประกอบด้วย Ge0/0, Ge0/1, Ge0/2 = 3 × 1 Gbps = 3 Gbps\n• PC1 ส่งทราฟฟิก 1800 Mbps = 1.8 Gbps อย่างสม่ำเสมอ\n• ถ้า Ge0/0 และ Ge0/1 ล่ม → เหลือลิงก์เดียว = 1 Gbps → รับ 1.8 Gbps ไม่ไหว เกิด drop มหาศาล\n→ ดังนั้นต้องบังคับให้ช่อง "ปิดตัวเอง" เมื่อเหลือลิงก์ไม่ถึง 2 เส้น (2 Gbps) เพื่อให้ทราฟฟิกเปลี่ยนไปใช้เส้นทางสำรองผ่าน SW3 แทน\n\n🧮 ต้องการอย่างน้อย 2 ลิงก์ (2 Gbps ≥ 1.8 Gbps) → port-channel min-links 2\n\n✅ ทำไม D ถูก: เมื่อ Ge0/0 และ Ge0/1 ล่ม เหลือ 1 ลิงก์ ซึ่งน้อยกว่า min-links 2 → Port-channel1 ถูกปิดตามที่โจทย์ต้องการ\n\n❌ ทำไมข้ออื่นผิด:\nA. min-links 1 = ขอแค่ลิงก์เดียวก็พอ → ช่องยังคง up ทั้งที่แบนด์วิดท์ไม่พอ\nB. mode on = static EtherChannel ซึ่งไม่รองรับ min-links เลย (และไม่เกี่ยวกับโจทย์)\nC. load-balance เป็นเรื่องวิธีกระจายทราฟฟิกลงแต่ละลิงก์ ไม่ได้ควบคุมการ up/down ของช่อง\n\n📗 จำไว้สอบ: port-channel min-links = ใช้กับ LACP เท่านั้น • ลิงก์ที่ทำงานน้อยกว่าค่าที่ตั้ง → ช่อง down ทั้งชุด',
+  },
+  {
+    id: 674,
+    kind: 'single',
+    image: q674,
+    prompt: 'Refer to the exhibit. Which command enables a floating default route on Router A?',
+    options: [
+      { key: 'A', text: 'ip route 0.0.0.0 0.0.0.0 192.168.1.2' },
+      { key: 'B', text: 'ip default-gateway 192.168.2.1' },
+      { key: 'C', text: 'ip route 0.0.0.0 0.0.0.0 192.168.1.2 10' },
+      { key: 'D', text: 'ip route 0.0.0.0 0.0.0.0 192.168.2.1 10' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — floating (default) route = static route สำรอง ที่ตั้ง AD "สูงกว่า" เส้นทางหลัก จึงถูกเก็บไว้เฉย ๆ จนกว่าเส้นทางหลักจะหายไป\n\n🔍 อ่าน exhibit:\n• Router A มีอยู่แล้ว: "ip route 0.0.0.0 0.0.0.0 192.168.2.2" → default route หลักผ่าน Router B (AD ค่าเริ่มต้น = 1)\n• เส้นทางสำรองที่มีคือผ่าน Router C ซึ่งอยู่บนวง 192.168.1.0/24 โดย Router C มี IP = 192.168.1.2\n\n🧮 เส้นสำรองต้องมี AD > 1 → ใช้ 10 (หรือค่าใด ๆ ที่มากกว่า 1)\n\n✅ ทำไม C ถูก: "ip route 0.0.0.0 0.0.0.0 192.168.1.2 10" → ชี้ไป Router C (next hop ถูกต้อง) พร้อม AD 10 ซึ่งสูงกว่า 1 ของเส้นหลัก → จะเข้าตารางเราต์ก็ต่อเมื่อเส้นทางผ่าน Router B ใช้ไม่ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่ระบุ AD → ใช้ค่าเริ่มต้น 1 เท่ากับเส้นหลัก → กลายเป็น equal-cost load balancing ไม่ใช่ floating route\nB. "ip default-gateway" ใช้กับอุปกรณ์ที่ "ปิด ip routing" เท่านั้น (เช่น สวิตช์ Layer 2) ไม่ใช้กับเราเตอร์ที่ทำ routing อยู่\nD. next hop 192.168.2.1 คืออินเทอร์เฟซของ Router A เอง (G0/0/0 = .1) → ชี้กลับหาตัวเอง ใช้ไม่ได้\n\n📗 จำไว้สอบ: floating route = static + AD สูงกว่าเส้นหลัก • ตรวจ next hop ให้เป็น IP ของ "เพื่อนบ้าน" เสมอ',
+  },
+  {
+    id: 675,
+    kind: 'drag',
+    image: q675,
+    prompt: 'Drag and drop the DNS commands from the left onto their effects on the right.',
+    categories: [
+      { name: 'adds an entry to the host table', items: ['ip host switch_1 192.168.0.1'] },
+      { name: 'completes the FQDN of the DNS server', items: ['ip domain-name'] },
+      { name: 'displays address-mapping information', items: ['show hosts'] },
+      { name: 'enables host-to-IP-address translation', items: ['ip domain-lookup'] },
+      { name: 'specifies the IP address of the DNS server', items: ['ip name-server'] },
+    ],
+    explanation:
+      '📘 แนวคิด — คำสั่งเกี่ยวกับ DNS บน Cisco IOS\n\n• ip domain-lookup (เปิดโดยดีฟอลต์) ⭐\n  เปิดให้อุปกรณ์ "แปลงชื่อเป็น IP" ได้ — ถ้าปิด (no ip domain-lookup) เวลาพิมพ์คำสั่งผิด อุปกรณ์จะไม่ค้างรอ DNS นาน ๆ\n• ip name-server <ip> ⭐\n  ระบุ IP ของ DNS server ที่อุปกรณ์จะไปถาม (ใส่ได้สูงสุด 6 ตัว)\n• ip domain-name <ชื่อโดเมน> ⭐\n  กำหนด domain suffix เพื่อเติมท้ายชื่อสั้น ๆ ให้กลายเป็น FQDN (พิมพ์ "R2" → กลายเป็น "R2.cisco.com") — และยังจำเป็นสำหรับการสร้างคู่กุญแจ RSA ตอนเปิด SSH ด้วย\n• ip host <ชื่อ> <ip> ⭐\n  สร้างรายการแมปชื่อ↔IP แบบ static ไว้ในเครื่องเอง (host table) ไม่ต้องพึ่ง DNS\n• show hosts ⭐\n  แสดงตารางแมปชื่อกับ IP ทั้งหมด (ทั้ง static และที่ cache มาจาก DNS)\n\n📗 จำไว้สอบ: lookup=เปิดใช้งาน DNS • name-server=ชี้เซิร์ฟเวอร์ • domain-name=เติมนามสกุล (และจำเป็นต่อ SSH) • ip host=แมปเอง • show hosts=ดูตาราง',
+  },
+  {
+    id: 676,
+    kind: 'single',
+    image: q676,
+    prompt:
+      'Refer to the exhibit. How must OSPF be configured on the GigabitEthernet0/0 interface of the neighbor device to achieve the desired neighbor relationship?',
+    options: [
+      {
+        key: 'A',
+        text: 'interface GigabitEthernet0/0\n ip ospf network point-to-point',
+      },
+      {
+        key: 'B',
+        text: 'interface GigabitEthernet0/0\n ip ospf priority 255',
+      },
+      {
+        key: 'C',
+        text: 'interface GigabitEthernet0/0\n ip ospf network broadcast',
+      },
+      {
+        key: 'D',
+        text: 'interface GigabitEthernet0/0\n ip ospf cost 0',
+      },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — วิธีอ่านคอลัมน์ Pri และ State ใน show ip ospf neighbor\n• Pri = OSPF priority ของเพื่อนบ้านบนอินเทอร์เฟซนั้น\n• State = FULL/DR, FULL/BDR, FULL/DROTHER หรือ FULL/ -\n  - "FULL/ -" หมายถึงเซกเมนต์นั้น "ไม่มีการเลือก DR/BDR เลย" ซึ่งเกิดกับ network type แบบ point-to-point (และ point-to-multipoint)\n  - ถ้าเป็นเพียง priority 0 บนเครือข่าย broadcast จะแสดงเป็น "FULL/DROTHER" ไม่ใช่ "FULL/ -"\n\n🔍 เทียบสองสถานะใน exhibit:\n• Current: Pri 1, State FULL/DR → เครือข่ายเป็น broadcast และเพื่อนบ้านได้เป็น DR\n• Desired: Pri 0, State FULL/ - → ต้องการให้ไม่มี DR/BDR บนลิงก์นี้เลย และ Pri แสดงเป็น 0\n\n✅ ทำไม A ถูก: การสั่ง "ip ospf network point-to-point" ทำให้ไม่มีการเลือก DR/BDR (จึงแสดง Pri 0 และ State FULL/ -) และยังทำให้ adjacency ขึ้นเร็วขึ้นด้วย — เหมาะกับลิงก์ที่มีเราเตอร์แค่ 2 ตัว\n⚠️ ต้องตั้งให้ตรงกันทั้งสองฝั่ง มิฉะนั้น neighbor จะไม่ขึ้น\n\n❌ ทำไมข้ออื่นผิด:\nB. priority 255 = พยายามเป็น DR → State จะเป็น FULL/DR ไม่ใช่ FULL/ -\nC. network broadcast คือค่าที่ใช้อยู่แล้ว (สถานะปัจจุบัน) → ไม่มีอะไรเปลี่ยน\nD. ip ospf cost ปรับต้นทุนเส้นทาง ไม่มีผลต่อการเลือก DR หรือคอลัมน์ Pri (และค่า 0 ก็ไม่ถูกต้อง)\n\n📗 จำไว้สอบ: FULL/ - = point-to-point (ไม่มี DR) • FULL/DROTHER = broadcast + priority 0 • p2p ไม่ต้องเลือก DR จึงขึ้นเร็วกว่า',
+  },
+  {
+    id: 677,
+    kind: 'single',
+    prompt: 'What is the purpose of using First Hop Redundancy Protocol on a specific subnet?',
+    options: [
+      { key: 'A', text: 'ensures a loop-free physical topology' },
+      { key: 'B', text: 'filters traffic based on destination IP addressing' },
+      { key: 'C', text: 'sends the default route to the hosts on a network' },
+      { key: 'D', text: 'forwards multicast hello messages between routers' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — FHRP (HSRP / VRRP / GLBP) มีเป้าหมายคือทำให้ default gateway ไม่ล่ม โดยให้เราเตอร์หลายตัวแชร์ virtual IP + virtual MAC\n\n💡 กลไกที่ทำให้มันทำงานได้คือ เราเตอร์สมาชิกจะส่ง "hello message" หากันเป็นระยะผ่าน multicast เพื่อ (1) เลือกว่าใครเป็น active/master (2) ตรวจว่าตัวที่ทำงานอยู่ยังมีชีวิตไหม เมื่อไม่ได้ยิน hello ครบตาม holdtime ตัวสำรองจะรับช่วงต่อทันที\n• HSRP v1 → multicast 224.0.0.2 (UDP 1985) | HSRP v2 → 224.0.0.102\n• VRRP → 224.0.0.18 (IP protocol 112)\n• GLBP → 224.0.0.102 (UDP 3222)\n\n✅ ทำไม D ถูก: ในบรรดาตัวเลือกที่ให้มา มีเพียงข้อนี้ที่อธิบายสิ่งที่ FHRP ทำจริงบน subnet นั้น — เราเตอร์สมาชิกส่ง hello แบบ multicast หากันเพื่อรักษาสถานะความซ้ำซ้อน\n\n❌ ทำไมข้ออื่นผิด:\nA. โทโพโลยีปลอดลูป = หน้าที่ของ STP ไม่ใช่ FHRP\nB. การกรองทราฟฟิกตาม IP ปลายทาง = หน้าที่ของ ACL\nC. การแจก default route ให้โฮสต์ = หน้าที่ของ DHCP (option 3) — FHRP เพียงทำให้ IP ของ gateway นั้นไม่ล่ม ไม่ได้ส่งอะไรไปให้โฮสต์\n\n📗 จำไว้สอบ: FHRP = virtual IP/MAC + hello แบบ multicast → failover โดย host ไม่ต้องเปลี่ยนอะไรเลย',
+  },
+  {
+    id: 678,
+    kind: 'multi',
+    prompt:
+      'Which two features were introduced in SNMPv2 that provide the ability to retrieve large amounts of data in one request and to acknowledge receipt of a notification? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Get' },
+      { key: 'B', text: 'GetNext' },
+      { key: 'C', text: 'Set' },
+      { key: 'D', text: 'GetBulk' },
+      { key: 'E', text: 'Inform' },
+    ],
+    correct: ['D', 'E'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A,D — แต่ "Get" มีมาตั้งแต่ SNMPv1 ไม่ใช่ของใหม่ใน v2 คำตอบที่ถูกต้องคือ D,E\n\n📘 แนวคิด — ข้อความ (PDU) ของ SNMP แต่ละเวอร์ชัน\n\n🔹 มีมาตั้งแต่ SNMPv1:\n• Get — ขอค่าของ OID เดียว\n• GetNext — ขอ OID ถัดไป (ใช้เดินไล่ทั้งต้นไม้ MIB ทีละตัว ช้ามาก)\n• Set — เขียน/แก้ค่าบนอุปกรณ์\n• Trap — อุปกรณ์แจ้งเตือนไปยัง NMS (ยิงแล้วจบ ไม่มีการยืนยัน)\n• Response — คำตอบกลับ\n\n🔹 เพิ่มเข้ามาใน SNMPv2c:\n• GetBulk ⭐ — ดึงข้อมูลจำนวนมากได้ในคำขอเดียว (แทนที่จะยิง GetNext ซ้ำ ๆ) → ลดทราฟฟิกและเวลาอย่างมาก\n• Inform ⭐ — เหมือน Trap แต่ "ต้องการ acknowledgment" กลับมาจาก NMS ถ้าไม่ได้รับก็ส่งซ้ำ → เชื่อถือได้กว่า Trap\n\n🔹 SNMPv3 ไม่ได้เพิ่ม PDU ใหม่ แต่เพิ่ม "ความปลอดภัย" (authentication + encryption)\n\n✅ ทำไม D, E ถูก: ทั้งคู่คือสิ่งที่ SNMPv2 เพิ่มเข้ามา — GetBulk ดึงข้อมูลก้อนใหญ่, Inform มีการยืนยันการรับ\n\n❌ ทำไมข้ออื่นผิด:\nA, B, C. Get, GetNext, Set มีมาตั้งแต่ SNMPv1 แล้ว\n\n📗 จำไว้สอบ: v2c เพิ่ม GetBulk + Inform | v3 เพิ่มความปลอดภัย (authPriv) | Trap ไม่มี ack ส่วน Inform มี',
+  },
+  {
+    id: 679,
+    kind: 'single',
+    prompt:
+      'A multivendor network exists and the company is implementing VoIP over the network for the first time. Which configuration must be applied to the switch port that connects the IP phone and the PC so that the phone is discovered and placed in the voice VLAN?',
+    options: [
+      {
+        key: 'A',
+        text: 'Switch(config)#cdp run\nSwitch(config)#interface gi0/1\nSwitch(config-if)#switchport mode access\nSwitch(config-if)#switchport access vlan 10\nSwitch(config-if)#switchport voice vlan 20',
+      },
+      {
+        key: 'B',
+        text: 'Switch(config)#lldp run\nSwitch(config)#interface gi0/1\nSwitch(config-if)#switchport mode access\nSwitch(config-if)#switchport access vlan 10\nSwitch(config-if)#switchport voice vlan 20',
+      },
+      {
+        key: 'C',
+        text: 'Switch(config)#interface gi0/1\nSwitch(config-if)#switchport mode trunk\nSwitch(config-if)#switchport trunk allowed vlan 10,20\nSwitch(config-if)#no lldp transmit',
+      },
+      {
+        key: 'D',
+        text: 'Switch(config)#interface gi0/1\nSwitch(config-if)#switchport mode access\nSwitch(config-if)#switchport access vlan 20\nSwitch(config-if)#switchport voice vlan dot1p',
+      },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — VoIP บนพอร์ตเดียว (IP phone + PC ต่อพ่วง)\n• "switchport access vlan 10" → ทราฟฟิกของ PC (data) ส่งแบบไม่ติดแท็ก\n• "switchport voice vlan 20" → สวิตช์บอกโทรศัพท์ให้ติดแท็ก 802.1Q VLAN 20 สำหรับเสียง (พอร์ตกลายเป็น multi-VLAN access port)\n• การ "บอก" โทรศัพท์ต้องใช้โปรโตคอลค้นหาเพื่อนบ้าน:\n  - CDP → Cisco เท่านั้น\n  - LLDP-MED (IEEE 802.1AB) → มาตรฐานเปิด ใช้ได้กับโทรศัพท์ทุกยี่ห้อ ⭐\n\n🔍 โจทย์ระบุ "multivendor network" → ต้องเปิด LLDP เพราะ CDP คุยได้เฉพาะอุปกรณ์ Cisco\n⚠️ บน Cisco IOS นั้น LLDP "ปิดอยู่โดยดีฟอลต์" ต้องสั่ง "lldp run" ในโหมด global ก่อน\n\n✅ ทำไม B ถูก: เปิด lldp run (รองรับหลายยี่ห้อ) + ตั้ง access vlan 10 สำหรับ PC + voice vlan 20 สำหรับโทรศัพท์ → โทรศัพท์ถูกค้นพบและวางอยู่ใน voice VLAN ได้ถูกต้อง\n\n❌ ทำไมข้ออื่นผิด:\nA. cdp run ใช้ได้เฉพาะกับโทรศัพท์ Cisco → ในเครือข่าย multivendor โทรศัพท์ยี่ห้ออื่นจะไม่ได้รับข้อมูล voice VLAN\nC. ตั้งเป็น trunk ทำให้ PC ที่ต่อพ่วงมีปัญหา และยัง "no lldp transmit" ซึ่งปิดการโฆษณาที่จำเป็น\nD. เอา PC ไปอยู่ VLAN 20 (voice) และใช้ "voice vlan dot1p" ซึ่งให้โทรศัพท์ส่งแบบ VLAN 0 (แท็กเฉพาะ CoS) ไม่ได้แยก VLAN ตามโจทย์\n\n📗 จำไว้สอบ: multivendor → LLDP (ต้องสั่ง lldp run) • Cisco ล้วน → CDP (เปิดอยู่แล้ว) • data VLAN untagged + voice VLAN tagged บนพอร์ตเดียวกัน',
+  },
+  {
+    id: 680,
+    kind: 'single',
+    image: q680,
+    prompt: 'Refer to the exhibit. A network engineer must update the configuration on Switch2 so that it sends LLDP packets. Which configuration must be applied?',
+    options: [
+      {
+        key: 'A',
+        text: 'Switch2(config)#lldp run',
+      },
+      {
+        key: 'B',
+        text: 'Switch2(config)#interface gi0/1\nSwitch2(config-if)#lldp receive',
+      },
+      {
+        key: 'C',
+        text: 'Switch2(config)#interface gi0/1\nSwitch2(config-if)#lldp transmit',
+      },
+      {
+        key: 'D',
+        text: 'Switch2(config)#interface gi0/1\nSwitch2(config-if)#lldp holdtime 120',
+      },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — LLDP มีสวิตช์เปิด/ปิด 2 ระดับ\n1️⃣ ระดับ global: "lldp run" → เปิดใช้ LLDP ทั้งอุปกรณ์ (ค่าเริ่มต้นคือปิด)\n2️⃣ ระดับ interface: แยกทิศทางได้อิสระ\n   • lldp transmit → ส่ง LLDP ออกจากพอร์ตนี้ ⭐\n   • lldp receive → รับ LLDP ที่เข้ามาที่พอร์ตนี้\n   (ปิดด้วย no lldp transmit / no lldp receive)\n\n🔍 อ่าน exhibit จาก show lldp:\n• "Status: ACTIVE" → LLDP เปิดในระดับ global อยู่แล้ว (สั่ง lldp run ไปแล้ว)\n• advertisements ทุก 30 วินาที, holdtime 120, reinit delay 2 → ค่าดีฟอลต์ปกติ\n→ ปัญหาจึงอยู่ที่ระดับอินเทอร์เฟซ ซึ่งถูกปิดการส่งไว้\n\n✅ ทำไม C ถูก: สั่ง "lldp transmit" บนอินเทอร์เฟซ → สวิตช์เริ่มส่งเฟรม LLDP ออกไปตามที่โจทย์ต้องการ\n\n❌ ทำไมข้ออื่นผิด:\nA. lldp run เปิดไปแล้ว (Status: ACTIVE) → สั่งซ้ำไม่เกิดผลใด\nB. lldp receive = เปิดการ "รับ" ไม่ใช่การ "ส่ง"\nD. holdtime = บอกเพื่อนบ้านให้เก็บข้อมูลไว้นานเท่าใด ไม่ได้ทำให้เริ่มส่ง\n\n📗 จำไว้สอบ: CDP เปิดโดยดีฟอลต์ / LLDP ปิดโดยดีฟอลต์ (ต้อง lldp run) • LLDP แยก transmit กับ receive ต่อพอร์ตได้',
+  },
+  {
+    id: 681,
+    kind: 'single',
+    prompt: 'Which IPv6 address range is suitable for anycast addresses for distributed services such as DHCP or DNS?',
+    options: [
+      { key: 'A', text: 'FF00::/8' },
+      { key: 'B', text: '2001:db8:0234:ca3e::1' },
+      { key: 'C', text: '2002:db84:3f37:ca98:be05:8::1' },
+      { key: 'D', text: 'FE80::1' },
+    ],
+    correct: ['B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A (FF00::/8) — แต่นั่นคือช่วง "multicast" ไม่ใช่ anycast คำตอบที่ถูกต้องคือ B\n\n📘 แนวคิด — IPv6 anycast\n• IPv6 มี 3 ชนิด: Unicast (หนึ่งต่อหนึ่ง), Multicast (หนึ่งต่อกลุ่ม, FF00::/8), Anycast (หนึ่งต่อตัวที่ใกล้ที่สุด)\n• 🔑 กุญแจสำคัญ: anycast "ไม่มีช่วงที่อยู่ของตัวเอง" — มันถูกจัดสรรจาก "พื้นที่ unicast ปกติ" (โดยเฉพาะ global unicast 2000::/3)\n• วิธีทำ: นำที่อยู่ unicast เดียวกันไปกำหนดให้อุปกรณ์หลายตัวที่กระจายอยู่คนละที่ แล้วประกาศเข้า routing → ผู้ใช้จะถูกส่งไปยังตัวที่ "ใกล้ที่สุดตามเมตริกเราต์" โดยอัตโนมัติ\n• ใช้กับบริการกระจายศูนย์ เช่น DNS root servers, DHCP, CDN\n\n✅ ทำไม B ถูก: 2001:db8:0234:ca3e::1 เป็น global unicast address (อยู่ใน 2000::/3) จึงนำไปใช้เป็น anycast ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. FF00::/8 = multicast — ส่งถึง "สมาชิกทุกตัว" ในกลุ่ม ไม่ใช่ "ตัวที่ใกล้ที่สุด" ตัวเดียว\nC. 2002::/16 เป็นช่วงสงวนสำหรับกลไก 6to4 tunneling โดยเฉพาะ (ไม่เหมาะจะใช้เป็น anycast ทั่วไป และรูปแบบที่ให้มาก็ผิดปกติ)\nD. FE80::1 = link-local ใช้ได้เฉพาะบนลิงก์เดียว → บริการกระจายศูนย์ข้ามไซต์ทำไม่ได้\n\n📗 จำไว้สอบ: anycast ใช้ที่อยู่ unicast ธรรมดา (ส่วนใหญ่ 2000::/3) • ต่างกันแค่ "เอาไปใส่หลายเครื่อง" • FF00::/8 = multicast เท่านั้น',
+  },
+  {
+    id: 682,
+    kind: 'single',
+    prompt:
+      'A WLC sends alarms about a rogue AP, and the network administrator verifies that the alarms are caused by a legitimate autonomous AP. Which action must the administrator take to stop the alarms?',
+    options: [
+      { key: 'A', text: 'Place the AP into manual containment.' },
+      { key: 'B', text: 'Remove the AP from WLC management.' },
+      { key: 'C', text: 'Manually remove the AP from Pending state.' },
+      { key: 'D', text: 'Set the AP Class Type to Friendly.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B — แต่ AP ตัวนี้เป็น autonomous AP ซึ่งไม่ได้อยู่ภายใต้การจัดการของ WLC อยู่แล้ว จึง "ถอดออกจาก WLC" ไม่ได้ คำตอบที่ถูกต้องคือ D\n\n📘 แนวคิด — การจัดประเภท rogue AP บน Cisco WLC\nWLC จะมองว่า AP ใด ๆ ที่ไม่ได้อยู่ในการจัดการของตนเป็น "Rogue" โดยอัตโนมัติ แล้วให้ผู้ดูแลจัดประเภท (Rogue Classification) ได้ดังนี้:\n• Friendly ⭐ = AP ที่รู้จักและปลอดภัย (เช่น autonomous AP ของบริษัทเอง, AP ของเพื่อนบ้านที่ยอมรับได้) → WLC หยุดแจ้งเตือน\n• Malicious = AP อันตราย ต้องจัดการ (มักตามด้วย containment)\n• Unclassified = ยังไม่ถูกจัดประเภท (สถานะเริ่มต้น)\nแต่ละประเภทมีสถานะย่อย เช่น Alert, Internal, External, Contained, Threat\n\n✅ ทำไม D ถูก: เมื่อยืนยันแล้วว่าเป็น autonomous AP ที่ถูกต้องขององค์กร ให้ตั้ง AP Class Type เป็น "Friendly" → WLC เลิกแจ้งเตือน แต่ยังคงเฝ้าดูอยู่\n\n❌ ทำไมข้ออื่นผิด:\nA. manual containment = ส่ง deauth ไปกวนให้ AP นั้นใช้งานไม่ได้ → จะทำลาย AP ที่ถูกต้องของตัวเอง (และผิดกฎหมายในบางประเทศถ้าไปโดน AP ของคนอื่น)\nB. AP นี้เป็น autonomous ไม่เคยถูก WLC จัดการอยู่แล้ว จึงถอดออกไม่ได้\nC. "Pending state" เป็นสถานะของกระบวนการจัดประเภทอัตโนมัติ (rogue rules) การลบออกเฉย ๆ ไม่ได้หยุดการแจ้งเตือนถาวร\n\n📗 จำไว้สอบ: rogue ที่รู้จัก/ปลอดภัย → จัดเป็น Friendly • rogue อันตราย → Malicious + containment',
+  },
+  {
+    id: 683,
+    kind: 'single',
+    prompt: 'What is the primary purpose of private address space?',
+    options: [
+      { key: 'A', text: 'conserve globally unique address space' },
+      { key: 'B', text: 'simplify the addressing in the network' },
+      { key: 'C', text: 'limit the number of nodes reachable via the Internet' },
+      { key: 'D', text: 'reduce network complexity' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D (ลดความซับซ้อนของเครือข่าย) — ซึ่งเป็นเพียงผลพลอยได้ ไม่ใช่วัตถุประสงค์หลัก คำตอบที่ถูกต้องคือ A\n\n📘 แนวคิด — RFC 1918 กำหนดช่วง IPv4 ส่วนตัวไว้ 3 ช่วง\n• 10.0.0.0/8        (1 คลาส A)\n• 172.16.0.0/12     (16 คลาส B: 172.16 – 172.31)\n• 192.168.0.0/16    (256 คลาส C)\n\n🎯 เหตุผลที่ถูกสร้างขึ้น: IPv4 มีเพียง ~4.3 พันล้านที่อยู่ ซึ่งไม่พอสำหรับทุกอุปกรณ์บนโลก → จึงให้องค์กรใช้ช่วงส่วนตัว "ซ้ำกันได้" ภายในเครือข่ายของตน แล้วใช้ NAT/PAT แปลงเป็น IP สาธารณะเพียงไม่กี่ตัวตอนออกอินเทอร์เน็ต → ประหยัดที่อยู่สาธารณะได้มหาศาล ⭐\n\n✅ ทำไม A ถูก: วัตถุประสงค์หลักตามที่ RFC 1918 ระบุไว้คือการอนุรักษ์พื้นที่ที่อยู่ IPv4 สาธารณะที่มีอยู่จำกัด\n\n❌ ทำไมข้ออื่นผิด:\nB. การจัดที่อยู่ให้ง่ายขึ้นเป็นผลพลอยได้ ไม่ใช่เหตุผลที่สร้างมา\nC. การที่ต่อตรงจากอินเทอร์เน็ตไม่ได้ก็เป็นผลพลอยได้เช่นกัน — และไม่ใช่มาตรการความปลอดภัยที่พึ่งพาได้ (ต้องมี firewall)\nD. ลดความซับซ้อน — ตรงกันข้ามด้วยซ้ำ เพราะต้องเพิ่ม NAT เข้ามาในระบบ\n\n📗 จำไว้สอบ: RFC1918 = 10/8, 172.16/12, 192.168/16 • เป้าหมาย = ประหยัด IPv4 สาธารณะ • ต้องใช้ NAT จึงออกเน็ตได้',
+  },
+  {
+    id: 684,
+    kind: 'single',
+    image: q684,
+    prompt:
+      'Refer to the exhibit. The P2P blocking action option is disabled on the WLC. Wireless devices that use a manually configured (static) IP address must be able to associate to this WLAN and pass traffic. Which action must be taken?',
+    options: [
+      { key: 'A', text: 'Enable the Static IP Tunneling option.' },
+      { key: 'B', text: 'Disable the Coverage Hole Detection option.' },
+      { key: 'C', text: 'Check the DHCP Addr. Assignment check box.' },
+      { key: 'D', text: 'Set the P2P Blocking Action option to Forward-UpStream.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ตัวเลือกในแท็บ Advanced ของ WLAN บน Cisco WLC\n• DHCP Addr. Assignment = Required → "บังคับ" ให้ไคลเอนต์ต้องรับ IP จาก DHCP เท่านั้น หากตั้งไว้ เครื่องที่ใช้ static IP จะถูกปฏิเสธทันที\n• Static IP Tunneling ⭐ → เปิดเพื่อ "รองรับ" ไคลเอนต์ที่ตั้ง IP เอง โดย WLC จะจัดการ/ทันเนลทราฟฟิกของเครื่องเหล่านั้นให้ถูกต้อง\n• Coverage Hole Detection → RRM ตรวจจุดอับสัญญาณแล้วปรับกำลังส่ง AP\n• P2P Blocking Action → ควบคุมว่าไคลเอนต์บน WLAN เดียวกันคุยกันตรง ๆ ได้หรือไม่ (Disabled = คุยกันได้)\n\n🔍 อ่าน exhibit: DHCP Addr. Assignment ยังไม่ถูกติ๊ก Required (ดี — ไม่บล็อก static IP) แต่ "Static IP Tunneling" ยังไม่ Enabled → ไคลเอนต์ static IP ยังทำงานไม่ได้เต็มที่\n\n✅ ทำไม A ถูก: ต้องเปิด Static IP Tunneling เพื่อให้ WLAN รองรับไคลเอนต์ที่กำหนด IP เอง\n\n❌ ทำไมข้ออื่นผิด:\nB. Coverage Hole Detection เกี่ยวกับคุณภาพสัญญาณ RF ไม่เกี่ยวกับการจ่าย IP\nC. ติ๊ก DHCP Addr. Assignment (Required) = บังคับใช้ DHCP → เครื่อง static IP จะเชื่อมต่อไม่ได้เลย ตรงข้ามกับโจทย์\nD. P2P Blocking เป็นเรื่องการสื่อสารระหว่างไคลเอนต์ด้วยกัน ไม่เกี่ยวกับที่อยู่ IP แบบ static\n\n📗 จำไว้สอบ: static IP client → เปิด Static IP Tunneling และอย่าติ๊ก DHCP Required • อุปกรณ์ static IP ที่ไม่ตอบ ARP (เช่นเครื่องพิมพ์) → เปิด Passive Client ด้วย',
+  },
+  {
+    id: 685,
+    kind: 'single',
+    prompt: 'What is a reason to configure a trunk port that connects to a WLC distribution port?',
+    options: [
+      { key: 'A', text: 'Eliminate redundancy with a link failure in the data path.' },
+      { key: 'B', text: 'Allow multiple VLANs to be used in the data path.' },
+      { key: 'C', text: 'Provide redundancy if there is a link failure for out-of-band management.' },
+      { key: 'D', text: 'Permit multiple VLANs to provide out-of-band management.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D — แต่ out-of-band management บน WLC ใช้ "service port" ต่างหาก ไม่ใช่ distribution port คำตอบที่ถูกต้องคือ B\n\n📘 แนวคิด — พอร์ตบน Cisco WLC\n• Distribution System Port (DS port) ⭐ = พอร์ตหลักที่ต่อเข้าเครือข่าย ใช้รับส่งทราฟฟิกของไคลเอนต์ทั้งหมด (data path) และคุยกับ AP\n  - รองรับหลาย VLAN เพราะแต่ละ WLAN/SSID ถูกแมปกับ dynamic interface ที่ผูกกับ VLAN ต่างกัน\n  - จึงต้องต่อกับพอร์ตสวิตช์ที่เป็น 802.1Q trunk\n• Service Port = พอร์ตแยกต่างหากสำหรับ out-of-band management เท่านั้น รองรับ VLAN เดียว (untagged) และไม่รับทราฟฟิกไคลเอนต์\n• Console Port = จัดการผ่านสายอนุกรม\n\n✅ ทำไม B ถูก: เหตุผลที่ต้องเป็น trunk คือให้ VLAN ของ SSID ต่าง ๆ (เช่น Staff VLAN 10, Guest VLAN 20, Voice VLAN 30) วิ่งผ่านลิงก์เดียวกันได้\n\n❌ ทำไมข้ออื่นผิด:\nA. trunk ไม่ได้ "กำจัด" ความซ้ำซ้อน — ความซ้ำซ้อนของลิงก์ทำด้วย LAG/port-channel ต่างหาก\nC. out-of-band management ใช้ service port ไม่ใช่ distribution port และ trunk ไม่ได้ให้ redundancy\nD. service port รองรับได้แค่ VLAN เดียว จึงไม่ใช่เหตุผลของการทำ trunk บน distribution port\n\n📗 จำไว้สอบ: DS port = trunk หลาย VLAN (data + AP) • Service port = OOB, VLAN เดียว • LAG = รวมพอร์ตเพื่อความซ้ำซ้อน',
+  },
+  {
+    id: 686,
+    kind: 'single',
+    prompt: 'What is a purpose of traffic shaping?',
+    options: [
+      { key: 'A', text: 'It enables dynamic flow identification.' },
+      { key: 'B', text: 'It enables policy-based routing.' },
+      { key: 'C', text: 'It provides best-effort service.' },
+      { key: 'D', text: 'It limits bandwidth usage.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ A (dynamic flow identification) — แต่การระบุ flow คือหน้าที่ของ classification/NBAR ไม่ใช่ shaping คำตอบที่ถูกต้องคือ D\n\n📘 แนวคิด — เครื่องมือควบคุมอัตราของ QoS มี 2 ตัวที่ต้องแยกให้ออก\n\n🔹 Traffic shaping ⭐\n• จำกัดอัตราการส่งข้อมูล "ขาออก" ให้ไม่เกินค่าที่กำหนด\n• แพ็กเก็ตที่เกินอัตราจะถูก "เก็บเข้าบัฟเฟอร์" แล้วทยอยส่งทีหลัง (ไม่ทิ้ง)\n• ผล: ทราฟฟิกราบเรียบขึ้น ไม่มี burst พุ่ง — แลกกับ delay/jitter ที่เพิ่มขึ้น\n• ใช้บ่อยเมื่อ CIR ที่ซื้อจาก ISP ต่ำกว่าความเร็วพอร์ตจริง\n\n🔹 Traffic policing\n• จำกัดอัตราเช่นกัน แต่ส่วนที่เกินจะถูก "ทิ้งทันที" หรือ re-mark (ไม่บัฟเฟอร์)\n• ใช้ได้ทั้งขาเข้าและขาออก ไม่เพิ่ม delay แต่มี packet loss\n\n✅ ทำไม D ถูก: วัตถุประสงค์ของ shaping คือควบคุม/จำกัดการใช้แบนด์วิดท์ให้อยู่ในอัตราที่กำหนด\n\n❌ ทำไมข้ออื่นผิด:\nA. การระบุ flow แบบไดนามิก = classification (NBAR/NetFlow)\nB. policy-based routing = การกำหนดเส้นทางตามนโยบาย คนละกลไกกับ QoS shaping\nC. best-effort คือ "ไม่มี QoS เลย" ซึ่งตรงข้ามกับการทำ shaping\n\n📗 จำไว้สอบ: shaping = บัฟเฟอร์แล้วทยอยส่ง (outbound, delay เพิ่ม) • policing = ตัดทิ้งทันที (in/out, loss เพิ่ม)',
+  },
+  {
+    id: 687,
+    kind: 'single',
+    prompt: 'What is a characteristic of a collapsed-core network topology?',
+    options: [
+      { key: 'A', text: 'It allows the core and distribution layers to run as a single combined layer.' },
+      { key: 'B', text: 'It enables the core and access layers to connect to one logical distribution device over an EtherChannel.' },
+      { key: 'C', text: 'It enables all workstations in a SOHO environment to connect on a single switch with internet access.' },
+      { key: 'D', text: 'It allows wireless devices to connect directly to the core layer, which enables faster data transmission.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B — แต่ในสถาปัตยกรรม collapsed core ชั้น distribution ไม่ได้แยกออกมาต่างหาก มันถูกยุบรวมเข้ากับ core แล้ว คำตอบที่ถูกต้องคือ A\n\n📘 แนวคิด — โมเดลลำดับชั้นของ Cisco\n🔹 3-tier (เครือข่ายใหญ่):\n  Access → Distribution → Core (แยกชัดเจน 3 ชั้น)\n🔹 2-tier / Collapsed core (เครือข่ายเล็ก–กลาง): ⭐\n  Access → Collapsed core (= core + distribution รวมอยู่บนอุปกรณ์เดียวกัน)\n\nข้อดี: ลดจำนวนอุปกรณ์ ลดค่าใช้จ่ายและความซับซ้อน เหมาะกับไซต์เดียว/อาคารเดียว\nข้อเสีย: ขยายตัวได้จำกัด และอุปกรณ์ collapsed core ต้องรับภาระทั้งการสลับความเร็วสูงและงาน policy/routing\n\n✅ ทำไม A ถูก: ตรงตามนิยาม — ชั้น core และ distribution ทำงานรวมกันเป็นชั้นเดียว\n\n❌ ทำไมข้ออื่นผิด:\nB. กลับด้าน — ไม่มี "distribution device แยก" ให้ core กับ access มาต่อ เพราะ distribution ถูกยุบไปรวมกับ core แล้ว\nC. สวิตช์ตัวเดียวสำหรับ SOHO เป็นเครือข่ายแบบ flat ไม่ใช่ collapsed core (ซึ่งยังมี 2 ชั้น)\nD. อุปกรณ์ไร้สายเชื่อมต่อผ่านชั้น access (AP) เสมอ ไม่ได้ต่อตรงเข้า core\n\n📗 จำไว้สอบ: collapsed core = core + distribution รวมกัน (2 ชั้น) • เล็ก→2-tier, ใหญ่→3-tier',
+  },
+  {
+    id: 688,
+    kind: 'single',
+    prompt:
+      'To improve corporate security, an organization is planning to implement badge authentication to limit access to the data center. Which element of a security program is being deployed?',
+    options: [
+      { key: 'A', text: 'user training' },
+      { key: 'B', text: 'user awareness' },
+      { key: 'C', text: 'vulnerability verification' },
+      { key: 'D', text: 'physical access control' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — องค์ประกอบของ security program ตามเนื้อหา CCNA\n• User awareness = ทำให้พนักงานทุกคน "ตระหนัก" ถึงภัย เช่น ส่งอีเมลจำลอง phishing เพื่อฝึกสังเกต\n• User training = ฝึกอบรมแบบเป็นทางการ สอนวิธีปฏิบัติงานอย่างปลอดภัยตามหน้าที่\n• Physical access control ⭐ = จำกัดการเข้าถึงทางกายภาพไปยังอุปกรณ์/ห้องสำคัญ เช่น คีย์การ์ด/badge, ล็อกตู้แร็ค, กล้องวงจรปิด, รปภ., mantrap\n\n✅ ทำไม D ถูก: การใช้ badge เพื่อจำกัดคนเข้าห้องดาต้าเซ็นเตอร์ = การควบคุมการเข้าถึงทางกายภาพโดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nA. user training = การอบรม ไม่ใช่การติดตั้งระบบคีย์การ์ด\nB. user awareness = การสร้างความตระหนักรู้ ไม่ใช่มาตรการควบคุมทางกายภาพ\nC. vulnerability verification = การสแกน/ทดสอบหาช่องโหว่ในระบบ (pen test) คนละเรื่อง\n\n📗 จำไว้สอบ: badge/กุญแจ/กล้อง/รปภ. = physical access control • awareness < training < education = ระดับการให้ความรู้ผู้ใช้',
+  },
+  {
+    id: 689,
+    kind: 'drag',
+    image: q689,
+    prompt:
+      'Drag and drop the statements about AAA services from the left onto the corresponding AAA services on the right. Not all statements are used.',
+    categories: [
+      {
+        name: 'Accounting',
+        items: ['It records the duration of each connection.', 'It supports User Access Reporting.'],
+      },
+      {
+        name: 'Authorization',
+        items: ['It grants access to network assets, such as FTP servers.', 'It restricts the CLI commands that a user is able to perform.'],
+      },
+      {
+        name: 'ไม่ใช้ (ตัวลวง — เป็นของ Authentication)',
+        items: ['It performs user validation via TACACS+.', 'It verifies "who you are".'],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — AAA สามตัว แยกหน้าที่ให้ชัด\n\n1️⃣ Authentication = "คุณคือใคร?"\n• ตรวจสอบตัวตนด้วย username/password, certificate, token\n• ทำผ่าน RADIUS หรือ TACACS+\n• 👉 ข้อความ "It verifies who you are" และ "It performs user validation via TACACS+" เป็นของกลุ่มนี้ (จึงไม่ถูกใช้ในโจทย์ที่มีแค่ Accounting กับ Authorization)\n\n2️⃣ Authorization = "คุณทำอะไรได้บ้าง?" ⭐\n• It grants access to network assets, such as FTP servers → อนุญาตให้เข้าถึงทรัพยากรใดบ้าง\n• It restricts the CLI commands that a user is able to perform → จำกัดคำสั่ง CLI ที่ผู้ใช้พิมพ์ได้ (command authorization — เป็นจุดแข็งของ TACACS+)\n\n3️⃣ Accounting = "คุณทำอะไรไปแล้วบ้าง?" ⭐\n• It records the duration of each connection → บันทึกเวลาเริ่ม-สิ้นสุดของแต่ละเซสชัน\n• It supports User Access Reporting → ออกรายงานการเข้าใช้งานเพื่อการตรวจสอบ/คิดค่าบริการ\n\n📗 จำไว้สอบ: AuthN=ใคร | AuthZ=ทำอะไรได้ | Accounting=ทำอะไรไปแล้ว • TACACS+ แยก 3A ได้อิสระ จึงเหมาะกับ command authorization',
+  },
+  {
+    id: 690,
+    kind: 'single',
+    prompt:
+      'When a WPA2-PSK WLAN is configured in the Wireless LAN Controller, what is the minimum number of characters that is required in ASCII format?',
+    options: [
+      { key: 'A', text: '6' },
+      { key: 'B', text: '8' },
+      { key: 'C', text: '12' },
+      { key: 'D', text: '18' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ข้อกำหนดความยาวของ Pre-Shared Key ตามมาตรฐาน IEEE 802.11i (WPA/WPA2-Personal)\n• รูปแบบ ASCII (passphrase): ต้องมีความยาว 8–63 ตัวอักษร ⭐ (ขั้นต่ำ = 8)\n• รูปแบบ HEX: ต้องเป็นเลขฐานสิบหกจำนวน 64 ตัวพอดี (= 256 บิต)\nระบบจะนำ passphrase ไปผ่าน PBKDF2 พร้อม SSID เป็น salt เพื่อสร้าง PSK ขนาด 256 บิต\n\n✅ ทำไม B ถูก: ค่าต่ำสุดที่ WLC (และมาตรฐาน) ยอมรับสำหรับ ASCII คือ 8 ตัวอักษร\n\n❌ ทำไมข้ออื่นผิด:\nA. 6 ตัวอักษร — สั้นเกินไป WLC จะปฏิเสธ\nC, D. 12 และ 18 เป็นความยาวที่ "แนะนำ" ในเชิงความปลอดภัย แต่ไม่ใช่ค่าต่ำสุดตามมาตรฐาน\n\n💡 เกร็ดความปลอดภัย: แม้ 8 ตัวจะผ่านมาตรฐาน แต่ passphrase สั้นเสี่ยงถูกโจมตีแบบ offline dictionary หลังดักจับ 4-way handshake — ควรใช้ยาว ๆ หรือย้ายไป WPA3 (SAE) ที่กันการโจมตีแบบนี้ได้\n\n📗 จำไว้สอบ: WPA/WPA2-PSK ASCII = 8–63 ตัวอักษร | HEX = 64 หลักพอดี',
+  },
+  {
+    id: 691,
+    kind: 'single',
+    image: q691,
+    prompt:
+      'Refer to the exhibit. Which route characteristic is used by the router to forward a packet that it receives for destination IP address 172.16.32.1?',
+    options: [
+      { key: 'A', text: 'metric' },
+      { key: 'B', text: 'cost' },
+      { key: 'C', text: 'longest prefix' },
+      { key: 'D', text: 'administrative distance' },
+    ],
+    correct: ['C'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ D (administrative distance) — แต่ AD จะถูกใช้ก็ต่อเมื่อเส้นทาง "มี prefix เท่ากัน" เท่านั้น ในภาพทั้งสามเส้นมี prefix ต่างกัน (/27, /19, /24) จึงถูกติดตั้งในตารางพร้อมกันทั้งหมด และการ forward ตัดสินด้วย longest prefix คำตอบที่ถูกต้องคือ C\n\n📘 แนวคิด — ลำดับการตัดสินใจ (จำให้แม่น)\n1️⃣ Longest prefix match ⭐ ← ใช้เสมอตอน "forward" แพ็กเก็ต\n2️⃣ Administrative distance ← ใช้ตอน "เลือกว่าจะใส่เส้นไหนลงตาราง" เมื่อ prefix เหมือนกันเป๊ะแต่มาจากคนละโปรโตคอล\n3️⃣ Metric ← ใช้เมื่อ prefix เท่ากันและมาจากโปรโตคอลเดียวกัน\n\n🔍 อ่าน exhibit:\n• D 172.16.32.0/27 [90/2888597172] via 20.1.1.1 → EIGRP, ครอบ .32.0–.32.31 ✔\n• O 172.16.32.0/19 [110/292094] via 20.1.1.10 → OSPF, ครอบ .32.0–.63.255 ✔\n• R 172.16.32.0/24 [120/2] via 20.1.1.3 → RIP, ครอบ .32.0–.32.255 ✔\nprefix ต่างกันทั้งหมด → ทั้งสามเส้นอยู่ในตารางเราต์พร้อมกัน (ไม่ต้องแข่ง AD กัน)\n\n🧮 ปลายทาง 172.16.32.1 ตกอยู่ในทั้งสามช่วง → เลือก prefix ที่ยาวที่สุด = /27 → ส่งออกทาง 20.1.1.1\n\n✅ ทำไม C ถูก: คุณลักษณะที่เราเตอร์ใช้ตัดสินคือความยาว prefix (longest prefix match)\n\n❌ ทำไมข้ออื่นผิด:\nA/B. metric และ cost ใช้เปรียบเทียบภายในโปรโตคอลเดียวกันที่ prefix เท่ากัน\nD. AD ใช้เมื่อ prefix "เหมือนกันทุกประการ" มาจากหลายโปรโตคอล — ไม่ใช่กรณีนี้\n\n📗 จำไว้สอบ: prefix ต่างกัน → longest prefix ชนะ • prefix เท่ากัน ต่างโปรโตคอล → AD ต่ำสุด • prefix+โปรโตคอลเดียวกัน → metric ต่ำสุด',
+  },
+  {
+    id: 692,
+    kind: 'single',
+    prompt: 'Which cipher is supported for wireless encryption only with the WPA2 standard?',
+    options: [
+      { key: 'A', text: 'AES256' },
+      { key: 'B', text: 'AES' },
+      { key: 'C', text: 'RC4' },
+      { key: 'D', text: 'SHA' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — cipher ของแต่ละมาตรฐาน Wi-Fi\n• WEP → RC4 (stream cipher, IV 24 บิต) — แตกง่าย\n• WPA → TKIP ซึ่งยังใช้ RC4 อยู่ (แต่เพิ่ม per-packet key + MIC)\n• WPA2 → AES-CCMP (AES 128 บิต) ⭐ — เป็นครั้งแรกที่ใช้ block cipher AES\n• WPA3 → CCMP-128 (Personal) และ GCMP-256 (Enterprise 192-bit)\n\n✅ ทำไม B ถูก: AES (ในรูปแบบ CCMP) คือ cipher ที่ WPA2 นำมาใช้ ต่างจากรุ่นก่อนหน้า (WEP/WPA) ที่ใช้ RC4\n\n❌ ทำไมข้ออื่นผิด:\nA. AES256 (GCMP-256) เป็นของ WPA3-Enterprise 192-bit mode ไม่ใช่ WPA2 (WPA2 ใช้ AES 128 บิต)\nC. RC4 = ของ WEP และ WPA/TKIP\nD. SHA = ฟังก์ชันแฮชสำหรับตรวจความถูกต้อง/สร้างกุญแจ ไม่ใช่ cipher สำหรับเข้ารหัสข้อมูล\n\n📗 จำไว้สอบ: WEP=RC4 | WPA=TKIP(RC4) | WPA2=AES-CCMP 128 | WPA3=CCMP-128/GCMP-256',
+  },
+  {
+    id: 693,
+    kind: 'single',
+    prompt: 'What is a specification for SSIDs?',
+    options: [
+      { key: 'A', text: 'They are a Cisco proprietary security feature.' },
+      { key: 'B', text: 'They must include one number and one letter.' },
+      { key: 'C', text: 'They define the VLAN on a switch.' },
+      { key: 'D', text: 'They are case sensitive.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ B ("ต้องมีตัวเลขและตัวอักษรอย่างละตัว") — ไม่มีข้อกำหนดเช่นนี้ในมาตรฐาน 802.11 เลย คำตอบที่ถูกต้องคือ D\n\n📘 แนวคิด — คุณสมบัติของ SSID (Service Set Identifier)\n• เป็นชื่อเครือข่ายไร้สายที่ผู้ใช้เห็น\n• ความยาว 1–32 ตัวอักษร (ASCII)\n• เป็น case sensitive ⭐ → "Office" กับ "office" ถือเป็นคนละเครือข่าย\n• ใช้อักขระอะไรก็ได้ รวมทั้งช่องว่างและอักขระพิเศษ — ไม่มีข้อบังคับว่าต้องมีตัวเลข\n• เป็นมาตรฐาน IEEE 802.11 ไม่ใช่ของ Cisco\n• การซ่อน SSID (ไม่ broadcast ใน beacon) ไม่ใช่มาตรการความปลอดภัยที่แท้จริง เพราะดักจับจาก probe/association frame ได้อยู่ดี\n\n✅ ทำไม D ถูก: SSID แยกแยะตัวพิมพ์ใหญ่-เล็ก ซึ่งเป็นข้อกำหนดจริงตามมาตรฐาน\n\n❌ ทำไมข้ออื่นผิด:\nA. SSID เป็นมาตรฐานเปิด IEEE 802.11 และไม่ใช่ "ฟีเจอร์ความปลอดภัย"\nB. ไม่มีกฎบังคับเรื่ององค์ประกอบของตัวอักษร (นั่นเป็นกฎของ "รหัสผ่าน" ไม่ใช่ชื่อเครือข่าย)\nC. SSID สามารถถูก "แมป" กับ VLAN ได้ แต่ตัวมันเองไม่ได้เป็นตัวกำหนด VLAN บนสวิตช์\n\n📗 จำไว้สอบ: SSID = 1–32 ตัวอักษร, case sensitive, มาตรฐาน 802.11 • ซ่อน SSID ≠ ปลอดภัย',
+  },
+  {
+    id: 694,
+    kind: 'single',
+    prompt:
+      'An engineer must configure a core router with a floating static default route to the backup router at 10.200.0.2. The primary default route already exists and uses the default administrative distance. Which command must be used?',
+    options: [
+      { key: 'A', text: 'ip route 0.0.0.0 0.0.0.0 10.200.0.2' },
+      { key: 'B', text: 'ip route 0.0.0.0 0.0.0.0 10.200.0.2 254' },
+      { key: 'C', text: 'ip default-network 10.200.0.2' },
+      { key: 'D', text: 'ip route 10.200.0.2 255.255.255.255 0.0.0.0' },
+    ],
+    correct: ['B'],
+    explanation:
+      '🔍 หมายเหตุ: ข้อนี้ในเอกสารต้นฉบับเป็นแบบ DRAG DROP ที่ตัวเลือกอ่านไม่ได้ จึงเขียนใหม่เป็นแบบเลือกตอบ โดยยังทดสอบหลักการเดิมคือ "floating static default route"\n\n📘 แนวคิด — floating static route\n• static route ปกติมี AD = 1 (ต่ำมาก จึงชนะแทบทุกอย่าง)\n• ถ้าอยากให้เป็นเพียง "เส้นสำรอง" ต้องเติมตัวเลข AD ท้ายคำสั่งให้สูงกว่าเส้นทางหลัก\n  ip route <network> <mask> <next-hop> <AD>\n• เส้นสำรองจะถูกเก็บไว้เฉย ๆ ไม่ปรากฏใน show ip route จนกว่าเส้นทางหลักจะหายไป\n\n🧮 เส้นทางหลักเป็น static default ที่ใช้ AD ค่าเริ่มต้น = 1 → เส้นสำรองต้องมี AD > 1 (นิยมใช้ค่าสูง ๆ เช่น 200 หรือ 254 เพื่อให้แน่ใจว่าแพ้ทุกโปรโตคอล)\n\n✅ ทำไม B ถูก: "ip route 0.0.0.0 0.0.0.0 10.200.0.2 254" → default route ไปยังเราเตอร์สำรอง พร้อม AD 254 ซึ่งสูงกว่าเส้นหลัก → ทำงานเป็น backup ตามต้องการ\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่ระบุ AD → ได้ AD 1 เท่ากับเส้นหลัก → กลายเป็น load balancing สองเส้นพร้อมกัน ไม่ใช่ backup\nC. ip default-network เป็นวิธีเก่าสำหรับประกาศ candidate default ในโปรโตคอลแบบ classful ไม่ได้สร้าง floating static\nD. สลับตำแหน่ง — เอา next hop มาเป็นปลายทาง และใส่ 0.0.0.0 เป็น next hop ซึ่งไม่มีความหมาย\n\n📗 จำไว้สอบ: floating static = เติมค่า AD ท้ายคำสั่งให้สูงกว่าเส้นหลัก • AD สูงสุดที่ใช้ได้คือ 255 (= unreachable ห้ามใช้)',
+  },
+  {
+    id: 695,
+    kind: 'single',
+    prompt:
+      'Refer to the routing table entry below. How does router R1 handle traffic to the 172.16.1.4 subnet?\n\nO   172.16.1.4/30 [110/2] via 172.16.9.5, 00:20:04, GigabitEthernet0/0\n                  [110/2] via 172.16.4.4, 00:20:04, GigabitEthernet0/1',
+    options: [
+      { key: 'A', text: 'It sends all traffic over the path via 172.16.9.5 using 172.16.4.4 as a backup.' },
+      { key: 'B', text: 'It sends all traffic over the path via 10.0.1.100.' },
+      { key: 'C', text: 'It load-balances traffic over 172.16.9.5 and 172.16.4.4.' },
+      { key: 'D', text: 'It sends all traffic over the path via 172.16.4.4.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '🔍 หมายเหตุ: exhibit ต้นฉบับเป็นภาพ show ip route ที่อ่านค่าไม่ครบ จึงยกบรรทัดที่เกี่ยวข้องมาไว้ในโจทย์ — หลักการที่ทดสอบเหมือนเดิม\n\n📘 แนวคิด — Equal-Cost Multi-Path (ECMP)\nเมื่อเราเตอร์มีหลายเส้นทางไปยัง prefix เดียวกัน ที่มีทั้ง AD และ metric "เท่ากันทุกประการ" มันจะติดตั้งทุกเส้นลงตารางเราต์ และกระจายทราฟฟิกไปทุกเส้น (load balancing)\n• OSPF รองรับ ECMP สูงสุด 4 เส้นทางโดยดีฟอลต์ (ปรับได้ด้วย maximum-paths)\n• ถ้า metric ต่างกัน → ติดตั้งเฉพาะเส้นที่ดีที่สุดเส้นเดียว (ยกเว้น EIGRP ที่ทำ unequal-cost ได้ด้วยคำสั่ง variance)\n• การกระจายทำแบบ per-destination โดยดีฟอลต์ (CEF) ไม่ใช่ per-packet\n\n🔍 อ่านตารางเราต์:\n• ทั้งสองบรรทัดเป็น prefix เดียวกัน 172.16.1.4/30\n• AD เท่ากัน (110 = OSPF ทั้งคู่)\n• metric เท่ากัน (2 ทั้งคู่)\n• ออกคนละอินเทอร์เฟซ (Gi0/0 และ Gi0/1)\n→ เข้าเงื่อนไข ECMP ครบถ้วน\n\n✅ ทำไม C ถูก: [110/2] เท่ากันทั้งสองเส้น → R1 load-balance ทราฟฟิกผ่านทั้ง 172.16.9.5 และ 172.16.4.4\n\n❌ ทำไมข้ออื่นผิด:\nA. ถ้าจะมีเส้นสำรอง metric หรือ AD ต้องต่างกัน — แต่นี่เท่ากันเป๊ะ\nB. 10.0.1.100 ไม่ปรากฏเป็น next hop ของ prefix นี้เลย\nD. ไม่มีเหตุผลใดให้เลือกเฉพาะเส้นเดียว เพราะทั้งคู่ดีเท่ากัน\n\n📗 จำไว้สอบ: AD เท่า + metric เท่า → ECMP load balancing • OSPF ดีฟอลต์ 4 เส้น • EIGRP ทำ unequal-cost ได้ด้วย variance',
+  },
+  {
+    id: 696,
+    kind: 'single',
+    prompt:
+      'Which type of address is shared by routers in an HSRP implementation and used by hosts on the subnet as their default gateway address?',
+    options: [
+      { key: 'A', text: 'multicast address' },
+      { key: 'B', text: 'loopback IP address' },
+      { key: 'C', text: 'virtual IP address' },
+      { key: 'D', text: 'broadcast address' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — HSRP (Hot Standby Router Protocol)\n• เราเตอร์ 2 ตัวขึ้นไปรวมกันเป็น "กลุ่ม" แล้วสร้าง virtual IP + virtual MAC ร่วมกัน\n• Active router = ตัวที่รับหน้าที่ตอบ ARP สำหรับ virtual IP และส่งต่อทราฟฟิกจริง\n• Standby router = ตัวสำรอง คอยฟัง hello (multicast 224.0.0.2 UDP 1985 สำหรับ v1) หากไม่ได้ยินครบ holdtime จะรับช่วงทันที\n• โฮสต์ทุกเครื่องตั้ง default gateway เป็น "virtual IP" ⭐ → เมื่อเกิด failover โฮสต์ไม่ต้องเปลี่ยนอะไรเลย เพราะทั้ง IP และ MAC ของ gateway ยังเหมือนเดิม\n• virtual MAC ของ HSRP v1 = 0000.0C07.ACxx (xx = group)\n\n✅ ทำไม C ถูก: virtual IP address คือที่อยู่ที่เราเตอร์ในกลุ่มแชร์กัน และเป็นค่าที่โฮสต์ใช้เป็น default gateway\n\n❌ ทำไมข้ออื่นผิด:\nA. multicast address (224.0.0.2) ใช้สำหรับให้เราเตอร์ในกลุ่มส่ง hello หากันเท่านั้น โฮสต์ไม่ได้ใช้เป็น gateway\nB. loopback เป็นอินเทอร์เฟซตรรกะของเราเตอร์แต่ละตัว ไม่ได้แชร์กันและไม่ใช่ gateway ของโฮสต์\nD. broadcast address ของ subnet เป็นที่อยู่สงวน ใช้เป็น gateway ไม่ได้\n\n📗 จำไว้สอบ: FHRP → host ชี้ไป "virtual IP" • virtual MAC ทำให้ ARP cache ของ host ไม่ต้องเปลี่ยนตอน failover',
+  },
+  {
+    id: 697,
+    kind: 'drag',
+    image: q697,
+    prompt:
+      'Refer to the exhibit. The Router1 routing table has multiple methods to reach 10.10.10.0 as shown. The default administrative distance is used. Drag and drop the network conditions from the left onto the routing methods that Router1 uses on the right.',
+    categories: [
+      { name: 'Static', items: ['All of the routing methods shown are available.'] },
+      { name: 'eBGP', items: ['The static route to 10.10.10.0 is removed.'] },
+      { name: 'EIGRP (internal)', items: ['The static route is removed and the eBGP peering is down.'] },
+      { name: 'OSPF', items: ['Only OSPF and iBGP remain available.'] },
+      { name: 'iBGP', items: ['Static, eBGP, EIGRP, and OSPF are all unavailable.'] },
+    ],
+    explanation:
+      '🔍 หมายเหตุ: ข้อความฝั่งซ้ายในภาพต้นฉบับอ่านไม่ครบ จึงเรียบเรียงเงื่อนไขขึ้นใหม่ให้สอดคล้องกับสิ่งที่โจทย์ทดสอบ นั่นคือ "ลำดับ Administrative Distance"\n\n📘 แนวคิด — ตาราง AD ที่ต้องท่องให้ขึ้นใจ (ตัวเลขน้อย = น่าเชื่อถือกว่า = ชนะ)\n• Connected           0\n• Static              1  ⭐\n• eBGP               20  ⭐\n• EIGRP (internal)   90  ⭐\n• IGRP              100\n• OSPF              110  ⭐\n• IS-IS             115\n• RIP               120\n• EIGRP (external)  170\n• iBGP              200  ⭐\n• Unreachable       255\n\n🧮 ไล่ลำดับตามภาพ (ทุกเส้นชี้ไป 10.10.10.0/24 เหมือนกัน → prefix เท่ากัน จึงตัดสินด้วย AD):\n1️⃣ ถ้ามีครบทุกวิธี → Static (AD 1) ชนะ\n2️⃣ ถ้า static หายไป → eBGP (AD 20) ขึ้นมาแทน\n3️⃣ ถ้า static + eBGP หาย → EIGRP internal (AD 90)\n4️⃣ ถ้าเหลือแค่ OSPF กับ iBGP → OSPF (AD 110) ชนะ\n5️⃣ ถ้าเหลือแต่ iBGP → ใช้ iBGP (AD 200)\n\n💡 เกร็ด: eBGP มี AD ต่ำถึง 20 เพราะเป็นข้อมูลจากภายนอกที่ผู้ดูแลตั้งใจรับมา ส่วน iBGP ตั้งไว้สูงถึง 200 เพื่อป้องกัน routing loop ภายใน AS\n\n📗 จำไว้สอบ: 0-1-20-90-110-115-120-170-200 (Connected, Static, eBGP, EIGRP, OSPF, IS-IS, RIP, EIGRP-ext, iBGP)',
+  },
+  {
+    id: 698,
+    kind: 'single',
+    prompt: 'Which device segregates a network into separate zones that have their own security policies?',
+    options: [
+      { key: 'A', text: 'IPS' },
+      { key: 'B', text: 'firewall' },
+      { key: 'C', text: 'access point' },
+      { key: 'D', text: 'switch' },
+    ],
+    correct: ['B'],
+    explanation:
+      '⚠️ หมายเหตุ: เฉลยต้นฉบับตอบ C (access point) — ซึ่งเป็นอุปกรณ์กระจายสัญญาณไร้สาย ไม่ได้แบ่งโซนความปลอดภัย คำตอบที่ถูกต้องคือ B\n\n📘 แนวคิด — Firewall คืออุปกรณ์ที่แบ่งเครือข่ายออกเป็น "โซน (zone)" โดยแต่ละโซนมีระดับความน่าเชื่อถือและนโยบายของตนเอง\nโซนมาตรฐาน 3 แบบ:\n• Inside (trusted) = เครือข่ายภายในองค์กร ระดับความเชื่อถือสูงสุด\n• Outside (untrusted) = อินเทอร์เน็ต ระดับความเชื่อถือต่ำสุด\n• DMZ (demilitarized zone) = โซนกลาง วางเซิร์ฟเวอร์ที่คนนอกต้องเข้าถึง (web, mail, DNS สาธารณะ) — ถ้าถูกเจาะก็ไม่ลามเข้าเครือข่ายภายใน\nกฎทั่วไป: โซนที่เชื่อถือสูงกว่าเริ่มการเชื่อมต่อไปยังโซนที่ต่ำกว่าได้ แต่ทิศทางกลับกันต้องอนุญาตเป็นราย ๆ ไป\n\n✅ ทำไม B ถูก: firewall คือ อุปกรณ์ที่แบ่งโซนและบังคับใช้นโยบายความปลอดภัยของแต่ละโซนโดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nA. IPS ตรวจจับและบล็อกการโจมตีตาม signature/พฤติกรรม แต่ไม่ได้ทำหน้าที่แบ่งโซนและกำหนดนโยบายระหว่างโซน\nC. access point = จุดเชื่อมต่อไร้สาย ไม่ใช่อุปกรณ์แบ่งโซนความปลอดภัย\nD. switch แบ่ง broadcast domain ด้วย VLAN ได้ แต่ไม่มีนโยบายความปลอดภัยระหว่างโซนแบบ stateful\n\n📗 จำไว้สอบ: firewall = แบ่งโซน + นโยบาย (inside/outside/DMZ) • IPS = ตรวจจับ/บล็อกการโจมตี • ทั้งคู่มักรวมอยู่ใน NGFW ตัวเดียว',
+  },
+  {
+    id: 699,
+    kind: 'drag',
+    image: q699,
+    prompt: 'Drag and drop the wireless architecture benefits from the left onto the architecture types on the right.',
+    categories: [
+      {
+        name: 'Split-MAC',
+        items: [
+          'Work is divided between the access point and the controller.',
+          'The access points transmit beacon frames.',
+          'Uses the CAPWAP tunneling protocol.',
+        ],
+      },
+      {
+        name: 'Autonomous',
+        items: ['Appropriate for a small-business environment.', 'Supports per device configuration and management.'],
+      },
+    ],
+    explanation:
+      '📘 แนวคิด — สถาปัตยกรรม WLAN 2 แบบ\n\n🔹 Autonomous AP (AP ทำงานเอง ไม่มีคอนโทรลเลอร์):\n• Appropriate for a small-business environment → เหมาะกับธุรกิจเล็กที่มี AP ไม่กี่ตัว\n• Supports per device configuration and management → ต้องคอนฟิกทีละตัวผ่าน GUI/CLI ของ AP เอง\n• AP ทำหน้าที่ MAC ทั้งหมดในตัว (ทั้ง real-time และ management)\n\n🔹 Split-MAC (Lightweight AP + WLC):\n• Work is divided between the access point and the controller ⭐ → แบ่งงานกัน\n  - AP รับผิดชอบงานเรียลไทม์: ส่ง beacon, ตอบ probe, ACK เฟรม, เข้ารหัส/ถอดรหัส, buffering\n  - WLC รับผิดชอบงานบริหาร: association/roaming, authentication, RRM (เลือกช่อง/กำลังส่ง), นโยบายความปลอดภัย, QoS\n• The access points transmit beacon frames → งานเรียลไทม์ที่ยังคงอยู่ที่ AP\n• Uses the CAPWAP tunneling protocol → AP กับ WLC คุยกันผ่าน CAPWAP (UDP 5246 = control, 5247 = data) พร้อมเข้ารหัส control ด้วย DTLS\n\n📗 จำไว้สอบ: Autonomous = ทีละตัว/องค์กรเล็ก • Split-MAC = AP ทำเรียลไทม์ + WLC ทำบริหาร ผ่าน CAPWAP 5246/5247',
+  },
+  {
+    id: 700,
+    kind: 'single',
+    prompt:
+      'A network analyst is tasked with configuring the date and time on a router using EXEC mode. The date must be set to January 1, 2020 and the time must be set to 12:00 am. Which command should be used?',
+    options: [
+      { key: 'A', text: 'clock summer-time recurring' },
+      { key: 'B', text: 'clock timezone' },
+      { key: 'C', text: 'clock summer-time date' },
+      { key: 'D', text: 'clock set' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสั่งเกี่ยวกับนาฬิกาบน Cisco IOS แบ่งเป็น 2 กลุ่มตามโหมด\n\n🔹 โหมด privileged EXEC (Router#) — ตั้งเวลาจริง\n• clock set <hh:mm:ss> <วัน> <เดือน> <ปี> ⭐\n  ตัวอย่างโจทย์นี้: Router# clock set 00:00:00 1 January 2020\n  (12:00 am = เที่ยงคืน = 00:00:00 ในรูปแบบ 24 ชั่วโมง)\n\n🔹 โหมด global configuration (Router(config)#) — ตั้งค่าเขตเวลา\n• clock timezone <ชื่อ> <ออฟเซ็ต> → กำหนดเขตเวลา เช่น clock timezone ICT 7\n• clock summer-time … recurring/date → ตั้งเวลาออมแสง (DST)\n\n✅ ทำไม D ถูก: โจทย์ระบุชัดว่าใช้ "EXEC mode" และต้องการกำหนดวันที่/เวลาจริง → clock set เป็นคำสั่งเดียวที่ทำได้และอยู่ในโหมดนั้น\n\n❌ ทำไมข้ออื่นผิด:\nA. clock summer-time recurring = ตั้ง DST ให้ปรับอัตโนมัติทุกปี (และเป็นคำสั่ง global config)\nB. clock timezone = ตั้งเขตเวลาเทียบ UTC ไม่ได้ตั้งวันที่/เวลา (และอยู่ใน global config)\nC. clock summer-time date = ตั้ง DST แบบระบุวันที่เจาะจง (global config เช่นกัน)\n\n📗 จำไว้สอบ: clock set = EXEC mode ตั้งเวลาจริง • clock timezone / summer-time = global config • ในระบบจริงควรใช้ NTP เพื่อให้เวลาตรงกันทั้งเครือข่าย',
   },
 ]
