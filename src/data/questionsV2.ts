@@ -94,6 +94,79 @@ import v2q292 from '../assets/version_2/version2_question_292.png'
 import v2q293 from '../assets/version_2/version2_question_293.png'
 import v2q296 from '../assets/version_2/version2_question_296.png'
 import v2q299 from '../assets/version_2/version2_question_299.png'
+import v2q306 from '../assets/version_2/version2_question_306.png'
+import v2q307 from '../assets/version_2/version2_question_307.png'
+import v2q308 from '../assets/version_2/version2_question_308.png'
+import v2q309 from '../assets/version_2/version2_question_309.png'
+import v2q310 from '../assets/version_2/version2_question_310.png'
+import v2q312 from '../assets/version_2/version2_question_312.png'
+import v2q317 from '../assets/version_2/version2_question_317.png'
+import v2q319 from '../assets/version_2/version2_question_319.png'
+import v2q320 from '../assets/version_2/version2_question_320.png'
+import v2q321 from '../assets/version_2/version2_question_321.png'
+import v2q322 from '../assets/version_2/version2_question_322.png'
+import v2q323 from '../assets/version_2/version2_question_323.png'
+import v2q324 from '../assets/version_2/version2_question_324.png'
+import v2q326 from '../assets/version_2/version2_question_326.png'
+import v2q329 from '../assets/version_2/version2_question_329.png'
+import v2q330 from '../assets/version_2/version2_question_330.png'
+import v2q336 from '../assets/version_2/version2_question_336.png'
+import v2q340 from '../assets/version_2/version2_question_340.png'
+import v2q342 from '../assets/version_2/version2_question_342.png'
+import v2q343 from '../assets/version_2/version2_question_343.png'
+import v2q347 from '../assets/version_2/version2_question_347.png'
+import v2q349 from '../assets/version_2/version2_question_349.png'
+import v2q350 from '../assets/version_2/version2_question_350.png'
+import v2q354 from '../assets/version_2/version2_question_354.png'
+import v2q355 from '../assets/version_2/version2_question_355.png'
+import v2q356 from '../assets/version_2/version2_question_356.png'
+import v2q357 from '../assets/version_2/version2_question_357.png'
+import v2q358 from '../assets/version_2/version2_question_358.png'
+import v2q359 from '../assets/version_2/version2_question_359.png'
+import v2q362 from '../assets/version_2/version2_question_362.png'
+import v2q366 from '../assets/version_2/version2_question_366.png'
+import v2q368 from '../assets/version_2/version2_question_368.png'
+import v2q370 from '../assets/version_2/version2_question_370.png'
+import v2q372 from '../assets/version_2/version2_question_372.png'
+import v2q375 from '../assets/version_2/version2_question_375.png'
+import v2q379 from '../assets/version_2/version2_question_379.png'
+import v2q380 from '../assets/version_2/version2_question_380.png'
+import v2q383 from '../assets/version_2/version2_question_383.png'
+import v2q386 from '../assets/version_2/version2_question_386.png'
+import v2q387 from '../assets/version_2/version2_question_387.png'
+import v2q388 from '../assets/version_2/version2_question_388.png'
+import v2q389 from '../assets/version_2/version2_question_389.png'
+import v2q392 from '../assets/version_2/version2_question_392.png'
+import v2q393 from '../assets/version_2/version2_question_393.png'
+import v2q397 from '../assets/version_2/version2_question_397.png'
+import v2q402 from '../assets/version_2/version2_question_402.png'
+import v2q406 from '../assets/version_2/version2_question_406.png'
+import v2q409 from '../assets/version_2/version2_question_409.png'
+import v2q410 from '../assets/version_2/version2_question_410.png'
+import v2q411 from '../assets/version_2/version2_question_411.png'
+import v2q417 from '../assets/version_2/version2_question_417.png'
+import v2q421 from '../assets/version_2/version2_question_421.png'
+import v2q422 from '../assets/version_2/version2_question_422.png'
+import v2q425 from '../assets/version_2/version2_question_425.png'
+import v2q427 from '../assets/version_2/version2_question_427.png'
+import v2q435 from '../assets/version_2/version2_question_435.png'
+import v2q436 from '../assets/version_2/version2_question_436.png'
+import v2q438 from '../assets/version_2/version2_question_438.png'
+import v2q439 from '../assets/version_2/version2_question_439.png'
+import v2q441 from '../assets/version_2/version2_question_441.png'
+import v2q442 from '../assets/version_2/version2_question_442.png'
+import v2q443 from '../assets/version_2/version2_question_443.png'
+import v2q459 from '../assets/version_2/version2_question_459.png'
+import v2q461 from '../assets/version_2/version2_question_461.png'
+import v2q466 from '../assets/version_2/version2_question_466.png'
+import v2q481 from '../assets/version_2/version2_question_481.png'
+import v2q483 from '../assets/version_2/version2_question_483.png'
+import v2q485 from '../assets/version_2/version2_question_485.png'
+import v2q489 from '../assets/version_2/version2_question_489.png'
+import v2q493 from '../assets/version_2/version2_question_493.png'
+import v2q498 from '../assets/version_2/version2_question_498.png'
+import v2q499 from '../assets/version_2/version2_question_499.png'
+import v2q500 from '../assets/version_2/version2_question_500.png'
 
 export const QUESTIONS_V2: Question[] = [
   {
@@ -4473,5 +4546,2886 @@ export const QUESTIONS_V2: Question[] = [
     correct: ['D'],
     explanation:
       '📘 แนวคิด — ตัวจับเวลาสามตัวของ spanning tree\n• Hello time → คาบการส่ง BPDU ของ root bridge (ค่าเริ่มต้น 2 วินาที ตั้งได้ 1–10)\n• Max age → เวลาที่สวิตช์เก็บข้อมูล BPDU ไว้ก่อนถือว่าหมดอายุแล้วคำนวณโทโพโลยีใหม่ (ค่าเริ่มต้น 20 วินาที ตั้งได้ 6–40)\n• Forward delay ⭐ → เวลาที่พอร์ตต้องใช้ในแต่ละสถานะ listening และ learning (ค่าเริ่มต้น 15 วินาที ตั้งได้ 4–30)\n\n🎯 คำในโจทย์คือ "listens and learns for a specific time period" ซึ่งตรงกับนิยามของ forward delay พอดี — เพราะเป็นค่าที่กำหนดว่าพอร์ตจะอยู่ในสถานะ listening นานเท่าไร และอยู่ในสถานะ learning นานเท่าไร\n\n🧮 ผลของการตั้ง forward-time 20:\n• listening = 20 วินาที และ learning = 20 วินาที → รวม 40 วินาทีก่อนเข้าสู่ forwarding (เพิ่มจากค่าเริ่มต้นที่รวม 30 วินาที)\n\n✅ ทำไม D ถูก: คำสั่ง spanning-tree vlan 1 forward-time 20 กำหนดระยะเวลาที่พอร์ตอยู่ในสถานะ listening และ learning ตรงตามคำอธิบายในโจทย์\n\n❌ ทำไมข้ออื่นผิด:\nA. priority 4096 ใช้กำหนดโอกาสในการเป็น root bridge ไม่เกี่ยวกับเวลาในแต่ละสถานะ\nB. hello-time กำหนดความถี่ในการส่ง BPDU ไม่ได้กำหนดเวลาของสถานะ listening/learning\nC. max-age กำหนดอายุของข้อมูล BPDU ที่เก็บไว้ ไม่ใช่เวลาของสถานะพอร์ต\n\n💡 หมายเหตุ: ใน Rapid PVST+ พอร์ตแบบ point-to-point และ edge port จะใช้กลไก proposal/agreement ซึ่งข้ามการรอ forward delay ไปเลย ค่านี้จึงมีผลเฉพาะกรณีที่ต้องถอยกลับไปทำงานแบบ 802.1D เท่านั้น\n\n📗 จำไว้สอบ: hello 2 | forward delay 15 (listening + learning) | max age 20 • สูตรเดิม 2 × forward delay + max age = 50 วินาที',
+  },
+  {
+    id: 301,
+    kind: 'single',
+    prompt: 'What must a network administrator consider when deciding whether to configure a new wireless network with APs in autonomous mode or APs running in cloud-based mode?',
+    options: [
+      { key: 'A', text: 'Autonomous mode APs are less dependent on an underlay but more complex to maintain than APs in cloud-based mode.' },
+      { key: 'B', text: 'Cloud-based mode APs relay on underlays and are more complex to maintain than APs in autonomous mode.' },
+      { key: 'C', text: 'Cloud-based mode APs are easy to deploy but harder to automate than APs in autonomous mode.' },
+      { key: 'D', text: 'Autonomous mode APs are easy to deploy and automate than APs in cloud-based mode.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — เปรียบเทียบ AP 3 สถาปัตยกรรมที่ CCNA ต้องแยกให้ออก\n\n🔹 Autonomous AP (แบบยืนเดี่ยว)\n• มีสมองครบในตัว: ทั้ง control plane และ data plane อยู่บน AP เอง\n• ตั้งค่าทีละตัวผ่าน CLI (Telnet/SSH) หรือ Web GUI ของ AP นั้น ๆ\n• ไม่ต้องพึ่ง WLC และไม่ต้องพึ่ง underlay/cloud ⭐ → ทำงานได้แม้เครือข่ายกลางล่ม\n• จุดอ่อน: มี AP 50 ตัวก็ต้องเข้าไปแก้ 50 ครั้ง → ดูแลยากและเสี่ยงตั้งค่าไม่ตรงกัน ⭐\n\n🔹 Cloud-based AP (เช่น Cisco Meraki)\n• AP ยังคุมคลื่นเองอยู่ แต่ยกงาน "จัดการ" (management plane) ขึ้นไปไว้บน dashboard บนคลาวด์\n• ตั้งค่าครั้งเดียวที่ dashboard แล้วกระจายลงทุก AP อัตโนมัติ → ดูแลง่ายกว่ามาก\n• ต้องมีเส้นทางออกอินเทอร์เน็ต/underlay ที่เสถียรเพื่อคุยกับคลาวด์ → พึ่งพา underlay สูงกว่า ⭐\n\n🔹 Lightweight AP (คู่กับ WLC)\n• ยกทั้ง control plane ไปไว้ที่ WLC ผ่านอุโมงค์ CAPWAP\n\n🎯 แกนของโจทย์คือการชั่งน้ำหนักสองด้าน: autonomous = พึ่งพาเครือข่ายกลางน้อย แต่ดูแลยาก | cloud = ดูแลง่ายและอัตโนมัติ แต่ต้องพึ่ง underlay\n\n✅ ทำไม A ถูก: ตรงกับข้อเท็จจริงทั้งสองครึ่งประโยค — autonomous พึ่ง underlay น้อยกว่า และดูแลยากกว่าเพราะต้องตั้งค่าทีละตัว\n\n❌ ทำไมข้ออื่นผิด:\nB. กลับด้าน — cloud พึ่ง underlay จริง แต่ "ดูแลยากกว่า autonomous" นั้นผิด เพราะ dashboard กลางทำให้ง่ายกว่า\nC. cloud ทำ automation ได้ดีกว่า ไม่ใช่ยากกว่า\nD. autonomous ต่างหากที่ deploy และ automate ได้ยากกว่า cloud\n\n📗 จำไว้สอบ: autonomous = คุมเองครบ ดูแลยาก | lightweight = WLC + CAPWAP | cloud = dashboard กลาง ดูแลง่าย แต่ต้องพึ่งลิงก์ออกคลาวด์',
+  },
+  {
+    id: 302,
+    kind: 'single',
+    prompt: 'When a switch receives a frame for an unknown destination MAC address, how is the frame handled?',
+    options: [
+      { key: 'A', text: 'flooded to all ports except the origination port' },
+      { key: 'B', text: 'forwarded to the first available port' },
+      { key: 'C', text: 'broadcast to all ports on the switch' },
+      { key: 'D', text: 'inspected and dropped by the switch' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — พฤติกรรมพื้นฐาน 3 แบบของสวิตช์เมื่อได้รับเฟรม\n1️⃣ Forward (ส่งต่อ) → เจอ destination MAC ในตาราง → ส่งออกเฉพาะพอร์ตนั้นพอร์ตเดียว\n2️⃣ Flood (กระจาย) ⭐ → ไม่เจอ destination MAC ในตาราง (unknown unicast) → ส่งออกทุกพอร์ตใน VLAN เดียวกัน ยกเว้นพอร์ตที่รับเฟรมเข้ามา\n3️⃣ Filter (กรองทิ้ง) → destination อยู่พอร์ตเดียวกับที่รับเข้ามา → ไม่ส่งต่อ\n\n🔍 ทำไมต้องยกเว้นพอร์ตต้นทาง? เพราะผู้ส่งอยู่ที่พอร์ตนั้นอยู่แล้ว การส่งกลับไปคือการวนกลับที่ไร้ประโยชน์และอาจเกิดลูป\n\n💡 คำศัพท์ที่ต้องแยก:\n• Unknown unicast flooding → ปลายทางเป็น unicast แต่ไม่รู้จัก → flood\n• Broadcast → destination MAC = ffff.ffff.ffff → flood เช่นกัน แต่คนละสาเหตุ\n→ โจทย์นี้พูดถึงกรณีแรก ผลลัพธ์คือ "flood" ไม่ใช่ "broadcast"\n\n✅ ทำไม A ถูก: สวิตช์จะ flood เฟรมออกทุกพอร์ตใน VLAN นั้น ยกเว้นพอร์ตต้นทาง เพื่อให้เฟรมมีโอกาสถึงปลายทางและได้เรียนรู้ตำแหน่งของปลายทางจากเฟรมตอบกลับ\n\n❌ ทำไมข้ออื่นผิด:\nB. สวิตช์ไม่มีแนวคิด "พอร์ตแรกที่ว่าง" การส่งต่อยึดตาราง MAC เท่านั้น\nC. คำว่า broadcast ใช้กับเฟรมที่มี destination MAC เป็น ffff.ffff.ffff เท่านั้น และการ flood ก็ไม่ได้ออก "ทุกพอร์ตบนสวิตช์" แต่จำกัดเฉพาะ VLAN เดียวกันและไม่รวมพอร์ตต้นทาง\nD. การทิ้งเฟรมจะทำให้การสื่อสารครั้งแรกล้มเหลวเสมอ ซึ่งขัดกับหลักการทำงานของสวิตช์\n\n📗 จำไว้สอบ: unknown unicast = flood ใน VLAN เดิม ยกเว้นพอร์ตต้นทาง | ขอบเขตของ flood = broadcast domain = VLAN',
+  },
+  {
+    id: 303,
+    kind: 'single',
+    prompt: 'Which state is bypassed in Rapid PVST+ when PortFast is enabled on a port?',
+    options: [
+      { key: 'A', text: 'blocking' },
+      { key: 'B', text: 'forwarding' },
+      { key: 'C', text: 'learning' },
+      { key: 'D', text: 'discarding' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — สถานะพอร์ตของ Rapid PVST+ (RSTP) มีแค่ 3 สถานะ\n• Discarding → ทิ้งเฟรมข้อมูล ไม่เรียนรู้ MAC (รวมสถานะ blocking + listening ของ 802.1D เข้าด้วยกัน)\n• Learning → ยังไม่ส่งข้อมูล แต่เริ่มเรียนรู้ MAC address เข้าตาราง ⭐\n• Forwarding → ส่งข้อมูลได้เต็มที่\n\n🎯 PortFast ทำอะไร: สั่งให้พอร์ตที่เป็น edge port (ต่อกับ PC/เซิร์ฟเวอร์/เครื่องพิมพ์) กระโดดเข้าสู่ forwarding ทันทีที่ลิงก์ขึ้น โดยไม่ต้องรอไล่สถานะ\n→ สถานะที่ถูก "ข้าม" ในบริบทของ RSTP คือ learning ⭐ เพราะเป็นสถานะกลางเพียงสถานะเดียวที่คั่นก่อนถึง forwarding\n\n🧮 เทียบเวลาให้เห็นภาพ (802.1D ดั้งเดิม): listening 15 วิ + learning 15 วิ = รอ 30 วินาที → PortFast ตัดทิ้งทั้งหมด เหลือ 0 วินาที\n\n💡 ทำไมต้องใช้: DHCP client ที่บูตขึ้นมามักหมดเวลารอก่อนที่พอร์ตจะเข้า forwarding ทำให้ได้ APIPA (169.254.x.x) — PortFast แก้ปัญหานี้โดยตรง\n\n⚠️ ข้อควรระวัง: ใส่ PortFast เฉพาะพอร์ตที่ต่อกับปลายทางเท่านั้น และควรเปิด BPDU Guard คู่กันเสมอ เพราะถ้ามีใครเอาสวิตช์มาเสียบพอร์ตนั้นอาจเกิดลูปทันที\n\n✅ ทำไม C ถูก: learning เป็นสถานะกลางที่พอร์ตต้องผ่านก่อนเข้า forwarding และ PortFast ทำให้ข้ามไปได้เลย\n\n❌ ทำไมข้ออื่นผิด:\nA. blocking เป็นชื่อสถานะของ 802.1D ไม่ใช่ของ Rapid PVST+ (ถูกยุบไปเป็น discarding แล้ว)\nB. forwarding คือปลายทางที่ต้องการไปถึง ไม่ใช่สถานะที่ถูกข้าม\nD. discarding คือสถานะเริ่มต้นตอนลิงก์ขึ้น ซึ่งพอร์ตยังต้องผ่าน ไม่ได้ถูกข้าม\n\n📗 จำไว้สอบ: RSTP = discarding / learning / forwarding | PortFast ข้าม learning | PortFast + BPDU Guard คู่กันเสมอ',
+  },
+  {
+    id: 304,
+    kind: 'single',
+    prompt: 'What happens when a switch receives a frame with a destination MAC address that recently aged out?',
+    options: [
+      { key: 'A', text: 'The switch floods the frame to all ports in all VLANs except the port that received the frame.' },
+      { key: 'B', text: 'The switch floods the frame to all ports in the VLAN except the port that received the frame.' },
+      { key: 'C', text: 'The switch references the MAC address aging table for historical addresses on the port that received the frame.' },
+      { key: 'D', text: 'The switch drops the frame and learns the destination MAC address again from the port that received the frame.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — เมื่อรายการหมดอายุ (aged out) รายการนั้นจะถูกลบทิ้งจากตาราง MAC จริง ๆ\nค่าเริ่มต้นของ aging time คือ 300 วินาที (5 นาที) นับจากครั้งสุดท้ายที่ได้ยินเฟรมจาก MAC นั้น\n→ พอรายการหายไป สวิตช์จึงมองว่า destination MAC นี้เป็น "ไม่รู้จัก" (unknown unicast) เหมือนไม่เคยเจอมาก่อน ⭐\n\n🔍 ผลที่ตามมา: สวิตช์ต้อง flood เฟรมออกทุกพอร์ต แต่ต้องเข้าใจ "ขอบเขต" ให้ถูก\n• ขอบเขตของการ flood = VLAN เดียวกันเท่านั้น ⭐ เพราะ VLAN คือ broadcast domain\n• ไม่ข้าม VLAN เด็ดขาด — การข้าม VLAN ต้องผ่าน router หรือ SVI\n• ยกเว้นพอร์ตที่รับเฟรมเข้ามาเสมอ\n\n💡 หมายเหตุ: สวิตช์ไม่ได้ลืมทุกอย่าง — มันยังเรียนรู้ source MAC ของเฟรมที่เพิ่งเข้ามาตามปกติ สิ่งที่หายไปคือข้อมูลของ "ปลายทาง" เท่านั้น\n\n✅ ทำไม B ถูก: destination MAC ที่หมดอายุแล้วถือเป็น unknown unicast → flood ภายใน VLAN นั้น ยกเว้นพอร์ตต้นทาง\n\n❌ ทำไมข้ออื่นผิด:\nA. ผิดที่คำว่า "all VLANs" — การ flood ไม่ข้าม VLAN\nC. ไม่มีสิ่งที่เรียกว่า "MAC address aging table" ที่เก็บประวัติย้อนหลัง รายการที่หมดอายุถูกลบทิ้งไปเลย\nD. สวิตช์ไม่ทิ้งเฟรม และไม่สามารถเรียนรู้ "ปลายทาง" จากพอร์ตขาเข้าได้ เพราะเรียนรู้ได้จาก source MAC เท่านั้น\n\n📗 จำไว้สอบ: aging 300 วินาที | หมดอายุ = กลับเป็น unknown unicast = flood ใน VLAN | เรียนรู้ได้จาก source MAC เท่านั้น',
+  },
+  {
+    id: 305,
+    kind: 'single',
+    prompt: 'What is a function of store-and-forward switching?',
+    options: [
+      { key: 'A', text: 'It reduces latency by eliminating error checking within the frame' },
+      { key: 'B', text: 'It produces an effective level of error-free network traffic using CRCs.' },
+      { key: 'C', text: 'It buffers frames and forwards regardless of errors within the frames.' },
+      { key: 'D', text: 'It forwards a frame by checking only the destination MAC address' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — วิธีการสวิตช์เฟรม 2 แบบหลัก\n\n🔹 Store-and-Forward ⭐\n• รับเฟรม "ทั้งเฟรม" เข้าบัฟเฟอร์ก่อน\n• คำนวณ CRC แล้วเทียบกับฟิลด์ FCS ท้ายเฟรม\n• ถ้า CRC ผิด → ทิ้งเฟรมทันที ไม่ส่งต่อ ⭐\n• ถ้า CRC ถูก → จึงส่งออก\n→ ผลลัพธ์: ทราฟฟิกในเครือข่ายแทบไม่มีเฟรมเสีย แต่แลกมาด้วย latency ที่สูงกว่า\n\n🔹 Cut-Through\n• อ่านแค่ 6 ไบต์แรก (destination MAC) แล้วส่งออกทันที\n• latency ต่ำมาก แต่ส่งเฟรมเสียต่อไปด้วย เพราะยังไม่ทันเห็น FCS\n• แบบย่อย fragment-free: รออ่าน 64 ไบต์แรกก่อน เพื่อกรอง collision fragment ออกไป\n\n🎯 ประเด็นที่โจทย์ถาม: "function" ของ store-and-forward คือการใช้ CRC คัดกรองเฟรมเสียออก ทำให้ทราฟฟิกที่ไหลต่อไปสะอาด\n\n✅ ทำไม B ถูก: store-and-forward ตรวจ CRC ของทุกเฟรมก่อนส่งต่อ จึงกันเฟรมที่เสียหายไม่ให้กินแบนด์วิดท์ปลายทาง ผลคือทราฟฟิกปราศจากข้อผิดพลาดอย่างมีประสิทธิภาพ\n\n❌ ทำไมข้ออื่นผิด:\nA. store-and-forward "เพิ่ม" latency เพราะต้องรอทั้งเฟรม และไม่ได้ตัดการตรวจข้อผิดพลาดออกเลย\nC. ผิดครึ่งหลัง — มันบัฟเฟอร์จริง แต่จะไม่ส่งต่อถ้าเฟรมมีข้อผิดพลาด\nD. การดูแค่ destination MAC แล้วส่งเลยคือลักษณะของ cut-through\n\n📗 จำไว้สอบ: store-and-forward = ตรวจ CRC ครบ latency สูง | cut-through = อ่าน 6 ไบต์ เร็วแต่ปล่อยเฟรมเสีย | fragment-free = อ่าน 64 ไบต์',
+  },
+  {
+    id: 306,
+    kind: 'single',
+    image: v2q306,
+    prompt: 'Refer to the exhibit. Switch AccSw1 has just been added to the network along with PC2. All VLANs have been implemented on AccSw2. How must the ports on AccSw2 be configured to establish Layer 2 connectivity between PC1 and PC2?',
+    options: [
+      { key: 'A', text: 'interface GigabitEthernet1/2 / switchport mode access / switchport access vlan 2 ! interface GigabitEthernet1/24 / switchport mode trunk' },
+      { key: 'B', text: 'interface GigabitEthernet1/1 / switchport mode access / switchport access vlan 11 ! interface GigabitEthernet1/24 / switchport mode trunk' },
+      { key: 'C', text: 'interface GigabitEthernet1/24 / switchport mode trunk / switchport trunk allowed vlan 11, 12 ! interface GigabitEthernet1/1 / switchport access vlan 11' },
+      { key: 'D', text: 'interface GigabitEthernet1/2 / switchport mode access / switchport access vlan 12 ! interface GigabitEthernet1/24 / switchport mode trunk / switchport trunk allowed vlan 11, 12' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — โจทย์ต้องการ "Layer 2 connectivity" ระหว่าง PC1 กับ PC2 แปลว่าทั้งคู่ต้องอยู่ VLAN เดียวกัน และเส้นทางระหว่างสวิตช์ต้องขน VLAN นั้นผ่านไปได้\n\n🔍 อ่าน exhibit ทีละจุด:\n• PC1 (Staff, 10.0.1.11/24) เสียบที่ AccSw1 พอร์ต g1/1\n• PC2 (Staff, 10.0.1.12/24) เสียบที่ AccSw2 พอร์ต g1/1\n• ทั้งสองอยู่ซับเน็ต 10.0.1.0/24 เดียวกัน → ต้องอยู่ VLAN เดียวกันจึงคุยกันได้ในชั้นที่ 2\n• ผลลัพธ์ show vlan ของ AccSw1: VLAN 11 ชื่อ Staff อยู่ที่ Gigi1/1 ⭐ และ VLAN 12 ชื่อ Guests อยู่ที่ Gigi1/2\n→ สรุป: PC1 อยู่ VLAN 11 ดังนั้น PC2 บน AccSw2 g1/1 ก็ต้องอยู่ VLAN 11 ด้วย ⭐\n• ลิงก์ระหว่างสวิตช์คือ g1/24 → ต้องเป็น trunk เพื่อขน VLAN 11 ข้ามไป ⭐\n\n🧩 สิ่งที่ต้องตั้งบน AccSw2 มี 2 อย่าง:\n1️⃣ g1/1 → switchport mode access + switchport access vlan 11\n2️⃣ g1/24 → switchport mode trunk\n\n✅ ทำไม B ถูก: ตั้ง g1/1 เป็น access VLAN 11 ให้ตรงกับ VLAN ของ PC1 และตั้ง g1/24 เป็น trunk เพื่อขน VLAN ข้ามระหว่างสวิตช์ ครบทั้งสองเงื่อนไข\n\n❌ ทำไมข้ออื่นผิด:\nA. ตั้งพอร์ต g1/2 (ผิดพอร์ต เพราะ PC2 เสียบ g1/1) และใส่ VLAN 2 ซึ่งไม่ใช่ VLAN ของ PC1\nC. ใส่ switchport access vlan 11 บน g1/1 โดยไม่มี switchport mode access และที่สำคัญกว่าคือไม่ได้กำหนดพอร์ตที่ PC2 เสียบให้ครบตามลำดับที่ถูกต้อง อีกทั้งการจำกัด allowed vlan 11,12 เกินความจำเป็นของโจทย์\nD. ตั้งผิดพอร์ต (g1/2) และผิด VLAN (12 = Guests) ทำให้ PC2 ไปอยู่คนละ VLAN กับ PC1\n\n📗 จำไว้สอบ: PC ต่อสวิตช์ = access port + access vlan | สวิตช์ต่อสวิตช์ที่ต้องขนหลาย VLAN = trunk | อ่าน show vlan เพื่อหา VLAN ของพอร์ตต้นทางก่อนเสมอ',
+  },
+  {
+    id: 307,
+    kind: 'single',
+    image: v2q307,
+    prompt: 'Refer to the exhibit. A network engineer must update the configuration on Switch2 so that it sends LLDP packets every minute and the information sent via LLDP is refreshed every 3 minutes. Which configuration must the engineer apply?',
+    options: [
+      { key: 'A', text: 'Switch2(config)#lldp timer 60 / Switch2(config)#lldp tlv-select 180' },
+      { key: 'B', text: 'Switch2(config)#lldp timer 60 / Switch2(config)#lldp holdtime 180' },
+      { key: 'C', text: 'Switch2(config)#lldp timer 1 / Switch2(config)#lldp holdtime 3' },
+      { key: 'D', text: 'Switch2(config)#lldp timer 1 / Switch2(config)#lldp tlv-select 3' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ตัวจับเวลาของ LLDP มี 3 ตัว และ "ทุกตัวมีหน่วยเป็นวินาที" ⭐\n• lldp timer → คาบการส่ง LLDP advertisement (ค่าเริ่มต้น 30 วินาที)\n• lldp holdtime → เวลาที่เพื่อนบ้านเก็บข้อมูลเราไว้ก่อนถือว่าหมดอายุ (ค่าเริ่มต้น 120 วินาที)\n• lldp reinit → หน่วงก่อนเริ่มต้นอินเทอร์เฟซใหม่ (ค่าเริ่มต้น 2 วินาที)\n\n🔍 ตรวจกับ exhibit: show lldp แสดง advertisements ทุก 30 วินาที, hold time 120 วินาที, reinit delay 2 วินาที → ตรงกับค่าเริ่มต้นทุกตัว\n\n🧮 แปลงหน่วยตามโจทย์:\n• "sends LLDP packets every minute" → 1 นาที = 60 วินาที → lldp timer 60 ⭐\n• "information ... refreshed every 3 minutes" → 3 นาที = 180 วินาที → lldp holdtime 180 ⭐\n\n⚠️ กับดักของข้อนี้คือการใส่เลข 1 และ 3 ตรง ๆ เหมือนเป็นหน่วยนาที ซึ่งจะได้ผลผิดเพี้ยนมาก (ส่งทุก 1 วินาที และหมดอายุใน 3 วินาที)\n\n💡 lldp tlv-select ไม่ใช่ตัวจับเวลา แต่ใช้เลือกว่าจะส่ง TLV ชนิดใดบ้าง (เช่น system-name, port-description) จึงไม่เกี่ยวกับโจทย์เลย\n\n✅ ทำไม B ถูก: lldp timer 60 = ส่งทุก 60 วินาที (1 นาที) และ lldp holdtime 180 = ข้อมูลมีอายุ 180 วินาที (3 นาที) ตรงตามที่โจทย์ต้องการทั้งสองข้อ\n\n❌ ทำไมข้ออื่นผิด:\nA. ครึ่งแรกถูก แต่ tlv-select ใช้เลือกชนิด TLV ไม่ใช่ตั้งเวลาหมดอายุ\nC. ตีความหน่วยผิดเป็นนาที ทำให้ส่งทุก 1 วินาทีและหมดอายุใน 3 วินาที\nD. ผิดทั้งหน่วยเวลาและผิดคำสั่ง\n\n📗 จำไว้สอบ: LLDP timer 30 | holdtime 120 | reinit 2 (วินาทีทั้งหมด) • ฝั่ง CDP คือ cdp timer 60 และ cdp holdtime 180',
+  },
+  {
+    id: 308,
+    kind: 'single',
+    image: v2q308,
+    prompt: 'Refer to the exhibit. Switch A is newly configured. All VLANs are present in the VLAN database. The IP phone and PC A on Gi0/1 must be configured for the appropriate VLANs to establish connectivity between the PCs. Which command set fulfills the requirement?',
+    options: [
+      { key: 'A', text: 'SwitchA(config-if)#switchport mode access / switchport access vlan 50 / switchport voice vlan 51' },
+      { key: 'B', text: 'SwitchA(config-if)#switchport mode trunk / switchport trunk allowed vlan add 50, 51 / switchport voice vlan dot1p' },
+      { key: 'C', text: 'SwitchA(config-if)#switchport mode trunk / switchport trunk allowed vlan 50, 51 / mls qos trust cos' },
+      { key: 'D', text: 'SwitchA(config-if)#switchport mode access / switchport access vlan 50 / switchport voice vlan untagged' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — พอร์ตที่ต่อโทรศัพท์ IP โดยมี PC เสียบผ่านโทรศัพท์อีกที ใช้รูปแบบมาตรฐานเดียวเสมอ\n\n🔍 ข้อมูลจาก exhibit: Data VLAN 50 และ Voice VLAN 51 ⭐\n\n🧩 สูตรมาตรฐานของพอร์ตโทรศัพท์:\n1️⃣ switchport mode access → บังคับเป็นพอร์ต access (ไม่เจรจา trunk)\n2️⃣ switchport access vlan 50 → เฟรม "ไม่ติดแท็ก" จาก PC ตกเข้า VLAN 50 ⭐\n3️⃣ switchport voice vlan 51 → สวิตช์แจ้ง VLAN 51 ให้โทรศัพท์ผ่าน CDP/LLDP-MED โทรศัพท์จึงติดแท็ก 802.1Q VLAN 51 พร้อม CoS 5 ให้ทราฟฟิกเสียง ⭐\n\n💡 กลไกเบื้องหลัง: พอร์ตนี้เรียกว่า "multi-VLAN access port" หรือ mini-trunk — เป็น access ในสายตาผู้ตั้งค่า แต่รับเฟรมติดแท็กของ voice VLAN ได้หนึ่ง VLAN\n\n⚠️ ทำไมไม่ใช้ mode trunk: ถ้าตั้งเป็น trunk คำสั่ง switchport access vlan 50 จะไม่มีผล เฟรมไม่ติดแท็กจาก PC จะตกไปอยู่ native VLAN (ค่าเริ่มต้น VLAN 1) ทำให้ PC หลุดออกจาก VLAN 50 ทันที\n\n✅ ทำไม A ถูก: เป็นชุดคำสั่งมาตรฐานที่จัดทราฟฟิกข้อมูลของ PC ลง VLAN 50 และทราฟฟิกเสียงลง VLAN 51 ได้ครบตามที่ exhibit กำหนด\n\n❌ ทำไมข้ออื่นผิด:\nB. โหมด trunk ทำให้เฟรมไม่ติดแท็กไปอยู่ native VLAN และ voice vlan dot1p จะให้โทรศัพท์ใช้ VLAN 0 (ติดแท็กเฉพาะค่า CoS) ไม่ใช่ VLAN 51 ตามโจทย์\nC. โหมด trunk มีปัญหาเดียวกัน อีกทั้ง mls qos trust cos เป็นเรื่อง QoS ไม่ได้บอกโทรศัพท์ว่าต้องใช้ VLAN ใด\nD. switchport voice vlan untagged สั่งให้โทรศัพท์ส่งเสียงแบบไม่ติดแท็ก ซึ่งเสียงจะไปปนอยู่ VLAN 50 ไม่แยกเป็น VLAN 51\n\n📗 จำไว้สอบ: พอร์ตโทรศัพท์ = mode access + access vlan (data) + voice vlan (voice) | dot1p = VLAN 0 | untagged = ไม่แยก VLAN',
+  },
+  {
+    id: 309,
+    kind: 'single',
+    image: v2q309,
+    prompt: 'Refer to the exhibit. Two new switches are being installed. The remote monitoring team uses the support network to monitor both switches. Which configuration is the next step to establish a Layer 2 connection between the two PCs?',
+    options: [
+      { key: 'A', text: 'SwitchA(config)#interface GigabitEthernet0/1 / switchport access vlan 500 ! SwitchB(config)#interface GigabitEthernet0/1 / switchport access vlan 500' },
+      { key: 'B', text: 'SwitchA(config)#interface GigabitEthernet0/1 / switchport mode trunk ! SwitchB(config)#interface GigabitEthernet0/1 / switchport mode trunk' },
+      { key: 'C', text: 'SwitchA(config)#interface GigabitEthernet0/0 / switchport trunk allowed vlan 500, 550 ! SwitchB(config)#interface GigabitEthernet0/0 / switchport trunk allowed vlan 500, 550' },
+      { key: 'D', text: 'SwitchA(config)#interface GigabitEthernet0/0 / spanning-tree portfast / spanning-tree bpduguard enable ! SwitchB(config)#interface GigabitEthernet0/0 / spanning-tree portfast / spanning-tree bpduguard enable' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — อ่านคอนฟิกที่ "มีอยู่แล้ว" ก่อน แล้วหาว่าอะไรยังขาด\n\n🔍 สิ่งที่ทำเสร็จแล้วบนสวิตช์ทั้งสองตัว:\n• สร้าง VLAN 500 (sales) และ VLAN 550 (support) ครบแล้ว\n• Gi0/0 (ลิงก์ระหว่างสวิตช์) → switchport mode trunk แล้ว ✔ ขน VLAN ได้ทั้งหมดโดยปริยาย\n• Gi0/1 (ที่เสียบ Sales PC) → switchport mode access + portfast + bpduguard แล้ว\n\n🎯 สิ่งที่ยังขาด: พอร์ต Gi0/1 เป็นโหมด access แล้วก็จริง แต่ยังไม่ได้ระบุว่าอยู่ VLAN ใด → ค่าเริ่มต้นคือ VLAN 1 ⭐\n• Sales PC A และ Sales PC B ต้องอยู่ VLAN 500 (sales) จึงจะคุยกันได้ในชั้นที่ 2\n→ คำสั่งที่ขาดคือ switchport access vlan 500 บน Gi0/1 ของทั้งสองฝั่ง ⭐\n\n💡 ทำไมไม่ต้องแตะ Gi0/0: เป็น trunk อยู่แล้ว และเมื่อไม่ระบุ allowed vlan จะอนุญาตทุก VLAN (1–4094) อยู่แล้ว VLAN 500 จึงข้ามได้ไม่มีปัญหา\n\n✅ ทำไม A ถูก: เติมคำสั่ง switchport access vlan 500 ให้พอร์ตที่เสียบ PC ทั้งสองฝั่ง ทำให้ทั้งคู่อยู่ VLAN เดียวกันและวิ่งข้าม trunk หากันได้\n\n❌ ทำไมข้ออื่นผิด:\nB. เปลี่ยนพอร์ตที่เสียบ PC ให้เป็น trunk เป็นการตั้งค่าที่ไม่ถูกต้อง PC ทั่วไปไม่เข้าใจแท็ก 802.1Q และยังขัดกับ BPDU Guard ที่ตั้งไว้\nC. Gi0/0 เป็น trunk ที่อนุญาตทุก VLAN อยู่แล้ว การจำกัดเพิ่มไม่ได้ทำให้ PC คุยกันได้ เพราะปัญหาอยู่ที่ VLAN ของพอร์ตขา PC\nD. PortFast/BPDU Guard ควรใส่ที่พอร์ตขา PC ไม่ใช่ที่ลิงก์ trunk ระหว่างสวิตช์ และไม่ได้แก้ปัญหาเรื่อง VLAN เลย\n\n📗 จำไว้สอบ: access port ที่ไม่ระบุ VLAN = VLAN 1 | trunk ที่ไม่ระบุ allowed = อนุญาตทุก VLAN | อ่านคอนฟิกเดิมก่อนตอบว่า "ขั้นถัดไป" คืออะไร',
+  },
+  {
+    id: 310,
+    kind: 'single',
+    image: v2q310,
+    prompt: 'Refer to the exhibit. An engineer is configuring a new Cisco switch, NewSW, to replace SW2. The details have been provided: switches SW1 and SW2 are third-party devices without support for trunk ports; the existing connections must be maintained between PC1, PC2, and PC3; allow the switch to pass traffic from future VLAN 10. Which configuration must be applied?',
+    options: [
+      { key: 'A', text: 'NewSW(config)#interface f0/0 / switchport mode trunk / switchport trunk native vlan 10 / switchport trunk native vlan 10' },
+      { key: 'B', text: 'NewSW(config)#interface f0/0 / switchport mode access / switchport trunk allowed vlan 2,10 / switchport trunk native vlan 2' },
+      { key: 'C', text: 'NewSW(config)#interface f0/0 / switchport mode access / switchport trunk allowed vlan 2,10 / switchport trunk native vlan 10' },
+      { key: 'D', text: 'NewSW(config)#interface f0/0 / switchport mode trunk / switchport trunk allowed vlan 2, 10 / switchport trunk native vlan 2' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — โจทย์ผสมสองข้อกำหนดที่ดูขัดกัน แต่แก้ได้ด้วย native VLAN\n\n🔍 แกะเงื่อนไข:\n1️⃣ SW1 ตั้งค่าเป็น switchport access vlan 2 + switchport mode access → ส่งเฟรม "ไม่ติดแท็ก" ของ VLAN 2 ออกมาเท่านั้น\n2️⃣ ต้องรักษาการเชื่อมต่อเดิมของ PC1, PC2, PC3 ที่อยู่ VLAN 2 ไว้\n3️⃣ ต้องรองรับ VLAN 10 ในอนาคตด้วย → ต้องมีการติดแท็ก จึงต้องเป็น trunk ⭐\n\n🧩 กุญแจของข้อนี้คือ native VLAN:\n• พอร์ต trunk จะส่งเฟรมของ native VLAN แบบ "ไม่ติดแท็ก" ⭐\n• ดังนั้นถ้าตั้ง native vlan 2 → เฟรม VLAN 2 ออกไปแบบไม่ติดแท็ก อุปกรณ์ยี่ห้ออื่นที่ไม่รองรับ trunk ก็ยังรับได้ปกติ ✔\n• ส่วน VLAN 10 จะออกไปแบบติดแท็ก 802.1Q พร้อมใช้เมื่อถึงเวลา ✔\n→ ได้ทั้งสองเงื่อนไขพร้อมกัน\n\n⚠️ ถ้าตั้ง native vlan 10 (ตัวเลือก A, C) เฟรม VLAN 2 จะถูกติดแท็กออกไป ซึ่ง SW1 ที่เป็น access port อ่านไม่ออก → PC เดิมหลุดการเชื่อมต่อทันที\n\n⚠️ ถ้าตั้ง switchport mode access (ตัวเลือก B, C) คำสั่ง switchport trunk ทุกบรรทัดจะถูกเก็บไว้แต่ไม่มีผลบังคับใช้ และพอร์ตจะขนได้แค่ VLAN เดียว → รองรับ VLAN 10 ในอนาคตไม่ได้\n\n✅ ทำไม D ถูก: mode trunk เปิดทางให้ VLAN 10 ในอนาคต, allowed vlan 2,10 จำกัดเฉพาะที่จำเป็น, และ native vlan 2 ทำให้ทราฟฟิก VLAN 2 ยังคงวิ่งแบบไม่ติดแท็กเข้ากันได้กับสวิตช์ยี่ห้ออื่น\n\n❌ ทำไมข้ออื่นผิด:\nA. ตั้ง native vlan 10 ทำให้ VLAN 2 ถูกติดแท็ก อุปกรณ์เดิมรับไม่ได้ และยังพิมพ์คำสั่งซ้ำโดยไม่มี allowed vlan\nB. mode access ทำให้คำสั่ง trunk ทั้งหมดไม่มีผล ขน VLAN 10 ไม่ได้\nC. ผิดสองชั้น ทั้ง mode access และ native vlan 10\n\n📗 จำไว้สอบ: native VLAN = VLAN เดียวบน trunk ที่ไม่ติดแท็ก | ใช้เชื่อมกับอุปกรณ์ที่ไม่รองรับ 802.1Q | native VLAN ต้องตรงกันสองฝั่งเสมอ',
+  },
+  {
+    id: 311,
+    kind: 'single',
+    prompt: 'Which WLC interface provides out-of-band management in the Cisco Unified Wireless Network Architecture?',
+    options: [
+      { key: 'A', text: 'AP-Manager' },
+      { key: 'B', text: 'service port' },
+      { key: 'C', text: 'dynamic' },
+      { key: 'D', text: 'virtual' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — อินเทอร์เฟซของ WLC ที่ CCNA ต้องแยกให้ออก 5 ตัว\n\n• Management ⭐ → ใช้จัดการแบบ in-band (ผ่านเครือข่ายปกติ) เป็นทางที่ AP ส่ง CAPWAP discovery เข้ามา, รองรับ SSH/HTTPS/SNMP/RADIUS\n• Service port ⭐ → พอร์ตกายภาพแยกต่างหาก (มักชื่อ service-port) ใช้จัดการแบบ out-of-band ⭐ ไม่ผูกกับ VLAN ใด ๆ ไม่รองรับ 802.1Q และ "ไม่ส่งทราฟฟิกผู้ใช้" ใช้เข้าถึงตัวเครื่องได้แม้เครือข่ายหลักล่ม\n• AP-Manager → ปลายทางของอุโมงค์ CAPWAP กับ AP (บน WLC รุ่นใหม่รวมเข้ากับ management แล้ว)\n• Dynamic → เทียบได้กับ SVI ของสวิตช์ ใช้ผูก WLAN เข้ากับ VLAN ของผู้ใช้\n• Virtual → IP ปลอม (เช่น 192.0.2.1) ใช้กับ mobility, DHCP relay, web authentication\n\n🎯 คำสำคัญของโจทย์คือ "out-of-band management" = ช่องทางจัดการที่แยกจากเส้นทางข้อมูลปกติ → service port เท่านั้น\n\n✅ ทำไม B ถูก: service port เป็นพอร์ตกายภาพเฉพาะสำหรับการจัดการนอกแบนด์ ใช้เข้าถึง WLC ได้แม้เครือข่ายข้อมูลมีปัญหา\n\n❌ ทำไมข้ออื่นผิด:\nA. AP-Manager ใช้สร้างอุโมงค์ CAPWAP กับ AP ไม่ใช่ช่องทางจัดการนอกแบนด์\nC. dynamic interface ใช้ผูก WLAN กับ VLAN ของผู้ใช้ เป็นเส้นทางข้อมูล\nD. virtual interface เป็น IP ที่ไม่มีอยู่จริงบนเครือข่าย ใช้กับ mobility และ web auth\n\n📗 จำไว้สอบ: service port = out-of-band | management = in-band + AP discovery | dynamic = VLAN ผู้ใช้ | virtual = web auth/DHCP relay',
+  },
+  {
+    id: 312,
+    kind: 'single',
+    image: v2q312,
+    prompt: 'Refer to the exhibit. The network engineer is configuring a new WLAN and is told to use a setup password for authentication instead of the RADIUS servers. Which additional set of tasks must the engineer perform to complete the configuration?',
+    options: [
+      { key: 'A', text: 'Disable PMF / Enable PSK / Enable 802.1x' },
+      { key: 'B', text: 'Select WPA Policy / Enable CCKM / Enable PSK' },
+      { key: 'C', text: 'Select WPA Policy / Select WPA2 Policy / Enable FT PSK' },
+      { key: 'D', text: 'Select WPA2 Policy / Disable PMF / Enable PSK' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — แกะความต้องการจากประโยคเดียว: "use a setup password for authentication instead of the RADIUS servers"\n→ แปลว่าให้ใช้ Pre-Shared Key (PSK) แทน 802.1X/EAP ที่ต้องพึ่งเซิร์ฟเวอร์ RADIUS ⭐\n\n🔍 อ่านหน้าจอ Layer 2 Security ใน exhibit:\n• Layer 2 Security = WPA+WPA2 (เลือกไว้แล้ว)\n• WPA Policy / WPA2 Policy → ยังไม่ติ๊กทั้งคู่ → ต้องเลือกอย่างน้อยหนึ่งอย่าง ⭐ (มาตรฐานปัจจุบันเลือก WPA2 ซึ่งใช้ AES/CCMP)\n• Authentication Key Management → 802.1X, CCKM, PSK, FT 802.1X, FT PSK ยังไม่ติ๊กเลย → ต้องติ๊ก PSK ⭐\n• PMF = Required → เป็นปัญหา เพราะการบังคับ Protected Management Frame (802.11w) ทำให้ไคลเอนต์เก่าที่ไม่รองรับเชื่อมต่อไม่ได้ → ต้องปรับเป็น Disabled ⭐\n\n🧩 สรุป 3 ขั้นที่ต้องทำ: เลือก WPA2 Policy → ปิด PMF → เปิด PSK (แล้วจึงกรอกรหัสในช่อง PSK Format/PSK)\n\n✅ ทำไม D ถูก: ครบทั้งสามขั้น คือเปิดนโยบายเข้ารหัส WPA2, ปลดข้อบังคับ PMF ที่จะขวางไคลเอนต์ และเปิด PSK เพื่อใช้รหัสผ่านแทน RADIUS\n\n❌ ทำไมข้ออื่นผิด:\nA. เปิด 802.1x ด้วยจะกลับไปพึ่ง RADIUS ซึ่งขัดกับโจทย์โดยตรง และไม่ได้เลือกนโยบาย WPA/WPA2 เลย\nB. CCKM เป็นกลไก fast roaming ของ Cisco ที่ใช้คู่กับ 802.1X/RADIUS ไม่ใช่สิ่งที่โจทย์ต้องการ\nC. FT PSK คือ 802.11r fast transition ซึ่งเป็นฟีเจอร์เสริมเรื่อง roaming ไม่ใช่การเปิดใช้ PSK ธรรมดา\n\n📗 จำไว้สอบ: PSK = รหัสผ่านร่วม ไม่ต้องมี RADIUS | 802.1X = ต้องมี RADIUS | PMF (802.11w) Required อาจกันไคลเอนต์เก่า | FT = 802.11r | CCKM = fast roam ของ Cisco',
+  },
+  {
+    id: 313,
+    kind: 'single',
+    prompt: 'Which mode must be set for APs to communicate to a Wireless LAN Controller using the Control and Provisioning of Wireless Access Points (CAPWAP) protocol?',
+    options: [
+      { key: 'A', text: 'route' },
+      { key: 'B', text: 'bridge' },
+      { key: 'C', text: 'lightweight' },
+      { key: 'D', text: 'autonomous' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — CAPWAP คืออุโมงค์ระหว่าง AP กับ WLC และมีเฉพาะกับ AP แบบ lightweight เท่านั้น\n\n🔍 CAPWAP ใช้ 2 อุโมงค์:\n• Control tunnel → UDP 5246 (เข้ารหัสด้วย DTLS เสมอ) ใช้ส่งคำสั่งจัดการ ⭐\n• Data tunnel → UDP 5247 (เข้ารหัสเป็นทางเลือก) ใช้ห่อทราฟฟิกผู้ใช้ส่งกลับไปที่ WLC ⭐\n\n🧩 การแบ่งงานในโมเดล split-MAC:\n• AP ทำงาน real-time: ส่ง/รับคลื่น, beacon, ACK, การเข้ารหัสระดับเฟรม\n• WLC ทำงาน non-real-time: การยืนยันตัวตน, การจัดการ RF (RRM), นโยบายความปลอดภัย, roaming\n\n💡 AP แบบ lightweight แทบไม่มีคอนฟิกในตัว มันบูตขึ้นมาแล้วค้นหา WLC (ผ่าน DHCP Option 43, DNS, หรือ broadcast) แล้วโหลดคอนฟิกลงมาทั้งหมด\n\n✅ ทำไม C ถูก: lightweight คือโหมดเดียวที่ AP สร้างอุโมงค์ CAPWAP ไปหา WLC เพื่อรับการควบคุมและการจัดเตรียมค่า\n\n❌ ทำไมข้ออื่นผิด:\nA. route ไม่ใช่โหมดของ AP\nB. bridge (FlexConnect/Mesh bridge) เป็นโหมดการทำงานย่อยของ AP ไม่ใช่คำตอบของ "โหมดที่ทำให้ใช้ CAPWAP ได้"\nD. autonomous คือ AP ที่ทำงานเดี่ยว ไม่มี WLC จึงไม่ใช้ CAPWAP เลย\n\n📗 จำไว้สอบ: CAPWAP control = UDP 5246 (DTLS) | data = UDP 5247 | lightweight AP เท่านั้น | split-MAC = AP ทำ real-time, WLC ทำ non-real-time',
+  },
+  {
+    id: 314,
+    kind: 'single',
+    prompt: 'Which switch technology establishes a network connection immediately when it is plugged in?',
+    options: [
+      { key: 'A', text: 'PortFast' },
+      { key: 'B', text: 'BPDU guard' },
+      { key: 'C', text: 'UplinkFast' },
+      { key: 'D', text: 'BackboneFast' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ตระกูลฟีเจอร์เร่งความเร็ว STP ของ Cisco แต่ละตัวแก้คนละปัญหา\n\n• PortFast ⭐ → พอร์ต edge (ต่อ PC/เซิร์ฟเวอร์/เครื่องพิมพ์) เข้าสู่ forwarding ทันทีที่ลิงก์ขึ้น ไม่ต้องรอ listening 15 วิ + learning 15 วิ → ประหยัด 30 วินาที\n• BPDU Guard → ถ้าพอร์ตที่เปิด PortFast ได้รับ BPDU (แปลว่ามีสวิตช์มาเสียบ) ให้ปิดพอร์ตเป็น err-disable ทันที เป็นฟีเจอร์ "ป้องกัน" ไม่ใช่ฟีเจอร์ "เร่ง"\n• UplinkFast → เร่งการสลับไปใช้ลิงก์สำรองเมื่อ root port ของสวิตช์ชั้น access ล่ม (ราว 3–5 วินาที)\n• BackboneFast → เร่งการฟื้นตัวเมื่อลิงก์ล่มแบบ "ทางอ้อม" (indirect failure) โดยตัดเวลา max-age 20 วินาทีออกไป\n\n🎯 คำสำคัญ "immediately when it is plugged in" = ทันทีที่เสียบสาย → ตรงกับ PortFast โดยตรง ⭐\n\n💡 อาการที่พบบ่อยเมื่อไม่ได้เปิด PortFast: PC บูตแล้วได้ IP แบบ APIPA (169.254.x.x) เพราะ DHCP หมดเวลารอก่อนพอร์ตจะเข้า forwarding\n\n✅ ทำไม A ถูก: PortFast คือฟีเจอร์ที่ข้ามสถานะกลางของ STP ทำให้พอร์ตพร้อมส่งข้อมูลทันทีที่เสียบอุปกรณ์ปลายทาง\n\n❌ ทำไมข้ออื่นผิด:\nB. BPDU Guard ทำหน้าที่ปิดพอร์ตเมื่อเจอ BPDU ไม่ได้ทำให้เชื่อมต่อเร็วขึ้น\nC. UplinkFast เร่งการสลับลิงก์สำรอง ไม่เกี่ยวกับพอร์ตปลายทางที่เพิ่งเสียบ\nD. BackboneFast เร่งการฟื้นตัวจากความล้มเหลวทางอ้อมในแกนกลางเครือข่าย\n\n📗 จำไว้สอบ: PortFast = เร็วที่ขอบ | BPDU Guard = ป้องกันคู่กับ PortFast | UplinkFast = สลับ uplink | BackboneFast = indirect failure',
+  },
+  {
+    id: 315,
+    kind: 'single',
+    prompt: 'Which command on a port enters the forwarding state immediately when a PC is connected to it?',
+    options: [
+      { key: 'A', text: 'switch(config)#spanning-tree portfast default' },
+      { key: 'B', text: 'switch(config)#spanning-tree portfast bpduguard default' },
+      { key: 'C', text: 'switch(config-if)#spanning-tree portfast trunk' },
+      { key: 'D', text: 'switch(config-if)#no spanning-tree portfast' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — คำสั่งตระกูล PortFast มีหลายรูปแบบ ต้องดูทั้ง "โหมดที่พิมพ์" และ "คำท้าย"\n\n🔍 แยกทีละคำสั่ง:\n• spanning-tree portfast default (global config) ⭐ → เปิด PortFast ให้ "ทุกพอร์ตที่เป็น access" โดยอัตโนมัติ → PC ที่เสียบเข้ามาที่พอร์ต access ใดก็ตามจะเข้า forwarding ทันที ✔\n• spanning-tree portfast bpduguard default (global) → เปิด BPDU Guard ให้ทุกพอร์ตที่มี PortFast อยู่ เป็นเรื่อง "ความปลอดภัย" ไม่ใช่การทำให้ forwarding เร็วขึ้น\n• spanning-tree portfast trunk (interface) → ใช้กับพอร์ต trunk เท่านั้น (เช่น ลิงก์ไปหา ESXi host) ไม่ใช่กรณีเสียบ PC\n• no spanning-tree portfast → ปิด PortFast ซึ่งให้ผลตรงกันข้ามกับที่โจทย์ต้องการ\n\n🎯 โจทย์ระบุชัดว่าอุปกรณ์ที่เสียบคือ "PC" → พอร์ตนั้นคือ access port → คำสั่งที่ครอบคลุมและถูกต้องคือ portfast default ⭐\n\n💡 หมายเหตุ: ถ้าจะสั่งเฉพาะพอร์ตเดียวจะใช้ spanning-tree portfast ที่ระดับ interface แต่คำสั่งนั้นไม่มีอยู่ในตัวเลือก\n\n✅ ทำไม A ถูก: เป็นคำสั่งระดับ global ที่เปิด PortFast ให้พอร์ต access ทั้งหมด ทำให้พอร์ตที่เสียบ PC เข้าสู่ forwarding ทันที\n\n❌ ทำไมข้ออื่นผิด:\nB. เปิด BPDU Guard ไม่ได้เกี่ยวกับความเร็วในการเข้าสถานะ forwarding\nC. คำท้าย trunk จำกัดผลไว้ที่พอร์ต trunk ซึ่งไม่ใช่พอร์ตที่เสียบ PC\nD. คำสั่ง no เป็นการปิดฟีเจอร์ ผลลัพธ์ตรงข้ามกับโจทย์\n\n📗 จำไว้สอบ: portfast default = ทุก access port | portfast (interface) = พอร์ตเดียว | portfast trunk = พอร์ต trunk | bpduguard default = ความปลอดภัย',
+  },
+  {
+    id: 316,
+    kind: 'single',
+    prompt: 'If a switch port receives a new frame while it is actively transmitting a previous frame, how does it process the frames?',
+    options: [
+      { key: 'A', text: 'The new frame is delivered first, the previous frame is dropped, and a retransmission request is sent' },
+      { key: 'B', text: 'The previous frame is delivered, the new frame is dropped, and a retransmission request is sent' },
+      { key: 'C', text: 'The new frame is placed in a queue for transmission after the previous frame' },
+      { key: 'D', text: 'The two frames are processed and delivered at the same time' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — พอร์ตสวิตช์ส่งข้อมูลได้ทีละเฟรมเสมอ (serialization) จึงต้องมี "คิว" รองรับ\n\n🔍 ลำดับการทำงานจริง:\n1️⃣ เฟรมใหม่เข้ามาที่พอร์ต ingress → สวิตช์เรียนรู้ source MAC และค้นตารางเพื่อหาพอร์ตขาออก\n2️⃣ ถ้าพอร์ตขาออกกำลังส่งเฟรมอื่นอยู่ → เฟรมใหม่ถูกเก็บไว้ใน egress buffer/queue ⭐\n3️⃣ เมื่อเฟรมก่อนหน้าส่งจบ สวิตช์จึงดึงเฟรมถัดไปจากคิวมาส่งต่อ\n\n💡 จุดที่ต้องเข้าใจเพิ่ม:\n• สวิตช์ทำงานที่ชั้นที่ 2 ไม่มีกลไก "retransmission request" — การขอส่งซ้ำเป็นหน้าที่ของ TCP ที่ชั้นที่ 4 ⭐\n• ถ้าคิวเต็มจริง ๆ (congestion) สวิตช์จะ "ทิ้งเฟรมเงียบ ๆ" (tail drop) และเพิ่มตัวนับ output drops โดยไม่แจ้งใคร\n• นี่คือเหตุผลที่ต้องมี QoS — เพื่อกำหนดว่าเฟรมใดควรได้ออกจากคิวก่อน และเฟรมใดยอมให้ถูกทิ้งได้\n\n✅ ทำไม C ถูก: เฟรมใหม่จะถูกพักไว้ในคิวขาออกและส่งต่อทันทีที่เฟรมก่อนหน้าส่งเสร็จ ซึ่งเป็นพฤติกรรมปกติของบัฟเฟอร์บนสวิตช์\n\n❌ ทำไมข้ออื่นผิด:\nA. สวิตช์ไม่ตัดกลางคันเฟรมที่กำลังส่งอยู่ และไม่มีการร้องขอส่งซ้ำที่ชั้นที่ 2\nB. เฟรมใหม่ไม่ถูกทิ้งตราบใดที่คิวยังว่างพอ และสวิตช์ไม่ส่งคำร้องขอส่งซ้ำ\nD. สื่อ Ethernet ส่งได้ทีละเฟรมต่อทิศทาง ส่งพร้อมกันสองเฟรมไม่ได้\n\n📗 จำไว้สอบ: สวิตช์เข้าคิวก่อน ไม่ทิ้งทันที | คิวเต็ม = tail drop เงียบ ๆ (output drops) | retransmission เป็นงานของ TCP ไม่ใช่สวิตช์',
+  },
+  {
+    id: 317,
+    kind: 'single',
+    image: v2q317,
+    prompt: 'Refer to the exhibit. The entire MAC address table for SW1 is shown here. What does SW1 do when Br-4 sends a frame for Br-2?',
+    options: [
+      { key: 'A', text: 'It performs a lookup in the MAC address table for Br-4 and discards the frame due to a missing entry.' },
+      { key: 'B', text: 'It floods the frame out of all ports except on the port where Br-2 is connected.' },
+      { key: 'C', text: 'It inserts the source MAC address and port into the forwarding table and forwards the frame to Br-2.' },
+      { key: 'D', text: 'It maps the Layer 2 MAC address for Fa0/3 to the Layer 3 IP address and forwards the frame.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ทุกครั้งที่เฟรมเข้าสวิตช์ จะเกิด 2 กระบวนการเสมอและเป็นอิสระต่อกัน\n1️⃣ Learning → อ่าน source MAC แล้วบันทึกคู่กับพอร์ตขาเข้า\n2️⃣ Forwarding → ใช้ destination MAC ค้นตารางเพื่อตัดสินใจส่งออก\n\n🔍 อ่าน exhibit ให้ครบ:\n• โทโพโลยี: Fa0/1→Br-1, Fa0/2→Br-4, Fa0/3→Br-2, Fa0/4→Br-3 (ทั้งหมดอยู่ VLAN 50)\n• ตาราง MAC มี 3 รายการ: Fa0/1, Fa0/3, Fa0/4\n→ สังเกตว่า Fa0/2 (พอร์ตของ Br-4) ยังไม่มีในตาราง ⭐ แต่ Fa0/3 (พอร์ตของ Br-2) มีอยู่แล้ว ⭐\n\n🧩 เดินเรื่องทีละขั้น:\n1️⃣ Br-4 ส่งเฟรมเข้ามาที่ Fa0/2 → สวิตช์เรียนรู้ MAC ของ Br-4 แล้วเพิ่มรายการใหม่ (Br-4 อยู่ Fa0/2) ⭐\n2️⃣ ค้น destination MAC ของ Br-2 → พบว่าอยู่ที่ Fa0/3 → ส่งออกเฉพาะพอร์ตนั้น (unicast forwarding) ไม่ต้อง flood ⭐\n\n✅ ทำไม C ถูก: เกิดทั้งการเพิ่มรายการใหม่จาก source MAC ของ Br-4 และการส่งต่อแบบเจาะจงไปยัง Br-2 เพราะปลายทางมีอยู่ในตารางแล้ว\n\n❌ ทำไมข้ออื่นผิด:\nA. การไม่มีรายการของ "ต้นทาง" ไม่ทำให้เฟรมถูกทิ้ง ตรงกันข้าม มันคือเหตุให้เกิดการเรียนรู้รายการใหม่\nB. การ flood จะเกิดก็ต่อเมื่อ "ปลายทาง" ไม่อยู่ในตาราง แต่ Br-2 อยู่ที่ Fa0/3 แล้ว\nD. สวิตช์ชั้นที่ 2 ไม่แปลง MAC เป็น IP งานจับคู่ IP กับ MAC เป็นหน้าที่ของ ARP บนโฮสต์/เราเตอร์\n\n📗 จำไว้สอบ: เรียนรู้จาก source MAC เสมอ | ส่งต่อโดยดู destination MAC | ปลายทางรู้จัก = forward, ไม่รู้จัก = flood',
+  },
+  {
+    id: 318,
+    kind: 'single',
+    prompt: 'Which statement about Link Aggregation when implemented on a Cisco Wireless LAN Controller is true?',
+    options: [
+      { key: 'A', text: 'To pass client traffic two or more ports must be configured' },
+      { key: 'B', text: 'The EtherChannel must be configured in mode active' },
+      { key: 'C', text: 'When enabled, the WLC bandwidth drops to 500 Mbps' },
+      { key: 'D', text: 'One functional physical port is needed to pass client traffic' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — LAG (Link Aggregation) บน Cisco WLC มีลักษณะเฉพาะที่ต่างจาก EtherChannel บนสวิตช์\n\n🔍 ข้อเท็จจริงที่ต้องจำ:\n• LAG บน WLC รวมพอร์ตกายภาพทั้งหมดให้เป็นกลุ่มเดียว โดยไม่ใช้โปรโตคอลเจรจา ⭐ → ฝั่งสวิตช์ต้องตั้งเป็น channel-group ... mode on เท่านั้น (ไม่ใช่ active/passive/desirable/auto)\n• ต้องมีพอร์ตที่ใช้งานได้อย่างน้อย "หนึ่งพอร์ต" ทราฟฟิกไคลเอนต์ก็ไหลได้แล้ว ⭐ ถ้าพอร์ตหนึ่งล่ม ทราฟฟิกจะย้ายไปพอร์ตที่เหลือโดยอัตโนมัติ\n• ประโยชน์: เพิ่มความทนทาน (redundancy) และกระจายโหลด (load balancing)\n• เมื่อเปิด LAG จะเหลือ AP-Manager interface เพียงตัวเดียว และการเปิด/ปิด LAG ต้องรีบูต WLC\n\n🎯 โจทย์ถามข้อความที่ "จริง" → ข้อ D ตรงกับพฤติกรรมที่ว่าพอร์ตเดียวที่ใช้งานได้ก็เพียงพอ\n\n✅ ทำไม D ถูก: LAG ไม่ต้องการให้พอร์ตครบทุกเส้นทำงาน ขอเพียงมีพอร์ตกายภาพที่ยังใช้งานได้หนึ่งพอร์ต ทราฟฟิกของไคลเอนต์ก็ยังผ่านได้ตามปกติ\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่จำเป็นต้องมีสองพอร์ตขึ้นไป พอร์ตเดียวก็ส่งทราฟฟิกได้\nB. LAG บน WLC ไม่รองรับ LACP/PAgP ฝั่งสวิตช์ต้องตั้งเป็น mode on\nC. การเปิด LAG ไม่ได้ลดแบนด์วิดท์ ตรงกันข้ามคือเพิ่มความจุรวมและความทนทาน\n\n📗 จำไว้สอบ: WLC LAG = mode on เท่านั้น | หนึ่งพอร์ตที่ใช้ได้ก็พอ | เปิด/ปิด LAG ต้องรีบูต | ให้ทั้ง redundancy และ load balancing',
+  },
+  {
+    id: 319,
+    kind: 'single',
+    image: v2q319,
+    prompt: 'Refer to the exhibit. An engineer is configuring an EtherChannel using LACP between Switches 1 and 2. Which configuration must be applied so that only Switch 1 sends LACP initiation packets?',
+    options: [
+      { key: 'A', text: 'Switch1: channel-group 1 mode on / Switch2: channel-group 1 mode active' },
+      { key: 'B', text: 'Switch1: channel-group 1 mode active / Switch2: channel-group 1 mode passive' },
+      { key: 'C', text: 'Switch1: channel-group 1 mode passive / Switch2: channel-group 1 mode active' },
+      { key: 'D', text: 'Switch1: channel-group 1 mode on / Switch2: channel-group 1 mode passive' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — โหมด EtherChannel ทั้ง 5 และใครเป็นฝ่ายเริ่มเจรจา\n\n🔹 LACP (มาตรฐาน 802.3ad ใช้ข้ามยี่ห้อได้):\n• active ⭐ → ส่ง LACPDU ออกไปชวนก่อน (initiate)\n• passive ⭐ → รอฟังอย่างเดียว ตอบเมื่อมีคนชวน (respond only)\n\n🔹 PAgP (ของ Cisco เท่านั้น):\n• desirable → เริ่มเจรจา\n• auto → รอฟังอย่างเดียว\n\n🔹 on → ไม่เจรจาเลย บังคับรวมทันที (ต้องตั้ง on ทั้งสองฝั่ง มิฉะนั้นลิงก์อาจเกิดลูป)\n\n🧮 ตารางคู่ที่รวมกลุ่มสำเร็จ:\n• active + active ✔ | active + passive ✔ ⭐ | passive + passive ✘ (ไม่มีใครเริ่ม)\n• desirable + desirable ✔ | desirable + auto ✔ | auto + auto ✘\n• on + on ✔ | on + อย่างอื่น ✘\n\n🎯 โจทย์ต้องการ: "only Switch 1 sends LACP initiation packets" = สวิตช์ 1 ต้องเป็นฝ่ายชวน และสวิตช์ 2 ต้องไม่ชวน\n→ Switch1 = active, Switch2 = passive ⭐ และคู่นี้ยังรวมกลุ่มสำเร็จด้วย\n\n✅ ทำไม B ถูก: active บนสวิตช์ 1 เป็นฝ่ายส่ง LACPDU เริ่มเจรจา ส่วน passive บนสวิตช์ 2 เพียงตอบรับ ไม่ส่งชวนเอง ตรงตามเงื่อนไขและ EtherChannel ยังขึ้นได้\n\n❌ ทำไมข้ออื่นผิด:\nA. mode on ไม่ส่ง LACPDU เลย และจับคู่กับ active ไม่ได้ EtherChannel จะไม่ขึ้น\nC. สลับข้าง — สวิตช์ 2 กลายเป็นฝ่ายเริ่มเจรจาแทน ขัดกับโจทย์\nD. on คู่กับ passive จับคู่กันไม่ได้ และไม่มีฝ่ายใดส่ง LACP initiation ตามที่ต้องการ\n\n📗 จำไว้สอบ: LACP = active/passive | PAgP = desirable/auto | passive+passive และ auto+auto ไม่ขึ้น | on ต้องคู่กับ on เท่านั้น',
+  },
+  {
+    id: 320,
+    kind: 'single',
+    image: v2q320,
+    prompt: 'Refer to the exhibit. The entire Marketing-SW1 MAC address table is shown here. What does the switch do when PC-4 sends a frame to PC-1?',
+    options: [
+      { key: 'A', text: 'It performs a lookup in the MAC address table and discards the frame due to a missing entry.' },
+      { key: 'B', text: 'It maps the Layer 2 MAC address to the Layer 3 IP address and forwards the frame.' },
+      { key: 'C', text: 'It inserts the source MAC address and port into the table and forwards the frame to PC-1.' },
+      { key: 'D', text: 'It floods the frame out of all ports except on the port where PC-1 is connected.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — โจทย์รูปแบบเดียวกับข้อ 317 ให้ตรวจสองสิ่งเสมอ: ต้นทางอยู่ในตารางไหม และปลายทางอยู่ในตารางไหม\n\n🔍 อ่าน exhibit: Marketing-SW1 มีพอร์ต Gi1/0→PC-1, Gi1/2→PC-2, Gi1/3→PC-3, Gi1/4→PC-4 ทั้งหมดอยู่ VLAN 101\n• ตาราง MAC ที่แสดง "ทั้งหมด" ไม่มีรายการของ PC-4 (Gi1/4) ⭐\n• แต่มีรายการของ PC-1 (Gi1/0) อยู่แล้ว ⭐\n\n🧩 เมื่อ PC-4 ส่งเฟรมหา PC-1:\n1️⃣ Learning → สวิตช์อ่าน source MAC ของ PC-4 แล้วเพิ่มรายการใหม่ (PC-4 ↔ Gi1/4) ลงตาราง ⭐\n2️⃣ Forwarding → ค้น destination MAC ของ PC-1 → เจอที่ Gi1/0 → ส่งออกพอร์ตนั้นพอร์ตเดียว ไม่ flood ⭐\n\n💡 หลักที่ต้องท่อง: การ flood ตัดสินจาก "ปลายทาง" เท่านั้น การที่ต้นทางไม่อยู่ในตารางไม่มีผลต่อการตัดสินใจส่งต่อ มีผลแค่ทำให้เกิดการเรียนรู้รายการใหม่\n\n✅ ทำไม C ถูก: สวิตช์เพิ่มรายการของ PC-4 จาก source MAC และส่งเฟรมตรงไปยัง PC-1 เพราะปลายทางอยู่ในตารางแล้ว\n\n❌ ทำไมข้ออื่นผิด:\nA. สวิตช์ไม่ทิ้งเฟรมเพราะต้นทางไม่อยู่ในตาราง และปลายทางก็หาเจอด้วย\nB. การจับคู่ MAC กับ IP เป็นงานของ ARP ไม่ใช่การส่งต่อของสวิตช์ชั้นที่ 2\nD. จะ flood ก็ต่อเมื่อไม่รู้จักปลายทาง แต่ PC-1 อยู่ที่ Gi1/0 ในตารางอยู่แล้ว\n\n📗 จำไว้สอบ: unknown source = เรียนรู้ | known destination = forward | unknown destination = flood ใน VLAN เดียวกัน',
+  },
+  {
+    id: 321,
+    kind: 'single',
+    image: v2q321,
+    prompt: 'Refer to the exhibit. All VLANs are present in the VLAN database. Which command sequence must be applied to complete the configuration?',
+    options: [
+      { key: 'A', text: 'interface FastEthernet0/1 / switchport mode access / switchport voice vlan 10' },
+      { key: 'B', text: 'interface FastEthernet0/1 / switchport trunk native vlan 10 / switchport trunk allowed vlan 10,15' },
+      { key: 'C', text: 'interface FastEthernet0/1 / switchport trunk allowed vlan add 10 / vlan 10 / private-vlan isolated' },
+      { key: 'D', text: 'interface FastEthernet0/1 / switchport mode trunk / switchport trunk allowed vlan 10,15' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ดูว่าคอนฟิกเดิมมีอะไร แล้วเติมเฉพาะส่วนที่ขาด\n\n🔍 อ่าน exhibit:\n• โทโพโลยี: PC ต่อเข้าโทรศัพท์ IP แล้วโทรศัพท์ต่อเข้าสวิตช์พอร์ต f0/1\n• Data VLAN 15 (สำหรับ PC) และ Voice VLAN 10 (สำหรับโทรศัพท์)\n• คอนฟิกปัจจุบันบน f0/1 มีแค่ switchport access vlan 15 ⭐\n\n🧩 สิ่งที่ขาดมี 2 บรรทัด:\n1️⃣ switchport mode access → ถ้าไม่ระบุ พอร์ตจะอยู่โหมด dynamic auto ซึ่งอาจถูกเจรจาเป็น trunk ได้ ควรตรึงให้เป็น access\n2️⃣ switchport voice vlan 10 ⭐ → คำสั่งนี้เท่านั้นที่ทำให้สวิตช์แจ้ง VLAN 10 ให้โทรศัพท์ผ่าน CDP/LLDP-MED โทรศัพท์จึงติดแท็ก 802.1Q VLAN 10 พร้อม CoS 5 ให้เสียง\n\n🎯 ผลลัพธ์ที่ได้: เฟรมไม่ติดแท็กจาก PC → VLAN 15 | เฟรมติดแท็กจากโทรศัพท์ → VLAN 10 บนสายเส้นเดียวกัน\n\n✅ ทำไม A ถูก: เติมโหมด access ให้ชัดเจนและเพิ่ม voice vlan 10 ซึ่งเป็นชิ้นส่วนที่ขาดไปเพียงชิ้นเดียวเพื่อให้โทรศัพท์แยกทราฟฟิกเสียงออกจากข้อมูล\n\n❌ ทำไมข้ออื่นผิด:\nB. ไม่มี switchport mode trunk คำสั่ง trunk จึงไม่ทำงาน และการใช้ native vlan 10 จะทำให้เสียงไม่ติดแท็ก ซึ่งไม่ใช่รูปแบบที่ควรใช้กับโทรศัพท์\nC. private-vlan isolated เป็นเรื่องการแยกโดเมนภายใน VLAN ไม่เกี่ยวกับ voice VLAN เลย\nD. เปลี่ยนพอร์ตเป็น trunk จะทำให้คำสั่ง switchport access vlan 15 ไม่มีผล เฟรมของ PC จะตกไปอยู่ native VLAN แทน\n\n📗 จำไว้สอบ: โทรศัพท์ + PC = access vlan (data) + voice vlan (voice) | CDP/LLDP-MED เป็นตัวบอก VLAN ให้โทรศัพท์',
+  },
+  {
+    id: 322,
+    kind: 'single',
+    image: v2q322,
+    prompt: 'Refer to the exhibit. Which switch becomes the root of a spanning tree for VLAN 10 if the primary switch fails and all links are of equal speed?',
+    options: [
+      { key: 'A', text: 'SW1' },
+      { key: 'B', text: 'SW2' },
+      { key: 'C', text: 'SW3' },
+      { key: 'D', text: 'SW4' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — การเลือก root bridge ใช้ Bridge ID (BID) ที่ต่ำที่สุดชนะ\nBID = Bridge Priority (รวม extended system ID แล้ว) + MAC address\n→ เทียบ priority ก่อน ถ้าเท่ากันจึงเทียบ MAC address\n\n🔍 ค่าจาก exhibit สำหรับ VLAN 10:\n• SW1 = 32778 (0018.1843.3cb0)\n• SW2 = 24586 (004a.13e9.3912) ⭐ ต่ำสุด\n• SW3 = 28682 (0022.55cf.cc00) ⭐ ต่ำอันดับสอง\n• SW4 = 64000 (0022.66ed.a29f) สูงสุด\n\n🧮 ตรวจสอบตัวเลขให้เข้าใจที่มา (extended system ID = VLAN ID = 10):\n• 32778 = 32768 + 10 → ค่า priority ที่ตั้งไว้คือ 32768 (ค่าเริ่มต้น)\n• 24586 = 24576 + 10 → priority 24576 (เท่ากับสั่ง root primary)\n• 28682 = 28672 + 10 → priority 28672 (เท่ากับสั่ง root secondary)\n• 64000 = 61440 + 2560? ที่ถูกคือค่าที่ตั้งไว้สูงมาก จึงไม่มีทางเป็น root\n\n🎯 โจทย์ถามว่า "ถ้าตัวหลักล่ม ใครจะเป็น root ต่อ"\n• ตัวหลักปัจจุบันคือ SW2 (24586 ต่ำสุด)\n• เมื่อ SW2 ล่ม → ค่าที่ต่ำถัดไปคือ SW3 (28682) ⭐\n\n✅ ทำไม C ถูก: เมื่อ SW2 ซึ่งเป็น root เดิมล่ม สวิตช์ที่มี BID ต่ำที่สุดที่เหลืออยู่คือ SW3 ด้วยค่า 28682 จึงกลายเป็น root bridge ตัวใหม่\n\n❌ ทำไมข้ออื่นผิด:\nA. SW1 มีค่า 32778 สูงกว่า SW3\nB. SW2 คือตัวที่ล่มไปแล้วตามเงื่อนไขของโจทย์\nD. SW4 มีค่า 64000 สูงที่สุด จึงไม่มีทางถูกเลือก\n\n📗 จำไว้สอบ: priority ต้องเป็นพหุคูณของ 4096 | ค่าเริ่มต้น 32768 | root primary = 24576 | root secondary = 28672 | BID ที่แสดง = priority + VLAN ID',
+  },
+  {
+    id: 323,
+    kind: 'single',
+    image: v2q323,
+    prompt: 'Refer to the exhibit. Host A sent a data frame destined for host D. What does the switch do when it receives the frame from host A?',
+    options: [
+      { key: 'A', text: 'It floods the frame out of all ports except port Fa0/1' },
+      { key: 'B', text: 'It experiences a broadcast storm' },
+      { key: 'C', text: 'It shuts down the port Fa0/1 and places it in err-disable mode' },
+      { key: 'D', text: 'It drops the frame from the switch CAM table' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ตรวจว่า destination MAC อยู่ในตาราง MAC (CAM table) หรือไม่\n\n🔍 อ่าน exhibit:\n• โทโพโลยี: Fa0/1→Host A, Fa0/2→Host B, Fa0/3→Host C, Fa0/4→Host D\n• ตาราง MAC มีเพียง 3 รายการ: Fa0/1, Fa0/2, Fa0/3\n→ ไม่มีรายการของ Fa0/4 แปลว่าสวิตช์ยังไม่รู้จัก MAC ของ Host D ⭐\n\n🧩 ผลลัพธ์: เฟรมนี้เป็น unknown unicast\n• สวิตช์ต้อง flood ออกทุกพอร์ตใน VLAN 2 ยกเว้นพอร์ตที่รับเข้ามาคือ Fa0/1 ⭐\n• เฟรมจะไปถึง Fa0/2, Fa0/3 และ Fa0/4 — Host B/C จะทิ้งเฟรมเพราะ MAC ไม่ตรง ส่วน Host D รับไว้\n• เมื่อ Host D ตอบกลับ สวิตช์จะเรียนรู้ว่ามันอยู่ Fa0/4 → ครั้งต่อไปจะส่งแบบเจาะจงทันที\n\n💡 ข้อควรระวัง: อย่าสับสนระหว่าง "flood" กับ "broadcast storm" — flood เป็นพฤติกรรมปกติที่เกิดครั้งเดียว ส่วน broadcast storm คือเฟรมวนซ้ำไม่รู้จบเพราะมีลูปในโทโพโลยี ซึ่งโจทย์นี้ไม่มีลูปเลย\n\n✅ ทำไม A ถูก: MAC ของ Host D ไม่อยู่ในตาราง สวิตช์จึง flood เฟรมออกทุกพอร์ตใน VLAN ยกเว้น Fa0/1 ที่เป็นพอร์ตต้นทาง\n\n❌ ทำไมข้ออื่นผิด:\nB. โทโพโลยีนี้เป็นสวิตช์ตัวเดียวไม่มีลิงก์ซ้ำซ้อน จึงไม่มีลูปและไม่เกิด broadcast storm\nC. err-disable เกิดจากฟีเจอร์อย่าง port security หรือ BPDU Guard ไม่ใช่จากการที่ปลายทางไม่อยู่ในตาราง\nD. สวิตช์ไม่ทิ้งเฟรม และไม่มีการ "ทิ้งเฟรมออกจาก CAM table" ซึ่งเป็นข้อความที่ไม่มีความหมายทางเทคนิค\n\n📗 จำไว้สอบ: ปลายทางไม่รู้จัก = flood (ปกติ) | ลูป = broadcast storm (ผิดปกติ) | err-disable = port security/BPDU Guard',
+  },
+  {
+    id: 324,
+    kind: 'single',
+    image: v2q324,
+    prompt: 'Refer to the exhibit. Which switch becomes the root of the spanning tree?',
+    options: [
+      { key: 'A', text: 'Switch 1' },
+      { key: 'B', text: 'Switch 2' },
+      { key: 'C', text: 'Switch 3' },
+      { key: 'D', text: 'Switch 4' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — root bridge คือสวิตช์ที่มี Bridge ID ต่ำที่สุดในโดเมน STP\nลำดับการเปรียบเทียบ: ① Bridge Priority (ต่ำกว่าชนะ) → ② MAC address (ต่ำกว่าชนะ เมื่อ priority เท่ากัน)\n\n🔍 ค่าจาก exhibit:\n• Switch 1 → BID 32778 (0018.184e.3c00)\n• Switch 2 → BID 24586 (001a.e3ff.a680) ⭐ ต่ำที่สุด\n• Switch 3 → BID 28682 (0022.55cf.cc00)\n• Switch 4 → BID 64000 (0e41.4503.004f)\n\n🧮 เทียบตัวเลขตรง ๆ: 24586 < 28682 < 32778 < 64000 → Switch 2 ชนะตั้งแต่รอบแรก ไม่ต้องดู MAC เลย ⭐\n\n💡 สังเกตว่าความเร็วลิงก์ (10G ทุกเส้น) ไม่มีผลต่อการเลือก root bridge — ความเร็วมีผลกับการเลือก root port และ designated port เท่านั้น (ผ่านค่า path cost)\n\n💡 ที่มาของตัวเลข: 24586 = 24576 (priority ที่ผู้ดูแลตั้ง) + 10 (extended system ID = VLAN ID) ซึ่งค่า 24576 คือสิ่งที่คำสั่ง spanning-tree vlan 10 root primary ตั้งให้\n\n✅ ทำไม B ถูก: Switch 2 มีค่า BID 24586 ต่ำที่สุดในบรรดาทั้งสี่ จึงชนะการเลือกตั้งและกลายเป็น root bridge\n\n❌ ทำไมข้ออื่นผิด:\nA. 32778 เป็นค่าเริ่มต้น (32768 + VLAN) สูงกว่า Switch 2\nC. 28682 คือค่าของ root secondary ซึ่งจะเป็น root ก็ต่อเมื่อ Switch 2 ล่ม\nD. 64000 สูงที่สุด ถูกตั้งไว้เพื่อไม่ให้เป็น root โดยเจตนา\n\n📗 จำไว้สอบ: root = BID ต่ำสุด | BID = priority + MAC | ความเร็วลิงก์ใช้เลือก root port ไม่ใช่ root bridge',
+  },
+  {
+    id: 325,
+    kind: 'single',
+    prompt: 'Which channel-group mode must be configured when multiple distribution interfaces connected to a WLC are bundled?',
+    options: [
+      { key: 'A', text: 'Channel-group mode passive.' },
+      { key: 'B', text: 'Channel-group mode on.' },
+      { key: 'C', text: 'Channel-group mode desirable.' },
+      { key: 'D', text: 'Channel-group mode active.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — WLC ใช้ LAG ที่ "ไม่เจรจา" จึงต้องบังคับฝั่งสวิตช์ให้ไม่เจรจาตาม\n\n🔍 ข้อเท็จจริงสำคัญ: Cisco WLC ไม่รองรับ LACP และไม่รองรับ PAgP ⭐\n→ เมื่อเปิด LAG บน WLC มันจะรวมพอร์ตทันทีโดยไม่ส่งแพ็กเก็ตเจรจาใด ๆ\n→ ถ้าสวิตช์ตั้งเป็น active/passive/desirable/auto มันจะรอ LACPDU หรือ PAgP packet ที่ไม่มีวันมา → EtherChannel ไม่ขึ้น ⭐\n\n🧩 คำสั่งที่ถูกต้องบนสวิตช์ฝั่งที่ต่อกับ WLC:\ninterface range gi1/0/1 - 2\n channel-group 1 mode on\n\n⚠️ ข้อควรระวังเรื่องลูป: เนื่องจาก mode on ไม่มีการตรวจสอบใด ๆ ถ้าตั้งข้างเดียวหรือเดินสายผิด อาจเกิดลูปในชั้นที่ 2 ได้ จึงต้องเดินสายและตั้งค่าอย่างระมัดระวัง\n\n💡 เกร็ดเพิ่ม: การเปิดหรือปิด LAG บน WLC ต้องรีบูตเครื่องเสมอ และเมื่อเปิด LAG แล้วจะเหลือ AP-Manager interface เพียงตัวเดียว\n\n✅ ทำไม B ถูก: mode on คือโหมดเดียวที่ไม่ส่งโปรโตคอลเจรจา จึงเข้ากันได้กับ LAG ของ WLC ที่ไม่รองรับทั้ง LACP และ PAgP\n\n❌ ทำไมข้ออื่นผิด:\nA. passive เป็นโหมด LACP ที่รอ LACPDU จากอีกฝั่ง แต่ WLC ไม่ส่งให้\nC. desirable เป็นโหมด PAgP ซึ่ง WLC ไม่รองรับเลย\nD. active เป็นโหมด LACP ที่ส่ง LACPDU ไปแต่จะไม่ได้รับการตอบกลับจาก WLC\n\n📗 จำไว้สอบ: WLC LAG = mode on เท่านั้น | ไม่รองรับ LACP/PAgP | เปิด/ปิด LAG ต้องรีบูต WLC',
+  },
+  {
+    id: 326,
+    kind: 'single',
+    image: v2q326,
+    prompt: 'Refer to the exhibit. Which switch becomes the root of a spanning tree for VLAN 20 if all links are of equal speed?',
+    options: [
+      { key: 'A', text: 'SW1' },
+      { key: 'B', text: 'SW2' },
+      { key: 'C', text: 'SW3' },
+      { key: 'D', text: 'SW4' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — เลือก root bridge จาก BID ที่ต่ำที่สุด (priority ก่อน แล้วค่อย MAC)\n\n🔍 ค่าจาก exhibit สำหรับ VLAN 20:\n• SW1 = 24596 (0018.184e.3c00) ⭐ ต่ำที่สุด\n• SW2 = 28692 (004a.13e9.6900)\n• SW3 = 32788 (0022.55cf.dd00)\n• SW4 = 64000 (0041.396d.690f)\n\n🧮 ถอดตัวเลขให้เห็นที่มา (extended system ID = VLAN 20):\n• 24596 = 24576 + 20 → priority 24576 = ผลของคำสั่ง spanning-tree vlan 20 root primary ⭐\n• 28692 = 28672 + 20 → priority 28672 = root secondary\n• 32788 = 32768 + 20 → priority ค่าเริ่มต้น\n• 64000 → ตั้งไว้สูงมากเพื่อไม่ให้เป็น root\n\n🎯 เทียบเลขตรง ๆ: 24596 < 28692 < 32788 < 64000 → SW1 ชนะทันทีโดยไม่ต้องดู MAC address\n\n💡 ประโยคว่า "all links are of equal speed" เป็นตัวหลอก — ความเร็วลิงก์ใช้คำนวณ path cost ซึ่งมีผลต่อการเลือก root port และ designated port เท่านั้น ไม่มีผลต่อการเลือก root bridge\n\n✅ ทำไม A ถูก: SW1 มี BID 24596 ต่ำที่สุด จึงชนะการเลือกตั้ง root bridge ของ VLAN 20\n\n❌ ทำไมข้ออื่นผิด:\nB. SW2 คือ root secondary จะขึ้นมาเป็น root ก็ต่อเมื่อ SW1 ล่ม\nC. SW3 ใช้ค่า priority เริ่มต้น จึงสูงกว่าทั้ง SW1 และ SW2\nD. SW4 ตั้งค่าไว้สูงที่สุด ไม่มีโอกาสเป็น root เลย\n\n📗 จำไว้สอบ: root primary = 24576 | root secondary = 28672 | ค่าเริ่มต้น = 32768 | BID ที่เห็น = priority + VLAN ID',
+  },
+  {
+    id: 327,
+    kind: 'single',
+    prompt: 'Which Layer 2 switch function encapsulates packets for different VLANs so that the packets traverse the same port and maintain traffic separation between the VLANs?',
+    options: [
+      { key: 'A', text: 'VLAN marking' },
+      { key: 'B', text: 'VLAN numbering' },
+      { key: 'C', text: 'VLAN DSCP' },
+      { key: 'D', text: 'VLAN tagging' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — VLAN tagging คือกลไกที่ทำให้หลาย VLAN ใช้สายเส้นเดียวกันได้โดยไม่ปนกัน\n\n🔍 มาตรฐานที่ใช้คือ IEEE 802.1Q ⭐\n• แทรกฟิลด์ขนาด 4 ไบต์เข้าไปในเฟรม Ethernet ระหว่าง Source MAC กับ EtherType\n• โครงสร้าง 4 ไบต์นั้นประกอบด้วย:\n  – TPID 2 ไบต์ = 0x8100 (บอกว่านี่คือเฟรมติดแท็ก)\n  – PCP 3 บิต = ค่า CoS สำหรับ QoS (0–7)\n  – DEI 1 บิต\n  – VLAN ID 12 บิต ⭐ → รองรับ 4096 ค่า (0–4095) ใช้งานจริง 1–4094\n• เพราะเฟรมยาวขึ้น 4 ไบต์ ขนาดสูงสุดจึงเป็น 1522 ไบต์ (จากเดิม 1518)\n\n🧩 การทำงานปลายทางถึงปลายทาง:\n1️⃣ พอร์ต access รับเฟรมไม่ติดแท็กจาก PC\n2️⃣ สวิตช์ติดแท็ก VLAN ก่อนส่งออกพอร์ต trunk\n3️⃣ สวิตช์ปลายทางอ่านแท็ก แล้วถอดแท็กออกก่อนส่งให้ PC ปลายทางที่พอร์ต access\n→ PC ทั้งสองฝั่งไม่เคยเห็นแท็กเลย และทราฟฟิกต่าง VLAN ไม่ปนกันแม้ใช้สายเส้นเดียวกัน ⭐\n\n✅ ทำไม D ถูก: VLAN tagging (802.1Q) คือฟังก์ชันที่ห่อเฟรมด้วยหมายเลข VLAN ทำให้หลาย VLAN วิ่งผ่านพอร์ตเดียวกันได้พร้อมรักษาการแยกทราฟฟิก\n\n❌ ทำไมข้ออื่นผิด:\nA. VLAN marking ไม่ใช่คำศัพท์มาตรฐาน คำว่า marking ใช้ในบริบทของ QoS (ทำเครื่องหมาย CoS/DSCP)\nB. VLAN numbering หมายถึงการตั้งหมายเลข VLAN เฉย ๆ ไม่ใช่กลไกการห่อเฟรม\nC. DSCP เป็นฟิลด์ 6 บิตในส่วนหัว IP ที่ชั้นที่ 3 ใช้กับ QoS ไม่เกี่ยวกับการแยก VLAN\n\n📗 จำไว้สอบ: 802.1Q แทรก 4 ไบต์ | VLAN ID 12 บิต = 4094 ใช้งานได้ | CoS 3 บิตอยู่ในแท็ก | DSCP 6 บิตอยู่ในหัว IP',
+  },
+  {
+    id: 328,
+    kind: 'single',
+    prompt: 'Which value is the unique identifier that an access point uses to establish and maintain wireless connectivity to wireless network devices?',
+    options: [
+      { key: 'A', text: 'VLAN ID' },
+      { key: 'B', text: 'SSID' },
+      { key: 'C', text: 'RFID' },
+      { key: 'D', text: 'WLAN ID' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คำศัพท์ตระกูล SSID ที่ต้องแยกให้ขาด\n\n• SSID (Service Set Identifier) ⭐ → ชื่อเครือข่ายไร้สายที่ยาวได้ถึง 32 ตัวอักษร เป็นสิ่งที่ผู้ใช้เห็นในรายการ Wi-Fi และเป็นตัวระบุที่ไคลเอนต์ใช้เลือกเข้าร่วมและคงการเชื่อมต่อไว้\n• BSSID (Basic SSID) → MAC address ของวิทยุ AP แต่ละตัว ใช้ระบุ "AP ตัวไหน" ที่ให้บริการ SSID นั้น\n• ESSID → SSID เดียวกันที่กระจายอยู่บนหลาย AP เพื่อให้ roaming ได้ราบรื่น\n\n🔍 กลไกที่ SSID ถูกใช้งาน:\n• AP ส่ง beacon frame ทุก ๆ ประมาณ 100 ms โดยประกาศ SSID ออกไป\n• ไคลเอนต์อาจส่ง probe request ระบุ SSID ที่ต้องการ แล้ว AP ตอบ probe response\n• จากนั้นจึงเข้าสู่ขั้น authentication และ association โดยอ้าง SSID เดิมตลอด ⭐\n\n💡 การซ่อน SSID (ปิด broadcast) ไม่ใช่มาตรการความปลอดภัยที่แท้จริง เพราะ SSID ยังปรากฏใน probe/association frame ที่ดักจับได้อยู่ดี\n\n✅ ทำไม B ถูก: SSID คือตัวระบุเฉพาะที่ AP ประกาศออกไปและไคลเอนต์ใช้อ้างอิงเพื่อสร้างและรักษาการเชื่อมต่อไร้สาย\n\n❌ ทำไมข้ออื่นผิด:\nA. VLAN ID เป็นตัวระบุที่ชั้นที่ 2 ฝั่งสาย ใช้แยกโดเมนบรอดแคสต์ ไม่ใช่ตัวระบุที่ไคลเอนต์ไร้สายใช้\nC. RFID เป็นเทคโนโลยีติดตามวัตถุด้วยคลื่นวิทยุ คนละเรื่องกับ Wi-Fi\nD. WLAN ID เป็นเพียงหมายเลขลำดับภายใน WLC (1–512) ที่ใช้อ้างอิงโปรไฟล์ WLAN ไคลเอนต์ไม่เห็นค่านี้\n\n📗 จำไว้สอบ: SSID = ชื่อเครือข่าย (ไคลเอนต์เห็น) | BSSID = MAC ของวิทยุ AP | ESSID = SSID เดียวกันหลาย AP | WLAN ID = เลขโปรไฟล์ใน WLC',
+  },
+  {
+    id: 329,
+    kind: 'single',
+    image: v2q329,
+    prompt: 'Refer to the exhibit. An engineer must configure neighbor discovery between the company router and an ISP. What is the next step to complete the configuration if the ISP uses a third-party router?',
+    options: [
+      { key: 'A', text: 'Enable LLDP globally.' },
+      { key: 'B', text: 'Disable CDP on gi0/0.' },
+      { key: 'C', text: 'Enable LLDP TLVs on the ISP router.' },
+      { key: 'D', text: 'Disable auto-negotiation.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — CDP เทียบกับ LLDP\n• CDP → โปรโตคอลเฉพาะของ Cisco ใช้กับอุปกรณ์ Cisco เท่านั้น เปิดใช้งานโดยค่าเริ่มต้น\n• LLDP (802.1AB) ⭐ → มาตรฐานเปิด ใช้ข้ามยี่ห้อได้ แต่ "ปิดอยู่โดยค่าเริ่มต้น" บนอุปกรณ์ Cisco ⭐\n\n🔍 อ่าน exhibit: อินเทอร์เฟซ gigabitethernet0/0 มีคำสั่ง lldp transmit และ lldp receive อยู่แล้ว\n→ เป็นการเปิด LLDP "ระดับอินเทอร์เฟซ" ซึ่งยังไม่พอ ⭐\n\n🧩 กติกาสำคัญของ LLDP บน Cisco IOS: ต้องเปิดสองชั้น\n1️⃣ ระดับ global: lldp run ⭐ (ถ้าขาดข้อนี้ คำสั่งระดับอินเทอร์เฟซจะไม่มีผลใด ๆ)\n2️⃣ ระดับ interface: lldp transmit / lldp receive (ค่าเริ่มต้นเปิดอยู่แล้วเมื่อ lldp run ทำงาน)\n→ ในโจทย์ทำข้อ 2 แล้ว จึงเหลือข้อ 1\n\n💡 เพราะเพื่อนบ้านเป็นเราเตอร์ยี่ห้ออื่น CDP จึงใช้ไม่ได้ ต้องพึ่ง LLDP เท่านั้น\n\n✅ ทำไม A ถูก: ขั้นที่ขาดคือการสั่ง lldp run ที่โหมด global config เพื่อเปิดใช้งาน LLDP ทั้งอุปกรณ์ คำสั่งระดับอินเทอร์เฟซจึงจะเริ่มทำงานจริง\n\n❌ ทำไมข้ออื่นผิด:\nB. การปิด CDP ไม่จำเป็นและไม่ช่วยให้ LLDP ทำงาน ทั้งสองโปรโตคอลอยู่ร่วมกันได้\nC. เราไม่มีสิทธิ์เข้าไปตั้งค่าเราเตอร์ของ ISP และ TLV พื้นฐานก็ถูกส่งอยู่แล้วโดยค่าเริ่มต้น\nD. auto-negotiation เป็นเรื่องความเร็วและ duplex ไม่เกี่ยวกับการค้นพบเพื่อนบ้าน\n\n📗 จำไว้สอบ: CDP เปิดอยู่แล้ว (Cisco เท่านั้น) | LLDP ต้องสั่ง lldp run ก่อน | CDP timer 60/holdtime 180 | LLDP timer 30/holdtime 120',
+  },
+  {
+    id: 330,
+    kind: 'drag',
+    image: v2q330,
+    prompt: 'Drag and drop the facts about wireless architectures from the left onto the types of access point on the right. Not all options are used.',
+    categories: [
+      { name: 'Cloud-Based Access Point', items: ['managed from a Web-based dashboard', 'supports automatic deployment'] },
+      { name: 'Lightweight Access Point', items: ['configured and managed by a WLC', 'supports different operational modes'] },
+    ],
+    explanation:
+      '📘 แนวคิด — จับคู่คุณสมบัติกับสถาปัตยกรรม AP แต่ละแบบ\n\n🔹 Cloud-Based AP (เช่น Cisco Meraki)\n• managed from a Web-based dashboard ⭐ → หัวใจของสถาปัตยกรรมนี้คือ dashboard บนคลาวด์ที่คุมทุก AP จากที่เดียว\n• supports automatic deployment ⭐ → เสียบ AP เข้ากับเครือข่ายที่มีอินเทอร์เน็ต มันจะโทรกลับหาคลาวด์และดึงคอนฟิกลงมาเอง (zero-touch provisioning)\n• ยกเฉพาะ management plane ขึ้นคลาวด์ ส่วน control/data plane ยังอยู่ที่ AP\n\n🔹 Lightweight AP (คู่กับ WLC)\n• configured and managed by a WLC ⭐ → AP แทบไม่มีคอนฟิกของตัวเอง ทุกอย่างมาจาก WLC ผ่านอุโมงค์ CAPWAP\n• supports different operational modes ⭐ → เปลี่ยนบทบาทได้หลายแบบตามสั่งจาก WLC เช่น local, FlexConnect, monitor, sniffer, rogue detector, bridge, sensor, SE-Connect\n• ใช้โมเดล split-MAC: AP ทำงาน real-time ส่วน WLC ทำงาน non-real-time\n\n🔹 ตัวเลือกที่ไม่ถูกใช้: accessible for management via Telnet, SSH, or a Web GUI\n→ นี่คือลักษณะของ Autonomous AP ที่ต้องเข้าไปตั้งค่าทีละตัว ⭐ ซึ่งโจทย์ไม่ได้ถามถึง จึงเหลือทิ้งไว้\n\n💡 วิธีจำเร็ว: cloud = dashboard + อัตโนมัติ | lightweight = WLC + หลายโหมด | autonomous = เข้าทีละตัวผ่าน CLI/GUI\n\n📗 จำไว้สอบ: CAPWAP = lightweight เท่านั้น | โหมดของ lightweight AP: local, FlexConnect, monitor, sniffer, rogue detector, bridge, sensor, SE-Connect',
+  },
+  {
+    id: 331,
+    kind: 'single',
+    prompt: 'What is a function of MAC learning on a switch?',
+    options: [
+      { key: 'A', text: 'MAC address learning is disabled by default on all VLANs.' },
+      { key: 'B', text: 'Frames received for a destination MAC address not listed in the address table are dropped.' },
+      { key: 'C', text: 'The MAC address table is used to populate the ARP table.' },
+      { key: 'D', text: 'A static MAC address is manually added to the MAC table.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ตารางที่อยู่ MAC ของสวิตช์มีรายการสองประเภท\n\n🔹 Dynamic entry\n• เกิดจากการเรียนรู้ source MAC ของเฟรมที่วิ่งเข้ามาโดยอัตโนมัติ\n• มีอายุ 300 วินาที ถ้าไม่มีทราฟฟิกจะถูกลบทิ้ง\n• หายไปเมื่อรีบูตสวิตช์\n\n🔹 Static entry ⭐\n• ผู้ดูแลพิมพ์เข้าไปเองด้วยคำสั่ง mac address-table static MAC vlan VLAN interface INT\n• ไม่มีวันหมดอายุ และคงอยู่ในไฟล์คอนฟิก\n• ใช้กับอุปกรณ์สำคัญที่ต้องการล็อกตำแหน่งไว้ตายตัว เช่น เซิร์ฟเวอร์หลักหรือเกตเวย์\n\n🎯 โจทย์ถามข้อความที่ "จริง" เกี่ยวกับตาราง MAC → ต้องตัดข้อที่เป็นเท็จออกทีละข้อ\n\n✅ ทำไม D ถูก: การเพิ่มรายการ MAC แบบ static ด้วยมือเป็นข้อเท็จจริงของการจัดการตาราง MAC บนสวิตช์ และเป็นข้อความเดียวในตัวเลือกที่ถูกต้อง\n\n❌ ทำไมข้ออื่นผิด:\nA. การเรียนรู้ MAC "เปิดอยู่โดยค่าเริ่มต้น" บนทุก VLAN ไม่ได้ปิดไว้\nB. เฟรมที่หาปลายทางไม่เจอจะถูก flood ไม่ใช่ถูกทิ้ง — ถ้าทิ้งการสื่อสารครั้งแรกจะล้มเหลวเสมอ\nC. สลับความสัมพันธ์กัน — ARP table (จับคู่ IP กับ MAC ที่ชั้นที่ 3) ไม่ได้ถูกสร้างจาก MAC table (จับคู่ MAC กับพอร์ตที่ชั้นที่ 2) ทั้งสองตารางสร้างขึ้นอย่างเป็นอิสระจากกัน\n\n📗 จำไว้สอบ: dynamic = เรียนรู้เอง อายุ 300 วิ | static = พิมพ์เอง ไม่หมดอายุ | MAC table ≠ ARP table',
+  },
+  {
+    id: 332,
+    kind: 'single',
+    prompt: 'What does a switch do when it receives a frame whose destination MAC address is missing from the MAC address table?',
+    options: [
+      { key: 'A', text: 'It changes the checksum of the frame to a value that indicates an invalid frame.' },
+      { key: 'B', text: 'It updates the CAM table with the destination MAC address of the frame.' },
+      { key: 'C', text: 'It appends the table with a static entry for the MAC and shuts down the port.' },
+      { key: 'D', text: 'It floods the frame unchanged across all remaining ports in the incoming VLAN.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — พฤติกรรม unknown unicast flooding มีรายละเอียดสามจุดที่ต้องถูกต้องพร้อมกัน\n1️⃣ "floods" → กระจายออกหลายพอร์ต ไม่ใช่ทิ้ง\n2️⃣ "unchanged" ⭐ → สวิตช์ชั้นที่ 2 ไม่แก้ไขเฟรมเลย ไม่แตะ MAC, ไม่แตะ FCS (ต่างจากเราเตอร์ที่เขียน MAC ใหม่ทุก hop)\n3️⃣ "in the incoming VLAN" ⭐ → ขอบเขตจำกัดที่ VLAN เดียวกันเท่านั้น เพราะ VLAN คือ broadcast domain\n\n🔍 ลำดับที่เกิดขึ้นจริง:\n• อ่าน source MAC → เพิ่ม/รีเฟรชรายการในตาราง (นี่คือการเรียนรู้)\n• ค้น destination MAC → ไม่พบ → flood ออกทุกพอร์ตใน VLAN ยกเว้นพอร์ตต้นทาง\n• เมื่อปลายทางตอบกลับ สวิตช์จะเรียนรู้ตำแหน่งของมัน → ครั้งต่อไปส่งแบบเจาะจง\n\n💡 หมายเหตุ: สวิตช์เรียนรู้ได้จาก source MAC เท่านั้น ไม่มีทางเพิ่ม destination MAC ลงตารางจากเฟรมนี้ได้ เพราะยังไม่รู้ว่าปลายทางอยู่พอร์ตใด\n\n✅ ทำไม D ถูก: เฟรมถูกส่งออกทุกพอร์ตที่เหลือใน VLAN ขาเข้าโดยไม่มีการดัดแปลงใด ๆ ซึ่งเป็นคำอธิบายที่ครบถ้วนที่สุดของ unknown unicast flooding\n\n❌ ทำไมข้ออื่นผิด:\nA. สวิตช์ไม่แก้ค่า checksum หรือ FCS ของเฟรมที่ส่งผ่าน\nB. เป็นไปไม่ได้ทางเทคนิค เพราะสวิตช์ยังไม่รู้ว่าปลายทางอยู่พอร์ตไหน จึงบันทึกลงตารางไม่ได้\nC. ไม่มีการสร้างรายการ static อัตโนมัติ และไม่มีการปิดพอร์ตจากเหตุนี้ (การปิดพอร์ตเกิดจาก port security หรือ BPDU Guard)\n\n📗 จำไว้สอบ: flood = ไม่แก้เฟรม + จำกัดใน VLAN + ยกเว้นพอร์ตต้นทาง | เรียนรู้จาก source เท่านั้น',
+  },
+  {
+    id: 333,
+    kind: 'single',
+    prompt: 'By default, how long will the switch continue to know a workstation MAC address after the workstation stops sending traffic?',
+    options: [
+      { key: 'A', text: '200 seconds' },
+      { key: 'B', text: '300 seconds' },
+      { key: 'C', text: '600 seconds' },
+      { key: 'D', text: '900 seconds' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — MAC address aging time ค่าเริ่มต้นบนสวิตช์ Cisco คือ 300 วินาที (5 นาที) ⭐\n\n🔍 กลไกการนับ:\n• ทุกครั้งที่สวิตช์ได้รับเฟรมที่มี source MAC นั้น ตัวจับเวลาจะถูกรีเซ็ตกลับเป็น 300 วินาที\n• ถ้าเงียบครบ 300 วินาทีโดยไม่มีเฟรมใด ๆ จากเครื่องนั้น → รายการถูกลบทิ้ง\n• หลังจากนั้นเฟรมที่ส่งไปหาเครื่องนั้นจะกลายเป็น unknown unicast → ถูก flood ใหม่\n\n🧩 คำสั่งที่เกี่ยวข้อง:\n• ดูค่าปัจจุบัน: show mac address-table aging-time\n• เปลี่ยนค่า: mac address-table aging-time <10-1000000>\n• ตั้งเป็น 0 = ไม่ให้หมดอายุเลย\n\n💡 ตัวเลขใกล้เคียงที่มักสับสน:\n• ARP cache บนเราเตอร์ Cisco = 4 ชั่วโมง (14400 วินาที)\n• MAC aging บนสวิตช์ = 300 วินาที ⭐\n→ ค่า ARP นานกว่ามาก จึงเกิดกรณีที่เราเตอร์ยังจำ IP-to-MAC ได้ แต่สวิตช์ลืมตำแหน่งพอร์ตไปแล้ว ทำให้เกิด unicast flooding เป็นระยะในบางเครือข่าย\n\n✅ ทำไม B ถูก: 300 วินาทีคือค่า aging time เริ่มต้นของตาราง MAC บนสวิตช์ Cisco\n\n❌ ทำไมข้ออื่นผิด:\nA. 200 วินาทีไม่ใช่ค่ามาตรฐานใด ๆ\nC. 600 วินาที (10 นาที) ไม่ใช่ค่าเริ่มต้น แต่ตั้งเองได้\nD. 900 วินาทีก็ไม่ใช่ค่าเริ่มต้นเช่นกัน\n\n📗 จำไว้สอบ: MAC aging 300 วินาที | ARP cache 4 ชั่วโมง | ปรับด้วย mac address-table aging-time | 0 = ไม่หมดอายุ',
+  },
+  {
+    id: 334,
+    kind: 'single',
+    prompt: 'A project objective is to minimize the association time to the different access points as mobile devices move around the office. The ideal solution must cover numerous devices and device types, including laptops, mobile phones, tablets and wireless printers. What must be configured?',
+    options: [
+      { key: 'A', text: '802.11v BSS Max Idle Service' },
+      { key: 'B', text: '802.11v Disassociation Imminent' },
+      { key: 'C', text: '802.11ax BSS configure' },
+      { key: 'D', text: '802.11k Neighbor List Dual Band' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — มาตรฐานตระกูล k / v / r ที่ช่วยเรื่อง roaming ต้องแยกหน้าที่ให้ชัด\n\n• 802.11k (Radio Resource Management) ⭐ → AP ส่ง "Neighbor List" บอกไคลเอนต์ว่ามี AP ตัวไหนอยู่ใกล้บ้างและอยู่ช่องสัญญาณใด\n  → ไคลเอนต์จึงไม่ต้องสแกนทุกช่องทั้ง 2.4 GHz และ 5 GHz ซึ่งกินเวลาหลายร้อยมิลลิวินาที\n  → ผลคือ "เวลาในการ associate กับ AP ตัวใหม่ลดลงอย่างมาก" ⭐ ตรงกับโจทย์โดยตรง\n  → ตัวเลือก Dual Band ทำให้รายชื่อครอบคลุมทั้งสองย่านความถี่ จึงรองรับอุปกรณ์หลากหลายชนิดตามที่โจทย์ระบุ\n• 802.11v (Wireless Network Management) → ใช้ "ชี้นำ" ไคลเอนต์ เช่น BSS Transition Management, Disassociation Imminent (บอกให้ย้ายออกเพราะกำลังจะตัด) และ BSS Max Idle (ยืดเวลา idle เพื่อประหยัดพลังงาน) — เป็นการบริหารจัดการ ไม่ใช่การเร่งเวลาค้นหา AP\n• 802.11r (Fast Transition) → ตัดขั้นตอนแลกกุญแจซ้ำตอน roam ช่วยเรื่องเวลา authentication แต่ไม่ใช่ตัวเลือกในข้อนี้\n\n🎯 คำสำคัญของโจทย์คือ "minimize the association time" + "cover numerous devices and device types" → 802.11k Neighbor List Dual Band ตอบได้ทั้งสองส่วน\n\n✅ ทำไม D ถูก: 802.11k ให้รายชื่อ AP เพื่อนบ้านล่วงหน้า ไคลเอนต์จึงข้ามการสแกนช่องสัญญาณทั้งหมด ทำให้เวลาที่ใช้เชื่อมต่อกับ AP ตัวถัดไปสั้นลง และตัวเลือกแบบ dual band รองรับอุปกรณ์ทุกประเภททั้งย่าน 2.4 และ 5 GHz\n\n❌ ทำไมข้ออื่นผิด:\nA. BSS Max Idle Service ใช้กำหนดว่าไคลเอนต์อยู่เฉยได้นานแค่ไหนก่อนถูกตัด เป็นเรื่องประหยัดพลังงาน ไม่ได้ลดเวลา associate\nB. Disassociation Imminent ใช้แจ้งไคลเอนต์ว่ากำลังจะถูกตัดการเชื่อมต่อ เป็นการผลักออก ไม่ได้ช่วยให้หา AP ใหม่เร็วขึ้น\nC. ไม่มีฟีเจอร์ชื่อ "802.11ax BSS configure" ส่วน 802.11ax (Wi-Fi 6) เน้นเรื่องประสิทธิภาพและความจุ ไม่ใช่กลไก roaming\n\n📗 จำไว้สอบ: 802.11k = neighbor list ลดเวลาสแกน | 802.11v = network-assisted steering | 802.11r = fast transition ลดเวลา auth',
+  },
+  {
+    id: 335,
+    kind: 'multi',
+    prompt: 'Which two protocols are used by an administrator for authentication and configuration on access points? (Choose two.)',
+    options: [
+      { key: 'A', text: '802.1Q' },
+      { key: 'B', text: 'RADIUS' },
+      { key: 'C', text: 'Kerberos' },
+      { key: 'D', text: 'TACACS+' },
+      { key: 'E', text: '802.1x' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — โจทย์ถามถึงโปรโตคอล AAA ที่ผู้ดูแลใช้เพื่อ "authentication และ configuration" ของ AP\n\n🔹 RADIUS ⭐ (Remote Authentication Dial-In User Service)\n• ใช้ UDP พอร์ต 1812 (auth) และ 1813 (accounting)\n• รวม authentication กับ authorization เข้าด้วยกัน\n• เข้ารหัสเฉพาะฟิลด์รหัสผ่าน ส่วนที่เหลือส่งแบบเปิด\n• เป็นมาตรฐานเปิด ใช้ข้ามยี่ห้อได้ นิยมใช้กับการยืนยันตัวตนผู้ใช้ปลายทางและผู้ดูแล\n\n🔹 TACACS+ ⭐\n• ใช้ TCP พอร์ต 49\n• แยก authentication / authorization / accounting ออกจากกันชัดเจน ⭐\n• เข้ารหัส "ทั้ง payload" ไม่ใช่แค่รหัสผ่าน\n• เพราะแยก authorization ได้ จึงเหมาะกับการควบคุมว่าใครพิมพ์คำสั่งใดได้บ้าง = ควบคุมการตั้งค่าอุปกรณ์ ⭐\n\n🎯 ทั้งสองตัวคือคู่มาตรฐานของงาน AAA บนอุปกรณ์เครือข่าย รวมถึง AP และ WLC\n\n✅ ทำไม B, D ถูก: RADIUS และ TACACS+ เป็นโปรโตคอล AAA ที่ใช้ยืนยันตัวตนผู้ดูแลและควบคุมสิทธิ์ในการตั้งค่าอุปกรณ์อย่าง AP\n\n❌ ทำไมข้ออื่นผิด:\nA. 802.1Q เป็นมาตรฐานติดแท็ก VLAN ไม่เกี่ยวกับการยืนยันตัวตน\nC. Kerberos เป็นระบบยืนยันตัวตนแบบ ticket ในโดเมน (นิยมกับ Active Directory) ไม่ใช่โปรโตคอลจัดการอุปกรณ์เครือข่าย\nE. 802.1x เป็น "กรอบการทำงาน" ควบคุมการเข้าถึงพอร์ต ซึ่งตัวมันเองต้องอาศัย RADIUS เป็นแบ็กเอนด์ และใช้กับผู้ใช้ปลายทาง ไม่ใช่การตั้งค่าอุปกรณ์โดยผู้ดูแล\n\n📗 จำไว้สอบ: RADIUS = UDP 1812/1813, รวม auth+authz, เข้ารหัสแค่รหัสผ่าน | TACACS+ = TCP 49, แยก AAA, เข้ารหัสทั้งหมด',
+  },
+  {
+    id: 336,
+    kind: 'drag',
+    image: v2q336,
+    prompt: 'Drag and drop the statements about access-point modes from the left onto the corresponding modes on the right.',
+    categories: [
+      { name: 'Monitor', items: ['It enables enhanced RFID-tag location tracking.', 'It provides air-quality data and interference detection across all enabled channels.'] },
+      { name: 'Sensor', items: ['It supports analytics for wireless performance testing.', 'It supports real-time Wi-Fi client troubleshooting when network engineers are offsite.'] },
+      { name: 'Sniffer', items: ['It captures and forwards packets on a specific wireless channel.', 'It supports software that analyzes wireless frames on a remote device.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — โหมดของ Lightweight AP ที่ออกสอบบ่อย 3 โหมดนี้แยกกันชัดเจน\n\n🔹 Monitor mode ⭐\n• AP หยุดให้บริการไคลเอนต์ทั้งหมด แล้วสแกนทุกช่องสัญญาณแบบ passive ตลอดเวลา\n• หน้าที่หลัก: ตรวจจับ rogue AP, ทำงาน wIPS, และเก็บข้อมูล spectrum\n• "enables enhanced RFID-tag location tracking" ⭐ → เพราะฟังทุกช่องตลอดเวลา จึงจับสัญญาณแท็ก RFID/Wi-Fi ได้แม่นยำและระบุตำแหน่งได้ดี\n• "provides air-quality data and interference detection across all enabled channels" ⭐ → การสแกนครบทุกช่องคือสิ่งที่ทำให้รายงานคุณภาพอากาศ (Air Quality) และแหล่งรบกวนได้ครบถ้วน\n\n🔹 Sensor mode ⭐\n• AP ทำตัวเป็น "ไคลเอนต์จำลอง" ที่รัน test ตามคำสั่งจาก Cisco DNA Center\n• "supports analytics for wireless performance testing" ⭐ → ยิงทดสอบ onboarding, DHCP, DNS, RADIUS, ping, iPerf แล้วส่งผลเชิงวิเคราะห์กลับไป\n• "supports real-time Wi-Fi client troubleshooting when network engineers are offsite" ⭐ → วิศวกรที่ไม่ได้อยู่หน้างานยังตรวจสอบประสบการณ์ผู้ใช้จริงจากระยะไกลได้\n\n🔹 Sniffer mode ⭐\n• AP จับเฟรม 802.11 ดิบบน "ช่องสัญญาณที่ระบุเพียงช่องเดียว"\n• "captures and forwards packets on a specific wireless channel" ⭐ → นิยามตรงตัวของโหมดนี้\n• "supports software that analyzes wireless frames on a remote device" ⭐ → เฟรมที่จับได้ถูกห่อ (encapsulate) แล้วส่งข้ามเครือข่ายไปยังเครื่องที่รัน Wireshark หรือ OmniPeek เพื่อวิเคราะห์\n\n💡 วิธีจำเร็ว: Monitor = ฟังทุกช่อง เน้นความปลอดภัย/RF | Sensor = ทดสอบเชิงรุกให้ DNA Center | Sniffer = จับแพ็กเก็ตช่องเดียวส่งให้ Wireshark\n\n📗 จำไว้สอบ: โหมดอื่นที่ควรรู้ — local (ค่าเริ่มต้น), FlexConnect (แยก data ออกที่สาขา), rogue detector (ฟังบนสาย), bridge/mesh, SE-Connect (spectrum analysis เต็มรูปแบบ)',
+  },
+  {
+    id: 337,
+    kind: 'single',
+    prompt: 'A WLC sends alarms about a rogue AP, and the network administrator verifies that the alarms are caused by a legitimate autonomous AP. How must the alarms be stopped for the MAC address of the AP?',
+    options: [
+      { key: 'A', text: 'Remove the AP from WLC management' },
+      { key: 'B', text: 'Place the AP into manual containment.' },
+      { key: 'C', text: 'Manually remove the AP from Pending state.' },
+      { key: 'D', text: 'Set the AP Class Type to Friendly.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — การจำแนกประเภท rogue AP บน Cisco WLC มี 4 คลาส\n• Unclassified → ยังไม่ตัดสิน (สถานะเริ่มต้นของ AP แปลกหน้าที่เพิ่งเจอ)\n• Friendly ⭐ → AP ที่ยืนยันแล้วว่าเป็นของเราหรือของเพื่อนบ้านที่ไม่เป็นภัย → WLC หยุดแจ้งเตือนสำหรับ MAC นั้น\n• Malicious → AP ที่เป็นภัยจริง ควรตามหาและกำจัด\n• Custom → กำหนดกฎเอง\n\n🔍 สถานการณ์ในโจทย์: ผู้ดูแล "ตรวจสอบแล้วว่าเป็น autonomous AP ที่ถูกต้องตามกฎหมายขององค์กร"\n→ แปลว่าไม่ใช่ภัยคุกคาม เป็นเพียง AP ที่ WLC ไม่ได้จัดการเอง จึงถูกมองว่าแปลกหน้า\n→ วิธีที่ถูกต้องคือจัดประเภทมันเป็น Friendly แล้วตั้งสถานะเป็น Internal หรือ Known ⭐\n→ ผลลัพธ์: WLC จะเลิกส่ง alarm สำหรับ MAC address นั้นทันที\n\n⚠️ ทำไมห้ามใช้ containment: การ contain คือการยิงเฟรม deauthentication ใส่ AP/ไคลเอนต์เป้าหมายเพื่อไม่ให้ใช้งานได้\n→ ถ้าเอาไปใช้กับ AP ที่ถูกต้องขององค์กรเอง จะเป็นการทำลายบริการของตัวเอง และหากเป็น AP ของเพื่อนบ้านก็อาจมีปัญหาทางกฎหมายด้วย ⭐\n\n✅ ทำไม D ถูก: การตั้ง AP Class Type เป็น Friendly คือวิธีมาตรฐานในการบอก WLC ว่า MAC นี้ปลอดภัย ทำให้การแจ้งเตือนหยุดลงโดยไม่กระทบการทำงานของ AP\n\n❌ ทำไมข้ออื่นผิด:\nA. AP ตัวนี้เป็น autonomous จึงไม่เคยอยู่ภายใต้การจัดการของ WLC อยู่แล้ว จึงถอดออกไม่ได้\nB. containment จะยิงเฟรมตัดการเชื่อมต่อใส่ AP ที่ถูกต้องขององค์กร ทำให้ผู้ใช้เสียบริการ และเสี่ยงผิดกฎหมายหากยิงใส่เครือข่ายของผู้อื่น\nC. Pending เป็นเพียงสถานะชั่วคราวระหว่างรอจำแนก การเอาออกจากสถานะนี้เฉย ๆ ไม่ได้ระบุว่าเป็นมิตร alarm จึงจะกลับมาอีก\n\n📗 จำไว้สอบ: Friendly = หยุด alarm | Malicious = ภัยจริง | Containment = ยิง deauth ใช้เฉพาะกับภัยคุกคามที่ยืนยันแล้วเท่านั้น',
+  },
+  {
+    id: 338,
+    kind: 'single',
+    prompt: 'What is one reason to implement LAG on a Cisco WLC?',
+    options: [
+      { key: 'A', text: 'to increase security and encrypt management frames' },
+      { key: 'B', text: 'to enable connected switch ports to failover and use different VLANs' },
+      { key: 'C', text: 'to provide link redundancy and load balancing' },
+      { key: 'D', text: 'to allow for stateful and link-state failover' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — LAG (Link Aggregation Group) บน WLC คือการรวมพอร์ตกายภาพหลายเส้นให้เป็นลิงก์ตรรกะเส้นเดียว\n\n🎯 ประโยชน์หลัก 2 ข้อ:\n1️⃣ Link redundancy ⭐ → ถ้าพอร์ตหนึ่งล่ม ทราฟฟิกย้ายไปพอร์ตที่เหลืออัตโนมัติ ขอเพียงมีพอร์ตที่ใช้งานได้หนึ่งเส้น บริการก็ไม่ขาด\n2️⃣ Load balancing ⭐ → กระจายทราฟฟิกข้ามพอร์ตสมาชิกโดยใช้อัลกอริทึมแฮชจากข้อมูลในเฮดเดอร์ ทำให้ใช้แบนด์วิดท์รวมได้เต็มที่\n\n🔍 รายละเอียดที่ควรจำคู่กัน:\n• WLC ไม่รองรับ LACP และ PAgP → ฝั่งสวิตช์ต้องตั้ง channel-group ... mode on ⭐\n• การเปิดหรือปิด LAG ต้องรีบูต WLC\n• เมื่อเปิด LAG แล้วจะเหลือ AP-Manager interface เพียงตัวเดียว และ dynamic interface ทั้งหมดวิ่งผ่านลิงก์ตรรกะเดียวกัน\n\n✅ ทำไม C ถูก: LAG ให้ทั้งความทนทานต่อการล่มของลิงก์และการกระจายโหลดข้ามพอร์ตสมาชิก ซึ่งเป็นเหตุผลหลักที่ใช้งาน\n\n❌ ทำไมข้ออื่นผิด:\nA. การเข้ารหัสเฟรมจัดการเป็นหน้าที่ของ Protected Management Frame (802.11w) ไม่ใช่ LAG\nB. LAG ไม่ได้ทำให้แต่ละพอร์ตใช้ VLAN ต่างกัน ตรงกันข้ามคือทุกพอร์ตต้องอยู่ในกลุ่มตรรกะเดียวกันและตั้งค่าเหมือนกัน\nD. stateful failover เป็นเรื่องของ HA/SSO ระหว่าง WLC สองเครื่อง ไม่ใช่การรวมพอร์ตบนเครื่องเดียว\n\n📗 จำไว้สอบ: LAG = redundancy + load balancing | mode on เท่านั้น | ต้องรีบูตเมื่อเปิด/ปิด | หนึ่งพอร์ตที่ใช้ได้ก็ส่งทราฟฟิกได้',
+  },
+  {
+    id: 339,
+    kind: 'single',
+    prompt: 'When an access point is seeking to join a wireless LAN controller, which message is sent to the AP-Manager interface?',
+    options: [
+      { key: 'A', text: 'Discovery response' },
+      { key: 'B', text: 'DHCP request' },
+      { key: 'C', text: 'DHCP discover' },
+      { key: 'D', text: 'Discovery request' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ลำดับการ join ของ Lightweight AP เข้ากับ WLC\n\n🔍 ขั้นตอนเต็ม:\n1️⃣ AP บูตขึ้นมาแล้วขอ IP จาก DHCP (ส่งไปหา DHCP server ไม่ใช่ WLC)\n2️⃣ AP ค้นหา WLC ผ่านหลายวิธี: DHCP Option 43, DNS (CISCO-CAPWAP-CONTROLLER), broadcast ในซับเน็ต, หรือรายชื่อที่จำไว้จากครั้งก่อน\n3️⃣ AP ส่ง CAPWAP Discovery Request ไปยัง WLC ⭐ (เป็นข้อความที่ "ถูกส่งไปยัง" ตัว controller)\n4️⃣ WLC ตอบกลับด้วย Discovery Response พร้อมบอกจำนวน AP ที่รับได้และภาระปัจจุบัน\n5️⃣ AP เลือก WLC ที่เหมาะสมแล้วส่ง Join Request → WLC ตอบ Join Response\n6️⃣ ตรวจเวอร์ชันเฟิร์มแวร์ ถ้าไม่ตรงจะดาวน์โหลดแล้วรีบูต\n7️⃣ AP รับคอนฟิกลงมาและเข้าสู่สถานะ Run\n\n🎯 คำถามระบุว่า "ข้อความใดถูกส่งไปยัง AP-Manager interface" → ทิศทางคือจาก AP ไปหา WLC → ต้องเป็น Discovery Request ⭐\n• AP-Manager interface คือปลายทางของอุโมงค์ CAPWAP ทั้ง control และ data ที่ AP คุยด้วย (บน WLC รุ่นใหม่รวมเข้ากับ management interface แล้ว)\n\n✅ ทำไม D ถูก: Discovery Request คือข้อความที่ AP ส่งออกไปหา controller ในขั้นตอนการเข้าร่วม ส่วนขาที่ WLC ตอบกลับคือ Discovery Response\n\n❌ ทำไมข้ออื่นผิด:\nA. Discovery Response เป็นข้อความที่ WLC "ส่งออก" ไม่ใช่ข้อความที่ส่งเข้ามาหา\nB. DHCP Request ถูกส่งไปยัง DHCP server เพื่อยืนยันการเช่า IP ไม่เกี่ยวกับ AP-Manager\nC. DHCP Discover เป็นบรอดแคสต์หา DHCP server เกิดก่อนขั้นตอน CAPWAP ทั้งหมด\n\n📗 จำไว้สอบ: ลำดับ CAPWAP = Discovery Request → Discovery Response → Join Request → Join Response → Image check → Config → Run | control UDP 5246, data UDP 5247',
+  },
+  {
+    id: 340,
+    kind: 'single',
+    image: v2q340,
+    prompt: 'Refer to the exhibit. A network engineer configures the Cisco WLC to authenticate local wireless clients against a RADIUS server. Which task must be performed to complete the process?',
+    options: [
+      { key: 'A', text: 'Change the Support for CoA to Enabled' },
+      { key: 'B', text: 'Select Enable next to Management' },
+      { key: 'C', text: 'Select Enable next to Network User' },
+      { key: 'D', text: 'Change the Server Status to Disabled' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ในหน้า RADIUS Authentication Servers ของ WLC มีช่องติ๊กสองช่องที่ความหมายต่างกันสิ้นเชิง\n\n• Network User ⭐ → ใช้เซิร์ฟเวอร์นี้ยืนยันตัวตน "ผู้ใช้ไร้สาย" ที่เชื่อมต่อผ่าน WLAN (802.1X/EAP หรือ web auth)\n• Management → ใช้เซิร์ฟเวอร์นี้ยืนยันตัวตน "ผู้ดูแลระบบ" ที่ล็อกอินเข้าหน้าจัดการของ WLC เอง\n\n🔍 อ่าน exhibit:\n• Server IP 192.168.25.2, Port 1812, Shared Secret กรอกแล้ว, Server Status = Enabled ✔\n• ช่อง Network User ยังไม่ติ๊ก ⭐ ← นี่คือสิ่งที่ขาด\n• ช่อง Management ก็ยังไม่ติ๊ก แต่โจทย์ไม่ได้ต้องการ\n\n🎯 โจทย์บอกชัดว่าต้องการยืนยันตัวตน "local wireless clients" = ผู้ใช้ไร้สาย → ต้องติ๊ก Network User ⭐\n\n💡 เกร็ดเพิ่มเติมของฟิลด์อื่น:\n• Support for CoA (Change of Authorization, RFC 5176) ใช้ให้ ISE สั่งเปลี่ยนสิทธิ์ของ session ที่กำลังทำงานอยู่ เป็นฟีเจอร์เสริม\n• Server Status ต้องเป็น Enabled อยู่แล้ว การเปลี่ยนเป็น Disabled จะทำให้ใช้งานไม่ได้เลย\n• พอร์ต 1812 = authentication, 1813 = accounting\n\n✅ ทำไม C ถูก: การติ๊ก Enable ที่ Network User คือขั้นตอนที่บอก WLC ให้ส่งคำขอยืนยันตัวตนของไคลเอนต์ไร้สายไปยังเซิร์ฟเวอร์ RADIUS ตัวนี้\n\n❌ ทำไมข้ออื่นผิด:\nA. CoA เป็นฟีเจอร์เสริมสำหรับเปลี่ยนสิทธิ์กลางคัน ไม่จำเป็นต่อการยืนยันตัวตนพื้นฐาน\nB. Management ใช้กับการล็อกอินของผู้ดูแล ไม่ใช่ผู้ใช้ไร้สายตามโจทย์\nD. การปิด Server Status จะทำให้ WLC เลิกใช้เซิร์ฟเวอร์นี้ ซึ่งตรงข้ามกับเป้าหมาย\n\n📗 จำไว้สอบ: Network User = ไคลเอนต์ไร้สาย | Management = ผู้ดูแล WLC | RADIUS auth 1812, acct 1813 | CoA = RFC 5176',
+  },
+  {
+    id: 341,
+    kind: 'single',
+    prompt: 'After installing a new Cisco ISE server, which task must the engineer perform on the Cisco WLC to connect wireless clients on a specific VLAN based on their credentials?',
+    options: [
+      { key: 'A', text: 'Disable the LAG Mode on Next Reboot.' },
+      { key: 'B', text: 'Enable the Event Driven RRM.' },
+      { key: 'C', text: 'Enable the Allow AAA Override.' },
+      { key: 'D', text: 'Enable the Authorize MIC APs against auth-list or AAA' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — AAA Override คือสวิตช์ที่อนุญาตให้ค่าที่ส่งกลับมาจากเซิร์ฟเวอร์ AAA "ชนะ" ค่าที่ตั้งไว้บน WLAN\n\n🔍 กลไกการทำงาน:\n1️⃣ ผู้ใช้เชื่อมต่อ WLAN แล้วยืนยันตัวตนด้วย 802.1X/EAP ไปยัง ISE\n2️⃣ ISE ตรวจสอบตัวตนและนโยบาย แล้วตอบกลับด้วย RADIUS Access-Accept พร้อมแอตทริบิวต์เพิ่มเติม เช่น\n   • Tunnel-Type = VLAN (64)\n   • Tunnel-Medium-Type = 802 (65)\n   • Tunnel-Private-Group-ID = หมายเลข VLAN หรือชื่อ interface ⭐\n   • หรืออาจส่ง ACL name, QoS profile มาด้วย\n3️⃣ ถ้า "Allow AAA Override" ปิดอยู่ → WLC จะเมินแอตทริบิวต์เหล่านี้ทั้งหมด แล้วโยนผู้ใช้ทุกคนเข้า VLAN ที่ผูกกับ WLAN ตามเดิม ⭐\n4️⃣ ถ้าเปิดไว้ → WLC จะยอมย้ายผู้ใช้ไปยัง VLAN ที่ ISE สั่ง ⭐\n\n🎯 โจทย์ต้องการ "connect wireless clients on a specific VLAN based on their credentials" = แยก VLAN ตามตัวตนผู้ใช้ → ต้องเปิด Allow AAA Override\n\n💡 ตำแหน่งการตั้งค่า: WLANs → เลือก WLAN → แท็บ Advanced → ติ๊ก Allow AAA Override\n\n✅ ทำไม C ถูก: Allow AAA Override เป็นเงื่อนไขบังคับที่ทำให้ค่า VLAN/ACL/QoS ที่ส่งมาจาก ISE มีผลเหนือค่าที่กำหนดไว้บน WLAN\n\n❌ ทำไมข้ออื่นผิด:\nA. LAG เป็นเรื่องการรวมพอร์ตกายภาพ ไม่เกี่ยวกับการกำหนด VLAN ตามตัวตนผู้ใช้\nB. Event Driven RRM ใช้ปรับกำลังส่งเมื่อเกิดเหตุ RF ผิดปกติ เป็นเรื่องคลื่นวิทยุล้วน ๆ\nD. ตัวเลือกนี้ใช้ตรวจสอบสิทธิ์ของตัว AP เอง (ผ่านใบรับรอง MIC) ไม่ใช่ของผู้ใช้ไร้สาย\n\n📗 จำไว้สอบ: AAA Override = ให้ RADIUS สั่ง VLAN/ACL/QoS ได้ | แอตทริบิวต์คู่ 64/65/81 | ตั้งที่แท็บ Advanced ของ WLAN',
+  },
+  {
+    id: 342,
+    kind: 'single',
+    image: v2q342,
+    prompt: 'Refer to the exhibit. Router R1 is running three different routing protocols. Which route characteristic is used by the router to forward the packet that it receives for destination IP 172.16.32.1?',
+    options: [
+      { key: 'A', text: 'longest prefix' },
+      { key: 'B', text: 'administrative distance' },
+      { key: 'C', text: 'cost' },
+      { key: 'D', text: 'metric' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ลำดับการตัดสินใจของเราเตอร์ ห้ามสลับลำดับเด็ดขาด\n1️⃣ Longest prefix match ⭐ → prefix ที่ยาวที่สุดที่ครอบ IP ปลายทางชนะเสมอ มาก่อนทุกอย่าง\n2️⃣ Administrative distance → ใช้ตัดสินเมื่อมี "prefix เดียวกันเป๊ะ" มาจากหลายโปรโตคอล\n3️⃣ Metric → ใช้ตัดสินเมื่อ prefix เดียวกันและมาจากโปรโตคอลเดียวกัน\n\n🔍 อ่าน exhibit — ทั้งสามเส้นทางมี prefix length ต่างกัน:\n• D 172.16.32.0/27 [90/2888597172] via 20.1.1.1 ⭐ ยาวที่สุด\n• O 172.16.32.0/19 [110/292094] via 20.1.1.10\n• R 172.16.32.0/24 [120/2] via 20.1.1.3\n\n🧮 ตรวจว่า 172.16.32.1 อยู่ในช่วงของแต่ละอันหรือไม่:\n• /27 → block size 32 → 172.16.32.0–172.16.32.31 → .1 อยู่ในช่วง ✔\n• /24 → 172.16.32.0–172.16.32.255 → อยู่ ✔\n• /19 → block size 32 ที่ octet ที่ 3 → 172.16.32.0–172.16.63.255 → อยู่ ✔\n→ ครอบทั้งสามเส้น แต่ /27 ยาวที่สุด จึงชนะ ⭐\n\n⚠️ กับดักคลาสสิก: หลายคนเห็น AD แล้วรีบตอบ EIGRP เพราะ 90 น้อยที่สุด — แต่ AD จะใช้ก็ต่อเมื่อ prefix เท่ากันเป๊ะเท่านั้น ในข้อนี้ prefix ต่างกัน จึงไม่ถึงคิว AD เลย\n\n✅ ทำไม A ถูก: เกณฑ์แรกและเกณฑ์เดียวที่ถูกใช้ในกรณีนี้คือ longest prefix match เพราะเส้นทางทั้งสามมีความยาว prefix ไม่เท่ากัน\n\n❌ ทำไมข้ออื่นผิด:\nB. AD ใช้เมื่อ prefix เหมือนกันทุกประการ ซึ่งไม่ใช่กรณีนี้\nC. cost เป็น metric ของ OSPF ใช้เปรียบเทียบภายในโปรโตคอลเดียวกันเท่านั้น\nD. metric ใช้เป็นเกณฑ์สุดท้ายภายในโปรโตคอลเดียวกัน ยังไม่ถึงลำดับนั้น\n\n📗 จำไว้สอบ: prefix ยาวสุด → AD ต่ำสุด → metric ต่ำสุด (ตามลำดับเสมอ)',
+  },
+  {
+    id: 343,
+    kind: 'single',
+    image: v2q343,
+    prompt: 'Refer to the exhibit. Router R1 Fa0/0 cannot ping router R3 Fa0/1. Which action must be taken in router R1 to help resolve the configuration issue?',
+    options: [
+      { key: 'A', text: 'set the default gateway as 20.20.20.2' },
+      { key: 'B', text: 'configure a static route with Fa0/1 as the egress interface to reach the 20.20.2.0/24 network' },
+      { key: 'C', text: 'configure a static route with 10.10.10.2 as the next hop to reach the 20.20.20.0/24 network' },
+      { key: 'D', text: 'set the default network as 20.20.20.0/24' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ping จะสำเร็จก็ต่อเมื่อ "ไปได้" และ "กลับได้" ต้องตรวจตารางเส้นทางของทุกฮอปตลอดทาง\n\n🔍 อ่าน exhibit ทีละเครื่อง:\n• R1: มีแต่ C 10.10.10.0 directly connected Fa0/0 → ไม่รู้จัก 20.20.20.0/24 เลย ⭐ นี่คือปัญหา\n• R2: รู้จักทั้ง 10.10.10.0 (Fa0/0) และ 20.20.20.0 (Fa0/1) → เป็นทางผ่านที่พร้อมแล้ว\n• R3: มี C 20.20.20.0 และ S 10.10.10.0 via 20.20.20.1 → ขากลับพร้อมแล้ว ✔\n\n🎯 สรุปปัญหา: ขาไปไม่ผ่าน เพราะ R1 ไม่มีเส้นทางไป 20.20.20.0/24 → เมื่อไม่มีเส้นทางและไม่มี default route เราเตอร์จะทิ้งแพ็กเก็ตทันที\n\n🧩 ทางแก้: เพิ่ม static route บน R1 โดยชี้ next hop ไปที่ IP ฝั่ง R2 ที่อยู่ในซับเน็ตเดียวกันกับ R1 ⭐\nR1(config)# ip route 20.20.20.0 255.255.255.0 10.10.10.2\n→ 10.10.10.2 คือ Fa0/0 ของ R2 ซึ่ง R1 ติดต่อได้โดยตรง\n\n⚠️ ทำไมต้องเป็น 10.10.10.2 ไม่ใช่ 20.20.20.2: next hop ต้องเป็นที่อยู่ที่เราเตอร์ "เอื้อมถึงได้โดยตรง" เท่านั้น R1 ไม่มีทางส่งเฟรมไปหา 20.20.20.2 ได้เพราะไม่ได้อยู่ซับเน็ตเดียวกัน\n\n✅ ทำไม C ถูก: เติมเส้นทางที่ขาดหายบน R1 โดยชี้ไปยัง 10.10.10.2 ซึ่งเป็นฮอปถัดไปที่เอื้อมถึงได้จริง ทำให้แพ็กเก็ตเดินทางไปถึง R3 ได้และมีเส้นทางกลับพร้อมอยู่แล้ว\n\n❌ ทำไมข้ออื่นผิด:\nA. คำสั่ง ip default-gateway ใช้ได้เฉพาะตอนที่ปิดการทำงาน routing (no ip routing) และ 20.20.20.2 ก็ไม่ได้อยู่ในซับเน็ตของ R1\nB. ระบุเครือข่ายผิด (20.20.2.0 แทนที่จะเป็น 20.20.20.0) และการใช้ Fa0/1 เป็นทางออกก็ผิด เพราะเส้นทางออกของ R1 คือ Fa0/0\nD. คำสั่ง ip default-network เป็นวิธีแบบเก่าที่ใช้กับเครือข่ายแบบ classful และไม่ได้แก้ปัญหาการขาดเส้นทางเฉพาะเจาะจงนี้\n\n📗 จำไว้สอบ: ping ต้องมีทั้งขาไปและขากลับ | next hop ต้องอยู่ซับเน็ตเดียวกัน | ไม่มีเส้นทาง = ทิ้งแพ็กเก็ตทันที',
+  },
+  {
+    id: 344,
+    kind: 'single',
+    prompt: 'By default, how does EIGRP determine the metric of a route for the routing table?',
+    options: [
+      { key: 'A', text: 'It uses the bandwidth and delay values of the path to calculate the route metric.' },
+      { key: 'B', text: 'It uses a default metric of 10 for all routes that are learned by the router.' },
+      { key: 'C', text: 'It counts the number of hops between the receiving and destination routers and uses that value as the metric.' },
+      { key: 'D', text: 'It uses a reference bandwidth and the actual bandwidth of the connected link to calculate the route metric.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — EIGRP ใช้ composite metric ที่คำนวณจากค่า K ทั้ง 5 ตัว\n\n🔍 ค่า K เริ่มต้น: K1=1, K2=0, K3=1, K4=0, K5=0 ⭐\n→ เพราะ K2, K4, K5 เป็นศูนย์ จึงเหลือเพียง K1 (bandwidth) และ K3 (delay) ที่มีผลจริง ⭐\n→ สรุป: โดยค่าเริ่มต้น EIGRP คำนวณ metric จาก "bandwidth ต่ำสุดตลอดเส้นทาง" และ "ผลรวมของ delay ตลอดเส้นทาง"\n\n🧮 สูตรแบบคลาสสิก:\nmetric = 256 × [ (10^7 / bandwidth ต่ำสุด ในหน่วย Kbps) + (ผลรวม delay ในหน่วย ไมโครวินาที / 10) ]\n\n💡 ค่า K ที่เหลือใช้เมื่อไร:\n• K2 = load, K4/K5 = reliability → ปิดไว้โดยเจตนา เพราะค่าพวกนี้เปลี่ยนตลอดเวลา จะทำให้เส้นทางไม่นิ่งและเกิด route flapping\n\n⚠️ กติกาสำคัญ: ค่า K ของเราเตอร์สองตัวต้องตรงกัน มิฉะนั้นจะไม่เกิดความสัมพันธ์เพื่อนบ้าน (neighbor adjacency)\n\n✅ ทำไม A ถูก: ค่าเริ่มต้นของ EIGRP ใช้เฉพาะ bandwidth และ delay ในการคำนวณ metric ตามค่า K1 และ K3 ที่เปิดอยู่\n\n❌ ทำไมข้ออื่นผิด:\nB. ไม่มี metric คงที่ 10 — ค่านั้นคือ hop count เริ่มต้นของ RIP ในบางบริบทหรือค่าเริ่มต้นของการ redistribute เท่านั้น\nC. การนับ hop เป็นวิธีของ RIP ส่วน EIGRP ใช้ hop count แค่จำกัดเส้นผ่านศูนย์กลางเครือข่าย (สูงสุด 100 ปรับได้ถึง 255) ไม่ได้ใช้เป็น metric\nD. reference bandwidth หารด้วย bandwidth จริงคือวิธีคำนวณ cost ของ OSPF ไม่ใช่ EIGRP\n\n📗 จำไว้สอบ: EIGRP = bandwidth + delay (K1, K3) | OSPF = reference bandwidth / bandwidth | RIP = hop count | ค่า K ต้องตรงกันจึงเป็นเพื่อนบ้านได้',
+  },
+  {
+    id: 345,
+    kind: 'single',
+    prompt: 'Router R1 must send all traffic without a matching routing-table entry to 192.168.1.1. Which configuration accomplishes this task?',
+    options: [
+      { key: 'A', text: 'R1(config)#ip routing / R1(config)#ip route default-route 192.168.1.1' },
+      { key: 'B', text: 'R1(config)#ip routing / R1(config)#ip route 192.168.1.1 0.0.0.0 0.0.0.0' },
+      { key: 'C', text: 'R1(config)#ip routing / R1(config)#ip route 0.0.0.0 0.0.0.0 192.168.1.1' },
+      { key: 'D', text: 'R1(config)#ip routing / R1(config)#ip default-gateway 192.168.1.1' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — "traffic without a matching routing-table entry" คือนิยามของ default route (gateway of last resort)\n\n🔍 ไวยากรณ์ที่ถูกต้อง:\nip route <network> <mask> <next-hop หรือ exit-interface>\n→ default route คือ ip route 0.0.0.0 0.0.0.0 192.168.1.1 ⭐\n\n🧮 ทำไมต้องเป็น 0.0.0.0 0.0.0.0:\n• เครือข่าย 0.0.0.0 กับ mask 0.0.0.0 หมายถึง "ไม่สนใจบิตใดเลย" → ตรงกับทุก IP ปลายทาง\n• เพราะมี prefix length = 0 ซึ่งสั้นที่สุด จึงถูกใช้เป็นทางเลือกสุดท้ายเสมอตามหลัก longest prefix match ⭐\n\n💡 ตรวจสอบผลลัพธ์: หลังใส่คำสั่งนี้ show ip route จะขึ้นบรรทัด "Gateway of last resort is 192.168.1.1 to network 0.0.0.0" และมีรายการ S* 0.0.0.0/0 [1/0] via 192.168.1.1 (เครื่องหมาย * หมายถึงเป็น candidate default)\n\n⚠️ ip default-gateway ต่างกันอย่างไร: คำสั่งนั้นใช้กับอุปกรณ์ที่ "ไม่ได้ทำ routing" เช่น สวิตช์ชั้นที่ 2 หรือเราเตอร์ที่สั่ง no ip routing เท่านั้น บนเราเตอร์ที่ routing ทำงานอยู่คำสั่งนี้จะถูกเมิน\n\n✅ ทำไม C ถูก: เป็นไวยากรณ์ static default route ที่ถูกต้อง ส่งทราฟฟิกที่ไม่ตรงกับเส้นทางใดเลยไปยัง 192.168.1.1\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีคีย์เวิร์ด default-route ในคำสั่ง ip route\nB. สลับตำแหน่ง — เอา next hop ไปไว้ตำแหน่งของ network และเอา 0.0.0.0 ไปไว้ตำแหน่ง next hop\nD. ip default-gateway ใช้ได้เฉพาะเมื่อ IP routing ถูกปิด ซึ่งขัดกับบรรทัด ip routing ที่พิมพ์ไว้\n\n📗 จำไว้สอบ: ip route 0.0.0.0 0.0.0.0 <next-hop> = default route | ip default-gateway = เฉพาะอุปกรณ์ที่ไม่ทำ routing | prefix /0 = ตรงกับทุกอย่าง จึงถูกเลือกท้ายสุด',
+  },
+  {
+    id: 346,
+    kind: 'single',
+    prompt: 'A packet is destined for 10.10.1.22. Which static route does the router choose to forward the packet?',
+    options: [
+      { key: 'A', text: 'ip route 10.10.1.0 255.255.255.240 10.10.255.1' },
+      { key: 'B', text: 'ip route 10.10.1.20 255.255.255.252 10.10.255.1' },
+      { key: 'C', text: 'ip route 10.10.1.16 255.255.255.252 10.10.255.1' },
+      { key: 'D', text: 'ip route 10.10.1.20 255.255.255.254 10.10.255.1' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ต้องทำสองขั้น: ① เช็คว่า IP ปลายทางอยู่ในช่วงของแต่ละเส้นทางหรือไม่ ② ในบรรดาที่ครอบ ให้เลือก prefix ที่ยาวที่สุด\n\n🧮 คำนวณทีละตัวเลือก (ปลายทาง = 10.10.1.22):\n\nA. 10.10.1.0/28 (mask 255.255.255.240)\n• block size = 256 − 240 = 16 → ช่วงคือ 10.10.1.0 – 10.10.1.15\n• 22 อยู่นอกช่วง ✘\n\nB. 10.10.1.20/30 (mask 255.255.255.252) ⭐\n• block size = 256 − 252 = 4 → ขอบเขต .16, .20, .24 → ช่วงคือ 10.10.1.20 – 10.10.1.23\n• 22 อยู่ในช่วง ✔ (usable = .21 และ .22)\n\nC. 10.10.1.16/30\n• block size 4 → ช่วงคือ 10.10.1.16 – 10.10.1.19\n• 22 อยู่นอกช่วง ✘\n\nD. 10.10.1.20 mask 255.255.255.254 = /31\n• block size = 256 − 254 = 2 → ช่วงคือ 10.10.1.20 – 10.10.1.21\n• 22 อยู่นอกช่วง ✘\n\n🎯 มีเพียงตัวเลือก B เท่านั้นที่ครอบ 10.10.1.22 จึงไม่ต้องเทียบความยาว prefix ต่อ\n\n💡 เทคนิคหาช่วงเร็ว: block size = 256 − ค่า octet สุดท้ายของ mask แล้วไล่ขอบเขตเป็นพหุคูณของ block size\n\n✅ ทำไม B ถูก: 10.10.1.20/30 ครอบคลุมช่วง .20 ถึง .23 ซึ่ง 10.10.1.22 ตกอยู่ในนั้นพอดี และเป็นเส้นทางเดียวที่ตรงกัน\n\n❌ ทำไมข้ออื่นผิด:\nA. /28 จบที่ .15 ไม่ถึง .22\nC. /30 ที่เริ่ม .16 จบที่ .19 ไม่ถึง .22\nD. /31 ที่เริ่ม .20 จบที่ .21 ไม่ถึง .22\n\n📗 จำไว้สอบ: /28→block 16 | /29→8 | /30→4 | /31→2 • หา block size ก่อน แล้วไล่ขอบเขตเป็นพหุคูณ',
+  },
+  {
+    id: 347,
+    kind: 'single',
+    image: v2q347,
+    prompt: 'Refer to the exhibit. How does the router manage traffic to 192.168.12.16?',
+    options: [
+      { key: 'A', text: 'It chooses the EIGRP route because it has the lowest administrative distance.' },
+      { key: 'B', text: 'It load-balances traffic between all three routes.' },
+      { key: 'C', text: 'It chooses the OSPF route because it has the longest prefix inclusive of the destination address.' },
+      { key: 'D', text: 'It selects the RIP route because it has the longest prefix inclusive of the destination address.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "inclusive of the destination address" หมายความว่า prefix นั้นต้องครอบ IP ปลายทางด้วย ไม่ใช่แค่ยาวที่สุด\n\n🔍 เส้นทางจาก exhibit:\n• EIGRP: 192.168.12.0/24\n• RIP: 192.168.12.0/27\n• OSPF: 192.168.12.0/28 ← ยาวที่สุด แต่ต้องเช็คช่วงก่อน\n\n🧮 ตรวจว่า 192.168.12.16 อยู่ในช่วงใดบ้าง:\n• /28 → block size = 256 − 240 = 16 → ช่วง 192.168.12.0 – 192.168.12.15\n  → .16 อยู่นอกช่วง ✘ ⭐ (ขอบเขตถัดไปคือ .16 ซึ่งเป็นเครือข่ายใหม่ ไม่ใช่ .0/28)\n• /27 → block size = 256 − 224 = 32 → ช่วง 192.168.12.0 – 192.168.12.31\n  → .16 อยู่ในช่วง ✔ ⭐\n• /24 → ช่วง 192.168.12.0 – 192.168.12.255 → อยู่ ✔ แต่สั้นกว่า /27\n\n🎯 ในบรรดาเส้นทางที่ "ครอบจริง" คือ /27 (RIP) และ /24 (EIGRP) → /27 ยาวกว่า จึงชนะ ⭐\n\n⚠️ กับดักสองชั้นของข้อนี้:\n1️⃣ เห็น /28 ยาวสุดแล้วรีบตอบ OSPF โดยไม่ตรวจว่าช่วงครอบหรือไม่\n2️⃣ เห็น AD ของ EIGRP = 90 ต่ำสุดแล้วรีบตอบ EIGRP — แต่ AD จะใช้ก็ต่อเมื่อ prefix เท่ากันเป๊ะ ซึ่งไม่ใช่กรณีนี้\n\n✅ ทำไม D ถูก: เส้นทาง RIP /27 เป็น prefix ที่ยาวที่สุดในบรรดาเส้นทางที่ครอบคลุม 192.168.12.16 จริง จึงถูกเลือกใช้\n\n❌ ทำไมข้ออื่นผิด:\nA. AD ใช้เมื่อ prefix เหมือนกันทุกประการเท่านั้น\nB. เส้นทางคนละ prefix ไม่มีการโหลดบาลานซ์ (โหลดบาลานซ์ต้อง prefix เดียวกันและ metric เท่ากันในโปรโตคอลเดียวกัน)\nC. /28 ครอบแค่ .0 ถึง .15 ไม่ถึง .16 จึงไม่เข้าข่ายเลย\n\n📗 จำไว้สอบ: ต้อง "ครอบ" ก่อน แล้วค่อยดู "ยาวที่สุด" | /28 block 16 | /27 block 32 | /26 block 64',
+  },
+  {
+    id: 348,
+    kind: 'multi',
+    prompt: 'What are two reasons for an engineer to configure a floating static route? (Choose two.)',
+    options: [
+      { key: 'A', text: 'to enable fallback static routing when the dynamic routing protocol fails' },
+      { key: 'B', text: 'to route traffic differently based on the source IP of the packet' },
+      { key: 'C', text: 'to automatically route traffic on a secondary path when the primary path goes down' },
+      { key: 'D', text: 'to support load balancing via static routing' },
+      { key: 'E', text: 'to control the return path of traffic that is sent from the router' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '📘 แนวคิด — floating static route คือ static route ที่ตั้ง AD "สูงกว่า" เส้นทางหลักโดยเจตนา\n\n🔍 กลไก:\n• static route ปกติมี AD = 1 ซึ่งต่ำกว่าทุกโปรโตคอลไดนามิก จึงชนะเสมอ\n• ถ้าอยากให้มันเป็นแค่ "ตัวสำรอง" ต้องตั้ง AD ให้สูงกว่าเส้นทางหลัก ⭐\n  ตัวอย่าง: ip route 10.0.0.0 255.0.0.0 192.168.1.2 200\n  → AD 200 สูงกว่า OSPF (110) และ EIGRP (90) จึงถูกซ่อนไว้ ไม่เข้าตารางเส้นทาง\n• เมื่อเส้นทางหลักหายไปจากตาราง (โปรโตคอลล้ม หรือลิงก์ล่ม) → floating static จะโผล่เข้ามาทำงานแทนอัตโนมัติ ⭐\n• เมื่อเส้นทางหลักกลับมา → floating static ถอยกลับไปซ่อนตัวเหมือนเดิม\n\n🎯 สองเหตุผลที่ตรงกับนิยาม:\n• A → เป็นเส้นทางสำรองเมื่อโปรโตคอลไดนามิกล้มเหลว ⭐\n• C → สลับไปใช้เส้นทางรองอัตโนมัติเมื่อเส้นทางหลักล่ม ⭐\n(ทั้งสองข้อคือด้านสองด้านของแนวคิดเดียวกัน)\n\n💡 การใช้งานจริงที่พบบ่อย: ลิงก์หลักเป็น MPLS ที่รัน BGP/OSPF ส่วนลิงก์สำรองเป็น 4G/อินเทอร์เน็ตที่ตั้งเป็น floating static ไว้\n\n✅ ทำไม A, C ถูก: ทั้งคู่อธิบายบทบาทของ floating static route ในฐานะเส้นทางสำรองที่เข้ามาทำงานอัตโนมัติเมื่อเส้นทางหลักใช้การไม่ได้\n\n❌ ทำไมข้ออื่นผิด:\nB. การเลือกเส้นทางตาม source IP คือหน้าที่ของ Policy-Based Routing (PBR) ไม่ใช่ static route\nD. floating static ไม่ได้ทำโหลดบาลานซ์ เพราะมันจะไม่ปรากฏในตารางพร้อมกับเส้นทางหลักเลย (ถ้าอยากโหลดบาลานซ์ต้องตั้ง AD เท่ากัน)\nE. เราเตอร์ควบคุมได้เฉพาะทิศทางขาออกของตัวเอง ไม่สามารถบังคับเส้นทางขากลับของอีกฝั่งได้\n\n📗 จำไว้สอบ: floating static = static ที่ AD สูงกว่าเส้นทางหลัก | static ปกติ AD 1 | ต้องใส่เลข AD ต่อท้ายคำสั่ง ip route',
+  },
+  {
+    id: 349,
+    kind: 'single',
+    image: v2q349,
+    prompt: 'Refer to the exhibit. How does router R1 handle traffic to 192.168.10.16?',
+    options: [
+      { key: 'A', text: 'It selects the IS-IS route because it has the shortest prefix inclusive of the destination address' },
+      { key: 'B', text: 'It selects the RIP route because it has the longest prefix inclusive of the destination address' },
+      { key: 'C', text: 'It selects the OSPF route because it has the lowest cost' },
+      { key: 'D', text: 'It selects the EIGRP route because it has the lowest administrative distance' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ใช้หลัก longest prefix match แต่ต้องตรวจ "ช่วง" ก่อนเสมอ\n\n🔍 ตารางเส้นทางจาก exhibit (ปลายทาง = 192.168.10.16):\n• D 192.168.10.0/24 [90/2679326] via 192.168.1.1\n• R 192.168.10.0/27 [120/3] via 192.168.1.2 ⭐\n• O 192.168.10.0/23 [110/2] via 192.168.1.3\n• i L1 192.168.10.0/13 [115/30] via 192.168.1.4\n\n🧮 ตรวจว่า .16 อยู่ในช่วงของแต่ละอันหรือไม่:\n• /27 → block size = 256 − 224 = 32 → ช่วง 192.168.10.0 – 192.168.10.31 → .16 อยู่ ✔ ⭐ และยาวที่สุด\n• /24 → 192.168.10.0 – 192.168.10.255 → อยู่ ✔ แต่สั้นกว่า\n• /23 → block 2 ที่ octet ที่ 3 → 192.168.10.0 – 192.168.11.255 → อยู่ ✔ แต่สั้นกว่า\n• /13 → ครอบกว้างมาก → อยู่ ✔ แต่สั้นที่สุด\n\n🎯 ทั้งสี่เส้นครอบปลายทางทั้งหมด จึงตัดสินด้วยความยาว prefix: /27 > /24 > /23 > /13 → RIP ชนะ ⭐\n\n⚠️ กับดัก: AD ของ RIP คือ 120 ซึ่งสูงที่สุดในกลุ่มนี้ แต่ไม่มีผลเลย เพราะ AD จะถูกนำมาใช้ก็ต่อเมื่อ prefix เท่ากันเป๊ะเท่านั้น\n\n✅ ทำไม B ถูก: เส้นทาง RIP มี prefix /27 ยาวที่สุดในบรรดาเส้นทางที่ครอบคลุม 192.168.10.16 จึงถูกเลือกไม่ว่า AD จะสูงเพียงใด\n\n❌ ทำไมข้ออื่นผิด:\nA. IS-IS มี /13 ซึ่งเป็น prefix ที่สั้นที่สุด จึงถูกเลือกเป็นลำดับสุดท้าย\nC. cost ของ OSPF ใช้เปรียบเทียบภายใน OSPF ด้วยกันเอง ไม่ใช่ข้ามโปรโตคอล\nD. AD ต่ำสุดของ EIGRP จะมีความหมายก็ต่อเมื่อ prefix เท่ากับเส้นทางอื่น ซึ่งไม่ใช่กรณีนี้\n\n📗 จำไว้สอบ: longest prefix match มาก่อน AD เสมอ | AD: EIGRP 90 < OSPF 110 < IS-IS 115 < RIP 120',
+  },
+  {
+    id: 350,
+    kind: 'multi',
+    image: v2q350,
+    prompt: 'Refer to the exhibit. A router received these five routes from different routing information sources. Which two routes does the router install in its routing table? (Choose two.)',
+    options: [
+      { key: 'A', text: 'OSPF route 10.0.0.0/30' },
+      { key: 'B', text: 'IBGP route 10.0.0.0/30' },
+      { key: 'C', text: 'OSPF route 10.0.0.0/16' },
+      { key: 'D', text: 'EIGRP route 10.0.0.1/32' },
+      { key: 'E', text: 'RIP route 10.0.0.0/30' },
+    ],
+    correct: ['A', 'D'],
+    explanation:
+      '📘 แนวคิด — เส้นทางที่มี prefix เดียวกันเป๊ะเท่านั้นที่ต้องแข่งกันด้วย AD ส่วน prefix ต่างกันจะเข้าตารางแยกกันได้\n\n🔍 เส้นทางทั้งห้าจาก exhibit:\n1. IBGP 10.0.0.0/30 → AD 200\n2. RIP 10.0.0.0/30 → AD 120\n3. OSPF 10.0.0.0/16 → AD 110\n4. OSPF 10.0.0.0/30 → AD 110 ⭐\n5. EIGRP 10.0.0.1/32 → AD 90 ⭐\n\n🧩 ขั้นที่ 1: จัดกลุ่มตาม prefix\n• กลุ่ม 10.0.0.0/30 มีสามผู้แข่งขัน: IBGP (200), RIP (120), OSPF (110)\n  → AD ต่ำสุดชนะ = OSPF ⭐ → ตัวเลือก A เข้าตาราง ส่วน B และ E ถูกคัดออก\n• 10.0.0.1/32 จาก EIGRP → ไม่มีคู่แข่งที่ prefix เดียวกัน → เข้าตารางได้เลย ⭐ → ตัวเลือก D\n\n🎯 คำตอบที่ข้อสอบต้องการคือ A และ D ซึ่งเป็นสองเส้นทางที่ "ชนะการแข่งขัน" อย่างชัดเจน\n\n💡 หมายเหตุเชิงเทคนิคที่ควรรู้: ในทางปฏิบัติเส้นทาง OSPF 10.0.0.0/16 ก็จะเข้าตารางด้วยเช่นกัน เพราะเป็นคนละ prefix จึงไม่ได้แข่งกับใคร — แต่โจทย์ให้เลือกเพียงสองข้อ และประเด็นที่ข้อสอบต้องการวัดคือการเปรียบเทียบ AD ในกลุ่ม /30 และการที่ prefix เฉพาะเจาะจงอย่าง /32 ไม่ต้องแข่งกับใคร\n\n✅ ทำไม A, D ถูก: OSPF /30 ชนะ IBGP และ RIP ด้วย AD 110 ที่ต่ำที่สุดในกลุ่มเดียวกัน ส่วน EIGRP /32 เป็น prefix เฉพาะตัวที่ไม่มีคู่แข่ง จึงเข้าตารางทั้งคู่\n\n❌ ทำไมข้ออื่นผิด:\nB. IBGP มี AD 200 สูงที่สุด แพ้ให้ OSPF ในกลุ่ม /30 เดียวกัน\nC. เป็น prefix ที่กว้างที่สุดและไม่ใช่ประเด็นที่โจทย์ต้องการเปรียบเทียบ\nE. RIP มี AD 120 แพ้ OSPF ที่มี AD 110 ในกลุ่ม /30\n\n📗 จำไว้สอบ: AD — Connected 0 | Static 1 | EBGP 20 | EIGRP 90 | OSPF 110 | IS-IS 115 | RIP 120 | EIGRP external 170 | IBGP 200',
+  },
+  {
+    id: 351,
+    kind: 'single',
+    prompt: 'Refer to the exhibit. To which device does Router1 send packets that are destined to host 10.10.13.165?',
+    options: [
+      { key: 'A', text: 'Router2' },
+      { key: 'B', text: 'Router3' },
+      { key: 'C', text: 'Router4' },
+      { key: 'D', text: 'Router5' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ข้อนี้เป็นแบบฝึกหัด longest prefix match มาตรฐาน วิธีทำมีสองขั้นเสมอ\n1️⃣ คำนวณช่วงที่อยู่ของทุกเส้นทางในตาราง แล้วคัดเฉพาะเส้นที่ "ครอบ" 10.10.13.165\n2️⃣ ในบรรดาที่ครอบ เลือกเส้นที่ prefix ยาวที่สุด แล้วดูว่า next hop คืออุปกรณ์ตัวใด\n\n🧮 วิธีคำนวณช่วงอย่างรวดเร็ว (ปลายทาง 10.10.13.165):\n• /25 → block 128 → ขอบเขต .0 และ .128 → 165 อยู่กลุ่ม 10.10.13.128 – 10.10.13.255\n• /26 → block 64 → ขอบเขต .0/.64/.128/.192 → 165 อยู่กลุ่ม 10.10.13.128 – 10.10.13.191\n• /27 → block 32 → ขอบเขต .128/.160/.192 → 165 อยู่กลุ่ม 10.10.13.160 – 10.10.13.191\n• /28 → block 16 → ขอบเขต .160/.176 → 165 อยู่กลุ่ม 10.10.13.160 – 10.10.13.175\n• /29 → block 8 → ขอบเขต .160/.168 → 165 อยู่กลุ่ม 10.10.13.160 – 10.10.13.167\n→ ยิ่ง prefix ยาว ช่วงยิ่งแคบ และเส้นที่แคบที่สุดที่ยังครอบ .165 อยู่คือเส้นที่ชนะ ⭐\n\n🎯 จากตารางในโจทย์ เส้นทางที่มี prefix ยาวที่สุดและครอบ 10.10.13.165 ชี้ไปยัง Router3 ⭐\n\n⚠️ ข้อควรระวัง: อย่าเลือกจาก AD หรือ metric ก่อน — สองค่านั้นใช้ก็ต่อเมื่อ prefix ยาวเท่ากันเป๊ะเท่านั้น\n\n✅ ทำไม B ถูก: เส้นทางที่มี prefix ยาวที่สุดซึ่งยังคงครอบคลุมที่อยู่ 10.10.13.165 มี next hop เป็น Router3 ตามหลัก longest prefix match\n\n❌ ทำไมข้ออื่นผิด:\nA, C, D. เป็น next hop ของเส้นทางที่ prefix สั้นกว่า (ครอบกว้างกว่า) จึงถูกใช้เฉพาะกรณีที่ไม่มีเส้นที่เฉพาะเจาะจงกว่านี้\n\n📗 จำไว้สอบ: block size = 256 − ค่า octet ของ mask | /25→128 /26→64 /27→32 /28→16 /29→8 /30→4 | prefix ยาวสุดชนะก่อน AD เสมอ',
+  },
+  {
+    id: 352,
+    kind: 'single',
+    prompt: 'R1 has learned route 10.10.10.0/24 via numerous routing protocols. Which route is installed?',
+    options: [
+      { key: 'A', text: 'route with the next hop that has the highest IP' },
+      { key: 'B', text: 'route with the lowest cost' },
+      { key: 'C', text: 'route with the lowest administrative distance' },
+      { key: 'D', text: 'route with the shortest prefix length' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์คือ "route 10.10.10.0/24" เพียงตัวเดียว แต่มาจากหลายโปรโตคอล\n→ prefix เหมือนกันเป๊ะ (ทั้งเลขเครือข่ายและความยาว) → ข้ามขั้น longest prefix match ไปเลย\n→ ตัวตัดสินคือ Administrative Distance ⭐\n\n🔍 AD คือ "ระดับความน่าเชื่อถือ" ของแหล่งข้อมูล ยิ่งน้อยยิ่งน่าเชื่อถือ:\n• Connected = 0\n• Static = 1\n• EBGP = 20\n• EIGRP (internal) = 90 ⭐\n• OSPF = 110\n• IS-IS = 115\n• RIP = 120\n• EIGRP external = 170\n• IBGP = 200\n• Unreachable = 255 (ไม่เข้าตารางเลย)\n\n🧩 ลำดับการตัดสินใจเต็มรูปแบบ (ต้องท่องให้ขึ้นใจ):\n1️⃣ Longest prefix match\n2️⃣ Administrative Distance ⭐ ← ข้อนี้อยู่ขั้นนี้\n3️⃣ Metric (ภายในโปรโตคอลเดียวกัน)\n\n💡 เหตุผลที่ต้องมี AD: metric ของแต่ละโปรโตคอลใช้หน่วยคนละแบบ (OSPF ใช้ cost, RIP ใช้จำนวน hop, EIGRP ใช้ bandwidth/delay) จึงเทียบกันตรง ๆ ไม่ได้ ต้องมีตัวเลขกลางอย่าง AD มาตัดสินแทน\n\n✅ ทำไม C ถูก: เมื่อ prefix เหมือนกันทุกประการ เราเตอร์จะเลือกเส้นทางจากโปรโตคอลที่มี AD ต่ำที่สุดมาใส่ตารางเส้นทาง\n\n❌ ทำไมข้ออื่นผิด:\nA. ค่า IP ของ next hop ไม่ใช่เกณฑ์ตัดสินใด ๆ ในการเลือกเส้นทาง\nB. cost เป็น metric เฉพาะของ OSPF ใช้เทียบข้ามโปรโตคอลไม่ได้\nD. prefix ในโจทย์เท่ากันหมด (/24) และหลักที่ถูกต้องคือ "ยาวที่สุด" ไม่ใช่ "สั้นที่สุด"\n\n📗 จำไว้สอบ: prefix ยาวสุด → AD ต่ำสุด → metric ต่ำสุด | AD 255 = ไม่ใช้เส้นทางนั้น',
+  },
+  {
+    id: 353,
+    kind: 'multi',
+    prompt: 'Which two minimum parameters must be configured on an active interface to enable OSPFv2 to operate? (Choose two.)',
+    options: [
+      { key: 'A', text: 'OSPF process ID' },
+      { key: 'B', text: 'OSPF MD5 authentication key' },
+      { key: 'C', text: 'OSPF stub flag' },
+      { key: 'D', text: 'IPv6 address' },
+      { key: 'E', text: 'OSPF area' },
+    ],
+    correct: ['A', 'E'],
+    explanation:
+      '📘 แนวคิด — สิ่งที่ "ขาดไม่ได้" เพื่อให้ OSPFv2 เริ่มทำงานบนอินเทอร์เฟซ\n\n🔍 คอนฟิกขั้นต่ำสุด 2 แบบ:\n\n🔹 แบบเดิม (network statement):\nrouter ospf 1          ← process ID ⭐\n network 10.0.0.0 0.0.0.255 area 0   ← area ⭐\n\n🔹 แบบใหม่ (interface mode):\ninterface gi0/0\n ip ospf 1 area 0      ← มีทั้ง process ID และ area ในบรรทัดเดียว ⭐\n\n🎯 สรุปว่ามีสองค่าที่บังคับ:\n1️⃣ OSPF process ID ⭐ → เลข 1–65535 มีความหมาย "เฉพาะภายในเราเตอร์ตัวนั้น" (locally significant) เราเตอร์สองตัวใช้ process ID ต่างกันก็เป็นเพื่อนบ้านกันได้\n2️⃣ OSPF area ⭐ → ต้องตรงกันทั้งสองฝั่งของลิงก์ ไม่เช่นนั้นจะไม่เกิด adjacency\n\n💡 สิ่งที่ต้องตรงกันเพื่อเป็นเพื่อนบ้าน OSPF: area ID, hello/dead interval, ซับเน็ตและ subnet mask, การยืนยันตัวตน, ค่า MTU, ค่า stub flag และ router ID ต้องไม่ซ้ำกัน\n\n✅ ทำไม A, E ถูก: process ID ใช้เปิดกระบวนการ OSPF บนเราเตอร์ และ area ใช้ระบุว่าอินเทอร์เฟซนั้นอยู่ในพื้นที่ใด ทั้งสองเป็นค่าบังคับ\n\n❌ ทำไมข้ออื่นผิด:\nB. การยืนยันตัวตนด้วย MD5 เป็นทางเลือกเสริมเพื่อความปลอดภัย ไม่ใช่ค่าบังคับ\nC. stub flag เป็นคุณสมบัติของ area ที่จะตั้งหรือไม่ก็ได้ ไม่ใช่ค่าขั้นต่ำ\nD. OSPFv2 ทำงานกับ IPv4 เท่านั้น ส่วนที่ใช้ IPv6 คือ OSPFv3\n\n📗 จำไว้สอบ: OSPFv2 ขั้นต่ำ = process ID + area | process ID ไม่ต้องตรงกัน | area ต้องตรงกัน | OSPFv3 = IPv6',
+  },
+  {
+    id: 354,
+    kind: 'single',
+    image: v2q354,
+    prompt: 'Refer to the exhibit. What commands are needed to add a sub-interface to Ethernet0/0 on R1 to allow for VLAN 20, with IP address 10.20.20.1/24?',
+    options: [
+      { key: 'A', text: 'R1(config)#interface ethernet0/0 / encapsulation dot1q 20 / ip address 10.20.20.1 255.255.255.0' },
+      { key: 'B', text: 'R1(config)#interface ethernet0/0.20 / encapsulation dot1q 20 / ip address 10.20.20.1 255.255.255.0' },
+      { key: 'C', text: 'R1(config)#interface ethernet0/0.20 / ip address 10.20.20.1 255.255.255.0' },
+      { key: 'D', text: 'R1(config)#interface ethernet0/0 / ip address 10.20.20.1 255.255.255.0' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — Router-on-a-Stick (ROAS) คือการให้เราเตอร์ตัวเดียวทำ inter-VLAN routing ผ่านสายเส้นเดียวที่เป็น trunk\n\n🔍 อ่าน exhibit: R1 Ethernet0/0 ตั้ง "no ip address" ไว้ และ SW1 Ethernet0/0 เป็น trunk แบบ dot1q แล้ว → พร้อมสำหรับ ROAS\n\n🧩 องค์ประกอบที่ขาดไม่ได้ 3 อย่าง:\n1️⃣ สร้าง subinterface → interface ethernet0/0.20 ⭐ (เลขหลังจุดเป็นแค่ชื่อ นิยมตั้งให้ตรงกับ VLAN เพื่อความอ่านง่าย)\n2️⃣ ระบุการห่อแท็ก → encapsulation dot1q 20 ⭐ ← เลข 20 ตัวนี้ต่างหากที่กำหนด VLAN จริง ถ้าขาดบรรทัดนี้ subinterface จะไม่รู้ว่าต้องรับ/ส่งแท็กใด และจะไม่ทำงานเลย\n3️⃣ ใส่ IP address → ip address 10.20.20.1 255.255.255.0 ⭐ ทำหน้าที่เป็นเกตเวย์ของ VLAN 20\n\n⚠️ จุดที่พลาดบ่อยที่สุดคือลืมบรรทัด encapsulation dot1q — เพราะเลขหลังจุดของชื่อ subinterface "ไม่ได้" กำหนด VLAN โดยอัตโนมัติ\n\n💡 ถ้าเป็น VLAN ที่ไม่ติดแท็ก (native VLAN) ต้องเติมคำว่า native ต่อท้าย เช่น encapsulation dot1q 1 native\n\n✅ ทำไม B ถูก: มีครบทั้งสามองค์ประกอบ คือสร้าง subinterface, ระบุ dot1Q VLAN 20 และกำหนด IP ให้เป็นเกตเวย์ของ VLAN นั้น\n\n❌ ทำไมข้ออื่นผิด:\nA. ใส่คำสั่ง encapsulation ที่อินเทอร์เฟซกายภาพซึ่งทำไม่ได้ ต้องอยู่บน subinterface เท่านั้น\nC. ขาดบรรทัด encapsulation dot1q 20 ทำให้ subinterface ไม่รู้ว่าจะรับแท็ก VLAN ใด\nD. ใส่ IP ที่อินเทอร์เฟซกายภาพโดยไม่มี subinterface เลย จึงรองรับได้แค่ VLAN เดียวแบบไม่ติดแท็ก\n\n📗 จำไว้สอบ: ROAS = subinterface + encapsulation dot1q <vlan> + ip address | ฝั่งสวิตช์ต้องเป็น trunk | native VLAN ต้องเติมคำว่า native',
+  },
+  {
+    id: 355,
+    kind: 'single',
+    image: v2q355,
+    prompt: 'Refer to the exhibit. What does router R1 use as its OSPF router-ID?',
+    options: [
+      { key: 'A', text: '10.10.1.10' },
+      { key: 'B', text: '10.10.10.20' },
+      { key: 'C', text: '172.16.15.10' },
+      { key: 'D', text: '192.168.0.1' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ลำดับการเลือก OSPF Router ID (ห้ามข้ามขั้น)\n1️⃣ คำสั่ง router-id ที่ตั้งไว้เอง → ชนะทุกกรณี\n2️⃣ IP ที่สูงที่สุดในบรรดา loopback interface ที่สถานะ up ⭐\n3️⃣ IP ที่สูงที่สุดในบรรดาอินเทอร์เฟซกายภาพที่สถานะ up/up\n\n🔍 อ่าน exhibit ทีละบรรทัด:\n• FastEthernet0/0 → unassigned, administratively down → ตัดออก\n• GigabitEthernet1/0 → 192.168.0.1, up/up → เป็นผู้ท้าชิงในขั้นที่ 3\n• GigabitEthernet2/0 → 10.10.1.10, up/up\n• GigabitEthernet3/0 → 10.10.10.20, up/up\n• GigabitEthernet4/0 → unassigned, administratively down → ตัดออก\n• Loopback0 → 172.16.15.10 ⭐ ← มี loopback อยู่หนึ่งตัว\n\n🎯 เนื่องจากโจทย์ไม่ได้ระบุว่ามีคำสั่ง router-id จึงข้ามไปขั้นที่ 2\n→ พบ Loopback0 = 172.16.15.10 → loopback ชนะอินเทอร์เฟซกายภาพทุกตัวทันที ⭐\n→ ไม่ต้องเทียบกับ 192.168.0.1 เลย แม้ตัวเลขจะดูสูงกว่าก็ตาม\n\n💡 ทำไม loopback ถึงได้เปรียบ: มันเป็นอินเทอร์เฟซเสมือนที่ไม่มีวัน down จากปัญหาสายหรือฮาร์ดแวร์ ทำให้ router ID มีเสถียรภาพ\n\n⚠️ router ID ถูกล็อกไว้ตอน OSPF เริ่มทำงาน การเปลี่ยน IP ทีหลังจะไม่มีผลจนกว่าจะสั่ง clear ip ospf process หรือรีบูต\n\n✅ ทำไม C ถูก: มี loopback interface ที่ใช้งานได้อยู่ ระบบจึงเลือก IP ของ loopback นั้นคือ 172.16.15.10 เป็น router ID โดยไม่สนใจ IP ของอินเทอร์เฟซกายภาพ\n\n❌ ทำไมข้ออื่นผิด:\nA และ B เป็น IP ของอินเทอร์เฟซกายภาพซึ่งมีลำดับความสำคัญต่ำกว่า loopback\nD. 192.168.0.1 เป็นค่าที่สูงที่สุดในกลุ่มอินเทอร์เฟซกายภาพ แต่ยังแพ้ loopback อยู่ดี\n\n📗 จำไว้สอบ: router-id ที่ตั้งเอง > loopback สูงสุด > อินเทอร์เฟซกายภาพสูงสุด | อินเทอร์เฟซที่ down ไม่ถูกนับ | เปลี่ยนแล้วต้อง clear ip ospf process',
+  },
+  {
+    id: 356,
+    kind: 'multi',
+    image: v2q356,
+    prompt: 'Refer to the exhibit. The loopback1 interface of the Atlanta router must reach the loopback3 interface of the Washington router. Which two static host routes must be configured on the New York router? (Choose two.)',
+    options: [
+      { key: 'A', text: 'ipv6 route 2000::3/128 s0/0/0' },
+      { key: 'B', text: 'ipv6 route 2000::1/128 s0/0/1' },
+      { key: 'C', text: 'ipv6 route 2000::1/128 2012::1' },
+      { key: 'D', text: 'ipv6 route 2000::1/128 2012::2' },
+      { key: 'E', text: 'ipv6 route 2000::3/128 2023::3' },
+    ],
+    correct: ['C', 'E'],
+    explanation:
+      '📘 แนวคิด — host route ของ IPv6 ใช้ prefix /128 (เทียบเท่า /32 ของ IPv4) และ next hop ต้องเป็นที่อยู่ของ "เพื่อนบ้าน" ไม่ใช่ของตัวเอง\n\n🔍 ผังที่อยู่จาก exhibit:\n• Atlanta → Se0/0/0 = 2012::1/126, Loopback1 = 2000::1/128\n• New York → Se0/0/0 = 2012::2/126, Se0/0/1 = 2023::2/126, Loopback2 = 2000::2/128\n• Washington → Se0/0/0 = 2023::3/126, Loopback3 = 2000::3/128\n\n🎯 New York อยู่ตรงกลาง ต้องรู้ทางไปทั้งสองปลาย:\n\n1️⃣ เส้นทางไป Loopback1 ของ Atlanta (2000::1/128)\n• ต้องส่งออกฝั่ง Se0/0/0 → เพื่อนบ้านคือ Atlanta ที่ 2012::1 ⭐\n• คำสั่ง: ipv6 route 2000::1/128 2012::1 ✔ (ตัวเลือก C)\n• ⚠️ 2012::2 คือ IP ของ New York เอง ใช้เป็น next hop ไม่ได้ → ตัดตัวเลือก D\n\n2️⃣ เส้นทางไป Loopback3 ของ Washington (2000::3/128)\n• ต้องส่งออกฝั่ง Se0/0/1 → เพื่อนบ้านคือ Washington ที่ 2023::3 ⭐\n• คำสั่ง: ipv6 route 2000::3/128 2023::3 ✔ (ตัวเลือก E)\n\n💡 ทำไมปลายทั้งสองฝั่งไม่ต้องเพิ่มเส้นทาง: ทั้ง Atlanta และ Washington ตั้ง default route ::/0 ผ่าน S0/0/0 ไว้แล้ว จึงส่งทุกอย่างเข้าหา New York โดยอัตโนมัติ\n\n⚠️ ตัวเลือก A และ B ใช้ชื่ออินเทอร์เฟซเป็น next hop ซึ่งบนลิงก์แบบ point-to-point ทำได้ แต่ระบุ "ผิดอินเทอร์เฟซ" ทั้งคู่ (A ควรออก s0/0/1 ส่วน B ควรออก s0/0/0)\n\n✅ ทำไม C, E ถูก: ทั้งสองคำสั่งชี้ host route /128 ไปยัง next hop ที่เป็นที่อยู่ของเราเตอร์เพื่อนบ้านฝั่งที่ถูกต้อง ทำให้ New York ส่งต่อทราฟฟิกได้ครบทั้งสองทิศทาง\n\n❌ ทำไมข้ออื่นผิด:\nA. ระบุ s0/0/0 ซึ่งเป็นทางไป Atlanta แต่ปลายทาง 2000::3 อยู่ฝั่ง Washington ต้องออก s0/0/1\nB. ระบุ s0/0/1 ซึ่งเป็นทางไป Washington แต่ปลายทาง 2000::1 อยู่ฝั่ง Atlanta ต้องออก s0/0/0\nD. 2012::2 คือที่อยู่ของ New York เอง จะชี้ next hop มาที่ตัวเองไม่ได้\n\n📗 จำไว้สอบ: IPv6 host route = /128 | next hop ต้องเป็นเพื่อนบ้าน ไม่ใช่ตัวเอง | ipv6 unicast-routing ต้องเปิดก่อนเสมอ',
+  },
+  {
+    id: 357,
+    kind: 'single',
+    image: v2q357,
+    prompt: 'Refer to the exhibit. After the configuration is applied, the two routers fail to establish an OSPF neighbor relationship. What is the reason for the problem?',
+    options: [
+      { key: 'A', text: 'The OSPF process IDs are mismatched' },
+      { key: 'B', text: 'The network statement on Router1 is misconfigured' },
+      { key: 'C', text: 'Router2 is using the default hello timer' },
+      { key: 'D', text: 'The OSPF router IDs are mismatched' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — สิ่งที่ต้อง "ตรงกัน" เพื่อให้ OSPF เป็นเพื่อนบ้านกันได้\n✔ Area ID | ✔ Hello interval และ Dead interval ⭐ | ✔ ซับเน็ตและ subnet mask | ✔ การยืนยันตัวตน | ✔ ค่า MTU | ✔ ค่า stub flag\n✘ สิ่งที่ "ไม่ต้อง" ตรงกัน: Process ID และ Router ID (แต่ router ID ห้ามซ้ำกัน)\n\n🔍 เทียบคอนฟิกสองฝั่งจาก exhibit:\n• Router1: ip address 10.10.10.1/30, ip ospf hello-interval 5 ⭐, router ospf 1000, router-id 1.1.1.1, network 10.10.10.0 0.0.0.3 area 0\n• Router2: ip address 10.10.10.2/30, ไม่มีคำสั่ง hello-interval → ใช้ค่าเริ่มต้น 10 วินาที ⭐, router ospf 1001, router-id 2.2.2.2, network เดียวกัน area 0\n\n🎯 ต้นเหตุ: hello interval ไม่ตรงกัน (5 กับ 10) ⭐\n• ค่า hello ถูกบรรจุอยู่ในแพ็กเก็ต Hello และถูกตรวจสอบทุกครั้ง ถ้าไม่ตรง เราเตอร์จะทิ้งแพ็กเก็ตนั้นและไม่มีวันขึ้นเป็นเพื่อนบ้าน\n• ยิ่งไปกว่านั้น เมื่อเปลี่ยน hello interval ค่า dead interval จะปรับตามอัตโนมัติเป็น 4 เท่า → ฝั่งหนึ่งได้ dead 20 อีกฝั่งได้ dead 40 ยิ่งไม่ตรงกันหนักขึ้น\n\n🧩 วิธีแก้: สั่ง ip ospf hello-interval 5 บน Router2 ด้วย หรือลบคำสั่งนั้นออกจาก Router1 ให้กลับไปใช้ค่าเริ่มต้นทั้งคู่\n\n✅ ทำไม C ถูก: Router2 ยังใช้ hello timer ค่าเริ่มต้น 10 วินาที ในขณะที่ Router1 ถูกตั้งไว้ที่ 5 วินาที ความไม่ตรงกันนี้ทำให้ทั้งคู่ไม่สามารถสร้างความสัมพันธ์เพื่อนบ้านได้\n\n❌ ทำไมข้ออื่นผิด:\nA. Process ID (1000 กับ 1001) มีความหมายเฉพาะภายในเราเตอร์แต่ละตัว ไม่จำเป็นต้องตรงกัน\nB. network 10.10.10.0 0.0.0.3 area 0 ครอบคลุมทั้ง .1 และ .2 ได้ถูกต้องแล้ว\nD. Router ID ที่ต่างกัน (1.1.1.1 กับ 2.2.2.2) เป็นสิ่งที่ถูกต้อง — ปัญหาจะเกิดก็ต่อเมื่อ "ซ้ำกัน" ต่างหาก\n\n📗 จำไว้สอบ: ต้องตรงกัน = area, hello/dead, subnet/mask, auth, MTU, stub | ไม่ต้องตรง = process ID, router ID (แต่ห้ามซ้ำ) | dead = 4 เท่าของ hello',
+  },
+  {
+    id: 358,
+    kind: 'single',
+    image: v2q358,
+    prompt: 'Refer to the exhibit. Which route type is configured to reach the Internet?',
+    options: [
+      { key: 'A', text: 'floating static route' },
+      { key: 'B', text: 'host route' },
+      { key: 'C', text: 'network route' },
+      { key: 'D', text: 'default route' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — จำแนกชนิดเส้นทางจากค่า prefix ที่เห็นในตาราง\n• Default route ⭐ → 0.0.0.0/0 ครอบทุกปลายทาง ใช้เมื่อไม่มีเส้นทางอื่นตรงกว่า\n• Host route → /32 (IPv4) หรือ /128 (IPv6) ชี้ไปยังโฮสต์เดียว\n• Network route → เส้นทางสู่ซับเน็ตเฉพาะ เช่น /24, /25, /30\n• Floating static route → static route ที่ตั้ง AD สูงกว่าปกติเพื่อทำหน้าที่สำรอง\n\n🔍 อ่าน exhibit:\n• บรรทัดบนสุดเขียนว่า "Gateway of last resort is 10.10.10.18 to network 0.0.0.0" ⭐ ← คำว่า gateway of last resort คือสัญญาณของ default route\n• รายการในตาราง: B* 0.0.0.0/0 [20/0] via 10.10.10.18 ⭐\n  – prefix 0.0.0.0/0 = default route\n  – ตัวอักษร B = เรียนรู้มาจาก BGP\n  – เครื่องหมาย * = เป็น candidate default route\n  – AD 20 = eBGP\n\n🎯 ดังนั้นเส้นทางที่ใช้ออกอินเทอร์เน็ตคือ default route ที่เรียนรู้ผ่าน BGP ⭐\n\n💡 ทำไมไม่ใช่ floating static: floating static ต้องเป็นเส้นทางแบบ static (ตัวอักษร S) ที่มี AD สูงผิดปกติ แต่ในตารางนี้เป็นตัว B ซึ่งมาจาก BGP และ AD 20 ก็เป็นค่ามาตรฐานของ eBGP ไม่ได้ถูกดัดแปลง\n\n✅ ทำไม D ถูก: เส้นทาง 0.0.0.0/0 พร้อมข้อความ gateway of last resort คือนิยามของ default route ซึ่งเป็นเส้นทางที่ใช้ส่งทราฟฟิกออกอินเทอร์เน็ต\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มี static route ที่ตั้ง AD สูงเป็นพิเศษปรากฏในตารางเลย\nB. host route ต้องเป็น /32 แต่นี่คือ /0\nC. network route ชี้ไปยังซับเน็ตเฉพาะ เช่น 10.10.13.0/25 ในตาราง ไม่ใช่เส้นทางที่ใช้ออกอินเทอร์เน็ต\n\n📗 จำไว้สอบ: 0.0.0.0/0 = default | /32 = host | * = candidate default | รหัสตัวอักษร C=connected S=static O=OSPF D=EIGRP R=RIP B=BGP',
+  },
+  {
+    id: 359,
+    kind: 'single',
+    image: v2q359,
+    prompt: 'Refer to the exhibit. Which path is used by the router for Internet traffic?',
+    options: [
+      { key: 'A', text: '209.165.200.0/27' },
+      { key: 'B', text: '0.0.0.0/0' },
+      { key: 'C', text: '10.10.13.0/24' },
+      { key: 'D', text: '10.10.10.0/28' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ทราฟฟิกที่ออกอินเทอร์เน็ตคือทราฟฟิกที่ไม่ตรงกับเส้นทางภายในใด ๆ จึงต้องใช้ default route\n\n🔍 อ่าน exhibit ของ Router1:\n• "Gateway of last resort is 10.10.11.2 to network 0.0.0.0" ⭐\n• S* 0.0.0.0/0 [1/0] via 10.10.11.2 ⭐ ← static default route (AD 1) ชี้ออกทางฝั่ง Internet\n• B 209.165.200.224 [20/0] via 10.10.12.2 → เส้นทางเฉพาะที่เรียนรู้ผ่าน BGP ออกทาง MPLS\n• C 10.10.10.0/28, C 10.10.11.0/30, C 10.10.12.0/30 → เครือข่ายที่ต่อตรง\n• O 10.10.13.0/24 → เครือข่ายผู้ใช้ VLAN 20 ภายในองค์กร\n\n🧩 ตรวจโทโพโลยี: 10.10.11.0/30 คือลิงก์ที่ต่อกับกลุ่มเมฆ Internet และ next hop 10.10.11.2 ก็คือปลายอีกฝั่งของลิงก์นั้น ⭐\n\n🎯 เมื่อแพ็กเก็ตปลายทางเป็น IP บนอินเทอร์เน็ตที่ไม่ตรงกับเส้นทางเฉพาะใด ๆ ในตาราง เราเตอร์จะใช้ 0.0.0.0/0 ส่งออกไปที่ 10.10.11.2\n\n💡 อย่าสับสนกับ 209.165.200.0/27: แม้จะเป็น IP สาธารณะ แต่มันเป็นเส้นทาง "เฉพาะเจาะจง" ที่เรียนรู้ผ่าน BGP ทาง MPLS ใช้ได้เฉพาะเมื่อปลายทางอยู่ในซับเน็ตนั้นจริง ๆ ไม่ใช่ทางออกอินเทอร์เน็ตทั่วไป\n\n✅ ทำไม B ถูก: 0.0.0.0/0 คือ gateway of last resort ที่รองรับทราฟฟิกทุกปลายทางที่ไม่ตรงกับเส้นทางเฉพาะ ซึ่งก็คือทราฟฟิกอินเทอร์เน็ตทั้งหมด\n\n❌ ทำไมข้ออื่นผิด:\nA. เป็นเส้นทาง BGP ไปยังซับเน็ตเดียวผ่าน MPLS ไม่ใช่ทางออกอินเทอร์เน็ตทั่วไป\nC. 10.10.13.0/24 เป็นเครือข่ายผู้ใช้ภายในองค์กร\nD. 10.10.10.0/28 เป็นเครือข่ายที่ต่อตรงภายใน\n\n📗 จำไว้สอบ: อินเทอร์เน็ต = ใช้ default route | S* = static default | หา next hop แล้วโยงกับโทโพโลยีเสมอ',
+  },
+  {
+    id: 360,
+    kind: 'single',
+    prompt: 'When OSPF learns multiple paths to a network, how does it select a route?',
+    options: [
+      { key: 'A', text: 'For each existing interface, it adds the metric from the source router to the destination to calculate the route with the lowest bandwidth.' },
+      { key: 'B', text: 'It counts the number of hops between the source router and the destination to determine the route with the lowest metric.' },
+      { key: 'C', text: 'It divides a reference bandwidth of 100 Mbps by the actual bandwidth of the exiting interface to calculate the route with the lowest cost.' },
+      { key: 'D', text: 'It multiplies the active K values by 256 to calculate the route with the lowest metric.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — OSPF ใช้ metric ชื่อ "cost" ซึ่งคำนวณจากแบนด์วิดท์เท่านั้น\n\n🧮 สูตร: cost = reference bandwidth / bandwidth ของอินเทอร์เฟซ\n• ค่า reference bandwidth เริ่มต้นของ Cisco = 100 Mbps (100,000,000 bps) ⭐\n• ผลลัพธ์ปัดเป็นจำนวนเต็ม และค่าต่ำสุดคือ 1\n\n📊 ตัวอย่างค่า cost ที่ควรจำ:\n• 10 Mbps (Ethernet) → 100/10 = 10\n• 100 Mbps (FastEthernet) → 100/100 = 1\n• 1 Gbps (GigabitEthernet) → 100/1000 = 0.1 → ปัดขึ้นเป็น 1 ⭐\n• 10 Gbps → ก็ได้ 1 เช่นกัน ⭐\n\n⚠️ ปัญหาที่ตามมา: FastEthernet, Gigabit และ 10 Gigabit ได้ cost เท่ากันหมดคือ 1 ทำให้ OSPF แยกไม่ออกว่าเส้นไหนเร็วกว่า\n→ วิธีแก้: สั่ง auto-cost reference-bandwidth 100000 (หน่วยเป็น Mbps) เพื่อยกฐานอ้างอิงเป็น 100 Gbps และต้องตั้งให้ "เหมือนกันทุกเราเตอร์" ในโดเมน OSPF ⭐\n\n💡 cost ของเส้นทางหนึ่ง = ผลรวมของ cost ของทุกอินเทอร์เฟซขาออกตลอดเส้นทางไปยังปลายทาง และ OSPF เลือกเส้นที่ผลรวมต่ำที่สุดด้วยอัลกอริทึม SPF (Dijkstra)\n\n✅ ทำไม C ถูก: OSPF หารค่า reference bandwidth 100 Mbps ด้วยแบนด์วิดท์ของอินเทอร์เฟซขาออกเพื่อให้ได้ cost แล้วเลือกเส้นทางที่มีผลรวม cost ต่ำที่สุด\n\n❌ ทำไมข้ออื่นผิด:\nA. OSPF เลือกเส้นที่ cost "ต่ำสุด" ไม่ใช่แบนด์วิดท์ต่ำสุด ประโยคนี้กลับความหมาย\nB. การนับจำนวน hop เป็นวิธีของ RIP\nD. การคูณค่า K ด้วย 256 เป็นสูตรของ EIGRP\n\n📗 จำไว้สอบ: OSPF cost = 10^8 / bandwidth (bps) | FE/GE/10GE ได้ 1 เท่ากันหมด | แก้ด้วย auto-cost reference-bandwidth และต้องตั้งเหมือนกันทุกตัว',
+  },
+  {
+    id: 361,
+    kind: 'single',
+    prompt: 'When a floating static route is configured, which action ensures that the backup route is used when the primary route fails?',
+    options: [
+      { key: 'A', text: 'The administrative distance must be higher on the primary route so that the backup route becomes secondary.' },
+      { key: 'B', text: 'The default-information originate command must be configured for the route to be installed into the routing table.' },
+      { key: 'C', text: 'The floating static route must have a lower administrative distance than the primary route so it is used as a backup.' },
+      { key: 'D', text: 'The floating static route must have a higher administrative distance than the primary route so it is used as a backup' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — หัวใจของ floating static route คือ "ตั้ง AD ให้สูงกว่าเส้นทางหลักโดยเจตนา"\n\n🔍 เหตุผลเชิงกลไก:\n• ตารางเส้นทางจะเก็บเฉพาะเส้นทางที่มี AD ต่ำที่สุดสำหรับ prefix นั้น ๆ\n• ถ้า floating static มี AD สูงกว่า → มันจะถูกซ่อนไว้ ไม่ปรากฏในตารางตราบใดที่เส้นทางหลักยังอยู่ ⭐\n• เมื่อเส้นทางหลักหายไป (ลิงก์ล่ม หรือโปรโตคอลไดนามิกไม่โฆษณาแล้ว) → floating static จะโผล่เข้าตารางแทนทันทีโดยอัตโนมัติ ⭐\n• เมื่อเส้นทางหลักกลับมา → มันจะถูกดันออกไปซ่อนตัวเหมือนเดิม\n\n🧮 ตัวอย่างการตั้งค่าที่ถูกต้อง:\n• เส้นทางหลัก: OSPF (AD 110)\n• เส้นทางสำรอง: ip route 10.0.0.0 255.0.0.0 192.168.1.2 200 ⭐ (AD 200 > 110)\n\n⚠️ ถ้าตั้งผิดโดยให้ AD ต่ำกว่า (เช่น ปล่อยเป็นค่าเริ่มต้น 1) static จะชนะและกลายเป็นเส้นทางหลักตลอดเวลา ซึ่งตรงข้ามกับเจตนา\n\n💡 ค่า AD ที่นิยมใส่ให้ floating static คือ 200–254 (ห้ามใช้ 255 เพราะหมายถึง unreachable และจะไม่เข้าตารางเลย)\n\n✅ ทำไม D ถูก: การกำหนด AD ของ floating static ให้สูงกว่าเส้นทางหลักคือเงื่อนไขที่ทำให้มันทำหน้าที่เป็นเส้นทางสำรองอย่างแท้จริง\n\n❌ ทำไมข้ออื่นผิด:\nA. เราไม่ได้ไปแก้ AD ของเส้นทางหลัก แต่แก้ที่เส้นทางสำรองต่างหาก\nB. default-information originate ใช้โฆษณา default route เข้าไปในโปรโตคอลไดนามิก ไม่เกี่ยวกับกลไก floating static\nC. กลับด้าน — AD ต่ำกว่าจะทำให้มันชนะและถูกใช้เป็นเส้นทางหลักทันที\n\n📗 จำไว้สอบ: floating static = AD สูงกว่าเส้นทางหลัก | นิยมใช้ 200–254 | AD 255 = ไม่เข้าตารางเลย',
+  },
+  {
+    id: 362,
+    kind: 'single',
+    image: v2q362,
+    prompt: 'Refer to the exhibit. The show ip ospf interface command has been executed on R1. How is OSPF configured?',
+    options: [
+      { key: 'A', text: 'A point-to-point network type is configured.' },
+      { key: 'B', text: 'The interface is not participating in OSPF.' },
+      { key: 'C', text: 'The default Hello and Dead timers are in use.' },
+      { key: 'D', text: 'There are six OSPF neighbors on this interface.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — อ่านผลลัพธ์ show ip ospf interface ทีละบรรทัดแล้วเทียบกับค่ามาตรฐาน\n\n🔍 ข้อมูลสำคัญจาก exhibit:\n• "Timer intervals configured, Hello 10, Dead 40, Wait 40, Retransmit 5" ⭐\n  → Hello 10 และ Dead 40 คือค่าเริ่มต้นของ OSPF บนเครือข่ายชนิด broadcast พอดี ✔\n• มี Designated Router (10.11.11.11) และ Backup Designated Router (10.3.3.3) ⭐\n  → การมี DR/BDR แปลว่าเครือข่ายชนิดนี้ต้องเป็น broadcast หรือ non-broadcast ไม่ใช่ point-to-point\n• "Neighbor Count is 3, Adjacent neighbor count is 3" → มีเพื่อนบ้าน 3 ตัว ไม่ใช่ 6\n• บรรทัดรายชื่อ Adjacent with neighbor แสดง 3 รายการ (10.1.1.4, 10.2.2.2, 10.3.3.3) สอดคล้องกัน\n\n🧮 ค่า timer มาตรฐานที่ต้องจำ:\n• Broadcast และ Non-broadcast → Hello 10, Dead 40 ⭐\n• Point-to-point และ Point-to-multipoint → Hello 10, Dead 40 เช่นกันบน Cisco IOS รุ่นใหม่ (บางตำราระบุ 30/120 สำหรับ NBMA รุ่นเก่า)\n→ ประเด็นของข้อนี้คือค่าที่เห็นตรงกับค่าเริ่มต้น ไม่ได้ถูกแก้ไข ⭐\n\n✅ ทำไม C ถูก: ค่า Hello 10 และ Dead 40 ที่ปรากฏคือค่าเริ่มต้นของ OSPF ซึ่งยืนยันว่าไม่มีการปรับแต่ง timer ใด ๆ บนอินเทอร์เฟซนี้\n\n❌ ทำไมข้ออื่นผิด:\nA. เครือข่ายแบบ point-to-point จะไม่มีการเลือก DR/BDR แต่ในผลลัพธ์มีทั้ง DR และ BDR ปรากฏชัดเจน\nB. อินเทอร์เฟซนี้ร่วมใน OSPF แน่นอน เพราะมี adjacency กับเพื่อนบ้านถึงสามตัว\nD. Neighbor Count ระบุไว้ชัดว่าเป็น 3 ไม่ใช่ 6 (เลข 6 ที่เห็นในบรรทัด flood scan เป็นค่าสถิติคนละเรื่อง)\n\n📗 จำไว้สอบ: broadcast = มี DR/BDR, Hello 10/Dead 40 | point-to-point = ไม่มี DR/BDR | dead = 4 เท่าของ hello',
+  },
+  {
+    id: 363,
+    kind: 'single',
+    prompt: 'A user configured OSPF and advertised the Gigabit Ethernet interface in OSPF. By default, to which type of OSPF network does this interface belong?',
+    options: [
+      { key: 'A', text: 'point-to-multipoint' },
+      { key: 'B', text: 'point-to-point' },
+      { key: 'C', text: 'broadcast' },
+      { key: 'D', text: 'nonbroadcast' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ชนิดเครือข่ายของ OSPF ถูกกำหนดอัตโนมัติตามชนิดของสื่อ\n\n📊 ตารางค่าเริ่มต้นที่ต้องจำ:\n• Ethernet ทุกความเร็ว (FastEthernet, GigabitEthernet, 10GE) → broadcast ⭐\n• Serial ที่ห่อด้วย HDLC หรือ PPP → point-to-point\n• Frame Relay (อินเทอร์เฟซหลัก) → non-broadcast (NBMA)\n• Loopback → loopback (โฆษณาเป็น host route /32)\n\n🔍 คุณสมบัติของชนิด broadcast:\n• มีการเลือก DR และ BDR ⭐ เพื่อลดจำนวน adjacency จาก n(n−1)/2 เหลือเพียง 2n−3\n• Hello 10 วินาที, Dead 40 วินาที\n• ใช้มัลติแคสต์: 224.0.0.5 (ทุกเราเตอร์ OSPF) และ 224.0.0.6 (DR/BDR)\n• เพื่อนบ้านถูกค้นพบอัตโนมัติ ไม่ต้องพิมพ์คำสั่ง neighbor\n\n💡 เกร็ดที่ใช้บ่อยในงานจริง: บนลิงก์ Ethernet ที่มีเราเตอร์แค่สองตัว นิยมสั่ง ip ospf network point-to-point เพื่อข้ามการเลือก DR/BDR ทำให้ adjacency ขึ้นเร็วขึ้นและลดภาระ\n\n✅ ทำไม C ถูก: อินเทอร์เฟซ Gigabit Ethernet เป็นสื่อแบบ multi-access ที่รองรับบรอดแคสต์ OSPF จึงกำหนดชนิดเครือข่ายเป็น broadcast โดยอัตโนมัติ\n\n❌ ทำไมข้ออื่นผิด:\nA. point-to-multipoint ต้องตั้งเองด้วยคำสั่ง มักใช้กับโทโพโลยีแบบ hub-and-spoke\nB. point-to-point เป็นค่าเริ่มต้นของลิงก์ serial ไม่ใช่ Ethernet\nD. non-broadcast เป็นค่าเริ่มต้นของ Frame Relay ซึ่งต้องพิมพ์คำสั่ง neighbor เอง\n\n📗 จำไว้สอบ: Ethernet = broadcast (มี DR/BDR) | Serial = point-to-point (ไม่มี DR/BDR) | Frame Relay = NBMA | มัลติแคสต์ 224.0.0.5 และ 224.0.0.6',
+  },
+  {
+    id: 364,
+    kind: 'single',
+    prompt: 'Which attribute does a router use to select the best path when two or more different routes to the same destination exist from two different routing protocols?',
+    options: [
+      { key: 'A', text: 'dual algorithm' },
+      { key: 'B', text: 'metric' },
+      { key: 'C', text: 'administrative distance' },
+      { key: 'D', text: 'hop count' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "same destination" + "two different routing protocols"\n→ prefix เหมือนกัน แต่มาจากคนละโปรโตคอล → ตัวตัดสินคือ Administrative Distance ⭐\n\n🔍 ทำไมต้องใช้ AD: metric ของแต่ละโปรโตคอลใช้หน่วยคนละแบบสิ้นเชิง\n• OSPF ใช้ cost ที่คำนวณจากแบนด์วิดท์\n• RIP ใช้จำนวน hop\n• EIGRP ใช้สูตรผสมของ bandwidth กับ delay\n• BGP ใช้แอตทริบิวต์นโยบายหลายชั้น\n→ ตัวเลขเหล่านี้เทียบกันตรง ๆ ไม่ได้เลย จึงต้องมี AD เป็นมาตรวัด "ความน่าเชื่อถือของแหล่งข้อมูล" ที่เป็นกลาง ⭐\n\n📊 ตาราง AD ที่ต้องท่อง:\nConnected 0 | Static 1 | EBGP 20 | EIGRP 90 | OSPF 110 | IS-IS 115 | RIP 120 | EIGRP external 170 | IBGP 200 | Unreachable 255\n\n🧩 ลำดับการตัดสินใจเต็ม:\n1️⃣ Longest prefix match\n2️⃣ Administrative Distance ⭐ ← กรณีของโจทย์นี้\n3️⃣ Metric (เมื่อ prefix และโปรโตคอลเหมือนกัน)\n\n✅ ทำไม C ถูก: AD คือค่าที่เราเตอร์ใช้เปรียบเทียบความน่าเชื่อถือระหว่างโปรโตคอลต่างชนิดกันเมื่อเส้นทางไปยังปลายทางเดียวกัน\n\n❌ ทำไมข้ออื่นผิด:\nA. DUAL เป็นอัลกอริทึมภายในของ EIGRP ใช้คำนวณเส้นทางในโปรโตคอลตัวเองเท่านั้น\nB. metric ใช้เปรียบเทียบได้เฉพาะภายในโปรโตคอลเดียวกัน\nD. hop count เป็น metric เฉพาะของ RIP\n\n📗 จำไว้สอบ: คนละโปรโตคอล = ใช้ AD | โปรโตคอลเดียวกัน = ใช้ metric | prefix ต่างกัน = ใช้ longest match ก่อนทุกอย่าง',
+  },
+  {
+    id: 365,
+    kind: 'single',
+    prompt: 'Router A learns the same route from two different neighbors; one of the neighbor routers is an OSPF neighbor, and the other is an EIGRP neighbor. What is the administrative distance of the route that will be installed in the routing table?',
+    options: [
+      { key: 'A', text: '20' },
+      { key: 'B', text: '90' },
+      { key: 'C', text: '110' },
+      { key: 'D', text: '115' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — เส้นทางเดียวกันมาจากสองโปรโตคอล → เปรียบเทียบ AD แล้วเลือกตัวที่ต่ำกว่า\n\n🔍 ค่า AD ของสองผู้แข่งขัน:\n• EIGRP (internal) = 90 ⭐ ต่ำกว่า\n• OSPF = 110\n→ EIGRP ชนะ และเส้นทางที่เข้าตารางจะมี AD = 90 ⭐\n\n💡 จุดที่โจทย์ต้องการวัด: ไม่ได้ถามว่า "โปรโตคอลใดชนะ" แต่ถามว่า "AD ของเส้นทางที่ถูกติดตั้งมีค่าเท่าใด" → คำตอบคือค่า AD ของผู้ชนะ นั่นคือ 90\n\n🔎 ตรวจสอบได้จาก show ip route: จะเห็นบรรทัดขึ้นต้นด้วย D (EIGRP) และค่าในวงเล็บเป็น [90/metric] ส่วนเส้นทางของ OSPF จะไม่ปรากฏในตารางเลย แต่ยังเก็บอยู่ใน OSPF database (ดูได้ด้วย show ip ospf database)\n\n📊 ทบทวนตาราง AD ให้ครบ:\nConnected 0 | Static 1 | EBGP 20 | EIGRP internal 90 ⭐ | OSPF 110 | IS-IS 115 | RIP 120 | EIGRP external 170 | IBGP 200 | Unreachable 255\n\n⚠️ ระวังกรณี EIGRP external ที่มี AD 170 ซึ่งสูงกว่า OSPF — ถ้าโจทย์ระบุว่าเป็นเส้นทาง external ที่ redistribute เข้ามา คำตอบจะกลับกลายเป็น OSPF ที่ 110 แทน\n\n✅ ทำไม B ถูก: EIGRP internal มี AD 90 ซึ่งต่ำกว่า OSPF ที่ 110 เส้นทางของ EIGRP จึงถูกติดตั้งพร้อมค่า AD เท่ากับ 90\n\n❌ ทำไมข้ออื่นผิด:\nA. 20 เป็นค่าของ eBGP ซึ่งไม่ได้อยู่ในโจทย์\nC. 110 เป็นค่าของ OSPF ที่แพ้การเปรียบเทียบ\nD. 115 เป็นค่าของ IS-IS ซึ่งไม่เกี่ยวข้องกับโจทย์\n\n📗 จำไว้สอบ: EIGRP 90 ชนะ OSPF 110 | EIGRP external 170 แพ้ OSPF | เส้นทางที่แพ้ยังอยู่ใน database แต่ไม่อยู่ในตารางเส้นทาง',
+  },
+  {
+    id: 366,
+    kind: 'single',
+    image: v2q366,
+    prompt: 'Refer to the exhibit. An engineer is bringing up a new circuit to the MPLS provider on the Gi0/1 interface of Router 1. The new circuit uses eBGP and learns the route to VLAN25 from the BGP path. What is the expected behavior for the traffic flow for route 10.10.13.0/25?',
+    options: [
+      { key: 'A', text: 'Traffic to 10.10.13.0/25 is load balanced out of multiple interfaces.' },
+      { key: 'B', text: 'Traffic to 10.10.13.0/25 is asymmetrical.' },
+      { key: 'C', text: 'Route 10.10.13.0/25 is updated in the routing table as being learned from interface Gi0/1.' },
+      { key: 'D', text: 'Route 10.10.13.0/25 learned via the Gi0/0 interface remains in the routing table.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — เมื่อ prefix เดียวกันเป๊ะถูกเรียนรู้จากสองโปรโตคอล ให้เทียบ AD แล้วผู้ชนะเข้าตาราง\n\n🔍 สถานะปัจจุบันจาก exhibit:\n• O 10.10.13.0/25 [110/2] via 10.10.10.1, GigabitEthernet0/0 → เรียนรู้ผ่าน OSPF มี AD 110\n\n🧩 เมื่อวงจร eBGP บน Gi0/1 ขึ้นและโฆษณา 10.10.13.0/25 เข้ามา:\n• eBGP มี AD = 20 ⭐\n• เปรียบเทียบ: eBGP 20 < OSPF 110 ⭐ → eBGP ชนะ\n• เส้นทางที่เข้าตารางจะกลายเป็น B 10.10.13.0/25 [20/0] ผ่าน Gi0/1 แทน ⭐\n• เส้นทาง OSPF เดิมจะถูกถอดออกจากตารางเส้นทาง (แต่ยังอยู่ใน OSPF database)\n\n💡 นี่คือกับดักคลาสสิกของการเปิดวงจร BGP ใหม่: หลายคนคิดว่า BGP ช้าและน่าเชื่อถือน้อยกว่า IGP แต่ค่า AD ของ eBGP กลับต่ำที่สุดรองจาก static — Cisco ตั้งไว้เช่นนั้นเพราะ eBGP มักเป็นเส้นทางไปยังเครือข่ายภายนอกที่ควรได้รับความเชื่อถือสูง\n\n⚠️ ผลข้างเคียงที่วิศวกรควรเตรียมรับ: ทราฟฟิกจะย้ายไปวิ่งทาง MPLS ทันทีโดยไม่ได้ตั้งใจ ถ้าต้องการให้ยังใช้ OSPF อยู่ ต้องปรับด้วยคำสั่ง distance bgp หรือใช้ route-map ควบคุม\n\n✅ ทำไม C ถูก: เนื่องจาก eBGP มี AD 20 ซึ่งต่ำกว่า OSPF 110 เส้นทาง 10.10.13.0/25 จะถูกอัปเดตในตารางให้มาจาก Gi0/1 ผ่าน BGP แทนเส้นทาง OSPF เดิม\n\n❌ ทำไมข้ออื่นผิด:\nA. การโหลดบาลานซ์ต้องเกิดจากเส้นทางที่ AD และ metric เท่ากันในโปรโตคอลเดียวกัน ซึ่งไม่ใช่กรณีนี้\nB. ความไม่สมมาตรของเส้นทางอาจเกิดขึ้นได้เป็นผลข้างเคียง แต่ไม่ใช่พฤติกรรมโดยตรงที่โจทย์ถามถึงเรื่องตารางเส้นทาง\nD. ตรงกันข้ามกับความจริง — เส้นทางผ่าน Gi0/0 ของ OSPF จะถูกแทนที่เพราะมี AD สูงกว่า\n\n📗 จำไว้สอบ: eBGP AD 20 ชนะ IGP ทุกตัว | iBGP AD 200 แพ้ IGP ทุกตัว | ปรับได้ด้วยคำสั่ง distance',
+  },
+  {
+    id: 367,
+    kind: 'multi',
+    prompt: 'Which two actions influence the EIGRP route selection process? (Choose two.)',
+    options: [
+      { key: 'A', text: 'The advertised distance is calculated by a downstream neighbor to inform the local router of the bandwidth on the link.' },
+      { key: 'B', text: 'The router calculates the feasible distance of all paths to the destination route.' },
+      { key: 'C', text: 'The router must use the advertised distance as the metric for any given route.' },
+      { key: 'D', text: 'The router calculates the best backup path to the destination route and assigns it as the feasible successor.' },
+      { key: 'E', text: 'The router calculates the reported distance by multiplying the delay on the exiting interface by 256.' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — ศัพท์หลักของ EIGRP ที่ต้องแยกให้ขาด\n\n• Advertised Distance (AD) หรือ Reported Distance (RD) → metric ที่เพื่อนบ้าน "ประกาศ" ว่าจากตัวมันไปถึงปลายทางมี metric เท่าไร\n• Feasible Distance (FD) ⭐ → metric รวมทั้งหมดจาก "เราเตอร์ตัวเรา" ไปถึงปลายทาง = AD ของเพื่อนบ้าน + cost ของลิงก์ที่ไปหาเพื่อนบ้านนั้น\n• Successor ⭐ → เส้นทางที่มี FD ต่ำที่สุด → เข้าตารางเส้นทาง\n• Feasible Successor (FS) ⭐ → เส้นทางสำรองที่ผ่านเงื่อนไข feasibility condition คือ AD ของเส้นทางนั้น < FD ของ successor ⭐ → เก็บไว้ใน topology table พร้อมสลับมาใช้ทันทีที่ successor ล่มโดยไม่ต้องคำนวณใหม่\n\n🔍 กระบวนการที่ EIGRP ทำจริง:\n1️⃣ รับ AD จากเพื่อนบ้านทุกตัว\n2️⃣ คำนวณ FD ของทุกเส้นทางที่เป็นไปได้ ⭐ (ตัวเลือก B)\n3️⃣ เลือกเส้นที่ FD ต่ำสุดเป็น successor\n4️⃣ ตรวจเงื่อนไข feasibility เพื่อคัดเลือกเส้นสำรองเป็น feasible successor ⭐ (ตัวเลือก D)\n\n💡 เหตุผลของเงื่อนไข AD < FD: เป็นการรับประกันว่าเส้นทางสำรองนั้นไม่ได้วนกลับมาผ่านตัวเราเอง จึงไม่เกิด routing loop เมื่อสลับไปใช้\n\n✅ ทำไม B, D ถูก: ทั้งการคำนวณ FD ของทุกเส้นทางและการคัดเลือก feasible successor เป็นสองขั้นตอนหลักที่กำหนดผลลัพธ์การเลือกเส้นทางของ EIGRP\n\n❌ ทำไมข้ออื่นผิด:\nA. AD ไม่ได้ใช้บอกแบนด์วิดท์ของลิงก์ แต่คือ metric รวมจากเพื่อนบ้านไปถึงปลายทาง\nC. เราเตอร์ใช้ FD เป็น metric ที่ติดตั้งในตาราง ไม่ใช่ AD (AD เป็นเพียงส่วนประกอบหนึ่งในการคำนวณ FD)\nE. reported distance ไม่ได้มาจากการคูณ delay ด้วย 256 แต่คำนวณจากสูตร composite metric เต็มรูปแบบที่รวม bandwidth ด้วย\n\n📗 จำไว้สอบ: FD = AD ของเพื่อนบ้าน + cost ลิงก์ | successor = FD ต่ำสุด | FS ต้องมี AD < FD ของ successor | ไม่มี FS = เข้าสถานะ active แล้วส่ง query',
+  },
+  {
+    id: 368,
+    kind: 'single',
+    image: v2q368,
+    prompt: 'Refer to the exhibit. If OSPF is running on this network, how does Router2 handle traffic from Site B to 10.10.13.128/25 at Site A?',
+    options: [
+      { key: 'A', text: 'It sends packets out of interface Fa0/1 only.' },
+      { key: 'B', text: 'It sends packets out of interface Fa0/2 only.' },
+      { key: 'C', text: 'It load-balances traffic out of Fa0/1 and Fa0/2.' },
+      { key: 'D', text: 'It cannot send packets to 10.10.13.128/25.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ตรวจว่าปลายทางที่ถามถึงอยู่ในตารางเส้นทางหรือไม่ก่อนเสมอ\n\n🔍 ตารางของ Router2 จาก exhibit:\n• C 10.10.10.8/30 directly connected FastEthernet0/2\n• C 10.10.12.0/30 directly connected FastEthernet0/1\n• O 10.10.13.0/25 [110/11] via 10.10.10.9 Fa0/2 และ [110/11] via 10.10.10.13 Fa0/1 (สองเส้นทาง metric เท่ากัน)\n• C 10.10.10.4/30 directly connected FastEthernet0/2\n• "Gateway of last resort is not set" ⭐ ← สำคัญมาก\n\n🧮 ตรวจว่า 10.10.13.128/25 ถูกครอบโดยเส้นทางใดหรือไม่:\n• เส้นทางที่มีคือ 10.10.13.0/25 → block size 128 → ครอบช่วง 10.10.13.0 – 10.10.13.127 ⭐\n• ปลายทางที่ถามคือ 10.10.13.128/25 → ครอบช่วง 10.10.13.128 – 10.10.13.255\n→ สองช่วงนี้ "ไม่ทับกันเลย" ⭐ เป็นคนละครึ่งของ /24\n\n🎯 สรุป: ไม่มีเส้นทางใดในตารางที่ครอบ 10.10.13.128/25 และไม่มี default route ให้ใช้ด้วย\n→ เราเตอร์จะทิ้งแพ็กเก็ตและส่ง ICMP destination unreachable กลับไป ⭐\n\n⚠️ กับดักของข้อนี้: เห็น 10.10.13.x แล้วรีบคิดว่าตรงกัน — แต่ /25 แบ่ง /24 ออกเป็นสองครึ่ง และตารางมีเฉพาะครึ่งล่างเท่านั้น\n\n✅ ทำไม D ถูก: ตารางเส้นทางมีเพียง 10.10.13.0/25 ซึ่งครอบถึง .127 เท่านั้น ไม่ครอบ .128 ขึ้นไป และไม่มี default route Router2 จึงส่งแพ็กเก็ตไปยัง 10.10.13.128/25 ไม่ได้\n\n❌ ทำไมข้ออื่นผิด:\nA และ B เป็นทางออกของเส้นทางไป 10.10.13.0/25 ซึ่งเป็นคนละซับเน็ตกับที่ถาม\nC. การโหลดบาลานซ์เกิดขึ้นจริงกับ 10.10.13.0/25 แต่ไม่ได้ครอบปลายทางที่โจทย์ถาม\n\n📗 จำไว้สอบ: /25 แบ่ง /24 เป็นสองครึ่ง (.0–.127 และ .128–.255) | ไม่มีเส้นทาง + ไม่มี default = ทิ้งแพ็กเก็ต | ต้องอ่านบรรทัด gateway of last resort เสมอ',
+  },
+  {
+    id: 369,
+    kind: 'multi',
+    prompt: 'Which two outcomes are predictable behaviors for HSRP? (Choose two.)',
+    options: [
+      { key: 'A', text: 'The two routers negotiate one router as the active router and the other as the standby router.' },
+      { key: 'B', text: 'The two routers share the same interface IP address, and default gateway traffic is load-balanced between them.' },
+      { key: 'C', text: 'The two routers synchronize configurations to provide consistent packet forwarding.' },
+      { key: 'D', text: 'Each router has a different IP address, both routers act as the default gateway on the LAN, and traffic is load-balanced between them.' },
+      { key: 'E', text: 'The two routers share a virtual IP address that is used as the default gateway for devices on the LAN.' },
+    ],
+    correct: ['A', 'E'],
+    explanation:
+      '📘 แนวคิด — HSRP (Hot Standby Router Protocol) เป็น FHRP ของ Cisco ที่ทำงานแบบ active/standby ⭐\n\n🔍 พฤติกรรมหลัก:\n• เราเตอร์ในกลุ่มเลือกกันเองว่าใครเป็น Active (ตัวที่ส่งต่อทราฟฟิกจริง) และใครเป็น Standby (ตัวสำรองที่รอ) ⭐ ส่วนตัวที่เหลือจะอยู่สถานะ Listen\n• ทั้งกลุ่มใช้ virtual IP ร่วมกันหนึ่งค่า ซึ่งโฮสต์ในแลนตั้งเป็น default gateway ⭐\n• มี virtual MAC ร่วมด้วย: 0000.0C07.ACxx (v1) หรือ 0000.0C9F.Fxxx (v2) โดย xx คือหมายเลขกลุ่ม\n• เกณฑ์เลือก active: priority สูงกว่าชนะ (ค่าเริ่มต้น 100) ถ้าเท่ากันให้ IP สูงกว่าชนะ\n• ต้องสั่ง standby preempt ถ้าอยากให้ตัว priority สูงยึดตำแหน่งคืนเมื่อกลับมาออนไลน์\n• Hello ทุก 3 วินาที และ hold time 10 วินาที (ค่าเริ่มต้น)\n\n⚠️ HSRP "ไม่ทำ" โหลดบาลานซ์ในกลุ่มเดียว — ทราฟฟิกไหลผ่านตัว active ตัวเดียวเท่านั้น\n→ ถ้าอยากกระจายโหลดต้องสร้างหลายกลุ่ม (MHSRP) แล้วสลับให้แต่ละกลุ่มมี active คนละตัว หรือใช้ GLBP ที่ทำโหลดบาลานซ์ได้ในตัว ⭐\n\n✅ ทำไม A, E ถูก: การเจรจาบทบาท active/standby และการใช้ virtual IP ร่วมกันเป็น default gateway คือพฤติกรรมพื้นฐานที่คาดการณ์ได้ของ HSRP\n\n❌ ทำไมข้ออื่นผิด:\nB. เราเตอร์แต่ละตัวยังมี IP จริงของตัวเองต่างกัน ที่ใช้ร่วมกันคือ virtual IP และ HSRP ไม่ทำโหลดบาลานซ์\nC. HSRP ไม่ซิงก์คอนฟิกใด ๆ ระหว่างกัน แลกเปลี่ยนเพียงข้อความ hello เท่านั้น\nD. มีเพียงตัว active ตัวเดียวที่ทำหน้าที่เกตเวย์จริง และไม่มีการกระจายโหลด\n\n📗 จำไว้สอบ: HSRP = active/standby ของ Cisco | VRRP = master/backup มาตรฐานเปิด | GLBP = โหลดบาลานซ์ได้จริง | virtual MAC 0000.0C07.ACxx',
+  },
+  {
+    id: 370,
+    kind: 'multi',
+    image: v2q370,
+    prompt: 'Refer to the exhibit. An engineer is configuring the New York router to reach the Lo1 interface of the Atlanta router using interface Se0/0/0 as the primary path. Which two commands must be configured on the New York router so that it reaches the Lo1 interface of the Atlanta router via Washington when the link between New York and Atlanta goes down? (Choose two.)',
+    options: [
+      { key: 'A', text: 'ipv6 route 2000::1/128 2012::1' },
+      { key: 'B', text: 'ipv6 route 2000::1/128 2012::1 5' },
+      { key: 'C', text: 'ipv6 route 2000::1/128 2012::2' },
+      { key: 'D', text: 'ipv6 route 2000::1/128 2023::2 5' },
+      { key: 'E', text: 'ipv6 route 2000::1/128 2023::3 5' },
+    ],
+    correct: ['A', 'E'],
+    explanation:
+      '📘 แนวคิด — โจทย์ต้องการ static route หลัก 1 เส้น + floating static route สำรอง 1 เส้น\n\n🔍 ผังที่อยู่จาก exhibit:\n• Atlanta: Se0/0/0 = 2012::1, Se0/0/1 = 2013::1, Lo1 = 2000::1/128 ⭐ (เป้าหมาย)\n• New York: Se0/0/0 = 2012::2, Se0/0/1 = 2023::2, Lo2 = 2000::2/128\n• Washington: Se0/0/0 = 2023::3, Se0/0/1 = 2013::3, Lo3 = 2000::3/128 และมี static route ไป Lo1 ของ Atlanta ผ่าน Se0/0/1 แล้ว\n\n🧩 เส้นทางที่ต้องสร้างบน New York:\n\n1️⃣ เส้นทางหลัก — ตรงไป Atlanta ผ่าน Se0/0/0\n• next hop คือ Atlanta ที่ 2012::1 ⭐ (ไม่ใช่ 2012::2 ซึ่งเป็นของ New York เอง)\n• ไม่ใส่เลข AD → ใช้ค่าเริ่มต้น 1 → เป็นเส้นทางหลัก ✔ (ตัวเลือก A)\n\n2️⃣ เส้นทางสำรอง — อ้อมผ่าน Washington\n• next hop คือ Washington ที่ 2023::3 ⭐ (ไม่ใช่ 2023::2 ซึ่งเป็นของ New York เอง)\n• ใส่เลข 5 ต่อท้าย = AD 5 ซึ่งสูงกว่า 1 → ถูกซ่อนไว้จนกว่าเส้นทางหลักจะล่ม ✔ (ตัวเลือก E)\n• Washington มีเส้นทางไป Lo1 ของ Atlanta อยู่แล้ว จึงส่งต่อได้สำเร็จ\n\n🎯 ผลลัพธ์: ปกติใช้ A เมื่อลิงก์ New York–Atlanta ล่ม เส้นทาง A หายไปจากตาราง เส้นทาง E ที่ AD 5 จึงโผล่เข้ามาแทนอัตโนมัติ ⭐\n\n✅ ทำไม A, E ถูก: A คือ static route หลักที่ชี้ตรงไปยัง Atlanta ด้วย AD เริ่มต้น ส่วน E คือ floating static route ที่ AD 5 ชี้ไปยัง Washington เพื่อรับหน้าที่เมื่อเส้นทางหลักล่ม\n\n❌ ทำไมข้ออื่นผิด:\nB. เส้นทางหลักไม่ควรตั้ง AD 5 เพราะถ้าทั้งสองเส้นมี AD เท่ากันจะเกิดการโหลดบาลานซ์แทนที่จะเป็นหลัก/สำรอง\nC. 2012::2 คือที่อยู่ของ New York เอง ใช้เป็น next hop ไม่ได้\nD. 2023::2 ก็เป็นที่อยู่ของ New York เองเช่นกัน\n\n📗 จำไว้สอบ: next hop ต้องเป็นเพื่อนบ้าน ไม่ใช่ตัวเอง | ไม่ใส่ AD = 1 (หลัก) | ใส่ AD สูงกว่า = floating (สำรอง) | ตรวจว่าเพื่อนบ้านมีเส้นทางต่อไปด้วย',
+  },
+  {
+    id: 371,
+    kind: 'single',
+    prompt: 'How does HSRP provide first hop redundancy?',
+    options: [
+      { key: 'A', text: 'It load-balances Layer 2 traffic along the path by flooding traffic out all interfaces configured with the same VLAN.' },
+      { key: 'B', text: 'It uses a shared virtual MAC and a virtual IP address to a group of routers that serve as the default gateway for hosts on a LAN.' },
+      { key: 'C', text: 'It forwards multiple packets to the same destination over different routed links in the data path.' },
+      { key: 'D', text: 'It load-balances traffic by assigning the same metric value to more than one route to the same destination in the IP routing table.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ปัญหาที่ FHRP มาแก้: โฮสต์ตั้ง default gateway ได้เพียงค่าเดียว ถ้าเราเตอร์ตัวนั้นล่ม โฮสต์จะออกนอกซับเน็ตไม่ได้เลย\n\n🔍 วิธีที่ HSRP แก้ปัญหา:\n• สร้าง "เราเตอร์เสมือน" ที่มีทั้ง virtual IP และ virtual MAC ร่วมกันในกลุ่ม ⭐\n• โฮสต์ตั้ง default gateway เป็น virtual IP นั้น\n• เมื่อโฮสต์ทำ ARP หา virtual IP เราเตอร์ที่เป็น active จะตอบด้วย virtual MAC ⭐\n• ถ้าตัว active ล่ม → ตัว standby ขึ้นมาเป็น active แล้ว "รับช่วง virtual MAC เดิมไปเลย" ⭐\n→ โฮสต์ไม่รู้ตัวและไม่ต้องเปลี่ยนอะไร แม้แต่ ARP cache ก็ยังใช้ได้เหมือนเดิม ⭐\n\n🧮 รูปแบบ virtual MAC:\n• HSRPv1 → 0000.0C07.ACxx (xx = group ID เลขฐานสิบหก)\n• HSRPv2 → 0000.0C9F.Fxxx\n\n💡 รายละเอียดเพิ่มเติม: hello ทุก 3 วินาที, hold time 10 วินาที, priority เริ่มต้น 100, ต้องสั่ง standby preempt ถ้าอยากให้ตัว priority สูงยึดคืนตำแหน่ง, v1 ใช้มัลติแคสต์ 224.0.0.2 UDP 1985 ส่วน v2 ใช้ 224.0.0.102 UDP 1985\n\n✅ ทำไม B ถูก: HSRP ทำงานโดยให้กลุ่มเราเตอร์ใช้ virtual MAC และ virtual IP ร่วมกันเป็นเกตเวย์ของโฮสต์ในแลน จึงสลับตัวส่งต่อได้อย่างโปร่งใส\n\n❌ ทำไมข้ออื่นผิด:\nA. HSRP ทำงานที่ชั้นที่ 3 ไม่เกี่ยวกับการ flood ที่ชั้นที่ 2\nC. การส่งแพ็กเก็ตกระจายหลายลิงก์คือ ECMP ไม่ใช่ HSRP\nD. การมีหลายเส้นทาง metric เท่ากันในตารางคือการโหลดบาลานซ์ของโปรโตคอลเราต์ติ้ง ไม่ใช่กลไก FHRP\n\n📗 จำไว้สอบ: HSRP = virtual IP + virtual MAC | active/standby | hello 3 วิ hold 10 วิ | preempt ต้องสั่งเอง',
+  },
+  {
+    id: 372,
+    kind: 'single',
+    image: v2q372,
+    prompt: 'Refer to the exhibit. Which action establishes the OSPF neighbor relationship without forming an adjacency?',
+    options: [
+      { key: 'A', text: 'modify hello interval' },
+      { key: 'B', text: 'modify process ID' },
+      { key: 'C', text: 'modify priority' },
+      { key: 'D', text: 'modify network type' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — แยกคำว่า "neighbor" กับ "adjacency" ให้ขาด\n• Neighbor → เราเตอร์สองตัวเห็นกันและตกลงพารามิเตอร์พื้นฐานได้ ไปถึงสถานะ 2-WAY\n• Adjacency (full) → แลกเปลี่ยนฐานข้อมูล LSDB กันจนครบ ไปถึงสถานะ FULL\n→ บนเครือข่าย broadcast เราเตอร์ที่ไม่ใช่ DR/BDR (เรียกว่า DROTHER) จะหยุดอยู่แค่ 2-WAY กันเอง ซึ่งถือว่าเป็น "neighbor แต่ไม่ full adjacency" ⭐\n\n🔍 อ่าน exhibit เทียบสองฝั่ง:\n• R1 gi0/0: Hello 10, Dead 40, State DR, Priority 1\n• R2 gi0/0: Hello 20, Dead 80 ⭐, State DR, Priority 1\n→ ทั้งคู่ประกาศตัวเป็น DR พร้อมกันและไม่มี BDR แปลว่าต่างฝ่ายต่างมองไม่เห็นกันเลย ⭐\n\n🎯 ต้นเหตุ: hello interval และ dead interval ไม่ตรงกัน (10/40 กับ 20/80)\n• ค่าเหล่านี้อยู่ในแพ็กเก็ต Hello และถูกตรวจสอบทุกครั้ง ถ้าไม่ตรงจะทิ้งแพ็กเก็ตทันที ⭐\n• ตราบใดที่ยังไม่ตรง จะไม่มีแม้แต่สถานะ INIT เกิดขึ้น\n\n🧩 ทางแก้: ปรับ hello interval ให้ตรงกันทั้งสองฝั่ง (และ dead จะปรับตามเป็น 4 เท่าโดยอัตโนมัติ)\n→ หลังจากนั้นทั้งคู่จะเห็นกันเป็นเพื่อนบ้าน จากนั้นจึงเลือก DR/BDR ต่อไป\n\n💡 ทำไมไม่ใช่ priority: ถึงจะปรับ priority ให้ต่างกันก็ไม่มีประโยชน์ เพราะแพ็กเก็ต Hello ถูกทิ้งตั้งแต่ขั้นตรวจ timer แล้ว การเลือก DR/BDR จึงไม่มีวันเริ่มต้นได้เลย\n\n✅ ทำไม A ถูก: การแก้ hello interval ให้ตรงกันคือเงื่อนไขบังคับข้อแรกที่ทำให้เราเตอร์ทั้งสองมองเห็นกันเป็นเพื่อนบ้านได้\n\n❌ ทำไมข้ออื่นผิด:\nB. Process ID (ทั้งคู่ใช้ 100) มีความหมายเฉพาะภายในเครื่อง ไม่จำเป็นต้องตรงกันและไม่ใช่สาเหตุของปัญหา\nC. การปรับ priority ใช้ควบคุมว่าใครเป็น DR/BDR ซึ่งเป็นขั้นตอนที่เกิดขึ้น "หลัง" จากเป็นเพื่อนบ้านกันแล้ว\nD. ชนิดเครือข่ายของทั้งสองฝั่งเป็น BROADCAST เหมือนกันอยู่แล้ว ไม่ใช่ปัญหา\n\n📗 จำไว้สอบ: 2-WAY = neighbor | FULL = adjacency | DROTHER คู่กันหยุดที่ 2-WAY | hello/dead ต้องตรงกันเสมอ',
+  },
+  {
+    id: 373,
+    kind: 'single',
+    prompt: 'Which command must you enter to guarantee that an HSRP router with higher priority becomes the HSRP primary router after it is reloaded?',
+    options: [
+      { key: 'A', text: 'standby 10 preempt' },
+      { key: 'B', text: 'standby 10 version 1' },
+      { key: 'C', text: 'standby 10 priority 150' },
+      { key: 'D', text: 'standby 10 version 2' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — HSRP "ไม่มี" การยึดตำแหน่งคืนโดยอัตโนมัติ ต้องเปิดเอง ⭐\n\n🔍 พฤติกรรมเริ่มต้นเมื่อไม่ได้เปิด preempt:\n1️⃣ R1 มี priority 150 เป็น active อยู่\n2️⃣ R1 รีบูต → R2 ที่ priority 100 ขึ้นมาเป็น active\n3️⃣ R1 กลับมาออนไลน์ → R1 เห็นว่ามีคนเป็น active อยู่แล้ว → R1 ยอมเป็น standby แม้ priority จะสูงกว่า ⭐\n→ ผลคือเราเตอร์ที่แรงกว่ากลับกลายเป็นตัวสำรอง ซึ่งมักไม่ใช่สิ่งที่ต้องการ\n\n🧩 เมื่อสั่ง standby 10 preempt:\n• R1 ที่กลับมาจะ "ยึดตำแหน่ง active คืน" ทันทีเพราะ priority สูงกว่า ⭐\n\n💡 เคล็ดลับในงานจริง: ควรใส่ standby 10 preempt delay minimum 60 ด้วย เพื่อให้เราเตอร์รอ 60 วินาทีหลังบูตก่อนยึดตำแหน่ง จะได้มีเวลาให้ตารางเส้นทางและ adjacency ของโปรโตคอลต่าง ๆ พร้อมก่อน มิฉะนั้นอาจเกิด blackhole ชั่วคราว\n\n⚠️ ข้อควรจำเปรียบเทียบ: VRRP เปิด preempt ไว้เป็นค่าเริ่มต้นอยู่แล้ว ส่วน HSRP ต้องสั่งเอง ⭐\n\n✅ ทำไม A ถูก: คำสั่ง standby 10 preempt คือสิ่งเดียวที่รับประกันว่าเราเตอร์ที่มี priority สูงกว่าจะกลับมาเป็น active หลังจากรีโหลด\n\n❌ ทำไมข้ออื่นผิด:\nB และ D เป็นการเลือกเวอร์ชันของ HSRP ซึ่งเกี่ยวกับรูปแบบ virtual MAC และช่วงหมายเลขกลุ่ม ไม่เกี่ยวกับการยึดตำแหน่ง\nC. การตั้ง priority 150 ทำให้ "มีสิทธิ์" เป็น active ก็จริง แต่ถ้าไม่มี preempt มันจะไม่ยึดตำแหน่งคืนเมื่อกลับมา\n\n📗 จำไว้สอบ: HSRP ต้องสั่ง preempt เอง | VRRP preempt เปิดอยู่แล้ว | ควรใส่ delay minimum เพื่อกัน blackhole',
+  },
+  {
+    id: 374,
+    kind: 'single',
+    prompt: 'Which command should you enter to verify the priority of a router in an HSRP group?',
+    options: [
+      { key: 'A', text: 'show hsrp' },
+      { key: 'B', text: 'show sessions' },
+      { key: 'C', text: 'show interfaces' },
+      { key: 'D', text: 'show standby' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสั่งตรวจสอบ HSRP บน Cisco IOS ใช้คำว่า "standby" ไม่ใช่ "hsrp" ⭐\nเหตุผลทางประวัติศาสตร์: คำสั่งตั้งค่า HSRP ทั้งหมดขึ้นต้นด้วย standby (เช่น standby 10 ip, standby 10 priority) คำสั่งตรวจสอบจึงใช้คำเดียวกัน\n\n🔍 ผลลัพธ์ที่ได้จาก show standby:\n• หมายเลขกลุ่มและเวอร์ชัน HSRP\n• สถานะปัจจุบัน (Active / Standby / Listen / Init)\n• Virtual IP address และ virtual MAC address\n• Priority ⭐ และสถานะว่าเปิด preemption หรือไม่\n• ค่า hello time และ hold time\n• ตัวตนของ active router และ standby router\n\n💡 คำสั่งที่เกี่ยวข้องอื่น ๆ:\n• show standby brief → สรุปแบบตารางบรรทัดเดียวต่อกลุ่ม อ่านเร็วกว่าเมื่อมีหลายกลุ่ม\n• show standby <interface> → กรองดูเฉพาะอินเทอร์เฟซที่สนใจ\n• debug standby → ดูการเปลี่ยนสถานะแบบเรียลไทม์\n\n📊 คำสั่งของ FHRP ตัวอื่นที่มักออกคู่กัน:\n• VRRP → show vrrp / show vrrp brief\n• GLBP → show glbp / show glbp brief\n\n✅ ทำไม D ถูก: show standby เป็นคำสั่งมาตรฐานที่แสดงรายละเอียดของกลุ่ม HSRP รวมถึงค่า priority ของเราเตอร์\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีคำสั่ง show hsrp บน Cisco IOS\nB. show sessions ใช้ดูเซสชัน Telnet ขาออกที่เปิดค้างไว้\nC. show interfaces แสดงสถานะและสถิติของอินเทอร์เฟซ ไม่แสดงข้อมูล HSRP\n\n📗 จำไว้สอบ: HSRP = show standby | VRRP = show vrrp | GLBP = show glbp | เติม brief เพื่อดูแบบย่อ',
+  },
+  {
+    id: 375,
+    kind: 'single',
+    image: v2q375,
+    prompt: 'Refer to the exhibit. Which command would you use to configure a static route on Router1 to network 192.168.202.0/24 with a nondefault administrative distance?',
+    options: [
+      { key: 'A', text: 'router1(config)#ip route 192.168.202.0 255.255.255.0 192.168.201.2 1' },
+      { key: 'B', text: 'router1(config)#ip route 192.168.202.0 255.255.255.0 192.168.201.2 5' },
+      { key: 'C', text: 'router1(config)#ip route 1 192.168.201.1 255.255.255.0 192.168.201.2' },
+      { key: 'D', text: 'router1(config)#ip route 5 192.168.202.0 255.255.255.0 192.168.201.2' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ต้องตรวจสองอย่าง: ① ไวยากรณ์ถูกต้องหรือไม่ ② ค่า AD เป็น "nondefault" จริงหรือไม่\n\n🔍 ไวยากรณ์ที่ถูกต้อง:\nip route <destination-network> <subnet-mask> <next-hop> [administrative-distance]\n→ เลข AD ต้องอยู่ "ท้ายสุด" เท่านั้น ⭐\n\n🧩 ตรวจค่าจาก exhibit:\n• เครือข่ายปลายทาง 192.168.202.0/24 → mask = 255.255.255.0 ✔\n• next hop คือ Router2 ที่ 192.168.201.2 ✔ (Router1 มี 192.168.201.1 เป็นของตัวเอง)\n• AD ต้องไม่ใช่ค่าเริ่มต้น → static route มี AD เริ่มต้น = 1 ⭐ ดังนั้นต้องใส่เลขอื่นที่ไม่ใช่ 1\n\n📊 ตรวจทีละตัวเลือก:\n• A → ไวยากรณ์ถูก แต่ใส่ AD = 1 ซึ่งเป็น "ค่าเริ่มต้น" ขัดกับคำว่า nondefault ⭐\n• B → ไวยากรณ์ถูก และ AD = 5 ซึ่งไม่ใช่ค่าเริ่มต้น ✔ ⭐\n• C → วางเลข 1 ไว้หน้าที่อยู่ปลายทาง ผิดไวยากรณ์ และใช้ 192.168.201.1 เป็นปลายทางซึ่งผิดด้วย\n• D → วางเลข 5 ไว้ผิดตำแหน่ง (ต้องอยู่ท้ายสุด)\n\n💡 ประโยชน์ของการตั้ง AD ที่ไม่ใช่ค่าเริ่มต้น: ใช้สร้าง floating static route ให้ทำหน้าที่เป็นเส้นทางสำรองของโปรโตคอลไดนามิก\n\n✅ ทำไม B ถูก: ไวยากรณ์ครบถ้วนถูกต้องและใส่ค่า AD เป็น 5 ซึ่งต่างจากค่าเริ่มต้น 1 ตรงตามคำว่า nondefault\n\n❌ ทำไมข้ออื่นผิด:\nA. AD = 1 คือค่าเริ่มต้นของ static route ไม่ใช่ nondefault\nC. เลข AD วางผิดตำแหน่งและระบุเครือข่ายปลายทางผิด\nD. เลข AD ต้องอยู่ท้ายคำสั่ง ไม่ใช่หน้าที่อยู่ปลายทาง\n\n📗 จำไว้สอบ: ip route <net> <mask> <next-hop> [AD] | static AD เริ่มต้น = 1 | AD อยู่ท้ายสุดเสมอ',
+  },
+  {
+    id: 376,
+    kind: 'multi',
+    prompt: 'Which of the following dynamic routing protocols are Distance Vector routing protocols? (Choose two.)',
+    options: [
+      { key: 'A', text: 'IS-IS' },
+      { key: 'B', text: 'EIGRP' },
+      { key: 'C', text: 'OSPF' },
+      { key: 'D', text: 'BGP' },
+      { key: 'E', text: 'RIP' },
+    ],
+    correct: ['B', 'E'],
+    explanation:
+      '📘 แนวคิด — จำแนกโปรโตคอลเราต์ติ้งตามอัลกอริทึม\n\n🔹 Distance Vector ⭐\n• แต่ละเราเตอร์รู้เพียง "ทิศทาง (vector)" และ "ระยะทาง (distance)" ไปยังปลายทาง โดยไม่รู้ผังเครือข่ายทั้งหมด\n• เชื่อข้อมูลที่เพื่อนบ้านบอกมา (routing by rumor)\n• ตัวอย่าง: RIP ⭐ (ใช้ Bellman-Ford, นับ hop สูงสุด 15) และ EIGRP ⭐ (ใช้ DUAL, มักถูกเรียกว่า advanced distance vector หรือ hybrid)\n\n🔹 Link State\n• ทุกเราเตอร์เก็บผังเครือข่ายทั้งพื้นที่ไว้เหมือนกันใน LSDB แล้วคำนวณเส้นทางเองด้วยอัลกอริทึม Dijkstra (SPF)\n• ตัวอย่าง: OSPF และ IS-IS\n\n🔹 Path Vector\n• ติดตามรายการ AS ที่ผ่านมา (AS_PATH) เพื่อป้องกันลูปและใช้กำหนดนโยบาย\n• ตัวอย่าง: BGP\n\n💡 ทำไม EIGRP ถึงนับเป็น distance vector: แม้จะมี topology table และ DUAL ที่ทำให้ฉลาดกว่า RIP มาก แต่มันยังคงพึ่งพา metric ที่เพื่อนบ้านรายงานมา (reported distance) และไม่ได้เก็บผังเครือข่ายทั้งหมดแบบ link state ⭐\n\n✅ ทำไม B, E ถูก: EIGRP และ RIP ต่างจัดอยู่ในตระกูล distance vector เพราะตัดสินใจจากข้อมูล metric ที่เพื่อนบ้านโฆษณามาให้\n\n❌ ทำไมข้ออื่นผิด:\nA. IS-IS เป็น link state ใช้ SPF คำนวณเส้นทางจาก LSDB\nC. OSPF เป็น link state เช่นกัน\nD. BGP เป็น path vector ใช้ AS_PATH และแอตทริบิวต์นโยบาย\n\n📗 จำไว้สอบ: DV = RIP, EIGRP | LS = OSPF, IS-IS | PV = BGP | DV เชื่อเพื่อนบ้าน, LS เก็บผังทั้งหมด',
+  },
+  {
+    id: 377,
+    kind: 'single',
+    prompt: 'You have configured a router with an OSPF router ID, but its IP address still reflects the physical interface. Which action can you take to correct the problem in the least disruptive way?',
+    options: [
+      { key: 'A', text: 'Reload the OSPF process' },
+      { key: 'B', text: 'Specify a loopback address' },
+      { key: 'C', text: 'Reboot the router' },
+      { key: 'D', text: 'Save the router configuration' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — OSPF Router ID ถูก "ล็อกไว้" ตั้งแต่ตอนที่กระบวนการ OSPF เริ่มทำงาน ⭐\n→ การพิมพ์คำสั่ง router-id ทีหลังจะถูกบันทึกไว้ในคอนฟิก แต่จะยังไม่มีผลจนกว่ากระบวนการจะเริ่มใหม่\n\n🔍 อาการที่โจทย์บรรยาย: ตั้ง router-id แล้วแต่ show ip ospf ยังแสดงค่าเดิมที่มาจากอินเทอร์เฟซกายภาพ → เป็นอาการปกติ ไม่ใช่ความผิดพลาดของคอนฟิก\n\n🧩 ทางแก้ที่รบกวนน้อยที่สุด:\nRouter# clear ip ospf process ⭐\n→ รีสตาร์ทเฉพาะกระบวนการ OSPF ทำให้อ่านค่า router-id ใหม่ทันที\n→ ผลกระทบ: adjacency ทุกเส้นจะรีเซ็ตแล้วขึ้นใหม่ในเวลาไม่กี่วินาที ส่วนบริการอื่น ๆ ของเราเตอร์ (การส่งต่อแพ็กเก็ต, โปรโตคอลอื่น, ACL, NAT) ไม่ได้รับผลกระทบเลย ⭐\n\n⚖️ เปรียบเทียบทางเลือกอื่น:\n• Reboot ทั้งเครื่อง → ได้ผลเหมือนกันแต่ทำให้ทุกบริการหยุดทำงานหลายนาที = รบกวนมากที่สุด ✘\n• เพิ่ม loopback → ไม่ช่วย เพราะ router-id ที่ตั้งไว้ด้วยคำสั่งมีลำดับความสำคัญสูงกว่า loopback อยู่แล้ว และค่าที่ล็อกไว้ก็ยังไม่เปลี่ยนอยู่ดี ✘\n• Save config → การเขียนไฟล์ไม่ได้ทำให้กระบวนการที่รันอยู่อ่านค่าใหม่ ✘\n\n✅ ทำไม A ถูก: การรีสตาร์ทกระบวนการ OSPF ด้วยคำสั่ง clear ip ospf process ทำให้ router-id ใหม่มีผลทันทีโดยกระทบเฉพาะ OSPF ไม่กระทบบริการอื่นของเราเตอร์\n\n❌ ทำไมข้ออื่นผิด:\nB. loopback มีลำดับความสำคัญต่ำกว่าคำสั่ง router-id และไม่ทำให้ค่าที่ล็อกไว้เปลี่ยน\nC. การรีบูตได้ผลแต่รบกวนมากเกินความจำเป็น ขัดกับคำว่า least disruptive\nD. การบันทึกคอนฟิกไม่มีผลต่อกระบวนการที่กำลังทำงานอยู่\n\n📗 จำไว้สอบ: router-id ล็อกตอน process เริ่ม | แก้ด้วย clear ip ospf process | ลำดับเลือก RID: คำสั่ง > loopback สูงสุด > อินเทอร์เฟซกายภาพสูงสุด',
+  },
+  {
+    id: 378,
+    kind: 'single',
+    prompt: 'Which command should you enter to view the error log in an EIGRP for IPv6 environment?',
+    options: [
+      { key: 'A', text: 'show ipv6 eigrp neighbors' },
+      { key: 'B', text: 'show ipv6 eigrp topology' },
+      { key: 'C', text: 'show ipv6 eigrp traffic' },
+      { key: 'D', text: 'show ipv6 eigrp events' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสั่งตรวจสอบตระกูล show ipv6 eigrp แต่ละตัวให้ข้อมูลคนละแบบ\n\n• show ipv6 eigrp events ⭐ → แสดงบันทึกเหตุการณ์และข้อผิดพลาดภายในของกระบวนการ EIGRP เช่น การเปลี่ยนสถานะเส้นทาง, การ query, เหตุการณ์ที่ทำให้เพื่อนบ้านหลุด → ตรงกับคำว่า "error log" ในโจทย์\n• show ipv6 eigrp neighbors → รายชื่อเพื่อนบ้าน พร้อม hold time, uptime, SRTT, RTO และจำนวนแพ็กเก็ตในคิว\n• show ipv6 eigrp topology → ตาราง topology ที่มี successor, feasible successor, ค่า FD และ AD ของทุกเส้นทางที่รู้จัก\n• show ipv6 eigrp traffic → สถิติจำนวนแพ็กเก็ต EIGRP แต่ละชนิดที่ส่งและรับ (Hello, Update, Query, Reply, ACK)\n\n🎯 คำสำคัญของโจทย์คือ "error log" → เป็นบันทึกเหตุการณ์ภายใน จึงตรงกับ events ⭐\n\n💡 การใช้งานจริง: คำสั่ง events มีประโยชน์มากตอนไล่ปัญหา route flapping หรือ adjacency ที่ขึ้น ๆ ลง ๆ เพราะจะเห็นลำดับเหตุการณ์ย้อนหลังพร้อมเวลาโดยไม่ต้องเปิด debug ซึ่งเสี่ยงกิน CPU\n\n📗 หมายเหตุเรื่อง EIGRP for IPv6: ต้องเปิด ipv6 unicast-routing ก่อน, ต้องกำหนด router-id แบบ IPv4 เสมอ (เพราะ RID ยังเป็นเลข 32 บิต) และไม่มีคำสั่ง network — ต้องเปิดใช้งานที่อินเทอร์เฟซด้วย ipv6 eigrp <AS>\n\n✅ ทำไม D ถูก: show ipv6 eigrp events คือคำสั่งที่แสดงบันทึกเหตุการณ์และข้อผิดพลาดของกระบวนการ EIGRP สำหรับ IPv6\n\n❌ ทำไมข้ออื่นผิด:\nA. แสดงรายชื่อเพื่อนบ้าน ไม่ใช่บันทึกข้อผิดพลาด\nB. แสดงตาราง topology ของเส้นทาง\nC. แสดงสถิติจำนวนแพ็กเก็ตที่รับส่ง\n\n📗 จำไว้สอบ: events = บันทึกเหตุการณ์/ข้อผิดพลาด | neighbors = เพื่อนบ้าน | topology = FD/AD/successor | traffic = สถิติแพ็กเก็ต',
+  },
+  {
+    id: 379,
+    kind: 'single',
+    image: v2q379,
+    prompt: 'Refer to the exhibit. Router R1 must be configured to reach the 10.0.3.0/24 network from the 10.0.1.0/24 segment. Which command must be used to configure the route?',
+    options: [
+      { key: 'A', text: 'route add 10.0.3.0 0.255.255.255 10.0.4.2' },
+      { key: 'B', text: 'ip route 10.0.3.0 0.255.255.255 10.0.4.2' },
+      { key: 'C', text: 'route add 10.0.3.0 mask 255.255.255.0 10.0.4.3' },
+      { key: 'D', text: 'ip route 10.0.3.0 255.255.255.0 10.0.4.3' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ตรวจสามจุดของคำสั่ง static route: ① คำสั่งถูกต้อง ② subnet mask ถูกต้อง ③ next hop ถูกต้อง\n\n🔍 อ่านโทโพโลยีจาก exhibit:\n• R1 → Gi0/0 อยู่เครือข่าย 10.0.1.0/24 และ Gi0/1 มี IP .1 บนเครือข่ายกลาง 10.0.4.0/24\n• R2 → Gi0/0 อยู่ 10.0.2.0/24 และ Gi0/1 มี IP .2 บน 10.0.4.0/24\n• R3 → Gi0/1 มี IP .3 บน 10.0.4.0/24 และ Gi0/0 อยู่ 10.0.3.0/24 ⭐\n\n🎯 เป้าหมายคือเครือข่าย 10.0.3.0/24 ซึ่งแขวนอยู่หลัง R3 → next hop ต้องเป็น 10.0.4.3 (IP ของ R3 บนเครือข่ายกลาง) ⭐\n\n🧩 ตรวจสามจุด:\n1️⃣ คำสั่งบน Cisco IOS คือ ip route ไม่ใช่ route add (route add เป็นคำสั่งของ Windows/Linux) ⭐\n2️⃣ mask ของ /24 คือ 255.255.255.0 ไม่ใช่ 0.255.255.255 (แบบหลังคือ wildcard mask ซึ่งใช้กับ ACL และ network statement ของ OSPF ไม่ใช่กับ ip route) ⭐\n3️⃣ next hop ต้องเป็น 10.0.4.3 เพราะ 10.0.4.2 คือ R2 ซึ่งไม่ได้ต่อกับ 10.0.3.0/24 ⭐\n\n📊 ตรวจทีละตัวเลือก:\n• A → ผิดทั้งคำสั่ง, mask และ next hop\n• B → คำสั่งถูก แต่ใช้ wildcard mask และ next hop ผิด\n• C → ผิดที่ใช้ route add และคำว่า mask ที่ไม่มีในไวยากรณ์ IOS\n• D → ถูกทั้งสามจุด ✔ ⭐\n\n✅ ทำไม D ถูก: ใช้คำสั่ง ip route ที่ถูกต้อง ระบุ subnet mask แบบปกติ 255.255.255.0 และชี้ next hop ไปยัง 10.0.4.3 ซึ่งเป็น R3 ที่ต่อกับเครือข่ายปลายทางโดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nA. route add ไม่ใช่คำสั่งของ Cisco IOS และใช้ wildcard mask พร้อม next hop ผิด\nB. 0.255.255.255 เป็น wildcard mask ที่ใช้กับ ip route ไม่ได้ และ 10.0.4.2 คือ R2 ที่ไม่ได้ต่อกับปลายทาง\nC. ไวยากรณ์แบบ route add ... mask ... เป็นรูปแบบของระบบปฏิบัติการ ไม่ใช่ของ IOS\n\n📗 จำไว้สอบ: ip route <net> <subnet-mask> <next-hop> | subnet mask ไม่ใช่ wildcard | next hop = เราเตอร์ที่ต่อกับปลายทาง',
+  },
+  {
+    id: 380,
+    kind: 'multi',
+    image: v2q380,
+    prompt: 'Refer to the exhibit. Which two statements about the network environment of router R1 must be true? (Choose two.)',
+    options: [
+      { key: 'A', text: 'The EIGRP administrative distance was manually changed from 90 to 170.' },
+      { key: 'B', text: 'There are 20 different network masks within the 10.0.0.0/8 network.' },
+      { key: 'C', text: 'Ten routes are equally load-balanced between Te0/1/0.100 and Te0/2/0.100.' },
+      { key: 'D', text: 'The 10.0.0.0/8 network was learned via external EIGRP.' },
+      { key: 'E', text: 'A static default route to 10.85.33.14 was defined.' },
+    ],
+    correct: ['B', 'C'],
+    explanation:
+      '📘 แนวคิด — อ่านผลลัพธ์ show ip route แบบละเอียด โดยเฉพาะบรรทัดสรุปและรหัสตัวอักษรหน้าแต่ละเส้นทาง\n\n🔍 หลักฐานในตาราง:\n• บรรทัด "10.0.0.0/8 is variably subnetted, 6692 subnets, 20 masks" ⭐\n  → คำว่า 20 masks บอกตรง ๆ ว่ามี subnet mask ที่แตกต่างกัน 20 แบบภายใน 10.0.0.0/8 → ตัวเลือก B ถูก ✔\n• เส้นทางที่ขึ้นต้นด้วย D EX (EIGRP external) แต่ละรายการมีสองบรรทัด next hop คือผ่าน 10.85.33.14 (Te0/2/0.100) และ 10.85.33.10 (Te0/1/0.100) ด้วย metric เท่ากัน [170/51968]\n  → นับจำนวนรายการที่โหลดบาลานซ์แบบนี้: 10.0.1.0/24, 10.0.2.0/23, 10.0.4.0/22, 10.0.8.0/21, 10.0.16.0/20, 10.0.32.0/19, 10.1.255.240/28, 10.2.0.0/16, 10.3.0.0/16 และ default route D*EX 0.0.0.0/0 → รวม 10 เส้นทาง ⭐ → ตัวเลือก C ถูก ✔\n\n❌ ตรวจตัวเลือกที่เหลือ:\nA. ค่า 170 คือ AD "มาตรฐาน" ของ EIGRP external อยู่แล้ว ไม่ได้ถูกแก้ไขด้วยมือ ⭐ (EIGRP internal = 90, external = 170)\nD. บรรทัด 10.0.0.0/8 ขึ้นต้นด้วยตัว B ซึ่งหมายถึงเรียนรู้ผ่าน BGP ไม่ใช่ EIGRP external\nE. default route แสดงเป็น D*EX 0.0.0.0/0 [170/257024] ซึ่งเป็น EIGRP external ไม่ใช่ static (static จะขึ้นต้นด้วย S*)\n\n💡 เกร็ดการอ่านตาราง: ตัวอักษรนำหน้าคือกุญแจสำคัญ — C=connected, S=static, R=RIP, D=EIGRP, D EX=EIGRP external, O=OSPF, B=BGP, i=IS-IS ส่วนเครื่องหมาย * หมายถึง candidate default route\n\n✅ ทำไม B, C ถูก: บรรทัดสรุประบุ 20 masks อย่างชัดเจน และมี 10 เส้นทางที่มีสอง next hop ด้วย metric เท่ากันจึงถูกโหลดบาลานซ์ระหว่างสองอินเทอร์เฟซ\n\n❌ ทำไมข้ออื่นผิด:\nA. 170 คือค่ามาตรฐานของ EIGRP external ไม่ได้ถูกเปลี่ยนเอง\nD. 10.0.0.0/8 มีรหัส B แปลว่ามาจาก BGP\nE. default route มีรหัส D*EX แปลว่ามาจาก EIGRP external ไม่ใช่ static\n\n📗 จำไว้สอบ: EIGRP internal AD 90 | EIGRP external AD 170 | D EX = redistribute เข้ามา | * = candidate default | อ่านบรรทัด variably subnetted เพื่อดูจำนวน subnet และ mask',
+  },
+  {
+    id: 381,
+    kind: 'multi',
+    prompt: 'Which two statements about exterior routing protocols are true? (Choose two.)',
+    options: [
+      { key: 'A', text: 'They determine the optimal path within an autonomous system.' },
+      { key: 'B', text: 'They determine the optimal path between autonomous systems.' },
+      { key: 'C', text: 'BGP is the current standard exterior routing protocol.' },
+      { key: 'D', text: 'Most modern networking supports both EGP and BGP for external routing.' },
+      { key: 'E', text: 'Most modern network routers support both EGP and EIGRP for external routing.' },
+    ],
+    correct: ['B', 'C'],
+    explanation:
+      '📘 แนวคิด — แบ่งโปรโตคอลเราต์ติ้งตาม "ขอบเขตการทำงาน"\n\n🔹 IGP (Interior Gateway Protocol)\n• ทำงาน "ภายใน" autonomous system เดียวกัน\n• เป้าหมายคือหาเส้นทางที่เร็วที่สุดตาม metric ทางเทคนิค\n• ตัวอย่าง: RIP, EIGRP, OSPF, IS-IS\n\n🔹 EGP (Exterior Gateway Protocol)\n• ทำงาน "ระหว่าง" autonomous system ⭐\n• เป้าหมายคือกำหนดนโยบายว่าจะรับหรือส่งทราฟฟิกผ่าน AS ใด ไม่ได้เน้นความเร็ว\n• ปัจจุบันมีเพียงตัวเดียวที่ใช้จริงคือ BGP (เวอร์ชัน 4) ⭐\n\n💡 ประเด็นเรื่องคำว่า "EGP": ในอดีตมีโปรโตคอลชื่อ EGP (RFC 904) ซึ่งเลิกใช้ไปนานแล้วและถูกแทนที่ด้วย BGP ทั้งหมด ⭐\n→ ดังนั้นข้อความที่บอกว่าเราเตอร์สมัยใหม่ "รองรับทั้ง EGP และ BGP" จึงไม่ถูกต้อง เพราะ EGP ตัวเก่านั้นตายไปแล้ว\n\n🔍 ลักษณะเด่นของ BGP:\n• เป็น path vector ใช้ AS_PATH ป้องกันลูปและใช้กำหนดนโยบาย\n• ทำงานบน TCP พอร์ต 179 ⭐\n• AD: eBGP = 20, iBGP = 200\n• เป็นกระดูกสันหลังของการกำหนดเส้นทางบนอินเทอร์เน็ตทั้งโลก\n\n✅ ทำไม B, C ถูก: EGP มีหน้าที่หาเส้นทางที่เหมาะสมระหว่าง autonomous system และ BGP คือโปรโตคอล EGP มาตรฐานเพียงตัวเดียวที่ใช้งานอยู่ในปัจจุบัน\n\n❌ ทำไมข้ออื่นผิด:\nA. การหาเส้นทางภายใน AS เดียวกันเป็นหน้าที่ของ IGP\nD. โปรโตคอล EGP ตัวเดิมเลิกใช้ไปแล้ว เราเตอร์สมัยใหม่รองรับเฉพาะ BGP\nE. EGP เลิกใช้แล้ว และ EIGRP เป็น IGP ที่ใช้ภายใน AS ไม่ใช่โปรโตคอลสำหรับเส้นทางภายนอก\n\n📗 จำไว้สอบ: IGP = ภายใน AS (RIP, EIGRP, OSPF, IS-IS) | EGP = ระหว่าง AS = BGP เท่านั้น | BGP ใช้ TCP 179',
+  },
+  {
+    id: 382,
+    kind: 'single',
+    prompt: 'You have two paths for the 10.10.10.0 network - one that has a feasible distance of 3072 and the other of 6144. What do you need to do to load balance your EIGRP routes?',
+    options: [
+      { key: 'A', text: 'Change the maximum paths to 2' },
+      { key: 'B', text: 'Change the configuration so they both have the same feasible distance' },
+      { key: 'C', text: 'Change the variance for the path that has a feasible distance of 3072 to 2' },
+      { key: 'D', text: 'Change the IP addresses so both paths have the same source IP address' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — EIGRP รองรับการโหลดบาลานซ์แบบ "unequal-cost" ซึ่งเป็นจุดเด่นที่ OSPF ทำไม่ได้ ⭐\n\n🔍 กลไก variance:\n• โดยค่าเริ่มต้น variance = 1 → โหลดบาลานซ์เฉพาะเส้นทางที่ metric เท่ากันเป๊ะเท่านั้น\n• เมื่อตั้ง variance = N → EIGRP จะยอมใช้เส้นทางที่มี FD ≤ N × FD ของ successor ⭐\n• แต่มีเงื่อนไขเพิ่ม: เส้นทางนั้นต้องเป็น feasible successor ด้วย (คือ AD ของมันต้องน้อยกว่า FD ของ successor) เพื่อกันลูป\n\n🧮 คำนวณจากโจทย์:\n• Successor มี FD = 3072 (เส้นทางที่ดีที่สุด)\n• อีกเส้นมี FD = 6144\n• อัตราส่วน = 6144 / 3072 = 2 ⭐\n→ ต้องตั้ง variance เป็น 2 เพื่อให้ EIGRP ยอมรับเส้นทางที่ FD ไม่เกิน 2 × 3072 = 6144 ✔\n\n🧩 คำสั่ง:\nrouter eigrp 100\n variance 2 ⭐\n\n💡 การกระจายทราฟฟิกจะเป็นแบบสัดส่วนผกผันกับ metric — เส้นที่ metric ต่ำกว่าจะได้รับทราฟฟิกมากกว่า\n\n✅ ทำไม C ถูก: การตั้งค่า variance เป็น 2 ทำให้ EIGRP ยอมใช้เส้นทางที่มี FD สูงถึงสองเท่าของ successor จึงเกิดการโหลดบาลานซ์ระหว่าง 3072 กับ 6144 ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. maximum-paths กำหนดจำนวนเส้นทางสูงสุดที่ใส่ในตารางได้ (ค่าเริ่มต้น 4 อยู่แล้ว) แต่ไม่ทำให้เส้นทางที่ metric ต่างกันถูกใช้ร่วมกัน\nB. การบังคับให้ FD เท่ากันต้องไปแก้ bandwidth หรือ delay ของอินเทอร์เฟซ ซึ่งกระทบการเลือกเส้นทางทั้งเครือข่ายและไม่ใช่วิธีที่ถูกต้องสำหรับกรณีนี้\nD. ที่อยู่ IP ต้นทางไม่มีผลต่อการโหลดบาลานซ์ของ EIGRP เลย\n\n📗 จำไว้สอบ: EIGRP variance = โหลดบาลานซ์ metric ไม่เท่ากัน | variance เริ่มต้น 1 | ต้องเป็น feasible successor ด้วย | OSPF ทำได้เฉพาะ equal-cost',
+  },
+  {
+    id: 383,
+    kind: 'drag',
+    image: v2q383,
+    prompt: 'Drag each route source from the left to the numbers on the right, beginning with the lowest and ending with the highest administrative distance.',
+    categories: [
+      { name: '1 (lowest AD)', items: ['connected'] },
+      { name: '2', items: ['static'] },
+      { name: '3', items: ['EBGP'] },
+      { name: '4', items: ['EIGRP'] },
+      { name: '5', items: ['OSPF'] },
+      { name: '6 (highest AD)', items: ['RIP'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ตาราง Administrative Distance คือสิ่งที่ต้องท่องให้ขึ้นใจสำหรับ CCNA\n\n📊 เรียงจากน่าเชื่อถือที่สุดไปน้อยที่สุด:\n1️⃣ Connected = 0 ⭐ → เราเตอร์เห็นเครือข่ายนี้ด้วยตัวเอง ไม่มีอะไรน่าเชื่อถือไปกว่านี้\n2️⃣ Static = 1 ⭐ → ผู้ดูแลพิมพ์เข้าไปเอง ถือว่ามั่นใจสูง\n3️⃣ EBGP = 20 ⭐ → เส้นทางจาก AS ภายนอกที่ผ่านการกำหนดนโยบายมาแล้ว\n4️⃣ EIGRP (internal) = 90 ⭐\n5️⃣ OSPF = 110 ⭐\n6️⃣ RIP = 120 ⭐\n\n📊 ค่าอื่นที่ควรจำเพิ่ม (ไม่ได้อยู่ในโจทย์แต่ออกสอบบ่อย):\n• Static route ที่ระบุ exit interface บางกรณีถือเป็น 0\n• IS-IS = 115 (อยู่ระหว่าง OSPF กับ RIP)\n• External EIGRP = 170 (สูงกว่า RIP)\n• IBGP = 200\n• Unknown/Unreachable = 255 → ไม่ถูกใส่ในตารางเส้นทางเลย\n\n💡 เหตุผลที่ต้องมี AD: metric ของแต่ละโปรโตคอลใช้หน่วยคนละแบบสิ้นเชิง (OSPF ใช้ cost, RIP นับ hop, EIGRP ใช้ bandwidth/delay) จึงเทียบกันตรง ๆ ไม่ได้ ต้องมีมาตรวัดกลางที่บอก "ความน่าเชื่อถือของแหล่งข้อมูล"\n\n⚠️ จุดที่มักสับสน: eBGP มี AD ต่ำถึง 20 (ต่ำกว่า IGP ทุกตัว) ในขณะที่ iBGP มี AD สูงถึง 200 (สูงกว่า IGP ทุกตัว) — ค่าที่ต่างกันสุดขั้วนี้ออกแบบมาเพื่อไม่ให้เส้นทางภายในถูกเส้นทางที่วนกลับมาจาก iBGP แย่งไป\n\n📗 จำไว้สอบ: 0-1-20-90-110-115-120-170-200-255 | ยิ่งน้อยยิ่งชนะ | AD ใช้เมื่อ prefix เท่ากันเป๊ะเท่านั้น',
+  },
+  {
+    id: 384,
+    kind: 'multi',
+    prompt: 'Which two circumstances can prevent two routers from establishing an OSPF neighbor adjacency? (Choose two.)',
+    options: [
+      { key: 'A', text: 'mismatched autonomous system numbers' },
+      { key: 'B', text: 'an ACL blocking traffic from multicast address 224.0.0.10' },
+      { key: 'C', text: 'mismatched process IDs' },
+      { key: 'D', text: 'mismatched hello timers and dead timers' },
+      { key: 'E', text: 'use of the same router ID on both devices' },
+    ],
+    correct: ['D', 'E'],
+    explanation:
+      '📘 แนวคิด — รายการสิ่งที่ทำให้ OSPF adjacency ล้มเหลว\n\n✔ สิ่งที่ต้องตรงกัน มิฉะนั้นไม่ขึ้นเป็นเพื่อนบ้าน:\n• Area ID\n• Hello interval และ Dead interval ⭐ (ตัวเลือก D)\n• ซับเน็ตและ subnet mask ต้องอยู่เครือข่ายเดียวกัน\n• การยืนยันตัวตน (ชนิดและกุญแจ)\n• ค่า MTU\n• ค่า stub area flag\n\n✔ สิ่งที่ต้อง "ไม่ซ้ำกัน":\n• Router ID ⭐ (ตัวเลือก E) → ถ้าเราเตอร์สองตัวใช้ RID เดียวกัน OSPF จะสับสนว่าใครเป็นใครใน LSDB จึงปฏิเสธ adjacency และขึ้นข้อความเตือน duplicate router ID\n\n✘ สิ่งที่ "ไม่จำเป็น" ต้องตรงกัน:\n• Process ID → มีความหมายเฉพาะภายในเราเตอร์แต่ละตัว (locally significant)\n• Priority → ใช้แค่เลือก DR/BDR ไม่กระทบการเป็นเพื่อนบ้าน\n\n💡 เรื่องมัลติแคสต์: OSPF ใช้ 224.0.0.5 (ทุกเราเตอร์ OSPF) และ 224.0.0.6 (DR/BDR) ⭐\n→ ที่อยู่ 224.0.0.10 ที่ระบุในตัวเลือก B เป็นของ EIGRP ไม่ใช่ OSPF จึงไม่กระทบ\n\n💡 เรื่อง AS number: OSPF ไม่มีแนวคิดหมายเลข AS ในคอนฟิก (นั่นคือ EIGRP และ BGP) สิ่งที่ OSPF มีคือ process ID และ area ID\n\n✅ ทำไม D, E ถูก: timer ที่ไม่ตรงกันทำให้แพ็กเก็ต Hello ถูกทิ้ง และ router ID ที่ซ้ำกันทำให้ OSPF ปฏิเสธการสร้างความสัมพันธ์ ทั้งสองกรณีขวาง adjacency โดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nA. OSPF ไม่ใช้หมายเลข autonomous system ในการตั้งค่า\nB. 224.0.0.10 เป็นที่อยู่มัลติแคสต์ของ EIGRP การบล็อกมันจึงไม่กระทบ OSPF\nC. process ID ต่างกันได้ ไม่มีผลต่อการเป็นเพื่อนบ้าน\n\n📗 จำไว้สอบ: OSPF มัลติแคสต์ 224.0.0.5/224.0.0.6 | EIGRP 224.0.0.10 | RIPv2 224.0.0.9 | RID ต้องไม่ซ้ำ | process ID ไม่ต้องตรง',
+  },
+  {
+    id: 385,
+    kind: 'multi',
+    prompt: 'Which three describe the reasons large OSPF networks use a hierarchical design? (Choose three.)',
+    options: [
+      { key: 'A', text: 'to speed up convergence' },
+      { key: 'B', text: 'to reduce routing overhead' },
+      { key: 'C', text: 'to lower costs by replacing routers with distribution layer switches' },
+      { key: 'D', text: 'to decrease latency by increasing bandwidth' },
+      { key: 'E', text: 'to confine network instability to single areas of the network' },
+      { key: 'F', text: 'to reduce the complexity of router configuration' },
+    ],
+    correct: ['A', 'B', 'E'],
+    explanation:
+      '📘 แนวคิด — OSPF แบ่งเครือข่ายออกเป็น area โดยมี Area 0 (backbone) เป็นแกนกลางที่ทุก area ต้องเชื่อมถึง\n\n🎯 ประโยชน์หลักสามข้อที่โจทย์ต้องการ:\n\n1️⃣ Speed up convergence ⭐\n• เมื่อลิงก์ล่มในพื้นที่หนึ่ง เฉพาะเราเตอร์ใน area นั้นเท่านั้นที่ต้องรันอัลกอริทึม SPF ใหม่\n• LSDB ที่เล็กกว่าทำให้การคำนวณเสร็จเร็วกว่ามาก\n\n2️⃣ Reduce routing overhead ⭐\n• LSA ชนิดที่ 1 และ 2 (รายละเอียดภายใน) ไม่ข้าม area\n• ABR สรุปข้อมูลเป็น LSA ชนิดที่ 3 ก่อนส่งข้ามพื้นที่\n• ผลคือทั้ง LSDB, ปริมาณทราฟฟิก, การใช้ CPU และหน่วยความจำลดลงอย่างมาก\n\n3️⃣ Confine network instability to single areas ⭐\n• ลิงก์ที่ขึ้น ๆ ลง ๆ (flapping) ทำให้เกิดการคำนวณใหม่เฉพาะภายใน area ของมัน\n• พื้นที่อื่นไม่รับรู้และไม่ได้รับผลกระทบ = เป็นการกักบริเวณความไม่เสถียร\n\n🧩 ประเภทของเราเตอร์ในโครงสร้างลำดับชั้น:\n• Internal router → อยู่ใน area เดียว\n• ABR (Area Border Router) → คั่นระหว่าง area กับ backbone และทำหน้าที่สรุปเส้นทาง\n• ASBR → เชื่อมกับโปรโตคอลภายนอกและ redistribute เข้ามา\n• Backbone router → มีอินเทอร์เฟซอยู่ใน Area 0\n\n✅ ทำไม A, B, E ถูก: ทั้งสามข้อคือประโยชน์โดยตรงของการแบ่ง area — คำนวณเร็วขึ้น ภาระโปรโตคอลลดลง และความไม่เสถียรถูกจำกัดอยู่ในพื้นที่เดียว\n\n❌ ทำไมข้ออื่นผิด:\nC. การแบ่ง area เป็นเรื่องการออกแบบตรรกะของโปรโตคอล ไม่ได้เกี่ยวกับการเปลี่ยนฮาร์ดแวร์\nD. แบนด์วิดท์และ latency เป็นเรื่องของสื่อกายภาพ การแบ่ง area ไม่ได้เพิ่มความเร็วสายแต่อย่างใด\nF. ตรงกันข้าม การออกแบบหลาย area ทำให้คอนฟิก "ซับซ้อนขึ้น" (ต้องจัดการ ABR, summarization, virtual link) แลกกับความสามารถในการขยายตัว\n\n📗 จำไว้สอบ: ทุก area ต้องต่อกับ Area 0 | ABR สรุปเส้นทางด้วย area range | LSA 1/2 ไม่ข้าม area | LSA 3 คือ summary ข้ามพื้นที่',
+  },
+  {
+    id: 386,
+    kind: 'single',
+    image: v2q386,
+    prompt: 'Refer to the exhibit. If R1 receives a packet destined to 172.16.1.1, to which IP address does it send the packet?',
+    options: [
+      { key: 'A', text: '192.168.14.4' },
+      { key: 'B', text: '192.168.12.2' },
+      { key: 'C', text: '192.168.13.3' },
+      { key: 'D', text: '192.168.15.5' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ไล่ตรวจทุกเส้นทางว่าครอบ 172.16.1.1 หรือไม่ ถ้าไม่มีเลยจึงใช้ default route\n\n🔍 เส้นทางที่เกี่ยวกับ 172.16.x.x ในตาราง:\n• C 172.16.1.128/25 directly connected GigabitEthernet1/1/0\n  → block size 128 → ครอบช่วง 172.16.1.128 – 172.16.1.255 ⭐\n  → ปลายทาง 172.16.1.1 อยู่ "นอกช่วง" นี้ ✘\n• C 172.16.16.1 directly connected Loopback1 → เป็น host route ของ .16.1 คนละที่อยู่กับ .1.1 ✘\n\n🧮 ตรวจเส้นทางที่เหลือ:\n• 192.168.12.0/24, 192.168.13.0/24, 192.168.14.0/24 → คนละเครือข่ายกันสิ้นเชิง ✘\n• 192.168.10.x และ 192.168.0.0/16 → ก็ไม่ครอบ 172.16.x.x ✘\n\n🎯 สรุป: ไม่มีเส้นทางเฉพาะใดครอบ 172.16.1.1 เลย → ต้องใช้ default route ⭐\n• "Gateway of last resort is 192.168.14.4 to network 0.0.0.0"\n• O*E2 0.0.0.0/0 [110/1] via 192.168.14.4, FastEthernet1/0 ⭐\n→ แพ็กเก็ตถูกส่งไปที่ 192.168.14.4\n\n⚠️ กับดักหลัก: เห็น 172.16.1.128/25 แล้วรีบคิดว่าตรงกันเพราะขึ้นต้นด้วย 172.16.1 เหมือนกัน — แต่ /25 แบ่งครึ่ง โดยตารางมีเฉพาะครึ่งบน (.128–.255) ส่วน .1 อยู่ครึ่งล่างซึ่งไม่ได้ประกาศไว้\n\n✅ ทำไม A ถูก: ไม่มีเส้นทางเฉพาะเจาะจงใดครอบคลุม 172.16.1.1 เราเตอร์จึงใช้ default route ที่ชี้ไปยัง 192.168.14.4\n\n❌ ทำไมข้ออื่นผิด:\nB. 192.168.12.2 เป็น next hop ของเส้นทาง EIGRP ไปยัง 192.168.10.1/32\nC. 192.168.13.3 เป็น next hop ของเส้นทาง OSPF ไปยัง 192.168.10.32/27\nD. 192.168.15.5 เป็น next hop ของเส้นทางไปยัง 192.168.0.0/16 ซึ่งไม่ครอบ 172.16.x.x\n\n📗 จำไว้สอบ: /25 แบ่ง /24 เป็นสองครึ่ง | ไม่มีเส้นทางตรง = ใช้ default | O*E2 = default route ที่เรียนรู้จาก OSPF external type 2',
+  },
+  {
+    id: 387,
+    kind: 'single',
+    image: v2q387,
+    prompt: 'Refer to the exhibit. On R1 which routing protocol is in use on the route to 192.168.10.1?',
+    options: [
+      { key: 'A', text: 'RIP' },
+      { key: 'B', text: 'OSPF' },
+      { key: 'C', text: 'IGRP' },
+      { key: 'D', text: 'EIGRP' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องหาเส้นทางที่ตรงกับ 192.168.10.1 ตามหลัก longest prefix match ก่อน แล้วจึงดูรหัสตัวอักษรหน้าบรรทัด\n\n🔍 เส้นทางที่เกี่ยวข้องในตาราง:\n• O 192.168.10.0/24 [110/2] via 192.168.14.4 → ครอบ .1 ✔ แต่ prefix /24\n• O 192.168.10.32/27 [110/11] via 192.168.13.3 → ครอบช่วง .32–.63 → ไม่ครอบ .1 ✘\n• O 192.168.0.0/16 [110/2] via 192.168.15.5 → ครอบ ✔ แต่ prefix /16 สั้นมาก\n• D 192.168.10.1/32 [90/52778] via 192.168.12.2 ⭐ → ตรงเป๊ะกับปลายทาง และเป็น prefix ที่ยาวที่สุดคือ /32\n\n🎯 /32 คือ host route ซึ่งเฉพาะเจาะจงที่สุดเท่าที่จะเป็นไปได้ จึงชนะทุกเส้นทางอื่นตามหลัก longest prefix match ⭐\n\n🧩 อ่านรหัสตัวอักษร: ตัว "D" คือรหัสของ EIGRP ⭐ (Cisco ใช้ตัว D เพราะมาจากคำว่า DUAL — ตัว E ถูกใช้โดย EGP ไปก่อนแล้วในอดีต)\n\n📊 ทบทวนรหัสในตารางเส้นทาง:\nC = connected | S = static | R = RIP | D = EIGRP ⭐ | D EX = EIGRP external | O = OSPF | O IA = OSPF inter-area | O E1/E2 = OSPF external | B = BGP | i = IS-IS\n\n💡 ตรวจซ้ำด้วยค่าในวงเล็บ: [90/52778] → เลข 90 คือ AD ของ EIGRP internal ยืนยันคำตอบอีกชั้น ⭐\n\n✅ ทำไม D ถูก: เส้นทาง 192.168.10.1/32 เป็น prefix ที่ยาวที่สุดและตรงกับปลายทางพอดี โดยมีรหัส D และ AD 90 ซึ่งเป็นของ EIGRP\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีเส้นทางที่ขึ้นต้นด้วย R ในตารางเลย\nB. เส้นทาง OSPF (รหัส O) ทั้งหมดมี prefix สั้นกว่า /32 จึงแพ้\nC. IGRP เป็นโปรโตคอลรุ่นเก่าที่เลิกใช้แล้วและไม่ปรากฏในตาราง\n\n📗 จำไว้สอบ: D = EIGRP (จาก DUAL) | /32 = host route ชนะทุกอย่าง | ตรวจซ้ำด้วยค่า AD ในวงเล็บเสมอ',
+  },
+  {
+    id: 388,
+    kind: 'single',
+    image: v2q388,
+    prompt: 'Refer to the exhibit. Which command do you enter so that R1 advertises the loopback0 interface to the BGP peers?',
+    options: [
+      { key: 'A', text: 'network 172.16.1.32 mask 255.255.255.224' },
+      { key: 'B', text: 'network 172.16.1.0 0.0.0.255' },
+      { key: 'C', text: 'network 172.16.1.32 255.255.255.224' },
+      { key: 'D', text: 'network 172.16.1.33 mask 255.255.255.224' },
+      { key: 'E', text: 'network 172.16.1.32 mask 0.0.0.31' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — คำสั่ง network ใน BGP มีไวยากรณ์และความหมายต่างจาก IGP โดยสิ้นเชิง\n\n🔍 ไวยากรณ์ที่ถูกต้อง:\nnetwork <network-address> mask <subnet-mask> ⭐\n→ ต้องมีคีย์เวิร์ด "mask" และตามด้วย subnet mask แบบปกติ (ไม่ใช่ wildcard) ⭐\n\n🧮 คำนวณจาก exhibit: Loopback0 มี IP 172.16.1.33/27 (mask 255.255.255.224)\n• block size = 256 − 224 = 32 → ขอบเขตคือ .0, .32, .64\n• 33 ตกอยู่ในกลุ่ม .32 → network address = 172.16.1.32 ⭐\n• subnet mask = 255.255.255.224 ⭐\n→ คำสั่งที่ถูกคือ network 172.16.1.32 mask 255.255.255.224 ✔\n\n⚠️ กติกาสำคัญของ BGP: เส้นทางที่ระบุด้วยคำสั่ง network ต้องมีอยู่ในตารางเส้นทาง "ตรงกันเป๊ะทั้งเลขเครือข่ายและ mask" มิฉะนั้น BGP จะไม่โฆษณาออกไปเลย ⭐\n→ นี่คือเหตุผลที่ต้องใส่ network address ไม่ใช่ IP ของอินเทอร์เฟซ\n\n💡 ความต่างจาก IGP:\n• OSPF ใช้ wildcard mask: network 172.16.1.32 0.0.0.31 area 0\n• EIGRP ใช้ wildcard mask เช่นกัน (หรือละไว้ได้)\n• BGP ใช้ subnet mask พร้อมคีย์เวิร์ด mask ⭐\n\n✅ ทำไม A ถูก: ระบุ network address ที่ถูกต้องคือ 172.16.1.32 พร้อมคีย์เวิร์ด mask และ subnet mask 255.255.255.224 ตรงตามไวยากรณ์ของ BGP\n\n❌ ทำไมข้ออื่นผิด:\nB. ใช้ wildcard mask ซึ่งเป็นรูปแบบของ OSPF และระบุเครือข่ายเป็น /24 ที่ไม่ตรงกับตารางเส้นทาง\nC. ขาดคีย์เวิร์ด mask ทำให้ BGP ตีความเป็นเครือข่ายแบบ classful\nD. ใส่ 172.16.1.33 ซึ่งเป็น IP ของโฮสต์ ไม่ใช่ network address จึงไม่ตรงกับรายการในตารางเส้นทาง\nE. มีคีย์เวิร์ด mask แต่ตามด้วย wildcard mask ซึ่งผิดรูปแบบ\n\n📗 จำไว้สอบ: BGP = network <net> mask <subnet-mask> | OSPF/EIGRP = wildcard mask | BGP โฆษณาได้ต่อเมื่อเส้นทางตรงเป๊ะในตาราง',
+  },
+  {
+    id: 389,
+    kind: 'single',
+    image: v2q389,
+    prompt: 'Refer to the exhibit. What administrative distance has the route to 192.168.10.1?',
+    options: [
+      { key: 'A', text: '1' },
+      { key: 'B', text: '90' },
+      { key: 'C', text: '110' },
+      { key: 'D', text: '120' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ค่าในวงเล็บของตารางเส้นทางมีรูปแบบ [AD/metric] ⭐\n\n🔍 หาเส้นทางที่ตรงกับ 192.168.10.1 ก่อน (ใช้ longest prefix match):\n• O 192.168.10.0/24 [110/2] via 192.168.14.4 → ครอบ แต่ /24\n• O 192.168.10.32/27 [110/11] → ครอบช่วง .32–.63 ไม่ครอบ .1 ✘\n• O 192.168.0.0/16 [110/2] → ครอบ แต่สั้นมาก\n• D 192.168.10.1/32 [90/52778] via 192.168.12.2 ⭐ → ตรงเป๊ะและ prefix ยาวที่สุด\n\n🎯 เส้นทางที่ถูกใช้คือ /32 ของ EIGRP → ค่าในวงเล็บคือ [90/52778]\n• ตัวเลขตัวแรก 90 = Administrative Distance ⭐\n• ตัวเลขตัวหลัง 52778 = metric ของ EIGRP\n→ คำตอบคือ 90 ⭐\n\n💡 ตรวจสอบความสอดคล้อง: รหัสหน้าบรรทัดคือ D ซึ่งหมายถึง EIGRP และ AD มาตรฐานของ EIGRP internal ก็คือ 90 พอดี ยืนยันคำตอบสองชั้น\n\n📊 ทบทวนตาราง AD:\nConnected 0 | Static 1 | EBGP 20 | EIGRP 90 ⭐ | OSPF 110 | IS-IS 115 | RIP 120 | EIGRP external 170 | IBGP 200\n\n⚠️ กับดัก: อย่ารีบตอบ 110 เพราะเห็นเส้นทาง OSPF เยอะกว่า — ต้องหาเส้นทางที่ "ถูกเลือกใช้จริง" ซึ่งคือเส้นที่ prefix ยาวที่สุดเสมอ\n\n✅ ทำไม B ถูก: เส้นทางที่เราเตอร์ใช้ไปยัง 192.168.10.1 คือ host route /32 ของ EIGRP ซึ่งแสดงค่า AD เป็น 90 ในวงเล็บ\n\n❌ ทำไมข้ออื่นผิด:\nA. 1 เป็นค่าของ static route ซึ่งไม่ปรากฏในตารางนี้\nC. 110 เป็นค่าของเส้นทาง OSPF ที่มี prefix สั้นกว่า จึงไม่ถูกเลือก\nD. 120 เป็นค่าของ RIP ซึ่งไม่มีในตารางเลย\n\n📗 จำไว้สอบ: [AD/metric] | หาเส้นทางที่ถูกใช้จริงด้วย longest prefix match ก่อนอ่านค่า AD',
+  },
+  {
+    id: 390,
+    kind: 'single',
+    prompt: 'Which value is used to determine the active router in an HSRP default configuration?',
+    options: [
+      { key: 'A', text: 'Router loopback address' },
+      { key: 'B', text: 'Router IP address' },
+      { key: 'C', text: 'Router priority' },
+      { key: 'D', text: 'Router tracking number' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์คือ "default configuration" ซึ่งเปลี่ยนคำตอบไปจากปกติ ⭐\n\n🔍 ลำดับการเลือก active router ของ HSRP:\n1️⃣ Priority สูงกว่าชนะ (ค่าเริ่มต้นคือ 100 ทุกตัว)\n2️⃣ ถ้า priority เท่ากัน → IP address ของอินเทอร์เฟซที่สูงกว่าชนะ ⭐\n\n🎯 เนื่องจากโจทย์ระบุว่าเป็น "คอนฟิกเริ่มต้น" แปลว่าไม่มีใครแก้ priority เลย → ทุกตัวมีค่า 100 เท่ากันหมด\n→ ตัวตัดสินจึงตกไปที่เกณฑ์ที่สอง คือที่อยู่ IP ของอินเทอร์เฟซที่รัน HSRP ⭐\n\n⚠️ ทำไมไม่ตอบ priority: ถ้าโจทย์ถามลอย ๆ ว่า "อะไรใช้เลือก active router" คำตอบคือ priority — แต่เมื่อระบุว่าเป็นคอนฟิกเริ่มต้น ค่านั้นเท่ากันหมดจึงตัดสินอะไรไม่ได้ ต้องไปที่ตัวตัดสินถัดไป ⭐\n\n💡 ข้อควรทราบเพิ่ม:\n• เป็น IP ของอินเทอร์เฟซที่รัน HSRP ไม่ใช่ loopback (ต่างจาก OSPF ที่ใช้ loopback เลือก router ID)\n• ถ้าไม่ได้สั่ง standby preempt เราเตอร์ที่บูตขึ้นมา "ก่อน" จะได้เป็น active ไปเลย แม้ตัวที่ IP สูงกว่าจะขึ้นมาทีหลัง\n• Hello ทุก 3 วินาที, hold time 10 วินาที\n\n✅ ทำไม B ถูก: ในคอนฟิกเริ่มต้นที่ priority เท่ากันหมดที่ 100 HSRP จะใช้ที่อยู่ IP ของอินเทอร์เฟซที่สูงที่สุดเป็นตัวตัดสินว่าใครเป็น active router\n\n❌ ทำไมข้ออื่นผิด:\nA. HSRP ใช้ IP ของอินเทอร์เฟซที่รันโปรโตคอล ไม่ใช่ loopback\nC. priority เป็นเกณฑ์แรกก็จริง แต่ในคอนฟิกเริ่มต้นค่านี้เท่ากันหมด จึงตัดสินไม่ได้\nD. interface tracking เป็นฟีเจอร์เสริมที่ลด priority เมื่ออินเทอร์เฟซที่เฝ้าดูล่ม ซึ่งต้องตั้งค่าเอง ไม่ใช่ค่าเริ่มต้น\n\n📗 จำไว้สอบ: HSRP = priority ก่อน แล้ว IP สูงสุด | ค่าเริ่มต้น priority 100 | ไม่มี preempt = ใครขึ้นก่อนได้ก่อน',
+  },
+  {
+    id: 391,
+    kind: 'single',
+    prompt: 'A port security violation has occurred on a switch port due to the maximum MAC address count being exceeded. Which command must be configured to increment the security-violation count and forward an SNMP trap?',
+    options: [
+      { key: 'A', text: 'switchport port-security violation access' },
+      { key: 'B', text: 'switchport port-security violation protect' },
+      { key: 'C', text: 'switchport port-security violation restrict' },
+      { key: 'D', text: 'switchport port-security violation shutdown' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — โหมดการละเมิด (violation mode) ของ port security มี 3 แบบ ต้องจำความแตกต่างให้แม่น\n\n📊 ตารางเปรียบเทียบ:\n\n🔹 protect\n• ทิ้งเฟรมจาก MAC ที่เกินโควตาเงียบ ๆ\n• ไม่เพิ่มตัวนับ ✘ | ไม่ส่ง syslog ✘ | ไม่ส่ง SNMP trap ✘ | พอร์ตยังทำงานปกติ\n\n🔹 restrict ⭐\n• ทิ้งเฟรมเช่นกัน แต่ "เพิ่มตัวนับ security violation" ✔ ⭐\n• ส่ง syslog ✔ และส่ง SNMP trap ✔ ⭐\n• พอร์ตยังทำงานปกติ ไม่ถูกปิด\n\n🔹 shutdown (ค่าเริ่มต้น)\n• ปิดพอร์ตเข้าสถานะ err-disabled ทันที ⭐\n• เพิ่มตัวนับ ✔ | ส่ง syslog ✔ | ส่ง SNMP trap ✔\n• ต้องกู้คืนด้วย shutdown แล้ว no shutdown หรือตั้ง errdisable recovery cause psecure-violation\n\n🎯 โจทย์ต้องการ: "increment the security-violation count and forward an SNMP trap" โดยไม่ได้พูดถึงการปิดพอร์ต\n→ ตรงกับ restrict พอดี ⭐ (shutdown ก็ทำสองอย่างนี้ได้ แต่จะปิดพอร์ตด้วยซึ่งเกินกว่าที่โจทย์บรรยาย)\n\n💡 ตรวจสอบผลได้ด้วย show port-security interface <int> ซึ่งจะแสดง Security Violation Count\n\n✅ ทำไม C ถูก: โหมด restrict ทิ้งเฟรมที่ละเมิดพร้อมเพิ่มตัวนับและส่ง SNMP trap โดยที่พอร์ตยังคงส่งทราฟฟิกปกติต่อไป ตรงกับพฤติกรรมที่โจทย์ระบุ\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีโหมดชื่อ access ในคำสั่ง port-security violation\nB. protect ทิ้งเฟรมเงียบ ๆ โดยไม่เพิ่มตัวนับและไม่ส่งการแจ้งเตือนใด ๆ\nD. shutdown จะปิดพอร์ตเข้าสถานะ err-disabled ซึ่งเกินกว่าที่โจทย์ต้องการ\n\n📗 จำไว้สอบ: protect = เงียบ | restrict = นับ + แจ้ง | shutdown = ปิดพอร์ต (ค่าเริ่มต้น) | sticky = จำ MAC ลงคอนฟิกอัตโนมัติ',
+  },
+  {
+    id: 392,
+    kind: 'single',
+    image: v2q392,
+    prompt: 'Refer to the exhibit. Which type of configuration is represented in the output?',
+    options: [
+      { key: 'A', text: 'Ansible' },
+      { key: 'B', text: 'JSON' },
+      { key: 'C', text: 'Chef' },
+      { key: 'D', text: 'Puppet' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — จำ "ลายเซ็นทางไวยากรณ์" ของแต่ละเครื่องมือ automation\n\n🔍 อ่าน exhibit:\ncisco_ospf_vrf {"R1 default":\n  ensure => "present",\n  auto_cost => "100",\n}\n\n🎯 จุดชี้ขาดคือสัญลักษณ์ => (fat arrow หรือ hash rocket) ⭐ ซึ่งเป็นเอกลักษณ์ของ Puppet โดยเฉพาะ\n• Puppet ใช้ภาษาเฉพาะของตัวเองเรียกว่า manifest (นามสกุล .pp)\n• รูปแบบคือ resource_type { "title": attribute => value, }\n• คีย์เวิร์ด ensure => present ก็เป็นสำนวนที่พบได้บ่อยมากใน Puppet ⭐\n\n📊 เปรียบเทียบไวยากรณ์ของแต่ละเครื่องมือ:\n• Ansible → YAML ใช้ขีดกลางนำหน้ารายการและใช้ key: value เช่น "- name: configure ospf"\n• Chef → Ruby DSL ใช้บล็อก do ... end และเรียกไฟล์ว่า recipe รวมกันเป็น cookbook\n• Puppet → ใช้ => และปีกกา เรียกไฟล์ว่า manifest ⭐\n• JSON → ใช้เครื่องหมายทวิภาค (:) และปีกกาโดยไม่มี => เลย\n\n📊 คุณสมบัติอื่นที่ออกสอบคู่กัน:\n• Ansible → agentless, ใช้ SSH (TCP 22), push model, เขียนด้วย Python\n• Puppet → ต้องมี agent, ใช้ TCP 8140, pull model, เขียนด้วย Ruby ⭐\n• Chef → ต้องมี agent, ใช้ TCP 10002, pull model, เขียนด้วย Ruby\n\n✅ ทำไม D ถูก: สัญลักษณ์ => และโครงสร้าง resource { "title": ... } พร้อมคีย์เวิร์ด ensure คือลายเซ็นเฉพาะของ Puppet manifest\n\n❌ ทำไมข้ออื่นผิด:\nA. Ansible ใช้ YAML ซึ่งไม่มีปีกกาและไม่ใช้ =>\nB. JSON ใช้ทวิภาคคั่นระหว่างคีย์กับค่า ไม่ใช้ลูกศร\nC. Chef ใช้ไวยากรณ์แบบ Ruby ที่มีบล็อก do ... end\n\n📗 จำไว้สอบ: Puppet = => + manifest + TCP 8140 | Ansible = YAML + SSH 22 + agentless | Chef = Ruby + recipe/cookbook + TCP 10002',
+  },
+  {
+    id: 393,
+    kind: 'single',
+    image: v2q393,
+    prompt: 'Refer to the exhibit. An engineer configured the New York router with static routes that point to the Atlanta and Washington sites. Which command must be configured on the Atlanta and Washington routers so that both sites are able to reach the loopback2 interface on the New York router?',
+    options: [
+      { key: 'A', text: 'ipv6 route ::/0 Serial 0/0/0' },
+      { key: 'B', text: 'ipv6 route ::/0 Serial 0/0/1' },
+      { key: 'C', text: 'ipv6 route :0/0 Serial 0/0/0' },
+      { key: 'D', text: 'ip route 0.0.0.0 0.0.0.0 Serial 0/0/0' },
+      { key: 'E', text: 'ipv6 route ::/0 2000::2' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — โจทย์ต้องการคำสั่ง "หนึ่งคำสั่งที่ใช้ได้กับทั้งสองไซต์" เพื่อให้ส่งทราฟฟิกกลับไปหา New York\n\n🔍 ผังที่อยู่จาก exhibit:\n• Atlanta: Serial 0/0/0 = 2012::1/126, Loopback1 = 2000::1/128\n• New York: Serial 0/0/0 = 2012::2/126, Serial 0/0/1 = 2023::2/126, Loopback2 = 2000::2/128 ⭐ (เป้าหมาย)\n• Washington: Serial 0/0/0 = 2023::3/126, Loopback3 = 2000::3/128\n\n🎯 สังเกตจุดสำคัญ: ทั้ง Atlanta และ Washington ต่างมีลิงก์เดียวออกไปหา New York และลิงก์นั้นชื่อ Serial 0/0/0 เหมือนกันทั้งคู่ ⭐\n\n🧩 คำสั่งที่เหมาะสม:\nipv6 route ::/0 Serial 0/0/0 ⭐\n• ::/0 คือ default route ของ IPv6 (เทียบเท่า 0.0.0.0/0 ของ IPv4)\n• ระบุ exit interface แทน next hop → ใช้ได้บนลิงก์แบบ point-to-point และทำให้คำสั่งเดียวใช้ได้กับทั้งสองเราเตอร์ ⭐\n→ ทุกอย่างที่ไม่รู้จักจะถูกส่งออก Serial 0/0/0 ไปหา New York รวมถึงปลายทาง 2000::2/128 ด้วย ✔\n\n💡 ทำไมใช้ default route: เราเตอร์ปลายทางทั้งสองเป็น stub site ที่มีทางออกทางเดียว การใส่ default route ง่ายกว่าและครอบคลุมกว่าการใส่ host route ทีละเส้น\n\n✅ ทำไม A ถูก: เป็นไวยากรณ์ default route ของ IPv6 ที่ถูกต้อง และการระบุ Serial 0/0/0 เป็นทางออกใช้ได้กับทั้ง Atlanta และ Washington เพราะทั้งคู่ใช้ชื่ออินเทอร์เฟซเดียวกันในการเชื่อมไปยัง New York\n\n❌ ทำไมข้ออื่นผิด:\nB. Serial 0/0/1 ไม่ใช่ลิงก์ที่เชื่อมไปยัง New York บนเราเตอร์ทั้งสองตัวนี้\nC. :0/0 ไม่ใช่รูปแบบที่อยู่ IPv6 ที่ถูกต้อง (ต้องเป็น ::/0)\nD. เป็นคำสั่งของ IPv4 ซึ่งใช้กับเครือข่าย IPv6 ในโจทย์ไม่ได้\nE. 2000::2 คือ Loopback2 ซึ่งเป็นปลายทางที่เราต้องการไปถึง ไม่ใช่ next hop ที่เอื้อมถึงได้โดยตรง\n\n📗 จำไว้สอบ: IPv6 default = ::/0 | IPv4 default = 0.0.0.0/0 | exit interface ใช้ได้บน point-to-point | ต้องเปิด ipv6 unicast-routing ก่อน',
+  },
+  {
+    id: 394,
+    kind: 'single',
+    prompt: 'In software defined architectures, which plane is distributed and responsible for traffic forwarding?',
+    options: [
+      { key: 'A', text: 'management plane' },
+      { key: 'B', text: 'control plane' },
+      { key: 'C', text: 'policy plane' },
+      { key: 'D', text: 'data plane' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — โครงสร้างสามระนาบของอุปกรณ์เครือข่าย\n\n🔹 Data plane (หรือ forwarding plane) ⭐\n• หน้าที่: ส่งต่อแพ็กเก็ตจริง ๆ ตามตารางที่ control plane สร้างให้\n• งานที่ทำ: ค้น FIB/CEF, สลับ MAC header, ลดค่า TTL, ตรวจ ACL, ทำ NAT, ทำ QoS\n• ตำแหน่ง: "กระจายอยู่ (distributed)" บนอุปกรณ์ทุกตัวและมักทำงานด้วยฮาร์ดแวร์ ASIC เพื่อความเร็ว ⭐\n• ใน SDN ระนาบนี้ยังคงอยู่ที่อุปกรณ์เสมอ ไม่ถูกยกไปไว้ที่ controller ⭐\n\n🔹 Control plane\n• หน้าที่: ตัดสินใจว่าเส้นทางควรเป็นอย่างไร\n• งานที่ทำ: รันโปรโตคอลเราต์ติ้ง, STP, ARP, สร้างตารางเส้นทาง\n• ใน SDN ระนาบนี้ถูก "รวมศูนย์ (centralized)" ไปไว้ที่ controller ⭐\n\n🔹 Management plane\n• หน้าที่: ให้มนุษย์และระบบภายนอกเข้ามาจัดการอุปกรณ์\n• งานที่ทำ: SSH, Telnet, SNMP, syslog, NETCONF/RESTCONF\n\n🎯 คำสำคัญของโจทย์มีสองคำที่ต้องตรงพร้อมกัน: "distributed" และ "responsible for traffic forwarding" → data plane เท่านั้น ⭐\n\n💡 หัวใจของ SDN คือการ "แยก" control plane ออกจาก data plane แล้วยก control plane ขึ้นไปรวมศูนย์ ส่วน data plane ยังกระจายอยู่ที่อุปกรณ์และรับคำสั่งลงมาผ่าน southbound API เช่น OpenFlow\n\n✅ ทำไม D ถูก: data plane คือระนาบที่ทำหน้าที่ส่งต่อแพ็กเก็ตจริงและยังคงกระจายอยู่บนอุปกรณ์ทุกตัวแม้ในสถาปัตยกรรม SDN\n\n❌ ทำไมข้ออื่นผิด:\nA. management plane ใช้จัดการอุปกรณ์ ไม่ได้ส่งต่อทราฟฟิก\nB. control plane ตัดสินใจเรื่องเส้นทาง และใน SDN ถูกรวมศูนย์ ไม่ใช่กระจาย\nC. ไม่มีระนาบชื่อ policy plane ในโมเดลมาตรฐาน\n\n📗 จำไว้สอบ: SDN = control รวมศูนย์ + data กระจาย | southbound = controller ไปหาอุปกรณ์ (OpenFlow, NETCONF) | northbound = controller ไปหาแอป (REST API)',
+  },
+  {
+    id: 395,
+    kind: 'single',
+    prompt: 'An engineer requires a switch interface to actively attempt to establish a trunk link with a neighbor switch. What command must be configured?',
+    options: [
+      { key: 'A', text: 'switchport mode trunk' },
+      { key: 'B', text: 'switchport mode dynamic desirable' },
+      { key: 'C', text: 'switchport mode dynamic auto' },
+      { key: 'D', text: 'switchport nonegotiate' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — โหมด DTP (Dynamic Trunking Protocol) และใครเป็นฝ่าย "เริ่มเจรจา"\n\n📊 สี่โหมดที่ต้องแยกให้ออก:\n• trunk → บังคับเป็น trunk ทันที และยังส่ง DTP frame ออกไป แต่ไม่ได้ "เจรจา" เพราะตัดสินใจไปแล้ว\n• dynamic desirable ⭐ → ส่ง DTP frame ออกไปชวนอีกฝั่งให้เป็น trunk อย่างกระตือรือร้น (actively attempt) ⭐\n• dynamic auto → รอฟังเฉย ๆ จะเป็น trunk ก็ต่อเมื่อมีคนมาชวนก่อน (passive)\n• nonegotiate → ปิด DTP ไปเลย ไม่ส่งและไม่รับ\n\n🧮 ตารางผลลัพธ์ของการจับคู่:\n• desirable + desirable → trunk ✔\n• desirable + auto → trunk ✔ ⭐\n• desirable + trunk → trunk ✔\n• auto + auto → access ✘ (ไม่มีใครเริ่ม จึงตกเป็น access ทั้งคู่)\n• trunk + trunk → trunk ✔\n\n🎯 คำสำคัญของโจทย์คือ "actively attempt to establish a trunk" = เป็นฝ่ายลงมือชวน → dynamic desirable ⭐\n\n⚠️ หมายเหตุด้านความปลอดภัย: ในสภาพแวดล้อมจริง DTP ถือเป็นความเสี่ยง เพราะผู้โจมตีอาจปลอมตัวเป็นสวิตช์แล้วเจรจาเป็น trunk เพื่อทำ VLAN hopping — แนวปฏิบัติที่ดีคือกำหนดโหมดตายตัวด้วย switchport mode access หรือ switchport mode trunk พร้อมสั่ง switchport nonegotiate\n\n✅ ทำไม B ถูก: dynamic desirable เป็นโหมดเดียวที่ส่ง DTP frame ออกไปชักชวนอีกฝั่งอย่างจริงจังเพื่อสร้างลิงก์ trunk\n\n❌ ทำไมข้ออื่นผิด:\nA. mode trunk บังคับให้เป็น trunk ทันทีโดยไม่ได้ "พยายามเจรจา" ตามที่โจทย์บรรยาย\nC. dynamic auto เป็นฝ่ายตั้งรับ รอให้อีกฝั่งชวนก่อน\nD. nonegotiate ปิดการเจรจาทั้งหมด จึงตรงข้ามกับโจทย์\n\n📗 จำไว้สอบ: desirable = ชวน | auto = รอ | auto+auto = access | ในงานจริงควรปิด DTP ด้วย nonegotiate',
+  },
+  {
+    id: 396,
+    kind: 'multi',
+    prompt: 'What are two recommendations for protecting network ports from being exploited when located in an office space outside of an IT closet? (Choose two.)',
+    options: [
+      { key: 'A', text: 'configure static ARP entries' },
+      { key: 'B', text: 'enable the PortFast feature on ports' },
+      { key: 'C', text: 'implement port-based authentication' },
+      { key: 'D', text: 'configure ports to a fixed speed' },
+      { key: 'E', text: 'shut down unused ports' },
+    ],
+    correct: ['C', 'E'],
+    explanation:
+      '📘 แนวคิด — พอร์ตที่อยู่ในพื้นที่เปิด (โถงทางเดิน ห้องประชุม ล็อบบี้) เสี่ยงต่อการที่ใครก็ได้เอาอุปกรณ์มาเสียบ\n\n🛡️ มาตรการที่เหมาะสม:\n\n1️⃣ Implement port-based authentication (802.1X) ⭐\n• อุปกรณ์ต้องยืนยันตัวตนกับ RADIUS/ISE ก่อนจึงจะได้รับอนุญาตให้ใช้เครือข่าย\n• องค์ประกอบสามส่วน: supplicant (เครื่องผู้ใช้) → authenticator (สวิตช์) → authentication server (RADIUS)\n• ก่อนผ่านการยืนยันตัวตน พอร์ตจะยอมให้ผ่านเฉพาะทราฟฟิก EAPOL เท่านั้น ⭐\n\n2️⃣ Shut down unused ports ⭐\n• หลักการพื้นฐานที่สุด: พอร์ตที่ปิดอยู่ (administratively down) เสียบอะไรก็ใช้ไม่ได้\n• แนวปฏิบัติเสริม: ย้ายพอร์ตที่ไม่ใช้ไปไว้ใน VLAN ที่ไม่มีทางออก (black hole VLAN) เพื่อกันกรณีมีคนเผลอเปิดพอร์ต\n\n💡 มาตรการเสริมอื่นที่ควรรู้: port security (จำกัดจำนวนและระบุ MAC), BPDU Guard (กันคนเอาสวิตช์มาเสียบ), DHCP snooping (กัน DHCP server ปลอม), Dynamic ARP Inspection (กัน ARP spoofing)\n\n✅ ทำไม C, E ถูก: 802.1X บังคับให้ต้องพิสูจน์ตัวตนก่อนใช้เครือข่าย และการปิดพอร์ตที่ไม่ได้ใช้ตัดโอกาสการเข้าถึงตั้งแต่ต้นทาง ทั้งสองเป็นแนวปฏิบัติมาตรฐานสำหรับพอร์ตในพื้นที่เปิด\n\n❌ ทำไมข้ออื่นผิด:\nA. static ARP ช่วยลดความเสี่ยง ARP spoofing ได้บ้าง แต่ดูแลไม่ไหวในระดับองค์กรและไม่ได้กันคนแปลกหน้าเสียบสาย\nB. PortFast ทำให้พอร์ตเข้า forwarding เร็วขึ้น ซึ่งเป็นเรื่องประสิทธิภาพ ไม่ใช่ความปลอดภัย (และถ้าใช้เดี่ยว ๆ โดยไม่มี BPDU Guard ยังเพิ่มความเสี่ยงลูปด้วย)\nD. การล็อกความเร็วพอร์ตช่วยเรื่องเสถียรภาพของลิงก์ ไม่เกี่ยวกับการป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต\n\n📗 จำไว้สอบ: 802.1X = supplicant/authenticator/RADIUS | ปิดพอร์ตที่ไม่ใช้ + ย้ายเข้า black hole VLAN | port security + BPDU Guard + DHCP snooping + DAI',
+  },
+  {
+    id: 397,
+    kind: 'single',
+    image: v2q397,
+    prompt: 'Refer to the exhibit. After the election process, what is the root bridge in the HQ LAN? Switch1: 0C:E0:38:81:32:58, Switch2: 0C:0E:15:22:1A:61, Switch3: 0C:0E:15:1D:3C:9A, Switch4: 0C:E0:19:A1:4D:16',
+    options: [
+      { key: 'A', text: 'Switch 1' },
+      { key: 'B', text: 'Switch 2' },
+      { key: 'C', text: 'Switch 3' },
+      { key: 'D', text: 'Switch 4' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — เมื่อโจทย์ให้มาแต่ MAC address โดยไม่ระบุ priority แปลว่าทุกตัวใช้ค่าเริ่มต้นเท่ากัน (32768 + VLAN ID)\n→ ตัวตัดสินจึงเป็น MAC address ที่ต่ำที่สุด ⭐\n\n🧮 วิธีเทียบ MAC address: เทียบทีละไบต์จากซ้ายไปขวา เจอไบต์ที่ต่างกันเมื่อไรก็ตัดสินได้ทันที ⭐\n\n📊 เทียบทั้งสี่ตัว:\n• Switch1: 0C:E0:38:81:32:58\n• Switch2: 0C:0E:15:22:1A:61\n• Switch3: 0C:0E:15:1D:3C:9A\n• Switch4: 0C:E0:19:A1:4D:16\n\nไบต์ที่ 1 → ทุกตัวเป็น 0C เท่ากันหมด → ไปต่อ\nไบต์ที่ 2 → Switch1 = E0, Switch2 = 0E, Switch3 = 0E, Switch4 = E0\n  → 0E (ค่า 14) น้อยกว่า E0 (ค่า 224) ⭐ → เหลือผู้ชิงคือ Switch2 กับ Switch3 ส่วน Switch1 และ Switch4 ตกรอบ\nไบต์ที่ 3 → Switch2 = 15, Switch3 = 15 → เท่ากัน ไปต่อ\nไบต์ที่ 4 → Switch2 = 22 (ค่า 34), Switch3 = 1D (ค่า 29)\n  → 1D น้อยกว่า 22 ⭐ → Switch3 ชนะ ✔\n\n⚠️ กับดักคลาสสิก: การอ่านเลขฐานสิบหกด้วยสายตาแบบเลขฐานสิบ เช่นคิดว่า E0 น้อยกว่า 0E เพราะดูสั้นกว่า — ต้องแปลงเป็นเลขฐานสิบเสมอ (0E = 14, E0 = 224)\n\n✅ ทำไม C ถูก: เมื่อ priority เท่ากันทุกตัว Switch3 มี MAC address ต่ำที่สุด (0C:0E:15:1D:...) จึงชนะการเลือกตั้งและกลายเป็น root bridge\n\n❌ ทำไมข้ออื่นผิด:\nA. Switch1 มีไบต์ที่สองเป็น E0 ซึ่งสูงกว่า 0E\nB. Switch2 สูสีมากแต่แพ้ที่ไบต์ที่สี่ (22 มากกว่า 1D)\nD. Switch4 มีไบต์ที่สองเป็น E0 เช่นเดียวกับ Switch1 จึงตกรอบตั้งแต่ต้น\n\n📗 จำไว้สอบ: BID = priority + MAC | priority เท่ากัน = เทียบ MAC ทีละไบต์จากซ้าย | แปลงฐานสิบหกเป็นฐานสิบก่อนเทียบเสมอ',
+  },
+  {
+    id: 398,
+    kind: 'single',
+    prompt: 'What is a function of TFTP in network operations?',
+    options: [
+      { key: 'A', text: 'transfers a backup configuration file from a server to a switch using a username and password' },
+      { key: 'B', text: 'transfers files between file systems on a router' },
+      { key: 'C', text: 'transfers a configuration file from a server to a router on a congested link' },
+      { key: 'D', text: 'transfers IOS images from a server to a router for firmware upgrades' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คุณสมบัติของ TFTP (Trivial File Transfer Protocol)\n• ทำงานบน UDP พอร์ต 69 ⭐\n• "ไม่มีระบบยืนยันตัวตนใด ๆ" — ไม่มี username ไม่มี password ⭐\n• โปรโตคอลเรียบง่ายมาก โค้ดเล็ก จึงฝังไว้ในเฟิร์มแวร์และ ROMMON ของอุปกรณ์เครือข่ายได้\n• ใช้กลไก block number กับ ACK ของตัวเองเพื่อความถูกต้องของข้อมูล แต่ไม่มีการควบคุมความคับคั่งแบบ TCP\n\n🎯 การใช้งานที่พบบ่อยที่สุดในงานเครือข่าย:\n• อัปโหลด/ดาวน์โหลด IOS image เพื่ออัปเกรดเฟิร์มแวร์ ⭐\n• สำรองและกู้คืนไฟล์คอนฟิก\n• กู้ระบบจากโหมด ROMMON เมื่อ IOS เสียหาย\n→ คำสั่งที่ใช้บ่อย: copy tftp: flash: และ copy running-config tftp:\n\n📊 ตรวจทีละตัวเลือก:\n• A → ผิดเพราะ TFTP ไม่มีระบบ username/password เลย ⭐\n• B → การคัดลอกไฟล์ระหว่างระบบไฟล์ภายในเราเตอร์ใช้คำสั่ง copy flash: nvram: โดยตรง ไม่ต้องพึ่ง TFTP\n• C → TFTP วิ่งบน UDP ซึ่งไม่มีกลไกควบคุมความคับคั่ง จึงเป็นตัวเลือกที่แย่ที่สุดบนลิงก์ที่แออัด ⭐\n• D → ตรงกับการใช้งานจริงที่พบบ่อยที่สุด ✔ ⭐\n\n💡 เปรียบเทียบกับโปรโตคอลอื่น: FTP ใช้ TCP 20/21 และต้อง login | SFTP วิ่งบน SSH TCP 22 พร้อมเข้ารหัส | SCP ก็ใช้ SSH เช่นกัน\n\n✅ ทำไม D ถูก: การถ่ายโอน IOS image จากเซิร์ฟเวอร์มายังเราเตอร์เพื่ออัปเกรดเฟิร์มแวร์เป็นบทบาทหลักของ TFTP ในงานเครือข่าย\n\n❌ ทำไมข้ออื่นผิด:\nA. TFTP ไม่รองรับการยืนยันตัวตนด้วยชื่อผู้ใช้และรหัสผ่าน (นั่นคือ FTP)\nB. การย้ายไฟล์ระหว่างระบบไฟล์ภายในอุปกรณ์ทำได้ด้วยคำสั่ง copy โดยตรง\nC. บนลิงก์ที่แออัดควรใช้ FTP ที่วิ่งบน TCP เพราะมีการควบคุมความคับคั่งและส่งซ้ำ\n\n📗 จำไว้สอบ: TFTP = UDP 69, ไม่มี auth | FTP = TCP 20/21, มี auth | SFTP/SCP = SSH TCP 22 เข้ารหัส',
+  },
+  {
+    id: 399,
+    kind: 'single',
+    prompt: 'Which CRUD operation modifies an existing table or view?',
+    options: [
+      { key: 'A', text: 'read' },
+      { key: 'B', text: 'create' },
+      { key: 'C', text: 'replace' },
+      { key: 'D', text: 'update' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — CRUD คือสี่การกระทำพื้นฐานกับข้อมูล และมีการจับคู่กับ HTTP method ที่ต้องจำ\n\n📊 ตารางจับคู่:\n• Create → POST → สร้างข้อมูลใหม่\n• Read → GET → อ่านข้อมูล (ไม่เปลี่ยนแปลงอะไร)\n• Update ⭐ → PUT หรือ PATCH → แก้ไขข้อมูลที่มีอยู่แล้ว ⭐\n  – PUT = แทนที่ทั้งวัตถุ\n  – PATCH = แก้เฉพาะบางฟิลด์\n• Delete → DELETE → ลบข้อมูล\n\n🎯 คำสำคัญของโจทย์คือ "modifies an existing" = แก้ไขสิ่งที่มีอยู่แล้ว → ตรงกับ Update ⭐\n\n💡 ทำไม CCNA ต้องรู้เรื่องนี้: หัวข้อ Automation and Programmability ครอบคลุมการเรียกใช้ REST API ของ Cisco DNA Center, WLC และ ISE ซึ่งทุกการเรียกล้วนแปลงมาจากการกระทำ CRUD\n\n📊 รหัสสถานะ HTTP ที่ออกสอบคู่กัน:\n• 200 OK → สำเร็จ\n• 201 Created → สร้างสำเร็จ\n• 3xx → เปลี่ยนเส้นทาง\n• 400 Bad Request / 401 Unauthorized / 403 Forbidden / 404 Not Found → ผิดพลาดฝั่งไคลเอนต์\n• 500 Internal Server Error → ผิดพลาดฝั่งเซิร์ฟเวอร์\n\n✅ ทำไม D ถูก: Update คือการกระทำใน CRUD ที่หมายถึงการแก้ไขข้อมูลหรือโครงสร้างที่มีอยู่เดิม\n\n❌ ทำไมข้ออื่นผิด:\nA. Read เป็นการอ่านอย่างเดียว ไม่มีการเปลี่ยนแปลง\nB. Create เป็นการสร้างสิ่งใหม่ ไม่ใช่แก้ของเดิม\nC. replace ไม่ใช่หนึ่งในสี่การกระทำมาตรฐานของ CRUD (แม้ HTTP PUT จะมีความหมายว่าแทนที่ก็ตาม)\n\n📗 จำไว้สอบ: C=POST | R=GET | U=PUT/PATCH | D=DELETE | 200 สำเร็จ, 201 สร้างแล้ว, 404 ไม่พบ, 500 เซิร์ฟเวอร์ผิดพลาด',
+  },
+  {
+    id: 400,
+    kind: 'single',
+    prompt: 'What is a function of a remote access VPN?',
+    options: [
+      { key: 'A', text: 'used cryptographic tunneling to protect the privacy of data for multiple users simultaneously' },
+      { key: 'B', text: 'used exclusively when a user is connected to a company internal network' },
+      { key: 'C', text: 'establishes a secure tunnel between two branch sites' },
+      { key: 'D', text: 'allows the users to access company internal network resources through a secure tunnel' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — VPN สองประเภทหลักที่ต้องแยกให้ขาด\n\n🔹 Remote Access VPN ⭐\n• ผู้ใช้ "แต่ละคน" ติดตั้งซอฟต์แวร์ไคลเอนต์ (เช่น Cisco AnyConnect) บนอุปกรณ์ของตน\n• สร้างอุโมงค์เข้ารหัสจากอุปกรณ์นั้นไปยัง VPN gateway ขององค์กร ⭐\n• เทคโนโลยีที่ใช้: SSL/TLS VPN หรือ IPsec\n• กรณีใช้งาน: พนักงานทำงานจากบ้าน จากโรงแรม หรือจากร้านกาแฟ แล้วต้องการเข้าถึงไฟล์เซิร์ฟเวอร์และระบบภายในองค์กร ⭐\n\n🔹 Site-to-Site VPN\n• อุปกรณ์เครือข่ายสองฝั่ง (เราเตอร์หรือไฟร์วอลล์) สร้างอุโมงค์ถาวรระหว่างกัน\n• ผู้ใช้ปลายทางไม่ต้องติดตั้งอะไรและไม่รู้ตัวว่ากำลังใช้ VPN\n• เทคโนโลยีที่ใช้: IPsec (tunnel mode), GRE over IPsec, DMVPN\n• กรณีใช้งาน: เชื่อมสำนักงานสาขาเข้ากับสำนักงานใหญ่แบบถาวร\n\n🎯 โจทย์ถามฟังก์ชันของ remote access VPN → คือการให้ผู้ใช้เข้าถึงทรัพยากรภายในองค์กรผ่านอุโมงค์ที่ปลอดภัยจากภายนอก ⭐\n\n✅ ทำไม D ถูก: อธิบายบทบาทหลักของ remote access VPN ได้ตรงที่สุด คือให้ผู้ใช้จากภายนอกเข้าถึงทรัพยากรภายในองค์กรผ่านอุโมงค์ที่ปลอดภัย\n\n❌ ทำไมข้ออื่นผิด:\nA. ประโยคนี้อธิบายคุณสมบัติทั่วไปของ VPN ทุกชนิด ไม่ได้ระบุลักษณะเฉพาะของ remote access\nB. กลับความหมาย — remote access VPN ใช้ตอนผู้ใช้อยู่ "นอก" เครือข่ายองค์กร ถ้าอยู่ภายในอยู่แล้วก็ไม่จำเป็นต้องใช้\nC. การสร้างอุโมงค์ระหว่างสองสาขาคือนิยามของ site-to-site VPN\n\n📗 จำไว้สอบ: remote access = ไคลเอนต์บนเครื่องผู้ใช้ (AnyConnect, SSL/IPsec) | site-to-site = อุปกรณ์ถึงอุปกรณ์ (IPsec tunnel mode) | tunnel mode + ESP = เข้ารหัสทั้งแพ็กเก็ตเดิม',
+  },
+  {
+    id: 401,
+    kind: 'single',
+    prompt: 'What is a DHCP client?',
+    options: [
+      { key: 'A', text: 'a workstation that requests a domain name associated with its IP address' },
+      { key: 'B', text: 'a host that is configured to request an IP address automatically' },
+      { key: 'C', text: 'a server that dynamically assigns IP addresses to hosts' },
+      { key: 'D', text: 'a router that statically assigns IP addresses to hosts' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — บทบาทในระบบ DHCP มีสามฝ่าย\n• DHCP client ⭐ → โฮสต์ที่ถูกตั้งค่าให้ "ขอ" IP อัตโนมัติ (บน Windows คือ Obtain an IP address automatically)\n• DHCP server → อุปกรณ์ที่ "จ่าย" IP พร้อม subnet mask, default gateway, DNS server, lease time\n• DHCP relay agent → เราเตอร์ที่แปลงบรอดแคสต์ของไคลเอนต์เป็นยูนิแคสต์ส่งข้ามซับเน็ตไปหาเซิร์ฟเวอร์ (สั่งด้วย ip helper-address)\n\n🔍 ลำดับ DORA ที่ต้องจำ ⭐:\n1️⃣ DHCP Discover → ไคลเอนต์บรอดแคสต์หาเซิร์ฟเวอร์ (source 0.0.0.0, destination 255.255.255.255)\n2️⃣ DHCP Offer → เซิร์ฟเวอร์เสนอ IP กลับมา\n3️⃣ DHCP Request → ไคลเอนต์บรอดแคสต์ยืนยันว่าจะรับข้อเสนอนั้น (บรอดแคสต์เพื่อให้เซิร์ฟเวอร์ตัวอื่นทราบว่าถูกปฏิเสธ)\n4️⃣ DHCP Acknowledgement → เซิร์ฟเวอร์ยืนยันการเช่า\n\n💡 พอร์ตที่ใช้: UDP 67 (เซิร์ฟเวอร์) และ UDP 68 (ไคลเอนต์) ⭐\n\n💡 ถ้าไม่มีเซิร์ฟเวอร์ตอบ Windows จะตั้ง APIPA ให้เองในช่วง 169.254.0.0/16 ซึ่งเป็นสัญญาณว่า DHCP มีปัญหา\n\n✅ ทำไม B ถูก: DHCP client คือโฮสต์ที่ถูกกำหนดให้ร้องขอที่อยู่ IP โดยอัตโนมัติแทนการตั้งค่าด้วยมือ\n\n❌ ทำไมข้ออื่นผิด:\nA. การขอชื่อโดเมนที่ผูกกับ IP คือการทำ reverse lookup ของ DNS ไม่ใช่ DHCP\nC. เป็นนิยามของ DHCP server ไม่ใช่ client\nD. การกำหนด IP แบบตายตัวเป็นการตั้งค่าด้วยมือ ซึ่งตรงข้ามกับแนวคิดของ DHCP\n\n📗 จำไว้สอบ: DORA | UDP 67 เซิร์ฟเวอร์ / 68 ไคลเอนต์ | APIPA 169.254.x.x = DHCP ล้มเหลว | ip helper-address = relay',
+  },
+  {
+    id: 402,
+    kind: 'single',
+    image: v2q402,
+    prompt: 'Refer to the exhibit. A network administrator must permit SSH access to remotely manage routers in a network. The operations team resides on the 10.20.1.0/25 network. Which command will accomplish this task?',
+    options: [
+      { key: 'A', text: 'access-list 2699 permit udp 10.20.1.0 0.0.0.255' },
+      { key: 'B', text: 'no access-list 2699 deny tcp any 10.20.1.0 0.0.0.127 eq 22' },
+      { key: 'C', text: 'access-list 2699 permit tcp any 10.20.1.0 0.0.0.255 eq 22' },
+      { key: 'D', text: 'no access-list 2699 deny ip any 10.20.1.0 0.0.0.255' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ACL ประมวลผล "จากบนลงล่าง" และหยุดทันทีที่เจอบรรทัดที่ตรงกันบรรทัดแรก ⭐\n\n🔍 อ่าน ACL 2699 ตามลำดับ:\n1. deny icmp any 10.10.1.0 0.0.0.255 echo\n2. deny ip any 10.20.1.0 0.0.0.255 ⭐ ← ตัวปัญหา\n3. permit ip any 10.10.1.0 0.0.0.255\n4. permit tcp any 10.20.1.0 0.0.0.127 eq 22\n\n🎯 วิเคราะห์: บรรทัดที่ 4 อนุญาต SSH ไปยัง 10.20.1.0/25 ไว้แล้วอย่างถูกต้อง\n→ แต่บรรทัดที่ 2 อยู่ "ก่อนหน้า" และปฏิเสธ IP ทุกชนิดไปยัง 10.20.1.0/24 ทั้งหมด ⭐\n→ แพ็กเก็ต SSH จะถูกจับที่บรรทัดที่ 2 แล้วถูกทิ้ง โดยไม่มีวันเดินทางไปถึงบรรทัดที่ 4 เลย ⭐\n\n🧩 ทางแก้: ลบบรรทัดที่ปิดกั้นออกด้วยคำสั่ง\nno access-list 2699 deny ip any 10.20.1.0 0.0.0.255 ⭐\n→ เมื่อบรรทัดนี้หายไป แพ็กเก็ต SSH จะไหลลงมาถึงบรรทัดที่ 4 และได้รับอนุญาต ✔\n\n⚠️ ข้อควรระวังของ numbered ACL: บน IOS แบบดั้งเดิม การพิมพ์ no access-list <number> จะลบทั้ง ACL ทันที ไม่ใช่ลบเฉพาะบรรทัด — ในทางปฏิบัติจึงควรใช้ named ACL แล้วลบทีละบรรทัดด้วยหมายเลขลำดับ (sequence number) แต่ในบริบทของข้อสอบนี้ต้องการวัดความเข้าใจเรื่อง "ลำดับของ ACE"\n\n💡 ทบทวน wildcard mask: 0.0.0.127 = /25 (ครอบ 128 ที่อยู่) และ 0.0.0.255 = /24 (ครอบ 256 ที่อยู่)\n\n✅ ทำไม D ถูก: บรรทัด deny ip any 10.20.1.0 0.0.0.255 อยู่เหนือบรรทัดที่อนุญาต SSH จึงบล็อกทุกอย่างก่อน การลบบรรทัดนี้ออกทำให้กฎอนุญาต SSH ที่มีอยู่แล้วทำงานได้\n\n❌ ทำไมข้ออื่นผิด:\nA. SSH ใช้ TCP ไม่ใช่ UDP และคำสั่งยังเขียนไม่ครบไวยากรณ์\nB. เป็นการลบบรรทัดที่ "อนุญาต" SSH ออก ซึ่งยิ่งทำให้แย่ลง\nC. การเพิ่มกฎอนุญาตต่อท้ายไม่ช่วยอะไร เพราะบรรทัด deny ยังอยู่ด้านบนและจะจับแพ็กเก็ตไปก่อนเสมอ\n\n📗 จำไว้สอบ: ACL อ่านบนลงล่าง หยุดที่ match แรก | มี implicit deny any ท้ายสุดเสมอ | ลำดับสำคัญกว่าเนื้อหา | SSH = TCP 22',
+  },
+  {
+    id: 403,
+    kind: 'single',
+    prompt: 'Which configuration management mechanism uses TCP port 22 by default when communicating with managed nodes?',
+    options: [
+      { key: 'A', text: 'Ansible' },
+      { key: 'B', text: 'Python' },
+      { key: 'C', text: 'Puppet' },
+      { key: 'D', text: 'Chef' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — เปรียบเทียบเครื่องมือ configuration management สามตัวหลักที่ CCNA ต้องรู้\n\n📊 ตารางเปรียบเทียบ:\n\n🔹 Ansible ⭐\n• พอร์ต: TCP 22 (SSH) ⭐\n• Agentless — ไม่ต้องติดตั้งอะไรบนอุปกรณ์ปลายทาง ⭐\n• โมเดล Push (เซิร์ฟเวอร์ผลักคอนฟิกไปหาอุปกรณ์)\n• ภาษา: YAML (playbook ประกอบด้วย task หลายรายการ)\n• เขียนด้วย Python\n\n🔹 Puppet\n• พอร์ต: TCP 8140\n• ต้องติดตั้ง agent บนอุปกรณ์\n• โมเดล Pull (agent ดึงคอนฟิกจาก master เป็นระยะ)\n• ภาษา: Puppet DSL (manifest ใช้สัญลักษณ์ =>)\n• เขียนด้วย Ruby\n\n🔹 Chef\n• พอร์ต: TCP 10002\n• ต้องติดตั้ง agent\n• โมเดล Pull\n• ภาษา: Ruby DSL (recipe รวมกันเป็น cookbook)\n\n🎯 ข้อได้เปรียบสำคัญของ Ansible ในงานเครือข่าย: อุปกรณ์เครือข่ายส่วนใหญ่ติดตั้ง agent ไม่ได้ แต่ทุกตัวรองรับ SSH อยู่แล้ว ⭐ Ansible จึงเป็นเครื่องมือที่ใช้กับสวิตช์และเราเตอร์ได้ทันทีโดยไม่ต้องดัดแปลงอะไร\n\n✅ ทำไม A ถูก: Ansible สื่อสารกับโหนดที่จัดการผ่าน SSH บน TCP พอร์ต 22 และไม่ต้องติดตั้ง agent ใด ๆ\n\n❌ ทำไมข้ออื่นผิด:\nB. Python เป็นภาษาโปรแกรม ไม่ใช่เครื่องมือ configuration management\nC. Puppet ใช้ TCP 8140 และต้องมี agent\nD. Chef ใช้ TCP 10002 และต้องมี agent เช่นกัน\n\n📗 จำไว้สอบ: Ansible = 22, agentless, push, YAML | Puppet = 8140, agent, pull, manifest | Chef = 10002, agent, pull, recipe/cookbook',
+  },
+  {
+    id: 404,
+    kind: 'single',
+    prompt: 'What is a practice that protects a network from VLAN hopping attacks?',
+    options: [
+      { key: 'A', text: 'Enable dynamic ARP inspection' },
+      { key: 'B', text: 'Configure an ACL to prevent traffic from changing VLANs' },
+      { key: 'C', text: 'Change native VLAN to an unused VLAN ID' },
+      { key: 'D', text: 'Implement port security on internet-facing VLANs' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — VLAN hopping มีสองรูปแบบและวิธีป้องกันต่างกัน\n\n🔹 รูปแบบที่ 1: Switch Spoofing\n• ผู้โจมตีปลอมตัวเป็นสวิตช์แล้วส่ง DTP frame เพื่อเจรจาให้พอร์ตกลายเป็น trunk\n• เมื่อได้ trunk แล้วจะเห็นทราฟฟิกของทุก VLAN\n• ป้องกัน: ตั้ง switchport mode access ตายตัว + switchport nonegotiate เพื่อปิด DTP ⭐\n\n🔹 รูปแบบที่ 2: Double Tagging ⭐\n• ผู้โจมตีติดแท็กสองชั้น: ชั้นนอกเป็น native VLAN และชั้นในเป็น VLAN เป้าหมาย\n• สวิตช์ตัวแรกถอดแท็กชั้นนอกออก (เพราะเป็น native VLAN ที่ไม่ติดแท็กบน trunk) แล้วส่งต่อ\n• สวิตช์ตัวที่สองเห็นแท็กชั้นในแล้วส่งเข้า VLAN เป้าหมาย → ทะลุ VLAN สำเร็จ ⭐\n• ป้องกัน: เปลี่ยน native VLAN ให้เป็น VLAN ที่ไม่ได้ใช้งานเลย ⭐ (ห้ามใช้ VLAN 1 ซึ่งเป็นค่าเริ่มต้นที่ผู้โจมตีเดาได้)\n\n🎯 โจทย์ถามถึงแนวปฏิบัติที่ป้องกัน VLAN hopping → การเปลี่ยน native VLAN คือมาตรการเฉพาะที่ตัดช่องทางโจมตีแบบ double tagging โดยตรง ⭐\n\n💡 มาตรการเสริมที่ควรทำคู่กัน:\n• อย่าให้พอร์ตผู้ใช้อยู่ VLAN 1 และย้าย management VLAN ออกจาก VLAN 1\n• จำกัด allowed VLAN บน trunk ให้เหลือเฉพาะที่จำเป็น\n• ปิดพอร์ตที่ไม่ได้ใช้แล้วย้ายเข้า black hole VLAN\n\n✅ ทำไม C ถูก: การเปลี่ยน native VLAN ไปเป็นหมายเลขที่ไม่มีการใช้งานจริงทำให้การโจมตีแบบ double tagging ไม่มีเฟรมของ VLAN นั้นให้อาศัยทะลุผ่านได้\n\n❌ ทำไมข้ออื่นผิด:\nA. Dynamic ARP Inspection ป้องกัน ARP spoofing ซึ่งเป็นการโจมตีคนละชนิด\nB. ACL ทำงานที่ชั้นที่ 3 แต่ VLAN hopping เป็นการโจมตีที่ชั้นที่ 2 ผ่านการจัดการแท็ก\nD. port security จำกัดจำนวน MAC ต่อพอร์ต ช่วยเรื่อง MAC flooding ไม่ได้กัน VLAN hopping\n\n📗 จำไว้สอบ: switch spoofing แก้ด้วยปิด DTP | double tagging แก้ด้วยเปลี่ยน native VLAN | อย่าใช้ VLAN 1 ทำอะไรทั้งสิ้น',
+  },
+  {
+    id: 405,
+    kind: 'single',
+    prompt: 'What is the purpose of traffic shaping?',
+    options: [
+      { key: 'A', text: 'to mitigate delays over slow links' },
+      { key: 'B', text: 'to provide fair queuing for buffered flows' },
+      { key: 'C', text: 'to limit the bandwidth that a flow can use' },
+      { key: 'D', text: 'to be a marking mechanism that identifies different flows' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — เครื่องมือ QoS ที่จำกัดอัตราส่งมีสองตัว ต้องแยกให้ขาด\n\n🔹 Traffic Shaping ⭐\n• เมื่อทราฟฟิกเกินอัตราที่กำหนด → "เก็บเข้าบัฟเฟอร์" แล้วทยอยปล่อยออกไปตามอัตรา ⭐\n• ผลลัพธ์: อัตราส่งเรียบสม่ำเสมอ ไม่มีการทิ้งแพ็กเก็ต แต่เพิ่ม delay และ jitter\n• ใช้ที่ทิศทางขาออก (outbound) เป็นหลัก\n• กรณีใช้งาน: ปรับอัตราส่งให้พอดีกับที่ผู้ให้บริการอนุญาต เพื่อไม่ให้ปลายทางทิ้งแพ็กเก็ตของเรา\n\n🔹 Traffic Policing\n• เมื่อทราฟฟิกเกินอัตรา → "ทิ้งทันที" หรือลดระดับ marking ลง ⭐\n• ผลลัพธ์: ไม่เพิ่ม delay แต่เสียแพ็กเก็ต ทำให้ TCP ต้องส่งซ้ำและอัตราส่งกระตุก\n• ใช้ได้ทั้งขาเข้าและขาออก\n\n🎯 จุดร่วมของทั้งสองตัวคือ "จำกัดแบนด์วิดท์ที่โฟลว์หนึ่งใช้ได้" ซึ่งตรงกับตัวเลือก C ⭐\n\n💡 หมวดหมู่ของเครื่องมือ QoS ที่ควรจำ:\n• Classification & Marking → จำแนกและติดป้าย (DSCP, CoS)\n• Congestion Management → จัดคิว (FIFO, WFQ, CBWFQ, LLQ, PQ)\n• Congestion Avoidance → ทิ้งล่วงหน้าก่อนคิวเต็ม (WRED)\n• Policing & Shaping ⭐ → ควบคุมอัตราส่ง\n\n✅ ทำไม C ถูก: หน้าที่หลักของ traffic shaping คือควบคุมไม่ให้โฟลว์ใช้แบนด์วิดท์เกินอัตราที่กำหนด โดยใช้บัฟเฟอร์หน่วงส่วนที่เกินไว้แทนการทิ้ง\n\n❌ ทำไมข้ออื่นผิด:\nA. shaping กลับ "เพิ่ม" delay เพราะต้องพักแพ็กเก็ตไว้ในบัฟเฟอร์ การลดหน่วงบนลิงก์ช้าเป็นงานของ LFI และการบีบอัดส่วนหัว\nB. การจัดคิวอย่างเป็นธรรมคือหน้าที่ของ WFQ ซึ่งอยู่ในหมวด congestion management\nD. การติดป้ายจำแนกโฟลว์คือหน้าที่ของ marking ด้วย DSCP หรือ CoS\n\n📗 จำไว้สอบ: shaping = บัฟเฟอร์แล้วปล่อย (เพิ่ม delay ไม่ทิ้ง) | policing = ทิ้งทันที (ไม่เพิ่ม delay แต่เสียแพ็กเก็ต)',
+  },
+  {
+    id: 406,
+    kind: 'single',
+    image: v2q406,
+    prompt: 'Refer to the exhibit. Which command configures a floating static route to provide a backup to the primary link?',
+    options: [
+      { key: 'A', text: 'ip route 209.165.200.224 255.255.255.224 209.165.202.129 254' },
+      { key: 'B', text: 'ip route 209.165.201.0 255.255.255.224 209.165.202.130' },
+      { key: 'C', text: 'ip route 0.0.0.0 0.0.0.0 209.165.200.224' },
+      { key: 'D', text: 'ip route 0.0.0.0 0.0.0.0 209.165.202.131' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — floating static route ต้องมี "เลข AD ต่อท้าย" ที่สูงกว่าค่าปกติ ⭐\n\n🔍 อ่านตารางเส้นทางจาก exhibit:\n• S* 0.0.0.0/0 [1/0] via 209.165.202.131 → default route ปกติ AD 1\n• S 209.165.200.224 [254/0] via 209.165.202.129 ⭐ ← สังเกตเลข 254 ในวงเล็บ\n• S 209.165.201.0 [1/0] via 209.165.202.130 → static route ปกติ AD 1\n\n🎯 ตัวที่เป็น floating static คือรายการที่มี AD = 254 ⭐ เพราะค่าเริ่มต้นของ static route คือ 1 การที่แสดง 254 แปลว่ามีการพิมพ์เลข AD ต่อท้ายคำสั่ง\n\n🧩 ย้อนกลับไปหาคำสั่งที่สร้างรายการนั้น:\nip route 209.165.200.224 255.255.255.224 209.165.202.129 254 ⭐\n• เครือข่าย 209.165.200.224 ตรงกับที่แสดงในตาราง ✔\n• จากบรรทัด "209.165.200.0/27 is subnetted" → mask คือ 255.255.255.224 ✔\n• next hop 209.165.202.129 ตรงกับตาราง ✔\n• เลข 254 คือ AD ที่ทำให้เป็น floating ✔ ⭐\n\n💡 เหตุผลที่นิยมใช้ 254: เป็นค่าสูงสุดที่ยังใช้งานได้ (255 หมายถึง unreachable และจะไม่ถูกใส่ในตารางเลย) จึงมั่นใจได้ว่าจะแพ้ทุกโปรโตคอลไดนามิกและทำหน้าที่สำรองเสมอ\n\n✅ ทำไม A ถูก: มีเลข AD 254 ต่อท้ายคำสั่งซึ่งสูงกว่าค่าเริ่มต้น 1 ทำให้เป็น floating static route และค่าทุกส่วนตรงกับรายการที่ปรากฏในตารางเส้นทาง\n\n❌ ทำไมข้ออื่นผิด:\nB. ไม่มีเลข AD ต่อท้าย จึงเป็น static route ปกติที่ AD 1 (ตรงกับรายการ 209.165.201.0 ในตาราง)\nC. เป็นการตั้ง default route โดยใช้ 209.165.200.224 เป็น next hop ซึ่งที่จริงเป็นเครือข่ายปลายทาง ไม่ใช่ที่อยู่ของเราเตอร์เพื่อนบ้าน\nD. เป็น default route ปกติที่ไม่มี AD ต่อท้าย ตรงกับรายการ S* ที่มีอยู่แล้ว\n\n📗 จำไว้สอบ: static AD เริ่มต้น 1 | floating = ใส่เลข AD ท้ายคำสั่ง | นิยม 200–254 | 255 = ไม่เข้าตารางเลย',
+  },
+  {
+    id: 407,
+    kind: 'single',
+    prompt: 'Where does the configuration reside when a helper address is configured to support DHCP?',
+    options: [
+      { key: 'A', text: 'on the router closest to the server' },
+      { key: 'B', text: 'on the router closest to the client' },
+      { key: 'C', text: 'on every router along the path' },
+      { key: 'D', text: 'on the switch trunk interface' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ปัญหาที่ ip helper-address มาแก้: DHCP Discover เป็นบรอดแคสต์ (destination 255.255.255.255) และเราเตอร์ "ไม่ส่งต่อบรอดแคสต์" ข้ามซับเน็ต ⭐\n→ ถ้าเซิร์ฟเวอร์ DHCP อยู่คนละซับเน็ตกับไคลเอนต์ ข้อความจะไปไม่ถึงเลย\n\n🔍 วิธีทำงานของ DHCP relay:\n1️⃣ ไคลเอนต์บรอดแคสต์ DHCP Discover ออกมาในซับเน็ตของตน\n2️⃣ เราเตอร์ที่เป็นเกตเวย์ของซับเน็ตนั้น (ตัวที่ใกล้ไคลเอนต์ที่สุด) ⭐ รับข้อความไว้\n3️⃣ เราเตอร์แปลงเป็นยูนิแคสต์ส่งตรงไปยัง IP ของเซิร์ฟเวอร์ที่ระบุไว้ใน helper-address\n4️⃣ เราเตอร์ยังใส่ IP ของอินเทอร์เฟซที่รับข้อความมาลงในฟิลด์ giaddr ⭐ เพื่อให้เซิร์ฟเวอร์รู้ว่าต้องจ่าย IP จาก pool ใด\n5️⃣ เซิร์ฟเวอร์ตอบกลับมาที่เราเตอร์ แล้วเราเตอร์ส่งต่อให้ไคลเอนต์\n\n🧩 ตำแหน่งที่ต้องใส่คำสั่ง: บน "อินเทอร์เฟซที่หันหน้าเข้าหาไคลเอนต์" ของเราเตอร์ที่ใกล้ไคลเอนต์ที่สุด ⭐\ninterface gi0/1\n ip helper-address 192.168.10.5\n\n💡 เกร็ดเพิ่มเติม: คำสั่ง ip helper-address ไม่ได้ส่งต่อเฉพาะ DHCP แต่ยังส่งต่อบรอดแคสต์ UDP อีก 7 บริการโดยปริยาย เช่น TFTP (69), DNS (53), TACACS (49), NetBIOS (137/138), TIME (37) — ปรับได้ด้วยคำสั่ง ip forward-protocol udp\n\n✅ ทำไม B ถูก: helper address ต้องตั้งบนเราเตอร์ที่อยู่ใกล้ไคลเอนต์ที่สุด เพราะเป็นตัวเดียวที่ได้ยินบรอดแคสต์ของไคลเอนต์และแปลงเป็นยูนิแคสต์ส่งต่อได้\n\n❌ ทำไมข้ออื่นผิด:\nA. เราเตอร์ที่อยู่ใกล้เซิร์ฟเวอร์ไม่เคยได้ยินบรอดแคสต์ของไคลเอนต์ จึงไม่มีอะไรให้ส่งต่อ\nC. เมื่อแปลงเป็นยูนิแคสต์แล้ว เราเตอร์ตัวอื่นระหว่างทางส่งต่อได้ตามปกติอยู่แล้ว ไม่ต้องตั้งอะไรเพิ่ม\nD. คำสั่งนี้ใส่ที่อินเทอร์เฟซชั้นที่ 3 (เช่น SVI หรือพอร์ตเราเตอร์) ไม่ใช่ที่พอร์ต trunk ของสวิตช์ชั้นที่ 2\n\n📗 จำไว้สอบ: ip helper-address ใส่ที่อินเทอร์เฟซฝั่งไคลเอนต์ | giaddr บอกเซิร์ฟเวอร์ว่าใช้ pool ไหน | ส่งต่อ UDP อีก 7 บริการโดยปริยาย',
+  },
+  {
+    id: 408,
+    kind: 'single',
+    prompt: 'What facilitates a Telnet connection between devices by entering the device name?',
+    options: [
+      { key: 'A', text: 'SNMP' },
+      { key: 'B', text: 'DNS lookup' },
+      { key: 'C', text: 'syslog' },
+      { key: 'D', text: 'NTP' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — เมื่อพิมพ์ "ชื่อ" แทนที่จะเป็น "ที่อยู่ IP" ต้องมีกลไกแปลงชื่อเป็น IP ก่อนเสมอ → นั่นคือหน้าที่ของ DNS ⭐\n\n🔍 สิ่งที่เกิดขึ้นบนเราเตอร์เมื่อพิมพ์ telnet R2:\n1️⃣ IOS ตรวจว่า "R2" ไม่ใช่ที่อยู่ IP\n2️⃣ ถ้า ip domain-lookup เปิดอยู่ (ค่าเริ่มต้นเปิด) → ส่ง DNS query ไปยัง name server ที่ตั้งไว้ด้วย ip name-server ⭐\n3️⃣ ได้ IP กลับมาแล้วจึงเปิดเซสชัน Telnet ไปยัง TCP พอร์ต 23\n\n🧩 ทางเลือกแบบไม่ต้องมี DNS server: ใช้ตารางโฮสต์ในเครื่อง\nip host R2 10.1.1.2 ⭐\n→ วิธีนี้นิยมใช้ในห้องแล็บและเครือข่ายเล็ก\n\n⚠️ อาการที่พบบ่อย: ถ้าพิมพ์คำสั่งผิดบนเราเตอร์ IOS จะเข้าใจว่าเป็นชื่อโฮสต์แล้วพยายามแปลงชื่อ ทำให้ค้างอยู่หลายวินาทีพร้อมข้อความ "Translating..." → แก้โดยสั่ง no ip domain-lookup\n\n📊 บทบาทของตัวเลือกอื่น:\n• SNMP (UDP 161/162) → เก็บข้อมูลและจัดการอุปกรณ์จากศูนย์กลาง\n• Syslog (UDP 514) → รวบรวมข้อความบันทึกเหตุการณ์\n• NTP (UDP 123) → ซิงก์เวลาให้ตรงกันทุกอุปกรณ์\n\n✅ ทำไม B ถูก: DNS lookup คือกระบวนการแปลงชื่ออุปกรณ์ให้เป็นที่อยู่ IP ทำให้เปิดเซสชัน Telnet ด้วยการพิมพ์ชื่อได้\n\n❌ ทำไมข้ออื่นผิด:\nA. SNMP ใช้เฝ้าดูและจัดการอุปกรณ์ ไม่ได้แปลงชื่อเป็น IP\nC. syslog ใช้ส่งบันทึกเหตุการณ์ไปยังเซิร์ฟเวอร์กลาง\nD. NTP ใช้ปรับเวลาให้ตรงกัน ซึ่งสำคัญต่อการอ่านบันทึกและใบรับรอง แต่ไม่เกี่ยวกับการแปลงชื่อ\n\n📗 จำไว้สอบ: DNS = UDP/TCP 53 | Telnet = TCP 23 (ไม่เข้ารหัส) | SSH = TCP 22 (เข้ารหัส) | ip host = ตารางชื่อในเครื่อง',
+  },
+  {
+    id: 409,
+    kind: 'drag',
+    image: v2q409,
+    prompt: 'Drag and drop the IPv6 DNS record types from the left onto the description on the right.',
+    categories: [
+      { name: 'aliases one name to another', items: ['CNAME'] },
+      { name: 'associates the domain serial number with its owner', items: ['SOA'] },
+      { name: 'correlates a domain with its authoritative name servers', items: ['NS'] },
+      { name: 'correlates a host name with an IP address', items: ['AAAA'] },
+      { name: 'supports reverse name lookups', items: ['PTR'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ชนิดเรกคอร์ด DNS ที่ CCNA ต้องรู้\n\n🔹 A record → จับคู่ชื่อโฮสต์กับที่อยู่ IPv4 (32 บิต)\n🔹 AAAA record ⭐ → จับคู่ชื่อโฮสต์กับที่อยู่ IPv6 (128 บิต)\n  → ชื่อ "quad-A" มาจากการที่ IPv6 ยาวเป็นสี่เท่าของ IPv4 จึงใช้ตัว A สี่ตัว ⭐\n  → ตรงกับคำอธิบาย "correlates a host name with an IP address"\n\n🔹 CNAME (Canonical Name) ⭐ → สร้างชื่อแทนที่ชี้ไปยังชื่อจริงอีกชื่อหนึ่ง\n  → เช่น www.example.com เป็น CNAME ที่ชี้ไปยัง server1.example.com\n  → ตรงกับ "aliases one name to another" ⭐\n\n🔹 NS (Name Server) ⭐ → ระบุว่าโดเมนนี้มีเซิร์ฟเวอร์ตัวใดเป็นผู้มีอำนาจตอบ (authoritative)\n  → ตรงกับ "correlates a domain with its authoritative name servers" ⭐\n\n🔹 PTR (Pointer) ⭐ → ทำ reverse lookup คือแปลงจาก IP กลับไปเป็นชื่อ\n  → ใช้โซนพิเศษ in-addr.arpa สำหรับ IPv4 และ ip6.arpa สำหรับ IPv6\n  → ตรงกับ "supports reverse name lookups" ⭐\n\n🔹 SOA (Start of Authority) ⭐ → เรกคอร์ดแรกของทุกโซน เก็บข้อมูลผู้ดูแลโซน, serial number, refresh/retry/expire interval และ TTL ต่ำสุด\n  → serial number คือตัวเลขที่ secondary server ใช้ตรวจว่าโซนมีการเปลี่ยนแปลงหรือยัง\n  → ตรงกับ "associates the domain serial number with its owner" ⭐\n\n💡 เรกคอร์ดอื่นที่ควรรู้: MX (mail exchanger), TXT (ข้อความทั่วไป เช่น SPF/DKIM), SRV (ระบุบริการและพอร์ต ใช้มากกับ SIP และ Active Directory)\n\n📗 จำไว้สอบ: A=IPv4 | AAAA=IPv6 | CNAME=ชื่อแทน | NS=เซิร์ฟเวอร์ผู้มีอำนาจ | PTR=ย้อนกลับ | SOA=ข้อมูลโซน | DNS ใช้พอร์ต 53 ทั้ง UDP และ TCP',
+  },
+  {
+    id: 410,
+    kind: 'drag',
+    image: v2q410,
+    prompt: 'Drag and drop the SNMP components from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'collection of variables that can be monitored', items: ['MIB'] },
+      { name: 'unsolicited message', items: ['SNMP trap'] },
+      { name: 'responds to status requests and requests for information about a device', items: ['SNMP agent'] },
+      { name: 'resides on an NMS', items: ['SNMP manager'] },
+    ],
+    explanation:
+      '📘 แนวคิด — องค์ประกอบของระบบ SNMP\n\n🔹 SNMP Manager ⭐\n• ซอฟต์แวร์ที่ติดตั้งอยู่บน NMS (Network Management System) เช่น PRTG, SolarWinds, Cisco Prime\n• เป็นฝ่ายส่งคำสั่ง Get, GetNext, GetBulk, Set ออกไปหาอุปกรณ์\n• ฟังบน UDP พอร์ต 162 เพื่อรอรับ trap ⭐\n• ตรงกับ "resides on an NMS" ⭐\n\n🔹 SNMP Agent ⭐\n• ซอฟต์แวร์ที่ทำงานอยู่บนอุปกรณ์ที่ถูกจัดการ (เราเตอร์ สวิตช์ เซิร์ฟเวอร์)\n• ฟังบน UDP พอร์ต 161 เพื่อรอรับคำถามแล้วตอบกลับ ⭐\n• ตรงกับ "responds to status requests and requests for information about a device" ⭐\n\n🔹 MIB (Management Information Base) ⭐\n• ฐานข้อมูลที่จัดโครงสร้างเป็นลำดับชั้นแบบต้นไม้ เก็บรายการตัวแปรทั้งหมดที่เฝ้าดูได้\n• แต่ละตัวแปรระบุด้วย OID (Object Identifier) เช่น 1.3.6.1.2.1.1.5.0 คือ sysName\n• ตรงกับ "collection of variables that can be monitored" ⭐\n\n🔹 SNMP Trap ⭐\n• ข้อความที่ agent ส่งไปหา manager "เอง" โดยไม่มีใครถาม (unsolicited) ⭐\n• ใช้แจ้งเหตุทันที เช่น อินเทอร์เฟซล่ม อุณหภูมิสูงเกิน\n• ส่งไปยัง UDP พอร์ต 162 และไม่มีการยืนยันการรับ\n• ญาติของมันคือ Inform ซึ่งเหมือน trap แต่ manager ต้องตอบ ACK กลับ\n• ตรงกับ "unsolicited message" ⭐\n\n📊 เวอร์ชันของ SNMP:\n• v1 → ใช้ community string ส่งแบบข้อความธรรมดา\n• v2c → เพิ่ม GetBulk และ Inform แต่ยังใช้ community string ไม่เข้ารหัส\n• v3 ⭐ → เพิ่มการยืนยันตัวตน (authentication) การเข้ารหัส (privacy) และความถูกต้องของข้อมูล (integrity) → ควรใช้ตัวนี้ในงานจริง\n\n📗 จำไว้สอบ: agent = UDP 161 | manager รับ trap = UDP 162 | trap ไม่ต้องตอบ, inform ต้องตอบ | SNMPv3 = ปลอดภัยที่สุด',
+  },
+  {
+    id: 411,
+    kind: 'single',
+    image: v2q411,
+    prompt: 'Refer to the exhibit. An access list is required to permit traffic from any host on interface G0/0 and deny traffic from interface G0/1. Which access list must be applied?',
+    options: [
+      { key: 'A', text: 'ip access-list standard 99 / permit 10.100.100.0 0.0.0.255 / deny 192.168.0.0 0.0.255.255' },
+      { key: 'B', text: 'ip access-list standard 99 / permit 10.100.100.0 0.0.0.255 / deny 192.168.0.0 0.255.255.255' },
+      { key: 'C', text: 'ip access-list standard 100 / permit 10.100.100.0 0.0.0.255 / deny 192.168.0.0 0.255.255.255' },
+      { key: 'D', text: 'ip access-list standard 100 / permit 10.100.100.0 0.0.0.255 / deny 192.168.0.0 0.0.255.255' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ต้องตรวจสองจุด: ① หมายเลข ACL อยู่ในช่วงที่ถูกต้องหรือไม่ ② wildcard mask ตรงกับ prefix หรือไม่\n\n🔍 จุดที่ 1 — ช่วงหมายเลข ACL:\n• Standard ACL → 1–99 และ 1300–1999 ⭐\n• Extended ACL → 100–199 และ 2000–2699 ⭐\n→ คำสั่งในโจทย์ระบุคำว่า "standard" ดังนั้นหมายเลขต้องเป็น 99 ไม่ใช่ 100 ⭐\n→ ตัดตัวเลือก C และ D ออกทันที\n\n🔍 จุดที่ 2 — wildcard mask ของ 192.168.0.0/16:\n• จาก exhibit อินเทอร์เฟซ G0/1 อยู่เครือข่าย 192.168.0.0/16\n• wildcard = ส่วนกลับของ subnet mask → 255.255.255.255 ลบด้วย 255.255.0.0 = 0.0.255.255 ⭐\n→ ตัดตัวเลือก B ที่ใช้ 0.255.255.255 (ซึ่งเป็นของ /8) ออก\n\n🧮 ตรวจ wildcard ของบรรทัดแรกด้วย: 10.100.100.0/24 → wildcard 0.0.0.255 ✔ ถูกต้องในทุกตัวเลือก\n\n💡 สูตรลัดหา wildcard: wildcard = 255 − ค่าแต่ละ octet ของ subnet mask\n• /24 → 255.255.255.0 → wildcard 0.0.0.255\n• /16 → 255.255.0.0 → wildcard 0.0.255.255 ⭐\n• /8 → 255.0.0.0 → wildcard 0.255.255.255\n\n⚠️ อย่าลืมว่า standard ACL กรองได้จาก "source IP เท่านั้น" และควรวางไว้ใกล้ปลายทางที่สุด ส่วน extended ACL กรองได้ทั้ง source, destination, protocol และพอร์ต จึงควรวางใกล้ต้นทางที่สุด\n\n✅ ทำไม A ถูก: ใช้หมายเลข 99 ซึ่งอยู่ในช่วงของ standard ACL อย่างถูกต้อง และใช้ wildcard mask 0.0.255.255 ที่ตรงกับเครือข่าย /16 ของ G0/1\n\n❌ ทำไมข้ออื่นผิด:\nB. wildcard 0.255.255.255 ตรงกับ /8 ไม่ใช่ /16 ทำให้ครอบเครือข่ายกว้างเกินไป\nC. ผิดทั้งหมายเลข (100 เป็นของ extended) และ wildcard mask\nD. ใช้หมายเลข 100 กับคำสั่ง standard ซึ่งอยู่คนละช่วงกัน\n\n📗 จำไว้สอบ: standard 1–99, 1300–1999 | extended 100–199, 2000–2699 | wildcard = 255 ลบ subnet mask | standard วางใกล้ปลายทาง, extended วางใกล้ต้นทาง',
+  },
+  {
+    id: 412,
+    kind: 'single',
+    prompt: 'Which device tracks the state of active connections in order to make a decision to forward a packet through?',
+    options: [
+      { key: 'A', text: 'wireless access point' },
+      { key: 'B', text: 'firewall' },
+      { key: 'C', text: 'wireless LAN controller' },
+      { key: 'D', text: 'router' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์คือ "tracks the state of active connections" ซึ่งเป็นนิยามของ stateful inspection ⭐\n\n🔍 Stateful firewall ทำงานอย่างไร:\n• เก็บตารางสถานะ (state table หรือ connection table) ที่บันทึกทุกเซสชันที่กำลังทำงานอยู่ ⭐\n• แต่ละรายการเก็บ: source IP, destination IP, source port, destination port, protocol และสถานะของ TCP\n• เมื่อโฮสต์ภายในเริ่มเซสชันออกไป ไฟร์วอลล์จะสร้างรายการไว้\n• แพ็กเก็ตขากลับที่ตรงกับรายการนั้นจะถูกอนุญาต "โดยอัตโนมัติ" ⭐ โดยไม่ต้องเขียนกฎขาเข้าเอง\n• แพ็กเก็ตขาเข้าที่ไม่ตรงกับเซสชันใดเลยจะถูกทิ้ง\n\n🔍 เปรียบเทียบกับเราเตอร์ที่ใช้ ACL:\n• ACL แบบธรรมดาเป็น stateless คือดูแพ็กเก็ตทีละใบโดยไม่จำบริบท ⭐\n• ถ้าอนุญาตขาออกก็ต้องเขียนกฎอนุญาตขาเข้าเองด้วย ซึ่งเปิดช่องให้ผู้โจมตีส่งแพ็กเก็ตปลอมเข้ามาได้\n• (เราเตอร์ Cisco มีฟีเจอร์ reflexive ACL และ CBAC/ZBF ที่ทำ stateful ได้ แต่นั่นคือการทำตัวเป็นไฟร์วอลล์ ไม่ใช่บทบาทพื้นฐานของเราเตอร์)\n\n💡 ประโยชน์เชิงปฏิบัติ: ไฟร์วอลล์ที่มี state table รู้ว่าแพ็กเก็ต TCP ที่มีแฟล็ก ACK เข้ามาโดยไม่เคยมี SYN ออกไปก่อนนั้นผิดปกติ จึงกันการโจมตีแบบ spoofing และการสแกนได้\n\n✅ ทำไม B ถูก: ไฟร์วอลล์คืออุปกรณ์ที่ออกแบบมาเพื่อติดตามสถานะของการเชื่อมต่อที่กำลังทำงานอยู่และใช้ข้อมูลนั้นตัดสินใจว่าจะส่งต่อแพ็กเก็ตหรือไม่\n\n❌ ทำไมข้ออื่นผิด:\nA. access point ทำหน้าที่แปลงระหว่างสื่อไร้สายกับสาย ไม่ได้ติดตามสถานะการเชื่อมต่อ\nC. WLC จัดการ AP และนโยบายไร้สาย ไม่ใช่การกรองแบบ stateful\nD. เราเตอร์ตัดสินใจส่งต่อจากที่อยู่ IP ปลายทางในตารางเส้นทาง และ ACL พื้นฐานของมันเป็นแบบ stateless\n\n📗 จำไว้สอบ: stateful = ไฟร์วอลล์จำเซสชัน | stateless = ACL ดูทีละแพ็กเก็ต | state table เก็บ 5-tuple + สถานะ TCP',
+  },
+  {
+    id: 413,
+    kind: 'single',
+    prompt: 'How do servers connect to the network in a virtual environment?',
+    options: [
+      { key: 'A', text: 'wireless to an access point that is physically connected to the network' },
+      { key: 'B', text: 'a cable connected to a physical switch on the network' },
+      { key: 'C', text: 'a virtual switch that links to an access point that is physically connected to the network' },
+      { key: 'D', text: 'a software switch on a hypervisor that is physically connected to the network' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ลำดับชั้นของการเชื่อมต่อในสภาพแวดล้อมเสมือน\n\n🔍 โครงสร้างจากบนลงล่าง:\n1️⃣ Virtual Machine → มี vNIC (การ์ดเครือข่ายเสมือน) พร้อม MAC address ของตัวเอง\n2️⃣ vSwitch (virtual switch หรือ software switch) ⭐ → สวิตช์ที่เป็นซอฟต์แวร์ทำงานอยู่บน hypervisor เช่น VMware vSwitch/DVS, Hyper-V Virtual Switch, Open vSwitch\n3️⃣ Physical NIC ของเครื่องเซิร์ฟเวอร์ (เรียกว่า uplink หรือ vmnic)\n4️⃣ สวิตช์กายภาพในศูนย์ข้อมูล\n\n🧩 หน้าที่ของ vSwitch:\n• สลับเฟรมระหว่าง VM ที่อยู่บนโฮสต์เดียวกันได้โดยไม่ต้องออกไปนอกเครื่องเลย ⭐\n• รองรับ VLAN tagging 802.1Q, port group, teaming ของ NIC หลายเส้น\n• ทำงานที่ชั้นที่ 2 เหมือนสวิตช์จริง แต่ไม่รัน STP (การป้องกันลูปใช้กลไกอื่น)\n\n💡 ทำไมต้องรู้เรื่องนี้ในงานเครือข่าย: พอร์ตสวิตช์กายภาพที่ต่อกับโฮสต์เสมือนมักต้องตั้งเป็น trunk เพราะ VM หลายตัวบนโฮสต์เดียวกันอาจอยู่คนละ VLAN\n\n💡 คำศัพท์ที่ควรจำคู่กัน:\n• Hypervisor Type 1 (bare metal) → ติดตั้งบนฮาร์ดแวร์โดยตรง เช่น ESXi, Hyper-V, KVM → ใช้ในศูนย์ข้อมูล\n• Hypervisor Type 2 (hosted) → ติดตั้งบนระบบปฏิบัติการอีกที เช่น VirtualBox, VMware Workstation\n\n✅ ทำไม D ถูก: VM เชื่อมต่อผ่าน vSwitch ที่เป็นซอฟต์แวร์บน hypervisor ซึ่งจากนั้นจึงเชื่อมต่อกับเครือข่ายผ่าน NIC กายภาพของโฮสต์\n\n❌ ทำไมข้ออื่นผิด:\nA. เซิร์ฟเวอร์ในศูนย์ข้อมูลใช้การเชื่อมต่อแบบมีสาย ไม่ได้ต่อผ่าน Wi-Fi\nB. VM ไม่ได้ต่อสายตรงเข้าสวิตช์กายภาพ ต้องผ่าน vSwitch ก่อนเสมอ\nC. สลับลำดับผิด — vSwitch เชื่อมกับ NIC กายภาพและสวิตช์ ไม่ใช่ผ่าน access point\n\n📗 จำไว้สอบ: VM → vNIC → vSwitch → pNIC → สวิตช์จริง | พอร์ตที่ต่อโฮสต์มักเป็น trunk | Type 1 = bare metal, Type 2 = hosted',
+  },
+  {
+    id: 414,
+    kind: 'single',
+    prompt: 'What is recommended for the wireless infrastructure design of an organization?',
+    options: [
+      { key: 'A', text: 'group access points together to increase throughput on a given channel' },
+      { key: 'B', text: 'configure the first three access points to use Channels 1, 6, and 11' },
+      { key: 'C', text: 'include at least two access points on nonoverlapping channels to support load balancing' },
+      { key: 'D', text: 'assign physically adjacent access points to the same Wi-Fi channel' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ปัญหาช่องสัญญาณทับซ้อนในย่าน 2.4 GHz\n\n🔍 ข้อเท็จจริงเรื่องย่าน 2.4 GHz:\n• มีช่องสัญญาณ 1–11 (ในสหรัฐฯ) หรือ 1–13 (ในหลายประเทศ)\n• แต่ละช่องกว้าง 22 MHz ในขณะที่ระยะห่างระหว่างช่องมีเพียง 5 MHz\n→ ช่องที่อยู่ติดกันจึงทับซ้อนกันอย่างหนัก ⭐\n• มีเพียงสามช่องเท่านั้นที่ "ไม่ทับซ้อนกันเลย" คือช่อง 1, 6 และ 11 ⭐\n\n🧮 คำนวณให้เห็นภาพ: ช่อง 1 กินย่าน 2401–2423 MHz, ช่อง 6 กิน 2426–2448 MHz, ช่อง 11 กิน 2451–2473 MHz → ไม่ทับกันเลย ✔\n\n🎯 หลักการออกแบบที่ถูกต้อง:\n• AP ที่อยู่ติดกันต้องใช้ช่องที่ต่างกันเสมอ ⭐ แล้วสลับรูปแบบ 1-6-11 ไปทั่วพื้นที่ (เรียกว่า channel reuse pattern)\n• ตั้งพื้นที่ครอบคลุมให้เหลื่อมกันประมาณ 15–20 เปอร์เซ็นต์เพื่อให้ roaming ราบรื่น\n\n⚠️ ผลของการทำผิด: ถ้า AP ที่อยู่ใกล้กันใช้ช่องเดียวกัน จะเกิด co-channel interference ทำให้ต้องผลัดกันส่งและ throughput ตกฮวบ ส่วนถ้าใช้ช่องที่ทับซ้อนกันบางส่วน (เช่น 1 กับ 3) จะเกิด adjacent channel interference ซึ่งแย่กว่าอีก เพราะสัญญาณกลายเป็นสัญญาณรบกวนที่ถอดรหัสไม่ได้\n\n💡 ย่าน 5 GHz ดีกว่ามากเพราะมีช่องที่ไม่ทับซ้อนกันมากถึง 20 กว่าช่อง จึงวางแผนได้ยืดหยุ่นกว่า\n\n✅ ทำไม B ถูก: การกำหนดให้ AP สามตัวแรกใช้ช่อง 1, 6 และ 11 คือแนวปฏิบัติมาตรฐานของการออกแบบเครือข่ายไร้สายในย่าน 2.4 GHz เพราะเป็นชุดช่องที่ไม่ทับซ้อนกันเลย\n\n❌ ทำไมข้ออื่นผิด:\nA. การวาง AP หลายตัวไว้ใกล้กันบนช่องเดียวกันทำให้เกิด co-channel interference และ throughput ลดลง ไม่ได้เพิ่ม\nC. การมี AP สองตัวไม่ได้ทำให้เกิดโหลดบาลานซ์โดยอัตโนมัติ และหลักการที่ถูกต้องคือใช้ครบทั้งสามช่องที่ไม่ทับซ้อนกัน\nD. การให้ AP ที่อยู่ติดกันใช้ช่องเดียวกันคือสิ่งที่ต้องหลีกเลี่ยงมากที่สุด\n\n📗 จำไว้สอบ: 2.4 GHz มีช่องไม่ทับซ้อน 3 ช่องคือ 1-6-11 | 5 GHz มีมากกว่า 20 ช่อง | เหลื่อมพื้นที่ 15–20% เพื่อ roaming',
+  },
+  {
+    id: 415,
+    kind: 'single',
+    prompt: 'Which network plane is centralized and manages routing decisions?',
+    options: [
+      { key: 'A', text: 'policy plane' },
+      { key: 'B', text: 'management plane' },
+      { key: 'C', text: 'control plane' },
+      { key: 'D', text: 'data plane' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — โจทย์มีคำสำคัญสองคำที่ต้องตรงพร้อมกัน: "centralized" และ "manages routing decisions"\n\n🔹 Control plane ⭐\n• หน้าที่: ตัดสินใจว่าเส้นทางควรเป็นอย่างไร ⭐\n• งานที่ทำ: รันโปรโตคอลเราต์ติ้ง (OSPF, EIGRP, BGP), STP, ARP, สร้างตารางเส้นทางและ FIB\n• ในเครือข่ายแบบดั้งเดิม: กระจายอยู่บนอุปกรณ์ทุกตัว แต่ละตัวคิดเอง\n• ในสถาปัตยกรรม SDN: ถูกยกไปรวมศูนย์ไว้ที่ controller ⭐ ซึ่งมองเห็นภาพรวมของทั้งเครือข่ายและตัดสินใจได้ดีกว่า\n\n🔹 Data plane\n• ส่งต่อแพ็กเก็ตจริงตามตารางที่ได้รับมา ยังคงกระจายอยู่ที่อุปกรณ์เสมอ แม้ใน SDN\n\n🔹 Management plane\n• ช่องทางให้มนุษย์และระบบภายนอกเข้ามาจัดการ เช่น SSH, SNMP, syslog, NETCONF\n\n🧩 หัวใจของ SDN: แยก control plane ออกจาก data plane แล้วยก control plane ขึ้นไปรวมศูนย์ ⭐\n• Southbound API → ทางที่ controller สั่งลงไปยังอุปกรณ์ เช่น OpenFlow, NETCONF, RESTCONF\n• Northbound API → ทางที่แอปพลิเคชันคุยกับ controller มักเป็น REST API\n\n💡 ประโยชน์: เมื่อมีมุมมองทั่วทั้งเครือข่ายในที่เดียว การกำหนดนโยบาย การจัดการทราฟฟิก และการทำ automation ทำได้สอดคล้องกันทั้งระบบ\n\n✅ ทำไม C ถูก: control plane คือระนาบที่รับผิดชอบการตัดสินใจเรื่องเส้นทาง และเป็นระนาบที่ถูกรวมศูนย์ไว้ที่ controller ในสถาปัตยกรรมแบบ SDN\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีระนาบชื่อ policy plane ในโมเดลมาตรฐานสามระนาบ\nB. management plane ใช้จัดการอุปกรณ์ ไม่ได้ตัดสินใจเรื่องเส้นทาง\nD. data plane ส่งต่อแพ็กเก็ตตามคำสั่งที่ได้รับ และยังคงกระจายอยู่ที่อุปกรณ์ ไม่ได้รวมศูนย์\n\n📗 จำไว้สอบ: control = ตัดสินใจ (รวมศูนย์ใน SDN) | data = ส่งต่อ (กระจายเสมอ) | management = จัดการ | southbound = OpenFlow/NETCONF, northbound = REST',
+  },
+  {
+    id: 416,
+    kind: 'single',
+    prompt: 'How does a switch process a frame received on Fa0/1 with the destination MAC address of 0e38.7363.657b when the table is missing the address?',
+    options: [
+      { key: 'A', text: 'It drops the frame immediately.' },
+      { key: 'B', text: 'It forwards the frame back out of interface Fa0/1.' },
+      { key: 'C', text: 'It floods the frame to all interfaces except Fa0/1.' },
+      { key: 'D', text: 'It holds the frame until the MAC address timer expires and then drops the frame.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — พฤติกรรมมาตรฐานเมื่อ destination MAC ไม่อยู่ในตาราง เรียกว่า unknown unicast flooding ⭐\n\n🔍 ขั้นตอนที่สวิตช์ทำ:\n1️⃣ อ่าน source MAC ของเฟรม → บันทึกหรือรีเฟรชรายการคู่กับพอร์ต Fa0/1\n2️⃣ ค้น destination MAC (0e38.7363.657b) ในตาราง → ไม่พบ\n3️⃣ ส่งเฟรมออกทุกพอร์ตใน VLAN เดียวกัน ยกเว้นพอร์ต Fa0/1 ที่รับเข้ามา ⭐\n4️⃣ อุปกรณ์ที่ MAC ไม่ตรงจะทิ้งเฟรม ส่วนเจ้าของ MAC ที่ถูกต้องจะรับไว้และตอบกลับ\n5️⃣ เมื่อได้รับเฟรมตอบกลับ สวิตช์จึงเรียนรู้ตำแหน่งของปลายทาง → ครั้งต่อไปส่งแบบเจาะจงได้เลย\n\n💡 ทำไมต้องยกเว้นพอร์ตต้นทาง: ผู้ส่งอยู่ที่พอร์ตนั้นอยู่แล้ว การส่งกลับไปเป็นการวนซ้ำที่ไร้ประโยชน์ (เรียกกฎนี้ว่า split horizon ที่ชั้นที่ 2)\n\n💡 ทำไมไม่ทิ้งเฟรม: ถ้าสวิตช์ทิ้งเฟรมที่ไม่รู้จักปลายทาง การสื่อสารครั้งแรกระหว่างเครื่องสองเครื่องจะล้มเหลวเสมอ เพราะตารางเริ่มต้นว่างเปล่าทั้งหมด\n\n⚠️ ผลข้างเคียงที่ควรรู้: การมี unknown unicast flooding มากผิดปกติมักเกิดจาก asymmetric routing หรือค่า MAC aging (300 วินาที) ที่สั้นกว่า ARP cache (4 ชั่วโมง) ทำให้สวิตช์ลืมตำแหน่งก่อนที่โฮสต์จะลืม IP-to-MAC\n\n✅ ทำไม C ถูก: เมื่อไม่พบ destination MAC ในตาราง สวิตช์จะ flood เฟรมออกทุกอินเทอร์เฟซใน VLAN เดียวกันยกเว้นพอร์ตที่รับเข้ามาคือ Fa0/1\n\n❌ ทำไมข้ออื่นผิด:\nA. การทิ้งเฟรมจะทำให้การสื่อสารครั้งแรกล้มเหลวทุกครั้ง ซึ่งขัดกับหลักการทำงานของสวิตช์\nB. สวิตช์ไม่ส่งเฟรมกลับออกพอร์ตที่รับมา เพราะผู้ส่งอยู่ที่นั่นอยู่แล้ว\nD. ไม่มีกลไกพักเฟรมรอ ตัวจับเวลา 300 วินาทีเป็นเรื่องอายุของรายการในตาราง ไม่ใช่การรอส่งเฟรม\n\n📗 จำไว้สอบ: unknown unicast = flood ใน VLAN ยกเว้นพอร์ตต้นทาง | เรียนรู้จาก source MAC | ตัดสินใจส่งต่อจาก destination MAC',
+  },
+  {
+    id: 417,
+    kind: 'single',
+    image: v2q417,
+    prompt: 'Refer to the exhibit. An access list is created to deny Telnet access from host PC-1 to RTR-1 and allow access from all other hosts. A Telnet attempt from PC-2 gives this message: "% Connection refused by remote host." Without allowing Telnet access from PC-1, which action must be taken to permit the traffic?',
+    options: [
+      { key: 'A', text: 'Add the access-list 10 permit any command to the configuration.' },
+      { key: 'B', text: 'Remove the access-class 10 in command from line vty 0 4.' },
+      { key: 'C', text: 'Add the ip access-group 10 out command to interface g0/0.' },
+      { key: 'D', text: 'Remove the password command from line vty 0 4.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ทุก ACL มี "implicit deny any" ซ่อนอยู่ท้ายสุดเสมอ ⭐\n\n🔍 อ่านคอนฟิกจาก exhibit:\n• access-list 10 deny host 10.150.1.1 → ปฏิเสธ PC-1\n• line vty 0 4 → มี access-class 10 in\n→ ACL 10 มีเพียงบรรทัดเดียวคือ deny และไม่มีบรรทัด permit ใด ๆ เลย ⭐\n\n🧩 สิ่งที่เกิดขึ้นจริง:\n• PC-1 (10.150.1.1) → ถูกจับที่บรรทัด deny → ถูกปฏิเสธ ✔ ตรงตามเจตนา\n• PC-2 (10.150.1.2) → ไม่ตรงกับบรรทัด deny → ไหลลงมาถึงท้าย ACL → เจอ implicit deny any → ถูกปฏิเสธด้วย ⭐ ← นี่คือสาเหตุของข้อความ Connection refused\n\n🎯 ทางแก้: เติมบรรทัดอนุญาตทุกคนที่เหลือต่อท้าย\naccess-list 10 permit any ⭐\n→ ผลลัพธ์ ACL จะเป็น:\n  1. deny host 10.150.1.1 (PC-1 ยังถูกบล็อกอยู่ ✔)\n  2. permit any (คนอื่นผ่านได้ ✔)\n→ ตรงตามข้อกำหนด "ห้าม PC-1 แต่อนุญาตคนอื่น" ครบถ้วน\n\n⚠️ ลำดับสำคัญมาก: ถ้าสลับให้ permit any ขึ้นก่อน PC-1 จะผ่านได้ทันทีและบรรทัด deny จะไร้ผล — สำหรับ numbered ACL บรรทัดใหม่จะถูกต่อท้ายเสมอ ซึ่งในกรณีนี้เป็นสิ่งที่ต้องการพอดี\n\n💡 คำสั่ง access-class ใช้กับ vty (การเข้าถึงตัวอุปกรณ์) ส่วน ip access-group ใช้กับอินเทอร์เฟซ (ทราฟฟิกที่วิ่งผ่าน) ⭐\n\n✅ ทำไม A ถูก: การเติม permit any ต่อท้ายทำให้โฮสต์อื่นนอกจาก PC-1 ไม่ตกไปเจอ implicit deny และสามารถ Telnet เข้ามาได้ ขณะที่ PC-1 ยังคงถูกปฏิเสธตามเดิม\n\n❌ ทำไมข้ออื่นผิด:\nB. การถอด access-class ออกจะทำให้ทุกคนรวมทั้ง PC-1 เข้าถึงได้ ซึ่งขัดกับข้อกำหนด\nC. ip access-group ใช้กรองทราฟฟิกที่วิ่งผ่านอินเทอร์เฟซ ไม่ได้ควบคุมการเข้าถึงสาย vty ของตัวเราเตอร์เอง\nD. การลบรหัสผ่านออกจะทำให้ Telnet ล้มเหลวยิ่งกว่าเดิม เพราะ IOS ปฏิเสธการล็อกอินที่ไม่มีรหัสผ่าน\n\n📗 จำไว้สอบ: implicit deny any ท้าย ACL เสมอ | access-class = vty | ip access-group = อินเทอร์เฟซ | ต้องมี permit อย่างน้อยหนึ่งบรรทัด',
+  },
+  {
+    id: 418,
+    kind: 'single',
+    prompt: 'Which protocol does an IPv4 host use to obtain a dynamically assigned IP address?',
+    options: [
+      { key: 'A', text: 'ARP' },
+      { key: 'B', text: 'DHCP' },
+      { key: 'C', text: 'CDP' },
+      { key: 'D', text: 'DNS' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — แยกบทบาทของโปรโตคอลพื้นฐานสี่ตัวให้ขาด\n\n• DHCP ⭐ → จ่ายที่อยู่ IP พร้อมค่าอื่น ๆ ให้โฮสต์โดยอัตโนมัติ (subnet mask, default gateway, DNS server, domain name, lease time)\n• ARP → แปลง IP ที่รู้อยู่แล้วให้เป็น MAC address ในซับเน็ตเดียวกัน\n• CDP → ค้นหาอุปกรณ์เพื่อนบ้านของ Cisco\n• DNS → แปลงชื่อโดเมนเป็นที่อยู่ IP\n\n🔍 ลำดับ DORA ของ DHCP ⭐:\n1️⃣ Discover → ไคลเอนต์บรอดแคสต์ (source 0.0.0.0, dest 255.255.255.255) ถามหาเซิร์ฟเวอร์\n2️⃣ Offer → เซิร์ฟเวอร์เสนอ IP ที่ว่างพร้อมพารามิเตอร์\n3️⃣ Request → ไคลเอนต์บรอดแคสต์ยืนยันว่ารับข้อเสนอใด (บรอดแคสต์เพื่อให้เซิร์ฟเวอร์ตัวอื่นดึง IP ที่จองไว้กลับคืน)\n4️⃣ Acknowledgement → เซิร์ฟเวอร์ยืนยันการเช่าอย่างเป็นทางการ\n\n💡 รายละเอียดเพิ่มเติม:\n• พอร์ต UDP 67 (เซิร์ฟเวอร์) และ UDP 68 (ไคลเอนต์) ⭐\n• เมื่อผ่านไปครึ่งหนึ่งของ lease time ไคลเอนต์จะเริ่มขอต่ออายุด้วย unicast Request\n• ถ้าไม่มีเซิร์ฟเวอร์ตอบ Windows จะตั้ง APIPA ในช่วง 169.254.0.0/16 ให้เอง ซึ่งเป็นสัญญาณว่า DHCP มีปัญหา\n• ถ้าเซิร์ฟเวอร์อยู่คนละซับเน็ต ต้องตั้ง ip helper-address บนเราเตอร์ฝั่งไคลเอนต์\n\n✅ ทำไม B ถูก: DHCP คือโปรโตคอลที่ออกแบบมาเพื่อจ่ายที่อยู่ IP และพารามิเตอร์เครือข่ายให้โฮสต์โดยอัตโนมัติ\n\n❌ ทำไมข้ออื่นผิด:\nA. ARP ใช้หา MAC จาก IP ที่รู้อยู่แล้ว ไม่ได้ขอ IP ใหม่\nC. CDP ใช้ค้นหาอุปกรณ์ Cisco ที่อยู่ติดกัน ไม่เกี่ยวกับการจ่าย IP\nD. DNS แปลงชื่อเป็น IP แต่ไม่ได้กำหนด IP ให้โฮสต์\n\n📗 จำไว้สอบ: DORA | UDP 67/68 | APIPA 169.254.x.x = DHCP ล้มเหลว | ข้ามซับเน็ตต้องใช้ ip helper-address',
+  },
+  {
+    id: 419,
+    kind: 'single',
+    prompt: 'What is a benefit of VRRP?',
+    options: [
+      { key: 'A', text: 'It provides traffic load balancing to destinations that are more than two hops from the source.' },
+      { key: 'B', text: 'It provides the default gateway redundancy on a LAN using two or more routers.' },
+      { key: 'C', text: 'It allows neighbors to share routing table information between each other.' },
+      { key: 'D', text: 'It prevents loops in a Layer 2 LAN by forwarding all traffic to a root bridge, which then makes the final forwarding decision.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — VRRP (Virtual Router Redundancy Protocol) เป็น FHRP มาตรฐานเปิดตาม RFC 5798 ⭐\n\n🔍 หลักการทำงาน:\n• เราเตอร์หลายตัวรวมกลุ่มกันแล้วใช้ virtual IP ร่วมกันหนึ่งค่า ซึ่งโฮสต์ตั้งเป็น default gateway ⭐\n• บทบาทเรียกว่า Master (ตัวที่ส่งต่อทราฟฟิกจริง) และ Backup (ตัวสำรอง)\n• virtual MAC มีรูปแบบ 0000.5E00.01xx โดย xx คือหมายเลขกลุ่มในฐานสิบหก ⭐\n• Advertisement ส่งทุก 1 วินาที ไปยังมัลติแคสต์ 224.0.0.18 ⭐\n• Preemption "เปิดอยู่โดยค่าเริ่มต้น" ⭐ (ต่างจาก HSRP ที่ต้องสั่งเอง)\n• Priority ค่าเริ่มต้น 100 และค่า 255 สงวนไว้สำหรับเราเตอร์ที่เป็นเจ้าของ IP จริงนั้น\n\n📊 เปรียบเทียบสาม FHRP:\n• HSRP → Cisco เท่านั้น, active/standby, virtual MAC 0000.0C07.ACxx, hello 3 วินาที, ต้องสั่ง preempt เอง\n• VRRP → มาตรฐานเปิด, master/backup, virtual MAC 0000.5E00.01xx, advertise 1 วินาที, preempt เปิดอยู่แล้ว ⭐\n• GLBP → Cisco เท่านั้น, AVG/AVF, ทำโหลดบาลานซ์ได้จริงในกลุ่มเดียว ⭐\n\n⚠️ VRRP ไม่ทำโหลดบาลานซ์ในกลุ่มเดียว — ต้องสร้างหลายกลุ่มแล้วสลับ master หรือเปลี่ยนไปใช้ GLBP\n\n✅ ทำไม B ถูก: ประโยชน์หลักของ VRRP คือการทำให้ default gateway ของแลนมีความซ้ำซ้อน โดยใช้เราเตอร์ตั้งแต่สองตัวขึ้นไปแชร์ virtual IP เดียวกัน\n\n❌ ทำไมข้ออื่นผิด:\nA. VRRP ทำงานเฉพาะที่ hop แรกในแลนเท่านั้น ไม่ได้จัดการทราฟฟิกที่ไกลออกไป และไม่ทำโหลดบาลานซ์\nC. การแลกเปลี่ยนข้อมูลตารางเส้นทางเป็นหน้าที่ของโปรโตคอลเราต์ติ้ง\nD. การป้องกันลูปที่ชั้นที่ 2 ด้วยการเลือก root bridge คือหน้าที่ของ STP\n\n📗 จำไว้สอบ: VRRP = มาตรฐานเปิด, master/backup, 224.0.0.18, preempt เปิดอยู่แล้ว | HSRP = Cisco, active/standby | GLBP = โหลดบาลานซ์ได้',
+  },
+  {
+    id: 420,
+    kind: 'single',
+    prompt: 'Which type of security program is violated when a group of employees enters a building using the ID badge of only one person?',
+    options: [
+      { key: 'A', text: 'intrusion detection' },
+      { key: 'B', text: 'user awareness' },
+      { key: 'C', text: 'physical access control' },
+      { key: 'D', text: 'network authorization' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — พฤติกรรมที่โจทย์บรรยายเรียกว่า tailgating หรือ piggybacking ⭐\nคือการที่คนหลายคนเดินตามผู้ที่รูดบัตรเข้าไปโดยไม่รูดบัตรของตัวเอง\n\n🔍 วิเคราะห์ว่าอะไรถูกละเมิด:\n• ระบบควบคุมการเข้าถึงทางกายภาพ (เครื่องอ่านบัตร ประตู) "ทำงานถูกต้องตามที่ออกแบบไว้" — มันตรวจบัตรและเปิดประตูตามคำสั่ง ⭐\n• สิ่งที่ล้มเหลวคือ "พฤติกรรมของคน" ที่ไม่ปฏิบัติตามนโยบายว่าทุกคนต้องรูดบัตรของตนเอง\n→ ดังนั้นสิ่งที่ถูกละเมิดคือโปรแกรม User Awareness ⭐ ซึ่งเป็นการฝึกอบรมและสร้างจิตสำนึกด้านความปลอดภัยให้พนักงาน\n\n📊 องค์ประกอบของโปรแกรมความปลอดภัยที่ CCNA ต้องรู้:\n• User awareness ⭐ → สร้างความตระหนัก เช่น ไม่เปิดประตูให้คนแปลกหน้า ไม่คลิกลิงก์ที่น่าสงสัย ไม่บอกรหัสผ่านกับใคร\n• User training → การฝึกอบรมอย่างเป็นทางการที่มีหลักสูตรและการวัดผล\n• Physical access control → มาตรการทางกายภาพ เช่น ประตู กุญแจ เครื่องอ่านบัตร กล้องวงจรปิด ยาม\n\n💡 มาตรการทางเทคนิคที่ใช้แก้ปัญหา tailgating โดยตรง: mantrap (ประตูสองชั้นที่เปิดได้ทีละบาน), turnstile, และระบบ anti-passback ที่ไม่ยอมให้บัตรใบเดิมเข้าซ้ำโดยไม่มีการออก\n\n✅ ทำไม B ถูก: การที่พนักงานยอมให้ผู้อื่นเดินตามเข้ามาโดยไม่รูดบัตรสะท้อนถึงการขาดความตระหนักด้านความปลอดภัย ซึ่งเป็นเป้าหมายของโปรแกรม user awareness\n\n❌ ทำไมข้ออื่นผิด:\nA. intrusion detection เป็นระบบตรวจจับการบุกรุกในเครือข่าย (IDS/IPS) ไม่ใช่เรื่องการเข้าอาคาร\nC. ระบบควบคุมการเข้าถึงทางกายภาพยังทำงานปกติ สิ่งที่ล้มเหลวคือการปฏิบัติตามนโยบายของคน\nD. network authorization ควบคุมสิทธิ์การใช้ทรัพยากรบนเครือข่ายหลังยืนยันตัวตนแล้ว ไม่เกี่ยวกับประตูอาคาร\n\n📗 จำไว้สอบ: tailgating/piggybacking = ปัญหาด้าน user awareness | แก้ด้วยการอบรม + mantrap + turnstile + anti-passback',
+  },
+  {
+    id: 421,
+    kind: 'single',
+    image: v2q421,
+    prompt: 'Refer to the exhibit. PC1 is trying to ping PC3 for the first time and sends out an ARP to S1. Which action is taken by S1?',
+    options: [
+      { key: 'A', text: 'It forwards it out G0/3 only' },
+      { key: 'B', text: 'It is flooded out every port except G0/0.' },
+      { key: 'C', text: 'It drops the frame.' },
+      { key: 'D', text: 'It forwards it out interface G0/2 only.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ARP request เป็น "บรอดแคสต์" เสมอ ⭐\n• destination MAC = ffff.ffff.ffff\n• สวิตช์ต้องส่งบรอดแคสต์ออกทุกพอร์ตใน VLAN เดียวกัน ยกเว้นพอร์ตที่รับเข้ามา ⭐\n• ไม่ว่าตาราง MAC จะมีข้อมูลของใครอยู่หรือไม่ก็ตาม กฎนี้ไม่เปลี่ยน ⭐\n\n🔍 อ่านโทโพโลยีจาก exhibit:\n• S1 มีพอร์ต G0/0 (ต่อ PC1), G0/1 (ต่อ PC2), G0/2 (ต่อไป S2), G0/3 (พอร์ตด้านบน)\n• PC1 อยู่ที่ G0/0 → เป็นพอร์ตที่รับเฟรมเข้ามา\n\n🧩 ผลลัพธ์: S1 ส่ง ARP request ออกทุกพอร์ตยกเว้น G0/0 ⭐\n→ ออกทั้ง G0/1, G0/2 และ G0/3\n→ เฟรมวิ่งข้ามไปถึง S2 ผ่าน G0/2 แล้ว S2 ก็ flood ต่ออีกทอด จน PC3 ได้รับ\n\n💡 ทำไมสวิตช์ส่งตรงไป G0/2 ไม่ได้: แม้สวิตช์จะรู้ว่า PC3 อยู่ทางฝั่ง S2 แต่เฟรม ARP request มีปลายทางเป็นบรอดแคสต์ ไม่ใช่ MAC ของ PC3 ⭐ สวิตช์จึงตัดสินใจจากฟิลด์ destination MAC ที่เห็นเท่านั้น ซึ่งบังคับให้ flood\n\n💡 ขั้นตอนถัดไป: PC3 ตอบด้วย ARP reply ซึ่งเป็น "ยูนิแคสต์" กลับไปหา PC1 โดยตรง → คราวนี้สวิตช์ส่งแบบเจาะจงได้ เพราะรู้จัก MAC ของ PC1 แล้วจากตอนที่ ARP request วิ่งผ่านมา\n\n✅ ทำไม B ถูก: ARP request มี destination MAC เป็นบรอดแคสต์ สวิตช์จึงต้อง flood ออกทุกพอร์ตใน VLAN ยกเว้น G0/0 ที่เป็นพอร์ตต้นทาง\n\n❌ ทำไมข้ออื่นผิด:\nA. บรอดแคสต์ไม่ถูกส่งออกเพียงพอร์ตเดียว\nC. สวิตช์ไม่ทิ้งเฟรมบรอดแคสต์ เพราะเป็นทราฟฟิกที่จำเป็นต่อการทำงานของ ARP\nD. แม้ PC3 จะอยู่ทางฝั่ง G0/2 แต่ปลายทางของเฟรมคือบรอดแคสต์ ไม่ใช่ MAC ของ PC3 จึงต้อง flood ทุกพอร์ต\n\n📗 จำไว้สอบ: ARP request = บรอดแคสต์ (flood) | ARP reply = ยูนิแคสต์ (forward) | ขอบเขตบรอดแคสต์ = VLAN',
+  },
+  {
+    id: 422,
+    kind: 'single',
+    image: v2q422,
+    prompt: 'Refer to the exhibit. A network administrator has been tasked with securing VTY access to a router. Which access-list entry accomplishes this task?',
+    options: [
+      { key: 'A', text: 'access-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq telnet' },
+      { key: 'B', text: 'access-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq scp' },
+      { key: 'C', text: 'access-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq https' },
+      { key: 'D', text: 'access-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq ssh' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์คือ "securing VTY access" = การเข้าถึงสาย VTY อย่างปลอดภัย\n\n🔍 โปรโตคอลที่ใช้เข้า VTY มีสองตัว:\n• Telnet (TCP 23) → ส่งทุกอย่างเป็นข้อความธรรมดา รวมถึงชื่อผู้ใช้และรหัสผ่าน ⭐ ใครดักจับสายได้ก็อ่านได้ทันที\n• SSH (TCP 22) ⭐ → เข้ารหัสทั้งเซสชัน ยืนยันตัวตนของเซิร์ฟเวอร์ได้ และป้องกันการแก้ไขข้อมูลระหว่างทาง\n→ การทำให้ "ปลอดภัย" จึงต้องอนุญาต SSH ⭐\n\n🔍 อ่าน exhibit: ACL 101 ที่มีอยู่มีบรรทัด permit tcp ... eq telnet อยู่แล้ว ซึ่งเป็นการเปิดช่องทางที่ไม่เข้ารหัส → ไม่ตอบโจทย์เรื่องความปลอดภัย\n→ สิ่งที่ควรทำคืออนุญาต SSH แทน ⭐\n\n🧩 ขั้นตอนตั้งค่า SSH ให้ครบบนเราเตอร์:\n1️⃣ hostname และ ip domain-name (จำเป็นต่อการสร้างกุญแจ)\n2️⃣ crypto key generate rsa modulus 1024 หรือสูงกว่า ⭐\n3️⃣ username admin secret <password> (SSH ต้องใช้ชื่อผู้ใช้เสมอ)\n4️⃣ line vty 0 4 → transport input ssh ⭐ → login local\n5️⃣ ผูก ACL ด้วย access-class 101 in\n\n💡 คำสั่ง transport input ssh สำคัญมาก เพราะจะปิดช่องทาง Telnet ไปโดยสิ้นเชิง\n\n✅ ทำไม D ถูก: SSH เป็นโปรโตคอลที่เข้ารหัสสำหรับการจัดการอุปกรณ์จากระยะไกล การอนุญาตพอร์ต ssh จึงตรงกับเป้าหมายการทำให้การเข้าถึง VTY ปลอดภัย\n\n❌ ทำไมข้ออื่นผิด:\nA. Telnet ส่งข้อมูลแบบไม่เข้ารหัส จึงตรงข้ามกับคำว่า secure\nB. SCP ใช้คัดลอกไฟล์ผ่าน SSH ไม่ใช่โปรโตคอลสำหรับเปิดเซสชัน CLI บนสาย VTY\nC. HTTPS ใช้เข้าหน้าเว็บจัดการอุปกรณ์ ไม่เกี่ยวกับสาย VTY\n\n📗 จำไว้สอบ: SSH = TCP 22 เข้ารหัส | Telnet = TCP 23 ไม่เข้ารหัส | access-class ใช้กับ vty | transport input ssh ปิด Telnet',
+  },
+  {
+    id: 423,
+    kind: 'multi',
+    prompt: 'When implementing a router as a DHCP server, which two features must be configured? (Choose two.)',
+    options: [
+      { key: 'A', text: 'relay agent information' },
+      { key: 'B', text: 'database agent' },
+      { key: 'C', text: 'address pool' },
+      { key: 'D', text: 'smart-relay' },
+      { key: 'E', text: 'manual bindings' },
+    ],
+    correct: ['C', 'E'],
+    explanation:
+      '📘 แนวคิด — เมื่อเราเตอร์ Cisco ทำหน้าที่เป็น DHCP server เอง องค์ประกอบที่ต้องกำหนดคือ "แหล่งที่อยู่ที่จะจ่าย"\n\n🔹 Address pool ⭐ → กลุ่มที่อยู่ IP ที่เราเตอร์จะจ่ายแบบไดนามิก\nip dhcp pool LAN\n network 192.168.1.0 255.255.255.0\n default-router 192.168.1.1\n dns-server 8.8.8.8\n lease 7\n→ ควรกันที่อยู่ที่ใช้อย่างอื่นไว้ด้วยคำสั่ง ip dhcp excluded-address ⭐\n\n🔹 Manual binding ⭐ → การผูก IP ตายตัวให้กับอุปกรณ์เฉพาะตัว โดยอ้างจาก client identifier หรือ hardware address\nip dhcp pool PRINTER\n host 192.168.1.50 255.255.255.0\n client-identifier 0100.1122.3344.55\n→ ใช้กับอุปกรณ์ที่ต้องการ IP คงที่แต่ยังอยากบริหารจากศูนย์กลาง เช่น เครื่องพิมพ์ กล้อง IP โทรศัพท์\n\n📊 ตรวจตัวเลือกที่เหลือ:\n• relay agent information → เกี่ยวกับ DHCP Option 82 ซึ่งเป็นเรื่องของ relay agent ไม่ใช่การตั้งเซิร์ฟเวอร์\n• database agent → กำหนดที่เก็บฐานข้อมูลการเช่าไว้ภายนอก (เช่น FTP/TFTP) เป็นทางเลือกเสริมเท่านั้น\n• smart-relay → ฟีเจอร์ของ relay agent ที่ให้ลองใช้ที่อยู่รองเมื่อ pool แรกหมด ไม่ใช่ของเซิร์ฟเวอร์\n\n💡 คำสั่งตรวจสอบที่ควรจำ: show ip dhcp binding (ดูรายการที่จ่ายไปแล้ว), show ip dhcp pool (ดูสถิติการใช้งาน), show ip dhcp conflict\n\n✅ ทำไม C, E ถูก: address pool คือแหล่งที่อยู่สำหรับการจ่ายแบบไดนามิก และ manual binding คือการกำหนดที่อยู่ตายตัวให้อุปกรณ์เฉพาะ ทั้งสองเป็นสิ่งที่ตั้งค่าบนตัวเซิร์ฟเวอร์โดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nA. relay agent information คือ Option 82 ซึ่งเป็นหน้าที่ของอุปกรณ์ที่ทำ relay\nB. database agent เป็นทางเลือกสำหรับเก็บฐานข้อมูลการเช่าไว้ภายนอก ไม่ใช่สิ่งจำเป็น\nD. smart-relay เป็นฟีเจอร์ฝั่ง relay agent ไม่ใช่ฝั่งเซิร์ฟเวอร์\n\n📗 จำไว้สอบ: ip dhcp pool + network + default-router + dns-server | ip dhcp excluded-address | manual binding ใช้ host + client-identifier',
+  },
+  {
+    id: 424,
+    kind: 'single',
+    prompt: 'What is a role of wireless controllers in an enterprise network?',
+    options: [
+      { key: 'A', text: 'centralize the management of access points in an enterprise network' },
+      { key: 'B', text: 'support standalone or controller-based architectures' },
+      { key: 'C', text: 'serve as the first line of defense in an enterprise network' },
+      { key: 'D', text: 'provide secure user logins to devices on the network' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — บทบาทหลักของ WLC คือการรวมศูนย์การจัดการ AP ทั้งหมดในองค์กร ⭐\n\n🔍 งานที่ WLC รับผิดชอบในโมเดล split-MAC:\n• กระจายคอนฟิกลง AP ทุกตัวจากที่เดียว (SSID, ความปลอดภัย, VLAN mapping, QoS) ⭐\n• จัดการ RF อัตโนมัติด้วย RRM → เลือกช่องสัญญาณ ปรับกำลังส่ง และชดเชยเมื่อ AP ตัวใดล่ม\n• จัดการ roaming ให้ไคลเอนต์ย้าย AP ได้ราบรื่นโดยไม่ต้องยืนยันตัวตนใหม่ทั้งหมด\n• บังคับใช้นโยบายความปลอดภัย ตรวจจับ rogue AP และทำ wIPS\n• ยุติอุโมงค์ CAPWAP จาก AP ทุกตัว (control UDP 5246, data UDP 5247) ⭐\n• จัดการเฟิร์มแวร์ของ AP ให้เป็นเวอร์ชันเดียวกันโดยอัตโนมัติ\n\n💡 ประโยชน์เชิงปฏิบัติ: ถ้าองค์กรมี AP 200 ตัวแบบ autonomous การเปลี่ยนรหัสผ่าน Wi-Fi ต้องเข้าไปแก้ 200 ครั้ง แต่กับ WLC ทำครั้งเดียวแล้วกระจายให้ทั้งหมด ⭐\n\n🧩 การแบ่งงาน split-MAC:\n• AP ทำงานที่ต้องตอบสนองทันที: ส่ง beacon, ตอบ ACK, เข้ารหัสเฟรม, จัดคิว\n• WLC ทำงานที่ไม่ต้องเรียลไทม์: ยืนยันตัวตน, จัดการ RF, นโยบาย, การจัดการ mobility\n\n✅ ทำไม A ถูก: WLC มีบทบาทเป็นศูนย์กลางในการตั้งค่า ควบคุม และเฝ้าดู AP ทั้งหมดในองค์กรจากจุดเดียว\n\n❌ ทำไมข้ออื่นผิด:\nB. WLC ใช้กับสถาปัตยกรรมแบบ controller-based เท่านั้น AP แบบ standalone (autonomous) ไม่ได้ทำงานร่วมกับ WLC\nC. แนวป้องกันด่านแรกขององค์กรคือไฟร์วอลล์ ไม่ใช่ WLC\nD. การล็อกอินอย่างปลอดภัยเข้าอุปกรณ์เป็นหน้าที่ของ AAA server อย่าง RADIUS หรือ TACACS+\n\n📗 จำไว้สอบ: WLC = รวมศูนย์การจัดการ AP | CAPWAP 5246/5247 | split-MAC = AP ทำ real-time, WLC ทำ non-real-time | RRM = จัดการ RF อัตโนมัติ',
+  },
+  {
+    id: 425,
+    kind: 'single',
+    image: v2q425,
+    prompt: 'Refer to the exhibit. Which switch becomes the root of the spanning tree for VLAN 110?',
+    options: [
+      { key: 'A', text: 'Switch 1' },
+      { key: 'B', text: 'Switch 2' },
+      { key: 'C', text: 'Switch 3' },
+      { key: 'D', text: 'Switch 4' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — root bridge คือสวิตช์ที่มี Bridge ID ต่ำที่สุด (เทียบ priority ก่อน แล้วค่อย MAC)\n\n🔍 ค่าจาก exhibit สำหรับ VLAN 110:\n• Switch 1 → 32778 (0018.184e.3c00)\n• Switch 2 → 24586 (001a.e3ff.a680) ⭐ ต่ำที่สุด\n• Switch 3 → 28682 (0022.55cf.cc00)\n• Switch 4 → 64000 (0e38.7363.657f)\n\n🧮 เทียบตัวเลขตรง ๆ: 24586 < 28682 < 32778 < 64000 → Switch 2 ชนะตั้งแต่รอบเทียบ priority ไม่ต้องดู MAC เลย ⭐\n\n💡 ถอดที่มาของตัวเลข: BID ที่แสดงคือ priority บวกกับ extended system ID (ซึ่งเท่ากับหมายเลข VLAN)\n• 24586 = 24576 + 10?  ที่ถูกต้องคือค่าที่ปรากฏสะท้อน priority ที่ผู้ดูแลตั้งไว้ในระดับ root primary\n• 28682 → ระดับ root secondary\n• 32778 → ระดับค่าเริ่มต้น 32768\n• 64000 → ตั้งสูงไว้เพื่อไม่ให้เป็น root\n\n⚠️ สังเกตว่าลิงก์ทุกเส้นเป็น 10G เหมือนกันหมด ซึ่งเป็นข้อมูลที่ "ไม่มีผล" ต่อการเลือก root bridge — ความเร็วลิงก์ใช้คำนวณ path cost ซึ่งมีผลกับการเลือก root port และ designated port เท่านั้น ⭐\n\n✅ ทำไม B ถูก: Switch 2 มีค่า BID 24586 ต่ำที่สุดในบรรดาทั้งสี่ตัว จึงชนะการเลือกตั้งและเป็น root bridge ของ VLAN 110\n\n❌ ทำไมข้ออื่นผิด:\nA. Switch 1 ใช้ค่า priority ระดับเริ่มต้นซึ่งสูงกว่า\nC. Switch 3 อยู่ในระดับ root secondary จะขึ้นเป็น root ก็ต่อเมื่อ Switch 2 ล่ม\nD. Switch 4 ตั้งค่าไว้สูงที่สุด ไม่มีโอกาสเป็น root\n\n📗 จำไว้สอบ: BID = priority + extended system ID + MAC | priority ต้องเป็นพหุคูณของ 4096 | root primary 24576, secondary 28672, ค่าเริ่มต้น 32768',
+  },
+  {
+    id: 426,
+    kind: 'single',
+    prompt: 'Where does a switch maintain DHCP snooping information?',
+    options: [
+      { key: 'A', text: 'in the MAC address table' },
+      { key: 'B', text: 'in the CAM table' },
+      { key: 'C', text: 'in the binding database' },
+      { key: 'D', text: 'in the frame forwarding database' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — DHCP snooping เก็บข้อมูลไว้ในตารางเฉพาะของตัวเองชื่อ DHCP snooping binding database ⭐\n\n🔍 ข้อมูลที่เก็บในแต่ละรายการ:\n• MAC address ของไคลเอนต์\n• IP address ที่ได้รับจากเซิร์ฟเวอร์\n• Lease time ที่เหลือ\n• Binding type\n• VLAN\n• พอร์ตที่ไคลเอนต์เชื่อมต่ออยู่\n→ ดูได้ด้วยคำสั่ง show ip dhcp snooping binding ⭐\n\n🧩 กลไกการทำงาน:\n1️⃣ กำหนดพอร์ตเป็น trusted (ทางที่ไปหา DHCP server ที่ถูกต้อง) หรือ untrusted (พอร์ตผู้ใช้ ซึ่งเป็นค่าเริ่มต้นของทุกพอร์ต) ⭐\n2️⃣ ข้อความ DHCP Offer และ Ack ที่มาจากพอร์ต untrusted จะถูกทิ้งทันที → กัน DHCP server ปลอม ⭐\n3️⃣ เมื่อไคลเอนต์ได้รับ IP สำเร็จ สวิตช์บันทึกรายการลง binding database\n\n💡 ทำไมตารางนี้สำคัญมาก: ฟีเจอร์ความปลอดภัยอื่นอีกหลายตัวใช้ตารางนี้เป็นแหล่งความจริง ⭐\n• Dynamic ARP Inspection (DAI) → ตรวจว่า ARP ที่ส่งมามีคู่ IP-MAC ตรงกับ binding database หรือไม่ กัน ARP spoofing\n• IP Source Guard → กรองแพ็กเก็ตที่ใช้ source IP ไม่ตรงกับที่ลงทะเบียนไว้ กัน IP spoofing\n\n⚠️ ตารางนี้แยกจากตาราง MAC (CAM table) โดยสิ้นเชิง — CAM table เก็บแค่คู่ MAC กับพอร์ตสำหรับการส่งต่อเฟรมเท่านั้น ไม่มีข้อมูล IP หรือ lease ⭐\n\n✅ ทำไม C ถูก: ข้อมูลที่ DHCP snooping รวบรวมถูกเก็บใน binding database ซึ่งเป็นตารางเฉพาะที่บันทึกคู่ MAC, IP, VLAN, พอร์ต และ lease\n\n❌ ทำไมข้ออื่นผิด:\nA และ B เป็นชื่อเรียกของตารางเดียวกัน (MAC address table หรือ CAM table) ซึ่งเก็บแค่ MAC กับพอร์ต ไม่เก็บข้อมูล IP\nD. frame forwarding database เป็นอีกชื่อของ MAC table เช่นกัน\n\n📗 จำไว้สอบ: DHCP snooping binding database = MAC + IP + lease + VLAN + port | เป็นฐานให้ DAI และ IP Source Guard | พอร์ตทุกพอร์ตเริ่มต้นเป็น untrusted',
+  },
+  {
+    id: 427,
+    kind: 'single',
+    image: v2q427,
+    prompt: 'Refer to the exhibit. Which configuration must be applied to the router that configures PAT to translate all addresses in VLAN 200 while allowing devices on VLAN 100 to use their own IP addresses?',
+    options: [
+      { key: 'A', text: 'access-list 99 permit 192.168.100.32 0.0.0.31 / ip nat inside source list 99 interface gi1/0/0 overload / interface gi2/0/1.200 ip nat inside / interface gi1/0/0 ip nat outside' },
+      { key: 'B', text: 'access-list 99 permit 192.168.100.0 0.0.0.255 / ip nat inside source list 99 interface gi1/0/0 overload / interface gi2/0/1.200 ip nat inside / interface gi1/0/0 ip nat outside' },
+      { key: 'C', text: 'access-list 99 permit 209.165.201.2 255.255.255.255 / ip nat inside source list 99 interface gi1/0/0 overload / interface gi2/0/1.200 ip nat inside / interface gi1/0/0 ip nat outside' },
+      { key: 'D', text: 'access-list 99 permit 209.165.201.2 0.0.0.0 / ip nat inside source list 99 interface gi1/0/0 overload / interface gi2/0/1.200 ip nat inside / interface gi1/0/0 ip nat outside' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — PAT (NAT overload) แปลงหลาย IP ภายในให้ใช้ IP สาธารณะเดียวโดยแยกด้วยหมายเลขพอร์ต\n\n🔍 อ่านค่าจาก exhibit:\n• g1/0/0 → 209.165.201.2/27 (ฝั่งอินเทอร์เน็ต = outside)\n• g2/0/1.100 → 192.168.100.1/27 (VLAN 100)\n• g2/0/1.200 → 192.168.100.33/27 (VLAN 200) ⭐\n\n🧮 คำนวณซับเน็ตของ VLAN 200:\n• /27 → block size = 256 − 224 = 32 → ขอบเขต .0, .32, .64\n• IP .33 ตกอยู่ในกลุ่ม .32 → เครือข่ายคือ 192.168.100.32/27 ⭐\n• wildcard mask ของ /27 = 0.0.0.31 ⭐\n→ ACL ที่ถูกต้องคือ access-list 99 permit 192.168.100.32 0.0.0.31 ✔\n\n🎯 ทำไมต้องระบุแคบแค่ VLAN 200: โจทย์บอกว่า VLAN 100 ต้อง "ใช้ IP ของตัวเอง" คือไม่ถูกแปลง ⭐\n→ ถ้าใช้ ACL ที่กว้างเกิน (เช่น 192.168.100.0 0.0.0.255) จะครอบทั้ง VLAN 100 และ 200 ทำให้ VLAN 100 ถูก NAT ไปด้วย ผิดข้อกำหนด ⭐\n\n🧩 ส่วนประกอบอื่นที่ต้องถูกต้อง:\n• ip nat inside source list 99 interface gi1/0/0 overload → คำว่า overload คือสิ่งที่ทำให้เป็น PAT ⭐\n• ip nat inside บน subinterface ของ VLAN 200 เท่านั้น\n• ip nat outside บน g1/0/0\n\n✅ ทำไม A ถูก: ACL ระบุเฉพาะเครือข่าย 192.168.100.32/27 ซึ่งเป็นของ VLAN 200 เท่านั้น ทำให้ VLAN 100 ไม่ถูกแปลงตามที่โจทย์กำหนด และมีคำว่า overload ครบสำหรับ PAT\n\n❌ ทำไมข้ออื่นผิด:\nB. wildcard 0.0.0.255 ครอบทั้ง 192.168.100.0–255 ซึ่งรวม VLAN 100 เข้าไปด้วย ขัดกับข้อกำหนด\nC. ระบุ 209.165.201.2 ซึ่งเป็น IP ภายนอกของเราเตอร์เอง และยังใช้ subnet mask แทน wildcard mask ในคำสั่ง ACL\nD. ระบุ IP ภายนอกเช่นกัน ซึ่งไม่ใช่ที่อยู่ต้นทางภายในที่ต้องการแปลง\n\n📗 จำไว้สอบ: PAT = ip nat inside source list <ACL> interface <int> overload | /27 wildcard = 0.0.0.31 | inside ที่ขาผู้ใช้, outside ที่ขาอินเทอร์เน็ต | ACL ต้องแคบพอดีกับสิ่งที่ต้องการแปลง',
+  },
+  {
+    id: 428,
+    kind: 'single',
+    prompt: 'Which CRUD operation corresponds to the HTTP GET method?',
+    options: [
+      { key: 'A', text: 'read' },
+      { key: 'B', text: 'update' },
+      { key: 'C', text: 'create' },
+      { key: 'D', text: 'delete' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — การจับคู่ CRUD กับ HTTP method เป็นความรู้พื้นฐานของ REST API ที่ CCNA ต้องจำ\n\n📊 ตารางจับคู่:\n• Create → POST → สร้างทรัพยากรใหม่ (ตอบกลับด้วยรหัส 201 Created)\n• Read ⭐ → GET → ดึงข้อมูลมาอ่านโดยไม่เปลี่ยนแปลงอะไรเลย ⭐ (ตอบกลับด้วย 200 OK)\n• Update → PUT (แทนที่ทั้งวัตถุ) หรือ PATCH (แก้บางฟิลด์)\n• Delete → DELETE → ลบทรัพยากร\n\n🔍 คุณสมบัติสำคัญของ GET:\n• เป็น "safe method" คือไม่เปลี่ยนสถานะของข้อมูลบนเซิร์ฟเวอร์ ⭐\n• เป็น "idempotent" คือเรียกกี่ครั้งผลก็เหมือนเดิม\n• พารามิเตอร์ส่งผ่าน URL query string เช่น /api/v1/network-device?family=Switches\n\n💡 ตัวอย่างการใช้งานจริงกับ Cisco DNA Center:\n• GET /dna/intent/api/v1/network-device → ดึงรายการอุปกรณ์ทั้งหมด\n• POST /dna/intent/api/v1/network-device → เพิ่มอุปกรณ์ใหม่\n\n📊 รหัสสถานะที่ควรจำคู่กัน:\n• 2xx สำเร็จ (200 OK, 201 Created, 204 No Content)\n• 3xx เปลี่ยนเส้นทาง (301, 302)\n• 4xx ผิดที่ไคลเอนต์ (400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found)\n• 5xx ผิดที่เซิร์ฟเวอร์ (500 Internal Server Error)\n\n✅ ทำไม A ถูก: HTTP GET ใช้ดึงข้อมูลมาอ่านโดยไม่แก้ไขสิ่งใดบนเซิร์ฟเวอร์ ซึ่งตรงกับการกระทำ Read ใน CRUD\n\n❌ ทำไมข้ออื่นผิด:\nB. Update ตรงกับ PUT หรือ PATCH\nC. Create ตรงกับ POST\nD. Delete ตรงกับ DELETE\n\n📗 จำไว้สอบ: GET=Read | POST=Create | PUT/PATCH=Update | DELETE=Delete | GET เป็น safe และ idempotent',
+  },
+  {
+    id: 429,
+    kind: 'single',
+    prompt: 'What is an advantage of Cisco DNA Center versus traditional campus device management?',
+    options: [
+      { key: 'A', text: 'It supports numerous extensibility options including cross-domain adapters and third-party SDKs.' },
+      { key: 'B', text: 'It supports high availability for management functions when operating in cluster mode.' },
+      { key: 'C', text: 'It enables easy autodiscovery of network elements in a brownfield deployment.' },
+      { key: 'D', text: 'It is designed primarily to provide network assurance.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — Cisco DNA Center เป็นแพลตฟอร์มจัดการเครือข่ายแบบ intent-based ที่ครอบคลุมทั้งวงจรชีวิตของอุปกรณ์\n\n🔍 ความสามารถหลักสี่กลุ่ม:\n• Design → กำหนดผังไซต์ โปรไฟล์เครือข่าย และการตั้งค่ามาตรฐาน\n• Policy → กำหนดนโยบายจากเจตนาทางธุรกิจ เช่น กลุ่มผู้ใช้ใดเข้าถึงอะไรได้\n• Provision → ผลักคอนฟิกลงอุปกรณ์อัตโนมัติแบบ zero-touch\n• Assurance → เฝ้าดูสุขภาพเครือข่ายและวิเคราะห์หาสาเหตุของปัญหา\n\n🎯 จุดที่เหนือกว่าการจัดการแบบดั้งเดิมอย่างชัดเจนคือ "ความสามารถในการขยายและเชื่อมต่อกับระบบอื่น" ⭐\n• เปิด Intent API (northbound REST API) ให้ระบบอื่นเรียกใช้ได้\n• มี Integration API สำหรับเชื่อมกับระบบ ITSM อย่าง ServiceNow และระบบ IPAM\n• มี cross-domain adapter สำหรับเชื่อมกับ SD-WAN, ACI ในศูนย์ข้อมูล และระบบความปลอดภัย ⭐\n• มี Multivendor SDK ให้ผู้ผลิตรายอื่นเขียน device package เข้ามาเสียบได้ ⭐\n→ นี่คือสิ่งที่การจัดการแบบเดิม (SSH เข้าไปพิมพ์ทีละเครื่อง หรือใช้สคริปต์ของตัวเอง) ทำไม่ได้เลย\n\n💡 ตัวเลือกอื่นล้วนเป็นความสามารถที่มีจริง แต่ไม่ใช่ "ข้อได้เปรียบเชิงสถาปัตยกรรม" ที่แยก DNA Center ออกจากวิธีดั้งเดิมได้ชัดเจนเท่าเรื่องการเปิด API และการเชื่อมต่อข้ามโดเมน\n\n✅ ทำไม A ถูก: ความสามารถในการขยายผ่าน API, cross-domain adapter และ SDK ของผู้ผลิตรายอื่น คือข้อได้เปรียบเชิงสถาปัตยกรรมที่ทำให้ DNA Center ต่างจากการจัดการอุปกรณ์แบบเดิมอย่างสิ้นเชิง\n\n❌ ทำไมข้ออื่นผิด:\nB. การทำ high availability ด้วยคลัสเตอร์เป็นเรื่องความทนทานของตัวแพลตฟอร์มเอง ไม่ใช่ข้อได้เปรียบด้านการจัดการเครือข่าย\nC. การค้นหาอุปกรณ์อัตโนมัติมีอยู่แล้วในเครื่องมือจัดการรุ่นเก่าอย่าง Cisco Prime เช่นกัน\nD. assurance เป็นเพียงหนึ่งในสี่เสาหลัก ไม่ใช่วัตถุประสงค์หลักเพียงอย่างเดียวของแพลตฟอร์ม\n\n📗 จำไว้สอบ: DNA Center = Design, Policy, Provision, Assurance | Intent API = northbound REST | SD-Access ใช้ VXLAN + LISP + TrustSec',
+  },
+  {
+    id: 430,
+    kind: 'single',
+    prompt: 'What does a router do when configured with the default DNS lookup settings, and a URL is entered on the CLI?',
+    options: [
+      { key: 'A', text: 'initiates a ping request to the URL' },
+      { key: 'B', text: 'prompts the user to specify the desired IP address' },
+      { key: 'C', text: 'continuously attempts to resolve the URL until the command is cancelled' },
+      { key: 'D', text: 'sends a broadcast message in an attempt to resolve the URL' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ค่าเริ่มต้นของ Cisco IOS คือ ip domain-lookup "เปิดอยู่" แต่ยังไม่ได้ตั้ง ip name-server ⭐\n\n🔍 สิ่งที่เกิดขึ้นเมื่อพิมพ์ชื่อ (หรือพิมพ์คำสั่งผิด) ที่ EXEC prompt:\n1️⃣ IOS ตรวจว่าข้อความที่พิมพ์ไม่ใช่คำสั่งที่รู้จัก → ตีความว่าน่าจะเป็นชื่อโฮสต์ที่ผู้ใช้ต้องการ Telnet ไปหา\n2️⃣ เนื่องจาก domain-lookup เปิดอยู่ → พยายามแปลงชื่อเป็น IP\n3️⃣ แต่ไม่มี name server ที่ตั้งไว้ → IOS ส่ง DNS query ไปยังที่อยู่บรอดแคสต์ 255.255.255.255 ⭐ เผื่อว่าจะมี DNS server อยู่ในซับเน็ตเดียวกัน\n4️⃣ ระหว่างรอ หน้าจอจะขึ้นข้อความ "Translating <ชื่อ>...domain server (255.255.255.255)" และค้างอยู่ราว 30–60 วินาที\n5️⃣ เมื่อหมดเวลาจะขึ้น "% Unknown command or computer name, or unable to find computer address"\n\n💡 วิธีแก้อาการค้างน่ารำคาญนี้:\n• no ip domain-lookup → ปิดการแปลงชื่อไปเลย ⭐\n• หรือ ip name-server <IP> → ระบุ DNS server ที่ถูกต้อง\n• หรือ line con 0 → logging synchronous เพื่อไม่ให้ข้อความรบกวนบรรทัดที่กำลังพิมพ์\n\n⚠️ สังเกตว่ากระบวนการนี้ "หยุดเองเมื่อหมดเวลา" ไม่ได้พยายามซ้ำไปเรื่อย ๆ และ IOS ก็ไม่เคยถามผู้ใช้ให้ระบุ IP\n\n✅ ทำไม D ถูก: เมื่อ domain-lookup เปิดอยู่แต่ไม่มี name server ที่กำหนดไว้ เราเตอร์จะส่ง DNS query ออกเป็นบรอดแคสต์ไปยัง 255.255.255.255 เพื่อพยายามแปลงชื่อ\n\n❌ ทำไมข้ออื่นผิด:\nA. เราเตอร์พยายามเปิดเซสชัน Telnet ไม่ใช่ส่ง ping\nB. IOS ไม่มีการถามผู้ใช้ให้ป้อน IP แต่อย่างใด\nC. การพยายามจะหยุดเองเมื่อหมดเวลา ไม่ได้วนไม่รู้จบ\n\n📗 จำไว้สอบ: ip domain-lookup เปิดโดยค่าเริ่มต้น | ไม่มี name server = บรอดแคสต์ 255.255.255.255 | แก้ด้วย no ip domain-lookup',
+  },
+  {
+    id: 431,
+    kind: 'single',
+    prompt: 'Which condition must be met before an NMS handles an SNMP trap from an agent?',
+    options: [
+      { key: 'A', text: 'The NMS software must be loaded with the MIB associated with the trap.' },
+      { key: 'B', text: 'The NMS must be configured on the same router as the SNMP agent' },
+      { key: 'C', text: 'The NMS must receive a trap and an inform message from the SNMP agent within a configured interval' },
+      { key: 'D', text: 'The NMS must receive the same trap from two different SNMP agents to verify that it is reliable.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — SNMP trap ที่ส่งมาบรรจุแค่ "OID" ซึ่งเป็นตัวเลขล้วน ๆ เช่น 1.3.6.1.6.3.1.1.5.3 ⭐\n→ ตัวเลขเหล่านี้ไม่มีความหมายในตัวเอง ต้องมีพจนานุกรมมาช่วยถอดรหัส\n\n🔍 บทบาทของ MIB:\n• MIB (Management Information Base) คือไฟล์ที่นิยามว่า OID แต่ละหมายเลขหมายถึงอะไร ชนิดข้อมูลเป็นแบบใด และมีหน่วยอะไร ⭐\n• ถ้า NMS ยังไม่ได้โหลด MIB ที่เกี่ยวข้อง → มันจะแสดงผลเป็นตัวเลข OID ดิบ ๆ ที่มนุษย์อ่านไม่รู้เรื่อง และไม่สามารถตีความเป็นการแจ้งเตือนที่มีความหมายได้ ⭐\n• เมื่อโหลด MIB แล้ว → NMS แปลง 1.3.6.1.6.3.1.1.5.3 ให้เป็นข้อความว่า "linkDown" พร้อมระบุอินเทอร์เฟซที่เกิดเหตุ ✔\n\n🧩 โครงสร้าง MIB:\n• จัดเรียงเป็นต้นไม้ตามลำดับชั้น เริ่มจาก iso(1).org(3).dod(6).internet(1)\n• MIB-II เป็นชุดมาตรฐานที่ทุกอุปกรณ์ต้องรองรับ (เช่น sysUpTime, ifOperStatus)\n• Enterprise MIB เป็นของเฉพาะผู้ผลิต ซึ่งของ Cisco อยู่ใต้ 1.3.6.1.4.1.9 ⭐\n\n💡 ทบทวนเรื่อง trap กับ inform:\n• Trap → ส่งครั้งเดียว ไม่รอการยืนยัน (fire and forget) ใช้ UDP 162\n• Inform → ส่งแล้วรอ ACK ถ้าไม่ได้รับจะส่งซ้ำ จึงน่าเชื่อถือกว่าแต่กินทรัพยากรมากกว่า ⭐\n\n✅ ทำไม A ถูก: NMS ต้องมีไฟล์ MIB ที่ตรงกับ trap นั้นจึงจะแปล OID ให้เป็นข้อความที่มีความหมายและประมวลผลการแจ้งเตือนได้\n\n❌ ทำไมข้ออื่นผิด:\nB. NMS เป็นเซิร์ฟเวอร์แยกต่างหากที่อยู่คนละที่กับอุปกรณ์ ไม่ได้ติดตั้งบนเราเตอร์\nC. trap และ inform เป็นทางเลือกที่ใช้แทนกัน ไม่ต้องส่งทั้งคู่\nD. SNMP ไม่มีกลไกยืนยันความน่าเชื่อถือด้วยการรับ trap ซ้ำจากสองแหล่ง\n\n📗 จำไว้สอบ: MIB = พจนานุกรมแปล OID | agent UDP 161, trap ไปยัง UDP 162 | trap ไม่รอ ACK, inform รอ ACK | Cisco enterprise OID = 1.3.6.1.4.1.9',
+  },
+  {
+    id: 432,
+    kind: 'single',
+    prompt: 'What is the effect when loopback interfaces and the configured router ID are absent during the OSPF process configuration?',
+    options: [
+      { key: 'A', text: 'No router ID is set, and the OSPF protocol does not run.' },
+      { key: 'B', text: 'The highest up/up physical interface IP address is selected as the router ID.' },
+      { key: 'C', text: 'The lowest IP address is incremented by 1 and selected as the router ID.' },
+      { key: 'D', text: 'The router ID 0.0.0.0 is selected and placed in the OSPF process.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ลำดับการเลือก OSPF Router ID (ไล่จากบนลงล่าง หยุดที่เจอก่อน)\n1️⃣ คำสั่ง router-id ที่ตั้งไว้เอง → ชนะทุกกรณี\n2️⃣ IP สูงสุดในบรรดา loopback interface ที่สถานะ up\n3️⃣ IP สูงสุดในบรรดาอินเทอร์เฟซกายภาพที่สถานะ up/up ⭐ ← กรณีของโจทย์\n\n🔍 โจทย์ตัดสองข้อแรกออกไปแล้ว (ไม่มีคำสั่ง router-id และไม่มี loopback) → ต้องตกมาที่ข้อ 3 ⭐\n\n🧩 รายละเอียดที่ต้องระวัง:\n• ต้องเป็นอินเทอร์เฟซที่ "up/up" เท่านั้น — อินเทอร์เฟซที่ administratively down หรือไม่มี IP จะไม่ถูกนับ ⭐\n• เทียบเป็นตัวเลข 32 บิต โดยเทียบทีละ octet จากซ้ายไปขวา (เช่น 192.168.0.1 สูงกว่า 10.10.10.20)\n• ค่าที่เลือกได้จะถูก "ล็อกไว้" ตั้งแต่กระบวนการ OSPF เริ่มทำงาน ⭐ การเปลี่ยน IP ทีหลังจะไม่มีผลจนกว่าจะสั่ง clear ip ospf process\n\n⚠️ กรณีพิเศษ: ถ้าไม่มีอินเทอร์เฟซใดที่ up/up และมี IP เลย OSPF จะไม่เริ่มทำงานพร้อมข้อความ "OSPF: Could not allocate router id" → แต่โจทย์นี้ไม่ได้บอกว่าไม่มีอินเทอร์เฟซใดเลย จึงไม่ใช่กรณีนั้น\n\n💡 แนวปฏิบัติที่ดี: ควรตั้ง router-id ด้วยมือเสมอ เพื่อให้ค่าคาดเดาได้ ไม่เปลี่ยนตามการแก้ IP และง่ายต่อการไล่ปัญหา\n\n✅ ทำไม B ถูก: เมื่อไม่มีทั้งคำสั่ง router-id และ loopback interface OSPF จะเลือก IP ที่สูงที่สุดจากอินเทอร์เฟซกายภาพที่มีสถานะ up/up มาเป็น router ID\n\n❌ ทำไมข้ออื่นผิด:\nA. OSPF ยังทำงานได้ตราบใดที่มีอินเทอร์เฟซที่ใช้งานได้พร้อม IP อย่างน้อยหนึ่งตัว\nC. ไม่มีกลไกบวกหนึ่งกับ IP ต่ำสุด และหลักการที่ถูกต้องคือเลือกค่าที่ "สูงที่สุด"\nD. RID 0.0.0.0 ไม่ถูกใช้เป็นค่าที่เลือกได้ ถ้าเกิดกรณีนั้น OSPF จะไม่เริ่มทำงานเลย\n\n📗 จำไว้สอบ: router-id > loopback สูงสุด > อินเทอร์เฟซกายภาพสูงสุด | นับเฉพาะที่ up/up | ล็อกตอน process เริ่ม | แก้ด้วย clear ip ospf process',
+  },
+  {
+    id: 433,
+    kind: 'single',
+    prompt: 'Which device controls the forwarding of authentication requests for users when connecting to the network using a lightweight access point?',
+    options: [
+      { key: 'A', text: 'TACACS server' },
+      { key: 'B', text: 'wireless access point' },
+      { key: 'C', text: 'RADIUS server' },
+      { key: 'D', text: 'wireless LAN controller' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์คือ "controls the forwarding of authentication requests" = ใครเป็นตัวกลางที่ส่งต่อคำขอ ไม่ใช่ใครเป็นคนตัดสิน ⭐\n\n🔍 บทบาทของแต่ละอุปกรณ์ในสถาปัตยกรรม lightweight AP:\n\n1️⃣ ไคลเอนต์ไร้สาย (supplicant) → เชื่อมต่อกับ AP แล้วส่งข้อมูลยืนยันตัวตนแบบ EAP\n2️⃣ Lightweight AP → ไม่ตัดสินใจอะไรเลย เพียงห่อทราฟฟิกทั้งหมดลงอุโมงค์ CAPWAP แล้วส่งต่อไปยัง WLC ⭐\n3️⃣ WLC (authenticator) ⭐ → เป็นตัวที่ถอด EAP ออกมาแล้วห่อใหม่เป็นแพ็กเก็ต RADIUS ส่งไปยังเซิร์ฟเวอร์ AAA → มันคือ "ผู้ควบคุมการส่งต่อคำขอยืนยันตัวตน" ⭐\n4️⃣ RADIUS server (authentication server) → เป็นผู้ตรวจสอบและ "ตัดสิน" ว่าผ่านหรือไม่ แล้วตอบ Access-Accept หรือ Access-Reject กลับมา\n\n🎯 ความแตกต่างที่ต้องแยกให้ขาด:\n• ใคร "ตัดสิน" → RADIUS server\n• ใคร "ควบคุมการส่งต่อคำขอ" → WLC ⭐ ← ตรงกับคำถาม\n\n💡 ในสถาปัตยกรรมนี้ AP แทบไม่มีบทบาทด้านความปลอดภัยเลย เพราะทุกอย่างถูกยกไปไว้ที่ WLC ตามโมเดล split-MAC ซึ่งเป็นเหตุผลที่ AP ไม่จำเป็นต้องรู้จัก RADIUS server ด้วยซ้ำ\n\n✅ ทำไม D ถูก: WLC ทำหน้าที่เป็น authenticator ที่รับคำขอยืนยันตัวตนจากไคลเอนต์ผ่าน AP แล้วควบคุมการส่งต่อไปยังเซิร์ฟเวอร์ AAA\n\n❌ ทำไมข้ออื่นผิด:\nA. TACACS+ ใช้กับการยืนยันตัวตนของผู้ดูแลอุปกรณ์เป็นหลัก ไม่ใช่ผู้ใช้ไร้สาย และเป็นผู้ตัดสิน ไม่ใช่ผู้ส่งต่อ\nB. lightweight AP เพียงห่อทราฟฟิกส่งผ่าน CAPWAP ไม่ได้ควบคุมกระบวนการใด ๆ\nC. RADIUS server เป็นผู้ตรวจสอบและตัดสิน ไม่ใช่ผู้ควบคุมการส่งต่อคำขอ\n\n📗 จำไว้สอบ: supplicant = ไคลเอนต์ | authenticator = WLC (ในไร้สาย) หรือสวิตช์ (ในสาย) | authentication server = RADIUS | AP ส่งผ่าน CAPWAP เท่านั้น',
+  },
+  {
+    id: 434,
+    kind: 'single',
+    prompt: 'A network administrator must enable DHCP services between two sites. What must be configured for the router to pass DHCPDISCOVER messages on to the server?',
+    options: [
+      { key: 'A', text: 'a DHCP Relay Agent' },
+      { key: 'B', text: 'DHCP Binding' },
+      { key: 'C', text: 'a DHCP Pool' },
+      { key: 'D', text: 'DHCP Snooping' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — DHCPDISCOVER เป็น "บรอดแคสต์" (destination 255.255.255.255) และเราเตอร์ไม่ส่งต่อบรอดแคสต์ข้ามซับเน็ตโดยปริยาย ⭐\n→ เมื่อไคลเอนต์กับเซิร์ฟเวอร์อยู่คนละไซต์ ข้อความจะไปไม่ถึงเลย\n\n🔍 DHCP Relay Agent แก้ปัญหาอย่างไร:\n1️⃣ เราเตอร์ฝั่งไคลเอนต์รับบรอดแคสต์ DHCPDISCOVER ไว้\n2️⃣ แปลงเป็นแพ็กเก็ต "ยูนิแคสต์" ส่งตรงไปยัง IP ของเซิร์ฟเวอร์ที่ระบุไว้ ⭐\n3️⃣ ใส่ IP ของอินเทอร์เฟซที่รับมาลงในฟิลด์ giaddr ⭐ เพื่อบอกเซิร์ฟเวอร์ว่าไคลเอนต์อยู่ซับเน็ตใด จะได้จ่าย IP จาก pool ที่ถูกต้อง\n4️⃣ เซิร์ฟเวอร์ตอบกลับมาที่เราเตอร์ แล้วเราเตอร์ส่งต่อให้ไคลเอนต์\n\n🧩 คำสั่งที่ใช้ — ใส่บนอินเทอร์เฟซที่หันหน้าเข้าหาไคลเอนต์ ⭐:\ninterface gi0/1\n ip helper-address 10.20.20.10\n\n📊 ตรวจตัวเลือกอื่น:\n• DHCP Binding → รายการที่บันทึกว่า IP ใดถูกจ่ายให้ MAC ใด เป็นผลลัพธ์ ไม่ใช่กลไกส่งต่อ\n• DHCP Pool → ตั้งบนตัวเซิร์ฟเวอร์ ไม่ได้ช่วยให้บรอดแคสต์ข้ามซับเน็ต\n• DHCP Snooping → ฟีเจอร์ความปลอดภัยบนสวิตช์ที่กรอง DHCP server ปลอม ไม่ได้ทำหน้าที่ส่งต่อ ⭐\n\n💡 เกร็ด: ip helper-address ยังส่งต่อบรอดแคสต์ UDP อีก 7 บริการโดยปริยาย เช่น TFTP, DNS, TACACS, NetBIOS — ปรับได้ด้วย ip forward-protocol udp\n\n✅ ทำไม A ถูก: DHCP Relay Agent คือกลไกที่แปลงบรอดแคสต์ DHCPDISCOVER ให้เป็นยูนิแคสต์แล้วส่งข้ามซับเน็ตไปยังเซิร์ฟเวอร์ที่อยู่คนละไซต์\n\n❌ ทำไมข้ออื่นผิด:\nB. binding เป็นรายการบันทึกการเช่า ไม่ใช่กลไกการส่งต่อข้อความ\nC. pool กำหนดช่วง IP บนตัวเซิร์ฟเวอร์ ไม่ได้แก้ปัญหาบรอดแคสต์ข้ามซับเน็ต\nD. DHCP snooping เป็นฟีเจอร์ความปลอดภัยที่กรองข้อความ ไม่ได้ส่งต่อข้ามซับเน็ต\n\n📗 จำไว้สอบ: ip helper-address ใส่ที่อินเทอร์เฟซฝั่งไคลเอนต์ | giaddr บอกซับเน็ตของไคลเอนต์ | relay = ส่งต่อ, snooping = ความปลอดภัย',
+  },
+  {
+    id: 435,
+    kind: 'drag',
+    image: v2q435,
+    prompt: 'Refer to the exhibit. An engineer is configuring the router to provide static NAT for the webserver. Drag and drop the configuration commands from the left onto the letters that correspond to its position in the configuration on the right.',
+    categories: [
+      { name: 'position A (interface Ethernet0)', items: ['ip address 172.16.1.1 255.255.255.0'] },
+      { name: 'position B (interface Ethernet0)', items: ['ip nat inside'] },
+      { name: 'position C (interface Serial0)', items: ['ip address 45.83.2.214 255.255.255.240'] },
+      { name: 'position D (interface Serial0)', items: ['ip nat outside'] },
+      { name: 'position E (global)', items: ['ip nat inside source static tcp 172.16.1.2 80 45.83.2.214 80 extendable'] },
+      { name: 'position F (global)', items: ['ip nat inside source list 1 interface s0 overload'] },
+    ],
+    explanation:
+      '📘 แนวคิด — เรียงคำสั่ง NAT ตามโครงสร้างของคอนฟิก โดยดูว่าบล็อกใดเป็นอินเทอร์เฟซใด\n\n🔍 อ่านโครงจาก exhibit:\n• interface Ethernet0 (e0) → ฝั่งที่ต่อกับ Web server 172.16.1.2 = ฝั่ง inside ⭐\n  – ตำแหน่ง A: ip address 172.16.1.1 255.255.255.0 → เป็นเกตเวย์ของเว็บเซิร์ฟเวอร์\n  – ตำแหน่ง B: ip nat inside ⭐\n• interface Serial0 (s0) → ฝั่งที่ต่อออกอินเทอร์เน็ต = ฝั่ง outside ⭐\n  – ตำแหน่ง C: ip address 45.83.2.214 255.255.255.240 → IP สาธารณะ\n  – ตำแหน่ง D: ip nat outside ⭐\n• คำสั่งระดับ global (นอกบล็อกอินเทอร์เฟซ)\n  – ตำแหน่ง E: ip nat inside source static tcp 172.16.1.2 80 45.83.2.214 80 extendable ⭐\n  – ตำแหน่ง F: ip nat inside source list 1 interface s0 overload ⭐\n\n🧩 ทำความเข้าใจสองคำสั่งท้าย:\n• Static PAT (หรือ port forwarding) ⭐ → เปิดพอร์ต 80 ของ IP สาธารณะให้ชี้เข้าไปหาเว็บเซิร์ฟเวอร์ภายใน ทำให้คนภายนอกเข้าเว็บได้\n  – คำว่า extendable อนุญาตให้ IP สาธารณะเดียวกันถูกใช้ทั้งใน static mapping และ PAT พร้อมกันได้ ⭐\n• Dynamic PAT (overload) ⭐ → ให้เครื่องภายในที่ตรงกับ access-list 1 ออกอินเทอร์เน็ตได้โดยใช้ IP ของ s0 ร่วมกัน\n  – access-list 1 permit 172.16.1.0 0.0.0.255 ที่ปรากฏท้ายคอนฟิกคือรายการที่คำสั่งนี้อ้างถึง\n\n💡 หลักการวางที่ต้องจำ: ip nat inside ใส่ที่อินเทอร์เฟซฝั่งเครือข่ายภายในเสมอ และ ip nat outside ใส่ที่ฝั่งที่ออกสู่ภายนอก ถ้าสลับกันหรือลืมใส่ NAT จะไม่ทำงานเลย ⭐\n\n📗 จำไว้สอบ: static NAT = แม็ปหนึ่งต่อหนึ่งถาวร | static PAT = เปิดเฉพาะพอร์ต (port forwarding) | dynamic PAT = overload หลายตัวใช้ IP เดียว | ตรวจด้วย show ip nat translations',
+  },
+  {
+    id: 436,
+    kind: 'drag',
+    image: v2q436,
+    prompt: 'Drag and drop the QoS mechanisms from the left onto their descriptions on the right.',
+    categories: [
+      { name: 'mechanism to create a scheduler for packets prior to forwarding', items: ['policy map'] },
+      { name: 'mechanism to apply a QoS policy to an interface', items: ['service policy'] },
+      { name: 'portion of the IP header used to classify packets', items: ['DSCP'] },
+    ],
+    explanation:
+      '📘 แนวคิด — โครงสร้าง MQC (Modular QoS CLI) ของ Cisco มีสามชั้นที่ต้องเรียงให้ถูก\n\n1️⃣ Class map → "จำแนก" ว่าทราฟฟิกใดเข้าเงื่อนไข\nclass-map match-all VOICE\n match dscp ef\n\n2️⃣ Policy map ⭐ → "กำหนดว่าจะทำอะไร" กับแต่ละคลาส เช่น จองแบนด์วิดท์ จัดลำดับคิว ทำ policing หรือ shaping\npolicy-map WAN-OUT\n class VOICE\n  priority percent 30\n→ เป็นตัวที่สร้าง "ตารางจัดคิว (scheduler)" ให้แพ็กเก็ตก่อนถูกส่งออก ⭐ ตรงกับคำอธิบายแรก\n\n3️⃣ Service policy ⭐ → "นำนโยบายไปติดตั้ง" ที่อินเทอร์เฟซพร้อมระบุทิศทาง\ninterface gi0/1\n service-policy output WAN-OUT ⭐\n→ ตรงกับคำอธิบาย "apply a QoS policy to an interface"\n\n🔹 DSCP (Differentiated Services Code Point) ⭐\n• ฟิลด์ขนาด 6 บิตในไบต์ ToS ของส่วนหัว IP ⭐ → มีค่าที่เป็นไปได้ 64 ค่า (0–63)\n• ใช้ทำเครื่องหมายให้แพ็กเก็ตเพื่อให้ทุกอุปกรณ์ตลอดเส้นทางจำแนกได้ตรงกัน\n• ตรงกับ "portion of the IP header used to classify packets" ⭐\n\n📊 ค่า DSCP ที่ต้องจำ:\n• EF (Expedited Forwarding) = 46 → ใช้กับเสียง (voice) ⭐\n• AF41 = 34 → ใช้กับวิดีโอแบบโต้ตอบ\n• CS6 = 48 → ใช้กับทราฟฟิกของโปรโตคอลเราต์ติ้ง\n• Default (BE) = 0 → best effort\n\n💡 เปรียบเทียบ CoS กับ DSCP: CoS มี 3 บิตอยู่ในแท็ก 802.1Q (ชั้นที่ 2 จึงหายไปเมื่อออกจาก trunk) ส่วน DSCP มี 6 บิตอยู่ในหัว IP (ชั้นที่ 3 จึงเดินทางไปได้ตลอดทาง) ⭐\n\n📗 จำไว้สอบ: class-map จำแนก → policy-map กำหนดการกระทำ → service-policy ติดตั้งที่อินเทอร์เฟซ | DSCP 6 บิตในหัว IP | EF=46 คือเสียง',
+  },
+  {
+    id: 437,
+    kind: 'multi',
+    prompt: 'Which two QoS tools provide congestion management? (Choose two.)',
+    options: [
+      { key: 'A', text: 'CBWFQ' },
+      { key: 'B', text: 'FRTS' },
+      { key: 'C', text: 'CAR' },
+      { key: 'D', text: 'PBR' },
+      { key: 'E', text: 'PQ' },
+    ],
+    correct: ['A', 'E'],
+    explanation:
+      '📘 แนวคิด — แยกหมวดหมู่เครื่องมือ QoS ให้ถูก\n\n🔹 Congestion Management (การจัดคิว) ⭐ → จัดลำดับว่าแพ็กเก็ตใดออกจากคิวก่อนเมื่อเกิดความคับคั่ง\n• FIFO → มาก่อนได้ก่อน ไม่มีการจัดลำดับ\n• PQ (Priority Queuing) ⭐ → มีสี่คิวตามลำดับความสำคัญ (high, medium, normal, low) คิวสูงกว่าต้องว่างก่อนคิวต่ำจึงจะได้ส่ง → เสี่ยงทำให้คิวต่ำอดตาย (starvation)\n• CQ (Custom Queuing) → วนรอบให้แต่ละคิวส่งได้ตามจำนวนไบต์ที่กำหนด\n• WFQ → แบ่งแบนด์วิดท์อย่างเป็นธรรมตามโฟลว์โดยอัตโนมัติ\n• CBWFQ ⭐ → จองแบนด์วิดท์ขั้นต่ำให้คลาสที่กำหนดเอง\n• LLQ → CBWFQ ที่เพิ่มคิวความสำคัญสูงสุดเข้าไป เหมาะกับเสียงที่สุด\n\n🔹 Congestion Avoidance → ทิ้งแพ็กเก็ตล่วงหน้าก่อนคิวจะเต็ม เช่น WRED\n\n🔹 Policing & Shaping → ควบคุมอัตราส่ง\n• CAR (Committed Access Rate) → เครื่องมือ policing รุ่นเก่า\n• FRTS (Frame Relay Traffic Shaping) → เครื่องมือ shaping สำหรับ Frame Relay\n\n🔹 อื่น ๆ\n• PBR (Policy-Based Routing) → เลือกเส้นทางตามนโยบาย ไม่ใช่เครื่องมือ QoS สำหรับจัดคิว\n\n🎯 ในตัวเลือกที่ให้มา เครื่องมือที่อยู่ในหมวด congestion management คือ CBWFQ และ PQ ⭐\n\n✅ ทำไม A, E ถูก: CBWFQ และ PQ ต่างเป็นกลไกจัดคิวที่ตัดสินลำดับการส่งแพ็กเก็ตออกจากอินเทอร์เฟซเมื่อเกิดความคับคั่ง จึงจัดอยู่ในหมวด congestion management\n\n❌ ทำไมข้ออื่นผิด:\nB. FRTS อยู่ในหมวด traffic shaping ไม่ใช่การจัดคิว\nC. CAR อยู่ในหมวด policing\nD. PBR ใช้กำหนดเส้นทางตามนโยบาย ไม่ใช่เครื่องมือ QoS สำหรับจัดการความคับคั่ง\n\n📗 จำไว้สอบ: congestion management = FIFO, PQ, CQ, WFQ, CBWFQ, LLQ | congestion avoidance = WRED | policing = CAR | shaping = FRTS/GTS',
+  },
+  {
+    id: 438,
+    kind: 'drag',
+    image: v2q438,
+    prompt: 'Drag and drop the QoS congestion management terms from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'places packets into one of four priority-based queues', items: ['PQ'] },
+      { name: 'provides guaranteed bandwidth to a specified class of traffic', items: ['CBWFQ'] },
+      { name: 'provides minimum guaranteed bandwidth to one or more flows', items: ['WFQ'] },
+      { name: 'services a specified number of bytes in one queue before continuing to the next queue', items: ['CQ'] },
+      { name: 'uses store-and-forward queuing', items: ['FIFO'] },
+    ],
+    explanation:
+      '📘 แนวคิด — กลไกจัดคิวห้าแบบที่ต้องแยกลักษณะเฉพาะให้ออก\n\n🔹 FIFO (First In First Out) ⭐\n• คิวเดียว ไม่มีการจัดลำดับใด ๆ แพ็กเก็ตที่มาก่อนออกก่อน\n• เป็นการเก็บแล้วส่งต่อแบบตรงไปตรงมา (store-and-forward) ⭐\n• เป็นค่าเริ่มต้นของอินเทอร์เฟซความเร็วสูง\n\n🔹 PQ (Priority Queuing) ⭐\n• มีสี่คิวตามลำดับความสำคัญ: high, medium, normal, low ⭐\n• คิวที่สูงกว่าต้องว่างหมดก่อน คิวที่ต่ำกว่าจึงจะได้ส่ง\n• ข้อเสีย: ถ้าคิว high มีทราฟฟิกตลอดเวลา คิว low จะไม่ได้ส่งเลย (starvation)\n\n🔹 CQ (Custom Queuing) ⭐\n• มีได้ถึง 16 คิว วนรอบแบบ round-robin\n• แต่ละคิวได้ส่งตามจำนวน "ไบต์" ที่กำหนดไว้ แล้วจึงข้ามไปคิวถัดไป ⭐\n• ไม่มีคิวใดอดตาย แต่ก็ไม่รับประกันหน่วงเวลาต่ำสำหรับเสียง\n\n🔹 WFQ (Weighted Fair Queuing) ⭐\n• แยกโฟลว์อัตโนมัติแล้วแบ่งแบนด์วิดท์อย่างเป็นธรรมให้แต่ละโฟลว์ ⭐\n• ให้น้ำหนักตามค่า IP Precedence โฟลว์ที่สำคัญกว่าจึงได้ส่วนแบ่งมากกว่า\n• ไม่ต้องตั้งค่าอะไรมาก เป็นค่าเริ่มต้นของลิงก์ที่ช้ากว่า 2.048 Mbps\n\n🔹 CBWFQ (Class-Based Weighted Fair Queuing) ⭐\n• ผู้ดูแลนิยามคลาสเองด้วย class-map แล้วจองแบนด์วิดท์ขั้นต่ำให้แต่ละคลาสด้วยคำสั่ง bandwidth ⭐\n• รับประกันแบนด์วิดท์ให้ "คลาสที่ระบุ" ได้อย่างชัดเจน\n• ถ้าเพิ่มคำสั่ง priority เข้าไปในคลาสหนึ่งจะกลายเป็น LLQ ซึ่งเหมาะกับเสียงที่สุด\n\n💡 วิธีจำเร็ว: PQ = สี่คิวตามความสำคัญ | CQ = นับไบต์แล้ววน | WFQ = แบ่งตามโฟลว์อัตโนมัติ | CBWFQ = จองให้คลาสที่นิยามเอง | FIFO = ไม่จัดอะไรเลย\n\n📗 จำไว้สอบ: LLQ = CBWFQ + priority queue เหมาะกับ VoIP | เสียงต้องการ delay ต่ำกว่า 150 ms, jitter ต่ำกว่า 30 ms, loss ต่ำกว่า 1%',
+  },
+  {
+    id: 439,
+    kind: 'drag',
+    image: v2q439,
+    prompt: 'Drag and drop the network protocols from the left onto the correct transport services on the right.',
+    categories: [
+      { name: 'Connection Oriented (TCP)', items: ['FTP', 'SMTP', 'SSH'] },
+      { name: 'Connectionless (UDP)', items: ['SNMP', 'TFTP', 'VoIP'] },
+    ],
+    explanation:
+      '📘 แนวคิด — แยกโปรโตคอลตามชั้น transport ที่ใช้\n\n🔹 TCP (Connection Oriented) ⭐\n• มี 3-way handshake (SYN, SYN-ACK, ACK) ก่อนส่งข้อมูล\n• มี ACK, การส่งซ้ำเมื่อสูญหาย, การเรียงลำดับใหม่, sliding window, และการควบคุมความคับคั่ง\n• เหมาะกับงานที่ข้อมูล "ต้องครบและถูกต้อง" แม้จะช้ากว่า\n• ตัวอย่างในโจทย์:\n  – FTP → TCP 20 (data) และ 21 (control) ⭐ ไฟล์ต้องครบทุกไบต์\n  – SMTP → TCP 25 ⭐ อีเมลหายไม่ได้\n  – SSH → TCP 22 ⭐ เซสชันจัดการต้องเชื่อถือได้และเข้ารหัส\n\n🔹 UDP (Connectionless) ⭐\n• ไม่มี handshake ไม่มี ACK ไม่รับประกันลำดับ\n• ส่วนหัวเล็กเพียง 8 ไบต์ (TCP ใช้ 20 ไบต์) จึงเบาและหน่วงต่ำ ⭐\n• เหมาะกับงานที่ "เร็วสำคัญกว่าครบ"\n• ตัวอย่างในโจทย์:\n  – SNMP → UDP 161 (query) และ 162 (trap) ⭐ ข้อมูลเฝ้าดูหายบ้างไม่เป็นไร รอบหน้าก็ได้ใหม่\n  – TFTP → UDP 69 ⭐ เรียบง่ายจนฝังใน ROMMON ได้ (ใช้ block number กับ ACK ของตัวเองแทน)\n  – VoIP (RTP) → UDP ช่วงพอร์ตสูง ⭐ ถ้าส่งซ้ำแพ็กเก็ตเสียงที่หายไป มันจะมาถึงช้าเกินจนไร้ประโยชน์ สู้ข้ามไปเลยดีกว่า\n\n💡 เหตุผลเชิงลึกว่าทำไมเสียงต้องใช้ UDP: การสนทนาต้องการ delay ต่ำกว่า 150 มิลลิวินาที การรอส่งซ้ำแบบ TCP จะทำให้เสียงกระตุกและขาดตอนแย่กว่าการยอมให้แพ็กเก็ตหายไปเล็กน้อย ⭐\n\n📗 จำไว้สอบ: TCP = FTP 20/21, SSH 22, Telnet 23, SMTP 25, HTTP 80, HTTPS 443 | UDP = DHCP 67/68, TFTP 69, SNMP 161/162, syslog 514, NTP 123 | DNS ใช้ทั้งสอง (UDP 53 ปกติ, TCP 53 เมื่อข้อมูลใหญ่)',
+  },
+  {
+    id: 440,
+    kind: 'single',
+    prompt: 'With REST API, which standard HTTP header tells a server which media type is expected by the client?',
+    options: [
+      { key: 'A', text: 'Accept-Encoding: gzip, deflate' },
+      { key: 'B', text: 'Accept-Patch: text/example; charset=utf-8' },
+      { key: 'C', text: 'Content-Type: application/json; charset=utf-8' },
+      { key: 'D', text: 'Accept: application/json' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องแยกทิศทางของ header ให้ขาด: ใครบอกอะไรกับใคร\n\n🔹 Accept ⭐ → ไคลเอนต์บอกเซิร์ฟเวอร์ว่า "ฉันอยากได้ข้อมูลกลับมาในรูปแบบไหน" ⭐\n• เช่น Accept: application/json แปลว่าขอคำตอบเป็น JSON\n• หรือ Accept: application/xml ถ้าต้องการ XML\n→ ตรงกับคำว่า "media type expected by the client" ในโจทย์พอดี ⭐\n\n🔹 Content-Type → ผู้ส่งบอกผู้รับว่า "ข้อมูลที่ฉันแนบมาใน body นี้เป็นรูปแบบไหน" ⭐\n• ใช้กับ POST หรือ PUT ที่มี body ติดไปด้วย\n• เป็นการอธิบาย "สิ่งที่ส่งไป" ไม่ใช่ "สิ่งที่อยากได้กลับมา" ⭐\n\n🔹 Accept-Encoding → บอกว่ารองรับการบีบอัดแบบใด (gzip, deflate) เป็นเรื่องการบีบอัด ไม่ใช่ media type\n🔹 Accept-Patch → เซิร์ฟเวอร์บอกไคลเอนต์ว่ารองรับ patch document รูปแบบใด (ทิศทางกลับกันและใช้เฉพาะกับ PATCH)\n\n🧩 ตัวอย่างการเรียกจริง:\nGET /dna/intent/api/v1/network-device HTTP/1.1\nHost: dnac.example.com\nAccept: application/json ⭐        ← ขอคำตอบเป็น JSON\nX-Auth-Token: <token>\n\nPOST /dna/intent/api/v1/network-device HTTP/1.1\nContent-Type: application/json ⭐  ← บอกว่า body ที่แนบมาเป็น JSON\nAccept: application/json          ← และขอคำตอบเป็น JSON ด้วย\n\n✅ ทำไม D ถูก: header ชื่อ Accept คือช่องทางที่ไคลเอนต์ใช้ระบุ media type ที่ต้องการได้รับกลับมาจากเซิร์ฟเวอร์\n\n❌ ทำไมข้ออื่นผิด:\nA. Accept-Encoding ระบุวิธีบีบอัดที่รองรับ ไม่ใช่ชนิดของสื่อ\nB. Accept-Patch เป็น header ที่เซิร์ฟเวอร์ส่งมาบอกไคลเอนต์ และใช้เฉพาะกับ PATCH\nC. Content-Type อธิบายรูปแบบของข้อมูลที่แนบไปใน body ไม่ใช่รูปแบบที่ต้องการได้รับกลับ\n\n📗 จำไว้สอบ: Accept = อยากได้อะไรกลับ | Content-Type = ส่งอะไรไป | JSON ใช้ {} เป็น object และ [] เป็น array',
+  },
+  {
+    id: 441,
+    kind: 'drag',
+    image: v2q441,
+    prompt: 'Drag and drop the SNMP manager and agent identifier commands from the left onto the functions on the right.',
+    categories: [
+      { name: 'displays information about the SNMP recipient', items: ['show snmp host'] },
+      { name: 'displays the IP address of the remote SNMP device', items: ['show snmp engineID'] },
+      { name: 'displays the SNMP security model in use', items: ['show snmp group'] },
+      { name: 'displays the SNMP access string', items: ['show snmp community'] },
+      { name: 'displays the SNMP server serial number', items: ['show snmp chassis'] },
+    ],
+    explanation:
+      '📘 แนวคิด — คำสั่งตรวจสอบ SNMP บน Cisco IOS แต่ละตัวให้ข้อมูลคนละมุม\n\n🔹 show snmp host ⭐\n• แสดงรายชื่อ "ผู้รับ" trap หรือ inform คือ NMS ที่เราตั้งไว้ด้วยคำสั่ง snmp-server host\n• ตรงกับ "displays information about the SNMP recipient" ⭐\n\n🔹 show snmp engineID ⭐\n• engine ID เป็นตัวระบุเฉพาะของแต่ละ SNMP entity ใน SNMPv3\n• คำสั่งนี้แสดงทั้ง local engine ID และ remote engine ID พร้อม "ที่อยู่ IP ของอุปกรณ์ SNMP ระยะไกล" ⭐\n• ตรงกับ "displays the IP address of the remote SNMP device"\n\n🔹 show snmp group ⭐\n• แสดงกลุ่มของ SNMPv3 พร้อมระบุ security model (v1, v2c หรือ v3) และ security level (noAuthNoPriv, authNoPriv, authPriv) ⭐\n• ตรงกับ "displays the SNMP security model in use"\n\n🔹 show snmp community ⭐\n• แสดง community string ที่ตั้งไว้ พร้อมสิทธิ์ RO (read-only) หรือ RW (read-write)\n• community string ทำหน้าที่เหมือน "รหัสผ่านสำหรับเข้าถึง" ใน SNMPv1/v2c ⭐\n• ตรงกับ "displays the SNMP access string"\n\n🔹 show snmp chassis ⭐\n• แสดง chassis ID ซึ่งโดยค่าเริ่มต้นคือหมายเลขซีเรียลของตัวเครื่อง (ตั้งเองได้ด้วย snmp-server chassis-id)\n• ตรงกับ "displays the SNMP server serial number"\n\n💡 คำสั่งอื่นที่ควรรู้: show snmp (สรุปสถิติแพ็กเก็ตทั้งหมด), show snmp user (ผู้ใช้ SNMPv3), show snmp mib\n\n📗 จำไว้สอบ: SNMPv1/v2c ใช้ community string ส่งแบบข้อความธรรมดา | SNMPv3 เพิ่ม authentication + encryption + integrity | agent UDP 161, trap ไป UDP 162',
+  },
+  {
+    id: 442,
+    kind: 'drag',
+    image: v2q442,
+    prompt: 'Drag and drop the attack-mitigation techniques from the left onto the types of attack that they mitigate on the right.',
+    categories: [
+      { name: '802.1q double-tagging VLAN-hopping attack', items: ['configure the native VLAN with a nondefault VLAN ID'] },
+      { name: 'MAC flooding attack', items: ['configure 802.1x authenticate'] },
+      { name: 'man-in-the-middle spoofing attack', items: ['configure DHCP snooping'] },
+      { name: 'switch-spoofing VLAN-hopping attack', items: ['disable DTP'] },
+    ],
+    explanation:
+      '📘 แนวคิด — จับคู่การโจมตีชั้นที่ 2 กับมาตรการป้องกันที่ตรงจุด\n\n🔹 802.1Q Double-Tagging VLAN Hopping ⭐\n• ผู้โจมตีติดแท็กสองชั้น: ชั้นนอกเป็น native VLAN และชั้นในเป็น VLAN เป้าหมาย\n• สวิตช์ตัวแรกถอดแท็กชั้นนอกออก (เพราะ native VLAN ส่งแบบไม่ติดแท็กบน trunk) แล้วส่งต่อ\n• สวิตช์ตัวที่สองเห็นแท็กชั้นในแล้วส่งเข้า VLAN เป้าหมาย → ทะลุสำเร็จ\n• ป้องกัน: เปลี่ยน native VLAN เป็น VLAN ที่ไม่ได้ใช้งานเลย ⭐ → ไม่มีเฟรมของ VLAN นั้นให้อาศัย\n\n🔹 MAC Flooding ⭐\n• ผู้โจมตีถล่มสวิตช์ด้วย source MAC ปลอมนับหมื่นรายการจนตาราง CAM เต็ม\n• เมื่อเต็ม สวิตช์จะ flood ทุกเฟรมออกทุกพอร์ต → ผู้โจมตีดักฟังทราฟฟิกของคนอื่นได้\n• ป้องกัน: 802.1X ⭐ → บังคับให้อุปกรณ์ต้องยืนยันตัวตนกับ RADIUS ก่อนถึงจะส่งอะไรได้ อุปกรณ์แปลกปลอมจึงยิงเฟรมเข้ามาไม่ได้ตั้งแต่ต้น (มาตรการเสริมที่นิยมคู่กันคือ port security)\n\n🔹 Man-in-the-Middle Spoofing ⭐\n• ผู้โจมตีตั้ง DHCP server ปลอมเพื่อจ่าย default gateway เป็นเครื่องตัวเอง → ทราฟฟิกทั้งหมดวิ่งผ่านเขา\n• ป้องกัน: DHCP snooping ⭐ → กำหนดพอร์ตที่ไปหาเซิร์ฟเวอร์จริงเป็น trusted ส่วนพอร์ตผู้ใช้เป็น untrusted แล้วทิ้งข้อความ Offer/Ack ที่มาจากพอร์ต untrusted ทั้งหมด\n• DHCP snooping ยังสร้าง binding database ให้ Dynamic ARP Inspection ใช้กัน ARP spoofing ต่อได้อีกชั้น\n\n🔹 Switch-Spoofing VLAN Hopping ⭐\n• ผู้โจมตีปลอมตัวเป็นสวิตช์แล้วส่ง DTP frame เพื่อเจรจาให้พอร์ตกลายเป็น trunk → เห็นทราฟฟิกทุก VLAN\n• ป้องกัน: ปิด DTP ⭐ ด้วยการตั้ง switchport mode access ตายตัว พร้อมสั่ง switchport nonegotiate\n\n📗 จำไว้สอบ: double tagging → เปลี่ยน native VLAN | switch spoofing → ปิด DTP | MAC flooding → 802.1X/port security | DHCP spoofing → DHCP snooping | ARP spoofing → DAI',
+  },
+  {
+    id: 443,
+    kind: 'drag',
+    image: v2q443,
+    prompt: 'Drag and drop the DHCP snooping terms from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'list of hosts on the network that are unknown to the administrative domain', items: ['snooping binding database'] },
+      { name: 'network component that propagates IP addresses to hosts on the network', items: ['DHCP server'] },
+      { name: 'internal device under the control of the network administrator', items: ['trusted'] },
+      { name: 'unknown DHCP server within an administrative domain', items: ['spurious DHCP server'] },
+      { name: 'default state of all interfaces', items: ['untrusted'] },
+    ],
+    explanation:
+      '📘 แนวคิด — คำศัพท์ของ DHCP snooping ที่ต้องแยกให้ชัด\n\n🔹 DHCP server ⭐ → อุปกรณ์ที่ทำหน้าที่จ่ายที่อยู่ IP พร้อมพารามิเตอร์ให้โฮสต์ในเครือข่าย → "propagates IP addresses to hosts" ⭐\n\n🔹 Spurious DHCP server ⭐ → เซิร์ฟเวอร์ DHCP ที่โผล่มาในโดเมนโดยที่ผู้ดูแลไม่รู้จักและไม่ได้อนุญาต\n• อาจเป็นเราเตอร์บ้านที่พนักงานเอามาเสียบโดยไม่ตั้งใจ หรือเป็นเครื่องของผู้โจมตีที่ตั้งใจทำ man-in-the-middle\n• ตรงกับ "unknown DHCP server within an administrative domain" ⭐\n\n🔹 Trusted ⭐ → สถานะของพอร์ตที่ชี้ไปยังอุปกรณ์ภายในที่ผู้ดูแลควบคุมได้ เช่น ลิงก์ไปหา DHCP server จริงหรือ uplink ไปหาสวิตช์แกนกลาง\n• พอร์ต trusted ยอมให้ข้อความ DHCP ทุกชนิดผ่านได้ รวมถึง Offer และ Ack\n• ตรงกับ "internal device under the control of the network administrator" ⭐\n\n🔹 Untrusted ⭐ → สถานะเริ่มต้นของ "ทุกพอร์ต" เมื่อเปิด DHCP snooping ⭐\n• พอร์ต untrusted จะถูกทิ้งทันทีถ้ามีข้อความฝั่งเซิร์ฟเวอร์ (Offer, Ack, NAK) วิ่งเข้ามา\n• ตรงกับ "default state of all interfaces" ⭐\n\n🔹 Snooping binding database ⭐ → ตารางที่บันทึกคู่ MAC, IP, VLAN, พอร์ต และ lease ของโฮสต์ที่เชื่อมต่อผ่านพอร์ต untrusted\n• เป็นรายชื่อของโฮสต์ที่ระบบยังไม่ได้ไว้วางใจ จึงต้องเฝ้าติดตาม → ตรงกับ "list of hosts on the network that are unknown to the administrative domain" ⭐\n• ตารางนี้เป็นฐานข้อมูลหลักที่ Dynamic ARP Inspection และ IP Source Guard นำไปใช้ตรวจสอบต่อ ⭐\n\n🧩 คำสั่งสำคัญ:\nip dhcp snooping\nip dhcp snooping vlan 10\ninterface gi0/1\n ip dhcp snooping trust\n\n📗 จำไว้สอบ: ทุกพอร์ตเริ่มต้นเป็น untrusted | trust เฉพาะทางที่ไปหาเซิร์ฟเวอร์จริง | binding database เป็นฐานให้ DAI และ IP Source Guard',
+  },
+  {
+    id: 444,
+    kind: 'single',
+    prompt: 'What is the purpose of a southbound API in a controller-based networking architecture?',
+    options: [
+      { key: 'A', text: 'Facilitates communication between the controller and the applications' },
+      { key: 'B', text: 'Facilitates communication between the controller and the networking hardware' },
+      { key: 'C', text: 'allows application developers to interact with the network' },
+      { key: 'D', text: 'integrates a controller with other automation and orchestration tools.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ทิศทางของ API ใน SDN ให้จินตนาการว่า controller อยู่ตรงกลาง\n\n🔹 Northbound API (ขึ้นข้างบน) ⭐\n• เชื่อม controller กับ "แอปพลิเคชัน" และระบบ orchestration\n• มักเป็น REST API ที่ใช้ HTTP กับ JSON\n• ให้นักพัฒนาเขียนโปรแกรมสั่งงานเครือข่ายได้โดยไม่ต้องรู้รายละเอียดของอุปกรณ์แต่ละยี่ห้อ\n\n🔹 Southbound API (ลงข้างล่าง) ⭐\n• เชื่อม controller กับ "ฮาร์ดแวร์เครือข่าย" คือสวิตช์และเราเตอร์ ⭐\n• เป็นช่องทางที่ controller ผลักตารางการส่งต่อและนโยบายลงไปยังอุปกรณ์จริง ⭐\n• โปรโตคอลที่ใช้: OpenFlow, NETCONF (TCP 830), RESTCONF, OpFlex, SNMP, และแม้แต่ CLI/SSH\n\n🎯 วิธีจำแบบเห็นภาพ:\nแอปพลิเคชัน\n    ↑ Northbound API (REST)\n  CONTROLLER\n    ↓ Southbound API (OpenFlow, NETCONF) ⭐\nสวิตช์และเราเตอร์\n\n💡 ประโยชน์เชิงสถาปัตยกรรม: controller ซ่อนความแตกต่างของอุปกรณ์แต่ละรุ่นแต่ละยี่ห้อไว้ แอปพลิเคชันจึงคุยกับ northbound API แบบเดียวได้ แล้วปล่อยให้ controller แปลงเป็นคำสั่งที่เหมาะกับอุปกรณ์ผ่าน southbound API\n\n✅ ทำไม B ถูก: southbound API คือช่องทางที่ controller ใช้สื่อสารและสั่งการอุปกรณ์เครือข่ายที่อยู่ชั้นล่าง\n\n❌ ทำไมข้ออื่นผิด:\nA. การสื่อสารระหว่าง controller กับแอปพลิเคชันคือหน้าที่ของ northbound API\nC. การเปิดให้นักพัฒนาโต้ตอบกับเครือข่ายก็เป็นบทบาทของ northbound API เช่นกัน\nD. การเชื่อมกับเครื่องมือ automation และ orchestration อื่นก็ผ่านทาง northbound API\n\n📗 จำไว้สอบ: northbound = ขึ้นหาแอป (REST) | southbound = ลงหาอุปกรณ์ (OpenFlow, NETCONF 830, RESTCONF) | controller ซ่อนความต่างของฮาร์ดแวร์',
+  },
+  {
+    id: 445,
+    kind: 'single',
+    prompt: 'Which technology is appropriate for communication between an SDN controller and applications running over the network?',
+    options: [
+      { key: 'A', text: 'OpenFlow' },
+      { key: 'B', text: 'REST API' },
+      { key: 'C', text: 'NETCONF' },
+      { key: 'D', text: 'Southbound API' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — โจทย์ระบุทิศทางชัดเจน: controller คุยกับ "แอปพลิเคชัน" → เป็นทิศ northbound ⭐\n\n🔹 REST API ⭐ (Representational State Transfer)\n• เทคโนโลยีมาตรฐานสำหรับ northbound API\n• ใช้ HTTP/HTTPS เป็นตัวขนส่ง และใช้ JSON หรือ XML เป็นรูปแบบข้อมูล\n• ใช้ HTTP method ตามหลัก CRUD: GET (read), POST (create), PUT/PATCH (update), DELETE (delete) ⭐\n• เป็น stateless คือแต่ละคำขอมีข้อมูลครบในตัว เซิร์ฟเวอร์ไม่ต้องจำสถานะ\n• นักพัฒนาเรียกใช้ได้จากภาษาใดก็ได้ (Python, Java, JavaScript) จึงเหมาะกับการให้แอปพลิเคชันคุยด้วย ⭐\n\n📊 เทียบกับตัวเลือกอื่นซึ่งล้วนเป็นฝั่ง southbound:\n• OpenFlow → โปรโตคอล southbound ที่ controller ใช้เขียน flow table ลงสวิตช์โดยตรง\n• NETCONF → โปรโตคอล southbound ที่ใช้ XML บน SSH (TCP 830) เพื่อจัดการคอนฟิกอุปกรณ์\n• Southbound API → เป็นชื่อของ "ทิศทาง" ที่ตรงกันข้ามกับที่โจทย์ถาม\n\n🧩 ตัวอย่างจริงของ Cisco: Cisco DNA Center เปิด Intent API ซึ่งเป็น REST API ให้แอปพลิเคชันเรียกใช้ ⭐\nGET https://dnac/dna/intent/api/v1/network-device\nAccept: application/json\nX-Auth-Token: <token>\n\n✅ ทำไม B ถูก: REST API คือเทคโนโลยี northbound มาตรฐานที่ให้แอปพลิเคชันสื่อสารกับ SDN controller ผ่าน HTTP และ JSON\n\n❌ ทำไมข้ออื่นผิด:\nA. OpenFlow เป็นโปรโตคอล southbound ที่ใช้สั่งงานสวิตช์\nC. NETCONF เป็นโปรโตคอล southbound สำหรับจัดการคอนฟิกอุปกรณ์\nD. southbound API คือทิศทางที่ controller คุยกับอุปกรณ์ ตรงข้ามกับที่โจทย์ถาม\n\n📗 จำไว้สอบ: northbound = REST API (HTTP + JSON) | southbound = OpenFlow, NETCONF, RESTCONF, OpFlex | REST เป็น stateless',
+  },
+  {
+    id: 446,
+    kind: 'single',
+    prompt: 'Which security program element involves installing badge readers on data-center doors to allow workers to enter and exit based on their job roles?',
+    options: [
+      { key: 'A', text: 'role-based access control' },
+      { key: 'B', text: 'biometrics' },
+      { key: 'C', text: 'multifactor authentication' },
+      { key: 'D', text: 'physical access control' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — วลีชี้ขาดในโจทย์คือ "based on their job roles" ⭐ ซึ่งเป็นนิยามตรงตัวของ Role-Based Access Control\n\n🔹 Role-Based Access Control (RBAC) ⭐\n• กำหนดสิทธิ์ตาม "บทบาทหน้าที่" ไม่ใช่ตามรายบุคคล\n• เช่น กลุ่ม Network Engineer เข้าห้องเซิร์ฟเวอร์ได้, กลุ่ม HR เข้าไม่ได้, กลุ่ม Facility เข้าได้เฉพาะเวลาทำการ\n• ข้อดี: เมื่อพนักงานย้ายแผนก แค่เปลี่ยนบทบาทของเขา สิทธิ์ทั้งหมดปรับตามทันที ไม่ต้องไล่แก้ทีละรายการ ⭐\n• ใช้ได้ทั้งกับสิทธิ์ทางกายภาพ (บัตรเข้าประตู) และสิทธิ์ทางลอจิคัล (สิทธิ์ในระบบไอที)\n\n📊 เทียบกับตัวเลือกอื่น:\n• Biometrics → เป็น "วิธีพิสูจน์ตัวตน" ด้วยลักษณะทางกายภาพ เช่น ลายนิ้วมือ ม่านตา ใบหน้า — โจทย์ระบุว่าใช้บัตร ไม่ใช่ชีวมิติ ⭐\n• Multifactor authentication → ใช้ปัจจัยตั้งแต่สองประเภทขึ้นไป (สิ่งที่รู้ + สิ่งที่มี + สิ่งที่เป็น) — โจทย์กล่าวถึงบัตรอย่างเดียว จึงเป็นปัจจัยเดียว ⭐\n• Physical access control → เป็นชื่อ "หมวดใหญ่" ของมาตรการทางกายภาพทั้งหมด แต่ไม่ได้อธิบายหลักเกณฑ์ว่าใครเข้าได้ตามอะไร ซึ่งเป็นแก่นของคำถาม ⭐\n\n🎯 สรุป: ฮาร์ดแวร์ที่ใช้คือเครื่องอ่านบัตร (อยู่ในหมวด physical access control) แต่ "หลักการ" ที่ตัดสินว่าใครผ่านประตูใดได้คือ RBAC ซึ่งเป็นสิ่งที่โจทย์เน้นด้วยคำว่า based on their job roles\n\n✅ ทำไม A ถูก: การให้สิทธิ์เข้าออกประตูตามบทบาทหน้าที่ของพนักงานคือการนำหลัก role-based access control มาใช้\n\n❌ ทำไมข้ออื่นผิด:\nB. ชีวมิติใช้ลักษณะทางร่างกายในการยืนยันตัวตน ไม่ใช่บัตรตามที่โจทย์ระบุ\nC. การใช้บัตรเพียงอย่างเดียวเป็นปัจจัยเดียว ยังไม่เข้าข่ายหลายปัจจัย\nD. เป็นหมวดหมู่กว้างที่ไม่ได้อธิบายเกณฑ์การให้สิทธิ์ตามบทบาทซึ่งเป็นใจความสำคัญของโจทย์\n\n📗 จำไว้สอบ: RBAC = สิทธิ์ตามบทบาท | ปัจจัยยืนยันตัวตนสามประเภท = สิ่งที่รู้ (รหัสผ่าน), สิ่งที่มี (บัตร/โทเค็น), สิ่งที่เป็น (ชีวมิติ)',
+  },
+  {
+    id: 447,
+    kind: 'single',
+    prompt: 'What uses HTTP messages to transfer data to applications residing on different hosts?',
+    options: [
+      { key: 'A', text: 'OpenFlow' },
+      { key: 'B', text: 'OpenStack' },
+      { key: 'C', text: 'OpFlex' },
+      { key: 'D', text: 'REST' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์คือ "uses HTTP messages" ⭐\n\n🔹 REST (Representational State Transfer) ⭐\n• เป็นรูปแบบสถาปัตยกรรมที่ใช้ HTTP เป็นตัวขนส่งข้อมูลระหว่างแอปพลิเคชันที่อยู่คนละเครื่อง ⭐\n• ใช้ HTTP method ตามหลัก CRUD: GET, POST, PUT/PATCH, DELETE\n• ระบุทรัพยากรด้วย URI เช่น https://dnac/dna/intent/api/v1/network-device\n• รับส่งข้อมูลในรูป JSON หรือ XML\n• เป็น stateless คือแต่ละคำขอมีข้อมูลครบถ้วนในตัวเอง เซิร์ฟเวอร์ไม่ต้องจำบริบทเดิม ⭐\n• ใช้รหัสสถานะ HTTP มาตรฐาน (200, 201, 401, 404, 500) บอกผลลัพธ์\n\n📊 เทียบกับตัวเลือกอื่น:\n• OpenFlow → โปรโตคอล southbound ที่ controller ใช้เขียน flow entry ลงสวิตช์ ทำงานบน TCP โดยตรง ไม่ใช้ HTTP ⭐\n• OpenStack → แพลตฟอร์มโอเพนซอร์สสำหรับบริหารทรัพยากรคลาวด์ (คำนวณ จัดเก็บ เครือข่าย) — ตัวมันเองมี REST API ให้ใช้ แต่มันเป็น "แพลตฟอร์ม" ไม่ใช่กลไกการรับส่งข้อมูล ⭐\n• OpFlex → โปรโตคอล southbound ของ Cisco ที่ใช้กับ ACI ในศูนย์ข้อมูล ทำงานแบบ declarative policy\n\n🧩 ตัวอย่างข้อความ REST:\nGET /dna/intent/api/v1/network-device HTTP/1.1\nHost: sandboxdnac.cisco.com\nAccept: application/json\nX-Auth-Token: <token>\n→ ตอบกลับด้วย 200 OK พร้อม JSON body ที่มีรายการอุปกรณ์\n\n✅ ทำไม D ถูก: REST คือแนวทางที่ใช้ข้อความ HTTP ในการรับส่งข้อมูลระหว่างแอปพลิเคชันที่ทำงานอยู่บนโฮสต์ต่างเครื่องกัน\n\n❌ ทำไมข้ออื่นผิด:\nA. OpenFlow ใช้โปรโตคอลของตัวเองบน TCP ไม่ได้ใช้ HTTP\nB. OpenStack เป็นแพลตฟอร์มบริหารคลาวด์ ไม่ใช่กลไกรับส่งข้อมูลผ่าน HTTP\nC. OpFlex เป็นโปรโตคอล southbound เฉพาะของสถาปัตยกรรม Cisco ACI\n\n📗 จำไว้สอบ: REST = HTTP + JSON + stateless + CRUD | southbound = OpenFlow, NETCONF, OpFlex | northbound = REST',
+  },
+  {
+    id: 448,
+    kind: 'single',
+    prompt: 'When a WLAN with WPA2 PSK is configured in the Wireless LAN Controller GUI, which format is supported?',
+    options: [
+      { key: 'A', text: 'Unicode' },
+      { key: 'B', text: 'base64' },
+      { key: 'C', text: 'decimal' },
+      { key: 'D', text: 'ASCII' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — เมื่อตั้ง PSK บน Cisco WLC หน้าจอจะมีช่อง "PSK Format" ให้เลือกสองรูปแบบเท่านั้น ⭐\n• ASCII ⭐ → พิมพ์เป็นข้อความอ่านได้ ความยาว 8–63 ตัวอักษร ⭐\n• HEX → พิมพ์เป็นเลขฐานสิบหก 64 ตัวอักษร (เท่ากับ 256 บิตพอดี)\n\n🔍 เบื้องหลังทางเทคนิค:\n• กุญแจ PMK (Pairwise Master Key) ที่ใช้จริงมีขนาด 256 บิตเสมอ\n• ถ้าใส่แบบ ASCII ระบบจะนำรหัสผ่านไปผ่านฟังก์ชัน PBKDF2 ร่วมกับ SSID เป็น salt วนซ้ำ 4096 รอบ เพื่อสร้าง PMK ขนาด 256 บิต ⭐\n• ถ้าใส่แบบ HEX คือการป้อนค่า PMK ตรง ๆ ไม่ต้องผ่านการแปลง\n\n🎯 ในตัวเลือกที่ให้มามีเพียง ASCII ที่เป็นรูปแบบที่ WLC รองรับ ⭐\n\n💡 ข้อควรรู้เพิ่มเติมเรื่อง WPA2:\n• WPA2-Personal (PSK) → ทุกคนใช้รหัสผ่านเดียวกัน เหมาะกับบ้านหรือสำนักงานเล็ก\n• WPA2-Enterprise (802.1X) → แต่ละคนมีตัวตนของตัวเอง ยืนยันผ่าน RADIUS เหมาะกับองค์กร ⭐\n• การเข้ารหัสของ WPA2 คือ AES-CCMP ส่วน WPA รุ่นเก่าใช้ TKIP\n• WPA3-Personal เปลี่ยนมาใช้ SAE ซึ่งกันการโจมตีแบบเดารหัสผ่านออฟไลน์ได้\n\n✅ ทำไม D ถูก: WLC รองรับการป้อน PSK ในรูปแบบ ASCII (8–63 ตัวอักษร) และ HEX (64 ตัวอักษร) ซึ่งในตัวเลือกมีเพียง ASCII\n\n❌ ทำไมข้ออื่นผิด:\nA. Unicode ไม่ใช่ตัวเลือกในช่อง PSK Format ของ WLC\nB. base64 ใช้เข้ารหัสข้อมูลไบนารีให้เป็นข้อความ ไม่ใช่รูปแบบของ PSK\nC. decimal ไม่ใช่รูปแบบที่รองรับ\n\n📗 จำไว้สอบ: PSK ASCII 8–63 ตัว | PSK HEX 64 ตัว | WPA2 = AES-CCMP | WPA2-Enterprise ต้องมี RADIUS',
+  },
+  {
+    id: 449,
+    kind: 'single',
+    prompt: 'What does an SDN controller use as a communication protocol to relay forwarding changes to a southbound API?',
+    options: [
+      { key: 'A', text: 'OpenFlow' },
+      { key: 'B', text: 'Java' },
+      { key: 'C', text: 'REST' },
+      { key: 'D', text: 'XML' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญสองคำที่ต้องตรงพร้อมกัน: "forwarding changes" และ "southbound" ⭐\n\n🔹 OpenFlow ⭐\n• เป็นโปรโตคอล southbound มาตรฐานที่พัฒนาโดย Open Networking Foundation\n• หน้าที่: ให้ controller เขียน แก้ไข หรือลบรายการใน "flow table" ของสวิตช์โดยตรง ⭐\n• flow entry แต่ละรายการประกอบด้วยสามส่วน:\n  – Match fields → เงื่อนไขที่ใช้จับแพ็กเก็ต (MAC, IP, พอร์ต, VLAN)\n  – Actions → สิ่งที่ต้องทำ (ส่งออกพอร์ตใด ทิ้ง แก้ไขฟิลด์)\n  – Counters → สถิติจำนวนแพ็กเก็ตและไบต์\n• ทำงานบน TCP (พอร์ตมาตรฐาน 6653 ส่วนรุ่นเก่าใช้ 6633) และเข้ารหัสด้วย TLS ได้\n→ นี่คือกลไกที่ "เปลี่ยนพฤติกรรมการส่งต่อ" ของอุปกรณ์ได้จริง ตรงกับโจทย์ ⭐\n\n📊 เทียบกับตัวเลือกอื่น:\n• Java → ภาษาโปรแกรม ไม่ใช่โปรโตคอลสื่อสาร\n• REST → เป็นรูปแบบ API ทิศ northbound ที่แอปใช้คุยกับ controller ไม่ใช่ทิศลงหาอุปกรณ์ ⭐\n• XML → รูปแบบการจัดโครงสร้างข้อมูล (ใช้ใน NETCONF) ไม่ใช่โปรโตคอลในตัวเอง ⭐\n\n💡 โปรโตคอล southbound อื่นที่ควรรู้: NETCONF (XML บน SSH TCP 830), RESTCONF (HTTP + JSON/XML), OpFlex (ของ Cisco ACI), gRPC/gNMI (สำหรับ telemetry)\n\n✅ ทำไม A ถูก: OpenFlow คือโปรโตคอล southbound ที่ controller ใช้ส่งการเปลี่ยนแปลงตารางการส่งต่อลงไปยังสวิตช์โดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nB. Java เป็นภาษาโปรแกรมที่อาจใช้เขียนตัว controller แต่ไม่ใช่โปรโตคอลสื่อสาร\nC. REST เป็น API ทิศ northbound ระหว่าง controller กับแอปพลิเคชัน\nD. XML เป็นรูปแบบข้อมูล ไม่ใช่โปรโตคอลที่ใช้ส่งการเปลี่ยนแปลง\n\n📗 จำไว้สอบ: OpenFlow = southbound, TCP 6653, เขียน flow table | NETCONF = XML บน SSH 830 | REST = northbound',
+  },
+  {
+    id: 450,
+    kind: 'single',
+    prompt: 'What is a similarity between OM3 and OM4 fiber optic cable?',
+    options: [
+      { key: 'A', text: 'Both have a 50 micron core diameter' },
+      { key: 'B', text: 'Both have a 9 micron core diameter' },
+      { key: 'C', text: 'Both have a 62.5 micron core diameter' },
+      { key: 'D', text: 'Both have a 100 micron core diameter' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — สายไฟเบอร์แบ่งเป็นสองตระกูลใหญ่ตามขนาดแกน\n\n🔹 Multimode Fiber (MMF) ⭐\n• แกนใหญ่ แสงเดินทางได้หลายเส้นทาง (mode) พร้อมกัน\n• ใช้แหล่งกำเนิดแสงราคาถูกอย่าง LED หรือ VCSEL\n• ระยะทางสั้น (ไม่กี่ร้อยเมตร) เพราะเกิด modal dispersion\n• เกรดตามมาตรฐาน ISO/IEC 11801:\n  – OM1 → แกน 62.5 ไมครอน (ปลอกหุ้มสีส้ม)\n  – OM2 → แกน 50 ไมครอน (สีส้ม)\n  – OM3 ⭐ → แกน 50 ไมครอน ⭐ (สีฟ้าอควา) รองรับ 10 Gbps ได้ถึง 300 เมตร\n  – OM4 ⭐ → แกน 50 ไมครอน ⭐ (สีฟ้าอควาหรือม่วง) รองรับ 10 Gbps ได้ถึง 400 เมตร\n  – OM5 → แกน 50 ไมครอน (สีเขียวมะนาว) รองรับ SWDM\n→ ความเหมือนของ OM3 กับ OM4 คือขนาดแกน 50 ไมครอนเท่ากัน ⭐ สิ่งที่ต่างคือคุณภาพการผลิตและค่าแบนด์วิดท์ (EMB) ที่ OM4 สูงกว่า จึงส่งได้ไกลกว่า\n\n🔹 Single-mode Fiber (SMF)\n• แกนเล็กเพียง 8–10 ไมครอน (มักเรียกกลม ๆ ว่า 9 ไมครอน) ⭐\n• ใช้เลเซอร์เป็นแหล่งกำเนิดแสง\n• ส่งได้ไกลหลายสิบถึงหลายร้อยกิโลเมตร\n• ปลอกหุ้มสีเหลือง\n\n💡 วิธีจำ: ตัวเลข OM ยิ่งสูงยิ่งส่งได้ไกลขึ้นที่ความเร็วเดิม แต่ OM2 ถึง OM5 ล้วนใช้แกน 50 ไมครอนเหมือนกันหมด มีเพียง OM1 เท่านั้นที่ใช้ 62.5 ไมครอน ⭐\n\n✅ ทำไม A ถูก: ทั้ง OM3 และ OM4 เป็นไฟเบอร์แบบมัลติโหมดที่ใช้เส้นผ่านศูนย์กลางแกน 50 ไมครอนเหมือนกัน\n\n❌ ทำไมข้ออื่นผิด:\nB. 9 ไมครอนเป็นขนาดแกนของไฟเบอร์แบบซิงเกิลโหมด\nC. 62.5 ไมครอนเป็นขนาดแกนของ OM1 เท่านั้น\nD. 100 ไมครอนไม่ใช่ขนาดมาตรฐานที่ใช้ในเครือข่ายปัจจุบัน\n\n📗 จำไว้สอบ: OM1=62.5 | OM2/OM3/OM4/OM5=50 ไมครอน | SMF=9 ไมครอน | MMF สีส้ม/อควา, SMF สีเหลือง',
+  },
+  {
+    id: 451,
+    kind: 'single',
+    prompt: 'Which JSON data type is an unordered set of attribute-value pairs?',
+    options: [
+      { key: 'A', text: 'array' },
+      { key: 'B', text: 'string' },
+      { key: 'C', text: 'object' },
+      { key: 'D', text: 'Boolean' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ชนิดข้อมูลใน JSON มีหกแบบที่ต้องแยกให้ออก\n\n🔹 Object ⭐ → ใช้ปีกกา { } ⭐\n• เก็บคู่ "ชื่อ: ค่า" (attribute-value pair) โดยไม่มีลำดับที่แน่นอน ⭐\n• ชื่อคีย์ต้องอยู่ในเครื่องหมายคำพูดคู่เสมอ\n• ตัวอย่าง: {"hostname": "R1", "ip": "10.1.1.1", "up": true}\n→ ตรงกับ "unordered set of attribute-value pairs" พอดี ⭐\n\n🔹 Array → ใช้วงเล็บเหลี่ยม [ ] ⭐\n• เก็บรายการค่าที่ "มีลำดับ" และเข้าถึงด้วยดัชนี\n• ตัวอย่าง: ["gi0/1", "gi0/2", "gi0/3"]\n→ ต่างจาก object ตรงที่ array มีลำดับชัดเจน ⭐\n\n🔹 String → ข้อความในเครื่องหมายคำพูดคู่ เช่น "Cisco"\n🔹 Number → ตัวเลขที่ไม่ต้องมีคำพูด เช่น 100 หรือ 3.14\n🔹 Boolean → true หรือ false (ตัวพิมพ์เล็กเท่านั้น) ⭐\n🔹 null → ค่าว่าง\n\n🧩 ตัวอย่างรวมที่พบในงานเครือข่ายจริง:\n{\n  "device": {\n    "hostname": "SW1",\n    "interfaces": ["gi0/1", "gi0/2"],\n    "uptime": 45231,\n    "managed": true,\n    "location": null\n  }\n}\n→ ชั้นนอกเป็น object, ค่าของ interfaces เป็น array, uptime เป็น number, managed เป็น Boolean, location เป็น null\n\n💡 กฎที่มักผิด: JSON ไม่อนุญาตให้มีเครื่องหมายจุลภาคท้ายรายการสุดท้าย (trailing comma) และไม่รองรับคอมเมนต์\n\n✅ ทำไม C ถูก: object ใน JSON คือโครงสร้างปีกกาที่บรรจุคู่ชื่อกับค่าโดยไม่มีลำดับตายตัว\n\n❌ ทำไมข้ออื่นผิด:\nA. array เป็นรายการที่มีลำดับและใช้วงเล็บเหลี่ยม\nB. string เป็นข้อความเดี่ยว ไม่ใช่ชุดของคู่ชื่อกับค่า\nD. Boolean มีได้เพียงสองค่าคือ true และ false\n\n📗 จำไว้สอบ: { } = object (ไม่มีลำดับ) | [ ] = array (มีลำดับ) | คีย์ต้องมีคำพูดคู่ | true/false ตัวพิมพ์เล็ก | ห้าม trailing comma',
+  },
+  {
+    id: 452,
+    kind: 'single',
+    prompt: 'What is the benefit of using FHRP?',
+    options: [
+      { key: 'A', text: 'reduced management overhead on network routers' },
+      { key: 'B', text: 'balancing traffic across multiple gateways in proportion to their loads' },
+      { key: 'C', text: 'higher degree of availability' },
+      { key: 'D', text: 'reduced ARP traffic on the network' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — FHRP (First Hop Redundancy Protocol) แก้ปัญหาจุดเดียวที่ล้มเหลวได้ของ default gateway ⭐\n\n🔍 ปัญหาที่มีอยู่เดิม:\n• โฮสต์ตั้ง default gateway ได้เพียงค่าเดียว\n• ถ้าเราเตอร์ตัวนั้นล่ม โฮสต์ทั้งซับเน็ตจะออกนอกเครือข่ายไม่ได้เลย แม้จะมีเราเตอร์สำรองอยู่ข้าง ๆ ก็ตาม\n\n🔍 วิธีที่ FHRP แก้:\n• เราเตอร์หลายตัวรวมกลุ่มกันแล้วใช้ virtual IP และ virtual MAC ร่วมกัน ⭐\n• โฮสต์ตั้ง default gateway เป็น virtual IP นั้น\n• เมื่อตัวที่ทำหน้าที่อยู่ล่ม ตัวสำรองจะรับช่วง virtual MAC ต่อไปทันที โฮสต์ไม่รู้ตัวและไม่ต้องเปลี่ยนอะไร ⭐\n→ ผลลัพธ์หลักคือ "ความพร้อมใช้งานที่สูงขึ้น (higher availability)" ⭐\n\n📊 สาม FHRP ที่ต้องรู้:\n• HSRP → Cisco เท่านั้น, active/standby, virtual MAC 0000.0C07.ACxx, hello 3 วินาที\n• VRRP → มาตรฐานเปิด RFC 5798, master/backup, virtual MAC 0000.5E00.01xx, มัลติแคสต์ 224.0.0.18\n• GLBP → Cisco เท่านั้น, AVG/AVF, ทำโหลดบาลานซ์ได้จริงในกลุ่มเดียว ⭐\n\n⚠️ ทำไมไม่ตอบข้อโหลดบาลานซ์: มีเพียง GLBP เท่านั้นที่กระจายโหลดได้ในกลุ่มเดียว ส่วน HSRP และ VRRP ทราฟฟิกไหลผ่านตัวเดียวเท่านั้น → การกระจายโหลดจึงไม่ใช่ประโยชน์ร่วมของ FHRP ทุกตัว ⭐ แต่ความพร้อมใช้งานที่สูงขึ้นเป็นสิ่งที่ทุกตัวให้เหมือนกัน\n\n✅ ทำไม C ถูก: ประโยชน์ร่วมของ FHRP ทุกชนิดคือการทำให้ default gateway มีความซ้ำซ้อน ส่งผลให้เครือข่ายมีความพร้อมใช้งานสูงขึ้น\n\n❌ ทำไมข้ออื่นผิด:\nA. FHRP กลับ "เพิ่ม" ภาระในการตั้งค่าและดูแล เพราะต้องกำหนดกลุ่ม priority preempt และ tracking\nB. การกระจายโหลดตามสัดส่วนเป็นความสามารถเฉพาะของ GLBP ไม่ใช่ของ FHRP ทุกตัว\nD. FHRP ไม่ได้ลดทราฟฟิก ARP และตัวมันเองยังส่ง hello เป็นระยะเพิ่มเข้ามาด้วย\n\n📗 จำไว้สอบ: FHRP = ความพร้อมใช้งานสูงขึ้น | HSRP/VRRP ไม่โหลดบาลานซ์ในกลุ่มเดียว | GLBP โหลดบาลานซ์ได้',
+  },
+  {
+    id: 453,
+    kind: 'multi',
+    prompt: 'Which two QoS tools provide congestion management? (Choose two.)',
+    options: [
+      { key: 'A', text: 'CAR' },
+      { key: 'B', text: 'CBWFQ' },
+      { key: 'C', text: 'PQ' },
+      { key: 'D', text: 'PBR' },
+      { key: 'E', text: 'FRTS' },
+    ],
+    correct: ['B', 'C'],
+    explanation:
+      '📘 แนวคิด — Congestion management หมายถึงกลไก "จัดคิว" ที่ตัดสินว่าแพ็กเก็ตใดออกจากอินเทอร์เฟซก่อนเมื่อเกิดความคับคั่ง ⭐\n\n🔹 เครื่องมือในหมวด congestion management:\n• FIFO → คิวเดียว มาก่อนได้ก่อน ไม่มีการจัดลำดับ\n• PQ (Priority Queuing) ⭐ → สี่คิวตามลำดับความสำคัญ (high, medium, normal, low) คิวสูงต้องว่างก่อนคิวต่ำจึงได้ส่ง → เสี่ยง starvation\n• CQ (Custom Queuing) → วนรอบ ให้แต่ละคิวส่งได้ตามจำนวนไบต์ที่กำหนด\n• WFQ → แบ่งแบนด์วิดท์ตามโฟลว์อัตโนมัติ\n• CBWFQ ⭐ → จองแบนด์วิดท์ขั้นต่ำให้คลาสที่ผู้ดูแลนิยามเองด้วย class-map\n• LLQ → CBWFQ ที่เพิ่มคิวความสำคัญสูงสุด เหมาะกับ VoIP ที่สุด\n\n📊 เครื่องมือในหมวดอื่นที่อยู่ในตัวเลือก:\n• CAR (Committed Access Rate) → หมวด policing ทิ้งหรือลดระดับทราฟฟิกที่เกินอัตรา\n• FRTS (Frame Relay Traffic Shaping) → หมวด shaping บัฟเฟอร์ทราฟฟิกที่เกินแล้วทยอยปล่อย\n• PBR (Policy-Based Routing) → เลือกเส้นทางตามนโยบาย ไม่ใช่เครื่องมือ QoS สำหรับจัดคิว ⭐\n\n🎯 ในตัวเลือกที่ให้ เครื่องมือที่จัดคิวได้คือ CBWFQ และ PQ ⭐\n\n💡 หมวดหมู่ QoS ทั้งหมดที่ควรจำ:\n① Classification & Marking (DSCP, CoS) ② Congestion Management (การจัดคิว) ③ Congestion Avoidance (WRED) ④ Policing & Shaping (ควบคุมอัตรา)\n\n✅ ทำไม B, C ถูก: CBWFQ และ PQ ต่างเป็นกลไกจัดคิวขาออกที่กำหนดลำดับการส่งแพ็กเก็ตเมื่ออินเทอร์เฟซคับคั่ง จึงอยู่ในหมวด congestion management\n\n❌ ทำไมข้ออื่นผิด:\nA. CAR อยู่ในหมวด policing\nD. PBR เป็นการกำหนดเส้นทางตามนโยบาย ไม่ใช่การจัดการความคับคั่ง\nE. FRTS อยู่ในหมวด traffic shaping\n\n📗 จำไว้สอบ: จัดคิว = FIFO, PQ, CQ, WFQ, CBWFQ, LLQ | หลีกเลี่ยงความคับคั่ง = WRED | policing = CAR | shaping = FRTS/GTS',
+  },
+  {
+    id: 454,
+    kind: 'single',
+    prompt: 'A network administrator must configure SSH for remote access to router R1. The requirement is to use a public and private key pair to encrypt management traffic to and from the connecting client. Which configuration, when applied, meets the requirements?',
+    options: [
+      { key: 'A', text: 'R1(config)#ip domain-name cisco.com / crypto key generate ec keysize 1024' },
+      { key: 'B', text: 'R1(config)#ip domain-name cisco.com / crypto key generate ec keysize 2048' },
+      { key: 'C', text: 'R1(config)#ip domain-name cisco.com / crypto key encrypt rsa name myKey' },
+      { key: 'D', text: 'R1(config)#ip domain-name cisco.com / crypto key generate rsa modulus 1024' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — SSH ต้องมีกุญแจคู่ (public/private key pair) และบน Cisco IOS สร้างด้วยคำสั่งตระกูล crypto key generate\n\n🔍 ไวยากรณ์ที่ถูกต้อง:\ncrypto key generate rsa modulus <512-4096> ⭐\n• คำว่า modulus ใช้ระบุความยาวกุญแจของ RSA ⭐\n• ค่าขั้นต่ำที่ SSH เวอร์ชัน 2 ต้องการคือ 768 บิต แต่แนวปฏิบัติที่ดีคือ 1024 บิตขึ้นไป ⭐\n\n🧩 ขั้นตอนตั้งค่า SSH ให้ครบทั้งกระบวน:\n1️⃣ hostname R1 → ต้องไม่เป็นชื่อเริ่มต้น Router\n2️⃣ ip domain-name cisco.com ⭐ → จำเป็นเพราะชื่อกุญแจจะประกอบด้วย hostname.domain-name\n3️⃣ crypto key generate rsa modulus 1024 ⭐ → สร้างกุญแจคู่\n4️⃣ username admin secret <password> → SSH ต้องใช้ชื่อผู้ใช้เสมอ\n5️⃣ line vty 0 4 → transport input ssh (ปิด Telnet) → login local\n6️⃣ ip ssh version 2 → บังคับใช้เวอร์ชันที่ปลอดภัยกว่า\n\n⚠️ ทำไม ec ไม่ถูก: คำสั่งของ elliptic curve บน IOS คือ crypto key generate ec keysize <256|384|521> ซึ่งรับได้เฉพาะสามค่านี้เท่านั้น ⭐ ตัวเลข 1024 และ 2048 จึงเป็นค่าที่ใช้ไม่ได้ (สองค่านั้นเป็นของ RSA)\n\n⚠️ ทำไม encrypt ไม่ถูก: ไม่มีคำสั่ง crypto key encrypt rsa สำหรับสร้างกุญแจ คำสั่งที่มีจริงคือ generate, zeroize (ลบ) และ export/import\n\n✅ ทำไม D ถูก: crypto key generate rsa modulus 1024 เป็นไวยากรณ์ที่ถูกต้องในการสร้างกุญแจคู่ RSA ซึ่ง SSH นำไปใช้เข้ารหัสทราฟฟิกการจัดการ\n\n❌ ทำไมข้ออื่นผิด:\nA และ B ใช้ ec พร้อมค่า keysize ที่ไม่ถูกต้อง (EC รับเฉพาะ 256, 384, 521)\nC. ไม่มีคำสั่ง crypto key encrypt rsa สำหรับสร้างกุญแจ\n\n📗 จำไว้สอบ: crypto key generate rsa modulus 1024 | ต้องมี hostname + domain-name ก่อน | SSHv2 ต้องการอย่างน้อย 768 บิต | transport input ssh ปิด Telnet',
+  },
+  {
+    id: 455,
+    kind: 'single',
+    prompt: 'When deploying syslog, which severity level logs informational messages?',
+    options: [
+      { key: 'A', text: '0' },
+      { key: 'B', text: '2' },
+      { key: 'C', text: '4' },
+      { key: 'D', text: '6' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ระดับความรุนแรงของ syslog มีแปดระดับ ตัวเลขยิ่งน้อยยิ่งร้ายแรง ⭐\n\n📊 ตารางที่ต้องท่องให้ขึ้นใจ:\n• 0 — Emergency → ระบบใช้การไม่ได้\n• 1 — Alert → ต้องแก้ไขทันที\n• 2 — Critical → สภาวะวิกฤต\n• 3 — Error → เกิดข้อผิดพลาด\n• 4 — Warning → คำเตือน\n• 5 — Notification → เหตุการณ์ปกติแต่ควรทราบ (เช่น อินเทอร์เฟซ up/down)\n• 6 — Informational ⭐ → ข้อความแจ้งข้อมูลทั่วไป ⭐\n• 7 — Debugging → ข้อความละเอียดสำหรับไล่ปัญหา\n\n🎯 คำถามถามตรง ๆ ว่า informational อยู่ระดับใด → คำตอบคือ 6 ⭐\n\n💡 กลไกสำคัญ: เมื่อสั่ง logging trap <ระดับ> อุปกรณ์จะส่งข้อความ "ตั้งแต่ระดับ 0 จนถึงระดับที่ระบุ" ⭐\n• logging trap 6 → ส่งระดับ 0 ถึง 6 (ครอบคลุม informational ด้วย)\n• logging trap 4 → ส่งเฉพาะระดับ 0 ถึง 4 (จะไม่เห็นข้อความ informational)\n\n🧩 ประโยคช่วยจำเรียงลำดับ: "Every Awesome Cisco Engineer Will Need Ice cream Daily" → Emergency, Alert, Critical, Error, Warning, Notification, Informational, Debugging ⭐\n\n💡 syslog ใช้ UDP พอร์ต 514 และค่าเริ่มต้นของ console logging บน Cisco คือระดับ 7 (debugging)\n\n✅ ทำไม D ถูก: ระดับ Informational ในมาตรฐาน syslog มีหมายเลข 6\n\n❌ ทำไมข้ออื่นผิด:\nA. ระดับ 0 คือ Emergency ซึ่งร้ายแรงที่สุด\nB. ระดับ 2 คือ Critical\nC. ระดับ 4 คือ Warning\n\n📗 จำไว้สอบ: 0 Emergency ถึง 7 Debugging | informational = 6 | logging trap N = ส่งระดับ 0 ถึง N | syslog = UDP 514',
+  },
+  {
+    id: 456,
+    kind: 'multi',
+    prompt: 'What are two improvements provided by automation for network management in an SDN environment? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Data collection and analysis tools establish a baseline for the network' },
+      { key: 'B', text: 'Artificial intelligence identifies and prevents potential design failures.' },
+      { key: 'C', text: 'Machine learning minimizes the overall error rate when automating troubleshooting processes' },
+      { key: 'D', text: 'New devices are onboarded with minimal effort' },
+      { key: 'E', text: 'Proprietary Cisco APIs leverage multiple network management tools.' },
+    ],
+    correct: ['A', 'D'],
+    explanation:
+      '📘 แนวคิด — ประโยชน์ของ automation ในสภาพแวดล้อม SDN ที่พิสูจน์ได้จริง\n\n🔹 A — Data collection and analysis tools establish a baseline ⭐\n• controller รวบรวมข้อมูล telemetry จากอุปกรณ์ทั้งเครือข่ายอย่างต่อเนื่องและเป็นระบบ\n• จากข้อมูลนั้นสร้าง "เส้นฐาน (baseline)" ของสภาพปกติได้ เช่น ปริมาณทราฟฟิกตามช่วงเวลา ค่าหน่วงเฉลี่ย อัตราการใช้งาน CPU\n• เมื่อมีค่าใดเบี่ยงเบนจากเส้นฐาน ระบบจึงแจ้งเตือนได้ทันทีก่อนที่ผู้ใช้จะรู้สึกถึงปัญหา ⭐\n• นี่คือหัวใจของ Assurance ใน Cisco DNA Center\n\n🔹 D — New devices are onboarded with minimal effort ⭐\n• อุปกรณ์ใหม่ที่เสียบเข้าเครือข่ายจะดึงคอนฟิกมาตรฐานลงมาเองโดยอัตโนมัติ (zero-touch provisioning หรือ Plug and Play) ⭐\n• ตัดขั้นตอนการเข้าไปพิมพ์คอนฟิกทีละเครื่อง ซึ่งช้าและเสี่ยงพิมพ์ผิด\n• ผลพลอยได้คือคอนฟิกทุกเครื่องเหมือนกันหมดตามแม่แบบเดียว ⭐\n\n📊 ทำไมตัวเลือกอื่นไม่ใช่:\nB. AI ในปัจจุบันช่วย "ตรวจจับความผิดปกติและแนะนำแนวทาง" ได้ แต่การอ้างว่า "ป้องกันความล้มเหลวของการออกแบบได้" เป็นการกล่าวเกินจริง การออกแบบยังเป็นงานของวิศวกร ⭐\nC. Machine learning ช่วยจัดลำดับความน่าจะเป็นของสาเหตุ แต่ไม่ได้รับประกันว่าจะลดอัตราความผิดพลาดโดยรวมได้\nE. จุดแข็งของ SDN คือการใช้ API "มาตรฐานเปิด" เช่น REST, NETCONF, RESTCONF ต่างหาก ⭐ การผูกกับ API เฉพาะของผู้ผลิตรายเดียวเป็นข้อจำกัด ไม่ใช่ข้อดี\n\n✅ ทำไม A, D ถูก: การเก็บและวิเคราะห์ข้อมูลเพื่อสร้างเส้นฐานของเครือข่าย และการนำอุปกรณ์ใหม่เข้าระบบได้แทบไม่ต้องลงแรง คือประโยชน์ที่จับต้องได้จริงของ automation ใน SDN\n\n❌ ทำไมข้ออื่นผิด:\nB. AI ไม่สามารถป้องกันความล้มเหลวของการออกแบบได้ เป็นการอ้างเกินความสามารถจริง\nC. ไม่มีการรับประกันว่า machine learning จะลดอัตราความผิดพลาดโดยรวม\nE. SDN เน้น API มาตรฐานเปิด ไม่ใช่ API เฉพาะของผู้ผลิตรายเดียว\n\n📗 จำไว้สอบ: ประโยชน์ automation = สม่ำเสมอ, เร็ว, ลดข้อผิดพลาดจากมนุษย์, ขยายตัวได้, มีเส้นฐานให้เปรียบเทียบ | ZTP/PnP = onboarding อัตโนมัติ',
+  },
+  {
+    id: 457,
+    kind: 'single',
+    prompt: 'Which technology allows for multiple operating systems to be run on a single host computer?',
+    options: [
+      { key: 'A', text: 'virtual routing and forwarding' },
+      { key: 'B', text: 'network port ID virtualization' },
+      { key: 'C', text: 'virtual device contexts' },
+      { key: 'D', text: 'server virtualization' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — server virtualization คือการใช้ hypervisor แบ่งฮาร์ดแวร์เครื่องเดียวให้รองรับหลายระบบปฏิบัติการพร้อมกัน ⭐\n\n🔍 การทำงาน:\n• Hypervisor ทำหน้าที่จัดสรร CPU, RAM, ที่เก็บข้อมูล และ NIC ให้แต่ละ VM ⭐\n• แต่ละ VM มีระบบปฏิบัติการของตัวเองครบถ้วนและแยกขาดจากกัน (เช่น Windows Server, Ubuntu, CentOS รันอยู่บนเครื่องเดียวกันได้)\n• VM มองไม่เห็นและรบกวนกันไม่ได้\n\n📊 ชนิดของ hypervisor:\n• Type 1 (bare metal) ⭐ → ติดตั้งบนฮาร์ดแวร์โดยตรง เช่น VMware ESXi, Microsoft Hyper-V, KVM, Citrix XenServer → ใช้ในศูนย์ข้อมูล ประสิทธิภาพสูง\n• Type 2 (hosted) → ติดตั้งบนระบบปฏิบัติการอีกชั้น เช่น VirtualBox, VMware Workstation → ใช้บนเครื่องส่วนตัว\n\n📊 เทียบกับเทคโนโลยีเสมือนอื่น:\n• VRF (Virtual Routing and Forwarding) → แบ่งตารางเส้นทางบนเราเตอร์ตัวเดียวออกเป็นหลายชุดที่แยกจากกัน (เหมือน VLAN แต่ที่ชั้นที่ 3) ⭐\n• NPIV (N_Port ID Virtualization) → เทคโนโลยีของ Fibre Channel ที่ให้พอร์ตกายภาพเดียวมีหลายตัวตนสำหรับ SAN\n• VDC (Virtual Device Contexts) → ฟีเจอร์ของ Cisco Nexus ที่แบ่งสวิตช์กายภาพหนึ่งตัวเป็นสวิตช์ตรรกะหลายตัว ⭐\n\n🎯 โจทย์ระบุชัดว่าเป็นเรื่อง "ระบบปฏิบัติการหลายตัวบนโฮสต์เดียว" ซึ่งเป็นนิยามของ server virtualization\n\n✅ ทำไม D ถูก: server virtualization คือเทคโนโลยีที่ใช้ hypervisor ทำให้เครื่องกายภาพเดียวรันหลายระบบปฏิบัติการพร้อมกันได้\n\n❌ ทำไมข้ออื่นผิด:\nA. VRF แบ่งตารางเส้นทางบนเราเตอร์ ไม่เกี่ยวกับระบบปฏิบัติการ\nB. NPIV เป็นเทคโนโลยีเสมือนของพอร์ต Fibre Channel ในระบบจัดเก็บข้อมูล\nC. VDC แบ่งสวิตช์ Nexus ออกเป็นหลายบริบท ไม่ใช่การรันหลายระบบปฏิบัติการบนเซิร์ฟเวอร์\n\n📗 จำไว้สอบ: hypervisor Type 1 = bare metal (ESXi, Hyper-V, KVM) | Type 2 = hosted | VM → vNIC → vSwitch → pNIC | VRF = แบ่งตารางเส้นทาง',
+  },
+  {
+    id: 458,
+    kind: 'single',
+    prompt: 'What occurs when overlapping Wi-Fi channels are implemented?',
+    options: [
+      { key: 'A', text: 'The wireless network becomes vulnerable to unauthorized access.' },
+      { key: 'B', text: 'Wireless devices are unable to distinguish between different SSIDs' },
+      { key: 'C', text: 'Users experience poor wireless network performance.' },
+      { key: 'D', text: 'Network communications are open to eavesdropping.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ช่องสัญญาณที่ทับซ้อนกันทำให้เกิดสัญญาณรบกวนซึ่งกระทบ "ประสิทธิภาพ" ไม่ใช่ "ความปลอดภัย" ⭐\n\n🔍 ข้อเท็จจริงของย่าน 2.4 GHz:\n• แต่ละช่องกว้าง 22 MHz ในขณะที่ระยะห่างระหว่างช่องมีเพียง 5 MHz\n→ ช่องที่ติดกันจึงทับซ้อนกันอย่างหนัก\n• มีเพียงช่อง 1, 6 และ 11 ที่ไม่ทับซ้อนกันเลย ⭐\n\n🧩 ผลเสียที่เกิดขึ้นจริงเมื่อช่องทับซ้อน:\n• Adjacent Channel Interference ⭐ → สัญญาณจากช่องข้างเคียงกลายเป็นสัญญาณรบกวนที่ถอดรหัสไม่ได้ ทำให้ค่า SNR ตกและอัตราข้อมูลลดลง\n• เฟรมเสียหายมากขึ้น → ต้องส่งซ้ำบ่อย → throughput ตกและ latency สูงขึ้น ⭐\n• อุปกรณ์ต้องลดอัตราการมอดูเลตลง (rate shifting) เพื่อให้ส่งผ่านได้ ทำให้ครองอากาศนานขึ้นและกินเวลาของคนอื่น\n• ผลปลายทางที่ผู้ใช้รู้สึกได้: เน็ตช้า วิดีโอคอลกระตุก ไฟล์โหลดนาน ⭐\n\n💡 เปรียบเทียบ: co-channel interference (ใช้ช่องเดียวกัน) ยังพอทนได้เพราะอุปกรณ์ได้ยินกันแล้วผลัดกันส่งตามกลไก CSMA/CA แต่ adjacent channel interference แย่กว่า เพราะอุปกรณ์ถอดรหัสสัญญาณของกันและกันไม่ได้เลย จึงส่งชนกันตรง ๆ ⭐\n\n✅ ทำไม C ถูก: ช่องสัญญาณที่ทับซ้อนกันสร้างสัญญาณรบกวนที่ทำให้เฟรมเสียหาย ต้องส่งซ้ำ และอัตราข้อมูลลดลง ผู้ใช้จึงพบว่าประสิทธิภาพเครือข่ายไร้สายแย่ลง\n\n❌ ทำไมข้ออื่นผิด:\nA. ความปลอดภัยขึ้นอยู่กับการเข้ารหัสและการยืนยันตัวตน (WPA2/WPA3) ไม่เกี่ยวกับการเลือกช่องสัญญาณ\nB. อุปกรณ์แยก SSID ได้จากชื่อและ BSSID ในเฟรม beacon ไม่ได้แยกด้วยช่องสัญญาณ\nD. การดักฟังได้หรือไม่ขึ้นอยู่กับว่ามีการเข้ารหัสหรือไม่ ไม่เกี่ยวกับการทับซ้อนของช่อง\n\n📗 จำไว้สอบ: 2.4 GHz ใช้ช่อง 1-6-11 เท่านั้น | co-channel = ผลัดกันส่ง | adjacent channel = ชนกันตรง ๆ แย่กว่า | 5 GHz มีช่องไม่ทับซ้อนมากกว่า 20 ช่อง',
+  },
+  {
+    id: 459,
+    kind: 'single',
+    image: v2q459,
+    prompt: 'Refer to the exhibit. An administrator must turn off the Cisco Discovery Protocol on the port configured with the last usable address in the 10.0.0.0/30 subnet. Which command set meets the requirement?',
+    options: [
+      { key: 'A', text: 'interface gi0/1 / no cdp enable' },
+      { key: 'B', text: 'interface gi0/1 / clear cdp table' },
+      { key: 'C', text: 'interface gi0/0 / no cdp advertise-v2' },
+      { key: 'D', text: 'interface gi0/0 / no cdp run' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ต้องตอบให้ถูกสองส่วน: ① พอร์ตไหน ② คำสั่งอะไร\n\n🧮 ส่วนที่ 1 — หาว่าพอร์ตใดมี "last usable address ของ 10.0.0.0/30":\n• /30 → block size = 4 → เครือข่าย 10.0.0.0/30 ครอบ 10.0.0.0 ถึง 10.0.0.3\n• network = 10.0.0.0, broadcast = 10.0.0.3\n• usable = 10.0.0.1 และ 10.0.0.2 → last usable = 10.0.0.2 ⭐\n• แต่ exhibit แสดงว่า Gi0/0 มี IP 10.0.0.253/30 ซึ่งอยู่ในเครือข่าย 10.0.0.252/30 (block 4 → ขอบเขต .252) → คนละซับเน็ตกับ 10.0.0.0/30 ⭐\n→ ดังนั้นพอร์ตที่โจทย์หมายถึงไม่ใช่ Gi0/0 แต่เป็นอีกพอร์ตหนึ่งคือ Gi0/1 ⭐\n\n🧩 ส่วนที่ 2 — คำสั่งปิด CDP ระดับอินเทอร์เฟซ:\n• no cdp enable ⭐ → ปิด CDP เฉพาะอินเทอร์เฟซนั้น (ใช้ในโหมด interface config)\n• no cdp run → ปิด CDP ทั้งอุปกรณ์ (ใช้ในโหมด global config เท่านั้น) ⭐ → ใส่ในโหมดอินเทอร์เฟซไม่ได้\n\n🎯 รวมสองส่วน: interface gi0/1 แล้วตามด้วย no cdp enable ⭐\n\n📊 ตรวจตัวเลือกอื่น:\n• B. clear cdp table เป็นคำสั่งโหมด privileged EXEC ที่ล้างตารางเพื่อนบ้าน ไม่ได้ปิดโปรโตคอล และใส่ในโหมดอินเทอร์เฟซไม่ได้\n• C. no cdp advertise-v2 เพียงหยุดประกาศ CDP เวอร์ชัน 2 แต่ CDP ยังทำงานอยู่ อีกทั้งยังเลือกพอร์ตผิด\n• D. no cdp run เป็นคำสั่ง global และยังเลือกพอร์ตผิดด้วย\n\n💡 ทบทวน CDP: ค่าเริ่มต้นเปิดอยู่ทุกพอร์ต, ส่งทุก 60 วินาที, holdtime 180 วินาที, ตรวจสอบด้วย show cdp neighbors detail\n\n✅ ทำไม A ถูก: เลือกอินเทอร์เฟซ Gi0/1 ซึ่งเป็นพอร์ตที่ถือ last usable address ของซับเน็ต 10.0.0.0/30 แล้วปิด CDP เฉพาะพอร์ตนั้นด้วยคำสั่งที่ถูกต้องคือ no cdp enable\n\n❌ ทำไมข้ออื่นผิด:\nB. clear cdp table เป็นการล้างตาราง ไม่ใช่การปิดโปรโตคอล และเป็นคำสั่งคนละโหมด\nC. Gi0/0 มี IP อยู่ในซับเน็ต 10.0.0.252/30 ไม่ใช่ 10.0.0.0/30 และ advertise-v2 ไม่ได้ปิด CDP\nD. no cdp run ต้องใช้ในโหมด global และเป็นการปิดทั้งอุปกรณ์ อีกทั้งเลือกพอร์ตผิด\n\n📗 จำไว้สอบ: no cdp run = ปิดทั้งเครื่อง (global) | no cdp enable = ปิดเฉพาะพอร์ต (interface) | /30 มี usable 2 ที่อยู่ | CDP timer 60/holdtime 180',
+  },
+  {
+    id: 460,
+    kind: 'single',
+    prompt: 'Which 802.11 management frame type is sent when a client roams between access points on the same SSID?',
+    options: [
+      { key: 'A', text: 'Reassociation Request' },
+      { key: 'B', text: 'Probe Request' },
+      { key: 'C', text: 'Authentication Request' },
+      { key: 'D', text: 'Association Request' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — เฟรมจัดการของ 802.11 ที่เกี่ยวกับการเข้าร่วมและการย้าย AP\n\n🔍 ลำดับตอนเชื่อมต่อ "ครั้งแรก":\n1️⃣ Probe Request / Response → ไคลเอนต์ค้นหาว่ามี AP ใดให้บริการ SSID ที่ต้องการบ้าง\n2️⃣ Authentication Request / Response → ขั้นตอนยืนยันตัวตนระดับ 802.11 (open system)\n3️⃣ Association Request / Response ⭐ → ขอเข้าร่วมกับ AP ตัวนั้นอย่างเป็นทางการ ใช้เมื่อ "ยังไม่เคยเชื่อมต่อกับ AP ใดใน SSID นี้มาก่อน" ⭐\n\n🔍 ลำดับตอน "ย้าย AP (roaming)":\n• ไคลเอนต์ที่กำลังเชื่อมต่ออยู่กับ AP ตัวหนึ่ง แล้วเดินไปหา AP อีกตัวใน SSID เดียวกัน\n• ส่ง Reassociation Request ⭐ ไปยัง AP ตัวใหม่ ซึ่งเฟรมนี้ "บรรจุ BSSID ของ AP ตัวเดิม" เอาไว้ด้วย ⭐\n• AP ตัวใหม่จึงติดต่อ AP ตัวเดิม (หรือผ่าน WLC) เพื่อรับช่วงบริบทของไคลเอนต์ เช่น กุญแจเข้ารหัสและเฟรมที่ค้างในบัฟเฟอร์ ⭐\n→ ผลคือการย้ายราบรื่นและเร็วกว่าการเชื่อมต่อใหม่ตั้งแต่ต้น\n\n💡 มาตรฐานที่ช่วยให้ roaming เร็วขึ้น:\n• 802.11k → ให้รายชื่อ AP เพื่อนบ้าน ลดเวลาสแกน\n• 802.11v → ชี้นำให้ไคลเอนต์ย้ายไป AP ที่เหมาะกว่า\n• 802.11r (Fast Transition) → ตัดขั้นตอนแลกกุญแจซ้ำ ทำให้ roaming เสร็จในไม่กี่มิลลิวินาที\n\n✅ ทำไม A ถูก: Reassociation Request คือเฟรมจัดการที่ไคลเอนต์ส่งเมื่อย้ายจาก AP ตัวหนึ่งไปยังอีกตัวภายใน SSID เดียวกัน โดยแนบข้อมูลของ AP เดิมไปด้วยเพื่อให้ส่งต่อบริบทได้\n\n❌ ทำไมข้ออื่นผิด:\nB. Probe Request ใช้ค้นหา AP ที่มีอยู่ ไม่ใช่การขอย้าย\nC. Authentication Request เป็นขั้นยืนยันตัวตนซึ่งเกิดก่อนการเข้าร่วม\nD. Association Request ใช้ตอนเข้าร่วมครั้งแรก ไม่ใช่ตอนย้าย AP\n\n📗 จำไว้สอบ: เข้าครั้งแรก = Association | ย้าย AP = Reassociation ⭐ | 802.11k/v/r ช่วยให้ roaming เร็วขึ้น',
+  },
+  {
+    id: 461,
+    kind: 'drag',
+    image: v2q461,
+    prompt: 'Drag and drop the TCP/IP protocols from the left onto their primary transmission protocols on the right.',
+    categories: [
+      { name: 'TCP', items: ['HTTP', 'SMTP', 'Telnet'] },
+      { name: 'UDP', items: ['DNS', 'RTP', 'SNMP'] },
+    ],
+    explanation:
+      '📘 แนวคิด — เลือก TCP หรือ UDP ตามความต้องการของงาน\n\n🔹 ใช้ TCP เมื่อ "ข้อมูลต้องครบและถูกต้อง" ⭐\n• มี 3-way handshake, ACK, การส่งซ้ำ, การเรียงลำดับใหม่, การควบคุมความคับคั่ง\n• ส่วนหัวใหญ่ 20 ไบต์\n• ตัวอย่างในโจทย์:\n  – HTTP → TCP 80 ⭐ หน้าเว็บขาดไปหนึ่งไบต์ก็แสดงผลผิด\n  – SMTP → TCP 25 ⭐ อีเมลหายไม่ได้เด็ดขาด\n  – Telnet → TCP 23 ⭐ เซสชันโต้ตอบต้องเรียงลำดับถูกต้องทุกตัวอักษร\n\n🔹 ใช้ UDP เมื่อ "เร็วสำคัญกว่าครบ" ⭐\n• ไม่มี handshake ไม่มี ACK ส่วนหัวเล็กเพียง 8 ไบต์\n• ตัวอย่างในโจทย์:\n  – DNS → UDP 53 ⭐ คำถามและคำตอบสั้นมาก ถ้าไม่ตอบก็ถามใหม่ได้เร็วกว่าการสร้างการเชื่อมต่อ (จะเปลี่ยนไปใช้ TCP 53 เมื่อคำตอบใหญ่เกิน 512 ไบต์ หรือตอนทำ zone transfer)\n  – RTP → UDP ⭐ ขนส่งเสียงและวิดีโอแบบเรียลไทม์ ถ้ารอส่งซ้ำแพ็กเก็ตที่หาย มันจะมาถึงช้าเกินจนไร้ประโยชน์\n  – SNMP → UDP 161/162 ⭐ การเฝ้าดูต้องเบา ไม่ควรเพิ่มภาระให้อุปกรณ์ที่กำลังมีปัญหา\n\n💡 เหตุผลเชิงลึกของ RTP: การสนทนาต้องการหน่วงต่ำกว่า 150 มิลลิวินาที การรอ retransmit แบบ TCP จะทำให้เสียงกระตุกและขาดตอนแย่กว่าการยอมเสียแพ็กเก็ตไปเล็กน้อย ⭐\n\n📗 จำไว้สอบ: TCP = FTP 20/21, SSH 22, Telnet 23, SMTP 25, HTTP 80, HTTPS 443 | UDP = DHCP 67/68, TFTP 69, SNMP 161/162, NTP 123, syslog 514 | DNS ใช้ทั้งสอง',
+  },
+  {
+    id: 462,
+    kind: 'single',
+    prompt: 'An engineer must configure the IPv6 address 2001:0db8:0000:0000:0700:0003:400F:572B on the serial0/0 interface of the HQ router and wants to compress it for easier configuration. Which command must be issued on the router interface?',
+    options: [
+      { key: 'A', text: 'ipv6 address 2001:db8::700:3:400F:572B' },
+      { key: 'B', text: 'ipv6 address 2001:db8:0::700:3:4F:572B' },
+      { key: 'C', text: 'ipv6 address 2001:0db8::7:3:4F:572B' },
+      { key: 'D', text: 'ipv6 address 2001::db8:0000::700:3:400F:572B' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — กฎการย่อที่อยู่ IPv6 มีสองข้อและห้ามผิดเพี้ยน\n\n🔍 กฎข้อที่ 1: ตัดเลขศูนย์ "นำหน้า" ในแต่ละกลุ่มออกได้ ⭐\n• 0db8 → db8 ✔\n• 0000 → 0 ✔\n• 0700 → 700 ✔\n• 0003 → 3 ✔\n• 400F → 400F (ศูนย์อยู่ตรงกลาง ตัดไม่ได้) ⭐\n\n🔍 กฎข้อที่ 2: กลุ่มที่เป็นศูนย์ทั้งหมดติดกันตั้งแต่หนึ่งกลุ่มขึ้นไป ยุบเป็น :: ได้ แต่ใช้ได้ "ครั้งเดียวต่อหนึ่งที่อยู่" ⭐\n\n🧮 ย่อทีละขั้นจากที่อยู่เดิม:\n2001:0db8:0000:0000:0700:0003:400F:572B\n→ ใช้กฎที่ 1: 2001:db8:0:0:700:3:400F:572B\n→ ใช้กฎที่ 2 ยุบ 0:0 ตรงกลาง: 2001:db8::700:3:400F:572B ⭐ ✔\n\n⚠️ จุดที่ตัวเลือกอื่นทำผิด:\n• B → เขียน 400F เป็น 4F ซึ่งเป็นการตัดศูนย์ "ตรงกลาง" ออก ทำให้ค่าเปลี่ยนไปเลย ⭐ และยังเหลือ :0: ไว้โดยไม่จำเป็น\n• C → ผิดสองจุด คือเปลี่ยน 700 เป็น 7 (ตัดศูนย์ท้าย ซึ่งทำไม่ได้) และเปลี่ยน 400F เป็น 4F\n• D → ใช้ :: ถึงสองครั้งในที่อยู่เดียว ซึ่งผิดกฎเด็ดขาด ⭐ เพราะจะตีความไม่ได้ว่าแต่ละจุดยุบไปกี่กลุ่ม\n\n💡 กฎเสริมที่ควรจำ: ตัดได้เฉพาะศูนย์ "นำหน้า" เท่านั้น ห้ามตัดศูนย์ที่อยู่ตรงกลางหรือท้ายกลุ่ม ⭐\n\n✅ ทำไม A ถูก: ย่อถูกต้องทั้งสองกฎ คือตัดศูนย์นำหน้าของแต่ละกลุ่มและยุบกลุ่มศูนย์ติดกันด้วย :: เพียงครั้งเดียว โดยยังคงค่า 400F ไว้ครบถ้วน\n\n❌ ทำไมข้ออื่นผิด:\nB. เขียน 400F เป็น 4F ซึ่งเปลี่ยนค่าที่อยู่\nC. ผิดทั้งการย่อ 0700 เป็น 7 และ 400F เป็น 4F\nD. ใช้เครื่องหมาย :: สองครั้งในที่อยู่เดียวกัน ซึ่งผิดกฎ\n\n📗 จำไว้สอบ: ตัดศูนย์นำหน้าได้ | :: ใช้ได้ครั้งเดียว | ห้ามตัดศูนย์กลางหรือท้ายกลุ่ม | IPv6 = 128 บิต = 8 กลุ่ม กลุ่มละ 16 บิต',
+  },
+  {
+    id: 463,
+    kind: 'single',
+    prompt: 'What describes the operation of virtual machines?',
+    options: [
+      { key: 'A', text: 'Virtual machines are responsible for managing and allocating host hardware resources' },
+      { key: 'B', text: 'In a virtual machine environment, physical servers must run one operating system at a time.' },
+      { key: 'C', text: 'Virtual machines are the physical hardware that support a virtual environment.' },
+      { key: 'D', text: 'Virtual machines are operating system instances that are decoupled from server hardware' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — VM คือ "อินสแตนซ์ของระบบปฏิบัติการ" ที่ถูกแยกออกจากฮาร์ดแวร์กายภาพ ⭐\n\n🔍 การแบ่งบทบาทให้ชัด:\n• Physical host → ฮาร์ดแวร์จริง (CPU, RAM, ดิสก์, NIC)\n• Hypervisor ⭐ → ซอฟต์แวร์ชั้นกลางที่ "จัดสรรและบริหาร" ทรัพยากรของโฮสต์ให้แต่ละ VM ⭐\n• Virtual Machine ⭐ → ระบบปฏิบัติการเต็มรูปแบบพร้อมแอปพลิเคชัน ที่ทำงานอยู่บนฮาร์ดแวร์เสมือนที่ hypervisor สร้างให้ ⭐\n\n🎯 ความหมายของคำว่า decoupled (แยกออกจากกัน):\n• VM มองเห็นแต่ฮาร์ดแวร์เสมือน ไม่ได้ผูกกับชิปหรือการ์ดรุ่นใดรุ่นหนึ่งของเครื่องจริง\n• จึงย้าย VM ไปรันบนเซิร์ฟเวอร์อีกเครื่องได้โดยไม่ต้องติดตั้งใหม่ (vMotion / Live Migration) ⭐\n• สร้างสำเนา ทำสแนปช็อต และกู้คืนได้ง่ายเหมือนคัดลอกไฟล์\n• เพิ่มหรือลด CPU และ RAM ได้ตามต้องการ\n\n📊 ตรวจตัวเลือกอื่น:\nA. การจัดสรรทรัพยากรเป็นหน้าที่ของ hypervisor ไม่ใช่ของ VM ⭐\nB. กลับกันโดยสิ้นเชิง — คุณค่าหลักของ virtualization คือการรันหลายระบบปฏิบัติการพร้อมกันบนเครื่องเดียว ⭐\nC. ฮาร์ดแวร์กายภาพคือ "โฮสต์" ส่วน VM เป็นสิ่งที่รันอยู่ข้างบน ไม่ใช่ตัวฮาร์ดแวร์\n\n💡 เทียบกับคอนเทนเนอร์: VM แต่ละตัวมีเคอร์เนลและระบบปฏิบัติการของตัวเองครบ จึงหนักกว่าแต่แยกขาดกว่า ส่วนคอนเทนเนอร์ใช้เคอร์เนลของโฮสต์ร่วมกัน จึงเบาและเริ่มทำงานเร็วกว่ามาก\n\n✅ ทำไม D ถูก: VM คืออินสแตนซ์ของระบบปฏิบัติการที่ทำงานบนฮาร์ดแวร์เสมือน จึงไม่ผูกติดกับฮาร์ดแวร์ของเซิร์ฟเวอร์เครื่องใดเครื่องหนึ่ง\n\n❌ ทำไมข้ออื่นผิด:\nA. การบริหารและจัดสรรทรัพยากรเป็นงานของ hypervisor\nB. เซิร์ฟเวอร์ที่ทำ virtualization รันหลายระบบปฏิบัติการพร้อมกันได้ ซึ่งเป็นจุดประสงค์หลักของเทคโนโลยีนี้\nC. ฮาร์ดแวร์กายภาพคือโฮสต์ ไม่ใช่ VM\n\n📗 จำไว้สอบ: hypervisor จัดสรรทรัพยากร | VM = OS ที่แยกจากฮาร์ดแวร์ | Type 1 = bare metal | คอนเทนเนอร์ใช้เคอร์เนลร่วมกัน เบากว่า VM',
+  },
+  {
+    id: 464,
+    kind: 'single',
+    prompt: 'Which WLC port connects to a switch to pass normal access-point traffic?',
+    options: [
+      { key: 'A', text: 'redundancy' },
+      { key: 'B', text: 'console' },
+      { key: 'C', text: 'distribution system' },
+      { key: 'D', text: 'service' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — พอร์ตกายภาพบน Cisco WLC มีสี่ชนิดที่ต้องแยกให้ออก\n\n🔹 Distribution System Port ⭐\n• พอร์ตหลักที่ต่อเข้ากับสวิตช์ในเครือข่ายองค์กร ⭐\n• ขนทราฟฟิกของ AP และของผู้ใช้ทั้งหมด รวมถึงอุโมงค์ CAPWAP\n• รองรับ 802.1Q trunk จึงขนหลาย VLAN ได้ และรวมกันเป็น LAG ได้\n• เป็นที่ตั้งของ management interface, AP-manager interface และ dynamic interface ทั้งหมด ⭐\n\n🔹 Service Port\n• พอร์ตสำหรับจัดการแบบ out-of-band ⭐\n• ไม่ผูกกับ VLAN ใด ไม่รองรับ 802.1Q และ "ไม่ขนทราฟฟิกผู้ใช้เลย"\n• ใช้เข้าถึงตัว WLC ได้แม้เครือข่ายหลักมีปัญหา\n\n🔹 Console Port\n• พอร์ตอนุกรม (RJ-45 หรือ USB) สำหรับต่อสายตรงเข้าเทอร์มินัล ใช้ตอนตั้งค่าครั้งแรกหรือกู้ระบบ\n\n🔹 Redundancy Port\n• ใช้เชื่อม WLC สองเครื่องเข้าด้วยกันเพื่อทำ HA/SSO โดยซิงก์สถานะระหว่างกัน\n\n🎯 โจทย์ระบุว่า "ต่อเข้าสวิตช์เพื่อขนทราฟฟิก AP ตามปกติ" → ตรงกับ distribution system port ⭐\n\n💡 เมื่อเปิด LAG พอร์ต distribution system ทุกเส้นจะถูกรวมเป็นกลุ่มตรรกะเดียว และฝั่งสวิตช์ต้องตั้งเป็น channel-group ... mode on เพราะ WLC ไม่รองรับ LACP และ PAgP\n\n✅ ทำไม C ถูก: distribution system port คือพอร์ตข้อมูลหลักของ WLC ที่ต่อเข้ากับสวิตช์เพื่อขนทราฟฟิกของ AP และผู้ใช้\n\n❌ ทำไมข้ออื่นผิด:\nA. redundancy port ใช้เชื่อม WLC สองเครื่องสำหรับทำ high availability\nB. console port ใช้ต่อสายตรงเพื่อเข้า CLI ไม่ได้ขนทราฟฟิก\nD. service port ใช้จัดการแบบ out-of-band และไม่ขนทราฟฟิกผู้ใช้\n\n📗 จำไว้สอบ: distribution system = ทราฟฟิกจริง (trunk, LAG) | service = out-of-band | console = ตั้งค่าครั้งแรก | redundancy = HA/SSO',
+  },
+  {
+    id: 465,
+    kind: 'single',
+    prompt: 'An engineering team asks an implementer to configure syslog for warning conditions and error conditions. Which command does the implementer configure to achieve the desired result?',
+    options: [
+      { key: 'A', text: 'logging trap 5' },
+      { key: 'B', text: 'logging trap 2' },
+      { key: 'C', text: 'logging trap 4' },
+      { key: 'D', text: 'logging trap 3' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — กลไกสำคัญของ logging trap: สั่งระดับ N แล้วอุปกรณ์จะส่งข้อความ "ตั้งแต่ระดับ 0 จนถึง N" ⭐\n\n📊 ทบทวนแปดระดับ:\n• 0 Emergency | 1 Alert | 2 Critical | 3 Error ⭐ | 4 Warning ⭐ | 5 Notification | 6 Informational | 7 Debugging\n\n🎯 โจทย์ต้องการ "warning conditions" (ระดับ 4) และ "error conditions" (ระดับ 3) ⭐\n→ ต้องครอบคลุมระดับสูงสุดที่ต้องการคือ 4\n→ สั่ง logging trap 4 → ได้ระดับ 0, 1, 2, 3 และ 4 ครบ ✔ ⭐\n\n🧮 ตรวจตัวเลือกอื่น:\n• logging trap 3 → ได้ระดับ 0 ถึง 3 → ได้ error แต่ "ขาด warning" ✘ ⭐\n• logging trap 5 → ได้ระดับ 0 ถึง 5 → ครบตามที่ขอ แต่ "เกินความต้องการ" เพราะมี notification เข้ามาด้วย ✘\n• logging trap 2 → ได้แค่ระดับ 0 ถึง 2 → ขาดทั้ง error และ warning ✘\n\n💡 หลักการเลือกเลข: ให้ดูว่าระดับที่ต้องการ "ตัวเลขสูงที่สุด" คือเท่าไร แล้วใส่เลขนั้น ⭐ ในที่นี้คือ warning = 4\n\n🧩 คำสั่งที่เกี่ยวข้อง:\n• logging host <IP> → ระบุเซิร์ฟเวอร์ syslog ปลายทาง (UDP 514)\n• logging trap <0-7> → ระดับที่ส่งไปยังเซิร์ฟเวอร์\n• logging console <0-7> → ระดับที่แสดงบนคอนโซล (ค่าเริ่มต้น 7)\n• logging buffered <0-7> → ระดับที่เก็บในหน่วยความจำของอุปกรณ์\n\n✅ ทำไม C ถูก: logging trap 4 ส่งข้อความตั้งแต่ระดับ 0 ถึง 4 ซึ่งครอบคลุมทั้ง error (3) และ warning (4) พอดีตามที่ทีมวิศวกรรมต้องการ\n\n❌ ทำไมข้ออื่นผิด:\nA. ระดับ 5 ครอบคลุมเกินความจำเป็นโดยรวม notification เข้ามาด้วย\nB. ระดับ 2 ต่ำเกินไป ไม่ครอบคลุมทั้ง error และ warning\nD. ระดับ 3 ครอบคลุมแค่ error แต่ขาด warning\n\n📗 จำไว้สอบ: logging trap N = ส่งระดับ 0 ถึง N | Emergency 0 → Debugging 7 | syslog UDP 514 | console logging ค่าเริ่มต้น = 7',
+  },
+  {
+    id: 466,
+    kind: 'drag',
+    image: v2q466,
+    prompt: 'Drag and drop the 802.11 wireless standards from the left onto the matching statements on the right.',
+    categories: [
+      { name: 'Operates in the 2.4 GHz and 5 GHz bands', items: ['802.11n'] },
+      { name: 'Operates in the 2.4 GHz band only and supports a maximum data rate of 54 Mbps', items: ['802.11g'] },
+      { name: 'Operates in the 5 GHz band only and supports a maximum data rate above 100 Mbps', items: ['802.11ac'] },
+      { name: 'Supports a maximum data rate of 11 Mbps', items: ['802.11b'] },
+      { name: 'Operates in the 5 GHz band only and supports a maximum data rate of 54 Mbps', items: ['802.11a'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ตารางมาตรฐาน 802.11 ที่ต้องจำให้ครบสามคอลัมน์ คือย่านความถี่ อัตราสูงสุด และความเข้ากันได้\n\n📊 ไล่ตามลำดับเวลา:\n\n🔹 802.11a (ปี 1999) ⭐\n• ย่าน 5 GHz เท่านั้น ⭐ | สูงสุด 54 Mbps ⭐ | ใช้ OFDM\n• ไม่เข้ากันกับ 802.11b/g เพราะอยู่คนละย่านความถี่\n\n🔹 802.11b (ปี 1999) ⭐\n• ย่าน 2.4 GHz | สูงสุด 11 Mbps ⭐ | ใช้ DSSS\n\n🔹 802.11g (ปี 2003) ⭐\n• ย่าน 2.4 GHz เท่านั้น ⭐ | สูงสุด 54 Mbps ⭐ | ใช้ OFDM\n• เข้ากันย้อนหลังกับ 802.11b ได้ (แต่ทำให้ความเร็วรวมตกลง)\n\n🔹 802.11n (ปี 2009) หรือ Wi-Fi 4 ⭐\n• ทำงานได้ "ทั้งสองย่าน" คือ 2.4 GHz และ 5 GHz ⭐ ← เอกลักษณ์ที่ใช้แยกจากตัวอื่น\n• สูงสุด 600 Mbps | เริ่มใช้ MIMO และช่องกว้าง 40 MHz\n\n🔹 802.11ac (ปี 2013) หรือ Wi-Fi 5 ⭐\n• ย่าน 5 GHz เท่านั้น ⭐ | ความเร็วระดับ Gbps (สูงกว่า 100 Mbps มาก) ⭐\n• ใช้ MU-MIMO, ช่องกว้างถึง 160 MHz, มอดูเลต 256-QAM\n\n🔹 802.11ax (Wi-Fi 6/6E)\n• ทั้ง 2.4 และ 5 GHz (6E เพิ่มย่าน 6 GHz) | เน้นเรื่องความจุและประสิทธิภาพเมื่อมีผู้ใช้หนาแน่น ด้วย OFDMA และ BSS coloring\n\n💡 วิธีจำเร็ว: 11a=5GHz/54, 11b=2.4GHz/11, 11g=2.4GHz/54, 11n=สองย่าน, 11ac=5GHz/Gbps ⭐\n\n📗 จำไว้สอบ: 2.4 GHz มีช่องไม่ทับซ้อน 3 ช่อง (1-6-11) แต่ทะลุกำแพงดีกว่า | 5 GHz มีช่องเยอะและเร็วกว่า แต่ระยะสั้นกว่า',
+  },
+  {
+    id: 467,
+    kind: 'single',
+    prompt: 'What is the purpose of using First Hop Redundancy Protocol in a specific subnet?',
+    options: [
+      { key: 'A', text: 'Filter traffic based on destination IP addressing' },
+      { key: 'B', text: 'Sends the default route to the hosts on a network' },
+      { key: 'C', text: 'ensures a loop-free physical topology' },
+      { key: 'D', text: 'forwards multicast hello messages between routers' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — FHRP มีไว้เพื่อทำให้ "default gateway" ของโฮสต์ในซับเน็ตหนึ่งมีความซ้ำซ้อน ⭐\n\n🔍 ปัญหาที่มีอยู่เดิม:\n• โฮสต์ตั้ง default gateway ได้เพียงค่าเดียว (ไม่ว่าจะตั้งเองหรือได้จาก DHCP)\n• ถ้าเราเตอร์ตัวนั้นล่ม โฮสต์ทั้งซับเน็ตจะออกนอกเครือข่ายไม่ได้เลย\n\n🔍 วิธีที่ FHRP แก้:\n• เราเตอร์หลายตัวรวมกลุ่มกันแล้วสร้าง "เราเตอร์เสมือน" ที่มี virtual IP และ virtual MAC ร่วมกัน ⭐\n• โฮสต์ทุกเครื่องในซับเน็ตชี้ default gateway ไปที่ virtual IP นั้น ⭐\n• เมื่อโฮสต์ทำ ARP หา virtual IP เราเตอร์ที่ทำหน้าที่อยู่จะตอบด้วย virtual MAC\n• เมื่อเราเตอร์ตัวนั้นล่ม ตัวสำรองรับช่วง virtual MAC เดิมต่อทันที → โฮสต์ไม่รู้ตัว ไม่ต้องเปลี่ยนค่าใด ๆ และแม้แต่ ARP cache ก็ยังใช้ได้ ⭐\n\n🎯 ดังนั้นบทบาทของ FHRP คือการมอบ "จุดทางออกเริ่มต้น" ที่พร้อมใช้งานเสมอให้กับโฮสต์ในซับเน็ตนั้น ซึ่งตรงกับตัวเลือก B มากที่สุด ⭐\n\n📊 สามตัวหลัก: HSRP (Cisco, active/standby), VRRP (มาตรฐานเปิด, master/backup), GLBP (Cisco, ทำโหลดบาลานซ์ได้)\n\n✅ ทำไม B ถูก: FHRP ทำให้โฮสต์ในซับเน็ตมี default gateway ที่พร้อมใช้งานอยู่เสมอ โดยที่โฮสต์ยังชี้ไปยังที่อยู่เดิมได้แม้เราเตอร์ตัวจริงจะเปลี่ยนไป\n\n❌ ทำไมข้ออื่นผิด:\nA. การกรองทราฟฟิกตามที่อยู่ปลายทางเป็นหน้าที่ของ ACL หรือไฟร์วอลล์\nC. การทำให้โทโพโลยีปลอดลูปที่ชั้นที่ 2 เป็นหน้าที่ของ STP\nD. การส่งข้อความ hello แบบมัลติแคสต์เป็น "กลไกภายใน" ที่ FHRP ใช้ตรวจสอบว่าอีกฝ่ายยังมีชีวิตอยู่ ไม่ใช่ "วัตถุประสงค์" ของโปรโตคอล\n\n📗 จำไว้สอบ: FHRP = default gateway ซ้ำซ้อน | HSRP hello 3 วิ 224.0.0.2 | VRRP advertise 1 วิ 224.0.0.18 | GLBP hello 3 วิ 224.0.0.102',
+  },
+  {
+    id: 468,
+    kind: 'single',
+    prompt: 'What must be considered when using 802.11a?',
+    options: [
+      { key: 'A', text: 'It is compatible with 802.11b- and 802.11-compliant wireless devices' },
+      { key: 'B', text: 'It is used in place of 802.11b/g when many nonoverlapping channels are required' },
+      { key: 'C', text: 'It is susceptible to interference from 2.4 GHz devices such as microwave ovens.' },
+      { key: 'D', text: 'It is chosen over 802.11b/g when a lower-cost solution is necessary' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คุณสมบัติของ 802.11a ที่ต้องจำ\n• ทำงานในย่าน 5 GHz "เท่านั้น" ⭐\n• อัตราข้อมูลสูงสุด 54 Mbps ใช้การมอดูเลตแบบ OFDM\n• ไม่เข้ากันกับ 802.11b และ 802.11g เพราะอยู่คนละย่านความถี่กันโดยสิ้นเชิง ⭐\n\n🎯 ข้อได้เปรียบสำคัญที่สุดของย่าน 5 GHz:\n• มีช่องสัญญาณที่ไม่ทับซ้อนกันมากกว่า 20 ช่อง ⭐ (ขึ้นกับกฎระเบียบของแต่ละประเทศและช่อง DFS)\n• เทียบกับย่าน 2.4 GHz ที่มีเพียงสามช่องคือ 1, 6 และ 11 ⭐\n→ ในพื้นที่ที่ต้องวาง AP หนาแน่น เช่น ออฟฟิศหลายชั้นหรือหอประชุม ย่าน 5 GHz จึงวางแผนช่องสัญญาณได้ยืดหยุ่นกว่ามากและเกิดการรบกวนระหว่าง AP น้อยกว่า ⭐\n\n📊 ตรวจตัวเลือกอื่น:\nA. ผิด — 802.11a อยู่คนละย่านกับ 802.11b/g จึงไม่มีทางเข้ากันได้ ⭐\nC. ผิด — เตาไมโครเวฟ โทรศัพท์ไร้สาย และ Bluetooth ล้วนรบกวนที่ย่าน 2.4 GHz ⭐ ส่วน 5 GHz แทบไม่ได้รับผลกระทบจากอุปกรณ์เหล่านี้เลย ซึ่งเป็นข้อดีอีกข้อของมัน\nD. ผิด — อุปกรณ์ 5 GHz ในยุคนั้นราคาสูงกว่า และย่าน 5 GHz มีระยะครอบคลุมสั้นกว่าเพราะสัญญาณทะลุผนังได้แย่กว่า จึงต้องใช้ AP มากกว่า → ต้นทุนสูงกว่า ไม่ใช่ถูกกว่า ⭐\n\n✅ ทำไม B ถูก: เหตุผลหลักในการเลือกใช้ 802.11a แทน 802.11b/g คือย่าน 5 GHz มีช่องสัญญาณที่ไม่ทับซ้อนกันจำนวนมาก เหมาะกับพื้นที่ที่ต้องติดตั้ง AP หนาแน่น\n\n❌ ทำไมข้ออื่นผิด:\nA. 802.11a ใช้ย่าน 5 GHz จึงไม่เข้ากันกับอุปกรณ์ 802.11b ที่ใช้ 2.4 GHz\nC. การรบกวนจากไมโครเวฟเกิดที่ย่าน 2.4 GHz ไม่ใช่ 5 GHz\nD. 802.11a มีต้นทุนรวมสูงกว่าเพราะระยะครอบคลุมสั้นกว่าจึงต้องใช้ AP มากขึ้น\n\n📗 จำไว้สอบ: 5 GHz = ช่องเยอะ เร็วกว่า รบกวนน้อย แต่ระยะสั้น | 2.4 GHz = ระยะไกล ทะลุผนังดี แต่มีแค่ 3 ช่องและถูกรบกวนง่าย',
+  },
+  {
+    id: 469,
+    kind: 'single',
+    prompt: 'When a site-to-site VPN is configured, which IPsec mode provides encapsulation and encryption of the entire original IP packet?',
+    options: [
+      { key: 'A', text: 'IPsec tunnel mode with AH' },
+      { key: 'B', text: 'IPsec transport mode with AH' },
+      { key: 'C', text: 'IPsec tunnel mode with ESP' },
+      { key: 'D', text: 'IPsec transport mode with ESP' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ต้องเลือกให้ถูกสองมิติพร้อมกัน: โหมด (tunnel/transport) และโปรโตคอล (AH/ESP)\n\n🔍 มิติที่ 1 — โหมด:\n• Tunnel mode ⭐ → ห่อ "แพ็กเก็ต IP เดิมทั้งใบ" (ทั้งส่วนหัวและข้อมูล) ไว้ข้างใน แล้วสร้างส่วนหัว IP ใหม่ครอบด้านนอก ⭐\n  → ที่อยู่ต้นทางและปลายทางเดิมถูกซ่อนไว้ทั้งหมด\n  → ใช้กับ site-to-site VPN ระหว่างอุปกรณ์เกตเวย์ ⭐\n• Transport mode → เข้ารหัสเฉพาะส่วนข้อมูล (payload) แต่ยังคงส่วนหัว IP เดิมไว้ → ที่อยู่ยังมองเห็นได้ ใช้กับการสื่อสารโฮสต์ถึงโฮสต์\n\n🔍 มิติที่ 2 — โปรโตคอล:\n• ESP (Encapsulating Security Payload, IP protocol 50) ⭐ → ให้ทั้งการเข้ารหัส (confidentiality), ความถูกต้อง (integrity) และการยืนยันตัวตน ⭐\n• AH (Authentication Header, IP protocol 51) → ให้ความถูกต้องและการยืนยันตัวตนเท่านั้น "ไม่มีการเข้ารหัส" ⭐ อีกทั้งยังใช้กับ NAT ไม่ได้เพราะครอบคลุมส่วนหัว IP ด้วย\n\n🎯 โจทย์ต้องการทั้ง "encapsulation" และ "encryption" ของแพ็กเก็ตเดิมทั้งใบ\n→ ต้องเป็น tunnel mode (ห่อทั้งใบ) + ESP (เข้ารหัสได้) ⭐\n\n🧩 โครงสร้างแพ็กเก็ตผลลัพธ์:\n[IP header ใหม่][ESP header][IP header เดิม + payload เดิม (ถูกเข้ารหัส)][ESP trailer][ESP auth]\n\n💡 ขั้นตอนสร้างอุโมงค์: IKE Phase 1 สร้างช่องทางจัดการที่ปลอดภัย (main mode 6 ข้อความ หรือ aggressive mode 3 ข้อความ) แล้ว IKE Phase 2 สร้าง IPsec SA สำหรับขนข้อมูลจริง\n\n✅ ทำไม C ถูก: tunnel mode ห่อแพ็กเก็ต IP เดิมทั้งใบไว้ในแพ็กเก็ตใหม่ และ ESP ทำการเข้ารหัสส่วนที่ถูกห่อนั้น จึงตอบโจทย์ทั้งการห่อหุ้มและการเข้ารหัส\n\n❌ ทำไมข้ออื่นผิด:\nA. AH ไม่เข้ารหัสข้อมูล ให้เพียงการยืนยันความถูกต้อง\nB. ผิดทั้งสองมิติ คือ transport ไม่ห่อทั้งใบ และ AH ไม่เข้ารหัส\nD. ESP เข้ารหัสได้ก็จริง แต่ transport mode ไม่ได้ห่อส่วนหัว IP เดิมเข้าไปด้วย\n\n📗 จำไว้สอบ: tunnel + ESP = site-to-site VPN | ESP = protocol 50 เข้ารหัสได้ | AH = protocol 51 ไม่เข้ารหัสและใช้กับ NAT ไม่ได้',
+  },
+  {
+    id: 470,
+    kind: 'single',
+    prompt: 'What does physical access control regulate?',
+    options: [
+      { key: 'A', text: 'access to specific networks based on business function' },
+      { key: 'B', text: 'access to servers to prevent malicious activity' },
+      { key: 'C', text: 'access to computer networks and file systems' },
+      { key: 'D', text: 'access to networking equipment and facilities' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — Physical access control ควบคุมการเข้าถึง "สถานที่และอุปกรณ์จริง" ไม่ใช่ทรัพยากรดิจิทัล ⭐\n\n🔍 ขอบเขตที่ครอบคลุม:\n• ห้องเซิร์ฟเวอร์ ศูนย์ข้อมูล และตู้แร็คอุปกรณ์เครือข่าย ⭐\n• ห้อง IDF/MDF และตู้สายสัญญาณ\n• ตัวอุปกรณ์เอง เช่น สวิตช์ เราเตอร์ ไฟร์วอลล์ สายและแพตช์พาเนล\n\n🛡️ มาตรการที่ใช้:\n• ประตูล็อก กุญแจ และตู้แร็คที่ล็อกได้\n• เครื่องอ่านบัตร คีย์การ์ด ระบบชีวมิติ\n• กล้องวงจรปิดและบันทึกการเข้าออก\n• เจ้าหน้าที่รักษาความปลอดภัย\n• Mantrap และ turnstile เพื่อกัน tailgating ⭐\n\n🎯 เหตุผลว่าทำไมจึงสำคัญมาก: ถ้าผู้โจมตีเข้าถึงอุปกรณ์ได้ทางกายภาพ มาตรการทางเทคนิคแทบทั้งหมดจะไร้ผล ⭐\n• เสียบสาย console เข้าเราเตอร์แล้วทำ password recovery ได้ในไม่กี่นาที\n• ถอดฮาร์ดดิสก์หรือเสียบ USB เพื่อคัดลอกข้อมูล\n• เสียบอุปกรณ์แปลกปลอมเข้าพอร์ตว่างเพื่อดักฟังทราฟฟิก\n→ วงการความปลอดภัยจึงมีคำกล่าวว่า "ถ้าคุมทางกายภาพไม่ได้ ก็ไม่มีความปลอดภัยใด ๆ เหลืออยู่" ⭐\n\n📊 เทียบกับตัวเลือกอื่นซึ่งล้วนเป็น logical access control:\n• การเข้าถึงเครือข่ายตามหน้าที่งาน → ทำด้วย VLAN, ACL, 802.1X, NAC\n• การเข้าถึงเซิร์ฟเวอร์ → ทำด้วย AAA, สิทธิ์ผู้ใช้, ไฟร์วอลล์\n• การเข้าถึงระบบไฟล์ → ทำด้วย NTFS permission หรือ ACL ของระบบไฟล์\n\n✅ ทำไม D ถูก: physical access control ทำหน้าที่จำกัดว่าใครเข้าถึงตัวอุปกรณ์เครือข่ายและสถานที่ติดตั้งได้ ซึ่งเป็นการป้องกันในมิติทางกายภาพ\n\n❌ ทำไมข้ออื่นผิด:\nA, B และ C ล้วนเป็นการควบคุมการเข้าถึงเชิงตรรกะ (logical access control) ที่ใช้กลไกทางซอฟต์แวร์และการยืนยันตัวตน ไม่ใช่การควบคุมทางกายภาพ\n\n📗 จำไว้สอบ: physical = ประตู กุญแจ บัตร กล้อง | logical = รหัสผ่าน ACL 802.1X สิทธิ์ผู้ใช้ | เข้าถึงกายภาพได้ = ยึดอุปกรณ์ได้',
+  },
+  {
+    id: 471,
+    kind: 'single',
+    prompt: 'On workstations running Microsoft Windows, which protocol provides the default gateway for the device?',
+    options: [
+      { key: 'A', text: 'DHCP' },
+      { key: 'B', text: 'STP' },
+      { key: 'C', text: 'SNMP' },
+      { key: 'D', text: 'DNS' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — DHCP ไม่ได้จ่ายแค่ที่อยู่ IP แต่จ่ายพารามิเตอร์เครือข่ายครบชุด ⭐\n\n🔍 ค่าที่ DHCP server ส่งมาให้ไคลเอนต์ (ระบุด้วยหมายเลข option):\n• IP address และ subnet mask (Option 1)\n• Default gateway → DHCP Option 3 ⭐ ← คำตอบของโจทย์\n• DNS server → Option 6\n• Domain name → Option 15\n• NTP server → Option 42\n• TFTP server → Option 66 (ใช้กับโทรศัพท์ IP)\n• Vendor-specific → Option 43 (ใช้บอก AP ว่า WLC อยู่ที่ไหน) ⭐\n• Lease time → Option 51\n\n🧩 ลำดับ DORA:\n1️⃣ Discover → ไคลเอนต์บรอดแคสต์หาเซิร์ฟเวอร์\n2️⃣ Offer → เซิร์ฟเวอร์เสนอ IP พร้อม option ทั้งหมด\n3️⃣ Request → ไคลเอนต์ยืนยันข้อเสนอ\n4️⃣ Acknowledgement → เซิร์ฟเวอร์ยืนยันการเช่า\n\n💡 ตรวจสอบบน Windows: พิมพ์ ipconfig /all จะเห็นบรรทัด Default Gateway พร้อมข้อมูลว่า DHCP Enabled เป็น Yes และมีวันหมดอายุของ lease ⭐\n\n💡 ถ้าไม่มีเซิร์ฟเวอร์ตอบ Windows จะตั้ง APIPA ในช่วง 169.254.0.0/16 ให้เอง ซึ่งจะ "ไม่มี default gateway" เลย เป็นสัญญาณชัดว่า DHCP มีปัญหา ⭐\n\n✅ ทำไม A ถูก: DHCP เป็นโปรโตคอลที่จ่ายทั้งที่อยู่ IP และค่า default gateway ให้เครื่องไคลเอนต์ผ่าน Option 3\n\n❌ ทำไมข้ออื่นผิด:\nB. STP ทำงานที่ชั้นที่ 2 บนสวิตช์เพื่อป้องกันลูป ไม่ได้จ่ายค่าให้โฮสต์\nC. SNMP ใช้เฝ้าดูและจัดการอุปกรณ์เครือข่าย\nD. DNS แปลงชื่อโดเมนเป็นที่อยู่ IP แต่ไม่ได้กำหนดเกตเวย์\n\n📗 จำไว้สอบ: Option 3 = default gateway | Option 6 = DNS | Option 43 = WLC | Option 66 = TFTP | DORA | UDP 67/68',
+  },
+  {
+    id: 472,
+    kind: 'single',
+    prompt: 'How are VLAN hopping attacks mitigated?',
+    options: [
+      { key: 'A', text: 'enable dynamic ARP inspection' },
+      { key: 'B', text: 'manually implement trunk ports and disable DTP' },
+      { key: 'C', text: 'activate all ports and place in the default VLAN' },
+      { key: 'D', text: 'configure extended VLANs' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — VLAN hopping มีสองรูปแบบและมาตรการป้องกันหลักคือการควบคุม trunk\n\n🔹 รูปแบบที่ 1: Switch Spoofing ⭐\n• ผู้โจมตีเสียบอุปกรณ์แล้วส่ง DTP frame ปลอมตัวเป็นสวิตช์ เพื่อเจรจาให้พอร์ตกลายเป็น trunk\n• เมื่อได้ trunk แล้วจะเห็นและส่งทราฟฟิกของ "ทุก VLAN" ได้\n• ป้องกัน: กำหนดโหมดพอร์ตด้วยมือแทนการปล่อยให้เจรจา ⭐\n  – พอร์ตผู้ใช้: switchport mode access + switchport nonegotiate\n  – พอร์ต trunk จริง: switchport mode trunk + switchport nonegotiate ⭐\n\n🔹 รูปแบบที่ 2: Double Tagging\n• ผู้โจมตีติดแท็กสองชั้น ชั้นนอกเป็น native VLAN ชั้นในเป็น VLAN เป้าหมาย\n• ป้องกัน: เปลี่ยน native VLAN เป็น VLAN ที่ไม่ได้ใช้งาน และไม่ให้พอร์ตผู้ใช้อยู่ VLAN เดียวกับ native VLAN\n\n🎯 ตัวเลือก B ครอบคลุมมาตรการหลักคือ "กำหนด trunk เอง" และ "ปิด DTP" ซึ่งตัดช่องทางการเจรจาที่ผู้โจมตีใช้ ⭐\n\n📊 ตรวจตัวเลือกอื่น:\nA. Dynamic ARP Inspection ป้องกัน ARP spoofing คนละชนิดของการโจมตี\nC. การเปิดทุกพอร์ตและใส่ไว้ใน VLAN เริ่มต้น (VLAN 1) เป็นการทำ "ตรงข้าม" กับแนวปฏิบัติที่ดี ⭐ ควรปิดพอร์ตที่ไม่ใช้และหลีกเลี่ยง VLAN 1\nD. Extended VLAN คือช่วงหมายเลข 1006–4094 ซึ่งเป็นเรื่องขอบเขตหมายเลข ไม่เกี่ยวกับความปลอดภัย\n\n💡 มาตรการเสริมชุดเต็ม: ปิดพอร์ตที่ไม่ใช้แล้วย้ายเข้า black hole VLAN, จำกัด allowed VLAN บน trunk, ไม่ใช้ VLAN 1 ทำอะไรทั้งสิ้น\n\n✅ ทำไม B ถูก: การกำหนดพอร์ต trunk ด้วยมือและปิด DTP ทำให้ผู้โจมตีไม่สามารถเจรจาให้พอร์ตกลายเป็น trunk ได้ ซึ่งตัดต้นตอของ VLAN hopping แบบ switch spoofing\n\n❌ ทำไมข้ออื่นผิด:\nA. DAI ป้องกัน ARP spoofing ไม่ใช่ VLAN hopping\nC. การเปิดทุกพอร์ตและใช้ VLAN เริ่มต้นยิ่งเพิ่มความเสี่ยง\nD. Extended VLAN เป็นเรื่องช่วงหมายเลข VLAN ไม่ใช่มาตรการความปลอดภัย\n\n📗 จำไว้สอบ: switch spoofing → ปิด DTP + กำหนดโหมดเอง | double tagging → เปลี่ยน native VLAN | อย่าใช้ VLAN 1',
+  },
+  {
+    id: 473,
+    kind: 'multi',
+    prompt: 'Which two primary drivers support the need for network automation? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Eliminating training needs' },
+      { key: 'B', text: 'Increasing reliance on self-diagnostic and self-healing' },
+      { key: 'C', text: 'Policy-derived provisioning of resources' },
+      { key: 'D', text: 'Providing a single entry point for resource provisioning' },
+      { key: 'E', text: 'Reducing hardware footprint' },
+    ],
+    correct: ['C', 'D'],
+    explanation:
+      '📘 แนวคิด — แรงผลักดันหลักของ network automation คือความสม่ำเสมอและการรวมศูนย์\n\n🔹 C — Policy-derived provisioning of resources ⭐\n• แทนที่จะพิมพ์คำสั่งทีละบรรทัดบนอุปกรณ์แต่ละตัว ผู้ดูแลกำหนด "นโยบาย" ระดับสูงว่าต้องการอะไร\n• ระบบแปลงนโยบายนั้นเป็นคอนฟิกที่เหมาะกับอุปกรณ์แต่ละรุ่นเอง ⭐\n• ตัวอย่าง: กำหนดว่า "กลุ่มแขกเข้าถึงได้เฉพาะอินเทอร์เน็ต" แล้วระบบไปสร้าง VLAN, ACL และ SGT ให้เองทุกจุด\n• ผลลัพธ์: คอนฟิกสอดคล้องกันทั้งเครือข่ายและตรงกับเจตนาทางธุรกิจ (intent-based networking) ⭐\n\n🔹 D — Providing a single entry point for resource provisioning ⭐\n• มีจุดเดียวที่ใช้จัดการทุกอย่าง แทนที่จะต้อง SSH เข้าอุปกรณ์ทีละร้อยเครื่อง ⭐\n• ได้ทั้งความเร็ว ความถูกต้อง และมีบันทึกการเปลี่ยนแปลงในที่เดียว\n• ตัวอย่าง: Cisco DNA Center, Ansible Tower, controller ของ SDN\n\n📊 ทำไมตัวเลือกอื่นไม่ใช่:\nA. automation ไม่ได้ขจัดความจำเป็นในการฝึกอบรม ตรงกันข้าม ทีมต้องเรียนรู้ทักษะใหม่เพิ่ม เช่น Python, YAML, REST API, Git ⭐\nB. self-healing เป็นเป้าหมายปลายทางที่ก้าวหน้ากว่า ไม่ใช่แรงผลักดันพื้นฐานที่ทำให้องค์กรเริ่มทำ automation\nE. automation เป็นเรื่องของซอฟต์แวร์และกระบวนการ ไม่ได้ลดจำนวนฮาร์ดแวร์ที่ต้องใช้ (การลดฮาร์ดแวร์เป็นผลของ virtualization และ NFV มากกว่า) ⭐\n\n💡 ประโยชน์อื่นที่ควรจำ: ลดความผิดพลาดจากมนุษย์, ทำซ้ำได้เหมือนเดิมทุกครั้ง, ขยายตัวได้โดยไม่ต้องเพิ่มคนตามสัดส่วน, ตรวจสอบย้อนหลังได้ผ่านระบบควบคุมเวอร์ชัน\n\n✅ ทำไม C, D ถูก: การจัดเตรียมทรัพยากรจากนโยบายและการมีจุดจัดการเพียงจุดเดียวคือเหตุผลหลักที่องค์กรหันมาใช้ automation เพราะได้ทั้งความสม่ำเสมอและความเร็ว\n\n❌ ทำไมข้ออื่นผิด:\nA. ทีมงานยังต้องฝึกอบรม และต้องเรียนทักษะใหม่เพิ่มด้วย\nB. self-healing เป็นความสามารถขั้นสูงที่ตามมาทีหลัง ไม่ใช่แรงผลักดันหลัก\nE. automation ไม่ได้ลดปริมาณฮาร์ดแวร์ที่ต้องติดตั้ง\n\n📗 จำไว้สอบ: automation = สม่ำเสมอ, เร็ว, ลดข้อผิดพลาด, ขยายตัวได้, ตรวจสอบย้อนหลังได้ | เครื่องมือ: Ansible, Puppet, Chef, Python, REST API',
+  },
+  {
+    id: 474,
+    kind: 'single',
+    prompt: 'What is a function of the Cisco DNA Center Overall Health Dashboard?',
+    options: [
+      { key: 'A', text: 'It provides a summary of the top 10 global issues.' },
+      { key: 'B', text: 'It provides detailed activity logging for the 10 devices and users on the network.' },
+      { key: 'C', text: 'It summarizes the operational status of each wireless device on the network.' },
+      { key: 'D', text: 'It summarizes daily and weekly CPU usage for servers and workstations in the network.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — Overall Health Dashboard เป็นหน้าจอ "ภาพรวม" ในส่วน Assurance ของ Cisco DNA Center ⭐\n\n🔍 สิ่งที่หน้าจอนี้แสดง:\n• คะแนนสุขภาพรวมของเครือข่าย แยกเป็นสามมิติ: Network, Client และ Application ⭐\n• สรุปปัญหาสำคัญสูงสุด 10 รายการ (Top 10 Issues) ⭐ จัดลำดับตามความรุนแรงและจำนวนผู้ได้รับผลกระทบ\n• กราฟแนวโน้มย้อนหลังเพื่อดูว่าสุขภาพเครือข่ายดีขึ้นหรือแย่ลง\n• เจาะลึกลงไปดูรายละเอียดของแต่ละปัญหาได้ พร้อมคำแนะนำในการแก้ไข ⭐\n\n🎯 คุณค่าของการสรุป Top 10: ในเครือข่ายขนาดใหญ่อาจมีเหตุการณ์นับพันต่อวัน ⭐ การจัดลำดับให้เห็นสิบเรื่องที่กระทบมากที่สุดช่วยให้ทีมงานรู้ว่าควรลงมือแก้อะไรก่อน แทนที่จะจมอยู่กับกองข้อมูล\n\n🧩 สี่เสาหลักของ Cisco DNA Center:\n• Design → ผังไซต์และโปรไฟล์เครือข่าย\n• Policy → นโยบายจากเจตนาทางธุรกิจ\n• Provision → ผลักคอนฟิกอัตโนมัติ\n• Assurance ⭐ → เฝ้าดูสุขภาพและวิเคราะห์สาเหตุ ← หน้าจอนี้อยู่ในส่วนนี้\n\n📊 ตรวจตัวเลือกอื่น:\nB. Overall Health เป็นภาพรวมของทั้งเครือข่าย ไม่ใช่บันทึกกิจกรรมละเอียดของอุปกรณ์เพียง 10 เครื่อง\nC. หน้าจอนี้ครอบคลุมทั้งอุปกรณ์แบบมีสายและไร้สาย ไม่ได้จำกัดเฉพาะไร้สาย\nD. DNA Center จัดการอุปกรณ์เครือข่าย ไม่ได้เฝ้าดู CPU ของเซิร์ฟเวอร์และเครื่องผู้ใช้\n\n✅ ทำไม A ถูก: Overall Health Dashboard สรุปปัญหาสำคัญสูงสุดสิบรายการของทั้งเครือข่าย ช่วยให้ทีมงานจัดลำดับความสำคัญในการแก้ไขได้\n\n❌ ทำไมข้ออื่นผิด:\nB. ไม่ได้จำกัดที่ 10 อุปกรณ์และไม่ใช่บันทึกกิจกรรมโดยละเอียด\nC. ครอบคลุมทั้งเครือข่าย ไม่ใช่เฉพาะอุปกรณ์ไร้สาย\nD. ไม่ได้ติดตามการใช้ CPU ของเซิร์ฟเวอร์และเวิร์กสเตชัน\n\n📗 จำไว้สอบ: DNA Center = Design, Policy, Provision, Assurance | Assurance วัดสุขภาพ Network/Client/Application | Intent API = REST northbound',
+  },
+  {
+    id: 475,
+    kind: 'single',
+    prompt: 'Which protocol requires authentication to transfer a backup configuration file from a router to a remote server?',
+    options: [
+      { key: 'A', text: 'DTP' },
+      { key: 'B', text: 'FTP' },
+      { key: 'C', text: 'SMTP' },
+      { key: 'D', text: 'TFTP' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์คือ "requires authentication" ⭐\n\n🔹 FTP ⭐\n• ต้องระบุชื่อผู้ใช้และรหัสผ่านทุกครั้ง ⭐\n• ทำงานบน TCP พอร์ต 21 (control) และ 20 (data ในโหมด active)\n• เพราะใช้ TCP จึงมีการรับประกันว่าไฟล์ถึงครบทุกไบต์\n• บน Cisco IOS ตั้งค่าล่วงหน้าได้:\n  ip ftp username admin\n  ip ftp password cisco123\n  copy running-config ftp: ⭐\n\n🔹 TFTP\n• ไม่มีระบบยืนยันตัวตนใด ๆ เลย ⭐ ใครก็เชื่อมต่อได้ถ้ารู้ที่อยู่และชื่อไฟล์\n• ทำงานบน UDP พอร์ต 69 โปรโตคอลเรียบง่ายมาก\n• นิยมใช้เพราะสะดวก แต่ไม่ปลอดภัย\n\n📊 ตรวจตัวเลือกอื่น:\n• DTP → Dynamic Trunking Protocol ใช้เจรจาโหมด trunk ระหว่างสวิตช์ ไม่ใช่โปรโตคอลถ่ายโอนไฟล์เลย ⭐\n• SMTP → ใช้ส่งอีเมล (TCP 25) ไม่ใช่การสำรองคอนฟิก\n\n💡 ทางเลือกที่ปลอดภัยกว่าในงานจริง:\n• SCP → คัดลอกไฟล์ผ่าน SSH (TCP 22) มีทั้งการยืนยันตัวตนและการเข้ารหัส ⭐\n• SFTP → ระบบไฟล์ผ่าน SSH เข้ารหัสเช่นกัน\n• HTTPS → ก็ใช้ได้เช่นกัน\n→ FTP แม้จะต้องยืนยันตัวตน แต่ส่งรหัสผ่านเป็นข้อความธรรมดา จึงควรใช้ SCP แทนเมื่อทำได้\n\n✅ ทำไม B ถูก: FTP เป็นโปรโตคอลถ่ายโอนไฟล์ที่บังคับให้ต้องระบุชื่อผู้ใช้และรหัสผ่านก่อนจึงจะเข้าถึงเซิร์ฟเวอร์ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. DTP ใช้เจรจาโหมดพอร์ตระหว่างสวิตช์ ไม่ได้ถ่ายโอนไฟล์\nC. SMTP ใช้ส่งอีเมล ไม่ใช่การสำรองไฟล์คอนฟิก\nD. TFTP ไม่มีระบบยืนยันตัวตนเลย\n\n📗 จำไว้สอบ: FTP = TCP 20/21 มี auth | TFTP = UDP 69 ไม่มี auth | SCP/SFTP = SSH TCP 22 เข้ารหัส | SMTP = TCP 25',
+  },
+  {
+    id: 476,
+    kind: 'single',
+    prompt: 'Which QoS tool is used to optimize voice traffic on a network that is primarily intended for data traffic?',
+    options: [
+      { key: 'A', text: 'FIFO' },
+      { key: 'B', text: 'WFQ' },
+      { key: 'C', text: 'PQ' },
+      { key: 'D', text: 'WRED' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — เสียงมีข้อกำหนดที่เข้มงวดมากและต้องได้ออกจากคิว "ก่อน" ทราฟฟิกอื่นเสมอ ⭐\n\n📊 ข้อกำหนดของ VoIP ที่ต้องจำ:\n• Delay ทางเดียวต้องต่ำกว่า 150 มิลลิวินาที ⭐\n• Jitter (ความแปรปรวนของหน่วงเวลา) ต้องต่ำกว่า 30 มิลลิวินาที ⭐\n• Packet loss ต้องต่ำกว่า 1 เปอร์เซ็นต์ ⭐\n\n🔹 PQ (Priority Queuing) ⭐\n• มีสี่คิวตามลำดับความสำคัญ: high, medium, normal, low\n• คิวที่สูงกว่าต้อง "ว่างหมด" ก่อน คิวที่ต่ำกว่าจึงจะได้ส่ง ⭐\n• เมื่อจัดเสียงไว้ในคิว high ทราฟฟิกเสียงจะถูกส่งออกก่อนข้อมูลเสมอ → ได้หน่วงเวลาต่ำที่สุด ⭐\n• ในเครือข่ายที่ทราฟฟิกส่วนใหญ่เป็นข้อมูลและมีเสียงเป็นส่วนน้อย นี่คือวิธีที่ตรงจุดที่สุด\n\n⚠️ ข้อควรระวังของ PQ: ถ้าคิว high มีทราฟฟิกไม่ขาดสาย คิวที่ต่ำกว่าอาจไม่ได้ส่งเลย (starvation) → ในทางปฏิบัติจึงนิยมใช้ LLQ ซึ่งคือ CBWFQ ที่มีคิวความสำคัญพร้อม policer จำกัดเพดานไว้ ⭐\n\n📊 เทียบกับตัวเลือกอื่น:\n• FIFO → คิวเดียวมาก่อนได้ก่อน เสียงจะติดอยู่หลังไฟล์ขนาดใหญ่ ทำให้หน่วงสูงและกระตุก ✘\n• WFQ → แบ่งแบนด์วิดท์อย่างเป็นธรรมตามโฟลว์ ช่วยได้บ้างแต่ไม่รับประกันหน่วงเวลาต่ำสำหรับเสียง ✘\n• WRED → อยู่ในหมวด congestion avoidance ทิ้งแพ็กเก็ตล่วงหน้าเพื่อกัน TCP global synchronization และไม่ควรใช้กับเสียงเลย เพราะ UDP ไม่ตอบสนองต่อการถูกทิ้ง ✘ ⭐\n\n✅ ทำไม C ถูก: PQ ให้ทราฟฟิกในคิวความสำคัญสูงถูกส่งออกก่อนเสมอ จึงรับประกันหน่วงเวลาต่ำให้กับเสียงในเครือข่ายที่มีทราฟฟิกข้อมูลเป็นหลัก\n\n❌ ทำไมข้ออื่นผิด:\nA. FIFO ไม่มีการจัดลำดับใด ๆ เสียงจะต้องรอต่อคิวหลังข้อมูล\nB. WFQ แบ่งอย่างเป็นธรรมแต่ไม่ให้ความสำคัญเสียงเป็นพิเศษ\nD. WRED เป็นกลไกทิ้งแพ็กเก็ตเชิงป้องกัน ไม่เหมาะกับเสียงที่วิ่งบน UDP\n\n📗 จำไว้สอบ: เสียง = delay < 150ms, jitter < 30ms, loss < 1% | PQ/LLQ ให้เสียงออกก่อน | WRED ใช้กับ TCP ไม่ใช่ UDP | เสียงมาร์กด้วย DSCP EF (46)',
+  },
+  {
+    id: 477,
+    kind: 'single',
+    prompt: 'Which action does the router take as it forwards a packet through the network?',
+    options: [
+      { key: 'A', text: 'The router encapsulates the original packet and then includes a tag that identifies the source router MAC address and transmits it transparently to the destination.' },
+      { key: 'B', text: 'The router encapsulates the source and destination IP addresses with the sending router IP address as the source and the neighbor IP address as the destination.' },
+      { key: 'C', text: 'The router replaces the original source and destination MAC addresses with the sending router MAC address as the source and neighbor MAC address as the destination.' },
+      { key: 'D', text: 'The router replaces the source and destination labels with the sending router interface label as a source and the next hop router label as a destination.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — กฎเหล็กของการส่งต่อแพ็กเก็ต: "IP ไม่เปลี่ยน MAC เปลี่ยนทุกฮอป" ⭐\n\n🔍 สิ่งที่เราเตอร์ทำในแต่ละฮอป:\n1️⃣ รับเฟรมเข้ามา แล้วถอดส่วนหัวชั้นที่ 2 ทิ้ง (de-encapsulate)\n2️⃣ อ่านที่อยู่ IP ปลายทางแล้วค้นตารางเส้นทางเพื่อหา next hop และอินเทอร์เฟซขาออก\n3️⃣ ลดค่า TTL ลง 1 แล้วคำนวณ checksum ของส่วนหัว IP ใหม่ ⭐ (ถ้า TTL เหลือ 0 จะทิ้งแพ็กเก็ตและส่ง ICMP time exceeded กลับ)\n4️⃣ ห่อส่วนหัวชั้นที่ 2 ใหม่: ⭐\n   • Source MAC = MAC ของอินเทอร์เฟซขาออกของเราเตอร์ตัวนี้ ⭐\n   • Destination MAC = MAC ของ next hop (ได้จากตาราง ARP)\n5️⃣ ส่งเฟรมออกไป\n\n🎯 สิ่งที่ "ไม่เปลี่ยน" ตลอดเส้นทาง:\n• Source IP และ Destination IP ของแพ็กเก็ตเดิม ⭐ (ยกเว้นเมื่อผ่าน NAT)\n• ข้อมูล payload\n\n💡 นี่คือเหตุผลที่ traceroute ทำงานได้: มันส่งแพ็กเก็ตด้วยค่า TTL 1, 2, 3 ไปเรื่อย ๆ ทำให้เราเตอร์แต่ละฮอปส่ง ICMP time exceeded กลับมา จึงเห็นเส้นทางทีละฮอป ⭐\n\n📊 ตรวจตัวเลือกอื่น:\nA. การห่อแพ็กเก็ตเดิมแล้วติดแท็กเป็นพฤติกรรมของอุโมงค์ (GRE, IPsec) ไม่ใช่การส่งต่อปกติ\nB. เราเตอร์ไม่แก้ที่อยู่ IP ต้นทางและปลายทาง (การเขียน IP ใหม่คือ NAT ซึ่งเป็นฟีเจอร์แยกต่างหาก) ⭐\nD. การสลับป้าย (label) เป็นการทำงานของ MPLS ไม่ใช่การส่งต่อ IP ปกติ ⭐\n\n✅ ทำไม C ถูก: ในทุกฮอปเราเตอร์จะเขียนส่วนหัวชั้นที่ 2 ใหม่ โดยใช้ MAC ของตัวเองเป็นต้นทางและ MAC ของ next hop เป็นปลายทาง ในขณะที่ที่อยู่ IP ยังคงเดิม\n\n❌ ทำไมข้ออื่นผิด:\nA. อธิบายพฤติกรรมของการทำอุโมงค์ ไม่ใช่การส่งต่อ IP ปกติ\nB. เราเตอร์ไม่เปลี่ยนที่อยู่ IP ในการส่งต่อปกติ การเปลี่ยน IP คือหน้าที่ของ NAT\nD. การสลับ label เป็นกลไกของ MPLS\n\n📗 จำไว้สอบ: IP ต้นทาง/ปลายทางคงเดิม | MAC เปลี่ยนทุกฮอป | TTL ลด 1 ทุกฮอป | NAT เท่านั้นที่เปลี่ยน IP',
+  },
+  {
+    id: 478,
+    kind: 'single',
+    prompt: 'Where is the interface between the control plane and data plane within the software-defined architecture?',
+    options: [
+      { key: 'A', text: 'control layer and the infrastructure layer' },
+      { key: 'B', text: 'application layer and the infrastructure layer' },
+      { key: 'C', text: 'application layer and the management layer' },
+      { key: 'D', text: 'control layer and the application layer' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — สถาปัตยกรรม SDN แบ่งเป็นสามชั้นซ้อนกัน\n\n🏗️ โครงสร้างจากบนลงล่าง:\n\n1️⃣ Application Layer → แอปพลิเคชันด้านเครือข่าย เช่น ระบบวิเคราะห์ ระบบบังคับใช้นโยบาย ระบบ orchestration\n    ↕ Northbound API (REST) ⭐\n2️⃣ Control Layer ⭐ → ที่ตั้งของ SDN controller ซึ่งรวม control plane ของทั้งเครือข่ายไว้ที่นี่\n    ↕ Southbound API (OpenFlow, NETCONF, RESTCONF) ⭐ ← จุดเชื่อมที่โจทย์ถาม\n3️⃣ Infrastructure Layer ⭐ → อุปกรณ์เครือข่ายจริง คือสวิตช์และเราเตอร์ที่ทำหน้าที่ data plane ส่งต่อแพ็กเก็ต\n\n🎯 วิเคราะห์คำถาม: control plane อยู่ที่ "control layer" ส่วน data plane อยู่ที่ "infrastructure layer" ⭐\n→ จุดเชื่อมระหว่างสองระนาบนี้จึงอยู่ระหว่าง control layer กับ infrastructure layer ซึ่งก็คือ southbound API นั่นเอง ⭐\n\n💡 หัวใจของ SDN: การ "แยก" control plane ออกจาก data plane ⭐\n• ในเครือข่ายดั้งเดิม ทั้งสองระนาบอยู่ในกล่องเดียวกัน แต่ละอุปกรณ์คิดเอง\n• ใน SDN control plane ถูกยกไปรวมศูนย์ที่ controller ที่มองเห็นภาพรวมทั้งเครือข่าย ส่วน data plane ยังคงอยู่ที่อุปกรณ์และรับคำสั่งลงมา ⭐\n\n📊 โปรโตคอล southbound ที่ควรจำ: OpenFlow (TCP 6653), NETCONF (SSH TCP 830), RESTCONF, OpFlex, gNMI\n\n✅ ทำไม A ถูก: control plane อยู่ที่ control layer และ data plane อยู่ที่ infrastructure layer จุดเชื่อมระหว่างสองระนาบจึงเป็นรอยต่อระหว่างสองชั้นนี้ผ่าน southbound API\n\n❌ ทำไมข้ออื่นผิด:\nB. ระหว่าง application layer กับ infrastructure layer ไม่มีการเชื่อมโดยตรง ทุกอย่างต้องผ่าน controller\nC. management layer ไม่ใช่ชั้นในโมเดลสามชั้นของ SDN\nD. รอยต่อระหว่าง control layer กับ application layer คือ northbound API ไม่ใช่จุดเชื่อมระหว่าง control plane กับ data plane\n\n📗 จำไว้สอบ: application → northbound (REST) → control → southbound (OpenFlow/NETCONF) → infrastructure ⭐',
+  },
+  {
+    id: 479,
+    kind: 'single',
+    prompt: 'A network analyst is tasked with configuring the date and time on a router using EXEC mode. The date must be set to 12:00am. Which command should be used?',
+    options: [
+      { key: 'A', text: 'clock timezone' },
+      { key: 'B', text: 'clock summer-time recurring' },
+      { key: 'C', text: 'clock summer-time date' },
+      { key: 'D', text: 'clock set' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์มีสองส่วน: "EXEC mode" และ "ตั้งวันที่และเวลา" ⭐\n\n🔍 คำสั่ง clock set ⭐\n• ใช้ในโหมด privileged EXEC (Router#) ไม่ใช่โหมด global config ⭐\n• ไวยากรณ์: clock set hh:mm:ss <วัน> <เดือน> <ปี>\n• ตัวอย่าง: Router# clock set 00:00:00 15 July 2026 ⭐ (เที่ยงคืนคือ 00:00:00 ในระบบ 24 ชั่วโมง)\n• ตรวจผลด้วย show clock\n\n📊 คำสั่ง clock ตัวอื่นซึ่งอยู่ในโหมด global config ทั้งหมด:\n• clock timezone <ชื่อ> <ชั่วโมงต่าง> → ตั้งเขตเวลา เช่น clock timezone ICT 7\n• clock summer-time <ชื่อ> recurring → ตั้งเวลาออมแสงแบบเกิดซ้ำตามกฎ\n• clock summer-time <ชื่อ> date → ตั้งเวลาออมแสงด้วยวันที่เจาะจง\n→ ทั้งสามตัวนี้ใช้ในโหมด config ไม่ใช่ EXEC และไม่ได้ "ตั้งวันเวลา" โดยตรง ⭐\n\n💡 ทำไมเวลาที่ถูกต้องจึงสำคัญมาก:\n• บันทึก syslog และ debug ต้องมี timestamp ที่เชื่อถือได้เพื่อไล่ลำดับเหตุการณ์ ⭐\n• ใบรับรองดิจิทัลตรวจสอบวันหมดอายุจากเวลาของอุปกรณ์\n• กลไกอย่าง Kerberos และการยืนยันตัวตนบางแบบอ่อนไหวต่อเวลาที่คลาดเคลื่อน\n\n💡 ในงานจริงควรใช้ NTP แทนการตั้งด้วยมือ: ntp server <IP> ทำให้อุปกรณ์ทั้งเครือข่ายมีเวลาตรงกันอัตโนมัติ (NTP ใช้ UDP 123) ⭐\n\n✅ ทำไม D ถูก: clock set เป็นคำสั่งเดียวในตัวเลือกที่ใช้ในโหมด privileged EXEC และตั้งค่าวันที่กับเวลาของอุปกรณ์ได้โดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nA. clock timezone ตั้งเขตเวลาและใช้ในโหมด global config\nB. clock summer-time recurring ตั้งเวลาออมแสงแบบเกิดซ้ำ ใช้ในโหมด config\nC. clock summer-time date ตั้งเวลาออมแสงด้วยวันที่เจาะจง ใช้ในโหมด config เช่นกัน\n\n📗 จำไว้สอบ: clock set = EXEC mode | clock timezone/summer-time = global config | NTP = UDP 123 ควรใช้ในงานจริง',
+  },
+  {
+    id: 480,
+    kind: 'single',
+    prompt: 'A network administrator is asked to configure VLANs 2, 3 and 4 for a new implementation. Some ports must be assigned to the new VLANs with unused remaining. Which action should be taken for the unused ports?',
+    options: [
+      { key: 'A', text: 'configure ports in the native VLAN' },
+      { key: 'B', text: 'configure ports in a black hole VLAN' },
+      { key: 'C', text: 'configure in a nondefault native VLAN' },
+      { key: 'D', text: 'configure ports as access ports' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — พอร์ตที่ไม่ได้ใช้งานคือช่องโหว่ด้านความปลอดภัย เพราะใครก็เสียบสายเข้ามาได้ ⭐\n\n🛡️ แนวปฏิบัติที่ดีที่สุดสำหรับพอร์ตที่ไม่ใช้ (ทำสามอย่างพร้อมกัน):\n1️⃣ ปิดพอร์ตด้วยคำสั่ง shutdown ⭐\n2️⃣ ย้ายไปอยู่ใน "black hole VLAN" (บางที่เรียก parking VLAN หรือ unused VLAN) ⭐\n   • เป็น VLAN ที่ไม่มี SVI, ไม่ถูกอนุญาตบน trunk ใด และไม่มีทางออกไปไหนเลย\n   • ต่อให้มีคนเสียบสายและเผลอเปิดพอร์ตไว้ อุปกรณ์นั้นก็จะติดอยู่ในซอยตันที่ไม่เชื่อมกับอะไรทั้งสิ้น ⭐\n3️⃣ ตั้งเป็น switchport mode access + switchport nonegotiate เพื่อกันไม่ให้ถูกเจรจาเป็น trunk\n\n🧩 คำสั่งตัวอย่าง:\ninterface range gi0/10 - 24\n switchport mode access\n switchport access vlan 999   ← black hole VLAN ⭐\n switchport nonegotiate\n shutdown\n\n⚠️ ทำไมห้ามใส่ไว้ใน native VLAN (ตัวเลือก A และ C):\n• native VLAN คือ VLAN ที่วิ่งบน trunk แบบไม่ติดแท็ก ⭐\n• การเอาพอร์ตผู้ใช้ไปอยู่ใน VLAN เดียวกับ native VLAN เปิดช่องให้เกิดการโจมตีแบบ double tagging VLAN hopping โดยตรง ⭐\n\n⚠️ ทำไมตัวเลือก D ไม่พอ: การตั้งเป็น access port อย่างเดียวโดยไม่ระบุ VLAN จะทำให้พอร์ตตกไปอยู่ VLAN 1 ซึ่งมักเป็น management VLAN → อันตรายมาก ⭐\n\n✅ ทำไม B ถูก: การย้ายพอร์ตที่ไม่ใช้ไปยัง black hole VLAN ทำให้อุปกรณ์ใดที่ถูกเสียบเข้ามาไม่สามารถติดต่อกับเครือข่ายส่วนใดได้เลย เป็นการกันความเสี่ยงตั้งแต่ต้นทาง\n\n❌ ทำไมข้ออื่นผิด:\nA. การใส่ไว้ใน native VLAN เพิ่มความเสี่ยงต่อการโจมตีแบบ double tagging\nC. การใช้ native VLAN ที่ไม่ใช่ค่าเริ่มต้นเป็นแนวปฏิบัติที่ดีสำหรับ "พอร์ต trunk" แต่ไม่ใช่วิธีจัดการพอร์ตที่ไม่ได้ใช้\nD. การตั้งเป็น access port เฉย ๆ โดยไม่ระบุ VLAN จะทำให้พอร์ตอยู่ใน VLAN 1 ซึ่งอันตราย\n\n📗 จำไว้สอบ: พอร์ตไม่ใช้ = shutdown + black hole VLAN + nonegotiate | อย่าใช้ VLAN 1 | native VLAN ควรเป็น VLAN ที่ไม่มีใครใช้',
+  },
+  {
+    id: 481,
+    kind: 'single',
+    image: v2q481,
+    prompt: 'Refer to the exhibit. Router R4 is dynamically learning the path to the server. If R4 is connected to R1 via OSPF Area 20, to R2 via BGP, and to R3 via EIGRP 777, which path is installed in the routing table of R4?',
+    options: [
+      { key: 'A', text: 'the path through R1, because the OSPF administrative distance is 110' },
+      { key: 'B', text: 'the path through R2, because the IBGP administrative distance is 200' },
+      { key: 'C', text: 'the path through R2 because the EBGP administrative distance is 20' },
+      { key: 'D', text: 'the path through R3, because the EIGRP administrative distance is lower than OSPF and BGP' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — เส้นทางไปยังปลายทางเดียวกันมาจากสามโปรโตคอล → เทียบ AD แล้วเลือกตัวที่ต่ำที่สุด\n\n🔍 ขั้นแรกต้องแยกให้ออกว่าเป็น eBGP หรือ iBGP:\n• R4 อยู่ใน BGP AS 65513\n• R2 อยู่ใน BGP AS 65512\n→ หมายเลข AS "ต่างกัน" → เป็น eBGP ⭐ (ถ้า AS เดียวกันจึงจะเป็น iBGP)\n\n📊 เปรียบเทียบ AD ของทั้งสามเส้นทาง:\n• เส้นทางผ่าน R1 (OSPF) → AD 110\n• เส้นทางผ่าน R2 (eBGP) → AD 20 ⭐ ต่ำที่สุด\n• เส้นทางผ่าน R3 (EIGRP) → AD 90\n→ 20 < 90 < 110 → eBGP ชนะ ⭐\n\n🎯 คำตอบคือเส้นทางผ่าน R2 เพราะ eBGP มี AD เท่ากับ 20 ⭐\n\n⚠️ กับดักสำคัญของข้อนี้: หลายคนจำว่า "BGP ช้าและอยู่ระดับอินเทอร์เน็ต จึงน่าจะแพ้ IGP"\n→ แต่ Cisco ตั้ง eBGP ไว้ที่ 20 ซึ่งต่ำกว่า IGP ทุกตัวโดยเจตนา ⭐ เพราะเส้นทาง eBGP มาจากการตกลงเชิงนโยบายระหว่างองค์กร จึงถือว่าน่าเชื่อถือสูง\n→ ในขณะที่ iBGP กลับมี AD สูงถึง 200 (สูงกว่า IGP ทุกตัว) เพื่อไม่ให้เส้นทางที่วนกลับมาภายใน AS แย่งตำแหน่งจาก IGP ⭐\n\n📊 ทบทวนตาราง AD:\nConnected 0 | Static 1 | eBGP 20 ⭐ | EIGRP 90 | OSPF 110 | IS-IS 115 | RIP 120 | EIGRP external 170 | iBGP 200\n\n✅ ทำไม C ถูก: เนื่องจาก R4 และ R2 อยู่คนละ AS การเชื่อมต่อจึงเป็น eBGP ซึ่งมี AD 20 ต่ำที่สุดในบรรดาสามเส้นทาง เส้นทางผ่าน R2 จึงถูกติดตั้งในตารางเส้นทาง\n\n❌ ทำไมข้ออื่นผิด:\nA. OSPF มี AD 110 สูงที่สุดในสามตัว\nB. หมายเลข AS ต่างกันจึงเป็น eBGP (AD 20) ไม่ใช่ iBGP (AD 200)\nD. EIGRP มี AD 90 ซึ่งต่ำกว่า OSPF จริง แต่ยังสูงกว่า eBGP ที่ 20\n\n📗 จำไว้สอบ: AS ต่างกัน = eBGP (AD 20) | AS เดียวกัน = iBGP (AD 200) | eBGP ชนะ IGP ทุกตัว',
+  },
+  {
+    id: 482,
+    kind: 'single',
+    prompt: 'Which HTTP status code is returned after a successful REST API request?',
+    options: [
+      { key: 'A', text: '200' },
+      { key: 'B', text: '301' },
+      { key: 'C', text: '404' },
+      { key: 'D', text: '500' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — รหัสสถานะ HTTP แบ่งเป็นห้ากลุ่มตามตัวเลขหลักแรก ⭐\n\n📊 กลุ่มของรหัสสถานะ:\n• 1xx Informational → กำลังดำเนินการ (เช่น 100 Continue)\n• 2xx Success ⭐ → สำเร็จ\n  – 200 OK ⭐ → คำขอสำเร็จ พร้อมส่งข้อมูลกลับใน body ⭐\n  – 201 Created → สร้างทรัพยากรใหม่สำเร็จ (มักตอบจาก POST)\n  – 204 No Content → สำเร็จแต่ไม่มีข้อมูลส่งกลับ (มักตอบจาก DELETE)\n• 3xx Redirection → ต้องไปที่อื่น (301 Moved Permanently, 302 Found)\n• 4xx Client Error → ไคลเอนต์ทำผิด\n  – 400 Bad Request → รูปแบบคำขอผิด\n  – 401 Unauthorized → ไม่ได้ยืนยันตัวตนหรือโทเค็นไม่ถูกต้อง ⭐\n  – 403 Forbidden → ยืนยันตัวตนแล้วแต่ไม่มีสิทธิ์\n  – 404 Not Found → ไม่พบทรัพยากรที่ระบุ\n• 5xx Server Error → เซิร์ฟเวอร์ทำงานผิดพลาด (500 Internal Server Error, 503 Service Unavailable)\n\n🎯 โจทย์ถามถึงคำขอที่ "สำเร็จ" → คำตอบมาตรฐานคือ 200 OK ⭐\n\n🧩 ตัวอย่างการเรียกจริง:\nGET /dna/intent/api/v1/network-device HTTP/1.1\n→ HTTP/1.1 200 OK\n   Content-Type: application/json\n   {"response": [{"hostname": "SW1", ...}]}\n\n💡 เคล็ดการไล่ปัญหา: ถ้าได้ 401 ให้ตรวจโทเค็นหรือข้อมูลยืนยันตัวตน, ถ้าได้ 404 ให้ตรวจ URL, ถ้าได้ 500 ปัญหาอยู่ฝั่งเซิร์ฟเวอร์ไม่ใช่ที่โค้ดของเรา ⭐\n\n✅ ทำไม A ถูก: รหัส 200 OK คือสถานะมาตรฐานที่เซิร์ฟเวอร์ตอบกลับเมื่อคำขอ REST API สำเร็จ\n\n❌ ทำไมข้ออื่นผิด:\nB. 301 หมายถึงทรัพยากรถูกย้ายไปที่อยู่ใหม่อย่างถาวร\nC. 404 หมายถึงหาทรัพยากรที่ร้องขอไม่พบ\nD. 500 หมายถึงเซิร์ฟเวอร์เกิดข้อผิดพลาดภายใน\n\n📗 จำไว้สอบ: 2xx สำเร็จ | 3xx เปลี่ยนเส้นทาง | 4xx ไคลเอนต์ผิด | 5xx เซิร์ฟเวอร์ผิด | 200 OK, 201 Created, 401 Unauthorized, 404 Not Found',
+  },
+  {
+    id: 483,
+    kind: 'single',
+    image: v2q483,
+    prompt: 'Refer to the exhibit. R5 is the current DR on the network, and R4 is the BDR. Their interfaces are flapping, so a network engineer wants the OSPF network to elect a different DR and BDR. Which set of configurations must the engineer implement?',
+    options: [
+      { key: 'A', text: 'R4: ip ospf priority 20 / R5: ip ospf priority 10' },
+      { key: 'B', text: 'R2: ip ospf priority 259 / R3: ip ospf priority 256' },
+      { key: 'C', text: 'R3: ip ospf priority 255 / R2: ip ospf priority 240' },
+      { key: 'D', text: 'R5: ip ospf priority 120 / R4: ip ospf priority 110' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ต้องตรวจสองเรื่อง: ① เลือก "เราเตอร์ตัวไหน" ให้ขึ้นเป็น DR/BDR ② ค่า priority ที่ใส่ "ถูกต้องตามช่วงหรือไม่"\n\n🔍 อ่านสถานการณ์จาก exhibit:\n• ผลลัพธ์ show ip ospf neighbor บน R3 แสดงว่า R5 (5.5.5.5) คือ DR และ R4 (4.4.4.4) คือ BDR\n• R1 และ R2 อยู่สถานะ 2WAY/DROTHER คือไม่ได้เป็นทั้ง DR และ BDR\n• ทุกตัวมี Priority = 1 เท่ากันหมด → การเลือกที่ผ่านมาตัดสินด้วย router ID ที่สูงกว่า (5.5.5.5 และ 4.4.4.4 สูงสุด) ⭐\n\n🎯 เป้าหมาย: ให้ R5 และ R4 ซึ่งอินเทอร์เฟซกระพริบเลิกเป็น DR/BDR แล้วให้ตัวอื่น (R1, R2, R3) ขึ้นมาแทน ⭐\n→ ต้องเพิ่ม priority ให้ R2 และ R3 ให้สูงกว่า 1 ⭐\n\n🧮 ข้อจำกัดสำคัญ: ค่า OSPF priority มีช่วง 0 ถึง 255 เท่านั้น ⭐\n• ค่า 0 = ไม่ขอเข้าร่วมการเลือกตั้งเลย (จะเป็น DROTHER ตลอด)\n• ค่า 255 = สูงสุดที่ใส่ได้\n\n📊 ตรวจทีละตัวเลือก:\n• A → ตั้ง priority ให้ R4 และ R5 ซึ่งเป็นตัวที่มีปัญหาอยู่แล้ว → ยิ่งตอกย้ำให้เป็น DR/BDR ต่อไป ✘\n• B → ค่า 259 และ 256 เกินขอบเขต 255 → IOS ปฏิเสธคำสั่ง ✘ ⭐\n• C → ตั้ง R3 = 255 และ R2 = 240 ทั้งคู่อยู่ในช่วงที่ถูกต้องและเป็นเราเตอร์คนละตัวกับที่มีปัญหา ✔ ⭐\n  → ผลลัพธ์: R3 กลายเป็น DR และ R2 กลายเป็น BDR\n• D → ตั้ง priority ให้ R5 และ R4 อีกเช่นกัน ✘\n\n⚠️ ข้อควรรู้เพิ่ม: การเลือก DR/BDR ของ OSPF "ไม่ยึดตำแหน่งคืน (non-preemptive)" ⭐ → หลังเปลี่ยน priority แล้วต้องสั่ง clear ip ospf process หรือให้อินเทอร์เฟซ down/up จึงจะเกิดการเลือกตั้งใหม่\n\n✅ ทำไม C ถูก: เป็นตัวเลือกเดียวที่ตั้งค่า priority ให้เราเตอร์ที่ไม่ได้มีปัญหา (R3 และ R2) และใช้ค่าที่อยู่ในช่วง 0–255 อย่างถูกต้อง\n\n❌ ทำไมข้ออื่นผิด:\nA. ตั้งค่าให้ R4 และ R5 ซึ่งเป็นตัวที่ต้องการเอาออกจากบทบาท DR/BDR\nB. ค่า 259 และ 256 เกินขอบเขตสูงสุดที่ 255\nD. ตั้งค่าให้ R5 และ R4 เช่นเดียวกัน จึงไม่แก้ปัญหา\n\n📗 จำไว้สอบ: OSPF priority 0–255 | ค่าเริ่มต้น 1 | 0 = ไม่เข้าร่วมเลือกตั้ง | สูงกว่าชนะ ถ้าเท่ากันดู router ID | DR/BDR ไม่ preempt',
+  },
+  {
+    id: 484,
+    kind: 'single',
+    prompt: 'What are network endpoints?',
+    options: [
+      { key: 'A', text: 'act as routers to connect a user to the service provider network' },
+      { key: 'B', text: 'a threat to the network if they are compromised' },
+      { key: 'C', text: 'support inter-VLAN connectivity' },
+      { key: 'D', text: 'enforce policies for campus-wide traffic going to the internet' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — endpoint คืออุปกรณ์ "ปลายทาง" ที่เชื่อมต่อเข้ามาในเครือข่ายเพื่อใช้บริการ ⭐\n\n🔍 ตัวอย่างของ endpoint:\n• คอมพิวเตอร์ตั้งโต๊ะและโน้ตบุ๊ก\n• สมาร์ตโฟนและแท็บเล็ต\n• เซิร์ฟเวอร์\n• เครื่องพิมพ์และโทรศัพท์ IP\n• กล้องวงจรปิดและอุปกรณ์ IoT ⭐\n\n🎯 มุมมองด้านความปลอดภัย: endpoint คือ "พื้นที่ผิวการโจมตี (attack surface)" ที่กว้างที่สุดขององค์กร ⭐\n• เป็นจุดที่ผู้ใช้คลิกลิงก์ฟิชชิ่ง เปิดไฟล์แนบที่ติดมัลแวร์ หรือเสียบ USB ที่ไม่รู้ที่มา\n• เมื่อ endpoint ถูกยึดครอง ผู้โจมตีจะได้ "ฐานที่มั่นภายในเครือข่าย" ซึ่งอยู่หลังไฟร์วอลล์แล้ว ⭐\n• จากนั้นจะเคลื่อนที่ไปด้านข้าง (lateral movement) เพื่อขโมยข้อมูลรับรอง ยกระดับสิทธิ์ และเข้าถึงเซิร์ฟเวอร์สำคัญ\n• อุปกรณ์ IoT อันตรายเป็นพิเศษ เพราะมักไม่มีการอัปเดตแพตช์และใช้รหัสผ่านเริ่มต้น ⭐\n\n🛡️ มาตรการป้องกันที่ควรจำ: โปรแกรมป้องกันมัลแวร์และ EDR, การจัดการแพตช์, 802.1X และ NAC, การเข้ารหัสดิสก์, ระบบ Cisco AMP for Endpoints และ Umbrella\n\n📊 ตรวจตัวเลือกอื่น:\nA. อุปกรณ์ที่เชื่อมผู้ใช้เข้ากับเครือข่ายผู้ให้บริการคือเราเตอร์ CPE ไม่ใช่ endpoint\nC. การเชื่อมต่อระหว่าง VLAN เป็นหน้าที่ของเราเตอร์หรือสวิตช์ชั้นที่ 3\nD. การบังคับใช้นโยบายกับทราฟฟิกที่ออกอินเทอร์เน็ตเป็นหน้าที่ของไฟร์วอลล์หรือพร็อกซี\n→ ทั้งสามตัวเลือกล้วนบรรยายบทบาทของ "อุปกรณ์โครงสร้างพื้นฐาน" ไม่ใช่ของอุปกรณ์ปลายทาง ⭐\n\n✅ ทำไม B ถูก: endpoint เป็นอุปกรณ์ปลายทางที่หากถูกเจาะได้จะกลายเป็นภัยคุกคามต่อเครือข่ายทั้งหมด เพราะผู้โจมตีจะมีฐานที่มั่นอยู่ภายในแล้ว\n\n❌ ทำไมข้ออื่นผิด:\nA. บทบาทเชื่อมต่อไปยังเครือข่ายผู้ให้บริการเป็นของเราเตอร์ ไม่ใช่ endpoint\nC. การเชื่อมต่อข้าม VLAN เป็นหน้าที่ของอุปกรณ์ชั้นที่ 3\nD. การบังคับใช้นโยบายทราฟฟิกออกอินเทอร์เน็ตเป็นหน้าที่ของไฟร์วอลล์\n\n📗 จำไว้สอบ: endpoint = อุปกรณ์ปลายทางที่ผู้ใช้ใช้งาน | เป็นพื้นที่ผิวการโจมตีหลัก | ป้องกันด้วย EDR, แพตช์, 802.1X, NAC',
+  },
+  {
+    id: 485,
+    kind: 'multi',
+    image: v2q485,
+    prompt: 'Refer to the exhibit. Which two prefixes are included in this routing table entry? (Choose two.)',
+    options: [
+      { key: 'A', text: '192.168.1.17' },
+      { key: 'B', text: '192.168.1.61' },
+      { key: 'C', text: '192.168.1.64' },
+      { key: 'D', text: '192.168.1.127' },
+      { key: 'E', text: '192.168.1.254' },
+    ],
+    correct: ['A', 'B'],
+    explanation:
+      '📘 แนวคิด — คำนวณช่วงที่อยู่ของ 192.168.1.0/26 แล้วดูว่าที่อยู่ใดตกอยู่ในช่วงนั้น\n\n🧮 คำนวณทีละขั้น:\n• /26 → subnet mask = 255.255.255.192\n• block size = 256 − 192 = 64 ⭐\n• ขอบเขตของแต่ละซับเน็ต: .0, .64, .128, .192\n• เครือข่าย 192.168.1.0/26 → ครอบช่วง 192.168.1.0 ถึง 192.168.1.63 ⭐\n  – network address = 192.168.1.0\n  – broadcast address = 192.168.1.63\n  – usable host = 192.168.1.1 ถึง 192.168.1.62 ⭐\n\n📊 ตรวจทีละตัวเลือก:\n• A. 192.168.1.17 → อยู่ในช่วง 1–62 ✔ ⭐\n• B. 192.168.1.61 → อยู่ในช่วง 1–62 ✔ ⭐\n• C. 192.168.1.64 → เป็น network address ของซับเน็ตถัดไป (192.168.1.64/26) ✘ ⭐\n• D. 192.168.1.127 → เป็น broadcast address ของซับเน็ตที่สอง ✘\n• E. 192.168.1.254 → อยู่ในซับเน็ตที่สี่ (192.168.1.192/26) ✘\n\n🎯 คำตอบคือ A และ B ⭐\n\n💡 เทคนิคทำเร็ว: หา block size ก่อน แล้วนับขอบเขตเป็นพหุคูณของ block size จากนั้นดูว่าที่อยู่ที่ถามตกอยู่ในกลุ่มใด\n\n📊 ตารางที่ควรจำ: /25→block 128 | /26→64 | /27→32 | /28→16 | /29→8 | /30→4 ⭐\n\n✅ ทำไม A, B ถูก: ทั้ง 192.168.1.17 และ 192.168.1.61 ตกอยู่ในช่วง 192.168.1.0 ถึง 192.168.1.63 ซึ่งเป็นขอบเขตของเครือข่าย 192.168.1.0/26\n\n❌ ทำไมข้ออื่นผิด:\nC. 192.168.1.64 เป็นที่อยู่เครือข่ายของซับเน็ตถัดไป จึงอยู่นอกช่วงนี้\nD. 192.168.1.127 อยู่ในซับเน็ต 192.168.1.64/26\nE. 192.168.1.254 อยู่ในซับเน็ต 192.168.1.192/26\n\n📗 จำไว้สอบ: block size = 256 − ค่า octet ของ mask | /26 = 4 ซับเน็ต ซับเน็ตละ 62 โฮสต์ | หา network และ broadcast ก่อนเสมอ',
+  },
+  {
+    id: 486,
+    kind: 'multi',
+    prompt: 'Which two components are needed to create an Ansible script that configures a VLAN on a switch? (Choose two.)',
+    options: [
+      { key: 'A', text: 'cookbook' },
+      { key: 'B', text: 'task' },
+      { key: 'C', text: 'playbook' },
+      { key: 'D', text: 'model' },
+      { key: 'E', text: 'recipe' },
+    ],
+    correct: ['B', 'C'],
+    explanation:
+      '📘 แนวคิด — คำศัพท์ของ Ansible ต้องแยกให้ขาดจากของ Chef และ Puppet\n\n🔹 คำศัพท์ของ Ansible ⭐\n• Playbook ⭐ → ไฟล์ YAML ที่บรรจุชุดคำสั่งอัตโนมัติทั้งหมด เป็นหน่วยหลักที่เรารัน ⭐\n• Play → หนึ่งบล็อกใน playbook ที่ระบุว่าจะทำอะไรกับโฮสต์กลุ่มใด\n• Task ⭐ → หน่วยการทำงานย่อยแต่ละขั้นภายใน play ซึ่งเรียกใช้โมดูลหนึ่งตัว ⭐\n• Module → โปรแกรมสำเร็จรูปที่ทำงานจริง เช่น ios_vlan, ios_config\n• Inventory → รายชื่ออุปกรณ์ที่จะไปจัดการ\n\n🧩 ตัวอย่าง playbook ที่สร้าง VLAN:\n---\n- name: Configure VLAN\n  hosts: switches\n  tasks: ⭐\n    - name: Create VLAN 10\n      ios_vlan:\n        vlan_id: 10\n        name: SALES\n        state: present\n→ เห็นได้ว่าต้องมีทั้ง playbook (ไฟล์ทั้งหมด) และ task (ขั้นตอนย่อย) ⭐\n\n📊 คำศัพท์ของเครื่องมืออื่นที่มาปนในตัวเลือก:\n• Cookbook และ Recipe → เป็นคำศัพท์ของ Chef ⭐ (recipe หลายตัวรวมกันเป็น cookbook)\n• Manifest → คำศัพท์ของ Puppet\n• Model → ไม่ใช่ศัพท์ของเครื่องมือเหล่านี้ (คำที่ใกล้เคียงคือ YANG data model ซึ่งใช้กับ NETCONF/RESTCONF) ⭐\n\n💡 ทบทวนคุณสมบัติ Ansible: agentless, ใช้ SSH (TCP 22), โมเดล push, เขียนด้วย Python, ไฟล์เป็น YAML ⭐\n\n✅ ทำไม B, C ถูก: สคริปต์ของ Ansible คือ playbook ที่เขียนด้วย YAML และภายในต้องมี task อย่างน้อยหนึ่งรายการที่เรียกโมดูลมาสร้าง VLAN\n\n❌ ทำไมข้ออื่นผิด:\nA. cookbook เป็นคำศัพท์ของ Chef\nD. model ไม่ใช่องค์ประกอบของสคริปต์ Ansible\nE. recipe เป็นคำศัพท์ของ Chef เช่นกัน\n\n📗 จำไว้สอบ: Ansible = playbook + play + task + module (YAML, SSH 22, agentless) | Chef = cookbook + recipe | Puppet = manifest',
+  },
+  {
+    id: 487,
+    kind: 'multi',
+    prompt: 'Which two events occur automatically when a device is added to Cisco DNA Center? (Choose two.)',
+    options: [
+      { key: 'A', text: 'The device is assigned to the Global site.' },
+      { key: 'B', text: 'The device is placed into the Unmanaged state.' },
+      { key: 'C', text: 'The device is placed into the Provisioned state.' },
+      { key: 'D', text: 'The device is placed into the Managed state.' },
+      { key: 'E', text: 'The device is assigned to the Local site.' },
+    ],
+    correct: ['A', 'D'],
+    explanation:
+      '📘 แนวคิด — เมื่ออุปกรณ์ถูกค้นพบและเพิ่มเข้า Cisco DNA Center สำเร็จ จะมีสองสิ่งเกิดขึ้นอัตโนมัติ\n\n🔹 A — ถูกกำหนดให้อยู่ที่ Global site ⭐\n• DNA Center จัดโครงสร้างไซต์เป็นลำดับชั้น: Global → Area → Building → Floor\n• Global คือรากของโครงสร้างซึ่งมีอยู่เสมอ ⭐\n• อุปกรณ์ที่เพิ่งเพิ่มเข้ามาและยังไม่ได้ระบุตำแหน่งจะถูกวางไว้ที่ Global ก่อน แล้วผู้ดูแลจึงย้ายไปยังอาคารหรือชั้นที่ถูกต้องภายหลัง ⭐\n\n🔹 D — ถูกจัดให้อยู่ในสถานะ Managed ⭐\n• หมายความว่า DNA Center เชื่อมต่อกับอุปกรณ์ได้สำเร็จ (ผ่าน SSH/SNMP/NETCONF ด้วยข้อมูลรับรองที่ให้ไว้)\n• เก็บข้อมูลรายละเอียดของอุปกรณ์เข้าฐานข้อมูลได้ครบ\n• พร้อมให้ผู้ดูแลสั่ง provision, ทำ software image management และเฝ้าดูผ่าน Assurance ⭐\n\n📊 ตรวจตัวเลือกอื่น:\nB. Unmanaged เป็นสถานะที่เกิดเมื่อ "ล้มเหลว" เช่น ข้อมูลรับรองผิดหรือเชื่อมต่อไม่ได้ ไม่ใช่ผลลัพธ์ปกติ ⭐\nC. Provisioned ต้องรอให้ผู้ดูแลสั่ง provision ก่อน ไม่ได้เกิดขึ้นเองทันทีที่เพิ่มอุปกรณ์ ⭐\nE. ไม่มีสิ่งที่เรียกว่า Local site ในโครงสร้างไซต์ของ DNA Center\n\n💡 ลำดับงานปกติ: Discovery → Inventory (สถานะ Managed, อยู่ที่ Global) → กำหนดไซต์ → Provision → Assurance เฝ้าดู ⭐\n\n✅ ทำไม A, D ถูก: อุปกรณ์ที่เพิ่มเข้ามาสำเร็จจะถูกวางไว้ที่ไซต์ Global ซึ่งเป็นรากของโครงสร้าง และเข้าสู่สถานะ Managed ที่แสดงว่าระบบติดต่อและจัดการได้แล้ว\n\n❌ ทำไมข้ออื่นผิด:\nB. Unmanaged เกิดเมื่อการเชื่อมต่อหรือข้อมูลรับรองมีปัญหา ไม่ใช่ผลลัพธ์ปกติ\nC. สถานะ Provisioned เกิดหลังจากผู้ดูแลสั่ง provision เท่านั้น\nE. ไม่มี Local site ในลำดับชั้นไซต์ของ DNA Center\n\n📗 จำไว้สอบ: ลำดับชั้นไซต์ = Global → Area → Building → Floor | Managed = ติดต่อได้ | Unmanaged = ล้มเหลว | Provisioned = สั่งแล้ว',
+  },
+  {
+    id: 488,
+    kind: 'single',
+    prompt: 'Which virtual MAC address is used by VRRP group 1?',
+    options: [
+      { key: 'A', text: '0050.0c05.ad81' },
+      { key: 'B', text: '0007.c061.bc01' },
+      { key: 'C', text: '0000.5E00.0101' },
+      { key: 'D', text: '0500.3976.6401' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — แต่ละ FHRP มีรูปแบบ virtual MAC เฉพาะตัวที่ต้องจำ ⭐\n\n📊 ตารางรูปแบบ virtual MAC:\n• HSRPv1 → 0000.0C07.ACxx ⭐ (xx = หมายเลขกลุ่มในเลขฐานสิบหก)\n• HSRPv2 → 0000.0C9F.Fxxx\n• VRRP → 0000.5E00.01xx ⭐ (xx = VRID หรือหมายเลขกลุ่มในเลขฐานสิบหก) ⭐\n• GLBP → 0007.B400.xxyy\n\n🧮 คำนวณสำหรับ VRRP group 1:\n• รูปแบบคือ 0000.5E00.01xx\n• หมายเลขกลุ่ม 1 → แปลงเป็นเลขฐานสิบหกสองหลักได้ 01\n→ virtual MAC = 0000.5E00.0101 ⭐ ✔\n\n💡 ที่มาของตัวเลข: 00-00-5E เป็นรหัส OUI ที่ IANA จองไว้ ⭐ ส่วน 00-01 ระบุว่าเป็นโปรโตคอล VRRP ตาม RFC 5798\n\n🧮 ตัวอย่างเพิ่มเติมเพื่อฝึกแปลง:\n• VRRP group 10 → 10 ในฐานสิบหกคือ 0A → 0000.5E00.010A\n• VRRP group 255 → FF → 0000.5E00.01FF\n• HSRP group 10 → 0000.0C07.AC0A\n\n📊 ทบทวนคุณสมบัติ VRRP อื่น: มาตรฐานเปิด RFC 5798, บทบาท master/backup, advertisement ทุก 1 วินาที ไปยังมัลติแคสต์ 224.0.0.18, preemption เปิดอยู่โดยค่าเริ่มต้น ⭐\n\n✅ ทำไม C ถูก: VRRP ใช้รูปแบบ virtual MAC เป็น 0000.5E00.01xx และเมื่อหมายเลขกลุ่มคือ 1 จึงได้ 0000.5E00.0101\n\n❌ ทำไมข้ออื่นผิด:\nA. 0050.0c05.ad81 ไม่ตรงกับรูปแบบของ FHRP ใดเลย\nB. 0007.c061.bc01 ขึ้นต้นด้วย 0007 ซึ่งใกล้เคียงรูปแบบของ GLBP แต่ไม่ใช่ของ VRRP\nD. 0500.3976.6401 ไม่ตรงกับรูปแบบมาตรฐานใด\n\n📗 จำไว้สอบ: HSRPv1 0000.0C07.ACxx | HSRPv2 0000.0C9F.Fxxx | VRRP 0000.5E00.01xx | GLBP 0007.B400.xxyy',
+  },
+  {
+    id: 489,
+    kind: 'multi',
+    image: v2q489,
+    prompt: 'Refer to the exhibit. Which two commands, when configured on router R1, fulfill these requirements? (Choose two.) Packets toward the entire network 2001:db8:23::/64 must be forwarded through router R2. Packets toward host 2001:db8:23::14 preferably must be forwarded through R3.',
+    options: [
+      { key: 'A', text: 'ipv6 route 2001:db8:23::/128 fd00:12::2' },
+      { key: 'B', text: 'ipv6 route 2001:db8:23::14/128 fd00:13::3' },
+      { key: 'C', text: 'ipv6 route 2001:db8:23::14/64 fd00:12::2' },
+      { key: 'D', text: 'ipv6 route 2001:db8:23::/64 fd00:12::2' },
+      { key: 'E', text: 'ipv6 route 2001:db8:23::14/64 fd00:12::2 200' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — โจทย์ต้องการสองเส้นทางที่ prefix ต่างกัน เพื่อใช้หลัก longest prefix match แยกทราฟฟิก ⭐\n\n🔍 ผังที่อยู่จาก exhibit:\n• R1 → fd00:12::1/64 (ไป R2) และ fd00:13::1/64 (ไป R3)\n• R2 → fd00:12::2/64 และเชื่อมกับเครือข่าย 2001:db8:23::/64\n• R3 → fd00:13::3/64 และเชื่อมกับเครือข่ายเดียวกัน โดยมีโฮสต์ 2001:db8:23::14/64 อยู่ฝั่งนี้\n\n🧩 ข้อกำหนดที่ 1: ทราฟฟิกไป "ทั้งเครือข่าย" 2001:db8:23::/64 ต้องผ่าน R2\n→ ipv6 route 2001:db8:23::/64 fd00:12::2 ⭐ (ตัวเลือก D)\n• prefix /64 ครอบทั้งซับเน็ต และ next hop คือ R2 ✔\n\n🧩 ข้อกำหนดที่ 2: ทราฟฟิกไป "โฮสต์เดียว" 2001:db8:23::14 ควรผ่าน R3\n→ ipv6 route 2001:db8:23::14/128 fd00:13::3 ⭐ (ตัวเลือก B)\n• /128 คือ host route ซึ่งเป็น prefix ที่ยาวที่สุดเท่าที่เป็นไปได้ ⭐\n• ตามหลัก longest prefix match เส้นทาง /128 จะชนะเส้นทาง /64 เสมอสำหรับที่อยู่นี้ ⭐\n• ไม่ต้องยุ่งกับ AD เลย เพราะ prefix ต่างกันจึงไม่ได้แข่งกัน ⭐\n\n🎯 ผลลัพธ์ที่ได้: ทราฟฟิกไปที่อยู่อื่นในซับเน็ตวิ่งผ่าน R2 ส่วนทราฟฟิกที่มุ่งไป ::14 โดยเฉพาะวิ่งผ่าน R3 ✔\n\n📊 ตรวจตัวเลือกที่ผิด:\nA. ใช้ /128 กับที่อยู่ 2001:db8:23:: ซึ่งไม่ใช่โฮสต์ที่โจทย์ระบุ (::14)\nC. ใช้ /64 กับที่อยู่โฮสต์ ทำให้ prefix ไม่ยาวพอที่จะชนะ และยัง next hop เป็น R2 ซึ่งผิดเจตนา\nE. ใช้ /64 เช่นกันและใส่ AD 200 ซึ่งเป็นการแก้ปัญหาผิดวิธี เพราะสิ่งที่ต้องการคือ prefix ที่ยาวกว่า ไม่ใช่ AD ที่ต่างกัน\n\n✅ ทำไม B, D ถูก: D สร้างเส้นทางระดับซับเน็ต /64 ผ่าน R2 ส่วน B สร้าง host route /128 ผ่าน R3 ซึ่งชนะด้วยหลัก longest prefix match เฉพาะกับโฮสต์นั้นตัวเดียว\n\n❌ ทำไมข้ออื่นผิด:\nA. ระบุที่อยู่ผิด ไม่ใช่โฮสต์ ::14 ตามโจทย์\nC. ใช้ prefix /64 กับที่อยู่โฮสต์และชี้ไป R2 ซึ่งไม่ตรงกับข้อกำหนดข้อที่สอง\nE. ใช้ /64 และพยายามแก้ด้วยค่า AD ซึ่งไม่ใช่กลไกที่เหมาะสมในกรณีนี้\n\n📗 จำไว้สอบ: IPv6 host route = /128 | longest prefix match ชนะ AD เสมอ | next hop ต้องเป็นเพื่อนบ้าน',
+  },
+  {
+    id: 490,
+    kind: 'single',
+    prompt: 'In software-defined architecture, which plane handles switching for traffic through a Cisco router?',
+    options: [
+      { key: 'A', text: 'Control' },
+      { key: 'B', text: 'Management' },
+      { key: 'C', text: 'Data' },
+      { key: 'D', text: 'Application' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "handles switching for traffic through a router" = การส่งต่อทราฟฟิกที่วิ่งผ่านตัวอุปกรณ์ ⭐\n\n🔹 Data plane (forwarding plane) ⭐\n• หน้าที่: ส่งต่อแพ็กเก็ตที่ "ผ่าน" อุปกรณ์ (transit traffic) ⭐\n• งานที่ทำจริง: ค้นตาราง FIB/CEF, เขียนส่วนหัวชั้นที่ 2 ใหม่, ลดค่า TTL, ตรวจ ACL, ทำ NAT, จัดคิว QoS\n• ทำงานด้วยฮาร์ดแวร์ ASIC เพื่อความเร็วสูงสุด และกระจายอยู่บนอุปกรณ์ทุกตัวเสมอ ⭐\n• แม้ในสถาปัตยกรรม SDN ระนาบนี้ก็ยังคงอยู่ที่อุปกรณ์ ไม่ถูกยกไปไว้ที่ controller ⭐\n\n🔹 Control plane\n• ตัดสินใจว่าเส้นทางควรเป็นอย่างไร: รันโปรโตคอลเราต์ติ้ง, STP, ARP, สร้าง RIB แล้วส่งลงมาเป็น FIB ให้ data plane ใช้\n• ทราฟฟิกที่ "ส่งถึงตัวอุปกรณ์เอง" เช่น hello ของ OSPF จะถูกยกขึ้นมาประมวลผลที่ระนาบนี้\n• ใน SDN ระนาบนี้ถูกรวมศูนย์ไปที่ controller ⭐\n\n🔹 Management plane\n• ช่องทางจัดการอุปกรณ์: SSH, Telnet, SNMP, syslog, NETCONF, RESTCONF\n\n🔹 Application plane\n• ชั้นบนสุดของ SDN ที่แอปพลิเคชันคุยกับ controller ผ่าน northbound API\n\n💡 หลักการแยกที่ใช้ได้เสมอ: ถ้าเป็นทราฟฟิกที่ "วิ่งผ่าน" อุปกรณ์ = data plane | ถ้าเป็นทราฟฟิกที่ "ส่งถึงตัว" อุปกรณ์ = control plane หรือ management plane ⭐\n\n✅ ทำไม C ถูก: data plane คือระนาบที่รับผิดชอบการสวิตช์และส่งต่อทราฟฟิกที่วิ่งผ่านเราเตอร์ไปยังปลายทาง\n\n❌ ทำไมข้ออื่นผิด:\nA. control plane ตัดสินใจเรื่องเส้นทาง แต่ไม่ได้ส่งต่อแพ็กเก็ตเอง\nB. management plane ใช้เข้าถึงและตั้งค่าอุปกรณ์\nD. application plane เป็นชั้นบนสุดของ SDN ที่แอปพลิเคชันทำงานอยู่\n\n📗 จำไว้สอบ: data = ส่งต่อ (ASIC, กระจาย) | control = ตัดสินใจ (รวมศูนย์ใน SDN) | management = จัดการ | ทราฟฟิกผ่าน = data, ทราฟฟิกถึงตัว = control',
+  },
+  {
+    id: 491,
+    kind: 'single',
+    prompt: 'Which level of severity must be set to get informational syslogs?',
+    options: [
+      { key: 'A', text: 'alert' },
+      { key: 'B', text: 'critical' },
+      { key: 'C', text: 'notice' },
+      { key: 'D', text: 'debug' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — กลไกสำคัญของ syslog: การตั้งระดับ N หมายถึง "ส่งข้อความตั้งแต่ระดับ 0 จนถึง N" ⭐\n\n📊 ทบทวนแปดระดับพร้อมชื่อเรียก:\n• 0 Emergency | 1 Alert | 2 Critical | 3 Error | 4 Warning | 5 Notification (notice) | 6 Informational ⭐ | 7 Debugging (debug) ⭐\n\n🎯 โจทย์ต้องการ "ให้ได้รับ informational syslogs" ซึ่งอยู่ที่ระดับ 6 ⭐\n→ ต้องตั้งระดับให้ครอบคลุมถึง 6 เป็นอย่างน้อย\n\n🧮 ตรวจทีละตัวเลือกโดยดูว่าครอบถึงระดับ 6 หรือไม่:\n• alert (1) → ครอบระดับ 0 ถึง 1 → ไม่ถึง 6 ✘\n• critical (2) → ครอบ 0 ถึง 2 → ไม่ถึง 6 ✘\n• notice (5) → ครอบ 0 ถึง 5 → "ยังขาด informational ที่ระดับ 6" ✘ ⭐\n• debug (7) → ครอบ 0 ถึง 7 → รวมระดับ 6 ด้วย ✔ ⭐\n\n🎯 ในบรรดาตัวเลือกที่ให้มา มีเพียง debug เท่านั้นที่ครอบคลุมระดับ informational ได้ ⭐\n\n⚠️ กับดักของข้อนี้: หลายคนเลือก notice เพราะเห็นว่าอยู่ใกล้ระดับ 6 ที่สุด — แต่ต้องจำว่า syslog ครอบคลุม "ตั้งแต่ 0 ถึงระดับที่ตั้ง" ⭐ การตั้งที่ 5 จึงไม่มีทางได้ข้อความระดับ 6 เลย\n\n💡 ข้อควรระวังในงานจริง: การตั้งระดับ debug (7) บนอุปกรณ์ที่ทำงานหนักจะสร้างข้อความมหาศาลและกิน CPU สูง ควรใช้เฉพาะช่วงไล่ปัญหาแล้วปรับกลับ ⭐\n\n✅ ทำไม D ถูก: การตั้งระดับเป็น debug (7) ทำให้อุปกรณ์ส่งข้อความตั้งแต่ระดับ 0 ถึง 7 ซึ่งรวมระดับ informational (6) เข้าไปด้วย เป็นตัวเลือกเดียวที่ทำได้\n\n❌ ทำไมข้ออื่นผิด:\nA. alert คือระดับ 1 ครอบคลุมเพียงระดับ 0 ถึง 1\nB. critical คือระดับ 2 ครอบคลุมระดับ 0 ถึง 2\nC. notice คือระดับ 5 ครอบคลุมถึงระดับ 5 เท่านั้น ยังไม่ถึง informational ที่ระดับ 6\n\n📗 จำไว้สอบ: 0 Emergency ถึง 7 Debugging | ตั้ง N = ได้ 0 ถึง N | informational = 6 | debugging = 7 | syslog UDP 514',
+  },
+  {
+    id: 492,
+    kind: 'single',
+    prompt: 'How does QoS optimize voice traffic?',
+    options: [
+      { key: 'A', text: 'by reducing bandwidth usage' },
+      { key: 'B', text: 'by reducing packet loss' },
+      { key: 'C', text: 'by differentiating voice and video traffic' },
+      { key: 'D', text: 'by increasing jitter' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ปัญหาสี่อย่างที่ทำลายคุณภาพเสียง และ QoS แก้ได้อย่างไร\n\n📊 ข้อกำหนดของ VoIP ที่ต้องจำ:\n• Delay ทางเดียวต่ำกว่า 150 มิลลิวินาที ⭐\n• Jitter ต่ำกว่า 30 มิลลิวินาที ⭐\n• Packet loss ต่ำกว่า 1 เปอร์เซ็นต์ ⭐\n• แบนด์วิดท์ประมาณ 8 ถึง 106 kbps ต่อสาย ขึ้นกับ codec\n\n🔍 QoS ช่วยอย่างไร:\n1️⃣ Classification & Marking → ระบุว่านี่คือทราฟฟิกเสียงแล้วมาร์กด้วย DSCP EF (46) ⭐\n2️⃣ Queuing (LLQ/PQ) → ให้เสียงออกจากคิวก่อนเสมอ → ลดทั้ง delay และ jitter\n3️⃣ ที่สำคัญที่สุด: เมื่อลิงก์คับคั่งและคิวเต็ม แพ็กเก็ตที่ไม่มีการจัดลำดับจะถูกทิ้ง (tail drop) ⭐\n   → LLQ จองแบนด์วิดท์และช่องคิวไว้ให้เสียงโดยเฉพาะ ทำให้แพ็กเก็ตเสียง "ไม่ถูกทิ้ง" แม้ลิงก์จะแน่น ⭐\n   → ผลลัพธ์ที่วัดได้ชัดที่สุดคือ packet loss ลดลง ⭐\n\n💡 ทำไม packet loss ถึงร้ายแรงกับเสียงเป็นพิเศษ: เสียงวิ่งบน UDP/RTP ซึ่ง "ไม่มีการส่งซ้ำ" ⭐ แพ็กเก็ตที่หายไปคือช่วงเสียงที่หายไปจริง ๆ ผู้ฟังจะได้ยินเสียงขาดหรือมีเสียงกระตุกทันที\n\n📊 ตรวจตัวเลือกอื่น:\nA. QoS ไม่ได้ลดปริมาณแบนด์วิดท์ที่เสียงใช้ ปริมาณนั้นถูกกำหนดโดย codec (การลดแบนด์วิดท์ทำได้ด้วยการเปลี่ยน codec หรือ cRTP ไม่ใช่ QoS)\nC. การแยกแยะทราฟฟิกเป็นเพียง "ขั้นตอนแรก" ของ QoS ไม่ใช่ผลลัพธ์ที่ทำให้เสียงดีขึ้น และการเทียบเสียงกับวิดีโอก็ไม่ใช่ประเด็นหลัก\nD. jitter ที่เพิ่มขึ้นคือสิ่งที่ทำให้เสียงแย่ลง QoS มีเป้าหมายลด jitter ไม่ใช่เพิ่ม ⭐\n\n✅ ทำไม B ถูก: QoS จัดลำดับและจองทรัพยากรให้ทราฟฟิกเสียงโดยเฉพาะ ทำให้แพ็กเก็ตเสียงไม่ถูกทิ้งเมื่อลิงก์คับคั่ง ซึ่งเป็นการปรับปรุงคุณภาพที่สำคัญที่สุดสำหรับ VoIP ที่วิ่งบน UDP\n\n❌ ทำไมข้ออื่นผิด:\nA. ปริมาณแบนด์วิดท์ที่เสียงใช้ถูกกำหนดโดย codec ไม่ใช่ QoS\nC. การจำแนกทราฟฟิกเป็นขั้นตอนหนึ่งของกระบวนการ ไม่ใช่ผลลัพธ์ที่ทำให้คุณภาพเสียงดีขึ้น\nD. jitter ที่เพิ่มขึ้นทำให้คุณภาพเสียงแย่ลง ซึ่งตรงข้ามกับเป้าหมายของ QoS\n\n📗 จำไว้สอบ: เสียง = delay < 150ms, jitter < 30ms, loss < 1% | DSCP EF = 46 | LLQ เหมาะกับเสียงที่สุด | RTP บน UDP ไม่มีการส่งซ้ำ',
+  },
+  {
+    id: 493,
+    kind: 'single',
+    image: v2q493,
+    prompt: 'Refer to the exhibit. What is the metric of the route to the 192.168.10.33/28 subnet?',
+    options: [
+      { key: 'A', text: '84' },
+      { key: 'B', text: '110' },
+      { key: 'C', text: '128' },
+      { key: 'D', text: '192' },
+      { key: 'E', text: '193' },
+    ],
+    correct: ['E'],
+    explanation:
+      '📘 แนวคิด — ต้องหาบรรทัดที่ตรงกับปลายทางก่อน แล้วอ่านค่าในวงเล็บให้ถูกตำแหน่ง\n\n🔍 รูปแบบของค่าในวงเล็บคือ [AD/metric] ⭐\n• ตัวเลขตัวแรก = Administrative Distance\n• ตัวเลขตัวหลัง = metric ⭐ ← สิ่งที่โจทย์ถาม\n\n🧮 หาบรรทัดที่ตรงกับ 192.168.10.33/28:\n• /28 → block size = 256 − 240 = 16 → ขอบเขต .32, .48\n• 33 ตกอยู่ในกลุ่ม .32 → เครือข่ายคือ 192.168.10.32/28 ⭐\n\n🔍 ค้นในตารางเส้นทาง:\n• O IA 192.168.10.32/28 [110/193] via 192.168.30.10, Serial0/0.1 ⭐ ← ตรงกัน\n• O IA 192.168.10.0/27 [110/192] → คนละ prefix\n• O IA 192.168.20.0 [110/128] → คนละเครือข่าย\n• O*IA 0.0.0.0/0 [110/84] → default route\n\n🎯 อ่านค่า [110/193]:\n• 110 = AD ของ OSPF\n• 193 = metric (cost ของ OSPF) ⭐ ← คำตอบ\n\n⚠️ กับดักของข้อนี้: หลายคนตอบ 110 เพราะเป็นเลขตัวแรกที่เห็น — ต้องจำให้แม่นว่าตัวแรกคือ AD ส่วนตัวหลังต่างหากคือ metric ⭐\n\n💡 รหัส O IA หมายถึงเส้นทาง OSPF แบบ inter-area คือมาจาก area อื่นและถูกโฆษณาข้ามมาโดย ABR ผ่าน LSA ชนิดที่ 3 ⭐ ส่วนค่า cost 193 คือผลรวมของ cost ของทุกลิงก์ตลอดเส้นทางไปถึงปลายทาง\n\n✅ ทำไม E ถูก: เส้นทาง O IA 192.168.10.32/28 แสดงค่า [110/193] ซึ่งตัวเลขหลังเครื่องหมายทับคือ metric เท่ากับ 193\n\n❌ ทำไมข้ออื่นผิด:\nA. 84 เป็น metric ของ default route ไม่ใช่ของซับเน็ตที่ถาม\nB. 110 คือค่า AD ของ OSPF ไม่ใช่ metric\nC. 128 เป็น metric ของเส้นทางไป 192.168.20.0\nD. 192 เป็น metric ของเส้นทาง 192.168.10.0/27 ซึ่งเป็นคนละ prefix\n\n📗 จำไว้สอบ: [AD/metric] | O = OSPF ภายใน area | O IA = inter-area | O E1/E2 = external | * = candidate default',
+  },
+  {
+    id: 494,
+    kind: 'multi',
+    prompt: 'Which two protocols must be disabled to increase security for management connections to a Wireless LAN Controller? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Telnet' },
+      { key: 'B', text: 'SSH' },
+      { key: 'C', text: 'HTTP' },
+      { key: 'D', text: 'HTTPS' },
+      { key: 'E', text: 'TFTP' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '📘 แนวคิด — จัดกลุ่มโปรโตคอลจัดการเป็น "เข้ารหัส" กับ "ไม่เข้ารหัส" ⭐\n\n🔴 ต้องปิด เพราะไม่เข้ารหัส:\n• Telnet (TCP 23) ⭐ → ส่งชื่อผู้ใช้ รหัสผ่าน และทุกคำสั่งเป็นข้อความธรรมดา ⭐ ใครดักจับสายได้ก็อ่านได้ทันที\n• HTTP (TCP 80) ⭐ → เข้าหน้าเว็บจัดการแบบไม่เข้ารหัส ข้อมูลรับรองและค่าคอนฟิกทั้งหมดวิ่งเปลือย ⭐\n\n🟢 ควรเปิดไว้ เพราะเข้ารหัส:\n• SSH (TCP 22) → เข้ารหัสเซสชัน CLI ทั้งหมด ใช้แทน Telnet\n• HTTPS (TCP 443) → เข้ารหัสด้วย TLS ใช้แทน HTTP\n\n🟡 TFTP (UDP 69) → ไม่ใช่โปรโตคอลสำหรับ "จัดการการเชื่อมต่อ" แต่ใช้ถ่ายโอนไฟล์เฟิร์มแวร์และคอนฟิก ⭐ แม้จะไม่ปลอดภัยเช่นกัน แต่ไม่ใช่สิ่งที่โจทย์ถามถึงในบริบทของ management connection\n\n🧩 การตั้งค่าบน WLC: ไปที่ Management → HTTP-HTTPS แล้วตั้ง HTTP Access เป็น Disabled และ HTTPS Access เป็น Enabled ⭐ ส่วน Telnet และ SSH ตั้งที่ Management → Telnet-SSH\n\n💡 มาตรการเสริมที่ควรทำ: จำกัดเครือข่ายที่เข้าถึงหน้าจัดการได้ด้วย CPU ACL, ใช้ management interface แยกจากเครือข่ายผู้ใช้, เปิดใช้ TACACS+ หรือ RADIUS สำหรับยืนยันตัวตนผู้ดูแล, ปิด SNMPv1/v2c แล้วใช้ SNMPv3\n\n✅ ทำไม A, C ถูก: Telnet และ HTTP ต่างส่งข้อมูลรับรองและคำสั่งจัดการเป็นข้อความธรรมดา จึงต้องปิดแล้วใช้ SSH กับ HTTPS แทนเพื่อความปลอดภัย\n\n❌ ทำไมข้ออื่นผิด:\nB. SSH เป็นทางเลือกที่เข้ารหัสและควรเปิดใช้แทน Telnet\nD. HTTPS เข้ารหัสด้วย TLS และควรเปิดใช้แทน HTTP\nE. TFTP ใช้ถ่ายโอนไฟล์ ไม่ใช่โปรโตคอลสำหรับการเชื่อมต่อเพื่อจัดการอุปกรณ์\n\n📗 จำไว้สอบ: ปิด Telnet 23 และ HTTP 80 | เปิด SSH 22 และ HTTPS 443 | ใช้ SNMPv3 แทน v1/v2c',
+  },
+  {
+    id: 495,
+    kind: 'single',
+    prompt: 'Which function is performed by DHCP snooping?',
+    options: [
+      { key: 'A', text: 'propagates VLAN information between switches' },
+      { key: 'B', text: 'listens to multicast traffic for packet forwarding' },
+      { key: 'C', text: 'provides DDoS mitigation' },
+      { key: 'D', text: 'rate-limits certain traffic' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — DHCP snooping เป็นฟีเจอร์ความปลอดภัยชั้นที่ 2 ที่ทำงานสามอย่างหลัก\n\n🔍 หน้าที่ของ DHCP snooping:\n1️⃣ กรองข้อความ DHCP จากเซิร์ฟเวอร์ปลอม → ทิ้ง Offer, Ack, NAK ที่มาจากพอร์ต untrusted ⭐\n2️⃣ สร้าง binding database → บันทึกคู่ MAC, IP, VLAN, พอร์ต และ lease ของไคลเอนต์ที่ได้ IP มาอย่างถูกต้อง\n3️⃣ Rate limiting ⭐ → จำกัดจำนวนข้อความ DHCP ต่อวินาทีบนพอร์ต untrusted ⭐\n   • คำสั่ง: ip dhcp snooping limit rate <จำนวนต่อวินาที> ⭐\n   • ป้องกันการโจมตีแบบ DHCP starvation ที่ผู้โจมตียิง Discover ด้วย MAC ปลอมนับพันเพื่อดูด IP จาก pool จนหมด ⭐\n   • ถ้าเกินอัตราที่กำหนด พอร์ตจะถูกปิดเข้าสถานะ err-disabled\n\n🎯 ในบรรดาตัวเลือกที่ให้มา rate limiting คือหน้าที่ที่ตรงกับ DHCP snooping ⭐\n\n📊 ตรวจตัวเลือกอื่น:\nA. การเผยแพร่ข้อมูล VLAN ระหว่างสวิตช์คือหน้าที่ของ VTP ⭐ ไม่เกี่ยวกับ DHCP snooping เลย\nB. การฟังทราฟฟิกมัลติแคสต์เพื่อการส่งต่อคือหน้าที่ของ IGMP snooping ⭐ (ชื่อคล้ายกันมากจนสับสนได้ง่าย)\nC. การบรรเทา DDoS เป็นงานของไฟร์วอลล์และอุปกรณ์เฉพาะทาง แม้ rate limiting จะช่วยกัน DHCP starvation ได้ แต่นั่นเป็นการโจมตีคนละประเภทกับ DDoS\n\n💡 ระบบนิเวศความปลอดภัยที่ทำงานร่วมกัน: DHCP snooping สร้าง binding database → Dynamic ARP Inspection ใช้ตรวจ ARP กัน spoofing → IP Source Guard ใช้กรอง source IP ปลอม ⭐\n\n✅ ทำไม D ถูก: DHCP snooping รองรับการจำกัดอัตราข้อความ DHCP บนพอร์ต untrusted เพื่อป้องกันการโจมตีแบบ DHCP starvation\n\n❌ ทำไมข้ออื่นผิด:\nA. การซิงก์ข้อมูล VLAN ระหว่างสวิตช์คือหน้าที่ของ VTP\nB. การฟังมัลติแคสต์เพื่อส่งต่อคือหน้าที่ของ IGMP snooping\nC. การบรรเทา DDoS เป็นงานของไฟร์วอลล์หรืออุปกรณ์เฉพาะทาง\n\n📗 จำไว้สอบ: DHCP snooping = กรองเซิร์ฟเวอร์ปลอม + สร้าง binding database + rate limit | ทุกพอร์ตเริ่มต้นเป็น untrusted | DAI และ IP Source Guard ใช้ตารางนี้',
+  },
+  {
+    id: 496,
+    kind: 'single',
+    prompt: 'When a client and server are not on the same physical network, which device is used to forward requests and replies between client and server for DHCP?',
+    options: [
+      { key: 'A', text: 'DHCP relay agent' },
+      { key: 'B', text: 'DHCP server' },
+      { key: 'C', text: 'DHCPDISCOVER' },
+      { key: 'D', text: 'DHCPOFFER' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ปัญหาหลัก: DHCP Discover เป็นบรอดแคสต์ และเราเตอร์ไม่ส่งต่อบรอดแคสต์ข้ามซับเน็ต ⭐\n\n🔍 DHCP Relay Agent ทำงานอย่างไร:\n1️⃣ ไคลเอนต์บรอดแคสต์ DHCPDISCOVER (source 0.0.0.0, destination 255.255.255.255) ในซับเน็ตของตน\n2️⃣ เราเตอร์ที่เป็นเกตเวย์ของซับเน็ตนั้นและมีคำสั่ง ip helper-address ตั้งไว้ จะรับข้อความไว้ ⭐\n3️⃣ แปลงเป็นแพ็กเก็ต "ยูนิแคสต์" ส่งตรงไปยัง IP ของ DHCP server ⭐\n4️⃣ ใส่ IP ของอินเทอร์เฟซที่รับข้อความมาลงในฟิลด์ giaddr ⭐ → เซิร์ฟเวอร์จึงรู้ว่าไคลเอนต์อยู่ซับเน็ตใดและเลือก pool ที่ถูกต้อง\n5️⃣ เซิร์ฟเวอร์ตอบ DHCPOFFER กลับมาที่เราเตอร์ แล้วเราเตอร์ส่งต่อให้ไคลเอนต์\n6️⃣ ขั้นตอน Request และ Ack ก็ทำในลักษณะเดียวกันจนครบวงจร DORA\n\n🧩 คำสั่งที่ใช้ — ใส่บนอินเทอร์เฟซที่หันเข้าหาไคลเอนต์ ⭐:\ninterface gi0/1\n ip helper-address 10.50.50.10\n\n📊 ตรวจตัวเลือกอื่น:\nB. DHCP server เป็น "ปลายทาง" ที่รับคำขอและจ่าย IP ไม่ใช่ตัวที่ส่งต่อข้ามซับเน็ต\nC และ D. DHCPDISCOVER และ DHCPOFFER เป็น "ชื่อข้อความ" ในโปรโตคอล ไม่ใช่อุปกรณ์ ⭐ ซึ่งโจทย์ถามหา "device"\n\n💡 เกร็ด: ip helper-address ยังส่งต่อบรอดแคสต์ UDP อีก 7 บริการโดยปริยาย เช่น TFTP (69), DNS (53), TACACS (49), NetBIOS (137/138), TIME (37) → ปรับได้ด้วย ip forward-protocol udp\n\n✅ ทำไม A ถูก: DHCP relay agent คืออุปกรณ์ที่แปลงบรอดแคสต์ของไคลเอนต์เป็นยูนิแคสต์แล้วส่งต่อไปยังเซิร์ฟเวอร์ที่อยู่คนละเครือข่าย พร้อมส่งคำตอบกลับมาให้ไคลเอนต์\n\n❌ ทำไมข้ออื่นผิด:\nB. DHCP server เป็นผู้จ่าย IP ไม่ใช่ตัวกลางส่งต่อข้ามซับเน็ต\nC. DHCPDISCOVER เป็นชื่อข้อความในกระบวนการ ไม่ใช่อุปกรณ์\nD. DHCPOFFER ก็เป็นชื่อข้อความเช่นกัน\n\n📗 จำไว้สอบ: ip helper-address ใส่ที่อินเทอร์เฟซฝั่งไคลเอนต์ | giaddr บอกซับเน็ตของไคลเอนต์ | DORA | UDP 67/68',
+  },
+  {
+    id: 497,
+    kind: 'single',
+    prompt: 'Which plane is centralized by an SDN controller?',
+    options: [
+      { key: 'A', text: 'management-plane' },
+      { key: 'B', text: 'control-plane' },
+      { key: 'C', text: 'data-plane' },
+      { key: 'D', text: 'services-plane' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — หัวใจของ SDN คือการ "แยก control plane ออกจาก data plane" แล้วยก control plane ไปรวมศูนย์ ⭐\n\n🔍 เปรียบเทียบสองสถาปัตยกรรม:\n\n🔹 เครือข่ายแบบดั้งเดิม\n• อุปกรณ์แต่ละตัวมีทั้ง control plane และ data plane อยู่ในกล่องเดียวกัน\n• แต่ละตัวรันโปรโตคอลเราต์ติ้งและตัดสินใจเอง โดยเห็นภาพเฉพาะรอบตัว\n• การเปลี่ยนนโยบายต้องเข้าไปแก้ทีละเครื่อง\n\n🔹 สถาปัตยกรรม SDN ⭐\n• Control plane ถูกยกออกจากอุปกรณ์ไปรวมไว้ที่ controller ⭐\n• Controller มองเห็น "ภาพรวมทั้งเครือข่าย" จึงคำนวณเส้นทางและนโยบายได้ดีกว่าอุปกรณ์ที่เห็นแค่รอบตัว ⭐\n• Data plane ยังคงอยู่ที่อุปกรณ์และกระจายอยู่เสมอ เพราะการส่งต่อแพ็กเก็ตต้องเร็วระดับฮาร์ดแวร์ ⭐\n• Controller ผลักตารางการส่งต่อลงไปยังอุปกรณ์ผ่าน southbound API (OpenFlow, NETCONF, RESTCONF)\n\n🎯 ประโยชน์ของการรวมศูนย์: ตั้งนโยบายครั้งเดียวแล้วมีผลทั้งเครือข่าย, ปรับเส้นทางตามสถานการณ์ได้แบบไดนามิก, ทำ automation และรวมกับระบบอื่นได้ผ่าน northbound API ⭐\n\n📊 ตรวจตัวเลือกอื่น:\nA. management plane เป็นเรื่องช่องทางจัดการ (SSH, SNMP) ไม่ใช่ระนาบที่ SDN ยกไปรวมศูนย์เป็นแก่นหลัก\nC. data plane ยังคงกระจายอยู่ที่อุปกรณ์ ไม่ถูกรวมศูนย์ ⭐\nD. ไม่มีระนาบชื่อ services plane ในโมเดลมาตรฐาน\n\n✅ ทำไม B ถูก: SDN controller ทำหน้าที่รวมศูนย์ control plane ของทั้งเครือข่ายไว้ที่จุดเดียว เพื่อให้ตัดสินใจจากมุมมองภาพรวมและกำหนดนโยบายได้อย่างสอดคล้อง\n\n❌ ทำไมข้ออื่นผิด:\nA. management plane เป็นช่องทางจัดการอุปกรณ์ ไม่ใช่ระนาบที่เป็นแก่นของการรวมศูนย์ใน SDN\nC. data plane ยังคงต้องอยู่ที่อุปกรณ์แต่ละตัวเพื่อความเร็วในการส่งต่อ\nD. ไม่มีระนาบชื่อ services plane ในโมเดลสามระนาบมาตรฐาน\n\n📗 จำไว้สอบ: SDN = control รวมศูนย์ + data กระจาย | southbound = OpenFlow/NETCONF | northbound = REST API',
+  },
+  {
+    id: 498,
+    kind: 'drag',
+    image: v2q498,
+    prompt: 'Drag and drop the statements about networking from the left into the corresponding networking types on the right. Not all statements are used.',
+    categories: [
+      { name: 'Controller-based Networking', items: ['This type deploys a consistent configuration across multiple devices.', 'Southbound APIs are used to apply configurations.'] },
+      { name: 'Traditional Networking', items: ['A distributed control plane is needed.', 'This type requires a distributed management plane.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — เปรียบเทียบเครือข่ายแบบดั้งเดิมกับแบบใช้ controller\n\n🔹 Controller-based Networking (SDN) ⭐\n• "This type deploys a consistent configuration across multiple devices" ⭐\n  – ตั้งนโยบายครั้งเดียวที่ controller แล้วกระจายลงอุปกรณ์ทุกตัวโดยอัตโนมัติ\n  – ผลคือคอนฟิกเหมือนกันหมด ลดความผิดพลาดจากการพิมพ์ทีละเครื่อง ⭐\n• "Southbound APIs are used to apply configurations" ⭐\n  – controller ใช้ OpenFlow, NETCONF หรือ RESTCONF สั่งคอนฟิกลงไปยังอุปกรณ์ ⭐\n• control plane ถูกรวมศูนย์ไว้ที่ controller ส่วน data plane ยังกระจายอยู่ที่อุปกรณ์\n\n🔹 Traditional Networking ⭐\n• "A distributed control plane is needed" ⭐\n  – อุปกรณ์แต่ละตัวรันโปรโตคอลเราต์ติ้งเองและตัดสินใจเอง โดยเห็นภาพเฉพาะรอบตัว ⭐\n• "This type requires a distributed management plane" ⭐\n  – ต้อง SSH หรือ Telnet เข้าไปจัดการทีละอุปกรณ์ ไม่มีจุดควบคุมกลาง ⭐\n  – เมื่อมีอุปกรณ์นับร้อย การเปลี่ยนแปลงหนึ่งอย่างต้องทำซ้ำหลายร้อยครั้ง เสี่ยงต่อความไม่สอดคล้อง\n\n🔹 ตัวเลือกที่ไม่ถูกใช้: "Northbound APIs interact with end devices"\n→ เป็นข้อความที่ผิดข้อเท็จจริง ⭐ เพราะ northbound API เชื่อม controller กับ "แอปพลิเคชัน" ไม่ใช่กับอุปกรณ์ปลายทาง\n→ ตัวที่คุยกับอุปกรณ์คือ southbound API ⭐\n\n💡 สรุปวิธีจำ: controller-based = รวมศูนย์ สม่ำเสมอ ใช้ southbound API | traditional = กระจาย ทำทีละเครื่อง เสี่ยงไม่สอดคล้องกัน ⭐\n\n📗 จำไว้สอบ: northbound = แอปคุยกับ controller (REST) | southbound = controller คุยกับอุปกรณ์ (OpenFlow, NETCONF 830, RESTCONF)',
+  },
+  {
+    id: 499,
+    kind: 'drag',
+    image: v2q499,
+    prompt: 'An engineer is configuring an encrypted password for the enable command on a router where the local user database has already been configured. Drag and drop the configuration commands from the left into the correct sequence on the right. Not all commands are used.',
+    categories: [
+      { name: 'first', items: ['enable'] },
+      { name: 'second', items: ['configure terminal'] },
+      { name: 'third', items: ['enable secret $hf!@4fs'] },
+      { name: 'fourth', items: ['exit'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ลำดับการเข้าโหมดของ Cisco IOS ที่ต้องท่องให้ขึ้นใจ ⭐\n\n🔍 ลำดับโหมด:\n1️⃣ User EXEC (Router>) → โหมดเริ่มต้นเมื่อล็อกอินเข้ามา ทำได้จำกัดมาก\n   → พิมพ์ enable ⭐ เพื่อยกระดับสิทธิ์\n2️⃣ Privileged EXEC (Router#) → ดูสถานะได้ทุกอย่างและใช้คำสั่งบริหารได้\n   → พิมพ์ configure terminal ⭐ เพื่อเข้าโหมดตั้งค่า\n3️⃣ Global Configuration (Router(config)#) → ตำแหน่งที่พิมพ์คำสั่งตั้งค่าทั้งเครื่อง\n   → พิมพ์ enable secret $hf!@4fs ⭐ เพื่อตั้งรหัสผ่านแบบเข้ารหัส\n   → พิมพ์ exit ⭐ เพื่อออกกลับไปยังโหมดก่อนหน้า\n\n🔒 ทำไมต้องใช้ enable secret ไม่ใช่ enable password:\n• enable secret ⭐ → เข้ารหัสด้วยฟังก์ชันแฮชทางเดียว (MD5 แบบ type 5 หรือ SHA-256 แบบ type 8/9 ในรุ่นใหม่) → ถอดกลับไม่ได้ ⭐\n• enable password → เก็บเป็นข้อความธรรมดา หรือถ้าเปิด service password-encryption จะเข้ารหัสแบบ type 7 ซึ่งถอดกลับได้ในไม่กี่วินาที ⭐\n• ถ้าตั้งทั้งสองคำสั่ง อุปกรณ์จะใช้ enable secret เสมอ ⭐\n\n📊 คำสั่งที่ไม่ถูกใช้ในโจทย์นี้:\n• line vty 0 4 → ใช้ตั้งค่าสายสำหรับการเข้าถึงระยะไกล ซึ่งโจทย์ระบุว่าตั้งค่าฐานข้อมูลผู้ใช้ในเครื่องไว้แล้ว\n• service password-encryption → เข้ารหัสรหัสผ่านแบบ type 7 ในไฟล์คอนฟิก ซึ่งไม่จำเป็นเพราะ enable secret เข้ารหัสอยู่แล้วด้วยวิธีที่แข็งแรงกว่า ⭐\n\n📗 จำไว้สอบ: enable → configure terminal → enable secret → exit | secret แข็งแรงกว่า password | type 7 ถอดได้ | type 5/8/9 ถอดไม่ได้',
+  },
+  {
+    id: 500,
+    kind: 'drag',
+    image: v2q500,
+    prompt: 'Drag and drop the functions from the left onto the correct network components on the right.',
+    categories: [
+      { name: 'DHCP Server', items: ['assigns a default gateway to a client', 'holds the TCP/IP settings to be distributed to the clients', 'assigns IP addresses to enabled clients'] },
+      { name: 'DNS Server', items: ['resolves web URLs to IP addresses', 'stores a list of IP addresses mapped to names'] },
+    ],
+    explanation:
+      '📘 แนวคิด — แยกหน้าที่ของ DHCP กับ DNS ให้ขาด สองบริการนี้ทำงานคนละชั้นคนละจังหวะ\n\n🔹 DHCP Server ⭐ — ทำหน้าที่ "แจกค่าตั้งค่าเครือข่าย"\n• assigns IP addresses to enabled clients ⭐ → จ่ายที่อยู่ IP จาก pool ให้เครื่องที่ตั้งค่าไว้ให้ขอ IP อัตโนมัติ\n• assigns a default gateway to a client ⭐ → ส่งค่าเกตเวย์ผ่าน DHCP Option 3 ⭐\n• holds the TCP/IP settings to be distributed to the clients ⭐ → เก็บค่าทั้งชุดไว้ใน pool ได้แก่ subnet mask, gateway (Option 3), DNS server (Option 6), domain name (Option 15), NTP (Option 42), lease time (Option 51) ⭐\n• ทำงานบน UDP 67 (เซิร์ฟเวอร์) และ 68 (ไคลเอนต์) ผ่านกระบวนการ DORA ⭐\n\n🔹 DNS Server ⭐ — ทำหน้าที่ "แปลงชื่อเป็นที่อยู่"\n• resolves web URLs to IP addresses ⭐ → เช่น แปลง www.cisco.com เป็น 72.163.4.185\n• stores a list of IP addresses mapped to names ⭐ → เก็บเรกคอร์ดในโซนไฟล์ ได้แก่ A (IPv4), AAAA (IPv6), CNAME (ชื่อแทน), MX (เมล), NS (เนมเซิร์ฟเวอร์), PTR (ย้อนกลับ), SOA (ข้อมูลโซน) ⭐\n• ทำงานบนพอร์ต 53 ทั้ง UDP (คำถามทั่วไป) และ TCP (เมื่อคำตอบใหญ่เกิน 512 ไบต์ หรือทำ zone transfer) ⭐\n\n🧩 ลำดับเหตุการณ์จริงเมื่อผู้ใช้เปิดเว็บ:\n1️⃣ เครื่องบูตขึ้นมา → DHCP จ่าย IP, gateway และ "ที่อยู่ของ DNS server" ให้ ⭐\n2️⃣ ผู้ใช้พิมพ์ www.cisco.com → เครื่องถาม DNS server ที่ได้มาจาก DHCP\n3️⃣ DNS ตอบเป็นที่อยู่ IP\n4️⃣ เครื่องส่งแพ็กเก็ตไปยัง IP นั้นผ่าน default gateway ที่ DHCP ให้มา\n→ DHCP มาก่อน แล้ว DNS จึงทำงานได้ ⭐\n\n📗 จำไว้สอบ: DHCP = UDP 67/68, DORA, Option 3 gateway / 6 DNS / 43 WLC / 66 TFTP | DNS = พอร์ต 53, A/AAAA/CNAME/MX/NS/PTR/SOA',
   },
 ]
