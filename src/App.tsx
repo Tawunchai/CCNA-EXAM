@@ -146,7 +146,15 @@ function App() {
   const correctCount = statuses.filter((s) => s.checked && s.correct).length
 
   if (screen === 'start') {
-    return <StartScreen bank={bank} total={BANKS[bank].length} onBankChange={setBank} onStart={startQuiz} />
+    return (
+      <StartScreen
+        bank={bank}
+        total={BANKS[bank].length}
+        bankTotals={{ v1: BANKS.v1.length, v2: BANKS.v2.length }}
+        onBankChange={setBank}
+        onStart={startQuiz}
+      />
+    )
   }
 
   if (screen === 'summary') {

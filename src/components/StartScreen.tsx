@@ -3,18 +3,19 @@ export type BankId = 'v1' | 'v2'
 interface Props {
   bank: BankId
   total: number
+  bankTotals: Record<BankId, number>
   onBankChange: (bank: BankId) => void
   onStart: (count: number) => void
 }
 
 const OPTIONS = [20, 50, 100, 150]
 
-const BANKS: { id: BankId; label: string; note: string }[] = [
-  { id: 'v1', label: 'Version 1', note: '700 ข้อ' },
-  { id: 'v2', label: 'Version 2', note: '100 ข้อ' },
+const BANKS: { id: BankId; label: string }[] = [
+  { id: 'v1', label: 'Version 1' },
+  { id: 'v2', label: 'Version 2' },
 ]
 
-function StartScreen({ bank, total, onBankChange, onStart }: Props) {
+function StartScreen({ bank, total, bankTotals, onBankChange, onStart }: Props) {
   const counts = OPTIONS.filter((n) => n < total)
   return (
     <div className="start-screen">
@@ -37,7 +38,7 @@ function StartScreen({ bank, total, onBankChange, onStart }: Props) {
               onClick={() => onBankChange(b.id)}
             >
               <span className="bank-option-label">{b.label}</span>
-              <span className="bank-option-note">{b.note}</span>
+              <span className="bank-option-note">{bankTotals[b.id]} ข้อ</span>
             </button>
           ))}
         </div>
