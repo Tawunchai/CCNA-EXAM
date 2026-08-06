@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { QUESTIONS } from './data/questions'
 import { QUESTIONS_V2 } from './data/questionsV2'
+import { QUESTIONS_V3 } from './data/questionsV3'
 import { shuffle } from './utils/shuffle'
 import { gradeChoice, gradeDrag } from './utils/grade'
 import type { AnswerState, ChoiceQuestion, DragQuestion, Option, Question } from './types'
@@ -13,7 +14,7 @@ import SummaryScreen from './components/SummaryScreen'
 
 type Screen = 'start' | 'quiz' | 'summary'
 
-const BANKS: Record<BankId, Question[]> = { v1: QUESTIONS, v2: QUESTIONS_V2 }
+const BANKS: Record<BankId, Question[]> = { v1: QUESTIONS, v2: QUESTIONS_V2, v3: QUESTIONS_V3 }
 
 function emptyAnswer(q: Question): AnswerState {
   if (q.kind === 'drag') {
@@ -150,7 +151,7 @@ function App() {
       <StartScreen
         bank={bank}
         total={BANKS[bank].length}
-        bankTotals={{ v1: BANKS.v1.length, v2: BANKS.v2.length }}
+        bankTotals={{ v1: BANKS.v1.length, v2: BANKS.v2.length, v3: BANKS.v3.length }}
         onBankChange={setBank}
         onStart={startQuiz}
       />
@@ -181,7 +182,7 @@ function App() {
             <span className="app-title">
               CCNA 200-301 <span className="dot-cisco">●</span> Practice Exam
             </span>
-            <span className="bank-badge">{bank === 'v1' ? 'V1' : 'V2'}</span>
+            <span className="bank-badge">{bank.toUpperCase()}</span>
             <span className="progress-text">
               ข้อ {currentIndex + 1} / {quizQuestions.length}
             </span>

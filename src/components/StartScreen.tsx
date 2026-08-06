@@ -1,4 +1,4 @@
-export type BankId = 'v1' | 'v2'
+export type BankId = 'v1' | 'v2' | 'v3'
 
 interface Props {
   bank: BankId
@@ -13,6 +13,7 @@ const OPTIONS = [20, 50, 100, 150]
 const BANKS: { id: BankId; label: string }[] = [
   { id: 'v1', label: 'Version 1' },
   { id: 'v2', label: 'Version 2' },
+  { id: 'v3', label: 'Version 3' },
 ]
 
 function StartScreen({ bank, total, bankTotals, onBankChange, onStart }: Props) {
