@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { QUESTIONS } from './data/questions'
 import { QUESTIONS_V2 } from './data/questionsV2'
 import { QUESTIONS_V3 } from './data/questionsV3'
+import { DRAG_QUESTIONS } from './data/dragBank'
 import { shuffle } from './utils/shuffle'
 import { gradeChoice, gradeDrag } from './utils/grade'
 import type { AnswerState, ChoiceQuestion, DragQuestion, Option, Question } from './types'
@@ -14,7 +15,14 @@ import SummaryScreen from './components/SummaryScreen'
 
 type Screen = 'start' | 'quiz' | 'summary'
 
-const BANKS: Record<BankId, Question[]> = { v1: QUESTIONS, v2: QUESTIONS_V2, v3: QUESTIONS_V3 }
+const BANKS: Record<BankId, Question[]> = {
+  v1: QUESTIONS,
+  v2: QUESTIONS_V2,
+  v3: QUESTIONS_V3,
+  drag: DRAG_QUESTIONS,
+}
+
+const BANK_LABELS: Record<BankId, string> = { v1: 'V1', v2: 'V2', v3: 'V3', drag: 'DRAG' }
 
 function emptyAnswer(q: Question): AnswerState {
   if (q.kind === 'drag') {
@@ -151,7 +159,12 @@ function App() {
       <StartScreen
         bank={bank}
         total={BANKS[bank].length}
-        bankTotals={{ v1: BANKS.v1.length, v2: BANKS.v2.length, v3: BANKS.v3.length }}
+        bankTotals={{
+          v1: BANKS.v1.length,
+          v2: BANKS.v2.length,
+          v3: BANKS.v3.length,
+          drag: BANKS.drag.length,
+        }}
         onBankChange={setBank}
         onStart={startQuiz}
       />
@@ -180,9 +193,10 @@ function App() {
         <div className="app-header-bar">
           <div className="app-header-left">
             <span className="app-title">
-              CCNA 200-301 <span className="dot-cisco">●</span> Practice Exam
+              CCNA 200-301 <span className="dot-cisco">●</span>{' '}
+              {bank === 'drag' ? 'Drag-Drop Exam' : 'Practice Exam'}
             </span>
-            <span className="bank-badge">{bank.toUpperCase()}</span>
+            <span className="bank-badge">{BANK_LABELS[bank]}</span>
             <span className="progress-text">
               ข้อ {currentIndex + 1} / {quizQuestions.length}
             </span>

@@ -1,4 +1,4 @@
-export type BankId = 'v1' | 'v2' | 'v3'
+export type BankId = 'v1' | 'v2' | 'v3' | 'drag'
 
 interface Props {
   bank: BankId
@@ -18,11 +18,11 @@ const BANKS: { id: BankId; label: string }[] = [
 
 function StartScreen({ bank, total, bankTotals, onBankChange, onStart }: Props) {
   const counts = OPTIONS.filter((n) => n < total)
+  const isDrag = bank === 'drag'
+
   return (
     <div className="start-screen">
-      <span className="start-brand">
-        ● Cisco Certified · 200-301
-      </span>
+      <span className="start-brand">● Cisco Certified · 200-301</span>
       <h1>CCNA 200-301 Practice Exam</h1>
       <p className="subtitle">
         คลังข้อสอบฝึกซ้อม {total} ข้อ พร้อมรูป exhibit และเฉลยอธิบายละเอียดเป็นภาษาไทย — สุ่มลำดับข้อใหม่ทุกครั้ง
@@ -44,7 +44,27 @@ function StartScreen({ bank, total, bankTotals, onBankChange, onStart }: Props) 
           ))}
         </div>
 
-        <h2>เลือกจำนวนข้อที่ต้องการทำ</h2>
+        <h2>หรือฝึกเฉพาะข้อลากวาง</h2>
+        <button
+          className={`mode-btn${isDrag ? ' is-active' : ''}`}
+          aria-pressed={isDrag}
+          onClick={() => onBankChange('drag')}
+        >
+          <span className="mode-btn-icon" aria-hidden="true">
+            🧩
+          </span>
+          <span className="mode-btn-text">
+            <span className="mode-btn-label">Drag-Drop CCNA Exam</span>
+            <span className="mode-btn-note">
+              รวมข้อลากวางจากทั้ง 3 ชุด · {bankTotals.drag} ข้อ (เก็บข้อที่ซ้ำกันไว้ครบ)
+            </span>
+          </span>
+          <span className="mode-btn-check" aria-hidden="true">
+            {isDrag ? '✓' : ''}
+          </span>
+        </button>
+
+        <h2 className="mt-7">เลือกจำนวนข้อที่ต้องการทำ</h2>
         <div className="start-options">
           {counts.map((n) => (
             <button key={n} className="btn btn-outline" onClick={() => onStart(n)}>
@@ -56,9 +76,22 @@ function StartScreen({ bank, total, bankTotals, onBankChange, onStart }: Props) 
           </button>
         </div>
         <ul className="start-tips">
-          <li>เลือกคำตอบแล้วกด “ตรวจคำตอบ” เพื่อดูผลและคำอธิบายทันที ทีละข้อ</li>
-          <li>ข้อที่เฉลยต้นฉบับผิด จะมี “หมายเหตุ” ระบุคำตอบที่ถูกต้องตามหลัก CCNA</li>
-          <li>ใช้แผงนำทางด้านล่างกระโดดไปข้อใดก็ได้ และกด “ดูสรุปผล” เพื่อทบทวน</li>
+          {isDrag ? (
+            <>
+              <li>
+                โหมดนี้รวมข้อลากวางจาก Version 1, 2 และ 3 ไว้ทั้งหมด {bankTotals.drag} ข้อ — ข้อที่ซ้ำกันถูกเก็บไว้ครบ
+                เพราะแต่ละชุดใช้คำต่างกันและมีตัวลวงไม่เหมือนกัน
+              </li>
+              <li>ทุกข้อมีป้ายบอกที่มา เช่น “V2 #136” เพื่อให้ย้อนไปดูในชุดต้นทางได้</li>
+              <li>ลากชิปไปวางให้ครบทุกช่องก่อน ปุ่ม “ตรวจคำตอบ” จึงจะกดได้ (บนมือถือใช้วิธีแตะเลือกแล้วแตะกล่อง)</li>
+            </>
+          ) : (
+            <>
+              <li>เลือกคำตอบแล้วกด “ตรวจคำตอบ” เพื่อดูผลและคำอธิบายทันที ทีละข้อ</li>
+              <li>ข้อที่เฉลยต้นฉบับผิด จะมี “หมายเหตุ” ระบุคำตอบที่ถูกต้องตามหลัก CCNA</li>
+              <li>ใช้แผงนำทางด้านล่างกระโดดไปข้อใดก็ได้ และกด “ดูสรุปผล” เพื่อทบทวน</li>
+            </>
+          )}
         </ul>
       </div>
     </div>

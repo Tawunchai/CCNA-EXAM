@@ -44,7 +44,9 @@ function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
                 {status === 'bad' && '❌'}
                 {status === 'skip' && '⬜'}
                 <span>ข้อ {i + 1}</span>
-                <span className="review-origid">(#{q.id} ในต้นฉบับ)</span>
+                <span className="review-origid">
+                  {q.source ? `(${q.source})` : `(#${q.id} ในต้นฉบับ)`}
+                </span>
               </div>
               <div className="review-prompt">{q.prompt}</div>
             </div>

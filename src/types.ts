@@ -11,6 +11,12 @@ interface BaseQuestion {
   prompt: string
   image?: string
   explanation: string
+  /**
+   * Where the question came from, e.g. `V2 #136`. Set only by merged banks
+   * (see `data/dragBank.ts`) whose ids are re-keyed to stay unique; the
+   * per-version banks leave it undefined and fall back to showing `id`.
+   */
+  source?: string
 }
 
 export interface ChoiceQuestion extends BaseQuestion {

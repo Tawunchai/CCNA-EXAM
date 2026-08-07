@@ -117,6 +117,38 @@
     @apply rounded-md border border-brand-line bg-brand-soft px-2 py-0.5
            font-mono text-[11px] font-bold tracking-wide text-brand-ink;
   }
+
+  /* ── drag-drop exam mode button ────────────────────────── */
+  .mode-btn {
+    @apply mt-3 flex w-full cursor-pointer items-center gap-3.5 rounded-xl border-[1.5px]
+           border-dashed border-line-strong bg-paper px-4 py-3.5 text-left
+           transition-colors hover:border-brand hover:bg-brand-soft/40;
+  }
+  .mode-btn.is-active {
+    @apply border-solid border-brand bg-brand-soft;
+  }
+  .mode-btn-icon {
+    @apply grid size-10 shrink-0 place-items-center rounded-lg border border-line
+           bg-panel text-xl leading-none;
+  }
+  .mode-btn.is-active .mode-btn-icon {
+    @apply border-brand-line bg-paper;
+  }
+  .mode-btn-text {
+    @apply flex min-w-0 flex-col gap-0.5;
+  }
+  .mode-btn-label {
+    @apply text-[15px] font-bold text-ink;
+  }
+  .mode-btn.is-active .mode-btn-label {
+    @apply text-brand-ink;
+  }
+  .mode-btn-note {
+    @apply text-[13px] leading-snug text-body;
+  }
+  .mode-btn-check {
+    @apply ml-auto shrink-0 font-bold text-brand;
+  }
   .start-tips {
     @apply m-0 list-disc pl-5 text-sm leading-8 text-body marker:text-brand;
   }

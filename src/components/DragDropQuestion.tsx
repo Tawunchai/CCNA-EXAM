@@ -58,7 +58,7 @@ function DragDropQuestion({ question, pool, placement, checked, onPlace, onRemov
         </div>
       )}
       <div className="q-head">
-        <span className="qnum-badge">Q{question.id}</span>
+        <span className="qnum-badge">{question.source ?? `Q${question.id}`}</span>
         <span className="qkind-badge">Drag &amp; drop</span>
       </div>
       <p className="prompt">{question.prompt}</p>
