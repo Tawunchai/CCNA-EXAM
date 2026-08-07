@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import type { ChoiceQuestion, Option } from '../types'
 import { gradeChoice } from '../utils/grade'
 
@@ -8,9 +9,12 @@ interface Props {
   checked: boolean
   onToggle: (key: string) => void
   onCheck: () => void
+  /** Prev/next controls, rendered above the explanation so it stays reachable
+   *  without scrolling past a long feedback body. */
+  nav?: ReactNode
 }
 
-function QuestionCard({ question, options, selected, checked, onToggle, onCheck }: Props) {
+function QuestionCard({ question, options, selected, checked, onToggle, onCheck, nav }: Props) {
   const isMulti = question.kind === 'multi'
 
   function optionClass(opt: Option) {
@@ -56,11 +60,15 @@ function QuestionCard({ question, options, selected, checked, onToggle, onCheck 
         ))}
       </div>
 
-      {!checked ? (
+      {!checked && (
         <button className="btn btn-primary" disabled={selected.length === 0} onClick={onCheck}>
           ตรวจคำตอบ
         </button>
-      ) : (
+      )}
+
+      {nav}
+
+      {checked && (
         <div className={`feedback ${gradeChoice(question, selected) ? 'good' : 'bad'}`}>
           <div className="feedback-title">
             {gradeChoice(question, selected) ? '✅ ถูกต้อง!' : '❌ ยังไม่ถูก'}

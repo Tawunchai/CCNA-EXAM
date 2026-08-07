@@ -1,4 +1,4 @@
-import { useState, type DragEvent } from 'react'
+import { useState, type DragEvent, type ReactNode } from 'react'
 import type { DragQuestion } from '../types'
 
 interface Props {
@@ -9,9 +9,12 @@ interface Props {
   onPlace: (item: string, category: string) => void
   onRemove: (item: string) => void
   onCheck: () => void
+  /** Prev/next controls, rendered above the explanation so it stays reachable
+   *  without scrolling past a long feedback body. */
+  nav?: ReactNode
 }
 
-function DragDropQuestion({ question, pool, placement, checked, onPlace, onRemove, onCheck }: Props) {
+function DragDropQuestion({ question, pool, placement, checked, onPlace, onRemove, onCheck, nav }: Props) {
   const [pickedChip, setPickedChip] = useState<string | null>(null)
 
   const placedItems = new Set(Object.values(placement).flat())
@@ -116,11 +119,15 @@ function DragDropQuestion({ question, pool, placement, checked, onPlace, onRemov
         })}
       </div>
 
-      {!checked ? (
+      {!checked && (
         <button className="btn btn-primary" disabled={!allPlaced} onClick={onCheck}>
           ตรวจคำตอบ
         </button>
-      ) : (
+      )}
+
+      {nav}
+
+      {checked && (
         <div
           className={`feedback ${question.categories.every((c) => categoryStatus(c.name) === 'ok') ? 'good' : 'bad'}`}
         >

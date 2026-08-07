@@ -61,7 +61,7 @@
 @layer components {
   /* ── buttons ───────────────────────────────────────────── */
   .btn {
-    @apply cursor-pointer rounded-lg border-[1.5px] border-transparent px-[18px] py-2.5 text-[15px]
+    @apply cursor-pointer rounded-lg border-[1.5px] border-transparent px-4.5 py-2.5 text-[15px]
            font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50
            focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand;
   }
@@ -72,16 +72,16 @@
     @apply border-line-strong bg-paper text-ink hover:not-disabled:border-brand hover:not-disabled:text-brand-ink;
   }
   .btn-sm {
-    @apply px-3 py-[7px] text-[13px];
+    @apply px-3 py-1.75 text-[13px];
   }
 
   /* ── start screen ──────────────────────────────────────── */
   .start-screen {
-    @apply mx-auto w-full max-w-[680px] px-6 py-14;
+    @apply mx-auto w-full max-w-170 px-6 py-14;
   }
   .start-brand {
-    @apply mb-[18px] inline-flex items-center gap-2 rounded-full border border-brand-line
-           bg-brand-soft px-3 py-[5px] font-mono text-xs font-bold tracking-[1.5px]
+    @apply mb-4.5 inline-flex items-center gap-2 rounded-full border border-brand-line
+           bg-brand-soft px-3 py-1.25 font-mono text-xs font-bold tracking-[1.5px]
            text-brand-ink uppercase;
   }
   .subtitle {
@@ -161,7 +161,7 @@
     @apply sticky top-0 z-10 border-b border-line bg-paper/90 backdrop-blur-md backdrop-saturate-150;
   }
   .app-header-bar {
-    @apply mx-auto flex max-w-[1120px] flex-wrap items-center justify-between gap-3 px-8 py-3.5;
+    @apply mx-auto flex max-w-280 flex-wrap items-center justify-between gap-3 px-8 py-3.5;
   }
   .app-header-left {
     @apply flex items-baseline gap-3 text-ink;
@@ -186,13 +186,13 @@
     @apply inline-flex items-center gap-1.5 text-[13px] text-body tabular-nums;
   }
   .progress-track {
-    @apply h-[3px] bg-panel-2;
+    @apply h-0.75 bg-panel-2;
   }
   .progress-fill {
     @apply h-full bg-brand transition-[width] duration-300 ease-out;
   }
   .app-main {
-    @apply mx-auto w-full max-w-[1120px] flex-1 px-8 pt-8 pb-18;
+    @apply mx-auto w-full max-w-280 flex-1 px-8 pt-8 pb-18;
   }
 
   /* ── question card ─────────────────────────────────────── */
@@ -200,7 +200,7 @@
     @apply mb-5 rounded-2xl border border-line bg-paper p-6 shadow-card;
   }
   .exhibit {
-    @apply mb-[18px] overflow-hidden rounded-xl border border-line bg-white;
+    @apply mb-4.5 overflow-hidden rounded-xl border border-line bg-white;
   }
   .exhibit img {
     @apply block h-auto w-full;
@@ -209,11 +209,11 @@
     @apply mb-3 flex items-center gap-2.5;
   }
   .qnum-badge {
-    @apply inline-flex shrink-0 rounded-md bg-brand px-2.5 py-[3px] font-mono text-xs
+    @apply inline-flex shrink-0 rounded-md bg-brand px-2.5 py-0.75 font-mono text-xs
            font-bold tracking-wide text-white;
   }
   .qkind-badge {
-    @apply rounded-full border border-line-strong px-2 py-[2px] text-[11px] font-bold
+    @apply rounded-full border border-line-strong px-2 py-0.5 text-[11px] font-bold
            tracking-wider text-body uppercase;
   }
   .prompt {
@@ -246,7 +246,7 @@
     @apply pointer-events-none absolute opacity-0;
   }
   .opt-key {
-    @apply inline-flex size-[26px] shrink-0 items-center justify-center rounded-full
+    @apply inline-flex size-6.5 shrink-0 items-center justify-center rounded-full
            border-[1.5px] border-line-strong bg-panel-2 text-[13px] font-bold text-ink;
   }
   .opt.selected .opt-key {
@@ -259,10 +259,10 @@
     @apply border-err bg-err text-white;
   }
   .opt-text {
-    @apply flex-1 pt-[3px] font-mono text-[13.5px] leading-normal break-words whitespace-pre-wrap text-ink;
+    @apply flex-1 pt-0.75 font-mono text-[13.5px] leading-normal wrap-break-word whitespace-pre-wrap text-ink;
   }
   .mark {
-    @apply self-center rounded-md px-2 py-[3px] text-[11.5px] font-bold whitespace-nowrap;
+    @apply self-center rounded-md px-2 py-0.75 text-[11.5px] font-bold whitespace-nowrap;
   }
   .mark.ok {
     @apply bg-ok-soft text-ok;
@@ -273,7 +273,7 @@
 
   /* ── feedback / explanation ────────────────────────────── */
   .feedback {
-    @apply rounded-xl border border-l-[5px] px-5 py-[18px];
+    @apply rounded-xl border border-l-[5px] px-5 py-4.5;
   }
   .feedback.good {
     @apply border-ok bg-ok-soft;
@@ -291,12 +291,12 @@
     @apply overflow-x-auto font-mono text-[13.5px] leading-[1.9] whitespace-pre-wrap text-ink;
   }
   .option-notes {
-    @apply mt-2.5 list-disc pl-[18px] leading-7;
+    @apply mt-2.5 list-disc pl-4.5 leading-7;
   }
 
   /* ── drag & drop ───────────────────────────────────────── */
   .drag-pool {
-    @apply my-3.5 flex min-h-[52px] flex-wrap gap-2.5 rounded-xl border-[1.5px] border-dashed
+    @apply my-3.5 flex min-h-13 flex-wrap gap-2.5 rounded-xl border-[1.5px] border-dashed
            border-line-strong bg-panel p-3.5;
   }
   .pool-empty {
@@ -319,7 +319,7 @@
     @apply border-err bg-err-soft;
   }
   .drag-categories {
-    @apply mb-[18px] grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-3.5;
+    @apply mb-4.5 grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-3.5;
   }
   .drag-category {
     @apply min-h-24 rounded-xl border-[1.5px] border-line bg-panel p-3.5 transition-colors hover:border-brand-line;
@@ -334,15 +334,20 @@
     @apply mb-2.5 text-sm font-bold text-ink;
   }
   .drag-category-slots {
-    @apply flex min-h-[38px] flex-wrap gap-2;
+    @apply flex min-h-9.5 flex-wrap gap-2;
   }
   .correct-answer-note {
     @apply mt-2.5 border-t border-dashed border-line-strong pt-2 text-[12.5px] text-body;
   }
 
   /* ── navigation + navigator grid ───────────────────────── */
+  /* Lives inside .question-card, directly above the explanation — the divider
+     is what keeps it from reading as part of the answer options. */
   .nav-buttons {
-    @apply mb-6 flex justify-between gap-3;
+    @apply mt-6 flex justify-between gap-3 border-t border-dashed border-line pt-5;
+  }
+  .nav-buttons:not(:last-child) {
+    @apply mb-6;
   }
   .navigator {
     @apply border-t border-line pt-5;
@@ -393,7 +398,7 @@
 
   /* ── summary ───────────────────────────────────────────── */
   .summary-screen {
-    @apply mx-auto w-full max-w-[760px] px-6 pt-11 pb-16;
+    @apply mx-auto w-full max-w-190 px-6 pt-11 pb-16;
   }
   .summary-screen h1 {
     @apply mb-6 text-center;

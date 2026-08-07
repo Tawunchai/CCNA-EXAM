@@ -187,6 +187,33 @@ function App() {
 
   if (!current) return null
 
+  // Rendered inside the question card, above the explanation — a graded
+  // explanation runs long, and burying "next" under it made every question end
+  // with a scroll.
+  const navButtons = (
+    <div className="nav-buttons">
+      <button
+        className="btn btn-outline"
+        disabled={currentIndex === 0}
+        onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
+      >
+        ← ข้อก่อนหน้า
+      </button>
+      {currentIndex === quizQuestions.length - 1 ? (
+        <button className="btn btn-primary" onClick={() => setScreen('summary')}>
+          เสร็จสิ้น / ดูสรุปผล
+        </button>
+      ) : (
+        <button
+          className="btn btn-outline"
+          onClick={() => setCurrentIndex((i) => Math.min(quizQuestions.length - 1, i + 1))}
+        >
+          ข้อถัดไป →
+        </button>
+      )}
+    </div>
+  )
+
   return (
     <div className="app-shell">
       <header className="app-header">
@@ -229,6 +256,7 @@ function App() {
             onPlace={placeDragItem}
             onRemove={removeDragItem}
             onCheck={checkDrag}
+            nav={navButtons}
           />
         ) : (
           <QuestionCard
@@ -238,30 +266,9 @@ function App() {
             checked={currentAnswer.checked}
             onToggle={toggleChoice}
             onCheck={checkChoice}
+            nav={navButtons}
           />
         )}
-
-        <div className="nav-buttons">
-          <button
-            className="btn btn-outline"
-            disabled={currentIndex === 0}
-            onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
-          >
-            ← ข้อก่อนหน้า
-          </button>
-          {currentIndex === quizQuestions.length - 1 ? (
-            <button className="btn btn-primary" onClick={() => setScreen('summary')}>
-              เสร็จสิ้น / ดูสรุปผล
-            </button>
-          ) : (
-            <button
-              className="btn btn-outline"
-              onClick={() => setCurrentIndex((i) => Math.min(quizQuestions.length - 1, i + 1))}
-            >
-              ข้อถัดไป →
-            </button>
-          )}
-        </div>
 
         <Navigator statuses={statuses} currentIndex={currentIndex} onJump={setCurrentIndex} />
       </main>
