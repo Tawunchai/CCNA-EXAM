@@ -12,9 +12,12 @@ interface Props {
   /** Prev/next controls, rendered above the explanation so it stays reachable
    *  without scrolling past a long feedback body. */
   nav?: ReactNode
+  /** Mock-exam sitting: no per-question grading, so the check button is hidden
+   *  and answers stay editable until the whole paper is submitted. */
+  examMode?: boolean
 }
 
-function QuestionCard({ question, options, selected, checked, onToggle, onCheck, nav }: Props) {
+function QuestionCard({ question, options, selected, checked, onToggle, onCheck, nav, examMode }: Props) {
   const isMulti = question.kind === 'multi'
 
   function optionClass(opt: Option) {
@@ -60,7 +63,7 @@ function QuestionCard({ question, options, selected, checked, onToggle, onCheck,
         ))}
       </div>
 
-      {!checked && (
+      {!checked && !examMode && (
         <button className="btn btn-primary" disabled={selected.length === 0} onClick={onCheck}>
           ตรวจคำตอบ
         </button>

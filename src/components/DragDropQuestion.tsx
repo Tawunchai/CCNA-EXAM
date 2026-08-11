@@ -12,9 +12,22 @@ interface Props {
   /** Prev/next controls, rendered above the explanation so it stays reachable
    *  without scrolling past a long feedback body. */
   nav?: ReactNode
+  /** Mock-exam sitting: no per-question grading, so the check button is hidden
+   *  and chips stay movable until the whole paper is submitted. */
+  examMode?: boolean
 }
 
-function DragDropQuestion({ question, pool, placement, checked, onPlace, onRemove, onCheck, nav }: Props) {
+function DragDropQuestion({
+  question,
+  pool,
+  placement,
+  checked,
+  onPlace,
+  onRemove,
+  onCheck,
+  nav,
+  examMode,
+}: Props) {
   const [pickedChip, setPickedChip] = useState<string | null>(null)
 
   const placedItems = new Set(Object.values(placement).flat())
@@ -119,7 +132,7 @@ function DragDropQuestion({ question, pool, placement, checked, onPlace, onRemov
         })}
       </div>
 
-      {!checked && (
+      {!checked && !examMode && (
         <button className="btn btn-primary" disabled={!allPlaced} onClick={onCheck}>
           ตรวจคำตอบ
         </button>

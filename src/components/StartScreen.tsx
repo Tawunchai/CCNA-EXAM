@@ -1,3 +1,6 @@
+import { DOMAINS } from '../data/domains'
+import { EXAM_MINUTES, EXAM_POOL, EXAM_TOTAL } from '../data/examBuilder'
+
 export type BankId = 'v1' | 'v2' | 'v3' | 'drag'
 
 interface Props {
@@ -6,6 +9,7 @@ interface Props {
   bankTotals: Record<BankId, number>
   onBankChange: (bank: BankId) => void
   onStart: (count: number) => void
+  onStartExam: () => void
 }
 
 const OPTIONS = [20, 50, 100, 150]
@@ -16,7 +20,7 @@ const BANKS: { id: BankId; label: string }[] = [
   { id: 'v3', label: 'Version 3' },
 ]
 
-function StartScreen({ bank, total, bankTotals, onBankChange, onStart }: Props) {
+function StartScreen({ bank, total, bankTotals, onBankChange, onStart, onStartExam }: Props) {
   const counts = OPTIONS.filter((n) => n < total)
   const isDrag = bank === 'drag'
 
@@ -28,6 +32,32 @@ function StartScreen({ bank, total, bankTotals, onBankChange, onStart }: Props) 
         คลังข้อสอบฝึกซ้อม {total} ข้อ พร้อมรูป exhibit และเฉลยอธิบายละเอียดเป็นภาษาไทย — สุ่มลำดับข้อใหม่ทุกครั้ง
         (ตัวเลือกเรียง A → D คงที่) เฉลยผ่านการตรวจทานตามเนื้อหา CCNA จริง
       </p>
+      <div className="exam-cta">
+        <button className="exam-cta-btn" onClick={onStartExam}>
+          <span className="exam-cta-icon" aria-hidden="true">
+            🎯
+          </span>
+          <span className="exam-cta-text">
+            <span className="exam-cta-title">Start EXAM CCNA</span>
+            <span className="exam-cta-note">
+              จำลองสอบจริง {EXAM_TOTAL} ข้อ · {EXAM_MINUTES} นาที · สุ่มจาก V1–V3 ({EXAM_POOL.length} ข้อ)
+              <br />
+              ไม่เฉลยระหว่างสอบ — ตรวจและสรุปผลแยกตามหมวดเมื่อส่งข้อสอบ
+            </span>
+          </span>
+          <span className="exam-cta-go" aria-hidden="true">
+            →
+          </span>
+        </button>
+        <div className="exam-cta-weights">
+          {DOMAINS.map((d) => (
+            <span className="exam-weight-chip" key={d.id}>
+              <strong>{d.code}</strong> {d.name} <em>{d.weight}%</em>
+            </span>
+          ))}
+        </div>
+      </div>
+
       <div className="start-card">
         <h2>เลือกชุดข้อสอบ</h2>
         <div className="bank-switch">

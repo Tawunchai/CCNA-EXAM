@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { QUESTIONS } from './data/questions'
 import { QUESTIONS_V2 } from './data/questionsV2'
 import { QUESTIONS_V3 } from './data/questionsV3'
@@ -12,8 +12,14 @@ import QuestionCard from './components/QuestionCard'
 import DragDropQuestion from './components/DragDropQuestion'
 import Navigator from './components/Navigator'
 import SummaryScreen from './components/SummaryScreen'
+import ExamSummary from './components/ExamSummary'
+import { buildExam, EXAM_MINUTES } from './data/examBuilder'
+import type { DomainId } from './data/domains'
 
 type Screen = 'start' | 'quiz' | 'summary'
+type Mode = 'practice' | 'exam'
+
+const EXAM_SECONDS = EXAM_MINUTES * 60
 
 const BANKS: Record<BankId, Question[]> = {
   v1: QUESTIONS,
@@ -41,8 +47,10 @@ function formatTime(totalSeconds: number) {
 
 function App() {
   const [screen, setScreen] = useState<Screen>('start')
+  const [mode, setMode] = useState<Mode>('practice')
   const [bank, setBank] = useState<BankId>('v1')
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([])
+  const [examDomains, setExamDomains] = useState<DomainId[]>([])
   const [displayOptions, setDisplayOptions] = useState<Record<number, Option[]>>({})
   const [dragPools, setDragPools] = useState<Record<number, string[]>>({})
   const [answers, setAnswers] = useState<AnswerState[]>([])
@@ -55,8 +63,8 @@ function App() {
     return () => clearInterval(t)
   }, [screen])
 
-  function startQuiz(count: number) {
-    const picked = shuffle(BANKS[bank]).slice(0, count)
+  /** Shared setup for both modes: freeze option order, shuffle drag chips. */
+  function loadPaper(picked: Question[], domains: DomainId[], nextMode: Mode) {
     const opts: Record<number, Option[]> = {}
     const pools: Record<number, string[]> = {}
     picked.forEach((q) => {
@@ -68,7 +76,9 @@ function App() {
         opts[q.id] = (q as ChoiceQuestion).options
       }
     })
+    setMode(nextMode)
     setQuizQuestions(picked)
+    setExamDomains(domains)
     setDisplayOptions(opts)
     setDragPools(pools)
     setAnswers(picked.map(emptyAnswer))
@@ -77,9 +87,45 @@ function App() {
     setScreen('quiz')
   }
 
+  function startQuiz(count: number) {
+    loadPaper(shuffle(BANKS[bank]).slice(0, count), [], 'practice')
+  }
+
+  function startExam() {
+    const paper = buildExam()
+    loadPaper(paper.questions, paper.domains, 'exam')
+  }
+
   function restart() {
     setScreen('start')
   }
+
+  /**
+   * Exam mode withholds feedback while the paper is open, so grading happens
+   * once at the end: every answer is marked `checked` so the review screen can
+   * show the explanation the same way practice mode does.
+   */
+  const submitExam = useCallback(() => {
+    setAnswers((prev) =>
+      prev.map((a, i) => {
+        const q = quizQuestions[i]
+        if (!q) return a
+        if (q.kind === 'drag' && a.kind === 'drag') {
+          return { ...a, checked: true, correct: gradeDrag(q, a.placement) }
+        }
+        if (q.kind !== 'drag' && a.kind !== 'drag') {
+          return { ...a, checked: true, correct: gradeChoice(q, a.selected) }
+        }
+        return a
+      }),
+    )
+    setScreen('summary')
+  }, [quizQuestions])
+
+  // Hard stop when the clock runs out, exactly like the real sitting.
+  useEffect(() => {
+    if (screen === 'quiz' && mode === 'exam' && seconds >= EXAM_SECONDS) submitExam()
+  }, [screen, mode, seconds, submitExam])
 
   const current = quizQuestions[currentIndex]
   const currentAnswer = answers[currentIndex]
@@ -153,6 +199,9 @@ function App() {
 
   const answeredCount = statuses.filter((s) => s.checked).length
   const correctCount = statuses.filter((s) => s.checked && s.correct).length
+  // Exam mode gives no running score — only how much of the paper is filled in.
+  const filledCount = statuses.filter((s) => s.answered).length
+  const remaining = Math.max(0, EXAM_SECONDS - seconds)
 
   if (screen === 'start') {
     return (
@@ -167,21 +216,27 @@ function App() {
         }}
         onBankChange={setBank}
         onStart={startQuiz}
+        onStartExam={startExam}
       />
     )
   }
 
   if (screen === 'summary') {
-    return (
-      <SummaryScreen
+    const backToQuestion = (i: number) => {
+      setCurrentIndex(i)
+      setScreen('quiz')
+    }
+    return mode === 'exam' ? (
+      <ExamSummary
         questions={quizQuestions}
+        domains={examDomains}
         answers={answers}
+        elapsed={Math.min(seconds, EXAM_SECONDS)}
         onRestart={restart}
-        onReview={(i) => {
-          setCurrentIndex(i)
-          setScreen('quiz')
-        }}
+        onReview={backToQuestion}
       />
+    ) : (
+      <SummaryScreen questions={quizQuestions} answers={answers} onRestart={restart} onReview={backToQuestion} />
     )
   }
 
@@ -200,8 +255,8 @@ function App() {
         ← ข้อก่อนหน้า
       </button>
       {currentIndex === quizQuestions.length - 1 ? (
-        <button className="btn btn-primary" onClick={() => setScreen('summary')}>
-          เสร็จสิ้น / ดูสรุปผล
+        <button className="btn btn-primary" onClick={() => (mode === 'exam' ? submitExam() : setScreen('summary'))}>
+          {mode === 'exam' ? 'ส่งข้อสอบ / ตรวจผล' : 'เสร็จสิ้น / ดูสรุปผล'}
         </button>
       ) : (
         <button
@@ -221,21 +276,35 @@ function App() {
           <div className="app-header-left">
             <span className="app-title">
               CCNA 200-301 <span className="dot-cisco">●</span>{' '}
-              {bank === 'drag' ? 'Drag-Drop Exam' : 'Practice Exam'}
+              {mode === 'exam' ? 'Mock Exam' : bank === 'drag' ? 'Drag-Drop Exam' : 'Practice Exam'}
             </span>
-            <span className="bank-badge">{BANK_LABELS[bank]}</span>
+            <span className="bank-badge">{mode === 'exam' ? 'EXAM' : BANK_LABELS[bank]}</span>
             <span className="progress-text">
               ข้อ {currentIndex + 1} / {quizQuestions.length}
             </span>
           </div>
           <div className="app-header-right">
-            <span className="timer">⏱ {formatTime(seconds)}</span>
-            <span className="score-text">
-              ถูก <strong>{correctCount}</strong>/{answeredCount} ที่ตรวจแล้ว
-            </span>
-            <button className="btn btn-outline btn-sm" onClick={() => setScreen('summary')}>
-              ดูสรุปผล
-            </button>
+            {mode === 'exam' ? (
+              <>
+                <span className={`timer${remaining <= 300 ? ' is-urgent' : ''}`}>⏱ เหลือ {formatTime(remaining)}</span>
+                <span className="score-text">
+                  ตอบแล้ว <strong>{filledCount}</strong>/{quizQuestions.length}
+                </span>
+                <button className="btn btn-primary btn-sm" onClick={submitExam}>
+                  ส่งข้อสอบ
+                </button>
+              </>
+            ) : (
+              <>
+                <span className="timer">⏱ {formatTime(seconds)}</span>
+                <span className="score-text">
+                  ถูก <strong>{correctCount}</strong>/{answeredCount} ที่ตรวจแล้ว
+                </span>
+                <button className="btn btn-outline btn-sm" onClick={() => setScreen('summary')}>
+                  ดูสรุปผล
+                </button>
+              </>
+            )}
           </div>
         </div>
         <div className="progress-track">
@@ -257,6 +326,7 @@ function App() {
             onRemove={removeDragItem}
             onCheck={checkDrag}
             nav={navButtons}
+            examMode={mode === 'exam'}
           />
         ) : (
           <QuestionCard
@@ -267,6 +337,7 @@ function App() {
             onToggle={toggleChoice}
             onCheck={checkChoice}
             nav={navButtons}
+            examMode={mode === 'exam'}
           />
         )}
 

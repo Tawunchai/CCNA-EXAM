@@ -473,3 +473,151 @@
     animation: none !important;
   }
 }
+
+/* ─────────────────────────────────────────────────────────────
+   Mock-exam mode — the "Start EXAM CCNA" call to action, the
+   countdown urgency state, and the per-domain result breakdown.
+   ───────────────────────────────────────────────────────────── */
+.exam-cta {
+  @apply w-full max-w-3xl mb-6;
+}
+.exam-cta-btn {
+  @apply w-full flex items-center gap-4 text-left rounded-2xl px-6 py-5 cursor-pointer;
+  background: linear-gradient(135deg, var(--color-brand) 0%, var(--color-brand-ink) 100%);
+  border: 1px solid var(--color-brand-ink);
+  box-shadow: var(--shadow-pop);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.exam-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -10px rgb(10 111 181 / 0.5);
+}
+.exam-cta-btn:active {
+  transform: translateY(0);
+}
+.exam-cta-icon {
+  @apply text-3xl shrink-0;
+}
+.exam-cta-text {
+  @apply flex flex-col gap-1 min-w-0 flex-1;
+}
+.exam-cta-title {
+  @apply text-xl font-bold tracking-tight text-white;
+}
+.exam-cta-note {
+  @apply text-sm leading-relaxed;
+  color: rgb(255 255 255 / 0.86);
+}
+.exam-cta-go {
+  @apply text-2xl shrink-0 text-white;
+}
+.exam-cta-weights {
+  @apply flex flex-wrap gap-2 mt-3 justify-center;
+}
+.exam-weight-chip {
+  @apply text-xs rounded-full px-3 py-1 border;
+  background: var(--color-panel);
+  border-color: var(--color-line);
+  color: var(--color-body);
+}
+.exam-weight-chip strong {
+  color: var(--color-brand-ink);
+}
+.exam-weight-chip em {
+  @apply not-italic font-semibold;
+  color: var(--color-ink);
+}
+
+.timer.is-urgent {
+  color: var(--color-err);
+  font-weight: 700;
+}
+
+.exam-verdict {
+  @apply text-base font-bold rounded-full px-4 py-1.5 mb-1;
+}
+.exam-verdict.is-pass {
+  background: var(--color-ok-soft);
+  color: var(--color-ok);
+}
+.exam-verdict.is-fail {
+  background: var(--color-err-soft);
+  color: var(--color-err);
+}
+.exam-passnote {
+  @apply text-xs leading-relaxed max-w-md text-center mt-1 mb-3;
+  color: var(--color-body);
+}
+
+.domain-table {
+  @apply w-full max-w-3xl flex flex-col gap-2 mb-8;
+}
+.domain-row {
+  @apply flex items-center gap-3 rounded-xl border px-4 py-3;
+  background: var(--color-paper);
+  border-color: var(--color-line);
+}
+.domain-name {
+  @apply flex items-center gap-2 text-sm font-medium shrink-0;
+  color: var(--color-ink);
+  width: 15rem;
+}
+.domain-name small {
+  @apply block text-xs font-normal;
+  color: var(--color-body);
+}
+.domain-code {
+  @apply text-xs font-bold rounded px-1.5 py-0.5 shrink-0;
+  background: var(--color-brand-soft);
+  color: var(--color-brand-ink);
+}
+.domain-bar-wrap {
+  @apply flex-1 min-w-0;
+}
+.domain-bar {
+  @apply h-2.5 w-full rounded-full overflow-hidden;
+  background: var(--color-panel-2);
+}
+.domain-bar-fill {
+  @apply h-full rounded-full;
+  transition: width 0.4s ease;
+}
+.domain-bar-fill.ok {
+  background: var(--color-ok);
+}
+.domain-bar-fill.mid {
+  background: var(--color-warn);
+}
+.domain-bar-fill.low {
+  background: var(--color-err);
+}
+.domain-score {
+  @apply text-sm font-bold text-right shrink-0;
+  color: var(--color-ink);
+  width: 4.5rem;
+}
+.domain-score small {
+  @apply block text-xs font-normal;
+  color: var(--color-body);
+}
+
+.exam-advice {
+  @apply w-full max-w-3xl text-sm rounded-xl border px-4 py-3 mb-8;
+  background: var(--color-warn-soft);
+  border-color: var(--color-warn);
+  color: var(--color-ink);
+}
+.review-domain {
+  @apply text-xs font-bold rounded px-1.5 py-0.5;
+  background: var(--color-brand-soft);
+  color: var(--color-brand-ink);
+}
+
+@media (max-width: 640px) {
+  .domain-name {
+    width: 9rem;
+  }
+  .domain-name small {
+    @apply hidden;
+  }
+}
