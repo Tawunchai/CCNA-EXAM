@@ -1,6 +1,7 @@
 import { QUESTIONS } from './questions'
 import { QUESTIONS_V2 } from './questionsV2'
 import { QUESTIONS_V3 } from './questionsV3'
+import { QUESTIONS_V4 } from './questionsV4'
 import { classifyDomain, DOMAINS, type DomainId } from './domains'
 import { shuffle } from '../utils/shuffle'
 import type { ChoiceQuestion, Question } from '../types'
@@ -18,7 +19,7 @@ export const PASS_REFERENCE_PERCENT = 82.5
 
 /** Each bank restarts its ids at 1, and the app keys per-question UI state by
  *  id, so every bank is shifted into its own range before they are merged. */
-const ID_OFFSET = { v1: 1_000_000, v2: 2_000_000, v3: 3_000_000 } as const
+const ID_OFFSET = { v1: 1_000_000, v2: 2_000_000, v3: 3_000_000, v4: 4_000_000 } as const
 
 function rekey(bank: Question[], label: string, offset: number): Question[] {
   return bank.map((q) => ({ ...q, id: q.id + offset, source: `${label} #${q.id}` }))
@@ -30,7 +31,10 @@ const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
  *  texts. The three banks share ~470 questions verbatim; without this the same
  *  item could be drawn twice in one sitting. Variants that share a stem but
  *  carry a different exhibit and a different answer set survive as separate
- *  questions, which is intended — they test different things. */
+ *  questions, which is intended — they test different things.
+ *
+ *  V4 overlaps V1–V3 heavily on the wording of the *stem*, but its option sets
+ *  are frequently reworded, so the de-duplicator keeps the variants apart. */
 function identity(q: Question): string {
   const body =
     q.kind === 'drag'
@@ -45,12 +49,13 @@ function identity(q: Question): string {
   return `${norm(q.prompt)}##${body}`
 }
 
-/** Every question from V1 + V2 + V3, de-duplicated, with unique ids. */
+/** Every question from V1 + V2 + V3 + V4, de-duplicated, with unique ids. */
 export const EXAM_POOL: Question[] = (() => {
   const merged = [
     ...rekey(QUESTIONS, 'V1', ID_OFFSET.v1),
     ...rekey(QUESTIONS_V2, 'V2', ID_OFFSET.v2),
     ...rekey(QUESTIONS_V3, 'V3', ID_OFFSET.v3),
+    ...rekey(QUESTIONS_V4, 'V4', ID_OFFSET.v4),
   ]
   const seen = new Set<string>()
   const out: Question[] = []

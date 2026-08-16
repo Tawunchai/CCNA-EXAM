@@ -1,7 +1,7 @@
 import { DOMAINS } from '../data/domains'
 import { EXAM_MINUTES, EXAM_POOL, EXAM_TOTAL } from '../data/examBuilder'
 
-export type BankId = 'v1' | 'v2' | 'v3' | 'drag'
+export type BankId = 'v1' | 'v2' | 'v3' | 'v4' | 'drag'
 
 interface Props {
   bank: BankId
@@ -18,6 +18,7 @@ const BANKS: { id: BankId; label: string }[] = [
   { id: 'v1', label: 'Version 1' },
   { id: 'v2', label: 'Version 2' },
   { id: 'v3', label: 'Version 3' },
+  { id: 'v4', label: 'BIG CCNA' },
 ]
 
 function StartScreen({ bank, total, bankTotals, onBankChange, onStart, onStartExam }: Props) {
@@ -40,7 +41,7 @@ function StartScreen({ bank, total, bankTotals, onBankChange, onStart, onStartEx
           <span className="exam-cta-text">
             <span className="exam-cta-title">Start EXAM CCNA</span>
             <span className="exam-cta-note">
-              จำลองสอบจริง {EXAM_TOTAL} ข้อ · {EXAM_MINUTES} นาที · สุ่มจาก V1–V3 ({EXAM_POOL.length} ข้อ)
+              จำลองสอบจริง {EXAM_TOTAL} ข้อ · {EXAM_MINUTES} นาที · สุ่มจาก V1–V4 ({EXAM_POOL.length} ข้อ)
               <br />
               ไม่เฉลยระหว่างสอบ — ตรวจและสรุปผลแยกตามหมวดเมื่อส่งข้อสอบ
             </span>
@@ -86,7 +87,7 @@ function StartScreen({ bank, total, bankTotals, onBankChange, onStart, onStartEx
           <span className="mode-btn-text">
             <span className="mode-btn-label">Drag-Drop CCNA Exam</span>
             <span className="mode-btn-note">
-              รวมข้อลากวางจากทั้ง 3 ชุด · {bankTotals.drag} ข้อ (เก็บข้อที่ซ้ำกันไว้ครบ)
+              รวมข้อลากวางจากทั้ง 4 ชุด · {bankTotals.drag} ข้อ (เก็บข้อที่ซ้ำกันไว้ครบ)
             </span>
           </span>
           <span className="mode-btn-check" aria-hidden="true">
@@ -109,10 +110,10 @@ function StartScreen({ bank, total, bankTotals, onBankChange, onStart, onStartEx
           {isDrag ? (
             <>
               <li>
-                โหมดนี้รวมข้อลากวางจาก Version 1, 2 และ 3 ไว้ทั้งหมด {bankTotals.drag} ข้อ — ข้อที่ซ้ำกันถูกเก็บไว้ครบ
-                เพราะแต่ละชุดใช้คำต่างกันและมีตัวลวงไม่เหมือนกัน
+                โหมดนี้รวมข้อลากวางจาก Version 1, 2, 3 และ BIG CCNA ไว้ทั้งหมด {bankTotals.drag} ข้อ —
+                ข้อที่ซ้ำกันถูกเก็บไว้ครบ เพราะแต่ละชุดใช้คำต่างกันและมีตัวลวงไม่เหมือนกัน
               </li>
-              <li>ทุกข้อมีป้ายบอกที่มา เช่น “V2 #136” เพื่อให้ย้อนไปดูในชุดต้นทางได้</li>
+              <li>ทุกข้อมีป้ายบอกที่มา เช่น “V4 #132” เพื่อให้ย้อนไปดูในชุดต้นทางได้</li>
               <li>ลากชิปไปวางให้ครบทุกช่องก่อน ปุ่ม “ตรวจคำตอบ” จึงจะกดได้ (บนมือถือใช้วิธีแตะเลือกแล้วแตะกล่อง)</li>
             </>
           ) : (

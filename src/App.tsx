@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { QUESTIONS } from './data/questions'
 import { QUESTIONS_V2 } from './data/questionsV2'
 import { QUESTIONS_V3 } from './data/questionsV3'
+import { QUESTIONS_V4 } from './data/questionsV4'
 import { DRAG_QUESTIONS } from './data/dragBank'
 import { shuffle } from './utils/shuffle'
 import { gradeChoice, gradeDrag } from './utils/grade'
@@ -25,10 +26,11 @@ const BANKS: Record<BankId, Question[]> = {
   v1: QUESTIONS,
   v2: QUESTIONS_V2,
   v3: QUESTIONS_V3,
+  v4: QUESTIONS_V4,
   drag: DRAG_QUESTIONS,
 }
 
-const BANK_LABELS: Record<BankId, string> = { v1: 'V1', v2: 'V2', v3: 'V3', drag: 'DRAG' }
+const BANK_LABELS: Record<BankId, string> = { v1: 'V1', v2: 'V2', v3: 'V3', v4: 'BIG', drag: 'DRAG' }
 
 function emptyAnswer(q: Question): AnswerState {
   if (q.kind === 'drag') {
@@ -212,6 +214,7 @@ function App() {
           v1: BANKS.v1.length,
           v2: BANKS.v2.length,
           v3: BANKS.v3.length,
+          v4: BANKS.v4.length,
           drag: BANKS.drag.length,
         }}
         onBankChange={setBank}

@@ -205,6 +205,10 @@
   .exhibit img {
     @apply block h-auto w-full;
   }
+  /* Two-part exhibits stack; a rule keeps the seam between them readable. */
+  .exhibit img + img {
+    @apply border-t border-line;
+  }
   .q-head {
     @apply mb-3 flex items-center gap-2.5;
   }

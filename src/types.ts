@@ -10,6 +10,12 @@ interface BaseQuestion {
   kind: QuestionKind
   prompt: string
   image?: string
+  /**
+   * Second exhibit. A handful of dump questions split the exhibit across two
+   * screenshots (topology on one, `show` output on the other); both have to be
+   * on screen or the question is unanswerable.
+   */
+  image2?: string
   explanation: string
   /**
    * Where the question came from, e.g. `V2 #136`. Set only by merged banks

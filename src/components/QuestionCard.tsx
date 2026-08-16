@@ -34,6 +34,7 @@ function QuestionCard({ question, options, selected, checked, onToggle, onCheck,
       {question.image && (
         <div className="exhibit">
           <img src={question.image} alt={`exhibit for question ${question.id}`} />
+          {question.image2 && <img src={question.image2} alt={`exhibit for question ${question.id} (2)`} />}
         </div>
       )}
       <div className="q-head">
