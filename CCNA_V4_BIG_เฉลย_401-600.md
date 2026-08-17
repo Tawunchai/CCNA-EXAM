@@ -70,7 +70,7 @@
 | 448 | **D** | เลือก 1 ข้อ |
 | 449 | **A** | เลือก 1 ข้อ |
 | 450 | **A** | เลือก 1 ข้อ |
-| 451 | **C** | เลือก 1 ข้อ |
+| 451 | **A** | เลือก 1 ข้อ |
 | 452 | **A** | เลือก 1 ข้อ |
 | 453 | **D** | เลือก 1 ข้อ |
 | 454 | **C** | เลือก 1 ข้อ |
@@ -152,7 +152,7 @@
 | 530 | **B, C** | เลือกหลายข้อ |
 | 531 | **D, E** | เลือกหลายข้อ |
 | 532 | **D** | เลือก 1 ข้อ |
-| 533 | **A** | เลือก 1 ข้อ |
+| 533 | **C** | เลือก 1 ข้อ |
 | 534 | *(ลากวาง — ดูรายละเอียดด้านล่าง)* | ลากวาง |
 | 535 | **A, C** | เลือกหลายข้อ |
 | 536 | **D** | เลือก 1 ข้อ |
@@ -480,7 +480,7 @@
 ### 451. Refer to the exhibit. Which route must be configured on R1 so that OSPF routing is used when OSPF is up, …
 
 - **ชนิด:** เลือก 1 ข้อ · มีรูป exhibit
-- **เฉลย:**<br>**C.** ip route 10.1.1.0 255.255.255.0 gi0/1 125
+- **เฉลย:**<br>**A.** ip route 10.1.1.10 255.255.255.255 gi0/0 125
 
 ### 452. Refer to the exhibit. What is the next hop for traffic entering R1 with a destination of 10.1.2.126?
 
@@ -896,7 +896,7 @@
 ### 533. If a notice-level message is sent to a syslog server, which event has occurred?
 
 - **ชนิด:** เลือก 1 ข้อ
-- **เฉลย:**<br>**A.** A network device has restarted.
+- **เฉลย:**<br>**C.** A routing instance has flapped.
 
 ### 534. Drag and drop the functions from the left onto the correct network components on the right.
 
