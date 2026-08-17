@@ -252,6 +252,63 @@ import v4q590 from '../assets/version_4/question_verion4_590.png'
 import v4q592 from '../assets/version_4/question_verion4_592.png'
 import v4q593 from '../assets/version_4/question_verion4_593.png'
 import v4q598 from '../assets/version_4/question_verion4_598.png'
+import v4q601 from '../assets/version_4/question_verion4_601.png'
+import v4q605 from '../assets/version_4/question_verion4_605.png'
+import v4q607 from '../assets/version_4/question_verion4_607.png'
+import v4q609 from '../assets/version_4/question_verion4_609.png'
+import v4q610 from '../assets/version_4/question_verion4_610.png'
+import v4q611 from '../assets/version_4/question_verion4_611.png'
+import v4q614 from '../assets/version_4/question_verion4_614.png'
+import v4q617 from '../assets/version_4/question_verion4_617.png'
+import v4q621 from '../assets/version_4/question_verion4_621.png'
+import v4q623 from '../assets/version_4/question_verion4_623.png'
+import v4q624 from '../assets/version_4/question_verion4_624.png'
+import v4q628 from '../assets/version_4/question_verion4_628.png'
+import v4q629 from '../assets/version_4/question_verion4_629.png'
+import v4q630 from '../assets/version_4/question_verion4_630.png'
+import v4q635 from '../assets/version_4/question_verion4_635.png'
+import v4q641 from '../assets/version_4/question_verion4_641.png'
+import v4q647 from '../assets/version_4/question_verion4_647.png'
+import v4q651 from '../assets/version_4/question_verion4_651.png'
+import v4q658 from '../assets/version_4/question_verion4_658.png'
+import v4q659 from '../assets/version_4/question_verion4_659.png'
+import v4q665 from '../assets/version_4/question_verion4_665.png'
+import v4q667 from '../assets/version_4/question_verion4_667.png'
+import v4q668 from '../assets/version_4/question_verion4_668.png'
+import v4q669 from '../assets/version_4/question_verion4_669.png'
+import v4q676 from '../assets/version_4/question_verion4_676.png'
+import v4q688 from '../assets/version_4/question_verion4_688.png'
+import v4q689 from '../assets/version_4/question_verion4_689.png'
+import v4q699 from '../assets/version_4/question_verion4_699.png'
+import v4q701 from '../assets/version_4/question_verion4_701.png'
+import v4q702 from '../assets/version_4/question_verion4_702.png'
+import v4q703 from '../assets/version_4/question_verion4_703.png'
+import v4q715 from '../assets/version_4/question_verion4_715.png'
+import v4q723 from '../assets/version_4/question_verion4_723.png'
+import v4q725 from '../assets/version_4/question_verion4_725.png'
+import v4q729 from '../assets/version_4/question_verion4_729.png'
+import v4q732 from '../assets/version_4/question_verion4_732.png'
+import v4q738 from '../assets/version_4/question_verion4_738.png'
+import v4q753 from '../assets/version_4/question_verion4_753.png'
+import v4q754 from '../assets/version_4/question_verion4_754.png'
+import v4q757 from '../assets/version_4/question_verion4_757.png'
+import v4q761 from '../assets/version_4/question_verion4_761.png'
+import v4q766 from '../assets/version_4/question_verion4_766.png'
+import v4q769 from '../assets/version_4/question_verion4_769.png'
+import v4q771 from '../assets/version_4/question_verion4_771.png'
+import v4q772 from '../assets/version_4/question_verion4_772.png'
+import v4q773 from '../assets/version_4/question_verion4_773.png'
+import v4q776 from '../assets/version_4/question_verion4_776.png'
+import v4q777 from '../assets/version_4/question_verion4_777.png'
+import v4q778 from '../assets/version_4/question_verion4_778.png'
+import v4q779 from '../assets/version_4/question_verion4_779.png'
+import v4q780 from '../assets/version_4/question_verion4_780.png'
+import v4q783 from '../assets/version_4/question_verion4_783.png'
+import v4q784 from '../assets/version_4/question_verion4_784.png'
+import v4q787 from '../assets/version_4/question_verion4_787.png'
+import v4q790 from '../assets/version_4/question_verion4_790.png'
+import v4q794 from '../assets/version_4/question_verion4_794.png'
+import v4q799 from '../assets/version_4/question_verion4_799.png'
 
 /**
  * BIG CCNA — ชุดที่ 4 (ข้อ 1–600)
@@ -9570,5 +9627,2855 @@ export const QUESTIONS_V4: Question[] = [
     correct: ['C'],
     explanation:
       '📘 แนวคิด — เมื่อเครือข่ายออกแบบมาเพื่อข้อมูลเป็นหลัก การเพิ่มเสียงเข้าไปต้องมีกลไก "ให้อภิสิทธิ์" แก่เสียง ⭐\n\n🔧 PQ (Priority Queuing) ทำงานอย่างไร\nแบ่งทราฟฟิกออกเป็นสี่คิวตามลำดับความสำคัญ\nHigh   → ส่งจนหมดคิวก่อนเสมอ ⭐ (จัดทราฟฟิกเสียงไว้ตรงนี้)\nMedium → ส่งเมื่อคิว High ว่าง\nNormal → ส่งเมื่อสองคิวบนว่าง\nLow    → ส่งเมื่อทุกคิวบนว่างหมด\n→ ผลคือแพ็กเก็ตเสียงจะออกก่อนแพ็กเก็ตข้อมูลเสมอ ทำให้ latency ต่ำและ jitter น้อย ⭐\n\n📊 เปรียบเทียบตัวเลือกทั้งสี่\nเครื่องมือ  หมวด                    เหมาะกับเสียงหรือไม่\nWRED       congestion avoidance    ✘ ทิ้งแพ็กเก็ตก่อนคิวเต็ม และได้ผลกับ TCP เท่านั้น\nFIFO       congestion management   ✘ มาก่อนได้ก่อน ไม่มีลำดับความสำคัญเลย\nWFQ        congestion management   △ แบ่งอย่างเป็นธรรมตามโฟลว์ แต่ไม่รับประกันว่าเสียงมาก่อน\nPQ ⭐       congestion management   ✔ ให้คิวสูงสุดส่งก่อนเสมอ ตรงกับความต้องการของเสียง\n\n⚠️ ข้อควรระวังของ PQ\nถ้าทราฟฟิกในคิว High มีปริมาณมากตลอดเวลา คิวล่างอาจไม่ได้ส่งเลย เกิดภาวะ starvation ⭐\nนี่คือเหตุผลที่ LLQ ถูกพัฒนาขึ้นมาภายหลัง โดยเพิ่ม policer จำกัดเพดานของคิว priority ไว้ ทำให้เสียงได้อภิสิทธิ์แต่ไม่ทำร้ายทราฟฟิกอื่น ⭐\n\n✅ ทำไม C ถูก: PQ เป็นเครื่องมือเดียวในตัวเลือกที่รับประกันว่าทราฟฟิกเสียงจะถูกส่งออกก่อนทราฟฟิกข้อมูลอย่างเด็ดขาด จึงเหมาะที่สุดกับสถานการณ์ที่โจทย์ระบุ\n\n❌ ทำไมข้ออื่นผิด:\nA. WRED อยู่คนละหมวด และเสียงใช้ UDP ซึ่งไม่ตอบสนองต่อการทิ้งแพ็กเก็ตแบบที่ TCP ทำ ⭐\nB. FIFO ไม่มีการจัดลำดับใด ๆ เลย เป็นค่าดีฟอลต์บนลิงก์ความเร็วสูง ⭐\nD. WFQ ให้ความเป็นธรรมกับทุกโฟลว์ แต่ "ความเป็นธรรม" ไม่ใช่สิ่งที่เสียงต้องการ เสียงต้องการการได้เปรียบ ⭐ ตัวลวงที่ดี\n\n📗 จำไว้สอบ: ลำดับวิวัฒนาการของการจัดคิว — FIFO → PQ → WFQ → CBWFQ → LLQ (มาตรฐานปัจจุบันสำหรับเสียง)',
+  },
+  {
+    id: 601,
+    kind: 'single',
+    image: v4q601,
+    prompt: 'Refer to the exhibit. Users on existing VLAN 100 can reach sites on the Internet. Which action must the administrator take to establish connectivity to the Internet for users in VLAN 200?',
+    options: [
+      { key: 'A', text: 'Define a NAT pool on the router.' },
+      { key: 'B', text: 'Configure the ip nat outside command on another interface for VLAN 200' },
+      { key: 'C', text: 'Configure static NAT translations for VLAN 200.' },
+      { key: 'D', text: 'Update the NAT_INSIDE_RANGES ACL.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — PAT (NAT overload) จะแปลที่อยู่ให้เฉพาะทราฟฟิกที่ "ตรงกับ ACL" ที่อ้างอิงไว้ในคำสั่ง ip nat inside source list เท่านั้น ⭐ ซับเน็ตที่ไม่อยู่ใน ACL จะถูกส่งออกไปด้วยที่อยู่ส่วนตัวเดิม แล้วถูก ISP ทิ้งทันที\n\n🔍 อ่าน exhibit ทีละบรรทัด\nGi0/0 → 209.165.200.225/27 + ip nat outside ⭐ ขาออกพร้อมแล้ว\nGi0/1 → ip nat inside ⭐ ขาเข้าพร้อมแล้ว\nGi0/1.100 → encapsulation dot1Q 100 + ip address 10.10.10.1/24 ⭐ คือ VLAN 100\nGi0/1.200 → encapsulation dot1Q 200 + ip address 10.10.20.1/24 ⭐ คือ VLAN 200\n\nip access-list standard NAT_INSIDE_RANGES\n permit 10.10.10.0 0.0.0.255  ← มีแค่บรรทัดเดียว ⭐\n\nip nat inside source list NAT_INSIDE_RANGES interface GigabitEthernet0/0 overload\n\n🎯 ปัญหาอยู่ตรงไหน\nACL มีเพียง permit 10.10.10.0 0.0.0.255 ซึ่งครอบคลุมแค่ VLAN 100\nซับเน็ต 10.10.20.0/24 ของ VLAN 200 ไม่ตรงกับบรรทัดใดเลย → ชน implicit deny ⭐\n→ ทราฟฟิกจาก VLAN 200 ไม่ถูกแปล ออกไปด้วยที่อยู่ 10.10.20.x ซึ่งเป็น RFC 1918 → ISP ทิ้งทิ้ง\n\n🔧 วิธีแก้\nRouter1(config)# ip access-list standard NAT_INSIDE_RANGES\nRouter1(config-std-nacl)# permit 10.10.20.0 0.0.0.255 ⭐\n(หรือรวบเป็น permit 10.10.0.0 0.0.255.255 ก็ได้)\n\n✅ ทำไม D ถูก: สิ่งเดียวที่ขาดคือรายการ ACL ที่อนุญาตซับเน็ตของ VLAN 200 ส่วนประกอบอื่นของ NAT ทั้ง inside, outside และ overload ถูกตั้งค่าครบและทำงานอยู่แล้ว (พิสูจน์ได้จากที่ VLAN 100 ออกอินเทอร์เน็ตได้)\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่จำเป็นต้องมี NAT pool เพราะคอนฟิกนี้ใช้ "interface overload" คือ PAT ที่อ้างที่อยู่ของอินเทอร์เฟซขาออกโดยตรง ⭐ การเพิ่ม pool ไม่ได้แก้ปัญหา ACL\nB. เราเตอร์มีอินเทอร์เฟซขาออกไปอินเทอร์เน็ตเพียงเส้นเดียวคือ Gi0/0 ซึ่งกำหนด ip nat outside ไว้แล้ว ⭐ NAT ไม่ต้องการ outside แยกต่อ VLAN\nC. static NAT ใช้จับคู่หนึ่งต่อหนึ่งสำหรับเซิร์ฟเวอร์ที่ต้องเข้าถึงจากภายนอก ไม่เหมาะกับผู้ใช้ทั้งซับเน็ต และยังต้องใช้ที่อยู่สาธารณะจำนวนมาก ⭐\n\n📗 จำไว้สอบ: NAT ใช้งานไม่ได้ ให้ไล่ตรวจสามอย่างเสมอ — ip nat inside • ip nat outside • ACL ครอบคลุมซับเน็ตต้นทางครบหรือยัง ⭐',
+  },
+  {
+    id: 602,
+    kind: 'single',
+    prompt: 'An organization secures its network with multi-factor authentication using an authenticator app on employee smartphones. How is the application secured in the case of a user\'s smartphone being lost or stolen?',
+    options: [
+      { key: 'A', text: 'The application requires the user to enter a PIN before it provides the second factor' },
+      { key: 'B', text: 'The application requires an administrator password to reactivate after a configured interval' },
+      { key: 'C', text: 'The application verifies that the user is in a specific location before it provides the second factor' },
+      { key: 'D', text: 'The application challenges a user by requiring an administrator password to reactivate when the smartphone is rebooted' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — MFA ต้องใช้ปัจจัยจากคนละหมวดอย่างน้อยสองหมวด ⭐\n\n🔑 สามหมวดของปัจจัยยืนยันตัวตน\n1️⃣ Something you know — รหัสผ่าน PIN คำถามลับ ⭐\n2️⃣ Something you have — สมาร์ตโฟน โทเคน สมาร์ตการ์ด ⭐\n3️⃣ Something you are — ลายนิ้วมือ ใบหน้า ม่านตา ⭐\n\n⚠️ ช่องโหว่เมื่อโทรศัพท์หาย\nถ้าแอปยืนยันตัวตนแสดงรหัสหกหลักได้ทันทีที่เปิดแอป → ใครก็ตามที่ถือโทรศัพท์ไว้ก็ผ่านปัจจัยที่สองได้ทั้งหมด\n→ ปัจจัย "something you have" ถูกยึดไปแล้ว จึงต้องมีปัจจัย "something you know" มาปกป้องตัวแอปอีกชั้น ⭐\n\n🛡️ วิธีป้องกันที่ใช้จริง\nแอปอย่าง Cisco Duo, Google Authenticator หรือ Microsoft Authenticator บังคับให้ผู้ใช้ปลดล็อกด้วย PIN หรือชีวมิติ (ลายนิ้วมือ/ใบหน้า) ก่อนจะแสดงรหัสหรือกดอนุมัติ ⭐\n→ ขโมยได้เครื่อง แต่ไม่รู้ PIN ก็ยังใช้ไม่ได้\n\n✅ ทำไม A ถูก: การใส่ PIN ก่อนเข้าถึงปัจจัยที่สอง คือมาตรการที่ทำงานได้ทันทีบนเครื่องโดยไม่ต้องพึ่งเครือข่ายหรือผู้ดูแล และปิดช่องโหว่ "ถือเครื่องได้ = ผ่าน" ได้ตรงจุด\n\n❌ ทำไมข้ออื่นผิด:\nB. การรอให้ถึงรอบเวลาที่กำหนดหมายความว่าช่วงก่อนหน้านั้นผู้ขโมยยังใช้แอปได้อย่างอิสระ ⭐ ป้องกันไม่ทันการณ์\nC. การตรวจตำแหน่งไม่ช่วยอะไรเลย เพราะโทรศัพท์ที่ถูกขโมยมักยังอยู่ในเมืองหรือแม้แต่ในอาคารเดียวกัน และตำแหน่งไม่ใช่ปัจจัยยืนยันตัวตนตามนิยาม ⭐\nD. การผูกกับการรีบูตไม่ได้ช่วย เพราะผู้ขโมยเพียงแค่ "ไม่รีบูตเครื่อง" ก็หลบเลี่ยงได้ ⭐\n\n📗 จำไว้สอบ: MFA ต้องมาจากคนละหมวดเสมอ — รหัสผ่านสองชั้นไม่ใช่ MFA เพราะเป็น "know" ทั้งคู่ ⭐',
+  },
+  {
+    id: 603,
+    kind: 'single',
+    prompt: 'Which device performs stateful inspection of traffic?',
+    options: [
+      { key: 'A', text: 'switch' },
+      { key: 'B', text: 'firewall' },
+      { key: 'C', text: 'access point' },
+      { key: 'D', text: 'wireless controller' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — Stateful inspection คือการที่อุปกรณ์ "จำสถานะของการเชื่อมต่อ" ไว้ในตาราง แล้วตัดสินใจจากบริบทของทั้งเซสชัน ไม่ใช่จากแพ็กเก็ตเดี่ยว ๆ ⭐\n\n🔧 ไฟร์วอลล์ทำงานอย่างไร\n1. โฮสต์ภายในเปิดการเชื่อมต่อออกไป เช่น 10.1.1.5:51000 → 203.0.113.9:443\n2. ไฟร์วอลล์บันทึกลง state table (connection table) ⭐ เก็บ IP ต้นทาง/ปลายทาง พอร์ต โปรโตคอล และสถานะ TCP\n3. แพ็กเก็ตขากลับจาก 203.0.113.9:443 → 10.1.1.5:51000 ถูก "อนุญาตอัตโนมัติ" เพราะตรงกับรายการในตาราง ⭐\n4. แพ็กเก็ตจากภายนอกที่ไม่มีรายการรองรับ → ถูกทิ้ง\n\n📊 stateless เทียบกับ stateful\nคุณสมบัติ            Stateless (ACL ธรรมดา)   Stateful (ไฟร์วอลล์) ⭐\nพิจารณาจาก           แพ็กเก็ตเดี่ยว            ทั้งเซสชัน ⭐\nจำการเชื่อมต่อ        ไม่จำ                    จำใน state table ⭐\nทราฟฟิกขากลับ        ต้องเขียน ACL เองสองทาง   อนุญาตอัตโนมัติ ⭐\nกัน spoofed SYN-ACK  ไม่ได้                   ได้ ⭐\n\n✅ ทำไม B ถูก: ไฟร์วอลล์เป็นอุปกรณ์ที่ออกแบบมาเพื่อติดตามสถานะการเชื่อมต่อโดยเฉพาะ และเป็นคำตอบมาตรฐานของ CCNA สำหรับคำว่า stateful inspection\n\n❌ ทำไมข้ออื่นผิด:\nA. สวิตช์ตัดสินใจจาก MAC address ในตาราง CAM ซึ่งเป็นการดูทีละเฟรม ไม่มีแนวคิดเรื่องเซสชัน ⭐\nC. access point ทำหน้าที่แปลงสัญญาณไร้สายเป็นสายและจัดการการเชื่อมต่อระดับ 802.11 ไม่ได้ตรวจสถานะทราฟฟิก IP ⭐\nD. WLC บริหารจัดการ AP เรื่องช่องสัญญาณ กำลังส่ง และการโรมมิ่ง ไม่ใช่อุปกรณ์กรองทราฟฟิกแบบ stateful ⭐\n\n📗 จำไว้สอบ: ACL บนเราเตอร์ = stateless (ยกเว้นใช้ reflexive/CBAC) • ไฟร์วอลล์ = stateful โดยกำเนิด ⭐',
+  },
+  {
+    id: 604,
+    kind: 'single',
+    prompt: 'A network administrator enabled port security on a switch interface connected to a printer. What is the next configuration action in order to allow the port to learn the MAC address of the printer and insert it into the table automatically?',
+    options: [
+      { key: 'A', text: 'enable dynamic MAC address learning' },
+      { key: 'B', text: 'implement static MAC addressing' },
+      { key: 'C', text: 'enable sticky MAC addressing' },
+      { key: 'D', text: 'implement auto MAC address learning' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — port security มีวิธีได้มาซึ่ง secure MAC address สามแบบ ⭐\n\n1️⃣ Static (configured) — พิมพ์เองทีละตัว\nswitchport port-security mac-address 0011.2233.4455\n• เก็บลง running-config ทันที\n• เสียเวลามากถ้ามีเครื่องพิมพ์หลายร้อยเครื่อง ⭐\n\n2️⃣ Dynamic — เรียนรู้อัตโนมัติ แต่ "ไม่บันทึก"\n• เป็นค่าดีฟอลต์เมื่อเปิด port security\n• เก็บอยู่ในหน่วยความจำเท่านั้น หายทันทีที่พอร์ต down หรือสวิตช์รีบูต ⭐\n\n3️⃣ Sticky — เรียนรู้อัตโนมัติ "แล้วเขียนลงคอนฟิกให้เลย" ⭐\nswitchport port-security mac-address sticky\n• สวิตช์เรียนรู้ MAC แรกที่เห็น แล้วแปลงเป็นบรรทัด mac-address sticky 0011.2233.4455 ใน running-config ⭐\n• สั่ง copy running-config startup-config แล้วค่าจะอยู่ถาวรข้ามการรีบูต ⭐\n\n🖨️ ทำไมเหมาะกับเครื่องพิมพ์\nเครื่องพิมพ์เป็นอุปกรณ์ที่แทบไม่ย้ายที่ ผู้ดูแลจึงอยากล็อกพอร์ตไว้กับ MAC ของมันถาวร แต่ไม่อยากไปเดินจดหมายเลข MAC ทีละเครื่อง ⭐ sticky ตอบโจทย์ทั้งสองข้อพร้อมกัน\n\n🔧 คอนฟิกเต็ม\nSW(config-if)# switchport mode access\nSW(config-if)# switchport port-security\nSW(config-if)# switchport port-security maximum 1\nSW(config-if)# switchport port-security mac-address sticky ⭐\nSW(config-if)# switchport port-security violation shutdown\n\n✅ ทำไม C ถูก: sticky เป็นตัวเลือกเดียวที่ทำได้ทั้ง "เรียนรู้อัตโนมัติ" และ "ใส่ลงตารางคอนฟิกให้ถาวร" ตรงตามที่โจทย์ระบุ\n\n❌ ทำไมข้ออื่นผิด:\nA. dynamic learning เปิดอยู่แล้วโดยดีฟอลต์และไม่ต้องสั่งเพิ่ม แต่ค่าที่เรียนรู้จะหายเมื่อรีบูต จึงไม่ได้ "ใส่ลงตาราง" อย่างถาวร ⭐ ตัวลวงที่ดีที่สุด\nB. static คือการพิมพ์ MAC เอง ซึ่งตรงข้ามกับคำว่า automatically ในโจทย์ ⭐\nD. ไม่มีคุณสมบัติชื่อ auto MAC address learning ใน Cisco IOS ⭐ เป็นชื่อที่แต่งขึ้น\n\n📗 จำไว้สอบ: sticky = dynamic + บันทึกลง running-config ⭐ แต่ยังต้อง copy run start ถึงจะอยู่รอดหลังรีบูต',
+  },
+  {
+    id: 605,
+    kind: 'single',
+    image: v4q605,
+    prompt: 'Refer to the exhibit. An engineer booted a new switch and applied this configuration via the console port. Which additional configuration must be applied to allow administrators to authenticate directly to enable privilege mode via Telnet using a local username and password?',
+    options: [
+      { key: 'A', text: 'R1(config)#username admin / R1(config-if)#line vty 0 4 / R1(config-line)#password p@ss1234 / R1(config-line)#transport input telnet' },
+      { key: 'B', text: 'R1(config)#username admin privilege 15 secret p@ss1234 / R1(config-if)#line vty 0 4 / R1(config-line)#login local' },
+      { key: 'C', text: 'R1(config)#username admin secret p@ss1234 / R1(config-if)#line vty 0 4 / R1(config-line)#login local / R1(config)#enable secret p@ss1234' },
+      { key: 'D', text: 'R1(config)#username admin / R1(config-if)#line vty 0 4 / R1(config-line)#password p@ss1234' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — โจทย์มีสองเงื่อนไขที่ต้องทำให้ครบพร้อมกัน ⭐\n① ใช้ "local username and password" → ต้องมี username ... secret และสั่ง login local ที่ line vty\n② เข้าสู่ "enable privilege mode" ได้ทันที (directly) → ต้องกำหนด privilege 15 ให้บัญชีนั้น ⭐\n\n🔍 อ่าน exhibit\nhostname R1\ninterface FastEthernet0/1 / no switchport / ip address 10.100.20.42 255.255.255.0 ⭐ มีที่อยู่ IP ให้ Telnet เข้ามาได้แล้ว\nline vty 0 4 / login ⭐ ← ตรงนี้คือปัญหา\n\n⚠️ ทำไม login เฉย ๆ ใช้ไม่ได้\nคำสั่ง login (ไม่มีคำว่า local) หมายถึง "ตรวจรหัสผ่านของ line" ซึ่งยังไม่ได้ตั้งไว้เลย\n→ เมื่อ Telnet เข้ามาจะได้ข้อความ "Password required, but none set" แล้วถูกตัดการเชื่อมต่อทันที ⭐\n\n🔑 ระดับสิทธิ์ของ Cisco IOS\nระดับ 0  → คำสั่งพื้นฐานห้าคำสั่ง (disable, enable, exit, help, logout)\nระดับ 1  → user EXEC ปกติ พรอมต์เป็น R1> ⭐ ต้องพิมพ์ enable ก่อนถึงจะเข้า config ได้\nระดับ 15 → privileged EXEC เต็มสิทธิ์ พรอมต์เป็น R1# ทันทีที่ล็อกอินสำเร็จ ⭐\n\n✅ ทำไม B ถูก: บัญชีถูกสร้างด้วย privilege 15 และ secret (เก็บเป็นแฮช) และ line vty สั่ง login local ให้ตรวจกับฐานข้อมูลผู้ใช้ในเครื่อง เมื่อล็อกอินสำเร็จผู้ดูแลจะเข้าสู่พรอมต์ R1# โดยตรงโดยไม่ต้องพิมพ์ enable อีก ตรงกับคำว่า "authenticate directly to enable privilege mode" ⭐\n\n❌ ทำไมข้ออื่นผิด:\nA. สร้าง username โดยไม่มีรหัสผ่านเลย และตั้ง password ที่ line ซึ่งเป็นการยืนยันตัวตนแบบ line password ไม่ใช่ local username ⭐ ทั้งยังไม่มี login local\nC. ใช้ login local ถูกต้องก็จริง แต่บัญชีไม่มี privilege 15 ผู้ใช้จะได้พรอมต์ R1> แล้วต้องพิมพ์ enable และใส่รหัส enable secret อีกรอบ ซึ่งไม่ใช่การเข้าโดยตรง ⭐ ตัวลวงหลักที่แยกยากที่สุด\nD. ตั้งเพียงรหัสผ่านของ line โดยไม่มี login local จึงไม่ได้ใช้ฐานข้อมูลผู้ใช้ในเครื่องตามที่โจทย์กำหนด ⭐\n\n📗 จำไว้สอบ: login = ใช้รหัสของ line • login local = ใช้ username/password ในเครื่อง ⭐ • privilege 15 = ข้ามขั้นตอน enable ไปเลย',
+  },
+  {
+    id: 606,
+    kind: 'single',
+    prompt: 'Which effect does the aaa new-model configuration command have?',
+    options: [
+      { key: 'A', text: 'It enables AAA services on the device.' },
+      { key: 'B', text: 'It configures the device to connect to a RADIUS server for AAA.' },
+      { key: 'C', text: 'It associates a RADIUS server to the group.' },
+      { key: 'D', text: 'It configures a local user on the device.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — aaa new-model เป็น "สวิตช์เปิดหลัก" ของระบบ AAA บน Cisco IOS ⭐ ตราบใดที่ยังไม่พิมพ์คำสั่งนี้ คำสั่ง aaa อื่น ๆ ทั้งหมดจะไม่ปรากฏใน CLI เลย\n\n🔧 ลำดับการตั้งค่า AAA ที่ถูกต้อง\n1️⃣ R1(config)# aaa new-model ⭐ เปิดระบบก่อน (ขั้นนี้เท่านั้นที่โจทย์ถาม)\n2️⃣ R1(config)# radius server RAD1\n R1(config-radius-server)# address ipv4 10.1.1.10 auth-port 1812 acct-port 1813\n R1(config-radius-server)# key MySecret ⭐ นี่คือ "กำหนดเซิร์ฟเวอร์"\n3️⃣ R1(config)# aaa group server radius MYGROUP\n R1(config-sg-radius)# server name RAD1 ⭐ นี่คือ "ผูกเซิร์ฟเวอร์เข้ากลุ่ม"\n4️⃣ R1(config)# aaa authentication login default group MYGROUP local ⭐ กำหนด method list\n\n⚠️ ผลข้างเคียงที่ต้องระวังในงานจริง\nทันทีที่พิมพ์ aaa new-model ระบบจะสร้าง method list ชื่อ default ให้อัตโนมัติและนำไปใช้กับทุก line รวมถึง console และ vty ⭐\n→ ถ้ายังไม่ได้สร้างบัญชีในเครื่องไว้ก่อน อาจล็อกตัวเองออกจากอุปกรณ์ได้\n→ แนวปฏิบัติคือสร้าง username ... privilege 15 secret ... ก่อนเสมอ แล้วค่อยเปิด aaa new-model ⭐\n\n✅ ทำไม A ถูก: หน้าที่เดียวของคำสั่งนี้คือเปิดใช้งานเฟรมเวิร์ก AAA บนอุปกรณ์ เพื่อปลดล็อกคำสั่ง aaa ที่เหลือทั้งหมดให้ใช้งานได้\n\n❌ ทำไมข้ออื่นผิด:\nB. การชี้ไปยังเซิร์ฟเวอร์ RADIUS ทำด้วยคำสั่ง radius server หรือ radius-server host ซึ่งเป็นคนละคำสั่ง ⭐\nC. การผูกเซิร์ฟเวอร์เข้ากลุ่มทำด้วย aaa group server radius แล้วตามด้วย server name ⭐\nD. การสร้างผู้ใช้ในเครื่องทำด้วยคำสั่ง username ซึ่งใช้ได้แม้ไม่เปิด AAA เลยก็ตาม ⭐\n\n📗 จำไว้สอบ: ไม่มี aaa new-model = ไม่มีคำสั่ง aaa ใด ๆ ให้พิมพ์ได้เลย ⭐ เป็นขั้นแรกสุดเสมอ',
+  },
+  {
+    id: 607,
+    kind: 'multi',
+    image: v4q607,
+    prompt: 'Refer to the exhibit. Which two events occur on the interface, if packets from an unknown source address arrive after the interface learns the maximum number of secure MAC address? (Choose two.)',
+    options: [
+      { key: 'A', text: 'The security violation counter does not increment' },
+      { key: 'B', text: 'The port LED turns off' },
+      { key: 'C', text: 'The interface is error-disabled' },
+      { key: 'D', text: 'A syslog message is generated' },
+      { key: 'E', text: 'The interface drops traffic from unknown MAC address' },
+    ],
+    correct: ['A', 'E'],
+    explanation:
+      '📘 แนวคิด — พฤติกรรมเมื่อเกิด violation ขึ้นอยู่กับ "โหมด" ที่ตั้งไว้ทั้งหมด ต้องอ่านค่าจาก exhibit ก่อนตอบเสมอ ⭐\n\n🔍 อ่าน exhibit\nPort Security : Enabled\nPort Status : Secure-up\nViolation Mode : Protect ⭐ ← กุญแจของข้อนี้\nMaximum MAC Addresses : 4\nTotal MAC Addresses : 3\nSecurity Violation Count : 0\n\n📊 สามโหมดของ port security violation\nพฤติกรรม            Protect ⭐        Restrict         Shutdown (ดีฟอลต์)\nทิ้งทราฟฟิกที่ผิด      ✔ ทิ้ง ⭐          ✔ ทิ้ง            ✔ (ปิดพอร์ตทั้งพอร์ต)\nส่ง syslog           ✘ ไม่ส่ง ⭐        ✔ ส่ง            ✔ ส่ง\nส่ง SNMP trap        ✘ ไม่ส่ง ⭐        ✔ ส่ง            ✔ ส่ง\nเพิ่ม violation counter ✘ ไม่เพิ่ม ⭐      ✔ เพิ่ม           ✔ เพิ่ม\nพอร์ตเข้าสู่ err-disabled ✘ ไม่ ⭐         ✘ ไม่            ✔ ใช่\n\n💡 สรุปง่าย ๆ ของโหมด Protect\n"ทิ้งอย่างเงียบ ๆ" ⭐ — พอร์ตยังทำงานปกติ อุปกรณ์เดิมที่เรียนรู้ไว้แล้วยังสื่อสารได้ แต่ทราฟฟิกจาก MAC แปลกหน้าจะหายไปเฉย ๆ โดยไม่มีร่องรอยใด ๆ ให้ผู้ดูแลรู้\n\n✅ ทำไม A และ E ถูก:\nE — โหมด Protect ทิ้งเฟรมจาก MAC ที่ไม่อยู่ในรายการ secure ทั้งหมด นี่คือการทำงานหลักของทุกโหมด\nA — Protect เป็นโหมดเดียวที่ "ไม่เพิ่ม" ตัวนับ Security Violation Count จึงคงค่า 0 ไว้ตลอด ⭐ นี่คือจุดที่ข้อสอบต้องการทดสอบ\n\n❌ ทำไมข้ออื่นผิด:\nB. ไฟ LED ของพอร์ตยังคงเป็นสีเขียวตามปกติ เพราะพอร์ตไม่ได้ถูกปิด ⭐\nC. err-disabled เกิดเฉพาะโหมด Shutdown เท่านั้น ⭐ ซึ่งจะทำให้ Port Status แสดงเป็น Secure-shutdown ไม่ใช่ Secure-up อย่างที่เห็นใน exhibit\nD. Protect ไม่สร้าง syslog message เลย ⭐ ถ้าต้องการแจ้งเตือนแต่ไม่อยากปิดพอร์ต ต้องเปลี่ยนเป็นโหมด Restrict\n\n📗 จำไว้สอบ: Protect = เงียบสนิท • Restrict = ทิ้ง + แจ้งเตือน + นับ • Shutdown = err-disable (ค่าดีฟอลต์) ⭐',
+  },
+  {
+    id: 608,
+    kind: 'single',
+    prompt: 'Which technology must be implemented to configure network device monitoring with the highest security?',
+    options: [
+      { key: 'A', text: 'IP SLA' },
+      { key: 'B', text: 'syslog' },
+      { key: 'C', text: 'NetFlow' },
+      { key: 'D', text: 'SNMPv3' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ในบรรดาเครื่องมือเฝ้าระวังเครือข่ายทั้งหมด มีเพียง SNMPv3 ที่ให้ครบทั้งสามอย่าง คือการยืนยันตัวตน ความสมบูรณ์ของข้อมูล และการเข้ารหัส ⭐\n\n📊 วิวัฒนาการของ SNMP\nเวอร์ชัน   การยืนยันตัวตน           การเข้ารหัส        ระดับความปลอดภัย\nSNMPv1    community string ธรรมดา   ✘ ไม่มี           ต่ำมาก ⭐\nSNMPv2c   community string ธรรมดา   ✘ ไม่มี           ต่ำมาก ⭐\nSNMPv3 ⭐  username + HMAC (MD5/SHA) ✔ DES/3DES/AES ⭐  สูงที่สุด ⭐\n\n🔐 สามระดับความปลอดภัยของ SNMPv3\nnoAuthNoPriv → ระบุด้วยชื่อผู้ใช้เท่านั้น ไม่ยืนยัน ไม่เข้ารหัส\nauthNoPriv   → ยืนยันตัวตนด้วย HMAC แต่ข้อมูลยังเป็นข้อความธรรมดา\nauthPriv ⭐   → ยืนยันตัวตน + เข้ารหัสทั้งหมด ← ระดับที่ปลอดภัยที่สุด\n\n🔧 ตัวอย่างคอนฟิก authPriv\nR1(config)# snmp-server group ADMINS v3 priv\nR1(config)# snmp-server user netadmin ADMINS v3 auth sha MyAuthPass priv aes 128 MyPrivPass ⭐\n\n⚠️ ทำไม v1 และ v2c อันตราย\ncommunity string เดินทางเป็นข้อความธรรมดาบนเครือข่าย ⭐ ใครดักจับได้ก็นำไปอ่านค่าหรือแม้แต่เขียนคอนฟิกของอุปกรณ์ได้ทันที\n\n✅ ทำไม D ถูก: SNMPv3 เป็นเทคโนโลยีเฝ้าระวังเดียวในตัวเลือกที่รองรับการยืนยันตัวตนด้วยแฮชและการเข้ารหัสข้อมูล จึงตรงกับคำว่า highest security\n\n❌ ทำไมข้ออื่นผิด:\nA. IP SLA วัดคุณภาพเส้นทาง เช่น ความหน่วง jitter และการสูญหาย ไม่ใช่ระบบเฝ้าระวังอุปกรณ์และไม่มีกลไกความปลอดภัยในตัว ⭐\nB. syslog ส่งข้อความบันทึกด้วย UDP พอร์ต 514 แบบข้อความธรรมดา ไม่มีการยืนยันตัวตนหรือเข้ารหัส ⭐\nC. NetFlow เก็บสถิติการไหลของทราฟฟิกและส่งออกแบบข้อความธรรมดาเช่นกัน ⭐\n\n📗 จำไว้สอบ: SNMP ใช้ UDP 161 (polling) และ 162 (trap) ⭐ • เห็นคำว่า "secure monitoring" ให้ตอบ SNMPv3 ทันที',
+  },
+  {
+    id: 609,
+    kind: 'multi',
+    image: v4q609,
+    prompt: 'Refer to the exhibit. Which two statements about the interface that generated the output are true? (Choose two.)',
+    options: [
+      { key: 'A', text: 'learned MAC addresses are deleted after five minutes of inactivity' },
+      { key: 'B', text: 'the interface is error-disabled if packets arrive from a new unknown source address' },
+      { key: 'C', text: 'it has dynamically learned two secure MAC addresses' },
+      { key: 'D', text: 'it has dynamically learned three secure MAC addresses' },
+      { key: 'E', text: 'the security violation counter increments if packets arrive from a new unknown source address' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '📘 แนวคิด — ข้อนี้ต้องอ่านค่าจาก show port-security interface ให้ครบสามจุด คือ aging, จำนวน MAC และโหมด violation ⭐\n\n🔍 อ่าน exhibit ทีละบรรทัด\nViolation Mode : Protect ⭐\nAging Time : 5 mins ⭐\nAging Type : Inactivity ⭐\nMaximum MAC Addresses : 3\nTotal MAC Addresses : 3\nConfigured MAC Addresses : 1 ⭐ ตั้งด้วยมือ 1 ตัว\nSticky MAC Addresses : 2 ⭐ เรียนรู้อัตโนมัติ 2 ตัว\nSecurity Violation Count : 0\n\n🕐 Aging สองแบบ\nAbsolute   → นับถอยหลังตั้งแต่วินาทีที่เรียนรู้ ครบเวลาก็ลบทิ้งไม่ว่าจะยังใช้งานอยู่หรือไม่\nInactivity ⭐ → นับถอยหลังเฉพาะ "ตอนที่ไม่มีทราฟฟิก" ถ้ามีทราฟฟิกจะรีเซ็ตตัวนับใหม่\n→ exhibit ระบุ Inactivity 5 นาที จึงหมายความว่า MAC จะถูกลบหลังไม่มีการใช้งานครบห้านาที ⭐\n\n🔢 นับจำนวน MAC\nTotal 3 = Configured 1 + Sticky 2\n→ ที่ "เรียนรู้แบบไดนามิก" คือส่วน sticky จำนวน 2 ตัว ⭐ ส่วนอีก 1 ตัวผู้ดูแลพิมพ์เอง\n\n✅ ทำไม A และ C ถูก:\nA — Aging Type เป็น Inactivity และ Aging Time เป็น 5 mins ตรงกับข้อความ "ลบหลังไม่มีการใช้งานห้านาที" พอดี\nC — Sticky MAC Addresses แสดงค่า 2 ซึ่งคือจำนวน MAC ที่สวิตช์เรียนรู้เอง\n\n❌ ทำไมข้ออื่นผิด:\nB. err-disabled เกิดเฉพาะโหมด Shutdown แต่ exhibit เป็น Protect ⭐\nD. ตัวเลข 3 คือ Total ซึ่งรวม MAC ที่ตั้งด้วยมือ 1 ตัวเข้าไปด้วย จึงไม่ใช่จำนวนที่เรียนรู้แบบไดนามิก ⭐ ตัวลวงหลักที่ดักคนอ่านผิดบรรทัด\nE. โหมด Protect ไม่เพิ่มตัวนับ violation ⭐ จึงเห็น Security Violation Count คงเป็น 0 ตลอด\n\n📗 จำไว้สอบ: Total = Configured + Sticky + Dynamic ⭐ • อ่านโจทย์ให้ชัดว่าถามยอดรวมหรือถามเฉพาะที่เรียนรู้เอง',
+  },
+  {
+    id: 610,
+    kind: 'single',
+    image: v4q610,
+    prompt: 'Refer to the exhibit. Which statement about the interface that generated the output is true?',
+    options: [
+      { key: 'A', text: 'A syslog message is generated when a violation occurs.' },
+      { key: 'B', text: 'One secure MAC address is manually configured on the interface.' },
+      { key: 'C', text: 'One secure MAC address is dynamically learned on the interface.' },
+      { key: 'D', text: 'Five secure MAC addresses are dynamically learned on the interface.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ต้องแยกให้ออกระหว่าง Maximum, Total, Configured และ Sticky ⭐ ทั้งสี่ค่านี้ตอบคำถามคนละอย่างกัน\n\n🔍 อ่าน exhibit\nViolation Mode : Shutdown\nMaximum MAC Addresses : 5 ⭐ เพดานที่ยอมให้เรียนรู้ได้\nTotal MAC Addresses : 1 ⭐ ปัจจุบันมีอยู่จริง 1 ตัว\nConfigured MAC Addresses : 1 ⭐ ในจำนวนนั้นตั้งด้วยมือ 1 ตัว\nSticky MAC Addresses : 0 ⭐ ไม่มีที่เรียนรู้อัตโนมัติเลย\nSecurity Violation Count : 0\n\n🎯 ตีความ\nTotal = 1 และ Configured = 1 และ Sticky = 0\n→ MAC เพียงตัวเดียวที่มีอยู่บนพอร์ตนี้ มาจากคำสั่งที่ผู้ดูแลพิมพ์เองว่า\n switchport port-security mac-address 0001.0fAA.33BB ⭐\n→ ไม่มี MAC ใดถูกเรียนรู้แบบไดนามิกเลย\n\n💡 ความหมายของ Maximum 5\nพอร์ตนี้ "ยอมให้มีได้ถึง 5 ตัว" แต่ตอนนี้ใช้ไปเพียง 1 ⭐ ยังเหลือช่องว่างอีก 4 ที่สวิตช์จะเรียนรู้เพิ่มได้ ตัวเลขนี้ไม่ได้บอกว่ามี MAC อยู่ 5 ตัว\n\n✅ ทำไม B ถูก: บรรทัด Configured MAC Addresses : 1 คู่กับ Sticky : 0 ยืนยันชัดเจนว่า secure MAC หนึ่งเดียวบนพอร์ตนี้ถูกกำหนดด้วยมือ\n\n❌ ทำไมข้ออื่นผิด:\nA. โหมด Shutdown สร้าง syslog จริงเมื่อเกิด violation แต่ exhibit ยังไม่เคยเกิด violation เลย (Security Violation Count : 0) และข้อความนี้ไม่ใช่สิ่งที่ "อ่านได้จากผลลัพธ์" เกี่ยวกับ MAC ที่โจทย์มุ่งถาม ⭐ ตัวลวงที่ดี\nC. ถ้าเรียนรู้แบบไดนามิกจริง ค่าจะไปปรากฏที่บรรทัด Sticky (หรือเป็น dynamic ที่ไม่ถูกนับใน Configured) แต่ Sticky แสดง 0 และ Configured แสดง 1 ⭐\nD. เลข 5 คือ Maximum ซึ่งเป็นเพดาน ไม่ใช่จำนวนที่เรียนรู้จริง จำนวนจริงคือ Total ซึ่งเท่ากับ 1 ⭐ ตัวลวงที่ดักคนอ่านผิดบรรทัด\n\n📗 จำไว้สอบ: Maximum = เพดาน • Total = ที่มีจริง • Configured = พิมพ์เอง • Sticky = เรียนรู้แล้วบันทึก ⭐',
+  },
+  {
+    id: 611,
+    kind: 'single',
+    image: v4q611,
+    prompt: 'Refer to the exhibit. What is the effect of this configuration?',
+    options: [
+      { key: 'A', text: 'The switch port remains administratively down until the interface is connected to another switch.' },
+      { key: 'B', text: 'Dynamic ARP Inspection is disabled because the ARP ACL is missing.' },
+      { key: 'C', text: 'The switch port interface trust state becomes untrusted.' },
+      { key: 'D', text: 'The switch port remains down until it is configured to trust or untrust incoming packets.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — เมื่อเปิด Dynamic ARP Inspection (DAI) บน VLAN ใด พอร์ตทุกพอร์ตใน VLAN นั้นจะกลายเป็น "untrusted" โดยอัตโนมัติ ⭐ นี่คือค่าดีฟอลต์ที่ต้องจำให้ได้\n\n🔍 อ่าน exhibit\nip arp inspection vlan 2 ⭐ เปิด DAI บน VLAN 2\ninterface fastethernet 0/1\n switchport mode access\n switchport access vlan 2 ⭐ พอร์ตนี้อยู่ใน VLAN 2 ที่เปิด DAI ไว้\n→ ไม่มีคำสั่ง ip arp inspection trust ⭐ จึงคงสถานะดีฟอลต์คือ untrusted\n\n🔧 DAI ทำงานอย่างไรบนพอร์ต untrusted\n1. ดักจับแพ็กเก็ต ARP ทุกตัวที่เข้ามา\n2. นำคู่ MAC-to-IP ไปเทียบกับ DHCP snooping binding database ⭐\n3. ถ้าตรง → ส่งต่อ\n4. ถ้าไม่ตรง → ทิ้งและบันทึก log ⭐\n\n⚠️ ข้อควรระวังในงานจริง\nพอร์ตที่เชื่อมไปยังสวิตช์ตัวอื่น เราเตอร์ หรือเซิร์ฟเวอร์ DHCP ต้องสั่ง ip arp inspection trust เสมอ ⭐\nถ้าลืม อัปลิงก์จะถูก DAI ตรวจสอบด้วยและอาจทิ้ง ARP ที่ถูกต้องจนเครือข่ายล่ม\nนอกจากนี้ถ้าไม่มี DHCP snooping ทำงานอยู่ พอร์ต untrusted จะไม่มีฐานข้อมูลให้เทียบเลย → ARP ทั้งหมดถูกทิ้ง ⭐\n\n✅ ทำไม C ถูก: ผลโดยตรงของคอนฟิกนี้คือ Fa0/1 กลายเป็นพอร์ต untrusted ในสายตาของ DAI เพราะไม่ได้ประกาศ trust ไว้ และ VLAN 2 เปิด DAI แล้ว\n\n❌ ทำไมข้ออื่นผิด:\nA. DAI ไม่เกี่ยวข้องกับสถานะ administratively down พอร์ตยังคง up ตามปกติ ⭐\nB. ARP ACL เป็นทางเลือกเสริมสำหรับโฮสต์ที่ใช้ IP แบบคงที่ (ตั้งด้วย ip arp inspection filter) การไม่มี ARP ACL ไม่ได้ปิด DAI ⭐\nD. พอร์ตไม่ได้ถูกกักไว้รอการตั้งค่า trust เลย มันทำงานทันทีด้วยสถานะดีฟอลต์คือ untrusted ⭐\n\n📗 จำไว้สอบ: DAI เปิดปุ๊บ = ทุกพอร์ต untrusted ⭐ • DAI ต้องพึ่ง DHCP snooping binding table เสมอ',
+  },
+  {
+    id: 612,
+    kind: 'single',
+    prompt: 'What is the difference between AAA authentication and authorization?',
+    options: [
+      { key: 'A', text: 'Authentication identifies and verifies a user who is attempting to access a system, and authorization controls the tasks the user performs.' },
+      { key: 'B', text: 'Authentication controls the system processes a user accesses, and authorization logs the activities the user initiates.' },
+      { key: 'C', text: 'Authentication verifies a username and password, and authorization handles the communication between the authentication agent and the user database.' },
+      { key: 'D', text: 'Authentication identifies a user who is attempting to access a system, and authorization validates the user\'s password.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — AAA แบ่งหน้าที่ออกเป็นสามส่วนที่ทำงานตามลำดับ ⭐\n\n1️⃣ Authentication (ยืนยันตัวตน) — "คุณคือใคร" ⭐\nตรวจสอบชื่อผู้ใช้กับรหัสผ่าน ใบรับรอง หรือชีวมิติ ว่าตรงกับที่บันทึกไว้หรือไม่\naaa authentication login default group tacacs+ local\n\n2️⃣ Authorization (ให้สิทธิ์) — "คุณทำอะไรได้บ้าง" ⭐\nเมื่อรู้แล้วว่าเป็นใคร ระบบจะกำหนดว่าผู้ใช้คนนั้นเข้าถึงคำสั่งหรือบริการใดได้\naaa authorization exec default group tacacs+ local\naaa authorization commands 15 default group tacacs+ ⭐ จำกัดคำสั่งระดับ 15\n\n3️⃣ Accounting (บันทึกการใช้งาน) — "คุณทำอะไรไปแล้วบ้าง" ⭐\nบันทึกเวลาเข้าออก คำสั่งที่พิมพ์ และปริมาณทรัพยากรที่ใช้\naaa accounting commands 15 default start-stop group tacacs+\n\n💡 อุปมาที่จำง่าย\nAuthentication = ยามตรวจบัตรประชาชนที่ประตู ⭐\nAuthorization = บัตรของคุณเปิดได้เฉพาะชั้น 3 ไม่ใช่ห้องนิรภัย ⭐\nAccounting = กล้องวงจรปิดบันทึกว่าคุณเข้าห้องไหนตอนกี่โมง ⭐\n\n✅ ทำไม A ถูก: นิยามตรงตามตำรา — authentication ระบุและตรวจสอบตัวตนของผู้ที่พยายามเข้าถึงระบบ ส่วน authorization ควบคุมว่าผู้ใช้คนนั้นทำงานอะไรได้บ้าง\n\n❌ ทำไมข้ออื่นผิด:\nB. สลับกันทั้งคู่ — การควบคุมกระบวนการที่เข้าถึงได้คือ authorization และการบันทึกกิจกรรมคือ accounting ⭐\nC. ครึ่งแรกถูก แต่ครึ่งหลังผิด — authorization ไม่ได้ทำหน้าที่สื่อสารระหว่างเอเจนต์กับฐานข้อมูล นั่นเป็นงานของโปรโตคอลอย่าง RADIUS หรือ TACACS+ ⭐\nD. การตรวจสอบรหัสผ่านเป็นส่วนหนึ่งของ authentication ไม่ใช่ authorization ⭐ ตัวเลือกนี้ยกงานเดียวกันไปให้ทั้งสองฝ่าย\n\n📗 จำไว้สอบ: ลำดับเสมอคือ Authentication → Authorization → Accounting ⭐ ไม่มีทางข้ามขั้นได้',
+  },
+  {
+    id: 613,
+    kind: 'multi',
+    prompt: 'When configuring a WLAN with WPA2 PSK in the Cisco Wireless LAN Controller GUI, which two formats are available to select? (Choose two.)',
+    options: [
+      { key: 'A', text: 'decimal' },
+      { key: 'B', text: 'ASCII' },
+      { key: 'C', text: 'hexadecimal' },
+      { key: 'D', text: 'binary' },
+      { key: 'E', text: 'base64' },
+    ],
+    correct: ['B', 'C'],
+    explanation:
+      '📘 แนวคิด — บนหน้า WLANs > Security > Layer 2 ของ Cisco WLC เมื่อเลือก PSK จะมีเมนู PSK Format ให้เลือกเพียงสองรูปแบบ ⭐\n\n🔧 สองรูปแบบที่ WLC รองรับ\n1️⃣ ASCII ⭐\n• ความยาว 8 ถึง 63 ตัวอักษร ⭐\n• เป็นตัวอักษร ตัวเลข และสัญลักษณ์ที่พิมพ์ได้ เช่น MyOffice2024!\n• ผู้ใช้จำง่ายและพิมพ์ง่าย จึงนิยมใช้ในทางปฏิบัติ\n\n2️⃣ HEX (hexadecimal) ⭐\n• ต้องยาว 64 ตัวอักขระพอดี ⭐ (ไม่มากไม่น้อย)\n• ใช้ได้เฉพาะ 0-9 และ A-F\n• คือค่า PMK ขนาด 256 บิตโดยตรง ไม่ต้องผ่านการแปลงด้วย PBKDF2\n\n🔐 เบื้องหลังการทำงาน\nเมื่อป้อนเป็น ASCII อุปกรณ์จะนำรหัสผ่านไปรวมกับชื่อ SSID แล้วผ่านฟังก์ชัน PBKDF2 จำนวน 4096 รอบ เพื่อสร้าง PMK ขนาด 256 บิต ⭐\nเมื่อป้อนเป็น HEX 64 ตัว คือการใส่ค่า PMK นั้นเข้าไปตรง ๆ เลย\n→ นี่คือเหตุผลที่ HEX ต้องยาว 64 ตัวพอดี เพราะ 64 hex = 256 บิต ⭐\n\n✅ ทำไม B และ C ถูก: ASCII และ HEX คือสองตัวเลือกเดียวที่ปรากฏในเมนู PSK Format ของ Cisco WLC\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีตัวเลือก decimal ในเมนูนี้ ⭐\nD. binary ไม่ใช่รูปแบบที่ผู้ใช้ป้อนได้ในหน้า GUI ⭐\nE. base64 ใช้ในการเข้ารหัสข้อมูลสำหรับส่งผ่านโปรโตคอลข้อความ ไม่ใช่รูปแบบของ WPA2 PSK ⭐\n\n📗 จำไว้สอบ: ASCII 8–63 ตัว • HEX 64 ตัวพอดี ⭐ สองตัวเลขนี้ออกสอบบ่อย',
+  },
+  {
+    id: 614,
+    kind: 'drag',
+    image: v4q614,
+    prompt: 'Drag and drop the AAA functions from the left onto the correct AAA services on the right.',
+    categories: [
+      { name: 'Authentication', items: ['verifies the password associated with a user', 'identifies the user'] },
+      { name: 'Authorization', items: ['controls the actions that a user can perform', 'restricts the services that are available to a user'] },
+      { name: 'Accounting', items: ['provides analytical information for the network administrator', 'records user activities'] },
+    ],
+    explanation:
+      '📘 แนวคิด — จับคู่หน้าที่แต่ละอย่างเข้ากับ A ตัวที่ถูกต้องใน AAA ⭐\n\n1️⃣ Authentication — "คุณคือใคร" ⭐\n• identifies the user → ระบุว่าผู้ที่กำลังเข้าถึงคือใคร\n• verifies the password associated with a user → ตรวจสอบรหัสผ่านที่ผูกกับผู้ใช้คนนั้นว่าถูกต้องหรือไม่\n💡 สองข้อนี้คือกระบวนการเดียวกันคือ "พิสูจน์ตัวตน" แค่มองคนละมุม มุมหนึ่งคือระบุตัวคน อีกมุมคือตรวจหลักฐาน ⭐\n\n2️⃣ Authorization — "คุณทำอะไรได้บ้าง" ⭐\n• controls the actions that a user can perform → ควบคุมว่าผู้ใช้สั่งคำสั่งอะไรได้ (เช่น aaa authorization commands 15)\n• restricts the services that are available to a user → จำกัดบริการที่เข้าถึงได้ (เช่น อนุญาต SSH แต่ไม่อนุญาต config mode)\n💡 คำสำคัญคือ controls และ restricts ⭐ ทั้งคู่สื่อถึงการ "จำกัดขอบเขต" ซึ่งเป็นแก่นของ authorization\n\n3️⃣ Accounting — "คุณทำอะไรไปแล้วบ้าง" ⭐\n• records user activities → บันทึกกิจกรรมของผู้ใช้ เช่น คำสั่งที่พิมพ์ เวลาเข้าออกระบบ\n• provides analytical information for the network administrator → นำบันทึกเหล่านั้นมาสรุปเป็นข้อมูลเชิงวิเคราะห์ให้ผู้ดูแล เช่น รายงานการใช้แบนด์วิดท์ หรือหลักฐานตรวจสอบย้อนหลัง\n💡 คำสำคัญคือ records และ analytical ⭐ ทั้งคู่เกิด "หลังจาก" ผู้ใช้ทำงานไปแล้ว\n\n🔧 คอนฟิกที่ตรงกับแต่ละส่วน\naaa authentication login default group tacacs+ local ⭐ ← ข้อ 1\naaa authorization commands 15 default group tacacs+ ⭐ ← ข้อ 2\naaa accounting commands 15 default start-stop group tacacs+ ⭐ ← ข้อ 3\n\n📗 จำไว้สอบ: identify/verify = Authentication • control/restrict = Authorization • record/report = Accounting ⭐',
+  },
+  {
+    id: 615,
+    kind: 'multi',
+    prompt: 'An engineer is asked to protect unused ports that are configured in the default VLAN on a switch. Which two steps will fulfill the request? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Configure the ports as trunk ports.' },
+      { key: 'B', text: 'Enable the Cisco Discovery Protocol.' },
+      { key: 'C', text: 'Configure the port type as access and place in VLAN 99.' },
+      { key: 'D', text: 'Administratively shut down the ports.' },
+      { key: 'E', text: 'Configure the ports in an EtherChannel.' },
+    ],
+    correct: ['C', 'D'],
+    explanation:
+      '📘 แนวคิด — พอร์ตที่ไม่ได้ใช้งานคือช่องทางบุกรุกที่ง่ายที่สุด เพราะดีฟอลต์ของสวิตช์ Cisco คือทุกพอร์ตอยู่ใน VLAN 1 และเปิดโหมด dynamic auto ไว้ ⭐\n\n⚠️ ความเสี่ยงถ้าปล่อยไว้เฉย ๆ\n• ใครก็ตามที่เสียบสายเข้าพอร์ตว่างจะได้อยู่ใน VLAN 1 ซึ่งมักเป็น management VLAN ทันที ⭐\n• โหมด dynamic auto ยอมเจรจาเป็น trunk ได้ ผู้โจมตีจึงอาจใช้ switch-spoofing เพื่อเห็นทราฟฟิกทุก VLAN ⭐\n\n🛡️ แนวปฏิบัติที่ Cisco แนะนำสำหรับพอร์ตว่าง\n1️⃣ ย้ายออกจาก VLAN 1 ไปยัง VLAN ที่ไม่ได้ใช้ (มักเรียกว่า black hole VLAN หรือ parking VLAN) ⭐\n2️⃣ บังคับให้เป็น access port เพื่อไม่ให้เจรจาเป็น trunk ได้ ⭐\n3️⃣ สั่ง shutdown เพื่อปิดพอร์ตทางกายภาพ ⭐\n\n🔧 คอนฟิกตัวอย่าง\nSW(config)# interface range fa0/10 - 24\nSW(config-if-range)# switchport mode access ⭐\nSW(config-if-range)# switchport access vlan 99 ⭐\nSW(config-if-range)# shutdown ⭐\n\n✅ ทำไม C และ D ถูก:\nC — การบังคับเป็น access port ปิดโอกาส DTP เจรจาเป็น trunk และการย้ายไป VLAN 99 ทำให้แม้มีคนเสียบสายก็ไปโผล่ใน VLAN ที่ไม่มีเส้นทางออกไปไหน\nD — การ shutdown เป็นการป้องกันชั้นสุดท้ายที่แน่นอนที่สุด เพราะพอร์ตจะไม่ส่งผ่านข้อมูลใด ๆ เลย\n\n❌ ทำไมข้ออื่นผิด:\nA. การตั้งเป็น trunk ทำให้พอร์ตว่างส่งผ่านได้ทุก VLAN ซึ่งเป็นสิ่งที่อันตรายที่สุดที่ทำได้ ⭐ ตรงข้ามกับเป้าหมายโดยสิ้นเชิง\nB. CDP เผยข้อมูลอุปกรณ์ เช่น รุ่น เวอร์ชัน IOS และที่อยู่ IP ให้ผู้ที่เสียบสายเข้ามาเห็น จึงควร "ปิด" บนพอร์ตที่ไม่ไว้ใจ ไม่ใช่เปิด ⭐\nE. EtherChannel ใช้รวมลิงก์ระหว่างสวิตช์เพื่อเพิ่มแบนด์วิดท์ ไม่เกี่ยวกับการป้องกันพอร์ตว่าง ⭐\n\n📗 จำไว้สอบ: พอร์ตว่าง = shutdown + ย้ายไป unused VLAN + บังคับ access mode ⭐ ทั้งสามอย่างควรทำพร้อมกัน',
+  },
+  {
+    id: 616,
+    kind: 'single',
+    prompt: 'An email user has been lured into clicking a link in an email sent by their company\'s security organization. The webpage that opens reports that it was safe, but the link may have contained malicious code. Which type of security program is in place?',
+    options: [
+      { key: 'A', text: 'user awareness' },
+      { key: 'B', text: 'brute force attack' },
+      { key: 'C', text: 'physical access control' },
+      { key: 'D', text: 'social engineering attack' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — องค์กรส่งอีเมลจำลองการโจมตีแบบฟิชชิงให้พนักงานเอง แล้วแสดงหน้าเตือนเมื่อมีคนคลิก นี่คือกิจกรรมของโปรแกรม user awareness ⭐\n\n🔑 สังเกตคำสำคัญในโจทย์\n"sent by their company\'s security organization" ⭐ ← ผู้ส่งคือทีมความปลอดภัยขององค์กรเอง ไม่ใช่ผู้โจมตีจริง\n"The webpage that opens reports that it was safe" ⭐ ← หน้าเว็บบอกว่าปลอดภัย เป็นการให้ข้อเสนอแนะเชิงสอน ไม่ได้ขโมยอะไร\n→ สองจุดนี้ยืนยันว่าเป็นการฝึกซ้อม ไม่ใช่การโจมตี\n\n📊 สามองค์ประกอบของโปรแกรมความปลอดภัยตามหลักสูตร CCNA\n1️⃣ User awareness ⭐\n• ทำให้พนักงานทุกคน "ตระหนัก" ถึงภัยคุกคามที่มีอยู่\n• ตัวอย่าง: ส่งอีเมลฟิชชิงจำลอง ติดโปสเตอร์เตือน ส่งจดหมายข่าวความปลอดภัย ⭐\n\n2️⃣ Training (การฝึกอบรม)\n• สอนทักษะเฉพาะที่จำเป็นต่อหน้าที่ของแต่ละคน\n• ตัวอย่าง: อบรมวิธีสังเกต URL ปลอม อบรมการตั้งรหัสผ่านที่ปลอดภัย\n\n3️⃣ Education (การให้ความรู้เชิงลึก)\n• ความรู้ที่ลึกกว่างานประจำวัน มักนำไปสู่วุฒิบัตรหรือประกาศนียบัตร\n• ตัวอย่าง: ส่งพนักงานไปเรียนหลักสูตรความปลอดภัยระดับวิชาชีพ\n\n✅ ทำไม A ถูก: การจำลองฟิชชิงแล้วแจ้งผลกลับทันทีเป็นเครื่องมือคลาสสิกของโปรแกรมสร้างความตระหนัก ช่วยให้พนักงานเรียนรู้จากประสบการณ์ตรงโดยไม่เกิดความเสียหายจริง\n\n❌ ทำไมข้ออื่นผิด:\nB. brute force คือการเดารหัสผ่านซ้ำ ๆ จนกว่าจะถูก ไม่เกี่ยวกับอีเมลหรือลิงก์ ⭐\nC. physical access control คือการควบคุมการเข้าถึงทางกายภาพ เช่น บัตรผ่านประตูหรือกล้องวงจรปิด ⭐\nD. ตัวลวงหลัก — social engineering attack คือ "การโจมตีจริง" แต่โจทย์ระบุชัดว่าผู้ส่งคือทีมความปลอดภัยขององค์กร และคำถามถามหา "security program" ไม่ใช่ชื่อการโจมตี ⭐\n\n📗 จำไว้สอบ: Awareness = รู้ว่ามีภัย • Training = ทำเป็น • Education = เข้าใจลึกถึงหลักการ ⭐',
+  },
+  {
+    id: 617,
+    kind: 'drag',
+    image: v4q617,
+    prompt: 'Drag and drop the Cisco Wireless LAN Controller security settings from the left onto the correct security mechanism categories on the right.',
+    categories: [
+      { name: 'Layer 2 Security Mechanisms', items: ['WPA+WPA2', '802.1X'] },
+      { name: 'Layer 3 Security Mechanisms (for WLAN)', items: ['web policy', 'Passthrough'] },
+    ],
+    explanation:
+      '📘 แนวคิด — หน้า WLANs > Security ของ Cisco WLC แบ่งความปลอดภัยออกเป็นแท็บ Layer 2, Layer 3 และ AAA Servers ⭐ ต้องรู้ว่าตัวเลือกใดอยู่ใต้แท็บไหน\n\n🔐 แท็บ Layer 2 Security ⭐\nทำงานที่ระดับเฟรม 802.11 คือ "ก่อน" ที่ไคลเอนต์จะได้รับที่อยู่ IP ด้วยซ้ำ\nตัวเลือกในเมนูดรอปดาวน์ ได้แก่\n• None\n• WPA+WPA2 ⭐ ← เลือกนโยบายและวิธีเข้ารหัส (AES/TKIP) ได้ที่นี่\n• 802.1X ⭐ ← ยืนยันตัวตนรายบุคคลผ่าน EAP กับเซิร์ฟเวอร์ RADIUS\n• Static WEP, CKIP, Static WEP + 802.1X\n\n🌐 แท็บ Layer 3 Security ⭐\nทำงาน "หลังจาก" ไคลเอนต์เชื่อมต่อและได้รับที่อยู่ IP แล้ว โดยดักการเข้าถึงไว้จนกว่าจะผ่านเงื่อนไข\nตัวเลือกได้แก่\n• None\n• Web Policy ⭐ ← กลุ่มนโยบายที่ใช้เว็บพอร์ทัล ซึ่งมีตัวเลือกย่อยดังนี้\n ▸ Authentication → ต้องกรอกชื่อผู้ใช้และรหัสผ่านบนหน้าเว็บ\n ▸ Passthrough ⭐ → แค่คลิกยอมรับเงื่อนไขก็ผ่าน ไม่ต้องกรอกรหัส (นิยมใช้กับ Wi-Fi แขก)\n ▸ Conditional Web Redirect, Splash Page Web Redirect\n\n💡 จุดที่ต้องแยกให้ออก\nLayer 2 = ป้องกันตั้งแต่ระดับคลื่นวิทยุและการเข้ารหัสข้อมูล ⭐\nLayer 3 = พอร์ทัลหน้าเว็บที่มาทีหลังเมื่อมี IP แล้ว ⭐\nทั้งสองใช้ร่วมกันได้ เช่น เปิด WPA2 ที่ Layer 2 แล้วบังคับ Web Passthrough ที่ Layer 3 อีกชั้น\n\n📗 จำไว้สอบ: อะไรที่เกี่ยวกับ "หน้าเว็บ" ให้ไป Layer 3 เสมอ • อะไรที่เกี่ยวกับการเข้ารหัสหรือ EAP ให้ไป Layer 2 ⭐',
+  },
+  {
+    id: 618,
+    kind: 'single',
+    prompt: 'Which feature on the Cisco Wireless LAN Controller when enabled restricts management access from specific networks?',
+    options: [
+      { key: 'A', text: 'TACACS' },
+      { key: 'B', text: 'CPU ACL' },
+      { key: 'C', text: 'Flex ACL' },
+      { key: 'D', text: 'RADIUS' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — บน Cisco WLC ทราฟฟิกที่ "ส่งถึงตัว WLC เอง" จะถูกส่งขึ้นไปประมวลผลที่ CPU ⭐ การกรองทราฟฟิกกลุ่มนี้จึงต้องใช้ CPU ACL ไม่ใช่ ACL ธรรมดา\n\n🔧 CPU ACL คืออะไร\n• เป็น ACL พิเศษที่ใช้กับทราฟฟิกที่มุ่งมายัง control plane ของ WLC โดยตรง ⭐\n• ครอบคลุมการเข้าถึงเพื่อบริหารจัดการทุกช่องทาง ได้แก่ HTTP, HTTPS, SSH, Telnet, SNMP และ CAPWAP ⭐\n• ตั้งค่าที่ Security > Access Control Lists > CPU Access Control Lists ⭐\n\n📊 ประเภทของ ACL บน WLC\nประเภท              ใช้กับทราฟฟิก\nInterface ACL       ทราฟฟิกที่วิ่งผ่านอินเทอร์เฟซ (ทราฟฟิกของไคลเอนต์)\nCPU ACL ⭐           ทราฟฟิกที่ส่งถึงตัว WLC เอง ← คำตอบ\nFlexConnect ACL     ทราฟฟิกของ AP ในโหมด FlexConnect ที่สลับข้อมูลในพื้นที่\n\n💡 ตัวอย่างการใช้งานจริง\nต้องการให้เฉพาะซับเน็ตผู้ดูแล 10.10.99.0/24 เข้าหน้าจัดการ WLC ได้ ให้สร้าง ACL ที่ permit ซับเน็ตนั้นทุกโปรโตคอล แล้ว deny any any จากนั้นกำหนดเป็น CPU ACL ⭐\n→ ผลคือคนจากซับเน็ตผู้ใช้ทั่วไปจะเปิดหน้าเว็บของ WLC ไม่ได้เลย\n\n✅ ทำไม B ถูก: CPU ACL เป็นกลไกเดียวบน WLC ที่กรองทราฟฟิกซึ่งปลายทางเป็นตัวคอนโทรลเลอร์เอง จึงเป็นวิธีจำกัดการเข้าถึงเพื่อบริหารจัดการให้เหลือเฉพาะเครือข่ายที่กำหนด\n\n❌ ทำไมข้ออื่นผิด:\nA. TACACS+ ให้บริการ AAA คือตรวจว่าใครเป็นใครและทำอะไรได้ แต่ไม่ได้กรองตาม "เครือข่ายต้นทาง" ⭐\nC. Flex ACL ใช้กับ AP ในโหมด FlexConnect ที่ทำ local switching ไม่เกี่ยวกับการเข้าถึงตัว WLC ⭐\nD. RADIUS เป็นโปรโตคอล AAA เช่นเดียวกับ TACACS+ จึงไม่ใช่กลไกกรองตามซับเน็ต ⭐\n\n📗 จำไว้สอบ: จำกัดการเข้าถึง "ตัวอุปกรณ์เอง" — บนเราเตอร์/สวิตช์ใช้ access-class ที่ line vty • บน WLC ใช้ CPU ACL ⭐',
+  },
+  {
+    id: 619,
+    kind: 'single',
+    prompt: 'Which set of actions satisfy the requirement for multifactor authentication?',
+    options: [
+      { key: 'A', text: 'The user enters a user name and password, and then re-enters the credentials on a second screen.' },
+      { key: 'B', text: 'The user swipes a key fob, then clicks through an email link.' },
+      { key: 'C', text: 'The user enters a user name and password, and then clicks a notification in an authentication app on a mobile device.' },
+      { key: 'D', text: 'The user enters a PIN into an RSA token, and then enters the displayed RSA key on a login screen.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — MFA ต้องใช้ปัจจัยจาก "คนละหมวด" อย่างน้อยสองหมวด ⭐ การใช้ปัจจัยหมวดเดียวกันสองครั้งไม่นับเป็น MFA\n\n🔑 สามหมวดของปัจจัย\n1️⃣ Something you know — รหัสผ่าน PIN คำถามลับ ⭐\n2️⃣ Something you have — สมาร์ตโฟน โทเคน คีย์ฟอบ สมาร์ตการ์ด ⭐\n3️⃣ Something you are — ลายนิ้วมือ ใบหน้า เสียง ม่านตา ⭐\n\n🔍 วิเคราะห์ทีละตัวเลือก\nA. รหัสผ่าน (know) + รหัสผ่านซ้ำ (know) → หมวดเดียวกันสองครั้ง ⭐ ไม่ใช่ MFA\nB. คีย์ฟอบ (have) + คลิกลิงก์ในอีเมล (have — เข้าถึงกล่องอีเมลเดียวกัน) → ยังคงเป็นหมวด have ทั้งคู่ และลิงก์อีเมลไม่ใช่ปัจจัยยืนยันตัวตนที่แข็งแรง ⭐\nC. ชื่อผู้ใช้และรหัสผ่าน (know) + กดอนุมัติในแอปบนมือถือ (have) → ครบสองหมวด ⭐ ← คำตอบ\nD. ใส่ PIN เข้าโทเคน RSA แล้วนำรหัสที่แสดงไปกรอก → ระบบล็อกอินเห็นเพียง "ค่าเดียว" คือรหัสจากโทเคน ส่วน PIN ถูกใช้ปลดล็อกตัวโทเคนเอง ไม่ได้ถูกส่งไปตรวจที่ระบบ ⭐ จึงเป็นการยืนยันปัจจัยเดียวในมุมของระบบ\n\n💡 ทำไม C จึงเป็นรูปแบบมาตรฐาน\nนี่คือกลไกที่ Cisco Duo, Microsoft Authenticator และ Okta Verify ใช้จริง — เรียกว่า push notification MFA ⭐\nระบบตรวจรหัสผ่านก่อน แล้วส่งการแจ้งเตือนไปยังอุปกรณ์ที่ลงทะเบียนไว้ ผู้ใช้ต้องถือเครื่องนั้นอยู่จริงจึงจะกดอนุมัติได้\n\n✅ ทำไม C ถูก: เป็นตัวเลือกเดียวที่ผสมปัจจัย "สิ่งที่คุณรู้" กับ "สิ่งที่คุณมี" อย่างชัดเจนและแยกจากกันจริง\n\n📗 จำไว้สอบ: นับหมวด ไม่ใช่นับจำนวนขั้นตอน ⭐ รหัสผ่านสองชั้น = single factor สองครั้ง ไม่ใช่ MFA',
+  },
+  {
+    id: 620,
+    kind: 'single',
+    prompt: 'Which configuration is needed to generate an RSA key for SSH on a router?',
+    options: [
+      { key: 'A', text: 'Configure VTY access.' },
+      { key: 'B', text: 'Configure the version of SSH.' },
+      { key: 'C', text: 'Assign a DNS domain name.' },
+      { key: 'D', text: 'Create a user with a password.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คำสั่ง crypto key generate rsa จะถูกปฏิเสธถ้าอุปกรณ์ยังไม่มี "ชื่อเต็ม" ที่ประกอบด้วย hostname และ domain name ⭐\n\n⚠️ สาเหตุที่ต้องมี domain name\nคีย์ RSA ถูกตั้งชื่อตามรูปแบบ hostname.domain-name ⭐\nเช่น เมื่อ hostname เป็น R1 และ ip domain-name เป็น cisco.com คีย์จะชื่อ R1.cisco.com\n→ ถ้าขาด domain name อุปกรณ์จะสร้างชื่อคีย์ไม่ได้ และตอบกลับว่า\n "% Please define a domain-name first." ⭐\n\n🔧 ลำดับการตั้งค่า SSH ที่ถูกต้อง\n1️⃣ R1(config)# hostname R1 ⭐ (ห้ามใช้ชื่อดีฟอลต์ Router)\n2️⃣ R1(config)# ip domain-name cisco.com ⭐ ← ขั้นที่โจทย์ถาม\n3️⃣ R1(config)# crypto key generate rsa modulus 1024 ⭐ (ควรใช้ 2048 ในงานจริง)\n4️⃣ R1(config)# ip ssh version 2\n5️⃣ R1(config)# username admin privilege 15 secret P@ssw0rd\n6️⃣ R1(config)# line vty 0 15\n R1(config-line)# transport input ssh ⭐\n R1(config-line)# login local\n\n💡 หมายเหตุเรื่องขนาดคีย์\nต้องใช้ modulus อย่างน้อย 768 บิตขึ้นไปจึงจะเปิด SSH version 2 ได้ ⭐ ปัจจุบันแนะนำ 2048 บิต\n\n✅ ทำไม C ถูก: การกำหนดชื่อโดเมนเป็นเงื่อนไขบังคับ "ก่อน" การสร้างคีย์ RSA เพราะระบบต้องใช้ชื่อโดเมนมาประกอบเป็นชื่อของคู่กุญแจ\n\n❌ ทำไมข้ออื่นผิด:\nA. การตั้งค่า line vty ทำ "หลัง" มีคีย์แล้ว และไม่ได้เป็นเงื่อนไขของการสร้างคีย์ ⭐\nB. คำสั่ง ip ssh version 2 ต้องพิมพ์หลังจากมีคีย์ขนาดเพียงพอแล้ว ถ้าพิมพ์ก่อนจะถูกปฏิเสธ ⭐\nD. บัญชีผู้ใช้จำเป็นสำหรับ "การล็อกอิน" แต่ไม่เกี่ยวกับขั้นตอนสร้างคีย์ ⭐ ตัวลวงที่ดี\n\n📗 จำไว้สอบ: hostname + ip domain-name = เงื่อนไขบังคับก่อน crypto key generate rsa ⭐ ท่องคู่นี้ให้ขึ้นใจ',
+  },
+  {
+    id: 621,
+    kind: 'multi',
+    image: v4q621,
+    prompt: 'Refer to the exhibit. An extended ACL has been configured and applied to router R2. The configuration failed to work as intended. Which two changes stop outbound traffic on TCP ports 25 and 80 to 10.0.20.0/26 from the 10.0.10.0/26 subnet while still allowing all other traffic? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Add a "permit ip any any" statement at the end of ACL 101 for allowed traffic.' },
+      { key: 'B', text: 'Add a "permit ip any any" statement to the beginning of ACL 101 for allowed traffic.' },
+      { key: 'C', text: 'The ACL must be moved to the Gi0/1 interface outbound on R2.' },
+      { key: 'D', text: 'The source and destination IPs must be swapped in ACL 101.' },
+      { key: 'E', text: 'The ACL must be configured the Gi0/2 interface inbound on R1.' },
+    ],
+    correct: ['A', 'D'],
+    explanation:
+      '📘 แนวคิด — ACL ที่ใช้งานไม่ได้มักมีปัญหาสามอย่าง คือ ทิศทางกลับด้าน ลำดับผิด หรือลืม permit ท้ายรายการ ⭐ ข้อนี้มีปัญหาสองอย่างพร้อมกัน\n\n🔍 อ่าน exhibit\nโครงสร้าง: Internet ── R1 (Gi0/1) │ R1 Gi0/2 ── Gi0/1 R2\nR1 Gi0/3 → LAN 10.0.20.0/26 ⭐\nR2 Gi0/2 → LAN 10.0.10.0/26 ⭐\n\nคอนฟิกปัจจุบันบน R2\naccess-list 101 deny tcp 10.0.20.0 0.0.0.63 10.0.10.0 0.0.0.63 eq smtp\naccess-list 101 deny tcp 10.0.20.0 0.0.0.63 10.0.10.0 0.0.0.63 eq www\ninterface gi0/2\n ip access-group 101 in\n\n🎯 ความต้องการจริง\n"หยุดทราฟฟิกขาออกบนพอร์ต 25 และ 80 ไปยัง 10.0.20.0/26 จากซับเน็ต 10.0.10.0/26"\n→ ต้นทางต้องเป็น 10.0.10.0/26 ⭐\n→ ปลายทางต้องเป็น 10.0.20.0/26 ⭐\n\n❗ ปัญหาที่ 1 — ต้นทางกับปลายทางสลับกัน\nคอนฟิกเขียนว่า deny tcp 10.0.20.0 ... 10.0.10.0 ... ซึ่งกลับด้านกับที่ต้องการ\nACL ถูกวางไว้ที่ Gi0/2 ขาเข้า ซึ่งเป็นจุดที่ทราฟฟิกจากโฮสต์ 10.0.10.x ไหลเข้า R2 ⭐ ทราฟฟิกเหล่านั้นมีต้นทางเป็น 10.0.10.x จึงไม่ตรงกับบรรทัด deny เลยสักบรรทัด\n→ ต้องสลับเป็น deny tcp 10.0.10.0 0.0.0.63 10.0.20.0 0.0.0.63 eq smtp/www ⭐\n\n❗ ปัญหาที่ 2 — ไม่มี permit ปิดท้าย\nทุก ACL มี implicit deny ip any any ซ่อนอยู่บรรทัดสุดท้ายเสมอ ⭐\nเมื่อไม่มี permit ใด ๆ ทราฟฟิกทั้งหมดที่ไม่ตรง deny จะถูกทิ้ง → LAN 10.0.10.0/26 ออกไปไหนไม่ได้เลยแม้แต่อินเทอร์เน็ต\n→ ต้องเติม permit ip any any ไว้ท้ายสุด ⭐\n\n🔧 ACL ที่ถูกต้อง\naccess-list 101 deny tcp 10.0.10.0 0.0.0.63 10.0.20.0 0.0.0.63 eq smtp\naccess-list 101 deny tcp 10.0.10.0 0.0.0.63 10.0.20.0 0.0.0.63 eq www\naccess-list 101 permit ip any any ⭐\n\n✅ ทำไม A และ D ถูก: D แก้ให้ ACL จับคู่ทราฟฟิกได้จริงตามทิศทางที่ถูกต้อง ส่วน A เปิดทางให้ทราฟฟิกอื่นทั้งหมดผ่านได้ตามที่โจทย์กำหนดว่า "still allowing all other traffic"\n\n❌ ทำไมข้ออื่นผิด:\nB. การวาง permit ip any any ไว้ "บนสุด" ทำให้ทุกแพ็กเก็ตตรงกับบรรทัดแรกและผ่านไปทันที บรรทัด deny ด้านล่างจะไม่มีวันถูกประมวลผลเลย ⭐ ตัวลวงที่คลาสสิกที่สุดของเรื่อง ACL\nC. Gi0/1 บน R2 คือฝั่งที่หันไปหา R1 ทราฟฟิกขาออกจากอินเทอร์เฟซนี้คือทราฟฟิกที่กำลังจะไป 10.0.20.0/26 ก็จริง แต่ตำแหน่งเดิมที่ Gi0/2 ขาเข้าถูกต้องอยู่แล้ว เพราะเป็นจุดที่ใกล้ต้นทางที่สุด ⭐ และการย้ายเฉย ๆ ไม่ได้แก้ทั้งสองปัญหาข้างต้น\nE. ACL ต้องอยู่บน R2 ตามโจทย์ที่ระบุว่า "applied to router R2" และการวางบน R1 จะไกลจากต้นทางโดยไม่จำเป็น ⭐\n\n📗 จำไว้สอบ: extended ACL วางใกล้ "ต้นทาง" • standard ACL วางใกล้ "ปลายทาง" ⭐ และอย่าลืม permit ปิดท้ายเสมอ',
+  },
+  {
+    id: 622,
+    kind: 'single',
+    prompt: 'An engineer must configure a WLAN using the strongest encryption type for WPA2-PSK. Which cipher fulfills the configuration requirement?',
+    options: [
+      { key: 'A', text: 'WEP' },
+      { key: 'B', text: 'AES' },
+      { key: 'C', text: 'RC4' },
+      { key: 'D', text: 'TKIP' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — WPA2 บังคับใช้ CCMP ซึ่งมี AES เป็นอัลกอริทึมเข้ารหัสหลัก ⭐ นี่คือตัวเลือกที่แข็งแรงที่สุดในบรรดาทั้งหมด\n\n📊 วิวัฒนาการของการเข้ารหัส Wi-Fi\nมาตรฐาน  การเข้ารหัส        อัลกอริทึมพื้นฐาน   ความปลอดภัย\nWEP      RC4 + IV 24 บิต    RC4 ⭐             แตกได้ในไม่กี่นาที ⭐\nWPA      TKIP               RC4 ⭐             เลิกใช้แล้ว มีช่องโหว่\nWPA2 ⭐   CCMP               AES ⭐             แข็งแรง ← คำตอบ\nWPA3     GCMP/CCMP          AES ⭐             แข็งแรงที่สุดในปัจจุบัน\n\n🔐 ทำไม AES จึงเหนือกว่า\n• เป็น block cipher ที่ผ่านการตรวจสอบจากทั่วโลกและได้รับการรับรองโดย NIST ⭐\n• CCMP ให้ทั้งความลับ (encryption) และความสมบูรณ์ (message integrity) ในกลไกเดียว ⭐\n• ไม่มีการโจมตีเชิงปฏิบัติที่สำเร็จกับ AES-CCMP จนถึงปัจจุบัน\n\n⚠️ ทำไม TKIP จึงต้องเลิกใช้\nTKIP ถูกออกแบบมาเป็นทางออกชั่วคราวเพื่อให้ฮาร์ดแวร์ WEP รุ่นเก่าอัปเกรดได้ด้วยเฟิร์มแวร์ จึงยังใช้ RC4 เป็นแกนอยู่ ⭐\nปัจจุบัน Wi-Fi Alliance ประกาศเลิกรับรอง TKIP แล้ว และการเปิด TKIP บน WLAN จะบังคับให้ทั้งเครือข่ายลดความเร็วลงเหลือมาตรฐาน 802.11g ⭐\n\n✅ ทำไม B ถูก: AES คือรหัสลับที่ WPA2 ใช้ผ่านโพรโทคอล CCMP และเป็นตัวเลือกที่แข็งแรงที่สุดที่กำหนดได้ในหน้า WPA2 Encryption ของ WLC\n\n❌ ทำไมข้ออื่นผิด:\nA. WEP เป็นมาตรฐานรุ่นแรกสุดที่ถูกถอดออกจากการใช้งานตั้งแต่ปี 2004 เพราะแตกได้ง่ายมาก ⭐\nC. RC4 คือ stream cipher ที่อยู่เบื้องหลังทั้ง WEP และ TKIP มีจุดอ่อนที่รู้กันดี ⭐\nD. TKIP ปลอดภัยกว่า WEP แต่ยังอ่อนกว่า AES มาก และไม่ใช่ตัวเลือกที่แข็งแรงที่สุด ⭐ ตัวลวงหลัก\n\n📗 จำไว้สอบ: WPA = TKIP/RC4 • WPA2 = CCMP/AES ⭐ • WPA3 = GCMP/AES + SAE',
+  },
+  {
+    id: 623,
+    kind: 'drag',
+    image: v4q623,
+    prompt: 'Drag and drop the attack-mitigation techniques from the left onto the types of attack that they mitigate on the right.',
+    categories: [
+      { name: '802.1q double-tagging VLAN-hopping attack', items: ['configure the native VLAN with a nondefault VLAN ID'] },
+      { name: 'MAC flooding attack', items: ['configure 802.1x authenticate'] },
+      { name: 'man-in-the-middle spoofing attack', items: ['configure DHCP snooping'] },
+      { name: 'switch-spoofing VLAN-hopping attack', items: ['disable DTP'] },
+    ],
+    explanation:
+      '📘 แนวคิด — จับคู่มาตรการป้องกันกับการโจมตีระดับ Layer 2 แต่ละแบบ ⭐\n\n1️⃣ 802.1q double-tagging VLAN-hopping → configure the native VLAN with a nondefault VLAN ID ⭐\nวิธีโจมตี: ผู้โจมตีใส่แท็ก VLAN สองชั้น ชั้นนอกเป็น native VLAN (ปกติคือ 1) ชั้นในเป็น VLAN เป้าหมาย\nสวิตช์ตัวแรกถอดแท็กชั้นนอกออกเพราะตรงกับ native VLAN แล้วส่งต่อ สวิตช์ตัวที่สองเห็นแท็กชั้นในจึงส่งเข้า VLAN เป้าหมาย ⭐\nวิธีป้องกัน: เปลี่ยน native VLAN เป็นหมายเลขที่ไม่มีใครใช้ เช่น 999 ทำให้เฟรมของผู้โจมตีไม่ตรงกับ native VLAN และถูกแท็กไว้ทั้งสองชั้น\nswitchport trunk native vlan 999 ⭐\n\n2️⃣ MAC flooding attack → configure 802.1x authenticate ⭐\nวิธีโจมตี: ยิงเฟรมที่มี MAC ต้นทางปลอมนับหมื่นตัวจนตาราง CAM เต็ม สวิตช์จึงเริ่มฟลัดทุกเฟรมออกทุกพอร์ต ทำให้ดักฟังข้อมูลได้\nวิธีป้องกัน: 802.1X บังคับให้อุปกรณ์ต้องยืนยันตัวตนกับ RADIUS ก่อนพอร์ตจะเปิดรับส่งข้อมูล ⭐ ผู้โจมตีที่ไม่มีบัญชีจึงส่งเฟรมปลอมไม่ได้เลยตั้งแต่ต้น\n(หมายเหตุ: ในทางปฏิบัติ port security ก็ใช้กันข้อนี้ได้ แต่ในโจทย์นี้ 802.1X เป็นตัวเลือกเดียวที่เหมาะ)\n\n3️⃣ man-in-the-middle spoofing attack → configure DHCP snooping ⭐\nวิธีโจมตี: ตั้งเซิร์ฟเวอร์ DHCP ปลอมแล้วแจกที่อยู่พร้อมกำหนดตัวเองเป็น default gateway ทราฟฟิกทั้งหมดของเหยื่อจึงวิ่งผ่านเครื่องผู้โจมตี ⭐\nวิธีป้องกัน: DHCP snooping กำหนดว่าพอร์ตใดเป็น trusted (พอร์ตที่ไปหาเซิร์ฟเวอร์จริง) ข้อความ DHCP OFFER จากพอร์ต untrusted จะถูกทิ้งทั้งหมด ⭐\nip dhcp snooping / ip dhcp snooping vlan 10 / ip dhcp snooping trust\n\n4️⃣ switch-spoofing VLAN-hopping attack → disable DTP ⭐\nวิธีโจมตี: ผู้โจมตีปลอมตัวเป็นสวิตช์แล้วส่งข้อความ DTP เพื่อเจรจาให้พอร์ตกลายเป็น trunk เมื่อสำเร็จจะเห็นทราฟฟิกของทุก VLAN ⭐\nวิธีป้องกัน: ปิด DTP บนพอร์ตผู้ใช้ทั้งหมด\nswitchport mode access\nswitchport nonegotiate ⭐\n\n📗 จำไว้สอบ: VLAN hopping มีสองแบบ — switch spoofing แก้ด้วยปิด DTP • double tagging แก้ด้วยเปลี่ยน native VLAN ⭐',
+  },
+  {
+    id: 624,
+    kind: 'single',
+    image: v4q624,
+    prompt: 'Refer to the exhibit. Which configuration for RTR-1 denies SSH access from PC-1 to any RTR-1 interface and allows all other traffic?',
+    options: [
+      { key: 'A', text: 'access-list 100 deny tcp host 172.16.1.33 any eq 22 / access-list 100 permit ip any any / interface GigabitEthernet0/0 / ip access-group 100 in' },
+      { key: 'B', text: 'access-list 100 deny tcp host 172.16.1.33 any eq 22 / access-list 100 permit ip any any / line vty 0 15 / access-class 100 in' },
+      { key: 'C', text: 'access-list 100 deny tcp host 172.16.1.33 any eq 23 / access-list 100 permit ip any any / interface GigabitEthernet0/0 / ip access-group 100 in' },
+      { key: 'D', text: 'access-list 100 deny tcp host 172.16.1.33 any eq 23 / access-list 100 permit ip any any / line vty 0 15 / access-class 100 in' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ต้องตัดสินสองเรื่องพร้อมกัน คือ "หมายเลขพอร์ต" และ "จุดที่นำ ACL ไปใช้" ⭐\n\n🔍 อ่าน exhibit\nPC-1 = 172.16.1.33/27 ⭐ คือโฮสต์ที่ต้องบล็อก\nRTR-1 มีอินเทอร์เฟซหลายวง\n • Gi0/0 = 172.16.1.62/27\n • Loopback1 = 192.168.1.1/24\n • Loopback2 = 192.168.2.1/24\n • Loopback3 = 192.168.3.1/24 ⭐ รวมสี่ที่อยู่ที่ SSH เข้าได้\n\n🔢 เรื่องที่ 1 — หมายเลขพอร์ต\nSSH = TCP 22 ⭐\nTelnet = TCP 23 ⭐\n→ ตัด C และ D ทิ้งทันทีเพราะใช้ eq 23 ซึ่งบล็อก Telnet ไม่ใช่ SSH\n\n📍 เรื่องที่ 2 — จุดที่นำไปใช้\nโจทย์ระบุว่า "to any RTR-1 interface" คือทุกที่อยู่ของเราเตอร์ รวมถึง loopback ทั้งสามวงด้วย ⭐\n\naccess-class ที่ line vty ⭐ (ตัวเลือก B)\n• กรองที่ "ทางเข้าเซสชันบริหารจัดการ" โดยตรง\n• ครอบคลุมทุกที่อยู่ปลายทางของเราเตอร์โดยอัตโนมัติ ไม่ว่าผู้ใช้จะ SSH ไปที่ IP ใดหรือเข้ามาทางอินเทอร์เฟซใด ⭐\n• เป็นวิธีที่ Cisco ออกแบบมาสำหรับงานนี้โดยเฉพาะ\n\nip access-group ที่อินเทอร์เฟซ (ตัวเลือก A)\n• กรองเฉพาะทราฟฟิกที่ไหลผ่านอินเทอร์เฟซนั้นเท่านั้น ⭐\n• ถ้าอนาคตมีเส้นทางอื่นเข้าถึงเราเตอร์ หรือมีการเพิ่มอินเทอร์เฟซใหม่ การป้องกันจะรั่วทันที\n• ยังต้องประมวลผลกับทราฟฟิก transit ทุกแพ็กเก็ตซึ่งสิ้นเปลืองโดยไม่จำเป็น\n\n✅ ทำไม B ถูก: ใช้ eq 22 ตรงกับ SSH และนำไปใช้ด้วย access-class ที่ line vty ซึ่งเป็นกลไกมาตรฐานในการควบคุมการเข้าถึง "ตัวเราเตอร์เอง" จึงครอบคลุมทุกอินเทอร์เฟซตามที่โจทย์กำหนด ส่วน permit ip any any รับประกันว่าทราฟฟิกอื่นผ่านได้ทั้งหมด\n\n❌ ทำไมข้ออื่นผิด:\nA. พอร์ตถูกต้อง แต่ผูก ACL ไว้ที่ Gi0/0 เท่านั้น จึงไม่ได้ป้องกัน "ทุกอินเทอร์เฟซ" ตามเจตนาของโจทย์ และยังไปกรองทราฟฟิกที่วิ่งผ่านเราเตอร์โดยไม่จำเป็น ⭐ ตัวลวงหลักที่แยกยากที่สุด\nC. ใช้ eq 23 ซึ่งเป็น Telnet ไม่ใช่ SSH และผูกที่อินเทอร์เฟซ ⭐ ผิดสองชั้น\nD. ใช้ eq 23 ซึ่งเป็น Telnet แม้จะผูกที่ line vty ถูกต้องก็ตาม ⭐\n\n📗 จำไว้สอบ: ควบคุมทราฟฟิก "ผ่าน" เราเตอร์ ใช้ ip access-group • ควบคุมทราฟฟิก "ถึง" เราเตอร์ ใช้ access-class ที่ line vty ⭐',
+  },
+  {
+    id: 625,
+    kind: 'multi',
+    prompt: 'While examining excessive traffic on the network, it is noted that all incoming packets on an interface appear to be allowed even though an IPv4 ACL is applied to the interface. Which two misconfigurations cause this behavior? (Choose two.)',
+    options: [
+      { key: 'A', text: 'The ACL is empty' },
+      { key: 'B', text: 'A matching permit statement is too broadly defined' },
+      { key: 'C', text: 'The packets fail to match any permit statement' },
+      { key: 'D', text: 'A matching deny statement is too high in the access list' },
+      { key: 'E', text: 'A matching permit statement is too high in the access list' },
+    ],
+    correct: ['B', 'E'],
+    explanation:
+      '📘 แนวคิด — อาการคือ "ทุกอย่างผ่านหมด" ทั้งที่มี ACL อยู่ ⭐ ต้องหาสาเหตุที่ทำให้แพ็กเก็ตไปตรงกับบรรทัด permit ก่อนจะถึงบรรทัด deny\n\n🔧 กฎการทำงานของ ACL ที่ต้องจำ\n1️⃣ ประมวลผลจากบนลงล่าง ทีละบรรทัด ⭐\n2️⃣ หยุดทันทีที่เจอบรรทัดแรกที่ตรงกัน ⭐ บรรทัดที่เหลือจะไม่ถูกอ่านเลย\n3️⃣ ท้ายรายการมี implicit deny ip any any ซ่อนอยู่เสมอ ⭐\n\n🎯 สาเหตุที่ทำให้ทุกอย่างผ่าน\nสาเหตุที่ 1 — permit กว้างเกินไป (ตัวเลือก B) ⭐\naccess-list 101 permit ip any any ⭐ ← จับทุกอย่าง\naccess-list 101 deny tcp host 10.1.1.5 any eq 23 ← ไม่มีวันถูกใช้\n→ แพ็กเก็ตทุกตัวตรงกับ permit ip any any จึงผ่านหมด\n\nสาเหตุที่ 2 — permit อยู่สูงเกินไป (ตัวเลือก E) ⭐\naccess-list 101 permit tcp any any ⭐ ← อยู่บรรทัดแรก\naccess-list 101 deny tcp any host 10.2.2.2 eq 80 ← ตายด้าน\n→ ทราฟฟิก TCP ทั้งหมดผ่านตั้งแต่บรรทัดแรก บรรทัด deny ด้านล่างไม่มีโอกาสทำงาน\n\n🔍 วิธีตรวจสอบในงานจริง\nR1# show access-lists ⭐\nดูตัวเลข (matches) ท้ายแต่ละบรรทัด — บรรทัด deny ที่มีค่า 0 matches ตลอดเวลาคือสัญญาณว่ามันถูกบรรทัดด้านบนบังไว้ ⭐\n\n✅ ทำไม B และ E ถูก: ทั้งสองข้อคืออาการเดียวกันของโรคเดียวกัน — มีบรรทัด permit ที่ครอบคลุมกว้างหรือวางไว้สูงจนแพ็กเก็ตตรงกับมันก่อน ทำให้บรรทัด deny ด้านล่างไม่เคยถูกประมวลผล\n\n❌ ทำไมข้ออื่นผิด:\nA. ACL ที่ว่างเปล่าและถูกผูกกับอินเทอร์เฟซจะให้ผลตรงข้ามโดยสิ้นเชิง — implicit deny ทำงาน ทราฟฟิกทั้งหมดถูกทิ้ง ⭐ (ยกเว้นบางแพลตฟอร์มที่ ACL ที่ยังไม่มีอยู่จริงจะถูกละเว้น แต่โจทย์ระบุว่า ACL ถูก apply แล้ว)\nC. แพ็กเก็ตที่ไม่ตรง permit ใดเลยจะไปชน implicit deny แล้วถูกทิ้ง ⭐ ตรงข้ามกับอาการที่พบ\nD. deny ที่อยู่สูงจะทำให้ทราฟฟิก "ถูกบล็อกมากขึ้น" ไม่ใช่ผ่านมากขึ้น ⭐\n\n📗 จำไว้สอบ: เรียง ACL จาก "เฉพาะเจาะจงที่สุด" ไปหา "กว้างที่สุด" เสมอ ⭐ permit ip any any ต้องอยู่บรรทัดสุดท้ายเท่านั้น',
+  },
+  {
+    id: 626,
+    kind: 'single',
+    prompt: 'The service password-encryption command is entered on a router. What is the effect of this configuration?',
+    options: [
+      { key: 'A', text: 'restricts unauthorized users from viewing clear-text passwords in the running configuration' },
+      { key: 'B', text: 'prevents network administrators from configuring clear-text passwords' },
+      { key: 'C', text: 'protects the VLAN database from unauthorized PC connections on the switch' },
+      { key: 'D', text: 'encrypts the password exchange when a VPN tunnel is established' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — service password-encryption แปลงรหัสผ่านที่เก็บเป็นข้อความธรรมดาในคอนฟิกให้กลายเป็นรหัสประเภท 7 ⭐ เพื่อกันคนที่ "แอบมองจอ" หรือได้ไฟล์คอนฟิกไปเห็นรหัสตรง ๆ\n\n🔍 เห็นผลอย่างไร\nก่อนพิมพ์คำสั่ง\nline vty 0 4\n password cisco123 ⭐ อ่านออกทันที\n\nหลังพิมพ์คำสั่ง\nline vty 0 4\n password 7 0822455D0A16 ⭐ มองไม่ออกด้วยตาเปล่า\n\n⚠️ ข้อจำกัดสำคัญที่ออกสอบบ่อย\nType 7 เป็นเพียง "การเข้ารหัสแบบผันกลับได้" (reversible) ที่ใช้อัลกอริทึม Vigenère ⭐\n→ มีเว็บถอดรหัสฟรีเต็มอินเทอร์เน็ต ถอดได้ในไม่กี่วินาที\n→ Cisco เองระบุว่ามันกัน "shoulder surfing" ได้เท่านั้น ไม่ใช่การรักษาความปลอดภัยที่แท้จริง ⭐\n\n📊 ประเภทรหัสผ่านบน Cisco IOS\nType 0  → ข้อความธรรมดา ไม่เข้ารหัสเลย\nType 7 ⭐ → service password-encryption ถอดกลับได้ อ่อนแอ\nType 5  → enable secret เดิม ใช้ MD5 hash ถอดกลับไม่ได้ ⭐\nType 8  → PBKDF2 with SHA-256 แข็งแรง ⭐\nType 9  → scrypt แข็งแรงที่สุด ⭐ (algorithm-type scrypt)\n\n🔧 คำสั่งที่ได้รับผลจาก service password-encryption\n• password ที่ line console และ line vty ⭐\n• enable password (ไม่ใช่ enable secret)\n• username ... password ⭐\n→ ส่วน enable secret และ username ... secret เป็น hash อยู่แล้ว จึงไม่ได้รับผลกระทบ\n\n✅ ทำไม A ถูก: ผลของคำสั่งคือปกปิดรหัสผ่านที่เคยอ่านได้ด้วยตาใน running-config ไม่ให้ผู้ที่ไม่มีสิทธิ์มองเห็นเป็นข้อความธรรมดา\n\n❌ ทำไมข้ออื่นผิด:\nB. ผู้ดูแลยังพิมพ์รหัสผ่านเป็นข้อความธรรมดาได้ตามปกติ ระบบเพียงแปลงให้หลังจากนั้น ⭐\nC. ฐานข้อมูล VLAN (vlan.dat) ไม่เกี่ยวข้องกับคำสั่งนี้เลย ⭐\nD. การเข้ารหัสอุโมงค์ VPN เป็นหน้าที่ของ IPsec ผ่าน IKE และ ESP ⭐\n\n📗 จำไว้สอบ: ใช้ enable secret แทน enable password เสมอ ⭐ เพราะ type 5/8/9 ถอดกลับไม่ได้ ส่วน type 7 ถอดได้ในไม่กี่วินาที',
+  },
+  {
+    id: 627,
+    kind: 'single',
+    prompt: 'Which WPA3 enhancement protects against hackers viewing traffic on the Wi-Fi network?',
+    options: [
+      { key: 'A', text: 'SAE encryption' },
+      { key: 'B', text: 'TKIP encryption' },
+      { key: 'C', text: 'scrambled encryption key' },
+      { key: 'D', text: 'AES encryption' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "enhancement" หรือสิ่งที่ WPA3 เพิ่มเข้ามาใหม่ ⭐ ไม่ใช่สิ่งที่มีอยู่แล้วตั้งแต่ WPA2\n\n🔐 SAE คืออะไร\nSimultaneous Authentication of Equals ⭐ เป็นการแลกเปลี่ยนกุญแจแบบ Dragonfly ที่มาแทนที่ 4-way handshake ของ WPA2-PSK\n\n🎯 SAE ป้องกันการดักดูทราฟฟิกอย่างไร\nปัญหาของ WPA2-PSK ⭐\n• กุญแจเข้ารหัสของแต่ละเซสชันคำนวณมาจาก PSK ซึ่งเป็นค่าคงที่\n• ผู้โจมตีดักจับ 4-way handshake เก็บไว้ก่อนได้\n• เมื่อใดที่รู้ PSK ในภายหลัง จะย้อนกลับไปถอดรหัสทราฟฟิกเก่าทั้งหมดที่บันทึกไว้ได้ ⭐ เรียกว่าการโจมตีแบบ retrospective decryption\n\nทางแก้ของ SAE ⭐\n• ใช้การแลกเปลี่ยนกุญแจแบบ Diffie-Hellman ทำให้แต่ละเซสชันได้กุญแจใหม่ที่ไม่ผูกกับ PSK โดยตรง ⭐\n• คุณสมบัตินี้เรียกว่า Perfect Forward Secrecy (PFS) ⭐\n→ แม้ผู้โจมตีจะได้รหัส Wi-Fi ไปในอนาคต ก็ยังถอดทราฟฟิกที่บันทึกไว้ก่อนหน้านั้นไม่ได้ ⭐\n• นอกจากนี้ SAE ยังกันการเดารหัสแบบออฟไลน์ เพราะผู้โจมตีต้องเดาสดกับ AP ทีละครั้ง\n\n✅ ทำไม A ถูก: SAE เป็นสิ่งใหม่ที่ WPA3 นำเข้ามาโดยเฉพาะ และผลลัพธ์ตรงกับโจทย์คือทำให้ผู้โจมตี "ดูทราฟฟิกบนเครือข่าย Wi-Fi ไม่ได้" แม้จะดักจับเก็บไว้แล้วก็ตาม\n\n❌ ทำไมข้ออื่นผิด:\nB. TKIP เป็นการเข้ารหัสรุ่นเก่าของ WPA ที่ใช้ RC4 และถูกถอดออกจาก WPA3 โดยสิ้นเชิง ⭐ ไม่ใช่การปรับปรุงแต่เป็นสิ่งที่ถูกกำจัด\nC. ไม่มีคุณสมบัติชื่อ scrambled encryption key ในมาตรฐาน WPA3 ⭐ เป็นชื่อที่แต่งขึ้น\nD. ตัวลวงหลัก — AES เป็นการเข้ารหัสที่ WPA3 ใช้จริง แต่ WPA2 ก็ใช้ AES-CCMP มาก่อนแล้วตั้งแต่ปี 2004 ⭐ จึงไม่ใช่ "enhancement" ที่ WPA3 เพิ่มเข้ามา\n\n📗 จำไว้สอบ: WPA3 เพิ่มสี่อย่าง — SAE ⭐ • Perfect Forward Secrecy ⭐ • บังคับ PMF (802.11w) ⭐ • OWE สำหรับเครือข่ายเปิด ⭐',
+  },
+  {
+    id: 628,
+    kind: 'single',
+    image: v4q628,
+    prompt: 'Refer to the exhibit. If the network environment is operating normally, which type of device must be connected to interface fastethernet 0/1?',
+    options: [
+      { key: 'A', text: 'DHCP client' },
+      { key: 'B', text: 'access point' },
+      { key: 'C', text: 'router' },
+      { key: 'D', text: 'PC' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คำสั่ง ip arp inspection trust ประกาศว่าพอร์ตนี้ "เชื่อถือได้" ⭐ ซึ่งตามแนวปฏิบัติของ Cisco ใช้เฉพาะกับอุปกรณ์โครงสร้างพื้นฐานเท่านั้น\n\n🔍 อ่าน exhibit\nip arp inspection vlan 2-10 ⭐ เปิด DAI บน VLAN 2 ถึง 10\ninterface fastethernet 0/1\n ip arp inspection trust ⭐ ← ประกาศให้พอร์ตนี้เป็น trusted\n\n📊 พอร์ต trusted กับ untrusted ต่างกันอย่างไร\nประเภท          ตรวจ ARP หรือไม่   ควรต่อกับอะไร\nTrusted ⭐       ✘ ไม่ตรวจเลย       สวิตช์ เราเตอร์ เซิร์ฟเวอร์ DHCP ⭐\nUntrusted (ดีฟอลต์) ✔ ตรวจทุกแพ็กเก็ต  PC เครื่องพิมพ์ โทรศัพท์ AP ⭐\n\n🎯 ทำไมต้องเป็นเราเตอร์\n1. เราเตอร์คืออุปกรณ์โครงสร้างพื้นฐานที่ผู้ดูแลควบคุมได้เต็มที่ ⭐ จึงไว้ใจให้ส่ง ARP ผ่านโดยไม่ต้องตรวจ\n2. เราเตอร์เป็น default gateway จึงต้องตอบ ARP request จำนวนมหาศาลจากทุกโฮสต์ใน VLAN ⭐\n3. ที่อยู่ IP ของเราเตอร์เป็นแบบคงที่ จึงไม่มีรายการอยู่ใน DHCP snooping binding database ⭐\n → ถ้าปล่อยเป็น untrusted DAI จะหาข้อมูลมาเทียบไม่ได้และทิ้ง ARP ของเราเตอร์ทั้งหมด ทำให้ทั้ง VLAN ออกไปไหนไม่ได้เลย ⭐\n\n⚠️ อันตรายถ้าต่อ PC เข้าพอร์ต trusted\nพอร์ต trusted ไม่ตรวจ ARP เลย ผู้โจมตีที่เสียบเข้ามาจะทำ ARP spoofing ได้อย่างอิสระ ⭐ ซึ่งทำลายจุดประสงค์ทั้งหมดของการเปิด DAI\n\n✅ ทำไม C ถูก: เราเตอร์เป็นอุปกรณ์โครงสร้างพื้นฐานที่ต้องกำหนดเป็น trusted เสมอ เพราะใช้ที่อยู่แบบคงที่และต้องตอบ ARP ในปริมาณมากในฐานะ default gateway\n\n❌ ทำไมข้ออื่นผิด:\nA. DHCP client คืออุปกรณ์ปลายทางที่ควรอยู่บนพอร์ต untrusted เพื่อให้ DAI ตรวจสอบคู่ MAC-to-IP กับฐานข้อมูล ⭐\nB. access point เป็นอุปกรณ์ปลายทางในมุมของ DAI และทราฟฟิกจากไคลเอนต์ไร้สายควรถูกตรวจสอบ ⭐\nD. PC เป็นตัวอย่างคลาสสิกของพอร์ต untrusted เพราะเป็นจุดที่ผู้โจมตีเข้าถึงได้ง่ายที่สุด ⭐\n\n📗 จำไว้สอบ: trusted = อุปกรณ์โครงสร้าง (สวิตช์ เราเตอร์ เซิร์ฟเวอร์ DHCP) ⭐ • untrusted = อุปกรณ์ผู้ใช้ทั้งหมด',
+  },
+  {
+    id: 629,
+    kind: 'single',
+    image: v4q629,
+    prompt: 'Refer to the exhibit. An administrator configures four switches for local authentication using passwords that are stored as a cryptographic hash. The four switches must also support SSH access for administrators to manage the network infrastructure. Which switch is configured correctly to meet these requirements?',
+    options: [
+      { key: 'A', text: 'SW1' },
+      { key: 'B', text: 'SW2' },
+      { key: 'C', text: 'SW3' },
+      { key: 'D', text: 'SW4' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — โจทย์ตั้งเงื่อนไขสามข้อที่ต้องผ่านครบ ⭐\n① local authentication → ต้องมี username ในเครื่อง และสั่ง login local\n② เก็บรหัสเป็น cryptographic hash → ต้องใช้คำว่า secret ไม่ใช่ password ⭐\n③ รองรับ SSH สำหรับผู้ดูแล → ต้องตั้งค่าที่ line vty ไม่ใช่ line console ⭐\n\n🔍 ตรวจทีละสวิตช์\nSW1 ❌\nline vty 0 15 / no login local / password cisco\n→ สั่ง "no login local" คือปิดการยืนยันตัวตนด้วยฐานข้อมูลในเครื่อง ⭐ และไม่มี username เลย ผิดเงื่อนไข ① และ ②\n\nSW2 ❌\nusername admin1 password abcd1234 ⭐ ← ใช้ password\nusername admin2 password abcd1234\nline vty 0 15 / login local\n→ ข้อ ① และ ③ ผ่าน แต่ password เก็บเป็นข้อความธรรมดา (type 0) หรืออย่างมากก็ type 7 ที่ถอดกลับได้ ⭐ ไม่ใช่ cryptographic hash ผิดเงื่อนไข ②\n\nSW3 ✅\nusername admin1 secret abcd1234 ⭐ ← ใช้ secret เก็บเป็น MD5 hash\nusername admin2 secret abcd1234 ⭐\nline vty 0 15 ⭐ ← เส้นทางสำหรับ SSH\nlogin local ⭐ ← ตรวจกับฐานข้อมูลในเครื่อง\n→ ผ่านครบทั้งสามเงื่อนไข\n\nSW4 ❌\nusername admin1 secret abcd1234 (ถูก)\nline console 0 ⭐ ← ตั้งค่าที่พอร์ตคอนโซล ไม่ใช่ line vty\nlogin local\n→ เงื่อนไข ② ผ่าน แต่คอนโซลคือการต่อสายจริงที่ตัวเครื่อง ไม่ใช่การเข้าจากระยะไกลผ่าน SSH ⭐ ผิดเงื่อนไข ③\n\n📊 สรุปความต่าง password กับ secret\nคำสั่ง                  วิธีเก็บ            ถอดกลับได้หรือไม่\nusername ... password   type 0 หรือ 7 ⭐    ได้ ⭐ ไม่ปลอดภัย\nusername ... secret ⭐   type 5 (MD5 hash) ⭐  ไม่ได้ ⭐ ปลอดภัย\n\n✅ ทำไม C ถูก: SW3 เป็นสวิตช์เดียวที่ใช้ secret เพื่อเก็บรหัสเป็นแฮช พร้อมกับตั้ง login local บน line vty 0 15 ซึ่งเป็นเส้นทางที่ SSH ใช้เข้ามา\n\n📗 จำไว้สอบ: secret = แฮชถอดกลับไม่ได้ ⭐ • line vty = ทางเข้าระยะไกล (SSH/Telnet) ⭐ • line console = ต่อสายที่ตัวเครื่อง',
+  },
+  {
+    id: 630,
+    kind: 'single',
+    image: v4q630,
+    prompt: 'Refer to the exhibit. What is the effect of this configuration?',
+    options: [
+      { key: 'A', text: 'The switch discards all ingress ARP traffic with invalid MAC-to-IP address bindings.' },
+      { key: 'B', text: 'All ARP packets are dropped by the switch.' },
+      { key: 'C', text: 'Egress traffic is passed only if the destination is a DHCP server.' },
+      { key: 'D', text: 'All ingress and egress traffic is dropped because the interface is untrusted.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — Dynamic ARP Inspection (DAI) กรองเฉพาะ "แพ็กเก็ต ARP ขาเข้า" บนพอร์ต untrusted โดยเทียบกับฐานข้อมูล DHCP snooping ⭐\n\n🔍 อ่าน exhibit\nip arp inspection vlan 5-10 ⭐ เปิด DAI บน VLAN 5 ถึง 10\ninterface fastethernet 0/1\n switchport mode access\n switchport access vlan 5 ⭐ พอร์ตนี้อยู่ใน VLAN 5 ซึ่งอยู่ในช่วงที่เปิด DAI\n→ ไม่มีคำสั่ง trust จึงเป็น untrusted โดยดีฟอลต์ ⭐\n\n🔧 กระบวนการตรวจสอบของ DAI\n1. ดักจับแพ็กเก็ต ARP ทุกตัวที่เข้ามาทางพอร์ต untrusted ⭐\n2. อ่านค่า sender MAC และ sender IP ออกจากแพ็กเก็ต\n3. นำไปค้นใน DHCP snooping binding database ⭐\n4. ตรงกัน → ส่งต่อตามปกติ\n5. ไม่ตรงกัน → ทิ้งแพ็กเก็ตและบันทึก log ⭐\n\n🛡️ ป้องกันการโจมตีแบบใด\nARP spoofing หรือ ARP poisoning ⭐\nผู้โจมตีส่ง ARP reply ปลอมว่า "IP ของ gateway คือ MAC ของฉัน" เพื่อให้ทราฟฟิกของเหยื่อวิ่งผ่านเครื่องตัวเอง (man-in-the-middle) ⭐\nDAI ตรวจพบว่าคู่ MAC-to-IP นั้นไม่ตรงกับที่ DHCP เคยแจกไว้จริง จึงทิ้งทิ้งทันที\n\n⚠️ ข้อควรรู้ที่สำคัญ\nDAI ตรวจเฉพาะแพ็กเก็ต ARP เท่านั้น ⭐ ทราฟฟิก IP ปกติ ทั้ง TCP UDP และ ICMP ไม่ถูกแตะต้องเลย\nและ DAI ต้องมี DHCP snooping ทำงานอยู่ก่อน มิฉะนั้นจะไม่มีฐานข้อมูลให้เทียบ ⭐\n\n✅ ทำไม A ถูก: อธิบายการทำงานของ DAI ได้ตรงทุกคำ — ทิ้งเฉพาะ ARP ขาเข้า (ingress) ที่มีคู่ MAC-to-IP ไม่ถูกต้อง (invalid bindings)\n\n❌ ทำไมข้ออื่นผิด:\nB. DAI ทิ้งเฉพาะ ARP ที่ตรวจสอบไม่ผ่านเท่านั้น ARP ที่ถูกต้องยังผ่านได้ตามปกติ ⭐ มิฉะนั้นเครือข่ายจะใช้งานไม่ได้เลย\nC. DAI ไม่ยุ่งกับทราฟฟิกขาออกและไม่ได้กรองตามปลายทางว่าเป็นเซิร์ฟเวอร์ DHCP หรือไม่ ⭐\nD. คำว่า untrusted ในบริบทของ DAI หมายถึง "ต้องตรวจสอบ ARP" ไม่ใช่ "บล็อกทุกอย่าง" ⭐ ทราฟฟิกทั่วไปผ่านได้ตามปกติ\n\n📗 จำไว้สอบ: DHCP snooping สร้าง binding table → DAI ใช้ table นั้นตรวจ ARP → IP Source Guard ใช้ table เดียวกันตรวจ IP ต้นทาง ⭐ ทั้งสามทำงานต่อกันเป็นทอด',
+  },
+  {
+    id: 631,
+    kind: 'single',
+    prompt: 'When a site-to-site VPN is used, which protocol is responsible for the transport of user data?',
+    options: [
+      { key: 'A', text: 'IPsec' },
+      { key: 'B', text: 'IKEv1' },
+      { key: 'C', text: 'MD5' },
+      { key: 'D', text: 'IKEv2' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — VPN แบบ site-to-site แบ่งการทำงานออกเป็นสองเฟสที่ใช้โปรโตคอลคนละตัว ⭐\n\n🔧 สองเฟสของ IPsec VPN\nเฟสที่ 1 — IKE (Internet Key Exchange) ⭐\n• หน้าที่: ยืนยันตัวตนของทั้งสองฝั่ง เจรจาอัลกอริทึม และแลกเปลี่ยนกุญแจอย่างปลอดภัย\n• ใช้ UDP พอร์ต 500 ⭐ (และ 4500 เมื่อผ่าน NAT)\n• เป็นเพียง "การเจรจา" เท่านั้น ไม่ได้ขนข้อมูลของผู้ใช้เลย ⭐\n• มีสองเวอร์ชันคือ IKEv1 และ IKEv2\n\nเฟสที่ 2 — IPsec ⭐\n• หน้าที่: ขนส่งข้อมูลจริงของผู้ใช้ในรูปแบบที่เข้ารหัสแล้ว ⭐\n• ใช้โปรโตคอลย่อยสองตัว\n ▸ ESP (Encapsulating Security Payload) — IP protocol 50 ⭐ ให้ทั้งการเข้ารหัสและตรวจสอบความสมบูรณ์\n ▸ AH (Authentication Header) — IP protocol 51 ⭐ ให้เฉพาะการตรวจสอบความสมบูรณ์ ไม่เข้ารหัส\n\n📊 สรุปหน้าที่\nโปรโตคอล  หน้าที่                    ขนข้อมูลผู้ใช้หรือไม่\nIKEv1/v2  เจรจาและแลกกุญแจ ⭐         ✘ ไม่ขน ⭐\nIPsec ⭐   เข้ารหัสและขนส่งข้อมูลจริง ⭐  ✔ ขน ← คำตอบ\nMD5       ฟังก์ชันแฮชสำหรับตรวจสอบ    ✘ ไม่ขน\n\n💡 อุปมาที่จำง่าย\nIKE = การจับมือตกลงกันว่าจะใช้กุญแจดอกไหนและใครเป็นใคร ⭐\nIPsec = รถบรรทุกหุ้มเกราะที่ขนของจริงข้ามไปอีกฝั่ง ⭐\n\n✅ ทำไม A ถูก: IPsec คือชุดโปรโตคอลที่ทำหน้าที่หุ้มห่อ เข้ารหัส และขนส่งข้อมูลของผู้ใช้ผ่านอุโมงค์ ซึ่งเป็นสิ่งที่โจทย์ถามถึงโดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nB และ D. IKEv1 และ IKEv2 ทำงานเฉพาะในเฟสการเจรจาและแลกเปลี่ยนกุญแจ เมื่อสร้างอุโมงค์เสร็จแล้วก็หมดหน้าที่ ไม่ได้ขนข้อมูลของผู้ใช้ ⭐\nC. MD5 เป็นฟังก์ชันแฮชที่ใช้ตรวจสอบความสมบูรณ์ของข้อความ ไม่ใช่โปรโตคอลขนส่ง ⭐\n\n📗 จำไว้สอบ: IKE = UDP 500 (เจรจา) ⭐ • ESP = IP protocol 50 (ขนข้อมูล เข้ารหัส) ⭐ • AH = IP protocol 51 (ไม่เข้ารหัส)',
+  },
+  {
+    id: 632,
+    kind: 'single',
+    prompt: 'Which type of wireless encryption is used for WPA2 in preshared key mode?',
+    options: [
+      { key: 'A', text: 'AES-128' },
+      { key: 'B', text: 'TKIP with RC4' },
+      { key: 'C', text: 'AES-256' },
+      { key: 'D', text: 'RC4' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — WPA2 ไม่ว่าจะเป็นโหมด Personal (PSK) หรือ Enterprise (802.1X) ก็ใช้การเข้ารหัสเดียวกันคือ AES-CCMP ที่มีกุญแจขนาด 128 บิต ⭐\n\n🔐 รายละเอียดของ CCMP\nCCMP ย่อมาจาก Counter Mode with Cipher Block Chaining Message Authentication Code Protocol ⭐\n• ใช้ AES เป็น block cipher ขนาดบล็อก 128 บิต ⭐\n• ขนาดกุญแจตามมาตรฐาน IEEE 802.11i คือ 128 บิต ⭐\n• โหมด Counter (CTR) ทำหน้าที่เข้ารหัสข้อมูล\n• โหมด CBC-MAC ทำหน้าที่ตรวจสอบความสมบูรณ์ของข้อความ ⭐\n→ ได้ทั้งความลับและความถูกต้องในกลไกเดียว\n\n🔑 โหมด PSK ทำงานอย่างไร\n1. ผู้ใช้ป้อนรหัสผ่าน (passphrase) ยาว 8 ถึง 63 ตัวอักษร\n2. นำรหัสผ่านรวมกับชื่อ SSID ผ่านฟังก์ชัน PBKDF2 จำนวน 4096 รอบ ⭐\n3. ได้ PMK (Pairwise Master Key) ขนาด 256 บิต\n4. ผ่าน 4-way handshake เพื่อสร้าง PTK สำหรับเซสชันนั้น ⭐\n5. ข้อมูลจริงถูกเข้ารหัสด้วย AES 128 บิตในโหมด CCMP ⭐\n\n⚠️ จุดที่ต้องแยกให้ออก\nPMK ยาว 256 บิต ⭐ แต่กุญแจที่ใช้เข้ารหัสข้อมูลจริงคือ AES 128 บิต ⭐\n→ อย่าสับสนระหว่างขนาดของ master key กับขนาดของกุญแจเข้ารหัส\n\n✅ ทำไม A ถูก: WPA2-PSK ใช้ CCMP ซึ่งกำหนดให้ใช้ AES ที่มีความยาวกุญแจ 128 บิตตามมาตรฐาน 802.11i\n\n❌ ทำไมข้ออื่นผิด:\nB. TKIP กับ RC4 เป็นการเข้ารหัสของ WPA รุ่นแรก ซึ่ง WPA2 นำมาใช้ได้เพียงในโหมดเข้ากันได้ย้อนหลังเท่านั้น ไม่ใช่การเข้ารหัสหลัก ⭐\nC. AES-256 ใช้ใน WPA3-Enterprise ที่ระดับ 192-bit security suite (GCMP-256) ไม่ใช่ WPA2 ⭐ ตัวลวงที่ดี\nD. RC4 เป็น stream cipher ของ WEP และ TKIP ซึ่ง WPA2 ไม่ได้ใช้เป็นค่ามาตรฐาน ⭐\n\n📗 จำไว้สอบ: WPA2 = CCMP/AES-128 ⭐ • WPA3-Personal = CCMP-128 + SAE • WPA3-Enterprise 192-bit = GCMP-256 ⭐',
+  },
+  {
+    id: 633,
+    kind: 'single',
+    prompt: 'What is the difference between an IPv6 link-local address and a unique local address?',
+    options: [
+      { key: 'A', text: 'The scope of an IPv6 link-local address is limited to a directly attached interface, but an IPv6 unique local address is used throughout a company site or network.' },
+      { key: 'B', text: 'The scope of an IPv6 link-local address is global, but the scope of an IPv6 unique local address is limited to a loopback address.' },
+      { key: 'C', text: 'The scope of an IPv6 link-local address can be used throughout a company site or network, but an IPv6 unique local address is limited to a loopback address.' },
+      { key: 'D', text: 'The scope of an IPv6 link-local address is limited to a loopback address, and an IPv6 unique local address is limited to a directly attached interface.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ที่อยู่ IPv6 แต่ละประเภทมี "ขอบเขต" (scope) ที่ต่างกันชัดเจน ⭐\n\n📊 เปรียบเทียบสองประเภทที่โจทย์ถาม\nคุณสมบัติ         Link-local ⭐              Unique local ⭐\nช่วงที่อยู่         FE80::/10 ⭐              FC00::/7 (ใช้จริง FD00::/8) ⭐\nขอบเขต            เฉพาะลิงก์ที่ต่ออยู่ ⭐        ทั้งไซต์หรือทั้งองค์กร ⭐\nเราเตอร์ส่งต่อหรือไม่ ✘ ไม่ส่งข้ามลิงก์เลย ⭐     ✔ ส่งได้ภายในองค์กร ⭐\nออกอินเทอร์เน็ตได้ ✘ ไม่ได้                  ✘ ไม่ได้ ⭐\nการสร้าง           อัตโนมัติทุกอินเทอร์เฟซ ⭐    ผู้ดูแลกำหนดเอง\nเทียบกับ IPv4      169.254.0.0/16 (APIPA) ⭐  10.0.0.0/8, 172.16/12, 192.168/16 ⭐\n\n🔧 Link-local ใช้ทำอะไรบ้าง\n• เป็นที่อยู่ next-hop ในตารางเส้นทาง ⭐\n• ใช้สื่อสารกับเพื่อนบ้านในโปรโตคอล OSPFv3, EIGRP for IPv6 และ RIPng ⭐\n• ใช้ในกระบวนการ Neighbor Discovery Protocol (NDP) ⭐\n• ทุกอินเทอร์เฟซ IPv6 ต้องมีเสมอ แม้ผู้ดูแลไม่ได้ตั้งค่าใด ๆ ⭐\n\n🏢 Unique local ใช้ทำอะไร\n• เป็นที่อยู่ส่วนตัวขององค์กรที่กำหนดเองได้ ใช้ภายในหลายไซต์ที่เชื่อมกันด้วย VPN\n• เราเตอร์ภายในองค์กรส่งต่อได้ตามปกติ แต่เราเตอร์บนอินเทอร์เน็ตจะทิ้งทิ้ง ⭐\n• รูปแบบ FD + Global ID สุ่ม 40 บิต + Subnet ID 16 บิต + Interface ID 64 บิต ⭐\n\n✅ ทำไม A ถูก: อธิบายขอบเขตของทั้งสองประเภทได้ถูกต้อง — link-local จำกัดอยู่แค่ลิงก์ที่ต่อโดยตรง ส่วน unique local ใช้ได้ทั่วทั้งไซต์หรือเครือข่ายขององค์กร\n\n❌ ทำไมข้ออื่นผิด:\nB. link-local ไม่มีขอบเขตแบบ global เลย เราเตอร์จะไม่ส่งต่อข้ามลิงก์เด็ดขาด และ unique local ไม่ได้จำกัดอยู่ที่ loopback ⭐\nC. สลับกันทั้งคู่ — ที่ใช้ได้ทั่วไซต์คือ unique local ไม่ใช่ link-local ⭐\nD. loopback ของ IPv6 คือ ::1/128 ซึ่งเป็นคนละประเภทกับทั้งสองอย่างที่ถาม ⭐\n\n📗 จำไว้สอบ: FE80 = link-local (ต่อตรงเท่านั้น) ⭐ • FC00/FD00 = unique local (ทั่วองค์กร) ⭐ • 2000::/3 = global unicast (ออกอินเทอร์เน็ตได้)',
+  },
+  {
+    id: 634,
+    kind: 'single',
+    prompt: 'Which command prevents passwords from being stored in the configuration as plain text on a router or switch?',
+    options: [
+      { key: 'A', text: 'enable secret' },
+      { key: 'B', text: 'enable password' },
+      { key: 'C', text: 'service password-encryption' },
+      { key: 'D', text: 'username cisco password encrypt' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญของโจทย์คือ "passwords" ในรูปพหูพจน์ ⭐ หมายถึงรหัสผ่านทุกตัวในคอนฟิก ไม่ใช่เฉพาะรหัส enable\n\n🔧 service password-encryption ทำอะไร\nเป็นคำสั่งระดับ global ที่กวาดไปทั้งคอนฟิก แล้วแปลงรหัสผ่านที่เก็บเป็นข้อความธรรมดาให้กลายเป็นรหัสประเภท 7 ⭐\n\nคำสั่งที่ได้รับผลกระทบ\n• line console 0 → password xxx ⭐\n• line vty 0 15 → password xxx ⭐\n• enable password xxx ⭐\n• username xxx password yyy ⭐\n• รหัสของ BGP neighbor และ OSPF authentication key ⭐\n\n📊 เปรียบเทียบตัวเลือกทั้งหมด\nคำสั่ง                      ครอบคลุมอะไร              วิธีเก็บ\nenable secret              เฉพาะรหัส enable ตัวเดียว ⭐  type 5 hash ⭐\nenable password            เฉพาะรหัส enable ตัวเดียว    ข้อความธรรมดา ⭐\nservice password-encryption ⭐ รหัสผ่านทุกตัวในคอนฟิก ⭐    type 7 ⭐ ← คำตอบ\n\n⚠️ ข้อจำกัดที่ต้องรู้\nType 7 ถอดกลับได้ในไม่กี่วินาที ⭐ Cisco เองระบุว่ากันได้แค่คนแอบมองจอ (shoulder surfing)\n→ สำหรับความปลอดภัยจริงต้องใช้ enable secret และ username ... secret ซึ่งเก็บเป็นแฮชที่ถอดกลับไม่ได้ ⭐\n→ แนวปฏิบัติที่ดีคือเปิด service password-encryption ควบคู่ไปกับการใช้ secret ทุกที่ที่ทำได้ ⭐\n\n✅ ทำไม C ถูก: เป็นคำสั่งเดียวที่ทำหน้าที่ป้องกันไม่ให้รหัสผ่าน "ทุกตัว" ถูกเก็บเป็นข้อความธรรมดาในไฟล์คอนฟิก ตรงกับคำถามที่ใช้รูปพหูพจน์\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงหลัก — enable secret เก็บเป็นแฮชที่แข็งแรงกว่า type 7 มากก็จริง แต่ครอบคลุมเฉพาะรหัส enable เพียงตัวเดียว ⭐ รหัสของ line console และ line vty ยังคงเป็นข้อความธรรมดาอยู่\nB. enable password เก็บรหัสเป็นข้อความธรรมดาโดยตรง ซึ่งเป็นสิ่งที่โจทย์ต้องการป้องกัน ⭐\nD. ไม่มีคำสั่ง username cisco password encrypt ใน Cisco IOS ⭐ เป็นชื่อที่แต่งขึ้น\n\n📗 จำไว้สอบ: service password-encryption = กวาดทั้งคอนฟิกแต่อ่อนแอ ⭐ • enable secret = จุดเดียวแต่แข็งแรง ⭐ ใช้ทั้งคู่พร้อมกัน',
+  },
+  {
+    id: 635,
+    kind: 'single',
+    image: v4q635,
+    prompt: 'Refer to the exhibit. A network engineer must block access for all computers on VLAN 20 to the web server via HTTP. All other computers must be able to access the web server. Which configuration when applied to switch A accomplishes the task?',
+    options: [
+      { key: 'A', text: 'ip access-list extended wwwblock / permit ip any any / deny tcp any host 10.30.0.100 eq 80 / int vlan 20 / ip access-group wwwblock in' },
+      { key: 'B', text: 'ip access-list extended wwwblock / permit ip any any / deny tcp any host 10.30.0.100 eq 80 / int vlan 30 / ip access-group wwwblock in' },
+      { key: 'C', text: 'ip access-list extended wwwblock / deny tcp any host 10.30.0.100 eq 80 / int vlan 10 / ip access-group wwwblock in' },
+      { key: 'D', text: 'ip access-list extended wwwblock / deny tcp any host 10.30.0.100 eq 80 / permit ip any any / int vlan 20 / ip access-group wwwblock in' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องตรวจสามเรื่องพร้อมกัน คือ "ลำดับบรรทัด" "มี permit ปิดท้ายหรือไม่" และ "ผูกกับ interface VLAN ที่ถูกต้องหรือไม่" ⭐\n\n🔍 อ่าน exhibit\nWeb Server = 10.30.0.100/24 ต่ออยู่กับ Switch B\nคอมพิวเตอร์ที่ต้องบล็อกอยู่ใน VLAN 20 ⭐\nInt VLAN 10 → 10.10.0.0/24\nInt VLAN 20 → 10.20.0.0/24 ⭐\nInt VLAN 30 → 10.30.0.0/24 (ฝั่งเซิร์ฟเวอร์)\n\n1️⃣ เรื่องลำดับบรรทัด\nACL ประมวลผลจากบนลงล่างและหยุดที่บรรทัดแรกที่ตรงกัน ⭐\nถ้าวาง permit ip any any ไว้บรรทัดแรก แพ็กเก็ต HTTP จะตรงกับ permit ทันทีและผ่านไป บรรทัด deny ด้านล่างไม่มีวันทำงาน ⭐\n→ deny ต้องมาก่อน permit เสมอ\n\n2️⃣ เรื่อง permit ปิดท้าย\nทุก ACL มี implicit deny ip any any ซ่อนอยู่ ⭐\nถ้ามีแต่บรรทัด deny โดยไม่มี permit ตามหลัง ทราฟฟิกอื่นทั้งหมดของ VLAN 20 จะถูกทิ้งไปด้วย ⭐ ขัดกับโจทย์ที่บอกว่าเครื่องอื่นต้องใช้งานได้\n→ ต้องมี permit ip any any ปิดท้าย\n\n3️⃣ เรื่องจุดที่ผูก ACL\nต้องผูกที่ interface VLAN 20 ทิศทาง in ⭐ เพราะเป็นจุดที่ทราฟฟิกจากผู้ใช้ VLAN 20 ไหลเข้าสู่กระบวนการ routing ซึ่งใกล้ต้นทางที่สุดตามหลักของ extended ACL\n\n✅ ทำไม D ถูก: เรียง deny ก่อน permit อย่างถูกต้อง มี permit ip any any ปิดท้ายให้ทราฟฟิกอื่นผ่าน และผูกกับ int vlan 20 ทิศทาง in ตรงตามความต้องการครบทุกข้อ\n\n❌ ทำไมข้ออื่นผิด:\nA. ลำดับกลับด้าน — permit ip any any อยู่บรรทัดแรกจึงจับทุกแพ็กเก็ตไว้หมด บรรทัด deny กลายเป็นบรรทัดตายที่ไม่มีวันถูกประมวลผล ⭐ ตัวลวงหลักที่ดักคนอ่านไม่ละเอียด\nB. ลำดับกลับด้านเหมือนข้อ A และยังผูกผิด VLAN ไปที่ VLAN 30 ซึ่งเป็นฝั่งเซิร์ฟเวอร์ ⭐ ผิดสองชั้น\nC. ลำดับถูกต้องแต่ขาด permit ip any any ปิดท้าย ทำให้ implicit deny ทิ้งทราฟฟิกอื่นทั้งหมด และยังผูกผิดไปที่ VLAN 10 ซึ่งไม่ใช่ VLAN ที่ต้องบล็อก ⭐\n\n📗 จำไว้สอบ: ACL ที่ดีต้องเรียง "เฉพาะเจาะจง → กว้าง" และปิดท้ายด้วย permit ip any any เสมอเมื่อต้องการบล็อกแค่บางอย่าง ⭐',
+  },
+  {
+    id: 636,
+    kind: 'multi',
+    prompt: 'In which two ways does a password manager reduce the chance of a hacker stealing a user\'s password? (Choose two.)',
+    options: [
+      { key: 'A', text: 'It encourages users to create stronger passwords' },
+      { key: 'B', text: 'It uses an internal firewall to protect the password repository from unauthorized access' },
+      { key: 'C', text: 'It stores the password repository on the local workstation with built-in antivirus and anti-malware functionality' },
+      { key: 'D', text: 'It automatically provides a second authentication factor that is unknown to the original user' },
+      { key: 'E', text: 'It protects against keystroke logging on a compromised device or web site' },
+    ],
+    correct: ['A', 'E'],
+    explanation:
+      '📘 แนวคิด — โปรแกรมจัดการรหัสผ่านช่วยลดความเสี่ยงด้วยกลไกหลักสองอย่าง ⭐\n\n1️⃣ ส่งเสริมให้ใช้รหัสผ่านที่แข็งแรงขึ้น (ตัวเลือก A) ⭐\nปัญหาเดิม: มนุษย์จำรหัสยาก จึงตั้งรหัสสั้น เดาง่าย และนำไปใช้ซ้ำหลายเว็บ ⭐\n→ เมื่อเว็บใดเว็บหนึ่งถูกเจาะ ผู้โจมตีจะนำรหัสนั้นไปลองกับเว็บอื่นทั้งหมด เรียกว่า credential stuffing ⭐\nสิ่งที่ password manager ทำ:\n• สร้างรหัสสุ่มยาว 20 ตัวขึ้นไปให้อัตโนมัติ เช่น xK9#mP2$vL8@qR4!nZ7 ⭐\n• เก็บและกรอกให้เอง ผู้ใช้ไม่ต้องจำเลย\n• จึงใช้รหัสที่ไม่ซ้ำกันเลยในทุกเว็บได้จริง ⭐\n\n2️⃣ ป้องกันการดักจับการกดแป้นพิมพ์ (ตัวเลือก E) ⭐\nปัญหาเดิม: มัลแวร์ keylogger บันทึกทุกปุ่มที่ผู้ใช้กด ⭐\nสิ่งที่ password manager ทำ:\n• กรอกรหัสผ่านให้อัตโนมัติผ่านการเติมข้อมูลในฟอร์ม โดยผู้ใช้ไม่ต้องพิมพ์อะไรเลย ⭐\n• keylogger จึงไม่มีการกดแป้นให้บันทึก\n• ยิ่งไปกว่านั้น ตัวจัดการรหัสผ่านจะตรวจสอบชื่อโดเมนก่อนกรอก ⭐ ถ้าเป็นเว็บฟิชชิงที่หน้าตาเหมือนของจริงแต่โดเมนต่างกัน มันจะไม่กรอกให้ ซึ่งช่วยเตือนผู้ใช้ได้ทันที\n\n✅ ทำไม A และ E ถูก: ทั้งสองข้อคือประโยชน์ที่แท้จริงและตรวจสอบได้ของโปรแกรมจัดการรหัสผ่าน ข้อแรกแก้ที่พฤติกรรมของผู้ใช้ ข้อหลังแก้ที่ช่องทางการโจมตีทางเทคนิค\n\n❌ ทำไมข้ออื่นผิด:\nB. โปรแกรมจัดการรหัสผ่านใช้การเข้ารหัสคลังข้อมูล ไม่ใช่ไฟร์วอลล์ภายใน ⭐ ไฟร์วอลล์เป็นอุปกรณ์เครือข่ายคนละประเภท\nC. โปรแกรมจัดการรหัสผ่านไม่มีระบบแอนติไวรัสในตัว และการเก็บคลังไว้บนเครื่องอย่างเดียวก็ไม่ได้ปลอดภัยกว่าโดยอัตโนมัติ ⭐\nD. ปัจจัยยืนยันตัวตนที่สอง "ต้องเป็นสิ่งที่ผู้ใช้รู้หรือมี" การที่ผู้ใช้ไม่รู้ค่านั้นจะทำให้ระบบใช้งานไม่ได้ ⭐ ข้อความนี้ขัดแย้งในตัวเอง\n\n📗 จำไว้สอบ: ปัญหาใหญ่ที่สุดของรหัสผ่านคือ "การใช้ซ้ำ" ⭐ password manager แก้ปัญหานี้ได้ตรงจุดที่สุด',
+  },
+  {
+    id: 637,
+    kind: 'single',
+    prompt: 'Which goal is achieved by the implementation of private IPv4 addressing on a network?',
+    options: [
+      { key: 'A', text: 'provides an added level of protection against Internet exposure' },
+      { key: 'B', text: 'provides a reduction in size of the forwarding table on network routers' },
+      { key: 'C', text: 'allows communication across the Internet to other private networks' },
+      { key: 'D', text: 'allows servers and workstations to communicate across public network boundaries' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ที่อยู่ส่วนตัวตาม RFC 1918 ไม่สามารถถูกส่งต่อบนอินเทอร์เน็ตสาธารณะได้ ⭐ ผลพลอยได้คือโฮสต์ภายในถูกซ่อนจากภายนอกโดยปริยาย\n\n📊 ช่วงที่อยู่ส่วนตัวตาม RFC 1918\nคลาส   ช่วงที่อยู่                      จำนวนที่อยู่\nA      10.0.0.0 – 10.255.255.255 (/8) ⭐    ~16.7 ล้าน\nB      172.16.0.0 – 172.31.255.255 (/12) ⭐  ~1 ล้าน\nC      192.168.0.0 – 192.168.255.255 (/16) ⭐ ~65,536\n\n🛡️ ทำไมจึงเพิ่มการป้องกัน\n1. เราเตอร์ของ ISP ทุกตัวถูกตั้งค่าให้ทิ้งแพ็กเก็ตที่มีที่อยู่ RFC 1918 ⭐\n2. ผู้โจมตีจากอินเทอร์เน็ตจึงส่งแพ็กเก็ตไปหาโฮสต์ 192.168.1.50 โดยตรงไม่ได้เลย ⭐\n3. การเชื่อมต่อต้องเริ่มจากภายในออกไปก่อน แล้วผ่าน NAT/PAT ซึ่งจะสร้างรายการแปลไว้ ⭐\n4. ทราฟฟิกขาเข้าที่ไม่มีรายการรองรับจะถูก NAT ทิ้งทันที ⭐\n\n⚠️ ข้อควรระวังที่ออกสอบ\nนี่คือ "การป้องกันเพิ่มขึ้นหนึ่งชั้น" (an added level) ⭐ ไม่ใช่ระบบความปลอดภัยที่สมบูรณ์\n→ ยังต้องมีไฟร์วอลล์ IPS และการควบคุมการเข้าถึงอยู่ดี\n→ มัลแวร์ที่อยู่ภายในเครือข่ายแล้วยังเชื่อมต่อออกไปหา C2 server ได้ตามปกติ ⭐\nสังเกตว่าโจทย์ใช้คำว่า "added level of protection" ซึ่งระมัดระวังพอดี\n\n✅ ทำไม A ถูก: การใช้ที่อยู่ที่อินเทอร์เน็ตไม่รู้จักทำให้โฮสต์ภายในไม่สามารถถูกติดต่อจากภายนอกได้โดยตรง จึงเป็นการเพิ่มชั้นการป้องกันจากการเปิดรับอินเทอร์เน็ต\n\n❌ ทำไมข้ออื่นผิด:\nB. ตัวลวงที่ดี — ที่อยู่ส่วนตัวช่วยลดขนาดตารางเส้นทางบนอินเทอร์เน็ต "โดยรวม" ก็จริง แต่ตารางของเราเตอร์ภายในองค์กรเองไม่ได้เล็กลง เพราะยังต้องเก็บทุกซับเน็ตภายในไว้ครบ ⭐\nC. ที่อยู่ส่วนตัวถูกทิ้งบนอินเทอร์เน็ต จึงสื่อสารข้ามไปหาเครือข่ายส่วนตัวอื่นโดยตรงไม่ได้ ต้องใช้ VPN เข้าช่วย ⭐\nD. การสื่อสารข้ามขอบเขตเครือข่ายสาธารณะต้องพึ่ง NAT เพื่อแปลงเป็นที่อยู่สาธารณะก่อนเสมอ ที่อยู่ส่วนตัวเพียงลำพังทำไม่ได้ ⭐\n\n📗 จำไว้สอบ: RFC 1918 มีสามช่วง — 10/8 • 172.16/12 • 192.168/16 ⭐ ต้องท่องให้ขึ้นใจ',
+  },
+  {
+    id: 638,
+    kind: 'single',
+    prompt: 'Which type of attack is mitigated by dynamic ARP inspection?',
+    options: [
+      { key: 'A', text: 'DDoS' },
+      { key: 'B', text: 'malware' },
+      { key: 'C', text: 'man-in-the-middle' },
+      { key: 'D', text: 'worm' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — DAI ป้องกัน ARP spoofing ซึ่งเป็นเทคนิคหลักที่ใช้สร้างการโจมตีแบบ man-in-the-middle บนเครือข่ายท้องถิ่น ⭐\n\n⚔️ ARP spoofing ทำงานอย่างไร\nสถานการณ์เริ่มต้น\n• PC ของเหยื่อ = 10.1.1.50\n• Gateway จริง = 10.1.1.1 มี MAC เป็น aaaa.aaaa.aaaa\n• ผู้โจมตี = 10.1.1.99 มี MAC เป็น bbbb.bbbb.bbbb\n\nขั้นตอนการโจมตี\n1. ผู้โจมตีส่ง gratuitous ARP ปลอมไปหาเหยื่อว่า "10.1.1.1 อยู่ที่ MAC bbbb.bbbb.bbbb" ⭐\n2. เหยื่ออัปเดตตาราง ARP ของตนตามที่ได้รับ (ARP ไม่มีกลไกยืนยันตัวตนใด ๆ เลย) ⭐\n3. ผู้โจมตีส่ง ARP ปลอมไปหา gateway ว่า "10.1.1.50 อยู่ที่ MAC bbbb.bbbb.bbbb" เช่นกัน\n4. ทราฟฟิกทั้งสองทิศทางวิ่งผ่านเครื่องผู้โจมตี ⭐ ซึ่งสามารถอ่าน แก้ไข หรือบันทึกข้อมูลได้ทั้งหมด\n→ นี่คือ man-in-the-middle โดยสมบูรณ์ ⭐\n\n🛡️ DAI หยุดการโจมตีนี้อย่างไร\n1. ดักจับ ARP ทุกตัวบนพอร์ต untrusted\n2. เทียบคู่ sender MAC และ sender IP กับ DHCP snooping binding database ⭐\n3. ผู้โจมตีอ้างว่าตนคือ 10.1.1.1 แต่ฐานข้อมูลระบุว่า MAC bbbb.bbbb.bbbb ผูกกับ 10.1.1.99 ⭐\n4. ไม่ตรงกัน → ทิ้งแพ็กเก็ตและบันทึก log ⭐\n\n🔧 คอนฟิกพื้นฐาน\nSW(config)# ip dhcp snooping ⭐ ต้องเปิดก่อนเสมอ\nSW(config)# ip dhcp snooping vlan 10\nSW(config)# ip arp inspection vlan 10 ⭐\nSW(config)# interface gi0/1\nSW(config-if)# ip dhcp snooping trust\nSW(config-if)# ip arp inspection trust ⭐ พอร์ตที่ไปหาเราเตอร์\n\n✅ ทำไม C ถูก: DAI ออกแบบมาเพื่อขวางการปลอมแปลงคู่ MAC-to-IP ซึ่งเป็นกลไกพื้นฐานที่ผู้โจมตีใช้แทรกตัวเองเข้าไปกลางการสนทนา\n\n❌ ทำไมข้ออื่นผิด:\nA. DDoS คือการถล่มด้วยทราฟฟิกมหาศาลจากหลายแหล่ง ต้องป้องกันด้วย rate limiting, storm control หรือบริการกรองทราฟฟิก ⭐\nB. มัลแวร์เป็นซอฟต์แวร์ที่ทำงานบนโฮสต์ ต้องป้องกันด้วยแอนติไวรัสหรือ AMP ไม่ใช่ด้วยการตรวจ ARP ⭐\nD. เวิร์มแพร่กระจายตัวเองผ่านช่องโหว่ของระบบ ป้องกันด้วยการอัปเดตแพตช์และ IPS ⭐\n\n📗 จำไว้สอบ: DAI ต้องพึ่ง DHCP snooping binding table เสมอ ⭐ เปิด DAI โดยไม่เปิด DHCP snooping = ARP ทั้งหมดถูกทิ้ง',
+  },
+  {
+    id: 639,
+    kind: 'single',
+    prompt: 'What is a function of a remote access VPN?',
+    options: [
+      { key: 'A', text: 'establishes a secure tunnel between two branch sites' },
+      { key: 'B', text: 'uses cryptographic tunneling to protect the privacy of data for multiple users simultaneously' },
+      { key: 'C', text: 'used exclusively when a user is connected to a company\'s internal network' },
+      { key: 'D', text: 'allows the users to access company internal network resources through a secure tunnel' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — VPN แบ่งเป็นสองประเภทใหญ่ที่มีจุดประสงค์ต่างกันชัดเจน ⭐\n\n📊 เปรียบเทียบสองประเภท\nคุณสมบัติ          Remote Access VPN ⭐        Site-to-Site VPN\nใครเชื่อมต่อ         ผู้ใช้รายบุคคล ⭐            เราเตอร์ของสองสาขา ⭐\nต้นทาง             แล็ปท็อป มือถือ ที่บ้าน ⭐     อุปกรณ์ขอบของเครือข่าย\nต้องติดตั้งซอฟต์แวร์  ✔ ต้องมีไคลเอนต์ เช่น AnyConnect ⭐  ✘ ไม่ต้อง ผู้ใช้ไม่รู้ตัวเลย ⭐\nอุโมงค์เกิดขึ้นเมื่อใด  เมื่อผู้ใช้กดเชื่อมต่อ ⭐       ตั้งขึ้นถาวรตลอดเวลา ⭐\nโปรโตคอลที่ใช้       SSL/TLS หรือ IPsec         IPsec เป็นหลัก\n\n🎯 Remote Access VPN ใช้ทำอะไร\nพนักงานที่ทำงานจากบ้าน ร้านกาแฟ หรือโรงแรม สร้างอุโมงค์เข้ารหัสข้ามอินเทอร์เน็ตกลับมายังสำนักงาน ⭐\n→ ได้ที่อยู่ IP จากวงภายในองค์กร\n→ เข้าถึงไฟล์เซิร์ฟเวอร์ อีเมลภายใน และแอปพลิเคชันได้เหมือนนั่งอยู่ที่โต๊ะทำงาน ⭐\n→ ข้อมูลถูกเข้ารหัสทั้งหมดจึงปลอดภัยแม้ใช้ Wi-Fi สาธารณะ\n\n🔧 สองรูปแบบที่พบบ่อย\n• Clientless SSL VPN — เข้าผ่านเว็บเบราว์เซอร์โดยไม่ต้องติดตั้งอะไร เหมาะกับการเข้าถึงบางแอป ⭐\n• Client-based (Cisco AnyConnect / Secure Client) — ติดตั้งโปรแกรม ได้การเข้าถึงเต็มรูปแบบระดับเครือข่าย ⭐\n\n✅ ทำไม D ถูก: อธิบายหน้าที่หลักของ remote access VPN ได้ตรงที่สุด คือให้ผู้ใช้เข้าถึงทรัพยากรภายในองค์กรผ่านอุโมงค์ที่ปลอดภัยจากภายนอก\n\n❌ ทำไมข้ออื่นผิด:\nA. การสร้างอุโมงค์ระหว่างสองสาขาคือนิยามของ site-to-site VPN ⭐ ตัวลวงหลัก\nB. ข้อความนี้กว้างเกินไปจนใช้อธิบาย VPN ประเภทใดก็ได้ ไม่ได้ระบุลักษณะเฉพาะของ remote access ⭐ ตัวลวงที่ดี\nC. กลับด้านโดยสิ้นเชิง — remote access VPN ใช้ "เมื่ออยู่นอกเครือข่าย" ถ้าอยู่ในเครือข่ายภายในแล้วก็ไม่ต้องใช้ VPN ⭐\n\n📗 จำไว้สอบ: Remote access = คนเดียวจากที่ไหนก็ได้ ⭐ • Site-to-site = สองไซต์เชื่อมกันถาวร ⭐',
+  },
+  {
+    id: 640,
+    kind: 'multi',
+    prompt: 'What are two recommendations for protecting network ports from being exploited when located in an office space outside of an IT closet? (Choose two.)',
+    options: [
+      { key: 'A', text: 'enable the PortFast feature on ports' },
+      { key: 'B', text: 'configure static ARP entries' },
+      { key: 'C', text: 'configure ports to a fixed speed' },
+      { key: 'D', text: 'implement port-based authentication' },
+      { key: 'E', text: 'shut down unused ports' },
+    ],
+    correct: ['D', 'E'],
+    explanation:
+      '📘 แนวคิด — พอร์ตที่อยู่นอกห้องเซิร์ฟเวอร์คือพอร์ตที่ "ใครก็เดินมาเสียบสายได้" ⭐ จึงต้องมีมาตรการควบคุมทั้งเชิงรับและเชิงรุก\n\n🛡️ มาตรการที่ 1 — ปิดพอร์ตที่ไม่ได้ใช้ (ตัวเลือก E) ⭐\nเป็นการป้องกันที่ง่ายและได้ผลแน่นอนที่สุด\nSW(config)# interface range gi0/10 - 24\nSW(config-if-range)# shutdown ⭐\n→ แม้จะเสียบสายเข้ามา พอร์ตก็ไม่ทำงานเลย ไม่มีการเรียนรู้ MAC ไม่มีการส่งข้อมูล ⭐\n\n🛡️ มาตรการที่ 2 — ยืนยันตัวตนที่ระดับพอร์ตด้วย 802.1X (ตัวเลือก D) ⭐\nสำหรับพอร์ตที่ยังต้องเปิดใช้งานอยู่ ต้องบังคับให้อุปกรณ์พิสูจน์ตัวตนก่อนจึงจะได้สิทธิ์เข้าเครือข่าย\nSW(config)# aaa new-model\nSW(config)# aaa authentication dot1x default group radius\nSW(config)# dot1x system-auth-control ⭐\nSW(config-if)# authentication port-control auto ⭐\nSW(config-if)# dot1x pae authenticator\n\nกลไกการทำงาน\n1. พอร์ตอยู่ในสถานะ unauthorized ยอมให้ผ่านเฉพาะเฟรม EAPOL ⭐\n2. อุปกรณ์ส่งข้อมูลยืนยันตัวตนไปยังเซิร์ฟเวอร์ RADIUS ผ่านสวิตช์\n3. RADIUS ตอบ Access-Accept → พอร์ตเปลี่ยนเป็น authorized และเปิดให้ใช้งาน ⭐\n4. RADIUS ตอบ Access-Reject → พอร์ตยังปิด หรือถูกโยนเข้า guest VLAN ⭐\n\n✅ ทำไม D และ E ถูก: ทั้งสองเป็นแนวปฏิบัติที่ Cisco แนะนำโดยตรงสำหรับพอร์ตในพื้นที่เปิด — E ปิดสิ่งที่ไม่จำเป็นออกไป ส่วน D ควบคุมสิ่งที่ยังต้องเปิดไว้ด้วยการยืนยันตัวตน\n\n❌ ทำไมข้ออื่นผิด:\nA. PortFast ช่วยให้พอร์ตเข้าสู่สถานะ forwarding เร็วขึ้นเพื่อประโยชน์ด้านความสะดวก ไม่ได้เพิ่มความปลอดภัยเลย ⭐ (และถ้าใช้ผิดที่อาจทำให้เกิดลูปด้วยซ้ำ)\nB. รายการ ARP แบบคงที่ป้องกัน ARP spoofing ได้บางส่วน แต่ต้องตั้งค่าทุกเครื่องด้วยมือซึ่งบริหารจัดการไม่ไหวในระดับองค์กร ⭐ ควรใช้ DAI แทน\nC. การล็อกความเร็วพอร์ตแก้ปัญหาการเจรจาความเร็วผิดพลาด เป็นเรื่องประสิทธิภาพล้วน ๆ ไม่เกี่ยวกับความปลอดภัย ⭐\n\n📗 จำไว้สอบ: ความปลอดภัยพอร์ตมีสามชั้น — shutdown พอร์ตว่าง ⭐ • port security จำกัด MAC ⭐ • 802.1X ยืนยันตัวตน ⭐',
+  },
+  {
+    id: 641,
+    kind: 'single',
+    image: v4q641,
+    prompt: 'Refer to the exhibit. A network administrator must permit SSH access to remotely manage routers in a network. The operations team resides on the 10.20.1.0/25 network. Which command will accomplish this task?',
+    options: [
+      { key: 'A', text: 'access-list 2699 permit udp 10.20.1.0 0.0.0.255' },
+      { key: 'B', text: 'no access-list 2699 deny tcp any 10.20.1.0 0.0.0.127 eq 22' },
+      { key: 'C', text: 'access-list 2699 permit tcp any 10.20.1.0 0.0.0.255 eq 22' },
+      { key: 'D', text: 'no access-list 2699 deny ip any 10.20.1.0 0.0.0.255' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องหา "บรรทัดที่บังอยู่" แล้วลบมันออก ไม่ใช่เพิ่มบรรทัดใหม่ต่อท้าย เพราะ ACL หยุดที่บรรทัดแรกที่ตรงกันเสมอ ⭐\n\n🔍 อ่าน exhibit ทีละบรรทัด\ninterface GigabitEthernet0/1\n ip address 192.168.1.2 255.255.255.0\n ip access-group 2699 in ⭐ ผูก ACL ไว้ขาเข้า\n\naccess-list 2699 deny icmp any 10.10.1.0 0.0.0.255 echo\naccess-list 2699 deny ip any 10.20.1.0 0.0.0.255 ⭐ ← ตัวปัญหา\naccess-list 2699 permit ip any 10.10.1.0 0.0.0.255\naccess-list 2699 permit tcp any 10.20.1.0 0.0.0.127 eq 22 ⭐ ← บรรทัดที่ตั้งใจให้ SSH ผ่าน\n\n🎯 วิเคราะห์ปัญหา\nบรรทัดที่ 2 คือ deny ip any 10.20.1.0 0.0.0.255 ซึ่งปฏิเสธ "ทุกโปรโตคอล" ที่มุ่งไปยัง 10.20.1.0/24 ทั้งวง ⭐\nเนื่องจาก ACL ประมวลผลจากบนลงล่างและหยุดทันทีที่ตรงกัน แพ็กเก็ต SSH ที่มุ่งไป 10.20.1.x จะชนบรรทัดนี้ก่อนเสมอ ⭐\n→ บรรทัดที่ 4 ซึ่งอนุญาต SSH ไปยัง 10.20.1.0/25 จึงเป็น "บรรทัดตาย" ที่ไม่มีวันถูกประมวลผลเลย ⭐\n\n💡 ตรวจสอบได้อย่างไรในงานจริง\nR1# show access-lists 2699 ⭐\nจะเห็นว่าบรรทัด permit tcp ... eq 22 มีค่า matches เป็น 0 ตลอดเวลา ซึ่งเป็นสัญญาณคลาสสิกว่ามันถูกบรรทัดด้านบนบังไว้ ⭐\n\n🔧 วิธีแก้\nลบบรรทัด deny ที่ครอบคลุมกว้างเกินไปออก\nR1(config)# no access-list 2699 deny ip any 10.20.1.0 0.0.0.255 ⭐\n→ เมื่อบรรทัดนี้หายไป แพ็กเก็ต SSH จะไหลลงมาถึงบรรทัด permit tcp ... eq 22 และผ่านได้ตามที่ตั้งใจ\n\n✅ ทำไม D ถูก: เป็นตัวเลือกเดียวที่กำจัดต้นเหตุที่แท้จริง คือบรรทัด deny ip ที่บังบรรทัด permit SSH ไว้ เมื่อลบออกแล้วรายการที่มีอยู่เดิมจะทำงานได้ทันทีโดยไม่ต้องเพิ่มอะไรอีก\n\n❌ ทำไมข้ออื่นผิด:\nA. SSH ใช้ TCP ไม่ใช่ UDP และคำสั่งยังเขียนไม่ครบรูปแบบ (ขาดปลายทางและพอร์ต) ⭐\nB. ตัวลวงหลัก — บรรทัด deny tcp any 10.20.1.0 0.0.0.127 eq 22 ไม่มีอยู่ใน ACL นี้เลย ⭐ สิ่งที่มีอยู่คือ permit ไม่ใช่ deny การสั่งลบบรรทัดที่ไม่มีอยู่จริงจะไม่เกิดผลใด ๆ\nC. การเพิ่ม permit ต่อท้ายไม่ช่วยอะไร เพราะแพ็กเก็ตยังชน deny ip ที่อยู่บรรทัดบนก่อนอยู่ดี ⭐ นี่คือกับดักที่พบบ่อยที่สุดของ ACL\n\n📗 จำไว้สอบ: ACL แก้ปัญหาไม่ได้ด้วยการ "เพิ่มท้าย" เสมอไป ⭐ ต้องดูว่ามีบรรทัดใดบังอยู่ด้านบนหรือไม่ ด้วย show access-lists',
+  },
+  {
+    id: 642,
+    kind: 'single',
+    prompt: 'A port security violation has occurred on a switch port due to the maximum MAC address count being exceeded. Which command must be configured to increment the security-violation count and forward an SNMP trap?',
+    options: [
+      { key: 'A', text: 'switchport port-security violation access' },
+      { key: 'B', text: 'switchport port-security violation protect' },
+      { key: 'C', text: 'switchport port-security violation restrict' },
+      { key: 'D', text: 'switchport port-security violation shutdown' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — โจทย์ระบุพฤติกรรมที่ต้องการสองอย่าง คือ "เพิ่มตัวนับ violation" และ "ส่ง SNMP trap" แต่ไม่ได้บอกให้ปิดพอร์ต ⭐ นี่คือลายเซ็นของโหมด restrict\n\n📊 สามโหมด violation เปรียบเทียบกัน\nพฤติกรรม              Protect    Restrict ⭐   Shutdown (ดีฟอลต์)\nทิ้งเฟรมที่ผิด           ✔          ✔ ⭐          ✔ (ปิดทั้งพอร์ต)\nเพิ่ม violation counter  ✘          ✔ ⭐          ✔\nส่ง SNMP trap          ✘          ✔ ⭐          ✔\nส่ง syslog message     ✘          ✔ ⭐          ✔\nพอร์ตเข้า err-disabled   ✘          ✘ ⭐          ✔ ⭐\nอุปกรณ์เดิมใช้งานต่อได้   ✔          ✔ ⭐          ✘ ⭐\n\n🎯 ทำไมต้องเป็น restrict ไม่ใช่ shutdown\nทั้ง restrict และ shutdown ต่างก็เพิ่มตัวนับและส่ง SNMP trap เหมือนกัน ⭐ จุดต่างอยู่ที่ผลกระทบต่อพอร์ต\n• Shutdown → พอร์ตเข้าสู่ err-disabled ทันที อุปกรณ์ที่ถูกต้องซึ่งใช้งานอยู่ก็ถูกตัดไปด้วย ⭐ ต้องมีคนไปสั่ง shutdown/no shutdown ด้วยมือ\n• Restrict → พอร์ตยังทำงานต่อ อุปกรณ์เดิมสื่อสารได้ตามปกติ ทิ้งเฉพาะเฟรมจาก MAC แปลกหน้า ⭐\n\nโจทย์พูดถึงเพียงการนับและการแจ้งเตือน โดยไม่กล่าวถึงการปิดพอร์ตเลย จึงตรงกับ restrict ⭐\n\n🔧 คอนฟิกตัวอย่าง\nSW(config-if)# switchport mode access\nSW(config-if)# switchport port-security\nSW(config-if)# switchport port-security maximum 2\nSW(config-if)# switchport port-security violation restrict ⭐\nSW(config)# snmp-server enable traps port-security ⭐ ต้องเปิดด้วยจึงจะส่ง trap ออกไปจริง\n\n✅ ทำไม C ถูก: restrict เป็นโหมดที่ให้ทั้งการเพิ่มตัวนับและการส่ง SNMP trap ในขณะที่ยังคงให้พอร์ตทำงานต่อไป ตรงกับพฤติกรรมที่โจทย์บรรยายพอดี\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีโหมดชื่อ access ในคำสั่ง violation ⭐ (คำว่า access ใช้กับ switchport mode)\nB. protect ทิ้งเฟรมอย่างเงียบ ๆ ไม่เพิ่มตัวนับและไม่ส่ง trap ใด ๆ ⭐ ขัดกับโจทย์โดยตรง\nD. ตัวลวงหลัก — shutdown ทำทั้งสองอย่างที่โจทย์ขอจริง แต่เพิ่มผลข้างเคียงคือปิดพอร์ตด้วย ซึ่งโจทย์ไม่ได้ระบุ ⭐ เมื่อมีสองตัวเลือกที่ทำได้ ให้เลือกตัวที่ตรงกับพฤติกรรมที่ระบุพอดีโดยไม่มีส่วนเกิน\n\n📗 จำไว้สอบ: ค่าดีฟอลต์ของ port security คือ maximum 1 และ violation shutdown ⭐ ต้องสั่ง restrict เองถ้าไม่อยากให้พอร์ตดับ',
+  },
+  {
+    id: 643,
+    kind: 'single',
+    prompt: 'What is a practice that protects a network from VLAN hopping attacks?',
+    options: [
+      { key: 'A', text: 'Enable dynamic ARP inspection' },
+      { key: 'B', text: 'Configure an ACL to prevent traffic from changing VLANs' },
+      { key: 'C', text: 'Change native VLAN to an unused VLAN ID' },
+      { key: 'D', text: 'Implement port security on internet-facing VLANs' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — VLAN hopping มีสองรูปแบบ และแต่ละแบบมีวิธีป้องกันเฉพาะตัว ⭐\n\n⚔️ รูปแบบที่ 1 — Double tagging ⭐\nวิธีโจมตี\n1. ผู้โจมตีอยู่ใน VLAN 1 ซึ่งเป็น native VLAN ดีฟอลต์\n2. สร้างเฟรมที่มีแท็กสองชั้น ชั้นนอกเป็น VLAN 1 (native) ชั้นในเป็น VLAN 20 ที่ต้องการเจาะ ⭐\n3. สวิตช์ตัวแรกเห็นแท็กชั้นนอกตรงกับ native VLAN จึง "ถอดออก" แล้วส่งเฟรมข้าม trunk ไป ⭐\n4. สวิตช์ตัวที่สองเห็นเหลือแท็ก VLAN 20 จึงส่งเข้า VLAN 20 ตามนั้น ⭐\n→ ผู้โจมตีส่งข้อมูลข้าม VLAN ได้สำเร็จโดยไม่ต้องผ่านเราเตอร์เลย\n\n🛡️ วิธีป้องกัน double tagging\nเปลี่ยน native VLAN เป็นหมายเลขที่ไม่มีใครใช้ ⭐\nSW(config-if)# switchport trunk native vlan 999 ⭐\n→ เฟรมของผู้โจมตีที่ติดแท็กชั้นนอกเป็น VLAN 1 จะไม่ตรงกับ native VLAN อีกต่อไป สวิตช์จึงไม่ถอดแท็กออกและการโจมตีล้มเหลว ⭐\nยิ่งไปกว่านั้น ควรบังคับให้ติดแท็ก native VLAN ด้วย\nSW(config)# vlan dot1q tag native ⭐\n\n⚔️ รูปแบบที่ 2 — Switch spoofing\nผู้โจมตีปลอมเป็นสวิตช์แล้วส่งข้อความ DTP เพื่อเจรจาให้พอร์ตกลายเป็น trunk ⭐\nป้องกันด้วย switchport mode access และ switchport nonegotiate ⭐\n\n✅ ทำไม C ถูก: การเปลี่ยน native VLAN ไปเป็นหมายเลขที่ไม่ได้ใช้งานเป็นมาตรการมาตรฐานที่ Cisco แนะนำโดยตรงเพื่อขวางการโจมตีแบบ double tagging ซึ่งเป็นรูปแบบหลักของ VLAN hopping\n\n❌ ทำไมข้ออื่นผิด:\nA. DAI ป้องกัน ARP spoofing และ man-in-the-middle ซึ่งเป็นการโจมตีคนละชนิดโดยสิ้นเชิง ⭐\nB. ACL ทำงานที่ Layer 3 แต่ VLAN hopping เกิดที่ Layer 2 ⭐ เฟรมข้าม VLAN ไปโดยไม่ผ่านเราเตอร์เลย ACL จึงไม่มีโอกาสได้ตรวจสอบ\nD. port security จำกัดจำนวน MAC address บนพอร์ต ซึ่งป้องกัน MAC flooding ได้ แต่ผู้โจมตีที่ทำ VLAN hopping ใช้ MAC เพียงตัวเดียวก็สำเร็จแล้ว ⭐\n\n📗 จำไว้สอบ: VLAN hopping ป้องกันสามอย่างพร้อมกัน — เปลี่ยน native VLAN ⭐ • ปิด DTP ด้วย nonegotiate ⭐ • ปิดพอร์ตที่ไม่ใช้ ⭐',
+  },
+  {
+    id: 644,
+    kind: 'single',
+    prompt: 'Where does a switch maintain DHCP snooping information?',
+    options: [
+      { key: 'A', text: 'In the CAM table' },
+      { key: 'B', text: 'In the frame forwarding database' },
+      { key: 'C', text: 'In the MAC address table' },
+      { key: 'D', text: 'In the binding database' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — DHCP snooping สร้างตารางของตัวเองแยกต่างหากชื่อ DHCP snooping binding database ⭐ ไม่ได้ใช้ตาราง MAC ที่มีอยู่เดิม\n\n🗂️ binding database เก็บอะไรบ้าง\nแต่ละรายการประกอบด้วยห้าค่า ⭐\n1. MAC address ของไคลเอนต์\n2. IP address ที่ได้รับจาก DHCP\n3. เวลาเช่าที่เหลือ (lease time)\n4. ประเภทของรายการ (dynamic หรือ static)\n5. VLAN และพอร์ตที่ไคลเอนต์เชื่อมต่ออยู่ ⭐\n\n🔍 ดูได้ด้วยคำสั่ง\nSW# show ip dhcp snooping binding ⭐\nMacAddress          IpAddress      Lease(sec)  Type           VLAN  Interface\n00:1A:2B:3C:4D:5E   10.1.1.50      86400       dhcp-snooping  10    GigabitEthernet0/5\n\n🔗 ใครใช้ตารางนี้บ้าง\nตารางนี้เป็นรากฐานของฟีเจอร์ความปลอดภัยอีกสองตัว ⭐\n1️⃣ Dynamic ARP Inspection (DAI) → ใช้เทียบคู่ MAC-to-IP ในแพ็กเก็ต ARP ⭐\n2️⃣ IP Source Guard → ใช้เทียบที่อยู่ IP ต้นทางของแพ็กเก็ตข้อมูล ⭐\n→ ถ้าไม่มี DHCP snooping ทำงาน ทั้งสองฟีเจอร์นี้จะไม่มีข้อมูลให้ตรวจสอบเลย ⭐\n\n📊 อย่าสับสนกับตาราง MAC\nตาราง                        เก็บอะไร                     สร้างโดย\nMAC address table (CAM) ⭐    MAC → พอร์ต                  การเรียนรู้จากเฟรมขาเข้า\nDHCP snooping binding ⭐      MAC + IP + VLAN + พอร์ต + lease ⭐  การดักฟังข้อความ DHCP ⭐\nARP table                    IP → MAC                     กระบวนการ ARP\n\n✅ ทำไม D ถูก: binding database คือชื่อเรียกอย่างเป็นทางการของตารางที่ DHCP snooping ใช้เก็บข้อมูลการเช่าที่อยู่ของไคลเอนต์แต่ละราย\n\n❌ ทำไมข้ออื่นผิด:\nA และ C. CAM table กับ MAC address table เป็นสิ่งเดียวกัน เก็บเพียงคู่ MAC กับพอร์ต ไม่มีข้อมูล IP หรือเวลาเช่า ⭐\nB. frame forwarding database เป็นอีกชื่อหนึ่งของตาราง MAC เช่นกัน ⭐ ไม่ใช่ที่เก็บข้อมูล DHCP\n\n📗 จำไว้สอบ: ลำดับการทำงาน — DHCP snooping สร้าง binding table → DAI และ IP Source Guard นำไปใช้ต่อ ⭐',
+  },
+  {
+    id: 645,
+    kind: 'single',
+    prompt: 'A network administrator must configure SSH for remote access to router R1. The requirement is to use a public and private key pair to encrypt management traffic to and from the connecting client. Which configuration, when applied, meets the requirements?',
+    options: [
+      { key: 'A', text: 'R1#enable / R1#configure terminal / R1(config)#ip domain-name cisco.com / R1(config)#crypto key generate ec keysize 1024' },
+      { key: 'B', text: 'R1#enable / R1#configure terminal / R1(config)#ip domain-name cisco.com / R1(config)#crypto key generate ec keysize 2048' },
+      { key: 'C', text: 'R1#enable / R1#configure terminal / R1(config)#ip domain-name cisco.com / R1(config)#crypto key encrypt rsa name myKey' },
+      { key: 'D', text: 'R1#enable / R1#configure terminal / R1(config)#ip domain-name cisco.com / R1(config)#crypto key generate rsa modulus 1024' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — SSH บน Cisco IOS ใช้คู่กุญแจ RSA ซึ่งสร้างด้วยคำสั่ง crypto key generate rsa และกำหนดความยาวด้วยคีย์เวิร์ด modulus ⭐\n\n🔧 รูปแบบคำสั่งที่ถูกต้อง\nR1(config)# crypto key generate rsa modulus 1024 ⭐\nหรือแบบเต็ม\nR1(config)# crypto key generate rsa general-keys modulus 2048 label SSH-KEY ⭐\n\n📊 ค่า modulus ที่ใช้ได้\n360 – 4096 บิต ⭐\n• ต้องอย่างน้อย 768 บิตขึ้นไปจึงจะเปิด SSH version 2 ได้ ⭐\n• 1024 บิตคือค่าที่ใช้ในตำราและข้อสอบ\n• 2048 บิตคือค่าที่แนะนำสำหรับงานจริงในปัจจุบัน ⭐\n\n⚠️ ทำไม EC keysize 1024 และ 2048 จึงผิด\nคำสั่ง crypto key generate ec มีอยู่จริงสำหรับกุญแจแบบ Elliptic Curve ⭐ แต่ค่า keysize ที่รองรับมีเพียงสามค่าเท่านั้น คือ\n• 256 บิต\n• 384 บิต\n• 521 บิต ⭐\n→ ค่า 1024 และ 2048 ไม่อยู่ในรายการที่ยอมรับ IOS จะปฏิเสธคำสั่งทันที ⭐\n(สาเหตุคือ ECC ให้ความแข็งแรงเทียบเท่า RSA ที่ยาวกว่ามาก เช่น EC 256 บิต ≈ RSA 3072 บิต)\n\n🔐 คู่กุญแจทำงานอย่างไรใน SSH\n1. เราเตอร์สร้างคู่กุญแจ — private key เก็บไว้ในเครื่องอย่างปลอดภัย, public key เผยแพร่ได้ ⭐\n2. ไคลเอนต์เชื่อมต่อเข้ามาและได้รับ public key ของเราเตอร์\n3. ทั้งสองฝ่ายใช้คู่กุญแจนี้แลกเปลี่ยนกุญแจสมมาตรสำหรับเซสชัน ⭐\n4. ข้อมูลบริหารจัดการทั้งหมดถูกเข้ารหัสด้วยกุญแจเซสชันนั้น ⭐\n\n✅ ทำไม D ถูก: เป็นตัวเลือกเดียวที่ใช้ไวยากรณ์ถูกต้องครบถ้วน — กำหนดชื่อโดเมนก่อน (เงื่อนไขบังคับ) แล้วสร้างคู่กุญแจ RSA ด้วยคีย์เวิร์ด modulus พร้อมค่าที่อยู่ในช่วงที่ยอมรับได้\n\n❌ ทำไมข้ออื่นผิด:\nA และ B. คำสั่ง crypto key generate ec มีอยู่จริง แต่ค่า keysize รองรับเพียง 256, 384 และ 521 เท่านั้น ค่า 1024 และ 2048 จะถูกปฏิเสธ ⭐\nC. ไม่มีคำสั่ง crypto key encrypt rsa name ใน Cisco IOS ⭐ คำสั่งที่ใกล้เคียงคือ crypto key generate ไม่ใช่ encrypt\n\n📗 จำไว้สอบ: RSA ใช้คีย์เวิร์ด modulus (360-4096) ⭐ • EC ใช้คีย์เวิร์ด keysize (256/384/521) ⭐ อย่าสลับกัน',
+  },
+  {
+    id: 646,
+    kind: 'single',
+    prompt: 'When a WLAN with WPA2 PSK is configured in the Wireless LAN Controller GUI, which format is supported?',
+    options: [
+      { key: 'A', text: 'decimal' },
+      { key: 'B', text: 'ASCII' },
+      { key: 'C', text: 'unicode' },
+      { key: 'D', text: 'base64' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — เมนู PSK Format บน Cisco WLC มีให้เลือกเพียงสองรูปแบบคือ ASCII และ HEX ⭐ เมื่อโจทย์มี ASCII เป็นตัวเลือกเดียวที่ถูกต้อง คำตอบจึงชัดเจน\n\n🔧 รายละเอียดของรูปแบบ ASCII\n• ความยาว 8 ถึง 63 ตัวอักษร ⭐\n• ใช้ตัวอักษร ตัวเลข และสัญลักษณ์ที่พิมพ์ได้ทั้งหมด\n• ตัวอย่าง: Corp-WiFi-2024!\n• เป็นรูปแบบที่นิยมที่สุดในทางปฏิบัติเพราะผู้ใช้จำและพิมพ์ได้ง่าย ⭐\n\n🔢 รูปแบบอีกแบบคือ HEX\n• ต้องยาว 64 ตัวอักขระพอดี ไม่มากไม่น้อย ⭐\n• ใช้ได้เฉพาะ 0-9 และ A-F\n• คือค่า PMK ขนาด 256 บิตที่ป้อนเข้าไปโดยตรง (64 hex × 4 บิต = 256 บิต) ⭐\n\n🔐 เบื้องหลังเมื่อป้อนแบบ ASCII\nรหัสผ่านจะถูกนำไปรวมกับชื่อ SSID แล้วผ่านฟังก์ชัน PBKDF2-SHA1 จำนวน 4096 รอบ ⭐\n→ ได้ PMK ขนาด 256 บิต\n→ จากนั้น 4-way handshake จะสร้าง PTK สำหรับแต่ละเซสชันขึ้นมาใช้จริง ⭐\n\n💡 ทำไมความยาวขั้นต่ำจึงเป็น 8\nเป็นข้อกำหนดของมาตรฐาน IEEE 802.11i โดยตรง ⭐ WLC จะปฏิเสธรหัสที่สั้นกว่านี้\nแต่ในทางปฏิบัติควรใช้ 20 ตัวขึ้นไป เพราะรหัสสั้นถูกโจมตีแบบ offline dictionary attack ได้ง่ายหลังจากดักจับ handshake ⭐\n\n✅ ทำไม B ถูก: ASCII เป็นรูปแบบมาตรฐานที่ WLC รองรับสำหรับการป้อน WPA2 PSK และเป็นตัวเลือกเดียวในโจทย์ที่ถูกต้อง\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีตัวเลือก decimal ในเมนู PSK Format ⭐\nC. unicode ไม่ใช่รูปแบบที่รองรับ อักขระที่ใช้ได้จำกัดอยู่ในชุด ASCII เท่านั้น ⭐\nD. base64 ใช้เข้ารหัสข้อมูลไบนารีให้เป็นข้อความสำหรับส่งผ่านโปรโตคอล ไม่ใช่รูปแบบของ PSK ⭐\n\n📗 จำไว้สอบ: WPA2 PSK รับสองรูปแบบ — ASCII 8 ถึง 63 ตัว ⭐ และ HEX 64 ตัวพอดี ⭐',
+  },
+  {
+    id: 647,
+    kind: 'single',
+    image: v4q647,
+    prompt: 'Refer to the exhibit. A network administrator has been tasked with securing VTY access to a router. Which access-list entry accomplishes this task?',
+    options: [
+      { key: 'A', text: 'access-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq telnet' },
+      { key: 'B', text: 'access-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq scp' },
+      { key: 'C', text: 'access-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq https' },
+      { key: 'D', text: 'access-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq ssh' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "securing VTY access" ⭐ ซึ่งหมายถึงการเข้าถึงบรรทัดคำสั่งจากระยะไกลด้วยวิธีที่ปลอดภัย นั่นคือ SSH\n\n🔍 อ่าน exhibit\naccess-list 101 permit ospf any any\naccess-list 101 permit tcp any any eq 179 ⭐ BGP\naccess-list 101 permit gre any any\naccess-list 101 permit esp any any ⭐ IPsec\naccess-list 101 deny ospf any any\naccess-list 101 permit tcp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq telnet ⭐ ← มี Telnet อยู่แล้ว\naccess-list 101 permit udp 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255 eq 500 ⭐ IKE\naccess-list 101 permit udp ... eq 4500 ⭐ NAT-T\naccess-list 101 deny ip any any log\n\ninterface Ethernet0/0\n ip address 10.1.1.25 255.255.255.0\n ip access-group 101 in\n\n🎯 วิเคราะห์\nรายการปัจจุบันอนุญาต Telnet (TCP 23) จาก 10.1.1.0/24 ไปยัง 172.16.1.0/24 ⭐\nแต่ Telnet ส่งทุกอย่างเป็นข้อความธรรมดา ทั้งชื่อผู้ใช้ รหัสผ่าน และคำสั่งที่พิมพ์ ⭐\n→ ใครดักจับทราฟฟิกได้จะเห็นรหัสผ่านทันทีโดยไม่ต้องถอดรหัสอะไรเลย\n→ การ "รักษาความปลอดภัย" ให้ VTY จึงต้องเปลี่ยนมาอนุญาต SSH แทน ⭐\n\n📊 หมายเลขพอร์ตที่ต้องจำ\nบริการ   พอร์ต    เข้ารหัสหรือไม่\nSSH ⭐    TCP 22 ⭐  ✔ เข้ารหัสทั้งเซสชัน ⭐\nTelnet   TCP 23 ⭐  ✘ ข้อความธรรมดา ⭐\nHTTPS    TCP 443   ✔ แต่ใช้กับเว็บ ไม่ใช่ VTY ⭐\nSCP      TCP 22    ✔ แต่ใช้คัดลอกไฟล์ ไม่ใช่เข้า CLI ⭐\n\n🔧 คอนฟิกที่ควรทำควบคู่กันบนเราเตอร์ปลายทาง\nR(config)# line vty 0 15\nR(config-line)# transport input ssh ⭐ ปิด Telnet ไปในตัว\nR(config-line)# login local\nR(config-line)# access-class 10 in ⭐ จำกัดว่าใครเข้าได้บ้าง\n\n✅ ทำไม D ถูก: SSH บน TCP พอร์ต 22 เป็นวิธีเดียวในตัวเลือกที่ให้การเข้าถึง VTY แบบเข้ารหัสทั้งเซสชัน จึงตรงกับคำว่า securing VTY access\n\n❌ ทำไมข้ออื่นผิด:\nA. Telnet มีอยู่ในรายการเดิมอยู่แล้ว และเป็นตัวปัญหาที่ต้องแทนที่ ไม่ใช่สิ่งที่ต้องเพิ่ม ⭐\nB. SCP ใช้พอร์ต 22 เหมือน SSH ก็จริง แต่เป็นโปรโตคอลสำหรับ "คัดลอกไฟล์" เช่นการสำรองคอนฟิก ไม่ใช่การเข้าใช้ CLI ⭐ ตัวลวงที่ดี\nC. HTTPS ใช้เข้าหน้าเว็บบริหารจัดการของอุปกรณ์ ไม่ได้เกี่ยวกับ VTY line ซึ่งเป็นทางเข้าแบบ CLI ⭐\n\n📗 จำไว้สอบ: VTY = ทางเข้า CLI ระยะไกล รองรับ Telnet (23) และ SSH (22) เท่านั้น ⭐ เลือก SSH เสมอ',
+  },
+  {
+    id: 648,
+    kind: 'multi',
+    prompt: 'Which two protocols must be disabled to increase security for management connections to a Wireless LAN Controller? (Choose two.)',
+    options: [
+      { key: 'A', text: 'HTTPS' },
+      { key: 'B', text: 'SSH' },
+      { key: 'C', text: 'HTTP' },
+      { key: 'D', text: 'Telnet' },
+      { key: 'E', text: 'TFTP' },
+    ],
+    correct: ['C', 'D'],
+    explanation:
+      '📘 แนวคิด — โปรโตคอลที่ต้องปิดคือคู่ที่ "ไม่เข้ารหัส" ⭐ ส่วนคู่ที่เข้ารหัสแล้วต้องเก็บไว้ใช้งาน\n\n📊 โปรโตคอลบริหารจัดการของ WLC\nโปรโตคอล  พอร์ต     เข้ารหัส?   ควรทำอย่างไร\nHTTP ⭐     TCP 80    ✘ ไม่ ⭐     ปิด ⭐\nTelnet ⭐   TCP 23    ✘ ไม่ ⭐     ปิด ⭐\nHTTPS      TCP 443   ✔ ใช่ ⭐     เปิดไว้ใช้เข้าหน้า GUI\nSSH        TCP 22    ✔ ใช่ ⭐     เปิดไว้ใช้เข้า CLI\n\n⚠️ ทำไม HTTP และ Telnet จึงอันตราย\nทั้งคู่ส่งข้อมูลเป็นข้อความธรรมดาทั้งหมด ⭐ ผู้ที่ดักจับทราฟฟิกด้วยเครื่องมืออย่าง Wireshark จะเห็น\n• ชื่อผู้ใช้และรหัสผ่านของผู้ดูแล WLC ⭐\n• คีย์ WPA2 ของทุก WLAN ที่แสดงบนหน้าจอ ⭐\n• การตั้งค่าความปลอดภัยทั้งหมด\n→ เมื่อได้รหัสผู้ดูแลไปแล้ว ผู้โจมตีควบคุมเครือข่ายไร้สายทั้งองค์กรได้ทันที\n\n🔧 คำสั่งปิดบน WLC CLI\n(Cisco Controller) > config network webmode disable ⭐ ปิด HTTP\n(Cisco Controller) > config network telnet disable ⭐ ปิด Telnet\n(Cisco Controller) > config network secureweb enable ⭐ เปิด HTTPS\n(Cisco Controller) > config network ssh enable ⭐ เปิด SSH\n\n💡 มาตรการเสริมที่ควรทำด้วย\n• กำหนด CPU ACL เพื่อจำกัดว่าซับเน็ตใดเข้าหน้าบริหารจัดการได้ ⭐\n• ใช้ RADIUS หรือ TACACS+ ยืนยันตัวตนผู้ดูแลแทนบัญชีในเครื่อง ⭐\n• ตั้งเวลาหมดอายุเซสชันให้สั้นลง\n\n✅ ทำไม C และ D ถูก: HTTP และ Telnet เป็นสองโปรโตคอลที่ส่งข้อมูลบริหารจัดการโดยไม่เข้ารหัส จึงต้องปิดทั้งคู่และใช้ HTTPS กับ SSH แทน\n\n❌ ทำไมข้ออื่นผิด:\nA. HTTPS เข้ารหัสด้วย TLS จึงเป็นสิ่งที่ต้อง "เปิด" ไว้เพื่อทดแทน HTTP ⭐\nB. SSH เข้ารหัสทั้งเซสชัน จึงเป็นสิ่งที่ต้อง "เปิด" ไว้เพื่อทดแทน Telnet ⭐\nE. TFTP ใช้อัปโหลดเฟิร์มแวร์หรือสำรองคอนฟิก ไม่ใช่โปรโตคอลสำหรับ "management connection" ที่โจทย์ถามถึง ⭐ (แม้จะไม่ปลอดภัยเช่นกัน แต่ไม่ตรงกับคำถาม)\n\n📗 จำไว้สอบ: คู่ที่ต้องเปลี่ยนเสมอ — HTTP → HTTPS ⭐ • Telnet → SSH ⭐ • SNMPv1/v2c → SNMPv3 ⭐',
+  },
+  {
+    id: 649,
+    kind: 'single',
+    prompt: 'Which security program element involves installing badge readers on data-center doors to allow workers to enter and exit based on their job roles?',
+    options: [
+      { key: 'A', text: 'physical access control' },
+      { key: 'B', text: 'biometrics' },
+      { key: 'C', text: 'role-based access control' },
+      { key: 'D', text: 'multifactor authentication' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — โจทย์บรรยายถึงการติดตั้งเครื่องอ่านบัตรที่ "ประตูของศูนย์ข้อมูล" ซึ่งเป็นการควบคุมการเข้าถึงทางกายภาพโดยตรง ⭐\n\n🔑 คำสำคัญในโจทย์\n"installing badge readers on data-center doors" ⭐ ← อุปกรณ์จริงติดตั้งที่ประตูจริง\n"to allow workers to enter and exit" ⭐ ← ควบคุมการเดินเข้าออกของตัวบุคคล\n→ ทั้งสองจุดชี้ไปที่โลกกายภาพ ไม่ใช่ระบบดิจิทัล\n\n🏢 physical access control ครอบคลุมอะไรบ้าง\n• เครื่องอ่านบัตรและประตูล็อกอิเล็กทรอนิกส์ ⭐\n• กล้องวงจรปิด (CCTV)\n• ประตูกันคนตามหลัง (mantrap) ⭐\n• เจ้าหน้าที่รักษาความปลอดภัยและสมุดลงทะเบียนผู้เข้าออก\n• ตู้แร็คที่ล็อกกุญแจ\n• รั้วและสิ่งกีดขวางรอบอาคาร\n\n⚠️ ทำไมจึงสำคัญมาก\nถ้าผู้โจมตีเข้าถึงอุปกรณ์ทางกายภาพได้ มาตรการดิจิทัลแทบทั้งหมดจะถูกข้ามได้ ⭐\n→ ต่อสายคอนโซลเข้าเราเตอร์แล้วทำ password recovery ⭐\n→ ถอดฮาร์ดดิสก์ออกไปทั้งลูก\n→ เสียบอุปกรณ์ดักจับทราฟฟิกเข้ากับพอร์ตว่าง\nนี่คือที่มาของหลักการที่ว่า "ความปลอดภัยทางกายภาพคือรากฐานของความปลอดภัยทั้งหมด" ⭐\n\n✅ ทำไม A ถูก: การติดตั้งเครื่องอ่านบัตรที่ประตูเพื่อควบคุมการเดินเข้าออกของพนักงานคือนิยามตรงตัวของ physical access control ตามที่หลักสูตร CCNA กำหนด\n\n❌ ทำไมข้ออื่นผิด:\nB. biometrics คือการยืนยันตัวตนด้วยลักษณะทางชีวภาพ เช่น ลายนิ้วมือหรือม่านตา ⭐ แต่โจทย์ระบุชัดว่าใช้ "badge" ซึ่งเป็นบัตร ไม่ใช่ชีวมิติ (biometrics เป็นเพียงหนึ่งในเครื่องมือของ physical access control)\nC. ตัวลวงที่ดี — role-based access control เป็นแนวคิดการให้สิทธิ์ตามบทบาทที่ใช้ในระบบดิจิทัล เช่น การกำหนดสิทธิ์ในระบบปฏิบัติการหรือฐานข้อมูล ⭐ แม้โจทย์จะพูดถึง job roles แต่ "องค์ประกอบของโปรแกรมความปลอดภัย" ที่ถูกนำมาใช้คือการควบคุมทางกายภาพ\nD. multifactor authentication ต้องใช้ปัจจัยจากคนละหมวดสองอย่าง แต่โจทย์ระบุเพียงการรูดบัตรอย่างเดียว ซึ่งเป็นปัจจัยเดียวคือ something you have ⭐\n\n📗 จำไว้สอบ: สามองค์ประกอบของโปรแกรมความปลอดภัยตาม CCNA — user awareness ⭐ • training ⭐ • physical access control ⭐',
+  },
+  {
+    id: 650,
+    kind: 'single',
+    prompt: 'Which function is performed by DHCP snooping?',
+    options: [
+      { key: 'A', text: 'listens to multicast traffic for packet forwarding' },
+      { key: 'B', text: 'rate-limits certain traffic' },
+      { key: 'C', text: 'propagates VLAN information between switches' },
+      { key: 'D', text: 'provides DDoS mitigation' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — นอกจากการกรองข้อความ DHCP จากพอร์ตที่ไม่น่าเชื่อถือแล้ว DHCP snooping ยังมีความสามารถจำกัดอัตราข้อความ DHCP ในตัว ⭐\n\n🔧 หน้าที่ของ DHCP snooping มีสามอย่าง\n1️⃣ กรองข้อความ DHCP จากเซิร์ฟเวอร์ปลอม ⭐\nพอร์ต untrusted ที่ส่ง DHCP OFFER, ACK หรือ NAK จะถูกทิ้งทันที เพราะเฉพาะเซิร์ฟเวอร์จริงเท่านั้นที่ควรส่งข้อความเหล่านี้ ⭐\n\n2️⃣ สร้าง binding database ⭐\nบันทึกคู่ MAC, IP, VLAN, พอร์ต และเวลาเช่า เพื่อให้ DAI และ IP Source Guard นำไปใช้ต่อ ⭐\n\n3️⃣ จำกัดอัตราข้อความ DHCP (rate limiting) ⭐ ← ข้อที่โจทย์ถาม\nSW(config-if)# ip dhcp snooping limit rate 10 ⭐\n→ อนุญาตให้พอร์ตนี้ส่งข้อความ DHCP ได้ไม่เกิน 10 แพ็กเก็ตต่อวินาที\n→ ถ้าเกิน พอร์ตจะเข้าสู่สถานะ err-disabled ⭐\n\n⚔️ ป้องกันการโจมตีแบบใด\nDHCP starvation attack ⭐\nผู้โจมตีใช้เครื่องมืออย่าง Yersinia ยิง DHCP DISCOVER ด้วย MAC ปลอมนับพันตัวต่อวินาที ⭐\n→ เซิร์ฟเวอร์ DHCP จองที่อยู่ให้จนหมด pool\n→ ผู้ใช้จริงขอที่อยู่ไม่ได้อีกเลย เกิดภาวะปฏิเสธการให้บริการ ⭐\n→ ผู้โจมตีอาจตั้งเซิร์ฟเวอร์ปลอมขึ้นมาแจกแทน กลายเป็น man-in-the-middle ⭐\nการจำกัดอัตราหยุดการโจมตีนี้ได้ตั้งแต่ต้นทาง เพราะผู้โจมตีส่งได้เพียงไม่กี่แพ็กเก็ตก่อนพอร์ตจะถูกปิด ⭐\n\n🔧 คอนฟิกครบชุด\nSW(config)# ip dhcp snooping ⭐\nSW(config)# ip dhcp snooping vlan 10\nSW(config)# interface gi0/1\nSW(config-if)# ip dhcp snooping trust ⭐ พอร์ตที่ไปหาเซิร์ฟเวอร์จริง\nSW(config)# interface range gi0/2 - 24\nSW(config-if-range)# ip dhcp snooping limit rate 10 ⭐ พอร์ตผู้ใช้\n\n✅ ทำไม B ถูก: การจำกัดอัตราข้อความ DHCP บนพอร์ต untrusted เป็นหน้าที่ที่ระบุไว้ชัดเจนของ DHCP snooping และเป็นตัวเลือกเดียวที่ตรงกับความสามารถจริงของฟีเจอร์นี้\n\n❌ ทำไมข้ออื่นผิด:\nA. การฟังทราฟฟิกมัลติแคสต์เพื่อการส่งต่อเป็นหน้าที่ของ IGMP snooping ⭐ ซึ่งเป็นคนละฟีเจอร์ที่ชื่อคล้ายกันมาก\nC. การเผยแพร่ข้อมูล VLAN ระหว่างสวิตช์เป็นหน้าที่ของ VTP ⭐\nD. DHCP snooping ป้องกัน DHCP starvation ซึ่งเป็นการโจมตีเฉพาะจุด ไม่ใช่ระบบป้องกัน DDoS ในภาพรวม ⭐ ตัวลวงที่ดี\n\n📗 จำไว้สอบ: DHCP snooping = กรองเซิร์ฟเวอร์ปลอม + สร้าง binding table + จำกัดอัตรา ⭐ ครบทั้งสามอย่าง',
+  },
+  {
+    id: 651,
+    kind: 'drag',
+    image: v4q651,
+    prompt: 'An engineer is configuring an encrypted password for the enable command on a router where the local user database has already been configured. Drag and drop the configuration commands from the left into the correct sequence on the right. Not all commands are used.',
+    categories: [
+      { name: 'first', items: ['enable'] },
+      { name: 'second', items: ['configure terminal'] },
+      { name: 'third', items: ['enable secret $hf!@4fs'] },
+      { name: 'fourth', items: ['exit'] },
+      { name: 'ไม่ใช้ (ตัวลวง)', items: ['line vty 0 4', 'service password-encryption'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ต้องเรียงลำดับตามการ "ไต่ระดับโหมด" ของ Cisco IOS ⭐ จาก user EXEC → privileged EXEC → global configuration แล้วจึงออก\n\n🪜 ลำดับโหมดของ Cisco IOS\nRouter>          user EXEC ⭐ สิทธิ์จำกัด ดูได้บางอย่าง\nRouter#          privileged EXEC ⭐ ดูคอนฟิกได้ทั้งหมด\nRouter(config)#  global configuration ⭐ แก้ไขคอนฟิกได้\n\n🔢 ลำดับที่ถูกต้อง\n1️⃣ first → enable ⭐\nเปลี่ยนจากพรอมต์ Router> ไปเป็น Router# เพื่อเข้าสู่ privileged EXEC mode\n\n2️⃣ second → configure terminal ⭐\nเปลี่ยนจาก Router# ไปเป็น Router(config)# เพื่อเข้าสู่โหมดแก้ไขคอนฟิก\n\n3️⃣ third → enable secret $hf!@4fs ⭐\nตั้งรหัสผ่านสำหรับคำสั่ง enable โดยเก็บเป็นแฮชที่ถอดกลับไม่ได้ ⭐ นี่คือใจความหลักของงานตามที่โจทย์กำหนด\n\n4️⃣ fourth → exit ⭐\nออกจากโหมด global configuration กลับไปยัง privileged EXEC\n\n❌ คำสั่งที่ไม่ได้ใช้ในโจทย์นี้\n• line vty 0 4 ⭐ ใช้ตั้งค่าการเข้าถึงจากระยะไกล ซึ่งไม่เกี่ยวกับรหัส enable\n• service password-encryption ⭐ ใช้เข้ารหัสรหัสผ่านแบบ type 7 ที่กระจายอยู่ทั่วคอนฟิก แต่ enable secret เป็นแฮชที่แข็งแรงกว่าอยู่แล้ว จึงไม่จำเป็นสำหรับงานนี้\n\n💡 ทำไมต้องใช้ enable secret ไม่ใช่ enable password\nenable password → เก็บเป็นข้อความธรรมดา (type 0) หรืออย่างมากก็ type 7 ที่ถอดกลับได้ในไม่กี่วินาที ⭐\nenable secret ⭐ → เก็บเป็นแฮช MD5 (type 5) หรือ scrypt (type 9) ซึ่งถอดกลับไม่ได้ ⭐\n→ ถ้ามีทั้งสองคำสั่ง IOS จะใช้ enable secret เสมอและละเลย enable password ⭐\n\n📗 จำไว้สอบ: enable → configure terminal → คำสั่งที่ต้องการ → exit ⭐ เป็นลำดับพื้นฐานที่ใช้ได้กับทุกงานคอนฟิก',
+  },
+  {
+    id: 652,
+    kind: 'single',
+    prompt: 'Which protocol is used for secure remote CLI access?',
+    options: [
+      { key: 'A', text: 'Telnet' },
+      { key: 'B', text: 'HTTP' },
+      { key: 'C', text: 'HTTPS' },
+      { key: 'D', text: 'SSH' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องครบสามเงื่อนไข คือ "secure" (เข้ารหัส) "remote" (ผ่านเครือข่าย) และ "CLI" (บรรทัดคำสั่ง) ⭐\n\n📊 เปรียบเทียบตัวเลือกทั้งสี่\nโปรโตคอล  พอร์ต     เข้ารหัส?  ให้ CLI?   สรุป\nTelnet    TCP 23 ⭐  ✘         ✔         remote CLI แต่ไม่ปลอดภัย ⭐\nHTTP      TCP 80    ✘         ✘ (GUI)   ไม่ปลอดภัยและไม่ใช่ CLI ⭐\nHTTPS     TCP 443   ✔         ✘ (GUI) ⭐ ปลอดภัยแต่เป็นหน้าเว็บ ⭐\nSSH ⭐     TCP 22 ⭐  ✔ ⭐       ✔ ⭐       ครบทุกเงื่อนไข ← คำตอบ\n\n🔐 SSH ให้ความปลอดภัยอย่างไร\n1. เข้ารหัสข้อมูลทั้งเซสชัน ทั้งชื่อผู้ใช้ รหัสผ่าน คำสั่งที่พิมพ์ และผลลัพธ์ที่แสดง ⭐\n2. ยืนยันตัวตนของเซิร์ฟเวอร์ด้วย host key ทำให้ไคลเอนต์รู้ว่ากำลังคุยกับอุปกรณ์ตัวจริง ⭐ จึงกันการโจมตีแบบ man-in-the-middle\n3. ตรวจสอบความสมบูรณ์ของข้อมูลด้วย MAC ป้องกันการแก้ไขระหว่างทาง ⭐\n\n🔧 ตั้งค่า SSH บน Cisco IOS\nR1(config)# hostname R1\nR1(config)# ip domain-name example.com ⭐\nR1(config)# crypto key generate rsa modulus 2048 ⭐\nR1(config)# ip ssh version 2 ⭐\nR1(config)# username admin privilege 15 secret P@ssw0rd\nR1(config)# line vty 0 15\nR1(config-line)# transport input ssh ⭐ ปิด Telnet ไปในตัว\nR1(config-line)# login local\n\n⚠️ ทำไมต้องใช้ SSH version 2\nSSHv1 มีช่องโหว่ที่ทำให้ถูกโจมตีแบบแทรกกลางได้ ⭐ Cisco แนะนำให้บังคับใช้ v2 เท่านั้นเสมอ\n\n✅ ทำไม D ถูก: SSH เป็นโปรโตคอลเดียวในตัวเลือกที่ให้การเข้าถึงบรรทัดคำสั่งจากระยะไกลพร้อมการเข้ารหัสทั้งเซสชัน\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงหลัก — Telnet ให้ CLI จากระยะไกลได้จริง แต่ส่งทุกอย่างเป็นข้อความธรรมดา ⭐ จึงขาดคำว่า secure\nB. HTTP ให้การเข้าถึงผ่านหน้าเว็บและไม่เข้ารหัส ⭐ ผิดทั้งสองเงื่อนไข\nC. HTTPS เข้ารหัสจริง แต่ให้ส่วนติดต่อแบบกราฟิกผ่านเบราว์เซอร์ ไม่ใช่ CLI ⭐ ตัวลวงที่ดี\n\n📗 จำไว้สอบ: SSH = TCP 22 ⭐ • Telnet = TCP 23 ⭐ • ในงานจริงและในข้อสอบ ให้เลือก SSH เสมอ',
+  },
+  {
+    id: 653,
+    kind: 'single',
+    prompt: 'Which implementation provides the strongest encryption combination for the wireless environment?',
+    options: [
+      { key: 'A', text: 'WEP' },
+      { key: 'B', text: 'WPA + TKIP' },
+      { key: 'C', text: 'WPA + AES' },
+      { key: 'D', text: 'WPA2 + AES' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องเลือกทั้ง "มาตรฐานที่ใหม่กว่า" และ "อัลกอริทึมที่แข็งแรงกว่า" พร้อมกัน ⭐\n\n📊 ไล่เรียงจากอ่อนที่สุดไปแข็งที่สุด\nลำดับ  การผสม        การเข้ารหัส        ระดับความปลอดภัย\n1      WEP           RC4 + IV 24 บิต ⭐  แตกได้ในไม่กี่นาที ⭐\n2      WPA + TKIP    RC4 + IV 48 บิต ⭐  อ่อนแอ เลิกใช้แล้ว ⭐\n3      WPA + AES     AES ⭐             ดีขึ้น แต่ยังใช้กรอบ WPA รุ่นเก่า ⭐\n4      WPA2 + AES ⭐  AES-CCMP ⭐        แข็งแรงที่สุดในตัวเลือก ← คำตอบ\n\n🔐 ทำไม WPA2 + AES จึงเหนือกว่า WPA + AES\nแม้ทั้งคู่จะใช้ AES เหมือนกัน แต่ต่างกันที่ "กรอบการทำงาน" ⭐\n• WPA + AES เป็นการนำ AES มาใส่ในโครงสร้างของ WPA รุ่นแรก ซึ่งเป็นทางเลือกเสริมที่ไม่ได้อยู่ในข้อกำหนดบังคับ ⭐\n• WPA2 ใช้ CCMP ซึ่งเป็นโปรโตคอลที่ออกแบบมาสำหรับ AES โดยเฉพาะตามมาตรฐาน IEEE 802.11i ⭐\n → CCMP ให้ทั้งการเข้ารหัส (โหมด Counter) และการตรวจสอบความสมบูรณ์ (CBC-MAC) ในกลไกเดียว ⭐\n → WPA2 ยังปรับปรุงกระบวนการจัดการกุญแจและการเชื่อมต่อใหม่ให้แข็งแรงขึ้นด้วย\n\n⚠️ ทำไม WEP จึงพังสนิท\nIV ยาวเพียง 24 บิต ⭐ ทำให้เกิดค่าซ้ำภายในเวลาไม่นานบนเครือข่ายที่มีทราฟฟิกพอสมควร\n→ เมื่อเก็บ IV ซ้ำได้พอ ผู้โจมตีจะคำนวณกุญแจกลับออกมาได้ทั้งดอก ⭐\n→ Wi-Fi Alliance ถอด WEP ออกจากการรับรองตั้งแต่ปี 2004\n\n✅ ทำไม D ถูก: WPA2 คู่กับ AES-CCMP เป็นการผสมที่แข็งแรงที่สุดในบรรดาตัวเลือกทั้งหมด และเป็นมาตรฐานที่ยังใช้งานได้อย่างปลอดภัยจนถึงปัจจุบัน\n\n❌ ทำไมข้ออื่นผิด:\nA. WEP อ่อนแอที่สุดและถูกยกเลิกไปนานแล้ว ⭐\nB. TKIP ยังใช้ RC4 เป็นแกน จึงสืบทอดจุดอ่อนมาจาก WEP และถูก Wi-Fi Alliance ประกาศเลิกรับรอง ⭐\nC. ตัวลวงหลัก — ใช้ AES ก็จริง แต่ยังอยู่ในกรอบของ WPA รุ่นแรกซึ่งไม่มี CCMP และมีกลไกจัดการกุญแจที่อ่อนกว่า WPA2 ⭐\n\n📗 จำไว้สอบ: ลำดับความแข็งแรง WEP < WPA/TKIP < WPA/AES < WPA2/AES < WPA3/SAE ⭐',
+  },
+  {
+    id: 654,
+    kind: 'single',
+    prompt: 'What does physical access control regulate?',
+    options: [
+      { key: 'A', text: 'access to networking equipment and facilities' },
+      { key: 'B', text: 'access to servers to prevent malicious activity' },
+      { key: 'C', text: 'access to specific networks based on business function' },
+      { key: 'D', text: 'access to computer networks and file systems' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — คำว่า physical หมายถึงการเข้าถึง "ตัวอุปกรณ์และสถานที่จริง" ไม่ใช่การเข้าถึงข้อมูลผ่านเครือข่าย ⭐\n\n🏢 physical access control ครอบคลุมอะไร\n• ประตูของศูนย์ข้อมูลและห้องอุปกรณ์ ⭐\n• ตู้แร็คที่ล็อกกุญแจ ⭐\n• เครื่องอ่านบัตรพนักงานและระบบชีวมิติ ⭐\n• ประตูกันคนตามหลัง (mantrap) ⭐\n• กล้องวงจรปิดและเจ้าหน้าที่รักษาความปลอดภัย ⭐\n• รั้ว สิ่งกีดขวาง และสมุดลงทะเบียนผู้มาเยือน\n\n⚠️ ทำไมจึงเป็นรากฐานของความปลอดภัยทั้งหมด\nหลักการที่ยึดถือกันในวงการคือ "ถ้าผู้โจมตีเข้าถึงอุปกรณ์ทางกายภาพได้ อุปกรณ์นั้นไม่ใช่ของคุณอีกต่อไป" ⭐\nสิ่งที่ทำได้เมื่อเข้าถึงตัวเครื่อง\n• ต่อสายคอนโซลแล้วทำ password recovery ข้ามรหัสผ่านทั้งหมด ⭐\n• ถอดฮาร์ดดิสก์หรือแฟลชการ์ดออกไปอ่านข้อมูล ⭐\n• เสียบอุปกรณ์ดักจับทราฟฟิกเข้ากับพอร์ตว่าง ⭐\n• ถอดปลั๊กหรือรีเซ็ตอุปกรณ์เพื่อสร้างการหยุดชะงัก\n→ ไม่ว่าจะตั้งรหัสผ่านแข็งแรงเพียงใด ถ้าใครก็เดินเข้าห้องเซิร์ฟเวอร์ได้ ทุกอย่างก็ไร้ความหมาย ⭐\n\n✅ ทำไม A ถูก: การควบคุมการเข้าถึงอุปกรณ์เครือข่ายและสถานที่ตั้งคือนิยามตรงตัวของ physical access control ตามที่หลักสูตร CCNA กำหนดไว้\n\n❌ ทำไมข้ออื่นผิด:\nB. การป้องกันเซิร์ฟเวอร์จากกิจกรรมมุ่งร้ายเป็นเรื่องของความปลอดภัยระดับโฮสต์และเครือข่าย เช่น ไฟร์วอลล์ แอนติมัลแวร์ และการควบคุมสิทธิ์ในระบบปฏิบัติการ ⭐\nC. การให้สิทธิ์เข้าถึงเครือข่ายตามหน้าที่ทางธุรกิจคือแนวคิดของ role-based access control หรือการแบ่ง VLAN ตามแผนก ซึ่งเป็นการควบคุมเชิงตรรกะ ⭐\nD. การเข้าถึงเครือข่ายและระบบไฟล์เป็นการควบคุมเชิงตรรกะ (logical access control) ผ่านบัญชีผู้ใช้และสิทธิ์ ⭐ ตัวลวงที่ดีเพราะมีคำว่า access เหมือนกัน\n\n📗 จำไว้สอบ: physical = ประตู ตู้แร็ค บัตร กล้อง ⭐ • logical = บัญชีผู้ใช้ รหัสผ่าน ACL สิทธิ์ไฟล์ ⭐',
+  },
+  {
+    id: 655,
+    kind: 'single',
+    prompt: 'A network engineer is asked to configure VLANS 2, 3, and 4 for a new implementation. Some ports must be assigned to the new VLANS with unused ports remaining. Which action should be taken for the unused ports?',
+    options: [
+      { key: 'A', text: 'configure in a nondefault native VLAN' },
+      { key: 'B', text: 'configure ports in the native VLAN' },
+      { key: 'C', text: 'configure ports in a black hole VLAN' },
+      { key: 'D', text: 'configure ports as access ports' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — พอร์ตที่ไม่ได้ใช้งานควรถูกโยนเข้า VLAN ที่ "ไม่มีทางออกไปไหนได้เลย" ซึ่งเรียกกันว่า black hole VLAN หรือ parking VLAN ⭐\n\n🕳️ black hole VLAN คืออะไร\nเป็น VLAN ที่สร้างขึ้นมาโดยเจตนาให้เป็นทางตัน ⭐ มีลักษณะสำคัญคือ\n• ไม่มี SVI (interface vlan) จึงไม่มี default gateway ⭐\n• ไม่ถูกอนุญาตให้ผ่าน trunk ใด ๆ ⭐\n• ไม่มีอุปกรณ์ที่ใช้งานจริงอยู่ในนั้นเลย\n• มักตั้งเป็นหมายเลขสูง ๆ ที่จำง่าย เช่น VLAN 999\n→ ผลคือแม้ผู้บุกรุกจะเสียบสายเข้ามาและได้อยู่ใน VLAN นี้ ก็ติดต่อกับใครไม่ได้เลยแม้แต่คนเดียว ⭐\n\n🔧 คอนฟิกที่แนะนำ\nSW(config)# vlan 999\nSW(config-vlan)# name BLACK-HOLE ⭐\nSW(config)# interface range fa0/20 - 24\nSW(config-if-range)# switchport mode access ⭐ กัน DTP เจรจาเป็น trunk\nSW(config-if-range)# switchport access vlan 999 ⭐\nSW(config-if-range)# shutdown ⭐ ปิดพอร์ตเป็นชั้นสุดท้าย\n\n⚠️ ทำไมห้ามทิ้งไว้ใน VLAN 1\nVLAN 1 เป็นค่าดีฟอลต์และมักถูกใช้เป็น management VLAN ⭐\n→ ผู้ที่เสียบสายเข้าพอร์ตว่างจะอยู่ในวงเดียวกับการบริหารจัดการอุปกรณ์ทันที ⭐\n→ ยังเป็น native VLAN ดีฟอลต์ของทุก trunk ซึ่งเปิดช่องให้โจมตีแบบ double tagging ได้ ⭐\n\n✅ ทำไม C ถูก: การย้ายพอร์ตว่างไปยัง black hole VLAN เป็นแนวปฏิบัติที่ Cisco แนะนำโดยตรง เพราะแยกพอร์ตเหล่านั้นออกจากทั้ง VLAN 1 และ VLAN ที่ใช้งานจริงอย่างสมบูรณ์\n\n❌ ทำไมข้ออื่นผิด:\nA. native VLAN ยังคงเป็น VLAN ที่ทำงานอยู่บน trunk และส่งเฟรมแบบไม่ติดแท็ก ⭐ การเอาพอร์ตว่างไปไว้ที่นั่นเปิดช่องให้เกิดการโจมตีแบบ VLAN hopping\nB. ผิดด้วยเหตุผลเดียวกับข้อ A และร้ายแรงกว่าเพราะถ้า native VLAN ยังเป็น VLAN 1 อยู่ก็เท่ากับไม่ได้ทำอะไรเลย ⭐\nD. ตัวลวงที่ดี — การตั้งเป็น access port เป็นสิ่งที่ควรทำจริงเพื่อกัน DTP ⭐ แต่ยังไม่ตอบว่า "ควรอยู่ VLAN ไหน" ถ้าไม่ระบุ VLAN พอร์ตจะยังคงอยู่ใน VLAN 1 ซึ่งเป็นปัญหาเดิม\n\n📗 จำไว้สอบ: พอร์ตว่างต้องทำสามอย่าง — access mode ⭐ • ย้ายเข้า black hole VLAN ⭐ • shutdown ⭐',
+  },
+  {
+    id: 656,
+    kind: 'single',
+    prompt: 'When a WPA2-PSK WLAN is configured in the Wireless LAN Controller, what is the minimum number of characters that is required in ASCII format?',
+    options: [
+      { key: 'A', text: '6' },
+      { key: 'B', text: '8' },
+      { key: 'C', text: '12' },
+      { key: 'D', text: '18' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — มาตรฐาน IEEE 802.11i กำหนดความยาวของ passphrase แบบ ASCII ไว้ที่ 8 ถึง 63 ตัวอักษร ⭐ WLC บังคับใช้ตามนี้อย่างเคร่งครัด\n\n📏 ข้อกำหนดความยาวของ WPA2-PSK\nรูปแบบ    ความยาวที่ยอมรับ\nASCII ⭐   8 ถึง 63 ตัวอักษร ⭐ ← ขั้นต่ำคือ 8\nHEX ⭐     64 ตัวอักขระพอดี ⭐ (ไม่มากไม่น้อย)\n\n🔐 ทำไมขั้นต่ำจึงเป็น 8\nกระบวนการสร้างกุญแจใช้ฟังก์ชัน PBKDF2-SHA1 ที่รับ passphrase มาวนซ้ำ 4096 รอบร่วมกับชื่อ SSID ⭐\n→ ได้ PMK ขนาด 256 บิต\n→ ถ้า passphrase สั้นเกินไป พื้นที่การค้นหาจะเล็กจนผู้โจมตีเดาหมดได้ในเวลาอันสั้น ⭐\nมาตรฐานจึงกำหนดเพดานล่างไว้ที่ 8 ตัวเพื่อให้มีความปลอดภัยขั้นพื้นฐาน\n\n⚠️ แต่ 8 ตัวไม่ปลอดภัยพอในทางปฏิบัติ\nผู้โจมตีสามารถดักจับ 4-way handshake แล้วนำไปเดารหัสแบบออฟไลน์ได้ ⭐ ซึ่งไม่จำกัดจำนวนครั้งและทำได้เร็วมากด้วยการ์ดจอสมัยใหม่\n→ รหัสยาว 8 ตัวที่เป็นคำในพจนานุกรมอาจถูกเจาะได้ในไม่กี่นาที ⭐\n→ แนวปฏิบัติที่แนะนำคือใช้ 20 ตัวขึ้นไป และผสมตัวอักษรใหญ่เล็ก ตัวเลข กับสัญลักษณ์ ⭐\n→ หรือเปลี่ยนไปใช้ WPA3-SAE ซึ่งกันการเดาแบบออฟไลน์ได้โดยสิ้นเชิง ⭐\n\n✅ ทำไม B ถูก: 8 ตัวอักษรคือความยาวขั้นต่ำที่มาตรฐาน 802.11i กำหนดสำหรับ WPA2-PSK ในรูปแบบ ASCII และเป็นค่าที่ WLC ตรวจสอบเมื่อผู้ดูแลป้อนรหัส\n\n❌ ทำไมข้ออื่นผิด:\nA. WLC จะปฏิเสธรหัสที่สั้นกว่า 8 ตัวและแสดงข้อความแจ้งเตือนทันที ⭐\nC และ D. 12 และ 18 ตัวเป็นความยาวที่ปลอดภัยกว่าและควรใช้ในทางปฏิบัติ แต่ไม่ใช่ "ขั้นต่ำที่ระบบกำหนด" ตามที่โจทย์ถาม ⭐\n\n📗 จำไว้สอบ: ASCII 8-63 ⭐ • HEX 64 พอดี ⭐ • สองตัวเลขนี้ออกสอบซ้ำบ่อยมาก',
+  },
+  {
+    id: 657,
+    kind: 'single',
+    prompt: 'What mechanism carries multicast traffic between remote sites and supports encryption?',
+    options: [
+      { key: 'A', text: 'ISATAP' },
+      { key: 'B', text: 'IPsec over ISATAP' },
+      { key: 'C', text: 'GRE' },
+      { key: 'D', text: 'GRE over IPsec' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — โจทย์ต้องการสองความสามารถพร้อมกัน คือ "ขนมัลติแคสต์ได้" และ "เข้ารหัสได้" ⭐ ซึ่งไม่มีเทคโนโลยีเดียวที่ทำได้ทั้งคู่ จึงต้องนำสองอย่างมาซ้อนกัน\n\n🔧 ข้อจำกัดของแต่ละเทคโนโลยี\nGRE (Generic Routing Encapsulation) ⭐\n✔ ขนทราฟฟิกได้ทุกชนิด รวมถึงมัลติแคสต์ บรอดแคสต์ และโปรโตคอลที่ไม่ใช่ IP ⭐\n✔ จึงรองรับโปรโตคอลเราต์ติ้งอย่าง OSPF และ EIGRP ที่พึ่งพามัลติแคสต์ ⭐\n✘ ไม่มีการเข้ารหัสใด ๆ เลย ข้อมูลเดินทางเป็นข้อความธรรมดา ⭐\n\nIPsec ⭐\n✔ เข้ารหัสและตรวจสอบความสมบูรณ์ของข้อมูลได้อย่างแข็งแรง ⭐\n✘ รองรับเฉพาะทราฟฟิกยูนิแคสต์ IP เท่านั้น ⭐\n✘ จึงส่ง OSPF hello หรือ EIGRP hello ผ่านอุโมงค์ IPsec ล้วน ๆ ไม่ได้ ⭐\n\n💡 ทางออกคือ GRE over IPsec ⭐\n1. ห่อแพ็กเก็ตมัลติแคสต์ด้วย GRE ก่อน → กลายเป็นแพ็กเก็ตยูนิแคสต์ระหว่างจุดปลายทั้งสองของอุโมงค์ ⭐\n2. นำแพ็กเก็ต GRE ที่เป็นยูนิแคสต์แล้วไปเข้ารหัสด้วย IPsec ⭐\n→ ได้ทั้งความสามารถขนมัลติแคสต์และความปลอดภัยของการเข้ารหัสพร้อมกัน ⭐\n\n🔧 ตัวอย่างคอนฟิก\ninterface Tunnel0\n ip address 172.16.1.1 255.255.255.252\n tunnel source GigabitEthernet0/0\n tunnel destination 203.0.113.20\n tunnel protection ipsec profile MY-PROFILE ⭐\n\n📊 สรุปเป็นตาราง\nเทคโนโลยี      ขนมัลติแคสต์  เข้ารหัส\nGRE           ✔ ⭐         ✘ ⭐\nIPsec         ✘ ⭐         ✔ ⭐\nGRE over IPsec ⭐ ✔ ⭐        ✔ ⭐ ← คำตอบ\n\n✅ ทำไม D ถูก: การซ้อน GRE ไว้ภายใน IPsec เป็นวิธีมาตรฐานที่ให้ทั้งการขนส่งทราฟฟิกมัลติแคสต์ระหว่างไซต์และการเข้ารหัสข้อมูลตลอดเส้นทาง\n\n❌ ทำไมข้ออื่นผิด:\nA. ISATAP เป็นกลไกทันเนลสำหรับส่ง IPv6 ข้ามโครงสร้าง IPv4 ไม่เกี่ยวกับมัลติแคสต์หรือการเข้ารหัส ⭐\nB. ISATAP มีข้อจำกัดคือไม่รองรับมัลติแคสต์อยู่แล้ว การนำ IPsec มาครอบก็ไม่ได้แก้ปัญหานั้น ⭐\nC. ตัวลวงหลัก — GRE ขนมัลติแคสต์ได้ก็จริง แต่ไม่มีการเข้ารหัสเลย ⭐ จึงตอบโจทย์ได้เพียงครึ่งเดียว\n\n📗 จำไว้สอบ: GRE = ขนได้ทุกอย่างแต่ไม่ปลอดภัย ⭐ • IPsec = ปลอดภัยแต่ขนได้แค่ยูนิแคสต์ ⭐ • รวมกันได้ทั้งสองอย่าง ⭐',
+  },
+  {
+    id: 658,
+    kind: 'single',
+    image: v4q658,
+    prompt: 'Refer to the exhibit. An access-list is required to permit traffic from any host on interface Gi0/0 and deny traffic from interface Gi0/1. Which access list must be applied?',
+    options: [
+      { key: 'A', text: 'ip access-list standard 99 / permit 10.100.100.0 0.0.0.255 / deny 192.168.0.0 0.0.255.255' },
+      { key: 'B', text: 'ip access-list standard 99 / permit 10.100.100.0 0.0.0.255 / deny 192.168.0.0 0.255.255.255' },
+      { key: 'C', text: 'ip access-list standard 199 / permit 10.100.100.0 0.0.0.255 / deny 192.168.0.0 0.255.255.255' },
+      { key: 'D', text: 'ip access-list standard 199 / permit 10.100.100.0 0.0.0.255 / deny 192.168.0.0 0.0.255.255' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ต้องตรวจสองเรื่อง คือ "หมายเลข ACL อยู่ในช่วงของ standard หรือไม่" และ "wildcard mask ตรงกับ prefix หรือไม่" ⭐\n\n🔍 อ่าน exhibit\nHQ router\n Gi0/0 → 10.100.100.0/24 ⭐ ต้อง permit\n Gi0/1 → 192.168.0.0/16 ⭐ ต้อง deny\n\n1️⃣ เรื่องหมายเลข ACL\nช่วงหมายเลขของ ACL บน Cisco IOS\nประเภท              ช่วงหมายเลข\nStandard ⭐          1–99 ⭐ และ 1300–1999 ⭐\nExtended            100–199 ⭐ และ 2000–2699\n→ โจทย์และตัวเลือกใช้คำว่า standard ดังนั้นหมายเลขต้องเป็น 99 ⭐\n→ หมายเลข 199 อยู่ในช่วงของ extended ⭐ การพิมพ์ ip access-list standard 199 จะถูก IOS ปฏิเสธทันที\n→ ตัด C และ D ออก\n\n2️⃣ เรื่อง wildcard mask\nwildcard mask คือส่วนกลับของ subnet mask ⭐\n\nสำหรับ 10.100.100.0/24\nsubnet mask  = 255.255.255.0\nwildcard     = 0.0.0.255 ⭐ ถูกต้องทั้งสี่ตัวเลือก\n\nสำหรับ 192.168.0.0/16\nsubnet mask  = 255.255.0.0\nwildcard     = 0.0.255.255 ⭐ ← ค่าที่ถูกต้อง\n→ ตัวเลือก B และ C ใช้ 0.255.255.255 ซึ่งเป็น wildcard ของ /8 ⭐ ครอบคลุมกว้างเกินไปคือ 192.0.0.0/8 ทั้งหมด\n\n💡 วิธีคำนวณ wildcard อย่างรวดเร็ว\nนำ 255.255.255.255 ลบด้วย subnet mask ⭐\n255.255.255.255 − 255.255.0.0 = 0.0.255.255 ⭐\nหรือจำเป็นสูตร: /16 → 0.0.255.255 • /24 → 0.0.0.255 • /8 → 0.255.255.255 ⭐\n\n✅ ทำไม A ถูก: ใช้หมายเลข 99 ซึ่งอยู่ในช่วงของ standard ACL อย่างถูกต้อง และใช้ wildcard mask 0.0.255.255 ที่ตรงกับ /16 ของเครือข่าย 192.168.0.0 พอดี\n\n❌ ทำไมข้ออื่นผิด:\nB. หมายเลข 99 ถูกต้อง แต่ wildcard 0.255.255.255 ตรงกับ /8 ไม่ใช่ /16 ⭐ จะไป deny เครือข่าย 192.x.x.x ทั้งหมดโดยไม่ตั้งใจ\nC. ผิดสองชั้น — หมายเลข 199 ไม่ใช่ช่วง standard และ wildcard ก็ผิดด้วย ⭐\nD. wildcard ถูกต้อง แต่หมายเลข 199 อยู่ในช่วง extended จึงใช้กับคำสั่ง ip access-list standard ไม่ได้ ⭐ ตัวลวงที่ดี\n\n📗 จำไว้สอบ: standard ACL = 1–99 และ 1300–1999 ⭐ • extended ACL = 100–199 และ 2000–2699 ⭐',
+  },
+  {
+    id: 659,
+    kind: 'multi',
+    image: v4q659,
+    prompt: 'Refer to the exhibit. Which two commands must be configured on router R1 to enable the router to accept secure remote-access connections? (Choose two.)',
+    options: [
+      { key: 'A', text: 'ip ssh pubkey-chain' },
+      { key: 'B', text: 'username cisco password 0 cisco' },
+      { key: 'C', text: 'crypto key generate rsa' },
+      { key: 'D', text: 'transport input telnet' },
+      { key: 'E', text: 'login console' },
+    ],
+    correct: ['B', 'C'],
+    explanation:
+      '📘 แนวคิด — คำว่า "secure remote-access" หมายถึง SSH ⭐ ซึ่งต้องการองค์ประกอบสองอย่างที่ขาดไม่ได้ คือคู่กุญแจสำหรับเข้ารหัส และบัญชีผู้ใช้สำหรับยืนยันตัวตน\n\n🔧 องค์ประกอบที่ SSH ต้องมี\n1️⃣ คู่กุญแจ RSA (ตัวเลือก C) ⭐\nR1(config)# crypto key generate rsa ⭐\n• SSH ใช้การเข้ารหัสแบบอสมมาตรในการแลกเปลี่ยนกุญแจเซสชัน จึงต้องมีคู่กุญแจก่อน ⭐\n• ถ้าไม่มีคีย์ บริการ SSH จะไม่เริ่มทำงานเลย ⭐\n• ต้องกำหนด hostname และ ip domain-name ไว้ก่อนคำสั่งนี้เสมอ ⭐\n\n2️⃣ บัญชีผู้ใช้ในเครื่อง (ตัวเลือก B) ⭐\nR1(config)# username cisco password 0 cisco ⭐\n• SSH บังคับให้ต้องยืนยันตัวตนด้วย "ชื่อผู้ใช้กับรหัสผ่าน" ⭐ ต่างจาก Telnet ที่ใช้เพียงรหัสของ line ได้\n• เมื่อสั่ง login local ที่ line vty ระบบจะตรวจกับฐานข้อมูลผู้ใช้ในเครื่อง ⭐\n• ถ้าไม่มีบัญชีเลย จะไม่มีใครล็อกอินผ่าน SSH ได้\n\n🔧 คอนฟิกครบชุดที่ควรเป็น\nR1(config)# hostname R1\nR1(config)# ip domain-name example.com ⭐\nR1(config)# crypto key generate rsa modulus 1024 ⭐ ← ตัวเลือก C\nR1(config)# username cisco password 0 cisco ⭐ ← ตัวเลือก B\nR1(config)# ip ssh version 2\nR1(config)# line vty 0 4\nR1(config-line)# transport input ssh ⭐\nR1(config-line)# login local ⭐\n\n💡 หมายเหตุเรื่อง password กับ secret\nในงานจริงควรใช้ username cisco secret cisco เพราะเก็บเป็นแฮชที่ถอดกลับไม่ได้ ⭐ แต่ในโจทย์นี้ตัวเลือก B เป็นบัญชีเดียวที่มีให้เลือก และก็ทำงานได้จริง\n\n✅ ทำไม B และ C ถูก: C สร้างคู่กุญแจซึ่งเป็นเงื่อนไขบังคับให้บริการ SSH เริ่มทำงาน ส่วน B สร้างบัญชีผู้ใช้ซึ่ง SSH บังคับให้ต้องมีสำหรับการยืนยันตัวตน ทั้งสองอย่างขาดอย่างใดอย่างหนึ่งไม่ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. ip ssh pubkey-chain ใช้สำหรับการยืนยันตัวตนด้วยกุญแจสาธารณะของผู้ใช้ ซึ่งเป็นทางเลือกเสริมขั้นสูง ไม่ใช่สิ่งจำเป็นพื้นฐาน ⭐\nD. transport input telnet เปิดให้ใช้ Telnet ซึ่งไม่เข้ารหัส ⭐ ตรงข้ามกับคำว่า secure โดยสิ้นเชิง คำสั่งที่ถูกต้องคือ transport input ssh\nE. ไม่มีคำสั่ง login console ใน Cisco IOS ⭐ และการตั้งค่าคอนโซลก็ไม่ใช่การเข้าถึงจากระยะไกล\n\n📗 จำไว้สอบ: SSH ต้องมีสี่อย่าง — hostname ⭐ • ip domain-name ⭐ • crypto key ⭐ • username + login local ⭐',
+  },
+  {
+    id: 660,
+    kind: 'single',
+    prompt: 'Which service is missing when RADIUS is selected to provide management access to the WLC?',
+    options: [
+      { key: 'A', text: 'authorization' },
+      { key: 'B', text: 'authentication' },
+      { key: 'C', text: 'accounting' },
+      { key: 'D', text: 'confidentiality' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — RADIUS รวม authentication กับ authorization ไว้ด้วยกันเป็นขั้นตอนเดียว ⭐ เมื่อใช้กับการเข้าถึงเพื่อบริหารจัดการ WLC จึงไม่มีการกำหนดสิทธิ์แบบละเอียดแยกต่างหาก\n\n📊 เปรียบเทียบ RADIUS กับ TACACS+\nคุณสมบัติ              RADIUS ⭐                  TACACS+ ⭐\nโปรโตคอลขนส่ง          UDP 1812/1813 ⭐          TCP 49 ⭐\nการเข้ารหัส            เฉพาะช่องรหัสผ่าน ⭐        ทั้งแพ็กเก็ต ⭐\nแยก AAA ออกจากกัน      ✘ รวม authen + author ⭐    ✔ แยกทั้งสาม ⭐\nควบคุมคำสั่งรายคำสั่ง    ✘ ทำไม่ได้ ⭐              ✔ ทำได้ ⭐\nมาตรฐาน               เปิด (RFC) ใช้ได้ทุกยี่ห้อ ⭐  Cisco proprietary ⭐\nเหมาะกับงาน            การเข้าถึงเครือข่าย 802.1X ⭐  การบริหารจัดการอุปกรณ์ ⭐\n\n🎯 ปัญหาเมื่อใช้ RADIUS กับ WLC\nเนื่องจาก RADIUS ตอบกลับเพียง Access-Accept หรือ Access-Reject ⭐\n→ ผู้ดูแลที่ผ่านการยืนยันตัวตนจะได้สิทธิ์ตามที่กำหนดไว้ล่วงหน้าเท่านั้น\n→ ไม่สามารถกำหนดได้ว่า "ผู้ดูแลคนนี้แก้ไขได้เฉพาะหน้า WLAN แต่ห้ามแตะการตั้งค่าความปลอดภัย" ⭐\n→ นั่นคือการขาด authorization แบบละเอียด ซึ่ง TACACS+ ทำได้\n\n🔧 บน WLC สามารถเลือกได้ที่\nSecurity > AAA > RADIUS หรือ TACACS+ ⭐\nเมื่อเลือก TACACS+ จะมีหน้าตั้งค่าแยกสามส่วนคือ Authentication, Authorization และ Accounting ⭐\nแต่เมื่อเลือก RADIUS จะมีเพียง Authentication กับ Accounting ⭐ ซึ่งเป็นหลักฐานตรงตัวว่าขาด authorization\n\n✅ ทำไม A ถูก: RADIUS ผูก authentication กับ authorization ไว้ในการตอบกลับเดียว จึงไม่มีบริการ authorization ที่แยกออกมาให้กำหนดสิทธิ์ผู้ดูแลอย่างละเอียดบน WLC\n\n❌ ทำไมข้ออื่นผิด:\nB. RADIUS ทำ authentication ได้อยู่แล้ว นั่นคือหน้าที่หลักของมัน ⭐\nC. RADIUS มี accounting ครบถ้วนผ่านพอร์ต UDP 1813 ⭐ และปรากฏเป็นตัวเลือกในหน้าตั้งค่าของ WLC\nD. confidentiality ไม่ใช่หนึ่งในบริการของ AAA ⭐ แม้ RADIUS จะเข้ารหัสเฉพาะช่องรหัสผ่านซึ่งอ่อนกว่า TACACS+ แต่คำถามถามถึง "service" ในกรอบของ AAA\n\n📗 จำไว้สอบ: เข้าถึงเครือข่าย (802.1X) ใช้ RADIUS ⭐ • บริหารจัดการอุปกรณ์ที่ต้องคุมทีละคำสั่ง ใช้ TACACS+ ⭐',
+  },
+  {
+    id: 661,
+    kind: 'single',
+    prompt: 'Which action implements physical access control as part of the security program of an organization?',
+    options: [
+      { key: 'A', text: 'setting up IP cameras to monitor key infrastructure' },
+      { key: 'B', text: 'configuring a password for the console port' },
+      { key: 'C', text: 'backing up syslogs at a remote location' },
+      { key: 'D', text: 'configuring enable passwords on network devices' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — physical access control คือมาตรการที่ควบคุมหรือเฝ้าระวังการเข้าถึง "ตัวอุปกรณ์และสถานที่จริง" ⭐ ไม่ใช่มาตรการที่ทำงานอยู่ภายในตัวซอฟต์แวร์\n\n🎥 ทำไมกล้องวงจรปิดจึงนับเป็น physical access control\nการควบคุมทางกายภาพแบ่งได้เป็นสามหมวด ⭐\n1️⃣ Preventive (ป้องกัน) → ประตูล็อก เครื่องอ่านบัตร ตู้แร็คที่ล็อกกุญแจ mantrap ⭐\n2️⃣ Detective (ตรวจจับ) → กล้อง IP เซนเซอร์ตรวจจับการเคลื่อนไหว สัญญาณเตือนภัย ⭐ ← ข้อนี้\n3️⃣ Deterrent (ยับยั้ง) → ป้ายเตือน ไฟส่องสว่าง การมีกล้องให้เห็นชัดเจน ⭐\n→ กล้องทำหน้าที่ทั้งตรวจจับและยับยั้ง จึงเป็นองค์ประกอบของ physical access control อย่างชัดเจน\n\n🔍 แยกให้ออกระหว่างสองโลก\nการควบคุมทางกายภาพ (physical) ⭐\n• เกี่ยวกับ "ตัวคน" ที่เดินเข้าไปถึงอุปกรณ์ได้หรือไม่\n• ตัวอย่าง: กล้อง ประตู บัตร ยาม รั้ว ⭐\n\nการควบคุมเชิงตรรกะ (logical) ⭐\n• เกี่ยวกับ "บัญชีผู้ใช้" ที่เข้าถึงระบบได้หรือไม่\n• ตัวอย่าง: รหัสผ่าน ACL สิทธิ์ไฟล์ การเข้ารหัส ⭐\n\n✅ ทำไม A ถูก: การติดตั้งกล้อง IP เพื่อเฝ้าดูโครงสร้างพื้นฐานสำคัญเป็นมาตรการที่ทำงานในโลกกายภาพ ช่วยตรวจจับและยับยั้งผู้ที่พยายามเข้าถึงอุปกรณ์โดยไม่ได้รับอนุญาต\n\n❌ ทำไมข้ออื่นผิด:\nB. ตัวลวงที่ดีที่สุด — พอร์ตคอนโซลเป็นการเชื่อมต่อทางกายภาพก็จริง ⭐ แต่ "การตั้งรหัสผ่าน" เป็นการควบคุมเชิงตรรกะที่ทำงานภายในซอฟต์แวร์ของอุปกรณ์ ไม่ได้ห้ามใครเดินเข้ามาเสียบสายเลย\nC. การสำรอง syslog ไว้ที่อื่นเป็นมาตรการด้านการเก็บหลักฐานและการกู้คืนข้อมูล ⭐\nD. รหัส enable เป็นการควบคุมเชิงตรรกะที่จำกัดสิทธิ์การเข้าสู่โหมด privileged EXEC ⭐\n\n📗 จำไว้สอบ: ถ้ามาตรการนั้น "จับต้องได้และกันคนจริง ๆ" = physical ⭐ • ถ้าเป็นการตั้งค่าในอุปกรณ์ = logical ⭐',
+  },
+  {
+    id: 662,
+    kind: 'single',
+    prompt: 'Which field within the access-request packet is encrypted by RADIUS?',
+    options: [
+      { key: 'A', text: 'authorized services' },
+      { key: 'B', text: 'password' },
+      { key: 'C', text: 'authenticator' },
+      { key: 'D', text: 'username' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — RADIUS เข้ารหัส "เฉพาะช่องรหัสผ่าน" เท่านั้น ⭐ ส่วนที่เหลือของแพ็กเก็ตเดินทางเป็นข้อความธรรมดาทั้งหมด นี่คือจุดอ่อนสำคัญเมื่อเทียบกับ TACACS+\n\n🔐 RADIUS ปกป้องรหัสผ่านอย่างไร\n1. ไคลเอนต์ RADIUS (เช่นสวิตช์หรือ WLC) และเซิร์ฟเวอร์มี shared secret ร่วมกัน ⭐\n2. ไคลเอนต์สร้างค่า Request Authenticator แบบสุ่ม 16 ไบต์\n3. นำ shared secret ต่อกับ Request Authenticator แล้วผ่านฟังก์ชัน MD5 ⭐\n4. นำผลลัพธ์ที่ได้มา XOR กับรหัสผ่าน ⭐\n5. ส่งเฉพาะค่าที่ผ่านการ XOR แล้วไปในช่อง User-Password ⭐\n\n📊 สิ่งที่มองเห็นได้เมื่อดักจับแพ็กเก็ต RADIUS\nฟิลด์                มองเห็นหรือไม่\nUsername ⭐          ✔ เห็นชัดเจน ⭐\nNAS-IP-Address       ✔ เห็น\nNAS-Port             ✔ เห็น\nCalled/Calling-Station-Id ✔ เห็น\nUser-Password ⭐      ✘ ถูกซ่อน ⭐ ← ช่องเดียวที่ปลอดภัย\nAuthorized services   ✔ เห็น (อยู่ในแพ็กเก็ต Access-Accept)\n\n⚠️ ทำไมจึงเป็นจุดอ่อน\nเมื่อเทียบกับ TACACS+ ซึ่งเข้ารหัส "ทั้ง body ของแพ็กเก็ต" ⭐ RADIUS เปิดเผยข้อมูลหลายอย่างให้ผู้ดักจับเห็น\n→ ผู้โจมตีรู้ว่าใครกำลังล็อกอิน จากอุปกรณ์ไหน พอร์ตใด และได้สิทธิ์อะไรบ้าง ⭐\n→ นี่คือหนึ่งในเหตุผลหลักที่ Cisco แนะนำให้ใช้ TACACS+ สำหรับการบริหารจัดการอุปกรณ์ ⭐\n\n✅ ทำไม B ถูก: ช่อง User-Password เป็นฟิลด์เดียวในแพ็กเก็ต Access-Request ที่ RADIUS ปกปิดด้วยการ XOR กับผลลัพธ์ MD5 ของ shared secret\n\n❌ ทำไมข้ออื่นผิด:\nA. รายการบริการที่ได้รับอนุญาตอยู่ในแพ็กเก็ต Access-Accept และส่งเป็นข้อความธรรมดา ⭐\nC. Authenticator เป็นค่าสุ่มที่ต้องส่งไปแบบเปิดเผยเพื่อให้อีกฝ่ายนำไปใช้คำนวณ ⭐ จึงไม่ได้ถูกเข้ารหัสตามนิยาม\nD. ตัวลวงหลัก — ชื่อผู้ใช้เดินทางเป็นข้อความธรรมดาเสมอ ⭐ ใครดักจับก็เห็นได้ทันที นี่เป็นข้อเท็จจริงที่ออกสอบบ่อย\n\n📗 จำไว้สอบ: RADIUS เข้ารหัสแค่รหัสผ่าน ⭐ • TACACS+ เข้ารหัสทั้งแพ็กเก็ต ⭐ ความต่างนี้ออกสอบซ้ำ ๆ',
+  },
+  {
+    id: 663,
+    kind: 'single',
+    prompt: 'A Cisco engineer is configuring a factory-default router with these three passwords: The user EXEC password for console access is p4ssw0rd1. The user EXEC password for Telnet access is s3cr3t2. The password for privileged EXEC mode is priv4t3p4ss. Which command sequence must the engineer configure?',
+    options: [
+      { key: 'A', text: 'enable secret priv4t3p4ss ! line con 0 / password p4ssw0rd1 ! line vty 0 15 / password s3cr3t2' },
+      { key: 'B', text: 'enable secret priv4t3p4ss ! line con 0 / password p4ssw0rd1 / login ! line vty 0 15 / password s3cr3t2 / login' },
+      { key: 'C', text: 'enable secret priv4t3p4ss ! line con 0 / password login p4ssw0rd1 ! line vty 0 15 / password login s3cr3t2 / login' },
+      { key: 'D', text: 'enable secret privilege 15 priv4t3p4ss ! line con 0 / password p4ssw0rd1 / login ! line vty 0 15 / password s3cr3t2 / login' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — การตั้งรหัสผ่านที่ line จะไม่มีผลใด ๆ ถ้าไม่พิมพ์คำสั่ง login กำกับไว้ด้วย ⭐ นี่คือกับดักหลักของข้อนี้\n\n🔑 สามรหัสผ่านที่โจทย์ต้องการ\n① คอนโซล → p4ssw0rd1 (user EXEC)\n② Telnet → s3cr3t2 (user EXEC)\n③ privileged EXEC → priv4t3p4ss\n\n🔧 คำสั่งที่ถูกต้อง\nR1(config)# enable secret priv4t3p4ss ⭐ ← ข้อ ③\nR1(config)# line con 0\nR1(config-line)# password p4ssw0rd1 ⭐ ตั้งรหัส\nR1(config-line)# login ⭐ ← สั่งให้ "ถาม" รหัสนั้น\nR1(config)# line vty 0 15\nR1(config-line)# password s3cr3t2 ⭐\nR1(config-line)# login ⭐\n\n⚠️ ทำไม login จึงขาดไม่ได้\n• password → เป็นเพียงการ "เก็บค่า" รหัสผ่านไว้ในคอนฟิก ⭐\n• login → เป็นการ "เปิดใช้งาน" การตรวจสอบรหัสนั้นเมื่อมีคนเข้ามา ⭐\n→ ถ้ามีแต่ password โดยไม่มี login ระบบจะไม่ถามรหัสเลย ใครก็เข้าคอนโซลได้ทันที ⭐\n→ ในทางกลับกัน ถ้ามี login แต่ไม่มี password ผู้ที่ Telnet เข้ามาจะได้ข้อความ "Password required, but none set" แล้วถูกตัดการเชื่อมต่อ ⭐\n\n💡 ทำไมต้อง enable secret ไม่ใช่ enable password\nenable secret เก็บเป็นแฮชที่ถอดกลับไม่ได้ ⭐ ส่วน enable password เก็บเป็นข้อความธรรมดา\n→ ถ้าตั้งทั้งคู่ IOS จะใช้ enable secret เสมอและละเลย enable password ⭐\n\n✅ ทำไม B ถูก: เป็นตัวเลือกเดียวที่มีทั้ง password และ login ครบทั้งสอง line พร้อมกับใช้ enable secret ด้วยไวยากรณ์ที่ถูกต้อง จึงทำให้ทั้งสามรหัสผ่านทำงานได้จริง\n\n❌ ทำไมข้ออื่นผิด:\nA. ขาดคำสั่ง login ทั้งสอง line ⭐ ผลคือรหัสผ่านถูกเก็บไว้เฉย ๆ แต่ระบบไม่เคยถามหา ใครก็เข้าได้โดยไม่ต้องใส่รหัส ⭐ ตัวลวงหลัก\nC. ไวยากรณ์ผิด — คำสั่งที่ถูกต้องคือ password ตามด้วยค่ารหัสผ่าน ไม่ใช่ password login p4ssw0rd1 ⭐ IOS จะตีความว่ารหัสผ่านคือคำว่า "login" ซึ่งไม่ตรงกับที่โจทย์กำหนด\nD. ไวยากรณ์ของ enable secret ผิด — รูปแบบที่ถูกต้องคือ enable secret level 15 <password> ไม่ใช่ enable secret privilege 15 <password> ⭐\n\n📗 จำไว้สอบ: password ตั้งค่า • login เปิดใช้งาน ⭐ ต้องมีทั้งคู่เสมอ ขาดตัวใดตัวหนึ่งไม่ทำงาน',
+  },
+  {
+    id: 664,
+    kind: 'single',
+    prompt: 'How does MAC learning function?',
+    options: [
+      { key: 'A', text: 'sends the frame back to the source to verify availably' },
+      { key: 'B', text: 'rewrites the source and destination MAC address' },
+      { key: 'C', text: 'drops received MAC addresses not listed in the address table' },
+      { key: 'D', text: 'adds unknown source MAC addresses to the CAM table' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — สวิตช์เรียนรู้จาก "MAC ต้นทาง" ของเฟรมที่เข้ามา และตัดสินใจส่งต่อจาก "MAC ปลายทาง" ⭐ สองอย่างนี้ต้องแยกให้ออก\n\n🔄 วงจรการทำงานของสวิตช์\n1️⃣ Learning (เรียนรู้) ⭐ ← ข้อที่โจทย์ถาม\nเมื่อเฟรมเข้ามาทางพอร์ตใด สวิตช์อ่าน "source MAC" แล้วบันทึกคู่ MAC กับพอร์ตนั้นลงตาราง CAM ⭐\nถ้ามีอยู่แล้วก็รีเซ็ตตัวจับเวลาใหม่\n\n2️⃣ Flooding (ฟลัด)\nถ้า destination MAC ไม่มีในตาราง สวิตช์ส่งเฟรมออกทุกพอร์ตใน VLAN เดียวกันยกเว้นพอร์ตต้นทาง ⭐\n\n3️⃣ Forwarding (ส่งต่อ)\nถ้า destination MAC มีในตาราง ส่งออกเฉพาะพอร์ตที่ระบุไว้ ⭐\n\n4️⃣ Filtering (กรอง)\nถ้าปลายทางอยู่บนพอร์ตเดียวกับต้นทาง สวิตช์ทิ้งเฟรมนั้นเพราะไม่จำเป็นต้องส่ง ⭐\n\n5️⃣ Aging (หมดอายุ)\nรายการที่ไม่มีทราฟฟิกจะถูกลบหลัง 300 วินาที หรือ 5 นาที ตามค่าดีฟอลต์ ⭐\n\n🗂️ ตาราง CAM คืออะไร\nCAM ย่อมาจาก Content Addressable Memory ⭐ เป็นหน่วยความจำพิเศษที่ค้นหาได้ในรอบสัญญาณนาฬิกาเดียว\nเก็บสามค่าคือ MAC address, VLAN และพอร์ต ⭐\nดูได้ด้วยคำสั่ง show mac address-table ⭐\n\n💡 จุดสำคัญที่ออกสอบ\nสวิตช์เรียนรู้จาก source MAC เสมอ ⭐ ไม่เคยเรียนรู้จาก destination MAC เลย\n→ เพราะ MAC ปลายทางอาจเป็นเครื่องที่อยู่คนละฝั่งของเครือข่ายซึ่งสวิตช์ยังไม่รู้จัก\n\n✅ ทำไม D ถูก: อธิบายกระบวนการ learning ได้ตรงตัว — เมื่อพบ MAC ต้นทางที่ยังไม่มีในตาราง สวิตช์จะเพิ่มลงในตาราง CAM พร้อมกับหมายเลขพอร์ตที่เฟรมเข้ามา\n\n❌ ทำไมข้ออื่นผิด:\nA. สวิตช์ไม่เคยส่งเฟรมกลับไปยังพอร์ตต้นทาง ⭐ การทำเช่นนั้นจะสร้างลูปทันที\nB. การเขียนทับ MAC ต้นทางและปลายทางเป็นหน้าที่ของ "เราเตอร์" เมื่อส่งแพ็กเก็ตข้ามเครือข่าย ⭐ สวิตช์ Layer 2 ไม่แตะต้อง MAC เลย ตัวลวงที่ดี\nC. สวิตช์ไม่ได้ทิ้งเฟรมที่มี MAC ไม่รู้จัก แต่จะ "ฟลัด" ออกทุกพอร์ตในทางตรงกันข้าม ⭐ (ยกเว้นเปิด port security ไว้)\n\n📗 จำไว้สอบ: เรียนรู้จาก source MAC ⭐ • ส่งต่อตาม destination MAC ⭐ • ไม่รู้จักปลายทางก็ฟลัด ไม่ใช่ทิ้ง ⭐',
+  },
+  {
+    id: 665,
+    kind: 'drag',
+    image: v4q665,
+    prompt: 'An engineer is tasked to configure a switch with port security to ensure devices that forward unicasts, multicasts, and broadcasts are unable to flood the port. The port must be configured to permit only two random MAC addresses at a time. Drag and drop the required configuration commands from the left onto the sequence on the right. Not all commands are used.',
+    categories: [
+      { name: '1', items: ['switchport mode access'] },
+      { name: '2', items: ['switchport port-security'] },
+      { name: '3', items: ['switchport port-security maximum 2'] },
+      { name: '4', items: ['switchport port-security violation shutdown'] },
+      { name: 'ไม่ใช้ (ตัวลวง)', items: ['switchport port-security mac-address 0060.3EDD.77AB', 'switchport port-security mac-address 00D0.D3ED.622A', 'switchport port-security mac-address sticky'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ต้องอ่านคำสำคัญสองจุดในโจทย์ ⭐\n① "unable to flood the port" → ต้องจำกัดจำนวน MAC และหยุดพอร์ตเมื่อเกิน\n② "two random MAC addresses" ⭐ → คำว่า random แปลว่าเรียนรู้เองแบบไดนามิก ไม่ใช่ระบุ MAC เจาะจง\n\n🔢 ลำดับที่ถูกต้อง\n1️⃣ switchport mode access ⭐\nport security ทำงานได้เฉพาะบนพอร์ตที่เป็น access หรือ trunk แบบคงที่เท่านั้น ⭐\nถ้าพอร์ตยังอยู่ในโหมด dynamic auto หรือ dynamic desirable ระบบจะปฏิเสธคำสั่ง port security ทันที ⭐\nนี่คือเหตุผลที่ต้องมาเป็นขั้นแรกเสมอ\n\n2️⃣ switchport port-security ⭐\nเปิดใช้งานฟีเจอร์ port security บนพอร์ตนั้น\nเมื่อเปิดแล้วจะได้ค่าดีฟอลต์คือ maximum 1 และ violation shutdown ⭐\n\n3️⃣ switchport port-security maximum 2 ⭐\nเปลี่ยนเพดานจาก 1 เป็น 2 ตามที่โจทย์กำหนด\nพอร์ตจะเรียนรู้ MAC แรกที่เข้ามาสองตัวโดยอัตโนมัติ ซึ่งตรงกับคำว่า random ⭐\n\n4️⃣ switchport port-security violation shutdown ⭐\nกำหนดให้พอร์ตเข้าสู่สถานะ err-disabled เมื่อมี MAC ตัวที่สามปรากฏ ⭐\nนี่คือมาตรการที่หยุดการฟลัดได้เด็ดขาดที่สุด ตรงกับเจตนาของโจทย์\n\n❌ คำสั่งที่ไม่ใช้และเหตุผล\n• mac-address 0060.3EDD.77AB และ mac-address 00D0.D3ED.622A ⭐\n เป็นการระบุ MAC เจาะจง ซึ่งขัดกับคำว่า "random" ในโจทย์โดยตรง ⭐\n• mac-address sticky ⭐\n sticky จะเรียนรู้แล้ว "บันทึกลง running-config" ทำให้ MAC สองตัวนั้นถูกล็อกไว้ถาวร\n แต่โจทย์ระบุว่า "two random MAC addresses at a time" ⭐ คำว่า at a time สื่อว่าเป็นสองตัวใดก็ได้ในแต่ละช่วงเวลา ไม่ใช่สองตัวที่ตายตัว\n\n💡 ตรวจสอบผลได้ด้วย\nSW# show port-security interface fa0/1 ⭐\nSW# show port-security address ⭐\n\n📗 จำไว้สอบ: ต้องสั่ง switchport mode access ก่อนเสมอ ⭐ มิฉะนั้น port security จะตั้งค่าไม่ได้เลย',
+  },
+  {
+    id: 666,
+    kind: 'single',
+    prompt: 'What is a function of Opportunistic Wireless Encryption in an environment?',
+    options: [
+      { key: 'A', text: 'provide authentication' },
+      { key: 'B', text: 'protect traffic on open networks' },
+      { key: 'C', text: 'offer compression' },
+      { key: 'D', text: 'increase security by using a WEP connection' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — OWE (Opportunistic Wireless Encryption) เป็นคุณสมบัติของ WPA3 ที่แก้ปัญหาของเครือข่าย Wi-Fi แบบเปิดโดยเฉพาะ ⭐\n\n⚠️ ปัญหาของเครือข่ายเปิดแบบดั้งเดิม\nWi-Fi ตามร้านกาแฟ สนามบิน หรือโรงแรมที่ไม่ต้องใส่รหัสผ่าน จะส่งข้อมูล "ไม่เข้ารหัสเลย" ⭐\n→ ใครก็ตามที่อยู่ในรัศมีสัญญาณสามารถเปิดโหมด monitor แล้วดักอ่านทราฟฟิกของทุกคนได้ ⭐\n→ เห็นทั้งเว็บที่เข้า ข้อมูลที่ส่ง และคุกกี้เซสชัน (สำหรับเว็บที่ยังไม่ใช้ HTTPS)\n\n🔐 OWE แก้ปัญหาอย่างไร\nกำหนดไว้ใน RFC 8110 และเรียกในเชิงการตลาดว่า Wi-Fi Enhanced Open ⭐\n1. ไคลเอนต์กับ AP ทำการแลกเปลี่ยนกุญแจแบบ Diffie-Hellman ระหว่างการเชื่อมต่อ ⭐\n2. ได้กุญแจเข้ารหัสเฉพาะตัวสำหรับไคลเอนต์แต่ละราย ⭐\n3. ผู้ใช้ไม่ต้องกรอกรหัสผ่านใด ๆ เลย ประสบการณ์เหมือนเครือข่ายเปิดทุกประการ ⭐\n4. แต่ทราฟฟิกถูกเข้ารหัสตลอดเส้นทางระหว่างอากาศ\n\n💡 จุดที่ต้องเข้าใจให้ชัด\nOWE ให้ "การเข้ารหัส" แต่ไม่ให้ "การยืนยันตัวตน" ⭐\n→ ยังไม่สามารถกัน rogue AP ที่ตั้งชื่อ SSID เหมือนกันเพื่อหลอกให้เชื่อมต่อได้ ⭐\n→ เพราะไม่มีความลับร่วมกันไว้ล่วงหน้าให้ตรวจสอบว่า AP ตัวนั้นเป็นของจริง\nแต่ก็ยังดีกว่าเครือข่ายเปิดแบบเดิมมาก เพราะอย่างน้อยผู้ที่นั่งอยู่ข้าง ๆ ก็อ่านข้อมูลของเราไม่ได้ ⭐\n\n✅ ทำไม B ถูก: หน้าที่หลักและเพียงอย่างเดียวของ OWE คือเข้ารหัสทราฟฟิกบนเครือข่ายไร้สายแบบเปิด โดยที่ผู้ใช้ยังคงเชื่อมต่อได้ทันทีโดยไม่ต้องใส่รหัสผ่าน\n\n❌ ทำไมข้ออื่นผิด:\nA. OWE ไม่ทำการยืนยันตัวตนใด ๆ ทั้งฝั่งผู้ใช้และฝั่ง AP ⭐ นี่คือข้อจำกัดที่รู้กันดีของมัน\nC. การบีบอัดข้อมูลไม่ใช่หน้าที่ของกลไกความปลอดภัยไร้สายเลย ⭐\nD. WEP เป็นการเข้ารหัสรุ่นเก่าที่ถูกยกเลิกไปแล้ว และ OWE ไม่ได้เกี่ยวข้องกับ WEP แต่อย่างใด ⭐\n\n📗 จำไว้สอบ: WPA3 มีสี่คุณสมบัติเด่น — SAE ⭐ • Perfect Forward Secrecy ⭐ • บังคับ PMF ⭐ • OWE สำหรับเครือข่ายเปิด ⭐',
+  },
+  {
+    id: 667,
+    kind: 'drag',
+    image: v4q667,
+    prompt: 'Drag and drop the AAA features from the left onto the corresponding AAA security services on the right. Not all options are used.',
+    categories: [
+      { name: 'Accounting', items: ['It records the amount of time for which a user accesses the network on a remote server.', 'It uses TACACS+ to log the configuration commands entered by a network administrator.'] },
+      { name: 'Authorization', items: ['It restricts the CLI commands that a user can perform.', 'It leverages a RADIUS server to grant user access to a reverse Telnet session.'] },
+      { name: 'ไม่ใช้ (ตัวลวง)', items: ['It verifies the user and password before granting access to the device.', 'It enables the device to allow user- or group-based access.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ต้องแยกให้ออกว่าข้อความใดพูดถึง "การให้สิทธิ์" และข้อความใดพูดถึง "การบันทึก" ⭐\n\n1️⃣ Accounting — บันทึกว่าผู้ใช้ทำอะไรไปแล้วบ้าง ⭐\n• "It records the amount of time for which a user accesses the network on a remote server." ⭐\n คำสำคัญคือ records และ amount of time ⭐ การจับเวลาการใช้งานเป็นข้อมูลที่ accounting เก็บโดยตรง เพื่อใช้ในการเรียกเก็บเงินหรือรายงานการใช้ทรัพยากร\n aaa accounting network default start-stop group radius ⭐\n\n• "It uses TACACS+ to log the configuration commands entered by a network administrator." ⭐\n คำสำคัญคือ log the configuration commands ⭐ คือการบันทึกคำสั่งที่พิมพ์ไปแล้ว ไม่ใช่การอนุญาตให้พิมพ์\n aaa accounting commands 15 default start-stop group tacacs+ ⭐\n\n2️⃣ Authorization — กำหนดว่าผู้ใช้ทำอะไรได้บ้าง ⭐\n• "It restricts the CLI commands that a user can perform." ⭐\n คำสำคัญคือ restricts ⭐ คือการจำกัดสิทธิ์ล่วงหน้าว่าคำสั่งใดพิมพ์ได้บ้าง\n aaa authorization commands 15 default group tacacs+ ⭐\n\n• "It leverages a RADIUS server to grant user access to a reverse Telnet session." ⭐\n คำสำคัญคือ grant user access ⭐ และ reverse-access เป็นชนิดของ authorization ที่มีอยู่จริงใน Cisco IOS\n aaa authorization reverse-access default group radius ⭐\n\n❌ ข้อความที่ไม่ได้ใช้และเหตุผล\n• "It verifies the user and password before granting access to the device." ⭐\n คำว่า verifies the user and password คือนิยามของ Authentication ⭐ ซึ่งไม่มีช่องให้วางในโจทย์นี้\n\n• "It enables the device to allow user- or group-based access." ⭐\n เป็นข้อความกว้าง ๆ ที่ใช้บรรยายกลไก AAA โดยรวม ไม่เจาะจงพอที่จะจัดเข้า accounting หรือ authorization ได้\n\n💡 เคล็ดลับแยกสองคำนี้\nAuthorization เกิด "ก่อน" ผู้ใช้ลงมือทำ — ตัดสินว่าอนุญาตหรือไม่ ⭐\nAccounting เกิด "หลัง" ผู้ใช้ลงมือทำ — บันทึกว่าทำอะไรไปแล้ว ⭐\n\n📗 จำไว้สอบ: คำกริยาบอกใบ้ชัดเจน — verify = Authentication ⭐ • restrict/grant = Authorization ⭐ • record/log = Accounting ⭐',
+  },
+  {
+    id: 668,
+    kind: 'single',
+    image: v4q668,
+    prompt: 'Refer to the exhibit. Clients on the WLAN are required to use 802.11r. What action must be taken to meet the requirement?',
+    options: [
+      { key: 'A', text: 'Under Protected Management Frames, set the PMF option to Required.' },
+      { key: 'B', text: 'Enable CCKM under Authentication Key Management.' },
+      { key: 'C', text: 'Set the Fast Transition option and the WPA gtk-randomize State to disable.' },
+      { key: 'D', text: 'Set the Fast Transition option to Enable and enable FT 802.1X under Authentication Key Management.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — มาตรฐาน IEEE 802.11r มีชื่อเรียกในหน้า GUI ของ Cisco WLC ว่า "Fast Transition" ⭐ นี่คือกุญแจของข้อนี้\n\n🔍 อ่าน exhibit\nLayer 2 Security = WPA+WPA2\nFast Transition = Adaptive ⭐ ← ยังไม่ได้เปิดใช้งานเต็มรูปแบบ\nWPA2 Policy = ติ๊กแล้ว, WPA2 Encryption = AES\nAuthentication Key Management\n 802.1X = Enable ✔ ⭐ ← ระบบใช้ 802.1X อยู่\n FT 802.1X = ยังไม่ติ๊ก ⭐ ← ตรงนี้คือสิ่งที่ขาด\n FT PSK = ยังไม่ติ๊ก\n\n🚀 802.11r ทำอะไร\nช่วยให้ไคลเอนต์ย้ายจาก AP ตัวหนึ่งไปอีกตัวได้เร็วขึ้นมาก เรียกว่า Fast BSS Transition ⭐\nกลไก: ทำการแลกเปลี่ยนกุญแจ "ล่วงหน้า" ก่อนที่ไคลเอนต์จะย้ายจริง ⭐\n→ เวลาในการโรมมิ่งลดจากประมาณ 100 มิลลิวินาที เหลือต่ำกว่า 50 มิลลิวินาที ⭐\n→ สำคัญมากสำหรับการโทร VoIP และวิดีโอคอลบน Wi-Fi ซึ่งจะสะดุดถ้าโรมมิ่งช้า ⭐\n\n🎯 ทำไมต้องเลือก FT 802.1X ไม่ใช่ FT PSK\nต้องให้ตรงกับวิธียืนยันตัวตนที่ใช้อยู่ ⭐\n• exhibit แสดงว่า 802.1X ถูกเปิดใช้งานอยู่ → ต้องเปิด FT 802.1X ⭐\n• ถ้าเป็นเครือข่ายที่ใช้ PSK จึงจะเปิด FT PSK ⭐\n\n📊 สามตัวเลือกของ Fast Transition บน WLC\nAdaptive ⭐ → รองรับเฉพาะอุปกรณ์ Apple ที่ใช้กลไกเฉพาะของ Cisco ไม่ใช่ 802.11r มาตรฐาน\nEnable ⭐   → เปิดใช้ 802.11r เต็มรูปแบบตามมาตรฐาน ← สิ่งที่โจทย์ต้องการ\nDisable    → ปิดสนิท\n\n✅ ทำไม D ถูก: ต้องทำสองอย่างพร้อมกัน คือเปลี่ยน Fast Transition จาก Adaptive เป็น Enable เพื่อเปิด 802.11r ตามมาตรฐาน และติ๊ก FT 802.1X เพื่อให้กลไกโรมมิ่งเร็วทำงานร่วมกับวิธียืนยันตัวตนที่ใช้อยู่\n\n❌ ทำไมข้ออื่นผิด:\nA. PMF คือมาตรฐาน 802.11w ซึ่งป้องกันเฟรมบริหารจัดการจากการปลอมแปลง ⭐ เป็นคนละมาตรฐานกับ 802.11r\nB. CCKM เป็นกลไกโรมมิ่งเร็วแบบเฉพาะของ Cisco (Cisco Centralized Key Management) ที่มีมาก่อนมาตรฐาน 802.11r ⭐ ไม่ใช่สิ่งเดียวกัน ตัวลวงที่ดี\nC. การตั้ง Fast Transition เป็น disable คือการปิด 802.11r ⭐ ตรงข้ามกับที่โจทย์ต้องการโดยสิ้นเชิง\n\n📗 จำไว้สอบ: 802.11r = Fast Transition (โรมมิ่งเร็ว) ⭐ • 802.11k = Neighbor List (ช่วยหา AP ข้างเคียง) ⭐ • 802.11v = BSS Transition Management ⭐ • 802.11w = PMF ⭐',
+  },
+  {
+    id: 669,
+    kind: 'single',
+    image: v4q669,
+    prompt: 'Refer to the exhibit. What must be configured to enable 802.11w on the WLAN?',
+    options: [
+      { key: 'A', text: 'Set Fast Transition to Enabled.' },
+      { key: 'B', text: 'Enable WPA Policy.' },
+      { key: 'C', text: 'Set PMF to Required.' },
+      { key: 'D', text: 'Enable MAC Filtering.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — มาตรฐาน IEEE 802.11w มีชื่อในหน้า GUI ของ Cisco WLC ว่า "Protected Management Frame" หรือ PMF ⭐\n\n🔍 อ่าน exhibit\nLayer 2 Security = WPA+WPA2, Security Type = Enterprise\nWPA2 Policy = ติ๊กแล้ว, WPA2 Encryption = CCMP128 (AES) ⭐\nFast Transition = Disable\nProtected Management Frame\n PMF = Disabled ⭐ ← ต้องเปลี่ยนตรงนี้\nAuthentication Key Management\n 802.1X-SHA1 = Enable\n\n⚔️ ปัญหาที่ 802.11w แก้\nก่อนมี 802.11w เฟรมบริหารจัดการของ 802.11 ทั้งหมดถูกส่งแบบ "ไม่เข้ารหัสและไม่มีลายเซ็น" ⭐\nแม้เครือข่ายจะใช้ WPA2 เข้ารหัสข้อมูลอย่างแข็งแรงแล้วก็ตาม\n\nผลคือผู้โจมตีสามารถ\n• ปลอมเฟรม deauthentication เพื่อเตะไคลเอนต์ออกจากเครือข่ายได้ตลอดเวลา ⭐\n• ปลอมเฟรม disassociation เพื่อตัดการเชื่อมต่อ ⭐\n→ ใช้เป็นการโจมตีแบบปฏิเสธการให้บริการ หรือบังคับให้ไคลเอนต์เชื่อมต่อใหม่เพื่อดักจับ 4-way handshake ไปเดารหัสแบบออฟไลน์ ⭐\n\n🛡️ 802.11w ป้องกันอย่างไร\nเพิ่มการตรวจสอบความสมบูรณ์ให้กับเฟรมบริหารจัดการ ⭐\n→ เฟรม deauth หรือ disassoc ที่ไม่มีลายเซ็นถูกต้องจะถูกไคลเอนต์เพิกเฉยทันที ⭐\n\n📊 สามตัวเลือกของ PMF บน WLC\nDisabled  → ไม่ใช้ 802.11w เลย\nOptional ⭐ → รองรับทั้งไคลเอนต์ที่ทำได้และทำไม่ได้ ใช้ระหว่างช่วงเปลี่ยนผ่าน\nRequired ⭐ → บังคับให้ไคลเอนต์ทุกตัวต้องรองรับ 802.11w จึงจะเชื่อมต่อได้ ← ตรงกับคำว่า "enable 802.11w"\n\n💡 หมายเหตุ\nWPA3 บังคับใช้ PMF เป็น Required เสมอ ⭐ ต่างจาก WPA2 ที่เป็นทางเลือก\n\n✅ ทำไม C ถูก: PMF คือชื่อที่ WLC ใช้เรียกมาตรฐาน 802.11w และการตั้งเป็น Required คือการเปิดใช้งานเต็มรูปแบบตามที่โจทย์ต้องการ\n\n❌ ทำไมข้ออื่นผิด:\nA. Fast Transition คือมาตรฐาน 802.11r ที่ช่วยเรื่องความเร็วในการโรมมิ่ง ⭐ เป็นคนละมาตรฐาน\nB. WPA Policy คือการเปิดใช้ WPA รุ่นแรกซึ่งใช้ TKIP ⭐ เป็นการลดความปลอดภัยลง ไม่เกี่ยวกับ 802.11w\nD. MAC Filtering กรองอุปกรณ์ตามที่อยู่ MAC ซึ่งปลอมแปลงได้ง่ายมาก และไม่เกี่ยวกับการปกป้องเฟรมบริหารจัดการ ⭐\n\n📗 จำไว้สอบ: 802.11w = PMF ⭐ • 802.11r = Fast Transition ⭐ • 802.11i = WPA2 ⭐ • 802.11k = Neighbor List ⭐',
+  },
+  {
+    id: 670,
+    kind: 'single',
+    prompt: 'Which encryption method is used by WPA3?',
+    options: [
+      { key: 'A', text: 'TKIP' },
+      { key: 'B', text: 'AES' },
+      { key: 'C', text: 'SAE' },
+      { key: 'D', text: 'PSK' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ต้องแยกให้ออกระหว่าง "วิธีเข้ารหัสข้อมูล" (encryption) กับ "วิธียืนยันตัวตนและแลกกุญแจ" (authentication / key exchange) ⭐ โจทย์ถามอย่างแรก\n\n🔐 องค์ประกอบของ WPA3 แยกตามหน้าที่\nหน้าที่                     กลไกที่ใช้\nการเข้ารหัสข้อมูล ⭐          AES ⭐ ผ่าน CCMP-128 หรือ GCMP-256 ⭐ ← คำตอบ\nการยืนยันตัวตนและแลกกุญแจ ⭐  SAE ⭐ (Simultaneous Authentication of Equals)\nการปกป้องเฟรมบริหารจัดการ    PMF (802.11w) บังคับใช้ ⭐\nเครือข่ายแบบเปิด            OWE ⭐\n\n📊 รายละเอียดของ cipher ใน WPA3\nWPA3-Personal ⭐    → AES-CCMP-128 ⭐\nWPA3-Enterprise    → AES-CCMP-128 หรือสูงกว่า\nWPA3-Enterprise 192-bit ⭐ → AES-GCMP-256 ⭐ สำหรับหน่วยงานที่ต้องการความปลอดภัยระดับสูงสุด\n→ ทั้งหมดใช้ AES เป็นแกนกลางทั้งสิ้น ⭐\n\n💡 SAE คืออะไรกันแน่\nSAE เป็นการแลกเปลี่ยนกุญแจแบบ Dragonfly ที่มาแทนที่ 4-way handshake ของ WPA2-PSK ⭐\nหน้าที่ของมันคือ "สร้างกุญแจอย่างปลอดภัย" และ "พิสูจน์ว่าทั้งสองฝ่ายรู้รหัสผ่าน" ⭐\nแต่ตัวมันเองไม่ได้เข้ารหัสข้อมูลที่ผู้ใช้ส่งไปมาเลย ⭐ งานนั้นเป็นของ AES\n\n⚠️ หมายเหตุ: บางแหล่งข้อมูลตอบข้อนี้ว่า SAE ⭐ แต่ตามเอกสารทางการของ Cisco และมาตรฐาน Wi-Fi Alliance ระบุชัดว่า WPA3 ใช้ AES เป็น encryption cipher ส่วน SAE เป็น key establishment protocol ⭐ เมื่อโจทย์ถามคำว่า "encryption method" คำตอบที่ถูกต้องตามหลักวิชาคือ AES\n\n✅ ทำไม B ถูก: AES คืออัลกอริทึมเข้ารหัสที่ WPA3 ใช้จริงในการปกป้องข้อมูลของผู้ใช้ ผ่านโปรโตคอล CCMP หรือ GCMP\n\n❌ ทำไมข้ออื่นผิด:\nA. TKIP เป็นการเข้ารหัสของ WPA รุ่นแรกที่ใช้ RC4 และถูกถอดออกจาก WPA3 โดยสิ้นเชิง ⭐\nC. ตัวลวงหลัก — SAE เป็นกลไกยืนยันตัวตนและแลกเปลี่ยนกุญแจ ไม่ใช่วิธีเข้ารหัสข้อมูล ⭐ นี่คือจุดที่คนสับสนมากที่สุด\nD. PSK คือรูปแบบของการยืนยันตัวตนด้วยรหัสที่แชร์กันไว้ล่วงหน้า ไม่ใช่อัลกอริทึมเข้ารหัส ⭐\n\n📗 จำไว้สอบ: WPA3 = AES (เข้ารหัส) ⭐ + SAE (แลกกุญแจ) ⭐ + PMF (ป้องกันเฟรมจัดการ) ⭐ แยกสามหน้าที่นี้ให้ชัด',
+  },
+  {
+    id: 671,
+    kind: 'single',
+    prompt: 'Which type of traffic is sent with pure IPsec?',
+    options: [
+      { key: 'A', text: 'multicast traffic from a server at one site to hosts at another location' },
+      { key: 'B', text: 'broadcast packets from a switch that is attempting to locate a MAC address at one of several remote sites' },
+      { key: 'C', text: 'unicast messages from a host at a remote site to a server at headquarters' },
+      { key: 'D', text: 'spanning-tree updates between switches that are at two different sites' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — IPsec แบบล้วน ๆ รองรับได้เฉพาะทราฟฟิก "ยูนิแคสต์ IP" เท่านั้น ⭐ นี่คือข้อจำกัดพื้นฐานที่ออกสอบบ่อยมาก\n\n🔍 ทำไม IPsec จึงรองรับแค่ยูนิแคสต์\nIPsec สร้าง Security Association (SA) ระหว่าง "จุดปลายสองจุด" ที่ระบุชัดเจน ⭐\n→ แต่ละ SA ผูกกับที่อยู่ IP ต้นทางและปลายทางคู่หนึ่งโดยเฉพาะ\n→ ทราฟฟิกมัลติแคสต์และบรอดแคสต์มีปลายทางเป็น "กลุ่ม" ไม่ใช่โฮสต์เดียว จึงไม่มี SA ที่รองรับได้ ⭐\n\n📊 ทราฟฟิกแต่ละชนิดกับ IPsec\nชนิดทราฟฟิก           IPsec ล้วนรองรับ?\nUnicast IP ⭐          ✔ ได้ ⭐ ← คำตอบ\nMulticast             ✘ ไม่ได้ ⭐ ต้องห่อด้วย GRE ก่อน\nBroadcast             ✘ ไม่ได้ ⭐\nโปรโตคอลที่ไม่ใช่ IP     ✘ ไม่ได้ ⭐ เช่น STP BPDU\n\n🔍 วิเคราะห์แต่ละตัวเลือก\nA. มัลติแคสต์ → ที่อยู่ปลายทางอยู่ในช่วง 224.0.0.0/4 ซึ่งเป็นกลุ่ม IPsec ล้วนส่งไม่ได้ ⭐ ต้องใช้ GRE over IPsec\nB. บรอดแคสต์ → ที่อยู่ปลายทางเป็น 255.255.255.255 หรือ broadcast ของซับเน็ต IPsec ส่งไม่ได้ ⭐ อีกทั้งการค้นหา MAC เป็นงานของ ARP ซึ่งไม่ใช่แม้แต่แพ็กเก็ต IP\nC. ยูนิแคสต์จากโฮสต์ไปยังเซิร์ฟเวอร์ → เป็นการสื่อสารแบบหนึ่งต่อหนึ่ง มีที่อยู่ต้นทางและปลายทางชัดเจน ⭐ IPsec สร้าง SA รองรับได้พอดี\nD. STP BPDU → เป็นเฟรมระดับ Layer 2 ที่ส่งไปยังที่อยู่มัลติแคสต์ 01:80:C2:00:00:00 ⭐ ไม่ใช่แพ็กเก็ต IP เลยด้วยซ้ำ IPsec จึงไม่มีทางขนส่งได้\n\n💡 ผลกระทบในทางปฏิบัติ\nเพราะข้อจำกัดนี้ อุโมงค์ IPsec ล้วน ๆ จึงรันโปรโตคอลเราต์ติ้งไม่ได้ ⭐\n• OSPF ใช้มัลติแคสต์ 224.0.0.5 และ 224.0.0.6 ⭐\n• EIGRP ใช้มัลติแคสต์ 224.0.0.10 ⭐\n→ ต้องใช้เส้นทางแบบ static หรือเปลี่ยนไปใช้ GRE over IPsec / DMVPN แทน ⭐\n\n✅ ทำไม C ถูก: การส่งข้อความยูนิแคสต์จากโฮสต์หนึ่งไปยังเซิร์ฟเวอร์อีกที่หนึ่ง เป็นการสื่อสารแบบจุดต่อจุดที่ IPsec รองรับได้โดยตรงโดยไม่ต้องพึ่งเทคโนโลยีเสริมใด ๆ\n\n📗 จำไว้สอบ: IPsec ล้วน = ยูนิแคสต์เท่านั้น ⭐ • ต้องการมัลติแคสต์ ให้ใช้ GRE over IPsec หรือ DMVPN ⭐',
+  },
+  {
+    id: 672,
+    kind: 'single',
+    prompt: 'How does authentication differ from authorization?',
+    options: [
+      { key: 'A', text: 'Authentication is used to record what resource a user accesses, and authorization is used to determine what resources a user can access.' },
+      { key: 'B', text: 'Authentication verifies the identity of a person accessing a network, and authorization determines what resource a user can access.' },
+      { key: 'C', text: 'Authentication is used to determine what resources a user is allowed to access, and authorization is used to track what equipment is allowed access to the network.' },
+      { key: 'D', text: 'Authentication is used to verify a person\'s identity, and authorization is used to create syslog messages for logins.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — Authentication ตอบคำถาม "คุณคือใคร" ส่วน Authorization ตอบคำถาม "คุณทำอะไรได้บ้าง" ⭐\n\n🔑 Authentication — พิสูจน์ตัวตน ⭐\nตรวจสอบว่าผู้ที่อ้างตัวเป็นคนนั้นจริงหรือไม่ โดยใช้หลักฐานสามหมวด\n• Something you know — รหัสผ่าน PIN ⭐\n• Something you have — โทเคน สมาร์ตการ์ด มือถือ ⭐\n• Something you are — ลายนิ้วมือ ใบหน้า ม่านตา ⭐\nคำสั่ง: aaa authentication login default group tacacs+ local ⭐\n\n🚪 Authorization — กำหนดสิทธิ์ ⭐\nเมื่อรู้แล้วว่าเป็นใคร ระบบจึงตัดสินว่าคนนั้นเข้าถึงทรัพยากรใดหรือสั่งคำสั่งใดได้บ้าง\nคำสั่ง: aaa authorization exec default group tacacs+ ⭐\n aaa authorization commands 15 default group tacacs+ ⭐\n\n📝 Accounting — บันทึกการใช้งาน ⭐\nเก็บหลักฐานว่าผู้ใช้เข้ามาเมื่อไร ทำอะไร และใช้ทรัพยากรไปเท่าใด\nคำสั่ง: aaa accounting commands 15 default start-stop group tacacs+ ⭐\n\n💡 อุปมาสนามบิน\nAuthentication = เจ้าหน้าที่ตรวจหนังสือเดินทางว่าคุณคือคนในรูปจริงหรือไม่ ⭐\nAuthorization = ตั๋วของคุณเป็นชั้นประหยัด จึงเข้าห้องรับรองชั้นธุรกิจไม่ได้ ⭐\nAccounting = ระบบบันทึกว่าคุณขึ้นเครื่องเที่ยวใด เวลาใด ⭐\n\n✅ ทำไม B ถูก: ให้นิยามทั้งสองคำได้ถูกต้องตรงตามตำรา — authentication ตรวจสอบตัวตนของผู้ที่เข้าถึงเครือข่าย ส่วน authorization กำหนดว่าผู้ใช้คนนั้นเข้าถึงทรัพยากรใดได้บ้าง\n\n❌ ทำไมข้ออื่นผิด:\nA. ครึ่งแรกผิด — การบันทึกว่าผู้ใช้เข้าถึงทรัพยากรใดคือหน้าที่ของ accounting ไม่ใช่ authentication ⭐\nC. สลับกันทั้งคู่ — การกำหนดสิทธิ์เข้าถึงคือ authorization และการติดตามอุปกรณ์คือ accounting ⭐\nD. ครึ่งแรกถูก แต่ครึ่งหลังผิด — การสร้างข้อความ syslog สำหรับการล็อกอินเป็นงานของ accounting ⭐ ตัวลวงที่ดีเพราะครึ่งแรกดูถูกต้อง\n\n📗 จำไว้สอบ: ลำดับที่เปลี่ยนไม่ได้คือ Authentication → Authorization → Accounting ⭐ ต้องรู้ก่อนว่าใคร จึงจะให้สิทธิ์ได้ และจึงจะบันทึกได้ถูกคน',
+  },
+  {
+    id: 673,
+    kind: 'single',
+    prompt: 'An engineer has configured the domain name, user name, and password on the local router. What is the next step to complete the configuration for a Secure Shell access RSA key?',
+    options: [
+      { key: 'A', text: 'crypto key import rsa pem' },
+      { key: 'B', text: 'crypto key generate rsa' },
+      { key: 'C', text: 'crypto key zeroize rsa' },
+      { key: 'D', text: 'crypto key pubkey-chain rsa' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — เมื่อกำหนด hostname, domain name, username และ password ครบแล้ว ขั้นตอนถัดไปคือการ "สร้าง" คู่กุญแจ RSA ⭐\n\n🔧 ลำดับการตั้งค่า SSH ทั้งหมด\n1️⃣ R1(config)# hostname R1 ⭐ (ห้ามใช้ชื่อดีฟอลต์ Router)\n2️⃣ R1(config)# ip domain-name example.com ⭐ ← ทำแล้วตามโจทย์\n3️⃣ R1(config)# username admin privilege 15 secret P@ssw0rd ⭐ ← ทำแล้วตามโจทย์\n4️⃣ R1(config)# crypto key generate rsa modulus 1024 ⭐ ← ขั้นตอนถัดไปที่โจทย์ถาม\n5️⃣ R1(config)# ip ssh version 2\n6️⃣ R1(config)# line vty 0 15\n R1(config-line)# transport input ssh ⭐\n R1(config-line)# login local ⭐\n\n🔐 คำสั่ง crypto key generate rsa ทำอะไร\n• สร้างคู่กุญแจ public key และ private key ขึ้นมา ⭐\n• ตั้งชื่อคีย์ตามรูปแบบ hostname.domain-name เช่น R1.example.com ⭐ นี่คือเหตุผลที่ต้องมีทั้งสองค่าก่อน\n• เมื่อสร้างเสร็จ บริการ SSH server จะเริ่มทำงานโดยอัตโนมัติ ⭐\n• ระบบจะถามขนาด modulus โดยค่าที่ใช้ได้คือ 360 ถึง 4096 บิต และต้องอย่างน้อย 768 บิตจึงจะรองรับ SSH version 2 ⭐\n\n🔍 ตรวจสอบผลได้ด้วย\nR1# show crypto key mypubkey rsa ⭐\nR1# show ip ssh ⭐ (แสดงเวอร์ชันและสถานะของ SSH)\n\n✅ ทำไม B ถูก: crypto key generate rsa คือคำสั่งที่สร้างคู่กุญแจซึ่งเป็นองค์ประกอบสุดท้ายที่ยังขาดอยู่ และเป็นสิ่งที่ทำให้บริการ SSH เริ่มทำงานได้จริง\n\n❌ ทำไมข้ออื่นผิด:\nA. crypto key import rsa pem ใช้นำเข้าคู่กุญแจที่สร้างจากที่อื่นมาแล้วในรูปแบบไฟล์ PEM ⭐ ไม่ใช่ขั้นตอนปกติของการตั้งค่า SSH ครั้งแรก\nC. crypto key zeroize rsa ใช้ "ลบ" คู่กุญแจทิ้งทั้งหมด ⭐ ซึ่งจะทำให้ SSH หยุดทำงานทันที ตรงข้ามกับที่ต้องการโดยสิ้นเชิง\nD. crypto key pubkey-chain rsa ใช้เก็บกุญแจสาธารณะ "ของเพื่อนบ้าน" เพื่อการยืนยันตัวตนแบบ public key ⭐ ไม่ใช่การสร้างกุญแจของตัวเอง\n\n📗 จำไว้สอบ: เงื่อนไขบังคับก่อนสร้างคีย์คือ hostname + ip domain-name ⭐ • zeroize = ลบ ⭐ • generate = สร้าง ⭐',
+  },
+  {
+    id: 674,
+    kind: 'single',
+    prompt: 'Which type if network attack overwhelms the target server by sending multiple packets to a port until the half-open TCP resources of the target are exhausted?',
+    options: [
+      { key: 'A', text: 'SYN flood' },
+      { key: 'B', text: 'reflection' },
+      { key: 'C', text: 'teardrop' },
+      { key: 'D', text: 'amplification' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "half-open TCP resources" ⭐ ซึ่งเป็นลายเซ็นเฉพาะตัวของการโจมตีแบบ SYN flood\n\n🤝 TCP three-way handshake ปกติ\n1. ไคลเอนต์ → เซิร์ฟเวอร์: SYN ⭐\n2. เซิร์ฟเวอร์ → ไคลเอนต์: SYN-ACK ⭐ (เซิร์ฟเวอร์จองหน่วยความจำไว้รอ และบันทึกลง backlog queue)\n3. ไคลเอนต์ → เซิร์ฟเวอร์: ACK ⭐ (การเชื่อมต่อสมบูรณ์ ย้ายออกจากคิว)\n\n⚔️ SYN flood ทำงานอย่างไร\n1. ผู้โจมตีส่ง SYN จำนวนมหาศาลไปยังพอร์ตเป้าหมาย โดยมักปลอมที่อยู่ต้นทาง ⭐\n2. เซิร์ฟเวอร์ตอบ SYN-ACK และจองทรัพยากรไว้รอ ACK ⭐\n3. ผู้โจมตี "ไม่ส่ง ACK กลับมาเลย" ⭐\n4. การเชื่อมต่อค้างอยู่ในสถานะ SYN_RECEIVED ซึ่งเรียกว่า half-open ⭐\n5. เมื่อ backlog queue เต็ม เซิร์ฟเวอร์ปฏิเสธการเชื่อมต่อใหม่ทั้งหมด รวมถึงของผู้ใช้จริง ⭐\n\n🔍 ตรวจพบได้อย่างไร\nบนเซิร์ฟเวอร์ให้ดูจำนวนการเชื่อมต่อในสถานะ SYN_RECV ⭐\nถ้ามีจำนวนมากผิดปกติจากที่อยู่ต้นทางหลากหลายที่ไม่มีตัวตนจริง คือสัญญาณของ SYN flood\n\n🛡️ วิธีป้องกัน\n• SYN cookies ⭐ — เซิร์ฟเวอร์ไม่จองทรัพยากรจนกว่าจะได้รับ ACK จริง โดยเข้ารหัสสถานะไว้ในหมายเลขลำดับแทน\n• จำกัดอัตราการรับ SYN (rate limiting) ⭐\n• TCP Intercept บนเราเตอร์ Cisco ⭐\n• ลดค่า SYN timeout ให้สั้นลง\n\n✅ ทำไม A ถูก: SYN flood คือการโจมตีที่มุ่งทำให้ทรัพยากรของการเชื่อมต่อแบบ half-open หมดลงโดยเฉพาะ ตรงกับคำบรรยายในโจทย์ทุกประการ\n\n❌ ทำไมข้ออื่นผิด:\nB. reflection attack คือการส่งคำขอโดยปลอมที่อยู่ต้นทางเป็นของเหยื่อ เพื่อให้เซิร์ฟเวอร์บุคคลที่สามตอบกลับไปถล่มเหยื่อ ⭐ ไม่เกี่ยวกับ half-open TCP\nC. teardrop attack ส่งแฟรกเมนต์ IP ที่มีค่า offset ซ้อนทับกันผิดปกติ ทำให้ระบบปฏิบัติการรุ่นเก่าค้างขณะประกอบแพ็กเก็ต ⭐ เป็นการโจมตีที่ระดับ IP ไม่ใช่ TCP handshake\nD. amplification attack ใช้บริการอย่าง DNS หรือ NTP ที่ตอบกลับด้วยข้อมูลขนาดใหญ่กว่าคำขอมาก เพื่อขยายปริมาณทราฟฟิกไปถล่มเหยื่อ ⭐ มักใช้ UDP ไม่ใช่ TCP\n\n📗 จำไว้สอบ: SYN flood = TCP half-open ⭐ • amplification/reflection = มักเป็น UDP ⭐ • teardrop = แฟรกเมนต์ IP ซ้อนกัน ⭐',
+  },
+  {
+    id: 675,
+    kind: 'multi',
+    prompt: 'Which two components comprise part of a PKI? (Choose two.)',
+    options: [
+      { key: 'A', text: 'preshared key that authenticates connections' },
+      { key: 'B', text: 'one or more CRLs' },
+      { key: 'C', text: 'RSA token' },
+      { key: 'D', text: 'CA that grants certificates' },
+      { key: 'E', text: 'clear-text password that authenticates connections' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — PKI (Public Key Infrastructure) เป็นระบบที่ใช้ "คู่กุญแจอสมมาตรและใบรับรองดิจิทัล" ⭐ ไม่ใช่ระบบที่พึ่งรหัสผ่านหรือความลับที่แชร์กันไว้ล่วงหน้า\n\n🏛️ องค์ประกอบของ PKI\n1️⃣ Certificate Authority (CA) ⭐ ← ตัวเลือก D\n• เป็นหน่วยงานที่เชื่อถือได้ซึ่งออกและลงนามใบรับรองดิจิทัล ⭐\n• ตรวจสอบตัวตนของผู้ขอก่อนออกใบรับรอง\n• ทุกฝ่ายในระบบเชื่อถือ CA ร่วมกัน จึงเชื่อถือใบรับรองที่ CA ลงนามได้ ⭐\n\n2️⃣ Certificate Revocation List (CRL) ⭐ ← ตัวเลือก B\n• เป็นบัญชีรายชื่อใบรับรองที่ถูก "เพิกถอน" ก่อนวันหมดอายุ ⭐\n• จำเป็นเพราะใบรับรองอาจถูกยกเลิกกลางคัน เช่น กุญแจส่วนตัวรั่วไหล หรือพนักงานลาออก ⭐\n• ผู้ตรวจสอบต้องดู CRL ทุกครั้งก่อนไว้ใจใบรับรอง ⭐\n• ทางเลือกที่ทันสมัยกว่าคือ OCSP ซึ่งสอบถามสถานะแบบทันทีทันใด ⭐\n\n3️⃣ องค์ประกอบอื่นของ PKI\n• Digital certificates ตามรูปแบบ X.509 ⭐\n• Registration Authority (RA) ทำหน้าที่ตรวจสอบตัวตนแทน CA\n• Certificate repository สำหรับเผยแพร่ใบรับรองและ CRL\n• คู่กุญแจ public และ private ของแต่ละฝ่าย ⭐\n\n🔐 หลักการทำงานโดยย่อ\nA ต้องการพิสูจน์ตัวตนกับ B\n1. A ส่งใบรับรองของตนซึ่ง CA ลงนามไว้ให้ B\n2. B ตรวจลายเซ็นของ CA ด้วยกุญแจสาธารณะของ CA ที่ตนมีอยู่แล้ว ⭐\n3. B ตรวจ CRL ว่าใบรับรองนี้ยังไม่ถูกเพิกถอน ⭐\n4. B ท้าทายให้ A พิสูจน์ว่าถือกุญแจส่วนตัวที่คู่กับใบรับรองนั้นจริง ⭐\n\n✅ ทำไม B และ D ถูก: CA เป็นหัวใจของ PKI ที่ทำหน้าที่ออกและรับรองใบรับรอง ส่วน CRL เป็นกลไกที่ขาดไม่ได้สำหรับการเพิกถอนใบรับรองที่ไม่น่าเชื่อถืออีกต่อไป\n\n❌ ทำไมข้ออื่นผิด:\nA. preshared key เป็นความลับที่ทั้งสองฝ่ายรู้ร่วมกันไว้ล่วงหน้า ซึ่งเป็นการเข้ารหัสแบบสมมาตร ⭐ ตรงข้ามกับแนวคิดของ PKI ที่ใช้กุญแจอสมมาตร\nC. RSA token เป็นอุปกรณ์สร้างรหัสผ่านครั้งเดียวสำหรับ MFA ⭐ แม้ชื่อจะมีคำว่า RSA แต่ไม่ใช่องค์ประกอบของ PKI ตัวลวงที่ดี\nE. รหัสผ่านแบบข้อความธรรมดาเป็นวิธียืนยันตัวตนที่อ่อนแอที่สุดและไม่มีอยู่ในสถาปัตยกรรม PKI เลย ⭐\n\n📗 จำไว้สอบ: PKI = CA ⭐ + ใบรับรอง X.509 ⭐ + CRL/OCSP ⭐ + คู่กุญแจ public/private ⭐',
+  },
+  {
+    id: 676,
+    kind: 'drag',
+    image: v4q676,
+    prompt: 'Drag and drop the descriptions of AAA services from the left onto the corresponding services on the right.',
+    categories: [
+      { name: 'Accounting', items: ['log session statistics', 'records user commands'] },
+      { name: 'Authentication', items: ['secures access to routers', 'validates user credentials'] },
+      { name: 'Authorization', items: ['allows the user to change to enable mode', "limits the user's access permissions"] },
+    ],
+    explanation:
+      '📘 แนวคิด — จับคู่คำบรรยายเข้ากับ A ทั้งสามตัวของ AAA ⭐ ให้ดูที่ "คำกริยา" เป็นหลัก\n\n1️⃣ Authentication — พิสูจน์ว่าเป็นใคร ⭐\n• validates user credentials ⭐\n คำว่า validates credentials คือการตรวจสอบชื่อผู้ใช้และรหัสผ่านว่าถูกต้องหรือไม่ ซึ่งเป็นนิยามตรงตัวของ authentication\n• secures access to routers ⭐\n การรักษาความปลอดภัยในการเข้าถึงเราเตอร์เริ่มต้นที่ด่านแรกคือการยืนยันตัวตน ก่อนที่ใครจะได้เข้าถึงอุปกรณ์เลย\n aaa authentication login default group tacacs+ local ⭐\n\n2️⃣ Authorization — กำหนดว่าทำอะไรได้ ⭐\n• allows the user to change to enable mode ⭐\n การอนุญาตให้เข้าสู่ privileged EXEC mode เป็นการให้สิทธิ์ ไม่ใช่การพิสูจน์ตัวตน ⭐ ควบคุมด้วย aaa authorization exec\n• limits the user access permissions ⭐\n คำว่า limits permissions คือการจำกัดขอบเขตสิ่งที่ผู้ใช้ทำได้ ซึ่งเป็นแก่นของ authorization\n aaa authorization exec default group tacacs+ ⭐\n aaa authorization commands 15 default group tacacs+ ⭐\n\n3️⃣ Accounting — บันทึกว่าทำอะไรไปแล้ว ⭐\n• log session statistics ⭐\n การบันทึกสถิติของเซสชัน เช่น เวลาเริ่ม เวลาสิ้นสุด และปริมาณข้อมูลที่ใช้\n• records user commands ⭐\n การบันทึกคำสั่งที่ผู้ใช้พิมพ์ไปแล้ว เพื่อการตรวจสอบย้อนหลัง\n aaa accounting exec default start-stop group tacacs+ ⭐\n aaa accounting commands 15 default start-stop group tacacs+ ⭐\n\n💡 กับดักที่ต้องระวัง\n"allows the user to change to enable mode" ⭐ ฟังดูเหมือนการยืนยันตัวตนเพราะมีการใส่รหัส enable\nแต่แท้จริงแล้วเป็นการตัดสินว่า "ผู้ใช้คนนี้มีสิทธิ์ยกระดับหรือไม่" ซึ่งเกิดขึ้นหลังจากรู้ตัวตนแล้ว จึงเป็น authorization ⭐\n\n📗 จำไว้สอบ: validate/secure access = Authentication ⭐ • allow/limit = Authorization ⭐ • log/record = Accounting ⭐',
+  },
+  {
+    id: 677,
+    kind: 'single',
+    prompt: 'After a recent security breach and a RADIUS failure, an engineer must secure the console port of each enterprise router with a local username and password. Which configuration must the engineer apply to accomplish this task?',
+    options: [
+      { key: 'A', text: 'aaa new-model / line con 0 / password plaintextpassword / privilege level 15' },
+      { key: 'B', text: 'aaa new-model / aaa authorization exec default local / aaa authentication login default radius / username localuser privilege 15 secret plaintextpassword' },
+      { key: 'C', text: 'username localuser secret plaintextpassword / line con 0 / no login local / privilege level 15' },
+      { key: 'D', text: 'username localuser secret plaintextpassword / line con 0 / login authentication default / privilege level 15' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — โจทย์มีสองเงื่อนไขที่ต้องผ่านครบ ⭐\n① ใช้ "local username and password" → ต้องมี username ... secret และให้ line ตรวจกับฐานข้อมูลในเครื่อง\n② ป้องกัน "console port" โดยเฉพาะ → ต้องตั้งค่าที่ line con 0 ⭐\nและบริบทสำคัญคือ RADIUS ล่มไปแล้ว จึงห้ามพึ่ง RADIUS อีก ⭐\n\n🔍 วิเคราะห์ทีละตัวเลือก\nA ❌\naaa new-model / line con 0 / password plaintextpassword / privilege level 15\n→ ใช้ "password" ที่ line ซึ่งเป็นรหัสผ่านของบรรทัด ไม่ใช่บัญชีผู้ใช้ ⭐\n→ ไม่มีคำสั่ง username เลย จึงไม่ใช่ local username and password ตามที่โจทย์กำหนด ⭐\n\nB ❌\naaa authentication login default radius ⭐ ← ตรงนี้คือปัญหา\n→ กำหนดให้ยืนยันตัวตนกับ RADIUS เป็นวิธีเดียวโดยไม่มี local สำรอง ⭐\n→ เมื่อ RADIUS ล่ม (ซึ่งเป็นสถานการณ์ที่โจทย์ระบุไว้ชัดเจน) จะไม่มีใครล็อกอินได้เลย ⭐\n→ ถ้าจะให้ถูกต้องต้องเขียนเป็น group radius local เพื่อให้ตกกลับมาใช้ฐานข้อมูลในเครื่องได้\n\nC ❌\nusername localuser secret plaintextpassword (ถูกต้อง)\nline con 0 / no login local ⭐ ← ตรงนี้คือปัญหา\n→ คำสั่ง "no login local" คือการ "ปิด" การยืนยันตัวตนด้วยฐานข้อมูลในเครื่อง ⭐\n→ ผลคือคอนโซลไม่ถามอะไรเลย ใครก็เข้าได้ ตรงข้ามกับเจตนาโดยสิ้นเชิง ⭐\n\nD ✅\nusername localuser secret plaintextpassword ⭐ สร้างบัญชีในเครื่องพร้อมเก็บรหัสเป็นแฮช\nline con 0 ⭐ ตั้งค่าที่พอร์ตคอนโซลตามโจทย์\nlogin authentication default ⭐ สั่งให้คอนโซลใช้ method list ชื่อ default ในการยืนยันตัวตน\nprivilege level 15 ⭐ ให้สิทธิ์เต็มเมื่อล็อกอินสำเร็จ\n→ ผ่านครบทั้งสองเงื่อนไข และไม่พึ่งพา RADIUS ที่ล่มอยู่ ⭐\n\n💡 ทำไมต้องใช้ secret ไม่ใช่ password\nsecret เก็บรหัสเป็นแฮชที่ถอดกลับไม่ได้ ⭐ ส่วน password เก็บเป็นข้อความธรรมดาหรืออย่างมากก็ type 7 ที่ถอดได้ทันที\nหลังเกิดเหตุการละเมิดความปลอดภัย การเลือก secret จึงเป็นสิ่งที่ถูกต้อง ⭐\n\n✅ ทำไม D ถูก: เป็นตัวเลือกเดียวที่สร้างบัญชีผู้ใช้ในเครื่องด้วย secret และผูกการยืนยันตัวตนเข้ากับ line con 0 โดยไม่พึ่งพาเซิร์ฟเวอร์ RADIUS ที่ล่มไปแล้ว\n\n📗 จำไว้สอบ: method list ต้องมี local เป็นตัวสำรองเสมอ เช่น group radius local ⭐ มิฉะนั้นเมื่อเซิร์ฟเวอร์ล่มจะล็อกตัวเองออกจากอุปกรณ์',
+  },
+  {
+    id: 678,
+    kind: 'single',
+    prompt: 'Which wireless security protocol relies on Perfect Forward Secrecy?',
+    options: [
+      { key: 'A', text: 'WEP' },
+      { key: 'B', text: 'WPA2' },
+      { key: 'C', text: 'WPA' },
+      { key: 'D', text: 'WPA3' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — Perfect Forward Secrecy (PFS) คือคุณสมบัติที่ทำให้ "การรู้กุญแจในอนาคต ถอดข้อมูลในอดีตไม่ได้" ⭐ มีเฉพาะใน WPA3 เท่านั้น\n\n🔐 PFS คืออะไร\nระบบที่มี PFS จะสร้างกุญแจเซสชันใหม่ทุกครั้งโดยไม่ผูกกับความลับระยะยาว ⭐\n→ แม้ผู้โจมตีจะได้รหัสผ่านหลักไปในภายหลัง ก็ไม่สามารถย้อนกลับไปถอดรหัสทราฟฟิกที่บันทึกไว้ก่อนหน้านั้นได้ ⭐\n\n⚠️ ปัญหาของ WPA2-PSK ที่ไม่มี PFS\n1. กุญแจของทุกเซสชันสืบทอดมาจาก PSK ซึ่งเป็นค่าคงที่ ⭐\n2. ผู้โจมตีดักจับ 4-way handshake และทราฟฟิกที่เข้ารหัสไว้เก็บไว้ก่อน ⭐\n3. เมื่อใดที่รู้รหัส Wi-Fi ในภายหลัง (อาจจากพนักงานที่ลาออก หรือจากการเดารหัสแบบออฟไลน์)\n4. ย้อนกลับไปถอดรหัสทราฟฟิกเก่าทั้งหมดได้ ⭐ เรียกว่า retrospective decryption\n\n✅ WPA3 แก้ปัญหาด้วย SAE\nSAE ใช้การแลกเปลี่ยนกุญแจแบบ Dragonfly ซึ่งอิงกับ Diffie-Hellman ⭐\n1. ทั้งสองฝ่ายสร้างค่าสุ่มขึ้นมาใหม่ในทุกการเชื่อมต่อ ⭐\n2. คำนวณกุญแจร่วมกันโดยที่กุญแจนั้นไม่เคยเดินทางบนอากาศเลย ⭐\n3. รหัสผ่านถูกใช้เพียงเพื่อ "พิสูจน์" ว่าทั้งสองฝ่ายรู้จริง ไม่ได้ใช้สร้างกุญแจโดยตรง ⭐\n→ ผลคือแต่ละเซสชันมีกุญแจที่เป็นอิสระจากกันโดยสมบูรณ์ ⭐\n\n📊 สรุปเปรียบเทียบ\nโปรโตคอล  มี PFS?   กลไกแลกกุญแจ\nWEP       ✘ ⭐      ไม่มีเลย ใช้ IV ธรรมดา\nWPA       ✘ ⭐      4-way handshake อิงจาก PSK\nWPA2      ✘ ⭐      4-way handshake อิงจาก PSK\nWPA3 ⭐    ✔ ⭐      SAE / Dragonfly ⭐ ← คำตอบ\n\n✅ ทำไม D ถูก: WPA3 เป็นมาตรฐานความปลอดภัยไร้สายเดียวที่ให้ Perfect Forward Secrecy ผ่านกลไก SAE ทำให้ทราฟฟิกที่ถูกดักจับไว้ยังคงปลอดภัยแม้รหัสผ่านจะรั่วไหลในภายหลัง\n\n❌ ทำไมข้ออื่นผิด:\nA. WEP ไม่มีแม้แต่กลไกแลกเปลี่ยนกุญแจที่ปลอดภัย และถูกยกเลิกไปตั้งแต่ปี 2004 ⭐\nB. WPA2 ใช้ 4-way handshake ที่สร้างกุญแจจาก PSK คงที่ จึงเปิดช่องให้ถอดรหัสย้อนหลังได้ ⭐ ตัวลวงหลัก\nC. WPA รุ่นแรกใช้ TKIP และมีจุดอ่อนมากกว่า WPA2 เสียอีก ⭐\n\n📗 จำไว้สอบ: PFS = WPA3 เท่านั้น ⭐ ผ่าน SAE ที่ใช้หลักการ Diffie-Hellman ⭐',
+  },
+  {
+    id: 679,
+    kind: 'single',
+    prompt: 'What is a zero-day exploit?',
+    options: [
+      { key: 'A', text: 'It is when the network is saturated with malicious traffic that overloads resources and bandwidth.' },
+      { key: 'B', text: 'It is when an attacker inserts malicious code into a SQL server.' },
+      { key: 'C', text: 'It is when a new network vulnerability is discovered before a fix is available.' },
+      { key: 'D', text: 'It is when the perpetrator inserts itself in a conversation between two parties and captures or alters data.' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คำว่า "zero-day" หมายถึงผู้พัฒนามีเวลา "ศูนย์วัน" ในการแก้ไขก่อนที่ช่องโหว่จะถูกใช้โจมตี ⭐\n\n📅 ที่มาของชื่อ\nนับจากวันที่ผู้พัฒนา "รู้ตัว" ว่ามีช่องโหว่\n• Day 0 ⭐ = วันที่ช่องโหว่ถูกเปิดเผยหรือถูกใช้โจมตี โดยที่ยังไม่มีแพตช์ ⭐\n• Day 1, 2, 3... = ช่วงที่ผู้พัฒนากำลังเร่งสร้างแพตช์\n→ ช่วงเวลาที่อันตรายที่สุดคือ Day 0 เพราะไม่มีการป้องกันใด ๆ ที่รู้จักช่องโหว่นี้เลย ⭐\n\n⚠️ ทำไมจึงอันตรายเป็นพิเศษ\n1. ไม่มีแพตช์ให้ติดตั้ง ⭐\n2. แอนติไวรัสที่ทำงานด้วยลายเซ็นตรวจไม่พบ เพราะยังไม่มีลายเซ็นของภัยคุกคามนี้ ⭐\n3. IPS ที่ใช้ signature-based detection ก็ตรวจไม่พบเช่นกัน ⭐\n4. องค์กรไม่รู้ด้วยซ้ำว่าตัวเองกำลังถูกโจมตีอยู่\n\n🛡️ ป้องกันอย่างไรเมื่อไม่มีแพตช์\nต้องพึ่งการป้องกันที่ไม่อิงลายเซ็น ⭐\n• Behavior-based detection — จับพฤติกรรมผิดปกติแทนที่จะจับลายเซ็น ⭐\n• Cisco AMP (Advanced Malware Protection) — วิเคราะห์ไฟล์ในแซนด์บ็อกซ์และติดตามย้อนหลังได้ ⭐\n• Network segmentation — จำกัดความเสียหายไม่ให้ลามทั้งองค์กร ⭐\n• หลักการให้สิทธิ์น้อยที่สุด (least privilege) ⭐\n• การเฝ้าระวังและวิเคราะห์ทราฟฟิกอย่างต่อเนื่อง\n\n✅ ทำไม C ถูก: ให้นิยามของ zero-day ได้ตรงตัว — เป็นช่องโหว่ใหม่ที่ถูกค้นพบในขณะที่ยังไม่มีวิธีแก้ไขออกมา\n\n❌ ทำไมข้ออื่นผิด:\nA. การถล่มเครือข่ายด้วยทราฟฟิกจนทรัพยากรและแบนด์วิดท์ล้นคือการโจมตีแบบ DoS หรือ DDoS ⭐\nB. การแทรกโค้ดอันตรายเข้าไปในเซิร์ฟเวอร์ฐานข้อมูลคือ SQL injection ⭐\nD. การแทรกตัวเข้าไปกลางการสนทนาเพื่อดักจับหรือแก้ไขข้อมูลคือ man-in-the-middle attack ⭐\n\n📗 จำไว้สอบ: zero-day = ยังไม่มีแพตช์ ⭐ • ป้องกันด้วยการตรวจจับเชิงพฤติกรรมและการแบ่งส่วนเครือข่าย ไม่ใช่ด้วยลายเซ็น ⭐',
+  },
+  {
+    id: 680,
+    kind: 'multi',
+    prompt: 'A network engineer is replacing the switches that belong to a managed-services client with new Cisco Catalyst switches. The new switches will be configured for updated security standards including replacing Telnet services with encrypted connections and doubling the modulus size from 1024. Which two commands must the engineer configure on the new switches? (Choose two.)',
+    options: [
+      { key: 'A', text: 'transport input ssh' },
+      { key: 'B', text: 'transport input all' },
+      { key: 'C', text: 'crypto key generate rsa modulus 2048' },
+      { key: 'D', text: 'crypto key generate rsa general-keys modulus 1024' },
+      { key: 'E', text: 'crypto key generate rsa usage-keys' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '📘 แนวคิด — โจทย์ระบุความต้องการสองข้ออย่างชัดเจน ⭐\n① "replacing Telnet services with encrypted connections" → ต้องบังคับใช้ SSH เท่านั้น ⭐\n② "doubling the modulus size from 1024" → 1024 × 2 = 2048 บิต ⭐\n\n🔧 คำสั่งที่ 1 — บังคับใช้ SSH (ตัวเลือก A)\nSW(config)# line vty 0 15\nSW(config-line)# transport input ssh ⭐\n\nผลที่ได้\n• อนุญาตเฉพาะการเชื่อมต่อขาเข้าแบบ SSH เท่านั้น ⭐\n• "ปิด Telnet โดยอัตโนมัติ" เพราะไม่ได้อยู่ในรายการที่อนุญาต ⭐\n→ ตรงกับความต้องการที่ให้แทนที่ Telnet ด้วยการเชื่อมต่อที่เข้ารหัส\n\n🔧 คำสั่งที่ 2 — สร้างคีย์ขนาด 2048 (ตัวเลือก C)\nSW(config)# crypto key generate rsa modulus 2048 ⭐\n\nผลที่ได้\n• สร้างคู่กุญแจ RSA ขนาด 2048 บิต ซึ่งเป็นสองเท่าของ 1024 ตามที่โจทย์กำหนด ⭐\n• ขนาด 2048 บิตเป็นค่าที่แนะนำในปัจจุบันสำหรับงานจริง ⭐ เพราะ 1024 บิตถือว่าอ่อนเกินไปตามมาตรฐานสมัยใหม่\n\n📊 ตัวเลือกของ transport input\nคำสั่ง                    ผลลัพธ์\ntransport input ssh ⭐     SSH เท่านั้น ปลอดภัยที่สุด ⭐\ntransport input telnet    Telnet เท่านั้น ไม่ปลอดภัย ⭐\ntransport input all ⭐     อนุญาตทุกโปรโตคอลรวม Telnet ⭐ ไม่ปลอดภัย\ntransport input none      ปิดการเข้าถึงจากระยะไกลทั้งหมด\n\n✅ ทำไม A และ C ถูก: A ปิด Telnet และเปิดเฉพาะ SSH ตามข้อกำหนดแรก ส่วน C สร้างคู่กุญแจขนาด 2048 บิตซึ่งเป็นสองเท่าของ 1024 ตามข้อกำหนดที่สอง ทั้งสองคำสั่งตอบโจทย์ครบพอดี\n\n❌ ทำไมข้ออื่นผิด:\nB. transport input all อนุญาตให้ Telnet ผ่านได้ด้วย ⭐ ขัดกับข้อกำหนดที่ต้องการแทนที่ Telnet โดยตรง\nD. modulus 1024 คือขนาดเดิม ไม่ใช่การเพิ่มเป็นสองเท่าตามที่โจทย์ระบุ ⭐ ตัวลวงที่ดี\nE. crypto key generate rsa usage-keys สร้างคู่กุญแจแยกสองชุดสำหรับการยืนยันตัวตนและการเข้ารหัสตามลำดับ ⭐ ใช้ในงาน IPsec บางกรณี ไม่ใช่สิ่งที่ SSH ต้องการ และยังไม่ได้ระบุขนาด modulus ด้วย\n\n📗 จำไว้สอบ: transport input ssh = ปิด Telnet ไปในตัว ⭐ • modulus ที่แนะนำปัจจุบันคือ 2048 บิตขึ้นไป ⭐',
+  },
+  {
+    id: 681,
+    kind: 'multi',
+    prompt: 'What are two examples of multifactor authentication? (Choose two.)',
+    options: [
+      { key: 'A', text: 'single sign-on' },
+      { key: 'B', text: 'soft tokens' },
+      { key: 'C', text: 'passwords that expire' },
+      { key: 'D', text: 'shared password repository' },
+      { key: 'E', text: 'unique user knowledge' },
+    ],
+    correct: ['B', 'E'],
+    explanation:
+      '📘 แนวคิด — MFA ต้องประกอบด้วยปัจจัยจากคนละหมวด ⭐ โจทย์นี้ให้เลือก "ตัวอย่างของปัจจัย" ที่นำมาประกอบกันเป็น MFA ได้\n\n🔑 สามหมวดของปัจจัยยืนยันตัวตน\n1️⃣ Something you know (สิ่งที่คุณรู้) ⭐\n• รหัสผ่าน PIN คำถามลับ\n• ตรงกับตัวเลือก E คือ unique user knowledge ⭐\n\n2️⃣ Something you have (สิ่งที่คุณมี) ⭐\n• hard token — อุปกรณ์กายภาพ เช่น RSA SecurID key fob ⭐\n• soft token — แอปบนสมาร์ตโฟนที่สร้างรหัสผ่านครั้งเดียว เช่น Cisco Duo, Google Authenticator ⭐\n• ตรงกับตัวเลือก B คือ soft tokens ⭐\n\n3️⃣ Something you are (สิ่งที่คุณเป็น) ⭐\n• ลายนิ้วมือ ใบหน้า ม่านตา เสียง\n\n💡 soft token ทำงานอย่างไร\nใช้อัลกอริทึม TOTP (Time-based One-Time Password) ⭐\n1. เซิร์ฟเวอร์กับแอปมี seed ลับร่วมกันตั้งแต่ตอนลงทะเบียน\n2. ทั้งสองฝ่ายนำ seed มารวมกับเวลาปัจจุบันแล้วผ่านฟังก์ชันแฮช ⭐\n3. ได้รหัสหกหลักที่เปลี่ยนทุก 30 วินาที ⭐\n→ ผู้ที่ไม่มีอุปกรณ์ที่ลงทะเบียนไว้จะสร้างรหัสนี้ไม่ได้เลย จึงเป็น "สิ่งที่คุณมี" อย่างแท้จริง ⭐\n\n✅ ทำไม B และ E ถูก: soft token เป็นตัวแทนของหมวด "สิ่งที่คุณมี" ส่วน unique user knowledge เป็นตัวแทนของหมวด "สิ่งที่คุณรู้" เมื่อนำสองอย่างนี้มาใช้ร่วมกันจึงเกิดเป็น MFA ที่แท้จริง\n\n❌ ทำไมข้ออื่นผิด:\nA. single sign-on คือการล็อกอินครั้งเดียวแล้วเข้าถึงหลายระบบได้ ⭐ เป็นเรื่องของความสะดวก ไม่ได้เพิ่มจำนวนปัจจัยเลย (แต่ SSO สามารถ "ใช้ร่วมกับ" MFA ได้)\nC. รหัสผ่านที่หมดอายุตามรอบเป็นนโยบายด้านความปลอดภัยของรหัสผ่าน ⭐ ต่อให้เปลี่ยนบ่อยแค่ไหนก็ยังเป็นปัจจัยหมวด "สิ่งที่คุณรู้" หมวดเดียวอยู่ดี\nD. คลังรหัสผ่านที่ใช้ร่วมกันเป็นเครื่องมือจัดเก็บ ⭐ และการแชร์รหัสผ่านยังขัดกับหลักความปลอดภัยพื้นฐานด้วยซ้ำ\n\n📗 จำไว้สอบ: นับ "หมวด" ไม่ใช่นับจำนวนขั้นตอน ⭐ รหัสผ่านสองชั้น = ปัจจัยเดียวสองครั้ง ไม่ใช่ MFA',
+  },
+  {
+    id: 682,
+    kind: 'single',
+    prompt: 'Which characteristic differentiates the concept of authentication from authorization and accounting?',
+    options: [
+      { key: 'A', text: 'consumption-based billing' },
+      { key: 'B', text: 'identity verification' },
+      { key: 'C', text: 'user-activity logging' },
+      { key: 'D', text: 'service limitations' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — โจทย์ถามหา "สิ่งที่ทำให้ authentication แตกต่างจากอีกสองตัว" ⭐ ซึ่งคือการพิสูจน์ตัวตน\n\n🔑 หน้าที่เฉพาะของแต่ละ A\nAuthentication ⭐ → identity verification ⭐\n• ตอบคำถาม "คุณคือใคร"\n• ตรวจสอบหลักฐานว่าผู้ที่อ้างตัวเป็นคนนั้นจริงหรือไม่\n• เป็น "ด่านแรกสุด" ที่ต้องผ่านก่อนขั้นตอนอื่นทั้งหมด ⭐\n\nAuthorization → service limitations ⭐ (ตรงกับตัวเลือก D)\n• ตอบคำถาม "คุณทำอะไรได้บ้าง"\n• จำกัดบริการและคำสั่งที่ผู้ใช้เข้าถึงได้\n\nAccounting → user-activity logging และ consumption-based billing ⭐ (ตรงกับตัวเลือก C และ A)\n• ตอบคำถาม "คุณทำอะไรไปแล้วบ้าง"\n• บันทึกกิจกรรมและปริมาณทรัพยากรที่ใช้ เพื่อการตรวจสอบย้อนหลังหรือการเรียกเก็บเงิน ⭐\n\n📊 จับคู่ตัวเลือกทั้งสี่กับ A แต่ละตัว\nตัวเลือก                    เป็นของใคร\nA. consumption-based billing  Accounting ⭐\nB. identity verification ⭐    Authentication ⭐ ← คำตอบ\nC. user-activity logging      Accounting ⭐\nD. service limitations        Authorization ⭐\n→ สังเกตว่าตัวเลือก A และ C ต่างก็เป็นของ accounting ทั้งคู่ ส่วน D เป็นของ authorization\n→ จึงเหลือ B เพียงตัวเดียวที่เป็นของ authentication ⭐\n\n💡 ทำไม identity verification จึงเป็นตัวแยกที่ชัดเจน\nauthorization และ accounting ต่างก็ทำงาน "หลังจาก" รู้ตัวตนแล้วทั้งคู่ ⭐\n→ ถ้าไม่รู้ว่าเป็นใคร ก็ให้สิทธิ์ไม่ได้และบันทึกไม่ถูกคน\n→ authentication จึงเป็นรากฐานที่อีกสองตัวต้องพึ่งพา ⭐\n\n✅ ทำไม B ถูก: การพิสูจน์ตัวตนเป็นหน้าที่เฉพาะของ authentication เพียงผู้เดียว ในขณะที่ตัวเลือกอื่นทั้งหมดเป็นหน้าที่ของ authorization หรือ accounting\n\n❌ ทำไมข้ออื่นผิด:\nA. การเรียกเก็บเงินตามปริมาณการใช้งานต้องอาศัยข้อมูลจาก accounting ⭐\nC. การบันทึกกิจกรรมของผู้ใช้คือนิยามตรงตัวของ accounting ⭐\nD. การจำกัดบริการที่ใช้ได้คือหน้าที่ของ authorization ⭐\n\n📗 จำไว้สอบ: Who = Authentication ⭐ • What can you do = Authorization ⭐ • What did you do = Accounting ⭐',
+  },
+  {
+    id: 683,
+    kind: 'single',
+    prompt: 'What is a function of Cisco Advanced Malware Protection for a Next-Generation IPS?',
+    options: [
+      { key: 'A', text: 'inspecting specific files and file types for malware' },
+      { key: 'B', text: 'authorizing potentially compromised wireless traffic' },
+      { key: 'C', text: 'authenticating end users' },
+      { key: 'D', text: 'URL filtering' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — Cisco AMP (Advanced Malware Protection) มีหน้าที่เดียวที่ชัดเจนคือ "ตรวจสอบไฟล์เพื่อหามัลแวร์" ⭐\n\n🔬 AMP ทำงานอย่างไร\n1️⃣ File reputation ⭐\n• คำนวณค่าแฮช SHA-256 ของไฟล์ที่ไหลผ่านเครือข่าย ⭐\n• ส่งค่าแฮชไปเทียบกับฐานข้อมูลบนคลาวด์ของ Cisco Talos ⭐\n• ได้ผลลัพธ์ทันทีว่าเป็น clean, malicious หรือ unknown\n\n2️⃣ File sandboxing ⭐\n• ไฟล์ที่ไม่รู้จักจะถูกส่งไปรันในสภาพแวดล้อมจำลองที่แยกออกมา ⭐\n• สังเกตพฤติกรรมจริงว่าพยายามทำอะไร เช่น แก้ไข registry หรือติดต่อเซิร์ฟเวอร์ภายนอก ⭐\n\n3️⃣ Retrospective analysis ⭐ ← จุดเด่นที่สุดของ AMP\n• ติดตามไฟล์ต่อไปแม้จะผ่านเข้าเครือข่ายไปแล้ว ⭐\n• ถ้าภายหลังพบว่าไฟล์นั้นเป็นอันตราย ระบบจะแจ้งเตือนย้อนหลังทันทีว่า "ไฟล์นี้เข้ามาเมื่อไร ไปอยู่ที่เครื่องใดบ้าง" ⭐\n• ช่วยแก้ปัญหา zero-day ที่ยังไม่มีลายเซ็นในตอนที่ไฟล์ผ่านเข้ามา ⭐\n\n📊 หน้าที่ของแต่ละองค์ประกอบใน NGFW/NGIPS\nองค์ประกอบ         หน้าที่\nAMP ⭐             ตรวจไฟล์หามัลแวร์ ⭐\nURL Filtering ⭐    บล็อกเว็บไซต์ตามหมวดหมู่หรือชื่อเสียง ⭐\nApplication Visibility and Control  ระบุและควบคุมแอปพลิเคชัน\nIdentity Services (ISE)  ยืนยันตัวตนผู้ใช้ ⭐\nIPS engine        ตรวจจับการโจมตีจากลายเซ็นและพฤติกรรม\n\n✅ ทำไม A ถูก: การตรวจสอบไฟล์และประเภทไฟล์เพื่อค้นหามัลแวร์คือหน้าที่หลักและเป็นที่มาของชื่อ Advanced Malware Protection โดยตรง\n\n❌ ทำไมข้ออื่นผิด:\nB. AMP ไม่ได้ทำหน้าที่ให้สิทธิ์ทราฟฟิกใด ๆ และไม่ได้เจาะจงเฉพาะทราฟฟิกไร้สาย ⭐\nC. การยืนยันตัวตนผู้ใช้ปลายทางเป็นหน้าที่ของ Cisco ISE หรือระบบ AAA ⭐\nD. ตัวลวงที่ดี — URL filtering เป็นความสามารถที่มีอยู่จริงใน NGFW ของ Cisco ⭐ แต่เป็นคนละโมดูลกับ AMP ซึ่งเน้นที่ตัวไฟล์ ไม่ใช่ที่อยู่เว็บ\n\n📗 จำไว้สอบ: AMP = ไฟล์และมัลแวร์ ⭐ • URL filtering = เว็บไซต์ ⭐ • ISE = ตัวตนผู้ใช้ ⭐',
+  },
+  {
+    id: 684,
+    kind: 'single',
+    prompt: 'What is a feature of WPA?',
+    options: [
+      { key: 'A', text: 'TKIP/MIC encryption' },
+      { key: 'B', text: 'small Wi-Fi application' },
+      { key: 'C', text: 'preshared key' },
+      { key: 'D', text: '802.1x authentication' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — โจทย์ถามหาคุณสมบัติที่ "เป็นของ WPA โดยเฉพาะ" ⭐ ไม่ใช่คุณสมบัติที่มาตรฐานอื่นก็มีเหมือนกัน\n\n🔐 WPA นำอะไรมาใหม่\nWPA ถูกออกแบบขึ้นในปี 2003 เพื่อแก้ปัญหาของ WEP อย่างเร่งด่วน โดยต้องทำงานบนฮาร์ดแวร์เดิมได้ ⭐\n\n1️⃣ TKIP (Temporal Key Integrity Protocol) ⭐\n• สร้างกุญแจใหม่ให้ทุกแพ็กเก็ต แทนที่จะใช้กุญแจเดียวตลอดเหมือน WEP ⭐\n• ขยาย IV จาก 24 บิตเป็น 48 บิต ทำให้ไม่เกิดค่าซ้ำง่าย ⭐\n• ยังคงใช้ RC4 เป็นแกน เพื่อให้ทำงานบนชิปเดิมได้โดยอัปเกรดแค่เฟิร์มแวร์ ⭐\n\n2️⃣ MIC (Message Integrity Check) หรือชื่อเล่นว่า Michael ⭐\n• ตรวจสอบว่าเฟรมถูกแก้ไขระหว่างทางหรือไม่ ⭐\n• แก้ปัญหาของ WEP ที่ใช้เพียง CRC-32 ซึ่งผู้โจมตีคำนวณใหม่ได้ง่าย ⭐\n• มีกลไก countermeasure คือถ้าตรวจพบ MIC ผิดสองครั้งใน 60 วินาที จะปิดเครือข่ายชั่วคราว ⭐\n\n📊 เปรียบเทียบสามมาตรฐาน\nคุณสมบัติ    WEP        WPA ⭐        WPA2\nเข้ารหัส     RC4 ⭐      TKIP/RC4 ⭐   CCMP/AES ⭐\nตรวจความสมบูรณ์ CRC-32 ⭐  MIC ⭐        CBC-MAC ⭐\nขนาด IV     24 บิต ⭐    48 บิต ⭐     48 บิต\nกุญแจต่อแพ็กเก็ต ✘        ✔ ⭐          ✔\n\n✅ ทำไม A ถูก: TKIP คู่กับ MIC คือสิ่งที่ WPA นำเข้ามาใหม่เพื่อแทนที่ RC4 แบบคงที่และ CRC-32 ที่อ่อนแอของ WEP จึงเป็นคุณสมบัติเฉพาะตัวของ WPA อย่างแท้จริง\n\n❌ ทำไมข้ออื่นผิด:\nB. small Wi-Fi application ไม่ใช่ศัพท์ทางเทคนิคใด ๆ ในมาตรฐาน Wi-Fi ⭐ เป็นข้อความที่แต่งขึ้น\nC. ตัวลวงที่ดี — preshared key ใช้ได้ทั้งใน WPA, WPA2 และ WPA3 ⭐ จึงไม่ใช่คุณสมบัติที่แยก WPA ออกจากมาตรฐานอื่น\nD. 802.1X ก็ใช้ได้ทั้งใน WPA-Enterprise, WPA2-Enterprise และ WPA3-Enterprise ⭐ จึงไม่ใช่ลักษณะเฉพาะของ WPA เช่นกัน\n\n📗 จำไว้สอบ: WEP = RC4 + CRC-32 ⭐ • WPA = TKIP + MIC ⭐ • WPA2 = AES + CCMP ⭐ • WPA3 = AES + SAE ⭐',
+  },
+  {
+    id: 685,
+    kind: 'multi',
+    prompt: 'Which two practices are recommended for an acceptable security posture in a network? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Use a cryptographic keychain to authenticate to network devices.' },
+      { key: 'B', text: 'Place internal email and file servers in a designated DMZ.' },
+      { key: 'C', text: 'Back up device configurations to encrypted USB drives for secure retrieval.' },
+      { key: 'D', text: 'Disable unused or unnecessary ports, interfaces, and services.' },
+      { key: 'E', text: 'Maintain network equipment in a secure location.' },
+    ],
+    correct: ['D', 'E'],
+    explanation:
+      '📘 แนวคิด — แนวปฏิบัติพื้นฐานที่สุดของการรักษาความปลอดภัยเครือข่ายมีสองข้อ คือ "ลดพื้นที่โจมตี" และ "ปกป้องอุปกรณ์ทางกายภาพ" ⭐\n\n1️⃣ ลดพื้นที่โจมตี (ตัวเลือก D) ⭐\nหลักการคือทุกพอร์ต ทุกอินเทอร์เฟซ และทุกบริการที่เปิดอยู่ ล้วนเป็นช่องทางที่ผู้โจมตีอาจใช้ได้ ⭐\n\nสิ่งที่ควรปิด\n• พอร์ตสวิตช์ที่ไม่ได้ใช้งาน → shutdown ⭐\n• บริการเก่าที่ไม่จำเป็น เช่น\n no ip http server ⭐\n no cdp run บนพอร์ตที่หันออกภายนอก ⭐\n no service tcp-small-servers ⭐\n no ip source-route ⭐\n• Telnet → เปลี่ยนไปใช้ SSH ⭐\n• SNMPv1 และ v2c → เปลี่ยนไปใช้ SNMPv3 ⭐\n\n2️⃣ ปกป้องอุปกรณ์ทางกายภาพ (ตัวเลือก E) ⭐\nหลักการที่ยึดถือกันคือ "ถ้าผู้โจมตีเข้าถึงอุปกรณ์ได้ทางกายภาพ อุปกรณ์นั้นไม่ใช่ของคุณอีกต่อไป" ⭐\n\nสิ่งที่ทำได้เมื่อเข้าถึงตัวเครื่อง\n• ต่อสายคอนโซลแล้วทำ password recovery ข้ามรหัสผ่านทั้งหมด ⭐\n• ถอดแฟลชการ์ดออกไปอ่านคอนฟิกและรหัสผ่าน ⭐\n• เสียบอุปกรณ์ดักจับทราฟฟิกเข้ากับพอร์ตว่าง ⭐\n→ จึงต้องเก็บอุปกรณ์ไว้ในห้องที่ล็อก มีการควบคุมการเข้าออก และมีกล้องเฝ้าระวัง ⭐\n\n✅ ทำไม D และ E ถูก: ทั้งสองเป็นแนวปฏิบัติพื้นฐานที่ Cisco แนะนำในทุกเอกสารด้านการเสริมความแข็งแกร่งของอุปกรณ์ (device hardening) และไม่มีข้อยกเว้นใด ๆ\n\n❌ ทำไมข้ออื่นผิด:\nA. cryptographic keychain ใช้ยืนยันตัวตนของโปรโตคอลเราต์ติ้ง เช่น EIGRP หรือ OSPF ⭐ ไม่ใช่วิธีที่ผู้ดูแล "ล็อกอินเข้าอุปกรณ์" ตามที่ข้อความสื่อ\nB. ผิดหลักการออกแบบโดยตรง — DMZ มีไว้สำหรับเซิร์ฟเวอร์ที่ต้องเปิดให้ "อินเทอร์เน็ตเข้าถึง" เช่น เว็บเซิร์ฟเวอร์สาธารณะ ⭐ อีเมลและไฟล์เซิร์ฟเวอร์ภายในต้องอยู่ในโซนภายในที่ปลอดภัย การย้ายไป DMZ คือการเปิดเผยข้อมูลภายในโดยไม่จำเป็น ⭐\nC. การสำรองคอนฟิกลงแฟลชไดรฟ์ที่พกพาได้เพิ่มความเสี่ยงที่อุปกรณ์จะสูญหายหรือถูกขโมย ⭐ แนวปฏิบัติที่ดีคือสำรองไปยังเซิร์ฟเวอร์กลางที่ควบคุมสิทธิ์ได้ผ่านช่องทางที่เข้ารหัส เช่น SCP\n\n📗 จำไว้สอบ: device hardening = ปิดสิ่งที่ไม่ใช้ ⭐ + ล็อกอุปกรณ์ไว้ในที่ปลอดภัย ⭐ + ใช้โปรโตคอลที่เข้ารหัสเสมอ ⭐',
+  },
+  {
+    id: 686,
+    kind: 'single',
+    prompt: 'How does WPA3 improve security?',
+    options: [
+      { key: 'A', text: 'It uses SAE for authentication.' },
+      { key: 'B', text: 'It uses RC4 for encryption.' },
+      { key: 'C', text: 'It uses TKIP for encryption.' },
+      { key: 'D', text: 'It uses a 4-way handshake for authentication.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — สิ่งที่ WPA3 ปรับปรุงขึ้นมาใหม่และสำคัญที่สุดคือ SAE ซึ่งมาแทนที่ 4-way handshake ของ WPA2 ⭐\n\n🔐 SAE คืออะไร\nSimultaneous Authentication of Equals ⭐ เป็นการแลกเปลี่ยนกุญแจแบบ Dragonfly ที่อิงกับหลักการ Diffie-Hellman\n\n⚠️ ปัญหาของ 4-way handshake ใน WPA2\n1. ผู้โจมตีดักจับ handshake เก็บไว้ได้ ⭐\n2. นำไปเดารหัสผ่านแบบออฟไลน์ได้ไม่จำกัดจำนวนครั้ง ⭐ โดยไม่ต้องติดต่อกับ AP อีกเลย\n3. ด้วยการ์ดจอสมัยใหม่ สามารถทดสอบรหัสได้หลายล้านครั้งต่อวินาที ⭐\n4. เมื่อได้รหัสแล้ว ยังย้อนไปถอดทราฟฟิกเก่าที่บันทึกไว้ได้อีกด้วย ⭐\n\n✅ SAE แก้ปัญหาทั้งหมดนี้อย่างไร\n1️⃣ กันการเดารหัสแบบออฟไลน์ ⭐\nผู้โจมตีต้องเดาสดกับ AP ทีละครั้ง ⭐ จึงถูกจำกัดด้วยความเร็วของเครือข่ายและถูกตรวจจับได้ง่าย\n\n2️⃣ ให้ Perfect Forward Secrecy ⭐\nกุญแจของแต่ละเซสชันเป็นอิสระจากรหัสผ่าน ⭐ แม้รู้รหัสในภายหลังก็ถอดทราฟฟิกเก่าไม่ได้\n\n3️⃣ ยืนยันตัวตนแบบสองทางอย่างเท่าเทียม ⭐\nคำว่า "of Equals" หมายถึงทั้งไคลเอนต์และ AP ต่างพิสูจน์ตัวเองต่อกัน ⭐ จึงช่วยลดความเสี่ยงจาก rogue AP\n\n✅ ทำไม A ถูก: SAE คือการเปลี่ยนแปลงหลักที่ทำให้ WPA3 ปลอดภัยกว่า WPA2 อย่างมีนัยสำคัญ ทั้งในแง่การกันการเดารหัสและการให้ forward secrecy\n\n❌ ทำไมข้ออื่นผิด:\nB. RC4 เป็น stream cipher เก่าของ WEP และ TKIP ที่มีจุดอ่อนมากมาย ⭐ WPA3 ไม่ใช้เลย\nC. TKIP เป็นการเข้ารหัสของ WPA รุ่นแรก และถูกถอดออกจาก WPA3 โดยสิ้นเชิง ⭐\nD. ตัวลวงหลัก — 4-way handshake เป็นกลไกของ WPA2 ⭐ ซึ่งเป็นสิ่งที่ WPA3 ตั้งใจ "แทนที่" ด้วย SAE ไม่ใช่สิ่งที่ WPA3 เพิ่มเข้ามา\n\n📗 จำไว้สอบ: WPA2 = 4-way handshake ⭐ • WPA3 = SAE / Dragonfly ⭐ สองคำนี้คือจุดต่างที่ออกสอบมากที่สุด',
+  },
+  {
+    id: 687,
+    kind: 'single',
+    prompt: 'What is a function of a Next-Generation IPS?',
+    options: [
+      { key: 'A', text: 'correlates user activity with network events' },
+      { key: 'B', text: 'serves as a controller within a controller-based network' },
+      { key: 'C', text: 'integrates with a RADIUS server to enforce Layer 2 device authentication rules' },
+      { key: 'D', text: 'makes forwarding decisions based on learned MAC addresses' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — สิ่งที่ทำให้ NGIPS ต่างจาก IPS แบบดั้งเดิมคือ "ความตระหนักรู้ในบริบท" (contextual awareness) ⭐\n\n📊 IPS ดั้งเดิม เทียบกับ NGIPS\nคุณสมบัติ            IPS ดั้งเดิม          NGIPS ⭐\nวิธีตรวจจับ           ลายเซ็นเป็นหลัก ⭐     ลายเซ็น + พฤติกรรม + บริบท ⭐\nรู้จักผู้ใช้            ✘ เห็นแค่ที่อยู่ IP ⭐   ✔ เชื่อมโยงกับตัวตนผู้ใช้ ⭐\nรู้จักแอปพลิเคชัน      ✘ ดูแค่หมายเลขพอร์ต ⭐  ✔ ระบุแอปได้จริง ⭐\nรู้จักอุปกรณ์และ OS    ✘                    ✔ ⭐\nตรวจไฟล์หามัลแวร์     ✘                    ✔ ผ่าน AMP ⭐\nปรับนโยบายอัตโนมัติ   ✘                    ✔ ⭐\n\n🔍 contextual awareness ช่วยอย่างไร\nสมมติตรวจพบการโจมตีที่มุ่งไปยังช่องโหว่ของ Apache บนเว็บเซิร์ฟเวอร์\n• IPS ดั้งเดิม → แจ้งเตือนทุกครั้งที่เห็นลายเซ็นนี้ ⭐ แม้เป้าหมายจะเป็นเครื่อง Windows ที่ไม่ได้รัน Apache เลยก็ตาม → เกิด false positive จำนวนมหาศาล\n• NGIPS → รู้ว่าเครื่องปลายทางรันระบบปฏิบัติการอะไรและมีบริการใดเปิดอยู่ ⭐ จึงจัดลำดับความสำคัญได้ว่าเหตุการณ์ใดอันตรายจริง\n\n💡 การเชื่อมโยงกิจกรรมผู้ใช้เข้ากับเหตุการณ์เครือข่าย\nNGIPS ทำงานร่วมกับ Cisco ISE หรือ Active Directory เพื่อแมปที่อยู่ IP เข้ากับชื่อผู้ใช้ ⭐\n→ รายงานจึงเปลี่ยนจาก "10.1.1.50 พยายามโจมตี" เป็น "คุณสมชายจากแผนกบัญชี พยายามเข้าถึงเซิร์ฟเวอร์ HR เมื่อเวลา 02:00 น." ⭐\n→ ทีมความปลอดภัยสืบสวนได้เร็วขึ้นมากและตอบสนองได้ตรงจุด\n\n✅ ทำไม A ถูก: การเชื่อมโยงกิจกรรมของผู้ใช้เข้ากับเหตุการณ์ในเครือข่ายคือความสามารถเชิงบริบทที่นิยาม NGIPS และแยกมันออกจาก IPS รุ่นเก่าอย่างชัดเจน\n\n❌ ทำไมข้ออื่นผิด:\nB. การทำหน้าที่คอนโทรลเลอร์ในเครือข่ายแบบ controller-based เป็นงานของ Cisco DNA Center หรือ SDN controller ⭐\nC. ตัวลวงที่ดี — การบังคับใช้กฎยืนยันตัวตนที่ Layer 2 ร่วมกับ RADIUS คือหน้าที่ของ 802.1X และ Cisco ISE ⭐ ไม่ใช่ของ IPS\nD. การตัดสินใจส่งต่อจาก MAC address ที่เรียนรู้มาคือหน้าที่พื้นฐานของสวิตช์ Layer 2 ⭐\n\n📗 จำไว้สอบ: NGIPS = IPS + รู้จักผู้ใช้ ⭐ + รู้จักแอป ⭐ + รู้จักอุปกรณ์ ⭐ + AMP ตรวจไฟล์ ⭐',
+  },
+  {
+    id: 688,
+    kind: 'drag',
+    image: v4q688,
+    prompt: 'Drag and drop the statements about AAA from the left onto the corresponding AAA services on the right. Not all options are used.',
+    categories: [
+      { name: 'Accounting', items: ['It tracks the services that a user is using.', 'It records the amount of network resources consumed by the user.'] },
+      { name: 'Authentication', items: ['It supports local, PPP, RADIUS, and TACACS+ options', 'It permits and denies login attempts.'] },
+      { name: 'ไม่ใช้ (ตัวลวง)', items: ['It assigns per-user attributes.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — โจทย์นี้มีเพียงสองหมวดคือ Accounting และ Authentication ⭐ ข้อความที่พูดถึงการให้สิทธิ์จะไม่มีที่ให้วาง\n\n1️⃣ Authentication — พิสูจน์ว่าเป็นใคร ⭐\n• "It permits and denies login attempts." ⭐\n การอนุญาตหรือปฏิเสธความพยายามล็อกอินคือผลลัพธ์โดยตรงของการยืนยันตัวตน ⭐ ถ้ารหัสถูกก็ผ่าน ถ้าผิดก็ถูกปฏิเสธ\n\n• "It supports local, PPP, RADIUS, and TACACS+ options" ⭐\n ทั้งสี่อย่างนี้คือ "วิธีการ" ที่ใช้ยืนยันตัวตน ซึ่งระบุไว้ใน method list ของคำสั่ง aaa authentication ⭐\n aaa authentication login default group tacacs+ group radius local ⭐\n → ระบบจะลองไล่จากซ้ายไปขวา ถ้า TACACS+ ไม่ตอบก็ไป RADIUS แล้วจึงตกมาที่ฐานข้อมูลในเครื่อง ⭐\n\n2️⃣ Accounting — บันทึกว่าใช้อะไรไปเท่าไร ⭐\n• "It tracks the services that a user is using." ⭐\n คำว่า tracks the services คือการติดตามว่าผู้ใช้กำลังใช้บริการใดอยู่ เช่น EXEC session, PPP หรือคำสั่งที่พิมพ์\n aaa accounting exec default start-stop group tacacs+ ⭐\n\n• "It records the amount of network resources consumed by the user." ⭐\n คำว่า records the amount คือการบันทึกปริมาณทรัพยากรที่ใช้ เช่น จำนวนไบต์ที่รับส่ง หรือระยะเวลาที่เชื่อมต่อ ⭐ ใช้เป็นข้อมูลสำหรับการเรียกเก็บเงินหรือการวิเคราะห์\n\n❌ ข้อความที่ไม่ได้ใช้\n• "It assigns per-user attributes." ⭐\n การกำหนดคุณลักษณะเฉพาะให้ผู้ใช้แต่ละราย เช่น ระดับสิทธิ์ ACL ที่บังคับใช้ หรือ VLAN ที่จะถูกโยนเข้าไป คือหน้าที่ของ Authorization ⭐\n ซึ่งไม่มีช่องให้วางในโจทย์นี้\n\n💡 เคล็ดลับจำ\nคำกริยาบอกใบ้ชัดเจนเสมอ ⭐\npermit/deny login = Authentication ⭐\nassign attributes = Authorization ⭐\ntrack/record = Accounting ⭐\n\n📗 จำไว้สอบ: method list เขียนได้หลายวิธีเรียงกัน และควรมี local เป็นตัวสุดท้ายเสมอ ⭐ เพื่อกันการล็อกตัวเองออกเมื่อเซิร์ฟเวอร์ล่ม',
+  },
+  {
+    id: 689,
+    kind: 'drag',
+    image: v4q689,
+    prompt: 'Drag and drop the elements of a security program from the left onto the corresponding descriptions on the right.',
+    categories: [
+      { name: "document that outlines an organization's security goals and practices and the roles and responsibilities of the organization's personnel", items: ['security policy'] },
+      { name: 'tactical document that sets out specific tasks and methods to maintain security', items: ['security standard'] },
+      { name: "user-awareness learning level that focuses on learning about topics and practices beyond what is typically required by the user's job", items: ['education'] },
+      { name: 'user-awareness learning level that focuses on security practices that all employees must understand and enforce', items: ['awareness'] },
+      { name: 'user-awareness learning level that focuses on teaching employees how to perform tasks specifically required by their jobs', items: ['training'] },
+    ],
+    explanation:
+      '📘 แนวคิด — โจทย์นี้แบ่งออกเป็นสองกลุ่ม คือ "เอกสาร" สองชิ้น และ "ระดับการเรียนรู้" สามระดับ ⭐\n\n📄 กลุ่มที่ 1 — เอกสาร\n1️⃣ security policy ⭐\n"เอกสารที่ระบุเป้าหมายและแนวปฏิบัติด้านความปลอดภัยขององค์กร รวมถึงบทบาทและความรับผิดชอบของบุคลากร"\n• เป็นเอกสารระดับสูงสุดที่กำหนดทิศทางในภาพรวม ⭐\n• ตอบคำถามว่า "ทำไม" และ "อะไร" ⭐\n• ตัวอย่าง: "ข้อมูลลูกค้าทั้งหมดต้องถูกเข้ารหัส" • "ผู้ดูแลระบบมีหน้าที่ตรวจสอบบันทึกทุกสัปดาห์"\n\n2️⃣ security standard ⭐\n"เอกสารเชิงยุทธวิธีที่กำหนดงานและวิธีการเฉพาะเพื่อรักษาความปลอดภัย"\n• เป็นเอกสารระดับปฏิบัติที่ขยายความจากนโยบาย ⭐\n• ตอบคำถามว่า "อย่างไร" ⭐\n• ตัวอย่าง: "ต้องใช้ AES-256 ในการเข้ารหัส" • "รหัสผ่านต้องยาวอย่างน้อย 12 ตัวอักษร"\n💡 จำง่าย ๆ ว่า policy = เป้าหมาย ⭐ • standard = วิธีทำ ⭐\n\n🎓 กลุ่มที่ 2 — สามระดับของ user awareness\n3️⃣ awareness ⭐\n"ระดับที่เน้นแนวปฏิบัติด้านความปลอดภัยที่พนักงานทุกคนต้องเข้าใจและปฏิบัติตาม"\n• เป็นระดับพื้นฐานที่สุดและครอบคลุมทุกคนในองค์กร ⭐\n• ตัวอย่าง: โปสเตอร์เตือนเรื่องฟิชชิง อีเมลแจ้งเตือน การจำลองโจมตี ⭐\n\n4️⃣ training ⭐\n"ระดับที่เน้นการสอนพนักงานให้ทำงานที่จำเป็นต่อหน้าที่ของตนได้"\n• เจาะจงตามบทบาทของแต่ละคน ⭐\n• ตัวอย่าง: อบรมผู้ดูแลระบบเรื่องการตั้งค่าไฟร์วอลล์ อบรมฝ่ายบุคคลเรื่องการจัดการข้อมูลส่วนบุคคล ⭐\n\n5️⃣ education ⭐\n"ระดับที่เน้นการเรียนรู้หัวข้อและแนวปฏิบัติที่เกินกว่างานประจำวันของผู้ใช้"\n• เป็นระดับลึกที่สุด มุ่งสร้างความเข้าใจเชิงหลักการ ⭐\n• มักนำไปสู่วุฒิบัตรหรือปริญญา เช่น CCNA Security, CISSP ⭐\n\n💡 ลำดับความลึกที่ต้องจำ\nawareness (รู้ว่ามีภัย) → training (ทำเป็น) → education (เข้าใจถึงแก่น) ⭐\n\n📗 จำไว้สอบ: policy = ทำไม/อะไร ⭐ • standard = อย่างไร ⭐ • awareness < training < education ⭐',
+  },
+  {
+    id: 690,
+    kind: 'single',
+    prompt: 'Which IPsec transport mode encrypts the IP header and the payload?',
+    options: [
+      { key: 'A', text: 'pipe' },
+      { key: 'B', text: 'transport' },
+      { key: 'C', text: 'control' },
+      { key: 'D', text: 'tunnel' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — IPsec มีสองโหมด และมีเพียง tunnel mode เท่านั้นที่เข้ารหัส "ทั้ง IP header เดิมและ payload" ⭐\n\n📊 เปรียบเทียบสองโหมดของ IPsec\nคุณสมบัติ            Transport mode        Tunnel mode ⭐\nเข้ารหัส payload      ✔ ⭐                  ✔ ⭐\nเข้ารหัส IP header เดิม ✘ ⭐                  ✔ ⭐ ← จุดต่างสำคัญ\nเพิ่ม IP header ใหม่   ✘ ใช้ header เดิม ⭐    ✔ สร้างใหม่ ⭐\nซ่อนที่อยู่จริง        ✘ เห็นต้นทาง-ปลายทาง ⭐  ✔ ซ่อนไว้ทั้งหมด ⭐\nใช้กับงานใด          host-to-host ⭐        site-to-site VPN ⭐\nขนาดที่เพิ่มขึ้น       น้อยกว่า              มากกว่า (มี header ซ้อน) ⭐\n\n🔧 โครงสร้างแพ็กเก็ตของแต่ละโหมด\nแพ็กเก็ตเดิม\n[IP header เดิม][TCP/UDP][ข้อมูล]\n\nTransport mode ⭐\n[IP header เดิม][ESP header][TCP/UDP][ข้อมูล][ESP trailer]\n         ↑ เปิดเผย        ↑─── ส่วนที่เข้ารหัส ───↑\n→ ผู้ดักจับยังเห็นว่าใครคุยกับใคร ⭐\n\nTunnel mode ⭐\n[IP header ใหม่][ESP header][IP header เดิม][TCP/UDP][ข้อมูล][ESP trailer]\n     ↑ เปิดเผย        ↑────────── ส่วนที่เข้ารหัสทั้งหมด ──────────↑\n→ ผู้ดักจับเห็นเพียงที่อยู่ของเราเตอร์ขอบทั้งสองฝั่ง ไม่เห็นโฮสต์จริงเลย ⭐\n\n💡 ทำไม site-to-site VPN จึงต้องใช้ tunnel mode\nโฮสต์ภายในใช้ที่อยู่ส่วนตัวตาม RFC 1918 เช่น 10.1.1.5 และ 10.2.2.10 ⭐\n→ ที่อยู่เหล่านี้ส่งบนอินเทอร์เน็ตไม่ได้\n→ tunnel mode ห่อแพ็กเก็ตเดิมทั้งอันแล้วใส่ IP header ใหม่ที่เป็นที่อยู่สาธารณะของเราเตอร์ขอบ ⭐\n→ จึงเดินทางข้ามอินเทอร์เน็ตได้และยังซ่อนโครงสร้างภายในไปในตัว ⭐\n\n✅ ทำไม D ถูก: tunnel mode ห่อหุ้มแพ็กเก็ต IP เดิมทั้งหมดรวมถึงส่วนหัว แล้วเข้ารหัสทั้งก้อน จากนั้นจึงเพิ่ม IP header ใหม่ด้านนอก ตรงกับคำถามที่ถามถึงการเข้ารหัสทั้ง header และ payload\n\n❌ ทำไมข้ออื่นผิด:\nA. ไม่มีโหมดชื่อ pipe ใน IPsec ⭐ เป็นชื่อที่แต่งขึ้น\nB. ตัวลวงหลัก — transport mode เข้ารหัสเฉพาะ payload ⭐ ส่วน IP header เดิมยังคงเปิดเผยอยู่ จึงไม่ตรงกับโจทย์\nC. ไม่มีโหมดชื่อ control ใน IPsec ⭐\n\n📗 จำไว้สอบ: Transport = เข้ารหัสเฉพาะข้อมูล ใช้ host-to-host ⭐ • Tunnel = เข้ารหัสทั้งแพ็กเก็ต ใช้ site-to-site VPN ⭐',
+  },
+  {
+    id: 691,
+    kind: 'single',
+    prompt: 'What is the default port-security behavior on a trunk link?',
+    options: [
+      { key: 'A', text: 'It places the port in the err-disabled state if it learns more than one MAC address.' },
+      { key: 'B', text: 'It causes a network loop when a violation occurs.' },
+      { key: 'C', text: 'It disables the native VLAN configuration as soon as port security is enabled.' },
+      { key: 'D', text: 'It places the port in the err-disabled state after 10 MAC addresses are statically configured.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ค่าดีฟอลต์ของ port security เหมือนกันหมดไม่ว่าพอร์ตจะเป็น access หรือ trunk ⭐ คือ maximum 1 และ violation shutdown\n\n⚙️ ค่าดีฟอลต์ของ port security\nพารามิเตอร์         ค่าดีฟอลต์\nMaximum MAC       1 ⭐ ← สำคัญที่สุด\nViolation mode    shutdown ⭐\nAging time        0 (ไม่หมดอายุ) ⭐\nAging type        absolute\nSticky            ปิด\n\n⚠️ ทำไมการเปิด port security บน trunk จึงอันตราย\nลิงก์ trunk เชื่อมระหว่างสวิตช์สองตัว ⭐ ทราฟฟิกที่วิ่งผ่านมีต้นทางเป็น MAC ของ "ทุกอุปกรณ์" ที่อยู่หลังสวิตช์อีกฝั่ง\n→ อาจมีตั้งแต่หลายสิบไปจนถึงหลายร้อย MAC ⭐\n→ ทันทีที่เห็น MAC ตัวที่สอง ก็เกิด violation แล้ว\n→ ด้วยโหมดดีฟอลต์ shutdown พอร์ตจะเข้าสู่ err-disabled ทันที ⭐\n→ ลิงก์ระหว่างสวิตช์ขาด เครือข่ายทั้งฝั่งหลุดออกไป ⭐\n\n🔧 ถ้าจำเป็นต้องใช้บน trunk จริง ๆ\nSW(config-if)# switchport port-security maximum 100 ⭐ ตั้งเพดานให้สูงพอ\nSW(config-if)# switchport port-security maximum 20 vlan 10 ⭐ กำหนดแยกราย VLAN ได้ด้วย\nSW(config-if)# switchport port-security violation restrict ⭐ ไม่ให้พอร์ตดับ\n\n🔍 กู้คืนพอร์ตที่เข้า err-disabled\nวิธีที่ 1 — ด้วยมือ\nSW(config-if)# shutdown\nSW(config-if)# no shutdown ⭐\nวิธีที่ 2 — ให้กู้คืนอัตโนมัติ\nSW(config)# errdisable recovery cause psecure-violation ⭐\nSW(config)# errdisable recovery interval 300 ⭐\n\n✅ ทำไม A ถูก: ด้วยค่าดีฟอลต์ maximum 1 และ violation shutdown พอร์ต trunk ที่เปิด port security จะเข้าสู่สถานะ err-disabled ทันทีที่เรียนรู้ MAC มากกว่าหนึ่งตัว ซึ่งเกิดขึ้นแทบจะทันทีบนลิงก์ระหว่างสวิตช์\n\n❌ ทำไมข้ออื่นผิด:\nB. port security ไม่ได้สร้างลูป ⭐ ในทางกลับกันมันปิดพอร์ตซึ่งเป็นการ "ตัด" เส้นทางเสียด้วยซ้ำ การป้องกันลูปเป็นหน้าที่ของ STP\nC. port security ไม่มีผลใด ๆ ต่อการตั้งค่า native VLAN ⭐ ทั้งสองเป็นคุณสมบัติที่ทำงานแยกกันโดยสิ้นเชิง\nD. ค่าดีฟอลต์คือ 1 ไม่ใช่ 10 ⭐ และ violation เกิดจากการ "เรียนรู้เกินเพดาน" ไม่ใช่จากการที่ผู้ดูแลตั้ง MAC แบบคงที่ครบจำนวน\n\n📗 จำไว้สอบ: ค่าดีฟอลต์ port security = max 1 + violation shutdown ⭐ ท่องคู่นี้ให้ขึ้นใจ',
+  },
+  {
+    id: 692,
+    kind: 'single',
+    prompt: 'Which device separates networks by security domains?',
+    options: [
+      { key: 'A', text: 'intrusion protection system' },
+      { key: 'B', text: 'firewall' },
+      { key: 'C', text: 'wireless controller' },
+      { key: 'D', text: 'access point' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ไฟร์วอลล์เป็นอุปกรณ์ที่ออกแบบมาเพื่อ "แบ่งเครือข่ายออกเป็นโซนตามระดับความน่าเชื่อถือ" โดยเฉพาะ ⭐\n\n🏰 security domain หรือ security zone คืออะไร\nคือกลุ่มของเครือข่ายที่มีระดับความน่าเชื่อถือเท่ากันและใช้นโยบายความปลอดภัยชุดเดียวกัน ⭐\n\nโซนมาตรฐานสามโซน\n1️⃣ Inside (Trusted) ⭐\n• เครือข่ายภายในองค์กรที่ควบคุมได้เต็มที่\n• ระดับความน่าเชื่อถือสูงสุด (security-level 100 บน Cisco ASA) ⭐\n\n2️⃣ DMZ (Demilitarized Zone) ⭐\n• เซิร์ฟเวอร์ที่ต้องเปิดให้คนภายนอกเข้าถึง เช่น เว็บเซิร์ฟเวอร์ เมลเซิร์ฟเวอร์สาธารณะ ⭐\n• ระดับกลาง (security-level 50) ⭐\n• ถ้าเซิร์ฟเวอร์ใน DMZ ถูกเจาะ ผู้โจมตีก็ยังเข้าไปยังเครือข่ายภายในไม่ได้ ⭐\n\n3️⃣ Outside (Untrusted) ⭐\n• อินเทอร์เน็ต\n• ระดับต่ำสุด (security-level 0) ⭐\n\n🔧 กฎการไหลของทราฟฟิกตามค่าดีฟอลต์บน ASA\nจากโซนที่ระดับสูงกว่า → ไปโซนที่ต่ำกว่า = อนุญาต ⭐ (inside ออกอินเทอร์เน็ตได้)\nจากโซนที่ระดับต่ำกว่า → ไปโซนที่สูงกว่า = ปฏิเสธ ⭐ (อินเทอร์เน็ตเข้ามาภายในไม่ได้)\n→ ถ้าต้องการให้ทะลุขึ้นไปได้ ต้องเขียน ACL อนุญาตอย่างชัดเจน ⭐\n\n💡 ไฟร์วอลล์ยังทำอะไรได้อีก\n• Stateful inspection — จำสถานะการเชื่อมต่อไว้ในตาราง ⭐\n• NAT/PAT — แปลงที่อยู่ระหว่างโซน ⭐\n• การกรองระดับแอปพลิเคชันใน NGFW ⭐\n\n✅ ทำไม B ถูก: การแบ่งเครือข่ายออกเป็นโซนความปลอดภัยและบังคับใช้นโยบายระหว่างโซนเหล่านั้นคือหน้าที่หลักและเป็นเหตุผลของการมีอยู่ของไฟร์วอลล์\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงที่ดี — IPS ตรวจจับและหยุดยั้งการโจมตีที่วิ่งผ่านมัน ⭐ แต่ไม่ได้ทำหน้าที่ "แบ่งโซน" และมักถูกวางไว้ในเส้นทางร่วมกับไฟร์วอลล์มากกว่าจะทำงานแทนกัน\nC. WLC บริหารจัดการ AP เรื่องช่องสัญญาณ กำลังส่ง และการโรมมิ่ง ⭐ ไม่ใช่อุปกรณ์กำหนดขอบเขตความปลอดภัยระหว่างเครือข่าย\nD. access point แปลงสัญญาณไร้สายเป็นสายและเป็นจุดเชื่อมต่อของไคลเอนต์ ⭐ ไม่ได้บังคับใช้นโยบายระหว่างโซน\n\n📗 จำไว้สอบ: Firewall = แบ่งโซนและบังคับนโยบาย ⭐ • IPS = ตรวจจับและหยุดการโจมตี ⭐ • สองอย่างนี้ทำงานเสริมกัน ไม่ใช่แทนกัน',
+  },
+  {
+    id: 693,
+    kind: 'single',
+    prompt: 'How are VLAN hopping attacks mitigated?',
+    options: [
+      { key: 'A', text: 'manually implement trunk ports and disable DTP' },
+      { key: 'B', text: 'configure extended VLANs' },
+      { key: 'C', text: 'activate all ports and place in the default VLAN' },
+      { key: 'D', text: 'enable dynamic ARP inspection' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — VLAN hopping รูปแบบ switch spoofing อาศัยการที่ DTP ยอมเจรจาให้พอร์ตกลายเป็น trunk ⭐ การปิด DTP จึงเป็นการตัดต้นเหตุโดยตรง\n\n⚔️ switch spoofing ทำงานอย่างไร\n1. พอร์ตของสวิตช์ Cisco ตั้งค่าดีฟอลต์เป็น dynamic auto หรือ dynamic desirable ⭐\n2. ผู้โจมตีต่อเครื่องเข้าไปแล้วส่งข้อความ DTP ปลอมตัวเป็นสวิตช์ ⭐\n3. พอร์ตเจรจาสำเร็จและกลายเป็น trunk ⭐\n4. ผู้โจมตีได้รับทราฟฟิกของ "ทุก VLAN" ที่วิ่งผ่านลิงก์นั้น ⭐\n→ เห็นข้อมูลของทุกแผนกโดยไม่ต้องผ่านเราเตอร์เลย\n\n📊 ตาราง DTP ที่ต้องจำ\nฝั่ง A \\ ฝั่ง B    dynamic auto   dynamic desirable   trunk   access\ndynamic auto      access ⭐       TRUNK ⭐            TRUNK   access\ndynamic desirable TRUNK ⭐        TRUNK ⭐            TRUNK   access\ntrunk             TRUNK          TRUNK               TRUNK   ไม่แนะนำ ⭐\naccess            access         access              ไม่แนะนำ access\n→ สังเกตว่า dynamic desirable จับคู่กับ dynamic auto ก็กลายเป็น trunk ได้ ⭐ นี่คือช่องโหว่\n\n🛡️ วิธีป้องกันที่ถูกต้อง\nสำหรับพอร์ตผู้ใช้ทุกพอร์ต\nSW(config-if)# switchport mode access ⭐ บังคับเป็น access ไม่เจรจา\nSW(config-if)# switchport nonegotiate ⭐ ปิดการส่งเฟรม DTP\n\nสำหรับลิงก์ระหว่างสวิตช์\nSW(config-if)# switchport mode trunk ⭐ ตั้งเป็น trunk ด้วยมือ\nSW(config-if)# switchport nonegotiate ⭐ ไม่ต้องเจรจาอีก\nSW(config-if)# switchport trunk native vlan 999 ⭐ กัน double tagging ไปด้วย\nSW(config-if)# switchport trunk allowed vlan 10,20,30 ⭐ อนุญาตเฉพาะที่จำเป็น\n\n✅ ทำไม A ถูก: การกำหนดพอร์ต trunk ด้วยมือแทนการปล่อยให้เจรจาอัตโนมัติ พร้อมกับปิด DTP เป็นวิธีที่ตัดช่องทางของการโจมตีแบบ switch spoofing ได้อย่างสมบูรณ์\n\n❌ ทำไมข้ออื่นผิด:\nB. extended VLAN คือช่วงหมายเลข 1006 ถึง 4094 ซึ่งเป็นเรื่องของขีดความสามารถในการรองรับจำนวน VLAN ⭐ ไม่เกี่ยวกับความปลอดภัย\nC. ผิดหลักการโดยสิ้นเชิง — การเปิดพอร์ตทั้งหมดและวางไว้ใน VLAN ดีฟอลต์คือการสร้างช่องโหว่ที่ร้ายแรงที่สุด ⭐ เพราะ VLAN 1 มักเป็น native VLAN และเป็น management VLAN ด้วย\nD. DAI ป้องกัน ARP spoofing และ man-in-the-middle ⭐ ซึ่งเป็นการโจมตีคนละชนิดกับ VLAN hopping โดยสิ้นเชิง\n\n📗 จำไว้สอบ: switch spoofing แก้ด้วยปิด DTP ⭐ • double tagging แก้ด้วยเปลี่ยน native VLAN ⭐ สองรูปแบบสองวิธี',
+  },
+  {
+    id: 694,
+    kind: 'single',
+    prompt: 'Which enhancements were implemented as part of WPA3?',
+    options: [
+      { key: 'A', text: 'Forward secrecy and SAE in personal mode for secure initial key exchange' },
+      { key: 'B', text: '802.1x authentication and AES-128 encryption' },
+      { key: 'C', text: 'AES-64 in personal mode and AES-128 in enterprise mode' },
+      { key: 'D', text: 'TKIP encryption improving WEP and per-packet keying' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ต้องเลือกข้อที่ระบุ "สิ่งที่ WPA3 เพิ่มเข้ามาใหม่" ได้ถูกต้องทั้งหมด ⭐ ไม่ใช่สิ่งที่มาตรฐานก่อนหน้าก็มีอยู่แล้ว\n\n🆕 สี่การปรับปรุงหลักของ WPA3\n1️⃣ SAE (Simultaneous Authentication of Equals) ⭐\n• แทนที่ 4-way handshake ของ WPA2-PSK ⭐\n• ใช้การแลกเปลี่ยนกุญแจแบบ Dragonfly ที่อิงกับ Diffie-Hellman ⭐\n• กันการเดารหัสแบบออฟไลน์ได้ เพราะผู้โจมตีต้องเดาสดกับ AP ทีละครั้ง ⭐\n\n2️⃣ Forward Secrecy ⭐\n• กุญแจของแต่ละเซสชันเป็นอิสระจากรหัสผ่านหลัก ⭐\n• แม้ผู้โจมตีจะได้รหัส Wi-Fi ไปในภายหลัง ก็ถอดทราฟฟิกที่บันทึกไว้ก่อนหน้านั้นไม่ได้ ⭐\n\n3️⃣ บังคับใช้ PMF (802.11w) ⭐\n• ปกป้องเฟรมบริหารจัดการจากการปลอมแปลง ⭐\n• กันการโจมตีด้วยเฟรม deauthentication ปลอม ⭐\n\n4️⃣ OWE (Opportunistic Wireless Encryption) ⭐\n• เข้ารหัสทราฟฟิกบนเครือข่ายเปิดโดยที่ผู้ใช้ไม่ต้องใส่รหัสผ่าน ⭐\n• เรียกในเชิงการตลาดว่า Wi-Fi Enhanced Open ⭐\n\n✅ ทำไม A ถูก: ระบุทั้ง forward secrecy และ SAE ในโหมด personal สำหรับการแลกเปลี่ยนกุญแจเริ่มต้นอย่างปลอดภัย ซึ่งเป็นสองการปรับปรุงหลักที่ WPA3 นำเข้ามาจริง\n\n❌ ทำไมข้ออื่นผิด:\nB. ตัวลวงที่ดี — 802.1X มีใช้มาตั้งแต่ WPA-Enterprise และ AES-128 ก็มีใน WPA2 แล้ว ⭐ ทั้งคู่จึงไม่ใช่ "สิ่งใหม่" ของ WPA3\nC. ไม่มี AES-64 อยู่จริงในมาตรฐานใด ๆ ⭐ AES รองรับเพียงขนาดกุญแจ 128, 192 และ 256 บิตเท่านั้น\nD. TKIP เป็นการเข้ารหัสของ WPA รุ่นแรกที่ออกมาในปี 2003 เพื่อแก้ปัญหาของ WEP ⭐ และถูกถอดออกจาก WPA3 โดยสิ้นเชิง ตัวเลือกนี้อธิบาย WPA ไม่ใช่ WPA3\n\n📗 จำไว้สอบ: WPA3 = SAE ⭐ + Forward Secrecy ⭐ + PMF บังคับ ⭐ + OWE ⭐ ท่องสี่ข้อนี้ให้ครบ',
+  },
+  {
+    id: 695,
+    kind: 'single',
+    prompt: 'When a site-to-site VPN is configured which IPsec mode provides encapsulation and encryption of the entire original IP packet?',
+    options: [
+      { key: 'A', text: 'IPsec transport mode with AH' },
+      { key: 'B', text: 'IPsec tunnel mode with AH' },
+      { key: 'C', text: 'IPsec transport mode with ESP' },
+      { key: 'D', text: 'IPsec tunnel mode with ESP' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องเลือกให้ถูกทั้งสองมิติพร้อมกัน ⭐\n① โหมด → tunnel (ห่อหุ้มแพ็กเก็ตเดิมทั้งอัน)\n② โปรโตคอล → ESP (ให้การเข้ารหัส)\n\n📊 มิติที่ 1 — Transport เทียบกับ Tunnel\nTransport mode ⭐\n• ใช้ IP header เดิม ไม่สร้างใหม่ ⭐\n• ป้องกันเฉพาะ payload ⭐\n• เหมาะกับการสื่อสารระหว่างโฮสต์สองเครื่องโดยตรง (host-to-host)\n\nTunnel mode ⭐\n• ห่อแพ็กเก็ต IP เดิมทั้งอัน แล้วเพิ่ม IP header ใหม่ด้านนอก ⭐\n• ป้องกันทั้ง header เดิมและ payload ⭐\n• เป็นโหมดมาตรฐานของ site-to-site VPN ⭐\n\n📊 มิติที่ 2 — AH เทียบกับ ESP\nAH (Authentication Header) — IP protocol 51 ⭐\n• ให้เฉพาะการยืนยันตัวตนและตรวจสอบความสมบูรณ์ ⭐\n• "ไม่เข้ารหัสข้อมูลเลย" ⭐ ข้อมูลยังอ่านได้ด้วยตาเปล่า\n• ทำงานร่วมกับ NAT ไม่ได้ เพราะตรวจสอบ IP header ด้วย ⭐\n\nESP (Encapsulating Security Payload) — IP protocol 50 ⭐\n• ให้ทั้งการเข้ารหัสและการตรวจสอบความสมบูรณ์ ⭐\n• ทำงานร่วมกับ NAT ได้ผ่าน NAT-T บน UDP 4500 ⭐\n• เป็นตัวเลือกที่ใช้จริงเกือบทั้งหมดในปัจจุบัน ⭐\n\n🔧 โครงสร้างแพ็กเก็ตของ tunnel mode + ESP\n[IP header ใหม่][ESP header][IP header เดิม][TCP][ข้อมูล][ESP trailer][ESP auth]\n     เปิดเผย         ↑──────── ส่วนที่เข้ารหัสทั้งหมด ────────↑\n→ ผู้ดักจับเห็นเพียงที่อยู่สาธารณะของเราเตอร์ขอบสองตัว ⭐\n→ ที่อยู่ส่วนตัวของโฮสต์ภายในถูกซ่อนไว้อย่างสมบูรณ์ ⭐\n\n✅ ทำไม D ถูก: tunnel mode ทำหน้าที่ห่อหุ้ม (encapsulation) แพ็กเก็ต IP เดิมทั้งอัน ส่วน ESP ทำหน้าที่เข้ารหัส (encryption) เมื่อรวมกันจึงให้ทั้งสองอย่างตามที่โจทย์ระบุ\n\n❌ ทำไมข้ออื่นผิด:\nA. ผิดสองชั้น — transport mode ไม่ห่อ header เดิม และ AH ไม่เข้ารหัสข้อมูลเลย ⭐\nB. tunnel mode ห่อหุ้มได้ถูกต้อง แต่ AH ให้เพียงการตรวจสอบความสมบูรณ์โดยไม่เข้ารหัส ⭐ จึงขาดคำว่า encryption ที่โจทย์ต้องการ ตัวลวงที่ดี\nC. ESP เข้ารหัสได้จริง แต่ transport mode ไม่ได้ห่อ IP header เดิม ⭐ จึงขาดคำว่า encapsulation ของแพ็กเก็ตทั้งอัน\n\n📗 จำไว้สอบ: ESP = 50 (เข้ารหัส) ⭐ • AH = 51 (ไม่เข้ารหัส) ⭐ • site-to-site VPN ใช้ tunnel mode + ESP เสมอ ⭐',
+  },
+  {
+    id: 696,
+    kind: 'single',
+    prompt: 'An engineer is configuring remote access to a router from IP subnet 10.139.58.0/28. The domain name, crypto keys, and SSH have been configured. Which configuration enables the traffic on the destination router?',
+    options: [
+      { key: 'A', text: 'line vty 0 15 / access-class 120 in ! ip access-list extended 120 / permit tcp 10.139.58.0 0.0.0.15 any eq 22' },
+      { key: 'B', text: 'interface FastEthernet0/0 / ip address 10.122.49.1 255.255.255.252 / ip access-group 10 in ! ip access-list standard 10 / permit udp 10.139.58.0 0.0.0.7 host 10.122.49.1 eq 22' },
+      { key: 'C', text: 'interface FastEthernet0/0 / ip address 10.122.49.1 255.255.255.252 / ip access-group 110 in ! ip access-list standard 110 / permit tcp 10.139.58.0 0.0.0.15 eq 22 host 10.122.49.1' },
+      { key: 'D', text: 'line vty 0 15 / access-group 120 in ! ip access-list extended 120 / permit tcp 10.139.58.0 0.0.0.15 any eq 22' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ต้องตรวจสามเรื่องพร้อมกัน คือ "คำสั่งที่ใช้กับ line vty" "wildcard mask" และ "โปรโตคอลกับพอร์ต" ⭐\n\n1️⃣ คำสั่งที่ถูกต้องสำหรับ line vty\nการควบคุมว่าใครเข้าถึง "ตัวเราเตอร์" ได้บ้าง ต้องใช้ access-class ⭐\nR1(config-line)# access-class 120 in ⭐\n→ คำสั่ง access-group ใช้กับ "อินเทอร์เฟซ" เท่านั้น ⭐ ไม่มีอยู่ในโหมด config-line\n→ ตัด D ออกทันที เพราะใช้ access-group ที่ line vty ⭐\n\n2️⃣ คำนวณ wildcard mask\nซับเน็ต 10.139.58.0/28 ⭐\nsubnet mask = 255.255.255.240\nwildcard = 255.255.255.255 − 255.255.255.240 = 0.0.0.15 ⭐\n→ ครอบคลุม 16 ที่อยู่ คือ 10.139.58.0 ถึง 10.139.58.15 ⭐\n→ ตัวเลือก B ใช้ 0.0.0.7 ซึ่งเป็น wildcard ของ /29 ครอบคลุมเพียง 8 ที่อยู่ ⭐ ไม่พอ\n\n3️⃣ โปรโตคอลและประเภทของ ACL\nSSH ใช้ TCP พอร์ต 22 ⭐ ไม่ใช่ UDP\n→ ตัวเลือก B ใช้ udp ⭐ ผิด\nการระบุพอร์ตต้องใช้ extended ACL เท่านั้น ⭐ standard ACL กรองได้เพียงที่อยู่ต้นทาง\n→ ตัวเลือก B และ C ประกาศเป็น "standard" แต่พยายามระบุ tcp/udp และพอร์ต ⭐ ซึ่งเป็นไวยากรณ์ที่ standard ACL ทำไม่ได้\n\n🔍 ตรวจสอบตัวเลือก A\nline vty 0 15\n access-class 120 in ⭐ ถูกต้อง ใช้ access-class ที่ line\nip access-list extended 120 ⭐ ถูกต้อง เป็น extended จึงระบุพอร์ตได้ และ 120 อยู่ในช่วง 100-199\n permit tcp 10.139.58.0 0.0.0.15 any eq 22 ⭐ ถูกต้องครบ — TCP, wildcard /28, พอร์ต 22\n\n💡 ทำไมปลายทางจึงเป็น any\nเมื่อใช้ access-class ที่ line vty เราเตอร์จะตรวจเฉพาะที่อยู่ต้นทางเป็นหลัก ⭐\nการใส่ any เป็นปลายทางจึงครอบคลุมทุกอินเทอร์เฟซของเราเตอร์ ไม่ว่าผู้ดูแลจะ SSH เข้ามาที่ IP ใดก็ตาม ⭐\n\n✅ ทำไม A ถูก: เป็นตัวเลือกเดียวที่ใช้ access-class กับ line vty อย่างถูกต้อง ประกาศเป็น extended ACL ที่ระบุพอร์ตได้ และใช้ wildcard 0.0.0.15 ที่ตรงกับ /28 พอดี\n\n❌ ทำไมข้ออื่นผิด:\nB. ผิดสามชั้น — ใช้ udp แทน tcp, wildcard 0.0.0.7 ตรงกับ /29 ไม่ใช่ /28 และประกาศเป็น standard แต่ระบุพอร์ต ⭐\nC. ประกาศเป็น standard แต่ใช้ไวยากรณ์ของ extended และวางตำแหน่ง eq 22 ผิดที่ (ควรอยู่หลังปลายทาง ไม่ใช่หลังต้นทาง) ⭐\nD. wildcard และ ACL ถูกต้อง แต่ใช้คำสั่ง access-group ที่ line vty ซึ่งไม่มีอยู่จริง ⭐ ต้องใช้ access-class ตัวลวงหลักที่แยกยากที่สุด\n\n📗 จำไว้สอบ: interface ใช้ ip access-group ⭐ • line vty ใช้ access-class ⭐ สองคำนี้สลับกันไม่ได้',
+  },
+  {
+    id: 697,
+    kind: 'single',
+    prompt: 'In an SDN architecture, which function of a network node is centralized on a controller?',
+    options: [
+      { key: 'A', text: 'Creates the IP routing table' },
+      { key: 'B', text: 'Discards a message due filtering' },
+      { key: 'C', text: 'Makes a routing decision' },
+      { key: 'D', text: 'Provides protocol access for remote access devices' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — SDN แยก control plane ออกจากอุปกรณ์แล้วรวมศูนย์ไว้ที่คอนโทรลเลอร์ ⭐ ส่วน data plane ยังคงอยู่บนอุปกรณ์แต่ละตัวเหมือนเดิม\n\n📊 สามระนาบของอุปกรณ์เครือข่าย\n1️⃣ Control plane ⭐ ← ระนาบที่ถูกรวมศูนย์\n• หน้าที่: "สร้าง" ตารางเส้นทางและตารางส่งต่อ ⭐\n• ตัวอย่างงาน: รันโปรโตคอลเราต์ติ้ง OSPF/EIGRP/BGP, คำนวณ SPF, สร้าง RIB และ FIB, รัน STP ⭐\n• ใน SDN → ย้ายขึ้นไปอยู่บนคอนโทรลเลอร์ ⭐\n\n2️⃣ Data plane (Forwarding plane) ⭐ ← ยังอยู่บนอุปกรณ์\n• หน้าที่: "ใช้" ตารางที่ได้รับมาเพื่อส่งต่อแพ็กเก็ตจริง ⭐\n• ตัวอย่างงาน: ค้นหาปลายทางใน FIB, สลับแพ็กเก็ตออกอินเทอร์เฟซ, ใส่หรือถอดแท็ก 802.1Q, ทิ้งแพ็กเก็ตตาม ACL ⭐\n• ยังคงกระจายอยู่บนสวิตช์และเราเตอร์แต่ละตัว ⭐\n\n3️⃣ Management plane\n• หน้าที่: การเข้าถึงเพื่อบริหารจัดการ เช่น SSH, SNMP, syslog ⭐\n\n🔗 คอนโทรลเลอร์สื่อสารกับอุปกรณ์อย่างไร\nSouthbound API ⭐ — ใช้ OpenFlow, NETCONF หรือ OpFlex ส่งตารางส่งต่อลงไปยังอุปกรณ์ ⭐\nNorthbound API ⭐ — ใช้ REST API ให้แอปพลิเคชันสั่งงานคอนโทรลเลอร์ ⭐\n\n🎯 วิเคราะห์แต่ละตัวเลือก\nA. "Creates the IP routing table" ⭐ → การ "สร้าง" ตารางเป็นงานของ control plane ⭐ จึงถูกรวมศูนย์ ← คำตอบ\nB. "Discards a message due filtering" → การทิ้งแพ็กเก็ตตาม ACL เกิดขึ้นขณะส่งต่อ เป็นงานของ data plane ⭐\nC. "Makes a routing decision" → การตัดสินใจว่าจะส่งแพ็กเก็ตนี้ออกทางไหน คือการ "ใช้" ตารางที่มีอยู่แล้ว เป็นงานของ data plane ⭐\nD. "Provides protocol access for remote access devices" → เป็นงานของ management plane ⭐\n\n💡 จุดที่สับสนง่ายที่สุด\nต้องแยกให้ออกระหว่าง "สร้างตาราง" กับ "ใช้ตาราง" ⭐\nสร้าง (create/build) = control plane ⭐\nใช้ (lookup/forward) = data plane ⭐\n\n✅ ทำไม A ถูก: การสร้างตารางเส้นทาง IP เป็นหน้าที่ของ control plane ซึ่งเป็นระนาบเดียวที่ SDN ย้ายออกจากอุปกรณ์ไปรวมศูนย์ไว้ที่คอนโทรลเลอร์\n\n📗 จำไว้สอบ: SDN รวมศูนย์เฉพาะ control plane ⭐ • data plane ยังกระจายอยู่บนอุปกรณ์เสมอ ⭐',
+  },
+  {
+    id: 698,
+    kind: 'single',
+    prompt: 'Which management security process is invoked when a user logs in to a network device using their username and password?',
+    options: [
+      { key: 'A', text: 'authentication' },
+      { key: 'B', text: 'auditing' },
+      { key: 'C', text: 'accounting' },
+      { key: 'D', text: 'authorization' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — การล็อกอินด้วยชื่อผู้ใช้และรหัสผ่านคือกระบวนการ "พิสูจน์ตัวตน" ซึ่งเป็นด่านแรกสุดของ AAA ⭐\n\n🔑 ลำดับที่เกิดขึ้นเมื่อผู้ใช้เข้าสู่ระบบ\n1️⃣ Authentication ⭐ ← ขั้นตอนที่โจทย์ถาม\nผู้ใช้ป้อนชื่อผู้ใช้และรหัสผ่าน → อุปกรณ์ตรวจสอบกับฐานข้อมูลในเครื่องหรือส่งไปยัง RADIUS/TACACS+ ⭐\naaa authentication login default group tacacs+ local ⭐\n\n2️⃣ Authorization ⭐\nเมื่อรู้แล้วว่าเป็นใคร ระบบตัดสินว่าผู้ใช้คนนี้ได้ระดับสิทธิ์ใดและสั่งคำสั่งอะไรได้บ้าง ⭐\naaa authorization exec default group tacacs+ ⭐\n\n3️⃣ Accounting ⭐\nบันทึกว่าผู้ใช้คนนี้ล็อกอินเมื่อไร ออกเมื่อไร และพิมพ์คำสั่งอะไรไปบ้าง ⭐\naaa accounting commands 15 default start-stop group tacacs+ ⭐\n\n🔍 อะไรเกิดขึ้นเบื้องหลังตอนพิมพ์รหัสผ่าน\n• ถ้าใช้ฐานข้อมูลในเครื่อง → เปรียบเทียบแฮชของรหัสที่ป้อนกับแฮชที่เก็บไว้จากคำสั่ง username ... secret ⭐\n• ถ้าใช้ TACACS+ → ส่งทั้งชื่อผู้ใช้และรหัสผ่านไปยังเซิร์ฟเวอร์แบบเข้ารหัสทั้งแพ็กเก็ต ⭐\n• ถ้าใช้ RADIUS → ส่งไปโดยเข้ารหัสเฉพาะช่องรหัสผ่าน ส่วนชื่อผู้ใช้เป็นข้อความธรรมดา ⭐\n\n💡 ทำไมไม่ใช่ auditing\nคำว่า auditing มักใช้แทน accounting ในบางบริบท ⭐ แต่ในกรอบของ AAA บน Cisco คำที่เป็นทางการคือ accounting\nและไม่ว่าจะเรียกอย่างไร ทั้งคู่ก็เกิดขึ้น "หลังจาก" ล็อกอินสำเร็จแล้ว ⭐ ไม่ใช่ตอนที่กำลังตรวจรหัสผ่าน\n\n✅ ทำไม A ถูก: การตรวจสอบชื่อผู้ใช้และรหัสผ่านเพื่อยืนยันว่าผู้ที่พยายามเข้าถึงเป็นคนนั้นจริงคือนิยามตรงตัวของ authentication\n\n❌ ทำไมข้ออื่นผิด:\nB. auditing คือการตรวจสอบบันทึกย้อนหลังเพื่อหาความผิดปกติ ซึ่งเกิดหลังจากมีข้อมูลบันทึกไว้แล้ว ⭐\nC. accounting บันทึกกิจกรรมของผู้ใช้ ซึ่งเริ่มทำงานหลังจากล็อกอินสำเร็จ ⭐\nD. authorization กำหนดว่าผู้ใช้ทำอะไรได้บ้าง ซึ่งเกิดขึ้นหลังจากรู้ตัวตนแล้วเช่นกัน ⭐ ตัวลวงที่ดี\n\n📗 จำไว้สอบ: ลำดับที่เปลี่ยนไม่ได้คือ Authentication → Authorization → Accounting ⭐ ต้องรู้ก่อนว่าใคร จึงจะให้สิทธิ์และบันทึกได้',
+  },
+  {
+    id: 699,
+    kind: 'multi',
+    image: v4q699,
+    prompt: 'Refer to the exhibit. What are the two steps an engineer must take to provide the highest encryption and authentication using domain credentials from LDAP? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Select PSK under Authentication Key Management.' },
+      { key: 'B', text: 'Select Static-WEP + 802.1X on Layer 2 Security.' },
+      { key: 'C', text: 'Select WPA+WPA2 on Layer 2 Security.' },
+      { key: 'D', text: 'Select 802.1X from under Authentication Key Management.' },
+      { key: 'E', text: 'Select WPA Policy with TKIP Encryption.' },
+    ],
+    correct: ['C', 'D'],
+    explanation:
+      '📘 แนวคิด — โจทย์ต้องการสองสิ่งพร้อมกัน ⭐\n① "highest encryption" → ต้องเลือก WPA+WPA2 แล้วใช้ AES ⭐\n② "authentication using domain credentials from LDAP" → ต้องใช้ 802.1X ที่ส่งต่อไปยังไดเรกทอรี ⭐\n\n🔍 อ่าน exhibit\nLayer 2 Security = ว่างเปล่า ⭐ ยังไม่ได้เลือกอะไรเลย\nFast Transition = ยังไม่ติ๊ก\nPMF = Disabled\nWPA Policy / WPA2 Policy = ยังไม่ติ๊กทั้งคู่ ⭐\nWPA2 Encryption: AES และ TKIP ยังไม่ติ๊ก\nAuthentication Key Management\n 802.1X = ยังไม่ติ๊ก ⭐\n CCKM = ยังไม่ติ๊ก\n PSK = ยังไม่ติ๊ก\n\n🔧 ขั้นตอนที่ 1 — เลือก WPA+WPA2 ที่ Layer 2 Security (ตัวเลือก C) ⭐\nเมื่อเลือกแล้ว หน้าจอจะแสดงส่วน WPA+WPA2 Parameters ให้ติ๊ก WPA2 Policy และเลือก AES ⭐\n→ AES-CCMP คือการเข้ารหัสที่แข็งแรงที่สุดที่มีในตัวเลือกนี้ ⭐\n\n🔧 ขั้นตอนที่ 2 — ติ๊ก 802.1X ใต้ Authentication Key Management (ตัวเลือก D) ⭐\n802.1X ทำงานอย่างไรกับ LDAP\n1. ไคลเอนต์ส่งข้อมูลยืนยันตัวตนผ่าน EAP ⭐\n2. AP ส่งต่อไปยัง WLC แล้วส่งไปยังเซิร์ฟเวอร์ RADIUS ผ่าน EAPoL ⭐\n3. RADIUS สอบถามไปยัง LDAP หรือ Active Directory เพื่อตรวจบัญชีผู้ใช้ในโดเมน ⭐\n4. ผลลัพธ์ส่งกลับมาเป็น Access-Accept หรือ Access-Reject ⭐\n→ นี่คือโหมด WPA2-Enterprise ซึ่งผู้ใช้แต่ละคนล็อกอินด้วยบัญชีของตัวเอง ⭐\n\n📊 Enterprise เทียบกับ Personal\nคุณสมบัติ         WPA2-Personal (PSK)   WPA2-Enterprise (802.1X) ⭐\nรหัสผ่าน          รหัสเดียวใช้ร่วมกันทุกคน ⭐  บัญชีของแต่ละคน ⭐\nพนักงานลาออก      ต้องเปลี่ยนรหัสทั้งองค์กร ⭐  ปิดบัญชีคนเดียวพอ ⭐\nเชื่อมกับ LDAP/AD  ✘ ไม่ได้ ⭐            ✔ ได้ ⭐\nติดตามรายบุคคล    ✘                    ✔ ⭐\n\n✅ ทำไม C และ D ถูก: C เปิดกรอบความปลอดภัย WPA2 ซึ่งให้การเข้ารหัส AES ที่แข็งแรงที่สุด ส่วน D เปิดใช้ 802.1X ซึ่งเป็นวิธีเดียวที่ทำให้ WLC ยืนยันตัวตนผู้ใช้กับบัญชีในโดเมนผ่าน LDAP ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. PSK ใช้รหัสผ่านเดียวร่วมกันทั้งเครือข่าย ⭐ ไม่สามารถเชื่อมกับบัญชีผู้ใช้ใน LDAP ได้เลย\nB. Static WEP อ่อนแอมากและถูกยกเลิกไปแล้ว ⭐ ขัดกับคำว่า highest encryption โดยตรง\nE. TKIP ใช้ RC4 เป็นแกนและอ่อนกว่า AES อย่างชัดเจน ⭐ อีกทั้ง WPA Policy ยังเป็นรุ่นเก่ากว่า WPA2\n\n📗 จำไว้สอบ: PSK = Personal (รหัสเดียว) ⭐ • 802.1X = Enterprise (บัญชีรายคนผ่าน RADIUS/LDAP) ⭐',
+  },
+  {
+    id: 700,
+    kind: 'single',
+    prompt: 'Which enhancement is implemented in WPA3?',
+    options: [
+      { key: 'A', text: 'employs PKI to identify access points' },
+      { key: 'B', text: 'applies 802.1x authentication' },
+      { key: 'C', text: 'uses TKIP' },
+      { key: 'D', text: 'protects against brute force attacks' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — หนึ่งในจุดขายหลักของ WPA3 คือการปิดช่องทางการเดารหัสผ่านแบบออฟไลน์ ⭐ ซึ่งเป็นจุดอ่อนที่ใหญ่ที่สุดของ WPA2-PSK\n\n⚠️ WPA2 ถูกโจมตีแบบ brute force อย่างไร\n1. ผู้โจมตีรอจับ 4-way handshake ตอนที่มีไคลเอนต์เชื่อมต่อ ⭐\n2. ถ้าไม่อยากรอ ก็ส่งเฟรม deauthentication ปลอมเพื่อบังคับให้ไคลเอนต์เชื่อมต่อใหม่ ⭐\n3. เมื่อได้ handshake แล้ว นำไป "เดารหัสแบบออฟไลน์" ⭐\n4. ทดสอบรหัสผ่านได้ไม่จำกัดจำนวนครั้งโดยไม่ต้องติดต่อกับ AP อีกเลย ⭐\n5. ด้วยการ์ดจอสมัยใหม่ ทดสอบได้หลายล้านรหัสต่อวินาที ⭐\n→ รหัสผ่านที่เป็นคำในพจนานุกรมหรือสั้นกว่า 12 ตัว มีโอกาสถูกเจาะสูงมาก\n\n✅ WPA3 ปิดช่องนี้ด้วย SAE\n1. SAE ใช้การแลกเปลี่ยนกุญแจแบบ Dragonfly ⭐\n2. ผู้โจมตีที่ดักจับการเชื่อมต่อไว้ "ไม่ได้ข้อมูลที่นำไปเดาแบบออฟไลน์ได้" ⭐\n3. ต้องเดาสดกับ AP ทีละครั้งเท่านั้น ⭐\n → ถูกจำกัดด้วยความเร็วของเครือข่าย\n → AP ตรวจจับการพยายามซ้ำ ๆ ได้และสามารถบล็อกได้\n → ความเร็วลดจาก "ล้านครั้งต่อวินาที" เหลือ "ไม่กี่ครั้งต่อวินาที" ⭐\n4. ยังได้ Perfect Forward Secrecy มาเป็นของแถมด้วย ⭐\n\n💡 ผลในทางปฏิบัติ\nรหัสผ่านที่ค่อนข้างเรียบง่ายก็ยังปลอดภัยพอสมควรบน WPA3 ⭐ ต่างจาก WPA2 ที่ต้องใช้รหัสยาวและซับซ้อนมากเพื่อทนต่อการเดาแบบออฟไลน์\n\n✅ ทำไม D ถูก: การป้องกันการโจมตีแบบเดารหัสผ่านคือการปรับปรุงที่ WPA3 นำเข้ามาโดยตรงผ่านกลไก SAE ซึ่งทำให้การเดาแบบออฟไลน์เป็นไปไม่ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. WPA3-Enterprise ใช้ใบรับรองในการยืนยันตัวตนของเซิร์ฟเวอร์ได้ก็จริง แต่ไม่ได้ใช้ PKI เพื่อระบุตัวตนของ access point และนี่ก็มีอยู่ตั้งแต่ WPA2-Enterprise แล้ว ⭐\nB. 802.1X มีใช้มาตั้งแต่ WPA-Enterprise ในปี 2003 ⭐ จึงไม่ใช่สิ่งใหม่ของ WPA3 ตัวลวงที่ดี\nC. TKIP เป็นการเข้ารหัสรุ่นเก่าที่ใช้ RC4 และถูกถอดออกจาก WPA3 โดยสิ้นเชิง ⭐ ตัวเลือกนี้กล่าวตรงข้ามกับความจริง\n\n📗 จำไว้สอบ: SAE กันการเดาแบบออฟไลน์ ⭐ • ผู้โจมตีต้องเดาสดกับ AP ทีละครั้ง จึงเป็นไปไม่ได้ในทางปฏิบัติ ⭐',
+  },
+  {
+    id: 701,
+    kind: 'drag',
+    image: v4q701,
+    prompt: 'Drag and drop the Cisco IOS attack mitigation features from the left onto the types of network attack they mitigate on the right.',
+    categories: [
+      { name: 'rogue server that spoofs IP configuration', items: ['DHCP snooping'] },
+      { name: 'cache poisoning', items: ['Dynamic ARP Inspection'] },
+      { name: 'flood attacks', items: ['storm control'] },
+      { name: 'rogue clients on the network', items: ['IP Source Guard'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ฟีเจอร์ความปลอดภัยระดับ Layer 2 ทั้งสี่ตัวนี้ป้องกันการโจมตีคนละแบบกัน ⭐\n\n1️⃣ rogue server that spoofs IP configuration → DHCP snooping ⭐\nการโจมตี: ผู้โจมตีตั้งเซิร์ฟเวอร์ DHCP ปลอมขึ้นในเครือข่าย แล้วแจกที่อยู่ IP พร้อมกำหนดตัวเองเป็น default gateway และ DNS server ⭐\n→ ทราฟฟิกของเหยื่อทั้งหมดวิ่งผ่านเครื่องผู้โจมตี\nวิธีป้องกัน: กำหนดพอร์ตที่ไปหาเซิร์ฟเวอร์จริงเป็น trusted ⭐ ข้อความ DHCP OFFER หรือ ACK ที่มาจากพอร์ต untrusted จะถูกทิ้งทั้งหมด ⭐\nip dhcp snooping / ip dhcp snooping vlan 10 / ip dhcp snooping trust ⭐\n\n2️⃣ cache poisoning → Dynamic ARP Inspection ⭐\nการโจมตี: ARP cache poisoning คือการส่ง ARP reply ปลอมเพื่อให้เหยื่อจดจำว่า MAC ของผู้โจมตีคือ MAC ของ gateway ⭐\nวิธีป้องกัน: DAI เทียบคู่ MAC-to-IP ในทุกแพ็กเก็ต ARP กับ DHCP snooping binding database ⭐ ถ้าไม่ตรงก็ทิ้ง\nip arp inspection vlan 10 ⭐\n\n3️⃣ flood attacks → storm control ⭐\nการโจมตี: ทราฟฟิกบรอดแคสต์ มัลติแคสต์ หรือยูนิแคสต์ที่ไม่รู้จักปลายทาง ไหลท่วมจนกินแบนด์วิดท์และ CPU ทั้งหมด ⭐\nวิธีป้องกัน: กำหนดเพดานเป็นเปอร์เซ็นต์ของแบนด์วิดท์ เมื่อเกินให้ทิ้งส่วนเกินหรือปิดพอร์ต ⭐\nstorm-control broadcast level 10.00 ⭐\nstorm-control action shutdown ⭐\n\n4️⃣ rogue clients on the network → IP Source Guard ⭐\nการโจมตี: ไคลเอนต์ปลอมที่อยู่ IP ต้นทางเพื่อแอบอ้างเป็นเครื่องอื่น หรือหลบเลี่ยง ACL ⭐\nวิธีป้องกัน: กรองแพ็กเก็ตขาเข้าโดยเทียบที่อยู่ IP ต้นทางกับ binding database ⭐ ถ้าไม่ตรงกับที่ DHCP เคยแจกให้พอร์ตนั้นก็ทิ้ง\nip verify source ⭐\n\n🔗 ความเชื่อมโยงของทั้งสาม\nDHCP snooping สร้าง binding table ⭐\n→ DAI ใช้ตรวจ ARP ⭐\n→ IP Source Guard ใช้ตรวจที่อยู่ IP ต้นทาง ⭐\nสองตัวหลังทำงานไม่ได้เลยถ้าไม่เปิด DHCP snooping ก่อน ⭐\n\n📗 จำไว้สอบ: DHCP snooping = เซิร์ฟเวอร์ปลอม ⭐ • DAI = ARP ปลอม ⭐ • IP Source Guard = IP ปลอม ⭐ • storm control = ทราฟฟิกท่วม ⭐',
+  },
+  {
+    id: 702,
+    kind: 'single',
+    image: v4q702,
+    prompt: 'SW1 supports connectivity for a lobby conference room and must be secured. The engineer must limit the connectivity from PC1 to the SW1 and SW2 network. The MAC addresses allowed must be limited to two. Which configuration secures the conference room connectivity?',
+    options: [
+      { key: 'A', text: 'interface gi1/0/15 / switchport port-security / switchport port-security maximum 2' },
+      { key: 'B', text: 'interface gi1/0/15 / switchport port-security / switchport port-security mac-address 0000.abcd.0004 vlan 100' },
+      { key: 'C', text: 'interface gi1/0/15 / switchport port-security mac-address 0000.abcd.0004 vlan 100' },
+      { key: 'D', text: 'interface gi1/0/15 / switchport port-security mac-address 0000.abcd.0004 vlan 100 / interface switchport secure-mac limit 2' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — โจทย์กำหนดเงื่อนไขเดียวที่ชัดเจนคือ "จำกัด MAC ได้ไม่เกินสองตัว" ⭐ จึงต้องใช้คำสั่ง maximum ไม่ใช่การระบุ MAC เจาะจง\n\n🔍 อ่าน exhibit\nSW1 ── Gi0/0/1 ── 802.1q trunk (VLAN 1, 100, 101, 102, 103) ── SW2\nSW1 Gi1/0/15 ⭐ → ห้องประชุมล็อบบี้ (Access port)\n PC1 อยู่ใน VLAN 100 มี MAC 0000.abcd.0004\n\n🔧 คำสั่งที่จำเป็นและลำดับที่ถูกต้อง\n1️⃣ switchport port-security ⭐ เปิดใช้งานฟีเจอร์\n2️⃣ switchport port-security maximum 2 ⭐ กำหนดเพดานเป็นสองตัวตามโจทย์\n\n⚠️ ทำไมต้องมี switchport port-security ก่อน\nคำสั่งย่อยทั้งหมด เช่น maximum, violation และ mac-address จะใช้งานไม่ได้เลยถ้ายังไม่เปิดฟีเจอร์หลัก ⭐\n→ IOS จะตอบว่า "Command rejected: FastEthernet0/1 is not an access port" หรือแจ้งว่ายังไม่ได้เปิด port security ⭐\n\n💡 ทำไมห้องประชุมจึงต้องการสองตัว\nห้องประชุมมักมีอุปกรณ์ต่อพ่วงกัน เช่น\n• IP phone ที่มีสวิตช์ในตัว ⭐\n• แล็ปท็อปที่เสียบเข้าด้านหลังโทรศัพท์ ⭐\n→ พอร์ตเดียวจึงเห็นสอง MAC เป็นเรื่องปกติ ⭐\n→ การตั้ง maximum 2 จึงพอดีกับการใช้งานจริง และยังกันไม่ให้ใครนำสวิตช์ส่วนตัวมาต่อเพิ่มหลายเครื่อง ⭐\n\n📊 ค่าดีฟอลต์ที่ได้มาโดยอัตโนมัติ\nเมื่อสั่ง switchport port-security โดยไม่ระบุอะไรเพิ่ม\n• maximum = 1 ⭐ (จึงต้องเปลี่ยนเป็น 2)\n• violation = shutdown ⭐ (พอร์ตเข้า err-disabled เมื่อเกิน)\n• aging = 0 คือไม่หมดอายุ ⭐\n\n✅ ทำไม A ถูก: เป็นตัวเลือกเดียวที่เปิดใช้ port security ก่อน แล้วกำหนดเพดานเป็น 2 ตามที่โจทย์ระบุ โดยไม่ผูกกับ MAC ตัวใดตัวหนึ่ง ทำให้ยืดหยุ่นและตรงกับความต้องการ\n\n❌ ทำไมข้ออื่นผิด:\nB. เปิด port security ถูกต้อง แต่ระบุ MAC เจาะจงเพียงตัวเดียว ⭐ ทำให้เพดานยังเป็นค่าดีฟอลต์คือ 1 ไม่ใช่ 2 ตามที่โจทย์ต้องการ\nC. ระบุ MAC โดยไม่ได้สั่ง switchport port-security ก่อน ⭐ คำสั่งจะถูกปฏิเสธทันที และยังไม่ได้กำหนดเพดานเป็น 2 ด้วย\nD. ไม่มีคำสั่ง switchport secure-mac limit ใน Cisco IOS ⭐ เป็นไวยากรณ์ที่แต่งขึ้น และบรรทัด interface ที่วางไว้ก็ผิดตำแหน่ง\n\n📗 จำไว้สอบ: ลำดับบังคับคือ switchport mode access → switchport port-security → maximum/violation/mac-address ⭐',
+  },
+  {
+    id: 703,
+    kind: 'multi',
+    image: v4q703,
+    prompt: 'Refer to the exhibit. An engineer is updating the management access configuration of switch SW1 to allow secured, encrypted remote configuration. Which two commands or command sequences must the engineer apply to the switch? (Choose two.)',
+    options: [
+      { key: 'A', text: 'SW1(config)#enable secret ccnaTest123' },
+      { key: 'B', text: 'SW1(config)#username NEW secret R3mote123' },
+      { key: 'C', text: 'SW1(config)#line vty 0 15 / SW1(config-line)#transport input ssh' },
+      { key: 'D', text: 'SW1(config)#crypto key generate rsa' },
+      { key: 'E', text: 'SW1(config)#interface f0/1 / SW1(config-if)#switchport mode trunk' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "secured, encrypted remote configuration" ⭐ ต้องได้ทั้งการเชื่อมต่อที่เข้ารหัส และความสามารถเข้าถึงโหมดคอนฟิกได้จริง\n\n🔍 อ่าน exhibit อย่างละเอียด\nhostname SW1 ⭐ มีแล้ว\nip domain-name CCNA-test ⭐ มีแล้ว\nusername CCNA privilege 1 password 0 cisco123 ⭐ มีบัญชีแล้ว แต่ privilege เป็น 1\ninterface Vlan10 → ip address 192.168.1.2 255.255.255.0 ⭐ มีที่อยู่สำหรับเข้าถึงระยะไกลแล้ว\nline vty 0 4 / login local / transport input telnet ⭐ ← ปัญหาที่ 1\nline vty 5 15 / login local / transport input telnet ⭐ ← ปัญหาเดียวกัน\n\nSW1#show crypto key mypubkey rsa\n% Key pair was generated at: 0:1:23 UTC Mar 1 2020\nKey name: SW1.CCNA-test ⭐ ← คู่กุญแจถูกสร้างไว้แล้ว\n\n🎯 ปัญหาที่ 1 — ยังใช้ Telnet อยู่ (แก้ด้วยตัวเลือก C)\ntransport input telnet หมายความว่ารับเฉพาะ Telnet ซึ่งส่งทุกอย่างเป็นข้อความธรรมดา ⭐\n→ ต้องเปลี่ยนเป็น transport input ssh ⭐ ซึ่งจะเปิด SSH และปิด Telnet ไปพร้อมกัน\nSW1(config)# line vty 0 15\nSW1(config-line)# transport input ssh ⭐\n\n🎯 ปัญหาที่ 2 — เข้าโหมดคอนฟิกไม่ได้ (แก้ด้วยตัวเลือก A)\nบัญชี CCNA มี privilege 1 ⭐ เมื่อล็อกอินสำเร็จจะได้พรอมต์ SW1> ซึ่งเป็น user EXEC\n→ ต้องพิมพ์ enable เพื่อยกระดับ แต่ในคอนฟิก "ไม่มี enable secret หรือ enable password เลย" ⭐\n→ ผลคือเมื่อพิมพ์ enable จะได้ข้อความ "% No password set" แล้วเข้าโหมดคอนฟิกไม่ได้ ⭐\n→ จึงต้องเพิ่ม enable secret เพื่อให้ "configuration" เป็นไปได้จริงตามที่โจทย์ระบุ ⭐\nSW1(config)# enable secret ccnaTest123 ⭐\n\n✅ ทำไม A และ C ถูก: C ทำให้การเชื่อมต่อระยะไกลเป็นแบบเข้ารหัสด้วย SSH ตามคำว่า secured และ encrypted ส่วน A ทำให้ผู้ดูแลยกระดับเข้าสู่ privileged EXEC และแก้ไขคอนฟิกได้จริงตามคำว่า configuration\n\n❌ ทำไมข้ออื่นผิด:\nB. มีบัญชี CCNA อยู่แล้วและ login local ก็ตั้งไว้แล้ว ⭐ การเพิ่มบัญชีใหม่ไม่ได้แก้ปัญหาใดในสองข้อข้างต้น\nD. ตัวลวงที่ดีที่สุด — ผลลัพธ์ของ show crypto key mypubkey rsa แสดงชัดว่าคู่กุญแจถูกสร้างไว้ตั้งแต่ปี 2020 แล้ว ⭐ การสั่งสร้างซ้ำไม่จำเป็นและอาจทำให้เซสชันที่กำลังใช้อยู่หลุด\nE. การตั้งพอร์ต f0/1 เป็น trunk ไม่เกี่ยวข้องกับการเข้าถึงเพื่อบริหารจัดการเลย ⭐ อีกทั้งพอร์ตนี้เป็น access vlan 10 ที่ใช้งานอยู่\n\n📗 จำไว้สอบ: SSH ต้องครบสี่อย่าง — hostname ⭐ • ip domain-name ⭐ • crypto key ⭐ • transport input ssh + login local ⭐ และอย่าลืม enable secret ถ้าต้องการเข้าโหมดคอนฟิก',
+  },
+  {
+    id: 704,
+    kind: 'single',
+    prompt: 'Which port security violation mode allows from valid MAC addresses to pass but blocks traffic from invalid MAC addresses?',
+    options: [
+      { key: 'A', text: 'restrict' },
+      { key: 'B', text: 'shutdown' },
+      { key: 'C', text: 'protect' },
+      { key: 'D', text: 'shutdown VLAN' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — โจทย์บรรยายพฤติกรรมพื้นฐานที่สุดโดยไม่กล่าวถึงการแจ้งเตือน การนับ หรือการปิดพอร์ตเลย ⭐ ซึ่งตรงกับโหมด protect\n\n📊 สี่โหมด violation ของ port security\nพฤติกรรม              Protect ⭐  Restrict   Shutdown (ดีฟอลต์)  Shutdown VLAN\nMAC ที่ถูกต้องผ่านได้     ✔ ⭐        ✔          ✘ ⭐ (ปิดทั้งพอร์ต)   ✘ (ปิดเฉพาะ VLAN)\nทิ้งทราฟฟิกจาก MAC ผิด  ✔ ⭐        ✔          ✔                   ✔\nส่ง syslog             ✘ ⭐        ✔ ⭐        ✔                   ✔\nส่ง SNMP trap          ✘ ⭐        ✔ ⭐        ✔                   ✔\nเพิ่ม violation counter  ✘ ⭐        ✔ ⭐        ✔                   ✔\nพอร์ตเข้า err-disabled   ✘ ⭐        ✘          ✔ ⭐                 ✘ (เฉพาะ VLAN)\n\n🎯 ทำไมต้องเป็น protect\nโจทย์ระบุเพียงสองอย่างคือ\n① "allows valid MAC addresses to pass" → พอร์ตต้องยังทำงานอยู่ ⭐\n② "blocks traffic from invalid MAC addresses" → ทิ้งเฉพาะเฟรมที่ผิด ⭐\n→ ไม่ได้พูดถึงการแจ้งเตือน การนับ หรือการปิดพอร์ตเลยแม้แต่คำเดียว ⭐\n→ protect คือโหมดที่ทำเพียงสองอย่างนี้พอดี ไม่มีส่วนเกิน ⭐\n\n💡 protect ทำงานอย่างไร\nเรียกกันว่า "silent drop" ⭐\n• อุปกรณ์เดิมที่อยู่ในรายการ secure MAC ยังสื่อสารได้ตามปกติ ⭐\n• เฟรมจาก MAC แปลกหน้าหายไปเฉย ๆ โดยไม่มีร่องรอย ⭐\n• ผู้ดูแลไม่รู้เลยว่ามีความพยายามละเมิดเกิดขึ้น ⭐ นี่คือทั้งข้อดีและข้อเสียของโหมดนี้\n\n🔧 คอนฟิก\nSW(config-if)# switchport mode access\nSW(config-if)# switchport port-security\nSW(config-if)# switchport port-security maximum 2\nSW(config-if)# switchport port-security violation protect ⭐\n\n✅ ทำไม C ถูก: protect เป็นโหมดที่ทำเพียง "ให้ MAC ที่ถูกต้องผ่าน และทิ้งของที่ไม่ถูกต้อง" โดยไม่มีการกระทำเพิ่มเติมใด ๆ ตรงกับคำบรรยายในโจทย์อย่างพอดี\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงหลักที่แยกยากที่สุด — restrict ก็ให้ MAC ที่ถูกต้องผ่านและทิ้งของที่ผิดเช่นกัน ⭐ แต่เพิ่มการส่ง syslog, SNMP trap และการนับ violation ซึ่งโจทย์ไม่ได้กล่าวถึง เมื่อสองตัวเลือกทำได้ทั้งคู่ ให้เลือกตัวที่ตรงพอดีโดยไม่มีส่วนเกิน\nB. shutdown ปิดพอร์ตทั้งพอร์ตเข้าสู่ err-disabled ⭐ ทำให้แม้แต่ MAC ที่ถูกต้องก็สื่อสารไม่ได้ ขัดกับเงื่อนไขแรกของโจทย์โดยตรง\nD. shutdown VLAN ปิดเฉพาะ VLAN ที่เกิดการละเมิดบนพอร์ตนั้น ⭐ ก็ยังทำให้ MAC ที่ถูกต้องใน VLAN เดียวกันใช้งานไม่ได้\n\n📗 จำไว้สอบ: Protect = เงียบ ⭐ • Restrict = เงียบ + แจ้งเตือน + นับ ⭐ • Shutdown = err-disable (ค่าดีฟอลต์) ⭐',
+  },
+  {
+    id: 705,
+    kind: 'single',
+    prompt: 'A customer wants to provide wireless access to contractors using a guest portal on Cisco ISE. The portal is also used by employees. A solution is implemented, but contractors receive a certificate error when they attempt to access the portal. Employees can access the portal without any errors. Which change must be implemented to allow the contractors and employees to access the portal?',
+    options: [
+      { key: 'A', text: 'Install an Internal CA signed certificate on the Cisco ISE.' },
+      { key: 'B', text: 'Install a trusted third-party certificate on the Cisco ISE.' },
+      { key: 'C', text: 'Install an internal CA signed certificate on the contractor devices.' },
+      { key: 'D', text: 'Install a trusted third-party certificate on the contractor devices.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — เบาะแสสำคัญคือ "พนักงานเข้าได้ปกติ แต่ผู้รับเหมาเจอ certificate error" ⭐ ความต่างนี้ชี้ไปที่เรื่องเดียวคือใครไว้ใจ CA ตัวไหน\n\n🔍 วิเคราะห์อาการ\nพนักงาน ✔ ไม่มีข้อผิดพลาด\n→ เพราะเครื่องของพนักงานเป็นอุปกรณ์ที่องค์กรจัดการ (domain-joined) ⭐\n→ ใบรับรองของ Internal CA ถูกติดตั้งไว้ใน trusted root store ผ่าน Group Policy ตั้งแต่แรกแล้ว ⭐\n→ เมื่อเจอใบรับรองของ ISE ที่ Internal CA ลงนาม เบราว์เซอร์จึงไว้ใจทันที\n\nผู้รับเหมา ✘ เจอ certificate error\n→ เป็นอุปกรณ์ส่วนตัวที่องค์กรควบคุมไม่ได้ (BYOD) ⭐\n→ ไม่มีใบรับรองของ Internal CA อยู่ในเครื่อง ⭐\n→ เบราว์เซอร์จึงมองว่าใบรับรองของ ISE มาจากผู้ออกที่ไม่รู้จัก และแสดงคำเตือน ⭐\n\n💡 ทำไมต้องเลือกใบรับรองจากบุคคลที่สาม\nใบรับรองจาก CA สาธารณะ เช่น DigiCert, GlobalSign หรือ Let\'s Encrypt ⭐\n→ ใบรับรองรากของ CA เหล่านี้ถูกฝังมาในระบบปฏิบัติการและเบราว์เซอร์ทุกยี่ห้อตั้งแต่โรงงานแล้ว ⭐\n→ ไม่ว่าจะเป็น Windows, macOS, iOS, Android หรือ Linux ก็ไว้ใจโดยอัตโนมัติ ⭐\n→ ผู้รับเหมาจึงเข้าพอร์ทัลได้ทันทีโดยไม่ต้องติดตั้งอะไรเลย ⭐\n\n⚠️ ทำไมไม่แก้ที่ฝั่งอุปกรณ์ของผู้รับเหมา\n• ผู้รับเหมามีจำนวนมากและเปลี่ยนหน้าอยู่เสมอ ไม่มีทางไล่ติดตั้งได้ทัน ⭐\n• องค์กรไม่มีสิทธิ์เข้าไปติดตั้งอะไรบนอุปกรณ์ส่วนตัวของคนนอก ⭐\n• เป็นการแก้ที่ปลายเหตุแบบไม่ยั่งยืน ⭐\n→ หลักการคือ "แก้ที่เซิร์ฟเวอร์หนึ่งจุด ดีกว่าไล่แก้ที่ไคลเอนต์นับร้อย" ⭐\n\n✅ ทำไม B ถูก: การติดตั้งใบรับรองจาก CA สาธารณะที่เชื่อถือได้บน Cisco ISE เป็นการแก้ที่จุดเดียวแล้วครอบคลุมอุปกรณ์ทุกเครื่องทันที ทั้งของพนักงานและของผู้รับเหมา\n\n❌ ทำไมข้ออื่นผิด:\nA. ใบรับรองจาก Internal CA คือสิ่งที่ ISE ใช้อยู่แล้วในปัจจุบัน ⭐ ซึ่งเป็นต้นเหตุของปัญหา การติดตั้งซ้ำไม่ได้แก้อะไร\nC. การไล่ติดตั้งใบรับรองของ Internal CA ลงบนอุปกรณ์ส่วนตัวของผู้รับเหมาทุกเครื่องเป็นไปไม่ได้ในทางปฏิบัติ ⭐ ตัวลวงที่ดี\nD. ใบรับรองรากของ CA สาธารณะมีอยู่ในอุปกรณ์ทุกเครื่องอยู่แล้วโดยไม่ต้องติดตั้งเพิ่ม ⭐ สิ่งที่ต้องเปลี่ยนคือใบรับรองที่ "เซิร์ฟเวอร์" ใช้ ไม่ใช่ที่ไคลเอนต์\n\n📗 จำไว้สอบ: Internal CA เหมาะกับอุปกรณ์ที่องค์กรจัดการ ⭐ • Public CA จำเป็นสำหรับพอร์ทัลที่คนนอกต้องเข้าถึง ⭐',
+  },
+  {
+    id: 706,
+    kind: 'multi',
+    prompt: 'Which two wireless security standards use counter mode cipher block chaining Message Authentication Code Protocol for encryption and data integrity? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Wi-Fi 6' },
+      { key: 'B', text: 'WPA3' },
+      { key: 'C', text: 'WEP' },
+      { key: 'D', text: 'WPA2' },
+      { key: 'E', text: 'WPA' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — ชื่อยาว ๆ ในโจทย์คือคำเต็มของ CCMP ⭐ ซึ่งใช้ใน WPA2 และ WPA3 เท่านั้น\n\n🔤 แกะชื่อเต็มของ CCMP\nCounter Mode Cipher Block Chaining Message Authentication Code Protocol ⭐\n= CCMP ⭐\nแบ่งออกเป็นสองส่วนที่ทำงานคนละหน้าที่\n• Counter Mode (CTR) ⭐ → ทำหน้าที่ "เข้ารหัส" ข้อมูล\n• CBC-MAC ⭐ → ทำหน้าที่ "ตรวจสอบความสมบูรณ์" ของข้อความ\n→ ทั้งคู่ใช้ AES เป็นอัลกอริทึมพื้นฐาน ⭐\n\n📊 การเข้ารหัสของแต่ละมาตรฐาน\nมาตรฐาน   ปี     การเข้ารหัส        ใช้ CCMP?\nWEP       1997   RC4 + CRC-32 ⭐    ✘ ⭐\nWPA       2003   TKIP + MIC ⭐      ✘ ⭐\nWPA2 ⭐    2004   CCMP/AES-128 ⭐    ✔ ⭐ ← คำตอบ\nWPA3 ⭐    2018   CCMP-128 หรือ GCMP-256 ⭐  ✔ ⭐ ← คำตอบ\n\n🔐 ทำไม CCMP จึงเหนือกว่ารุ่นก่อน\n• ให้ทั้งความลับและความสมบูรณ์ในกลไกเดียว ⭐ ไม่ต้องใช้สองอัลกอริทึมแยกกัน\n• ใช้ AES ซึ่งเป็น block cipher ที่ผ่านการตรวจสอบจากทั่วโลกและ NIST รับรอง ⭐\n• ไม่มีการโจมตีเชิงปฏิบัติที่สำเร็จกับ AES-CCMP จนถึงปัจจุบัน ⭐\n• แก้ปัญหาของ WEP ที่ใช้ CRC-32 ซึ่งผู้โจมตีคำนวณใหม่ได้ง่ายหลังแก้ไขข้อมูล ⭐\n\n💡 หมายเหตุเรื่อง WPA3\nWPA3-Personal และ WPA3-Enterprise ระดับปกติใช้ CCMP-128 ⭐\nWPA3-Enterprise ระดับ 192-bit ใช้ GCMP-256 ซึ่งเป็นอีกโหมดหนึ่งของ AES ⭐\n→ ทั้งสองยังคงอยู่ในตระกูล AES และ WPA3 รองรับ CCMP อยู่ จึงนับเป็นคำตอบ\n\n✅ ทำไม B และ D ถูก: WPA2 กำหนดให้ใช้ CCMP เป็นการเข้ารหัสหลักตามมาตรฐาน IEEE 802.11i และ WPA3 ก็สืบทอด CCMP มาใช้ต่อโดยเพิ่ม GCMP-256 เป็นทางเลือกสำหรับระดับความปลอดภัยสูงสุด\n\n❌ ทำไมข้ออื่นผิด:\nA. Wi-Fi 6 คือชื่อทางการตลาดของมาตรฐาน IEEE 802.11ax ซึ่งเป็นเรื่องของ "ความเร็วและประสิทธิภาพ" ⭐ ไม่ใช่มาตรฐานความปลอดภัย (แม้อุปกรณ์ Wi-Fi 6 จะบังคับรองรับ WPA3 ก็ตาม)\nC. WEP ใช้ RC4 สำหรับเข้ารหัสและ CRC-32 สำหรับตรวจความสมบูรณ์ ⭐ ทั้งคู่อ่อนแอมากและไม่ใช่ CCMP\nE. WPA ใช้ TKIP ซึ่งยังอิงกับ RC4 และใช้ MIC (Michael) ในการตรวจความสมบูรณ์ ⭐\n\n📗 จำไว้สอบ: WEP = RC4/CRC-32 ⭐ • WPA = TKIP/MIC ⭐ • WPA2 = CCMP/AES ⭐ • WPA3 = CCMP หรือ GCMP + SAE ⭐',
+  },
+  {
+    id: 707,
+    kind: 'single',
+    prompt: 'A network engineer is implementing a corporate SSID for WPA3-Personal security with a PSK. Which encryption cipher must be configured?',
+    options: [
+      { key: 'A', text: 'CCMP128' },
+      { key: 'B', text: 'GCMP256' },
+      { key: 'C', text: 'CCMP256' },
+      { key: 'D', text: 'GCMP128' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — WPA3 กำหนดชุดการเข้ารหัสไว้ต่างกันตามโหมดที่ใช้ ⭐ ต้องจำให้ได้ว่าโหมดใดคู่กับ cipher ใด\n\n📊 ชุดการเข้ารหัสของ WPA3 แต่ละโหมด\nโหมด                      Cipher ที่บังคับใช้\nWPA3-Personal (SAE) ⭐      CCMP-128 ⭐ ← คำตอบ\nWPA3-Enterprise ระดับปกติ   CCMP-128 ⭐\nWPA3-Enterprise 192-bit ⭐  GCMP-256 ⭐\n\n🔐 CCMP-128 คืออะไร\n• ใช้ AES ที่มีความยาวกุญแจ 128 บิต ⭐\n• โหมด Counter (CTR) ทำหน้าที่เข้ารหัส ⭐\n• CBC-MAC ทำหน้าที่ตรวจสอบความสมบูรณ์ ⭐\n• เป็นชุดเดียวกับที่ WPA2 ใช้ ⭐ สิ่งที่ WPA3-Personal เปลี่ยนไปคือวิธี "แลกเปลี่ยนกุญแจ" ซึ่งเปลี่ยนจาก 4-way handshake ไปเป็น SAE ⭐\n\n🔐 GCMP-256 ใช้เมื่อใด\n• เฉพาะ WPA3-Enterprise ในโหมด 192-bit security suite ⭐\n• ออกแบบมาสำหรับหน่วยงานที่ต้องการมาตรฐานระดับสูงสุด เช่น หน่วยงานรัฐบาล กลาโหม หรือสถาบันการเงิน ⭐\n• GCM (Galois/Counter Mode) มีประสิทธิภาพสูงกว่า CCM เพราะคำนวณแบบขนานได้ ⭐\n• ต้องใช้ควบคู่กับ EAP-TLS และใบรับรองขนาด 3072 บิตขึ้นไป ⭐\n\n💡 จุดที่ต้องแยกให้ชัด\nWPA3-Personal ⭐ = SAE (แลกกุญแจ) + CCMP-128 (เข้ารหัส) ⭐\n→ คำว่า Personal และ PSK ในโจทย์ชี้ชัดว่าเป็นโหมดนี้ ⭐\n→ จึงต้องเป็น CCMP-128 ไม่ใช่ GCMP-256\n\n✅ ทำไม A ถูก: WPA3-Personal ซึ่งใช้ SAE ร่วมกับ PSK กำหนดให้ใช้ CCMP-128 เป็นชุดการเข้ารหัสตามข้อกำหนดของ Wi-Fi Alliance\n\n❌ ทำไมข้ออื่นผิด:\nB. GCMP-256 สงวนไว้สำหรับ WPA3-Enterprise ในโหมด 192-bit เท่านั้น ⭐ ไม่ใช้กับโหมด Personal ตัวลวงหลัก\nC. CCMP-256 มีอยู่เป็นตัวเลือกในบางแพลตฟอร์ม แต่ไม่ใช่ชุดที่ WPA3-Personal กำหนด ⭐\nD. GCMP-128 ไม่ได้อยู่ในชุดที่ Wi-Fi Alliance กำหนดสำหรับ WPA3 ⭐\n\n📗 จำไว้สอบ: WPA3-Personal = CCMP-128 ⭐ • WPA3-Enterprise 192-bit = GCMP-256 ⭐ จำคู่นี้ให้ขึ้นใจ',
+  },
+  {
+    id: 708,
+    kind: 'single',
+    prompt: 'What is a practice that protects a network from VLAN hopping attacks?',
+    options: [
+      { key: 'A', text: 'Implement port security on internet-facing VLANs' },
+      { key: 'B', text: 'Enable dynamic ARP inspection' },
+      { key: 'C', text: 'Assign all access ports to VLANs other than the native VLAN' },
+      { key: 'D', text: 'Configure an ACL to prevent traffic from changing VLANs' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — การโจมตีแบบ double tagging อาศัย "การที่ผู้โจมตีอยู่ใน native VLAN" ⭐ การย้ายพอร์ต access ทั้งหมดออกจาก native VLAN จึงตัดเงื่อนไขนี้ทิ้ง\n\n⚔️ double tagging ต้องการเงื่อนไขอะไรบ้าง\n1. ผู้โจมตีต้องอยู่ใน VLAN เดียวกับ native VLAN ของ trunk ⭐ ← เงื่อนไขสำคัญที่สุด\n2. เฟรมที่ส่งต้องมีแท็กสองชั้น ชั้นนอกเป็น native VLAN ชั้นในเป็น VLAN เป้าหมาย ⭐\n3. สวิตช์ตัวแรกถอดแท็กชั้นนอกออกเพราะตรงกับ native VLAN แล้วส่งข้าม trunk ⭐\n4. สวิตช์ตัวที่สองอ่านแท็กชั้นในและส่งเข้า VLAN เป้าหมาย ⭐\n\n🛡️ ทำไมการย้าย access port ออกจาก native VLAN จึงป้องกันได้\nถ้าผู้โจมตีอยู่ใน VLAN 20 แต่ native VLAN ของ trunk คือ VLAN 999 ⭐\n→ เฟรมของผู้โจมตีจะถูกสวิตช์ตัวแรก "ติดแท็ก VLAN 20" ก่อนส่งข้าม trunk ⭐\n→ กลายเป็นเฟรมสามชั้นแท็ก ซึ่งสวิตช์ตัวที่สองจะประมวลผลเฉพาะชั้นนอกสุดคือ VLAN 20 ⭐\n→ เฟรมไปถึง VLAN 20 ตามปกติ ไม่ได้กระโดดไปที่ VLAN เป้าหมายเลย ⭐ การโจมตีล้มเหลว\n\n🔧 แนวปฏิบัติครบชุดสำหรับป้องกัน VLAN hopping\n1️⃣ ย้าย access port ทั้งหมดออกจาก native VLAN ⭐ ← ข้อที่โจทย์ถาม\n2️⃣ เปลี่ยน native VLAN เป็นหมายเลขที่ไม่ได้ใช้ ⭐\n SW(config-if)# switchport trunk native vlan 999\n3️⃣ บังคับติดแท็กให้ native VLAN ด้วย ⭐\n SW(config)# vlan dot1q tag native\n4️⃣ ปิด DTP บนพอร์ตผู้ใช้ ⭐\n SW(config-if)# switchport mode access\n SW(config-if)# switchport nonegotiate\n5️⃣ ปิดพอร์ตที่ไม่ได้ใช้งาน ⭐\n\n✅ ทำไม C ถูก: การกำหนดให้พอร์ต access ทุกพอร์ตอยู่ใน VLAN ที่ไม่ใช่ native VLAN ทำให้ไม่มีผู้ใช้คนใดสามารถส่งเฟรมแบบไม่ติดแท็กเข้าสู่ native VLAN ได้ ซึ่งเป็นเงื่อนไขที่จำเป็นของการโจมตีแบบ double tagging\n\n❌ ทำไมข้ออื่นผิด:\nA. port security จำกัดจำนวน MAC address บนพอร์ต ⭐ แต่ผู้โจมตีที่ทำ VLAN hopping ใช้ MAC เพียงตัวเดียวก็สำเร็จได้แล้ว\nB. DAI ป้องกัน ARP spoofing และ man-in-the-middle ⭐ ซึ่งเป็นการโจมตีคนละชนิดโดยสิ้นเชิง\nD. ACL ทำงานที่ Layer 3 แต่ VLAN hopping เกิดที่ Layer 2 ⭐ เฟรมข้าม VLAN โดยไม่ผ่านเราเตอร์ ACL จึงไม่มีโอกาสได้ตรวจสอบเลย\n\n📗 จำไว้สอบ: double tagging เกิดได้เฉพาะเมื่อผู้โจมตีอยู่ใน native VLAN ⭐ แก้ได้สองทาง คือย้าย access port ออก หรือเปลี่ยน native VLAN',
+  },
+  {
+    id: 709,
+    kind: 'single',
+    prompt: 'An administrator must use the password complexity not manufacturer-name command to prevent users from adding `Cisco` as a password. Which command must be issued before this command?',
+    options: [
+      { key: 'A', text: 'login authentication my-auth-list' },
+      { key: 'B', text: 'service password-encryption' },
+      { key: 'C', text: 'password complexity enable' },
+      { key: 'D', text: 'confreg 0x2142' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คำสั่งย่อยในตระกูล password complexity จะใช้งานไม่ได้เลยจนกว่าจะเปิดฟีเจอร์หลักด้วย password complexity enable ก่อน ⭐\n\n🔧 ลำดับการตั้งค่านโยบายความซับซ้อนของรหัสผ่าน\n1️⃣ เปิดฟีเจอร์หลักก่อนเสมอ\nRouter(config)# password complexity enable ⭐\n\n2️⃣ จากนั้นจึงตั้งกฎย่อยได้\nRouter(config)# password complexity not manufacturer-name ⭐ ห้ามใช้คำว่า cisco เป็นรหัสผ่าน\nRouter(config)# password complexity not username ⭐ ห้ามใช้ชื่อผู้ใช้เป็นรหัสผ่าน\nRouter(config)# password complexity minimum length 8 ⭐ กำหนดความยาวขั้นต่ำ\nRouter(config)# password complexity minimum lower-case 1 ⭐ ต้องมีตัวพิมพ์เล็กอย่างน้อยหนึ่งตัว\nRouter(config)# password complexity minimum upper-case 1 ⭐\nRouter(config)# password complexity minimum numeric 1 ⭐\nRouter(config)# password complexity minimum special 1 ⭐\n\n⚠️ ถ้าลืมเปิดฟีเจอร์หลัก\nIOS จะปฏิเสธคำสั่งย่อยทันทีและแสดงข้อความว่ายังไม่ได้เปิดใช้งานนโยบายความซับซ้อน ⭐\n→ เป็นรูปแบบเดียวกับ aaa new-model ที่ต้องพิมพ์ก่อนคำสั่ง aaa อื่น ๆ ⭐\n\n💡 ทำไมต้องห้ามใช้ชื่อผู้ผลิต\nรหัสผ่านอย่าง cisco, Cisco123 หรือ ciscocisco เป็นรหัสยอดนิยมอันดับต้น ๆ ที่ผู้โจมตีลองเป็นอันดับแรกเสมอ ⭐\n→ เครื่องมือเดารหัสผ่านทุกตัวมีคำเหล่านี้อยู่ในพจนานุกรมพื้นฐาน ⭐\n→ การบล็อกไว้ที่ระดับอุปกรณ์จึงป้องกันได้ตั้งแต่ต้นทาง แม้ผู้ดูแลจะพยายามตั้งรหัสง่าย ๆ ก็ตาม ⭐\n\n✅ ทำไม C ถูก: password complexity enable เป็นคำสั่งที่เปิดใช้งานเฟรมเวิร์กนโยบายความซับซ้อนของรหัสผ่าน ซึ่งเป็นเงื่อนไขบังคับก่อนที่คำสั่งย่อยอย่าง not manufacturer-name จะปรากฏใน CLI ได้\n\n❌ ทำไมข้ออื่นผิด:\nA. login authentication my-auth-list ใช้ผูก method list ของ AAA เข้ากับ line ⭐ ไม่เกี่ยวข้องกับนโยบายความซับซ้อนของรหัสผ่าน\nB. service password-encryption แปลงรหัสผ่านในคอนฟิกให้เป็นรหัสประเภท 7 ⭐ เป็นเรื่องของการจัดเก็บ ไม่ใช่การกำหนดกฎว่ารหัสผ่านต้องมีลักษณะอย่างไร ตัวลวงที่ดี\nD. confreg 0x2142 ใช้ในโหมด ROMMON เพื่อข้าม startup-config ระหว่างกระบวนการกู้รหัสผ่าน ⭐ เป็นคนละบริบทโดยสิ้นเชิง\n\n📗 จำไว้สอบ: รูปแบบที่พบซ้ำใน IOS คือ "เปิดฟีเจอร์หลักก่อน แล้วจึงตั้งค่าย่อย" ⭐ เช่น aaa new-model, ip dhcp snooping และ password complexity enable',
+  },
+  {
+    id: 710,
+    kind: 'single',
+    prompt: 'An organization has decided to start using cloud-provided services. Which cloud service allows the organization to install its own operating system on a virtual machine?',
+    options: [
+      { key: 'A', text: 'platform-as-a-service' },
+      { key: 'B', text: 'network-as-a-service' },
+      { key: 'C', text: 'software-as-a-service' },
+      { key: 'D', text: 'infrastructure-as-a-service' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ยิ่งเลือกบริการที่ให้ระดับต่ำเท่าไร ผู้ใช้ยิ่งควบคุมได้มากเท่านั้น ⭐ การติดตั้งระบบปฏิบัติการเองต้องการการควบคุมระดับต่ำที่สุด\n\n📊 สามรูปแบบบริการคลาวด์ ใครดูแลอะไร\nชั้น                    IaaS ⭐        PaaS         SaaS\nแอปพลิเคชัน             ลูกค้า ⭐       ลูกค้า ⭐      ผู้ให้บริการ ⭐\nข้อมูล                  ลูกค้า ⭐       ลูกค้า ⭐      ผู้ให้บริการ\nRuntime / Middleware    ลูกค้า ⭐       ผู้ให้บริการ ⭐  ผู้ให้บริการ\nระบบปฏิบัติการ ⭐         ลูกค้า ⭐ ← คำตอบ  ผู้ให้บริการ ⭐  ผู้ให้บริการ\nVirtualization          ผู้ให้บริการ    ผู้ให้บริการ   ผู้ให้บริการ\nเซิร์ฟเวอร์ สตอเรจ เครือข่าย ผู้ให้บริการ ⭐  ผู้ให้บริการ   ผู้ให้บริการ\n\n🖥️ IaaS ให้อะไรกับลูกค้า\n• เครื่องเสมือนเปล่า ๆ พร้อม CPU หน่วยความจำ และสตอเรจตามที่สั่ง ⭐\n• ลูกค้าเลือกและติดตั้งระบบปฏิบัติการเองได้ทุกอย่าง ⭐ ไม่ว่าจะเป็น Windows Server, Ubuntu, RHEL หรือแม้แต่ Cisco IOS-XE ในรูปเครื่องเสมือน\n• ลูกค้ารับผิดชอบการอัปเดตแพตช์ การตั้งค่าความปลอดภัย และการสำรองข้อมูลของ OS เอง ⭐\n• ตัวอย่าง: AWS EC2, Microsoft Azure Virtual Machines, Google Compute Engine ⭐\n\n📦 อีกสองแบบให้อะไร\nPaaS ⭐ → ผู้ให้บริการเตรียม OS และ runtime ไว้ให้แล้ว ลูกค้าเพียงอัปโหลดโค้ดขึ้นไปรัน ⭐\n ตัวอย่าง: AWS Elastic Beanstalk, Google App Engine, Heroku ⭐\nSaaS ⭐ → ผู้ให้บริการดูแลทุกอย่าง ลูกค้าแค่เปิดเบราว์เซอร์แล้วใช้งาน ⭐\n ตัวอย่าง: Microsoft 365, Salesforce, Cisco Webex, Gmail ⭐\n\n💡 อุปมาที่จำง่าย\nIaaS = เช่าที่ดินเปล่า แล้วสร้างบ้านเอง ⭐\nPaaS = เช่าบ้านที่มีโครงสร้างพร้อม แค่จัดเฟอร์นิเจอร์ ⭐\nSaaS = เช่าห้องพักโรงแรมที่พร้อมเข้าอยู่ทันที ⭐\n\n✅ ทำไม D ถูก: IaaS เป็นรูปแบบเดียวที่มอบการควบคุมระดับระบบปฏิบัติการให้ลูกค้า จึงเป็นบริการเดียวที่องค์กรสามารถเลือกและติดตั้ง OS ของตนเองบนเครื่องเสมือนได้\n\n❌ ทำไมข้ออื่นผิด:\nA. PaaS ผู้ให้บริการจัดการระบบปฏิบัติการให้แล้ว ลูกค้าเข้าถึงได้เพียงระดับแอปพลิเคชัน ⭐ ตัวลวงหลัก\nB. NaaS เป็นบริการเครือข่ายในรูปแบบสมัครสมาชิก เช่น VPN หรือแบนด์วิดท์ ⭐ ไม่เกี่ยวกับเครื่องเสมือน\nC. SaaS ลูกค้าใช้ได้เพียงตัวซอฟต์แวร์สำเร็จรูปผ่านเบราว์เซอร์ ไม่มีสิทธิ์เข้าถึงระบบปฏิบัติการเลย ⭐\n\n📗 จำไว้สอบ: ติดตั้ง OS เอง = IaaS ⭐ • เขียนโค้ดอย่างเดียว = PaaS ⭐ • ใช้โปรแกรมสำเร็จรูป = SaaS ⭐',
+  },
+  {
+    id: 711,
+    kind: 'single',
+    prompt: 'How do traditional campus device management and Cisco DNA Center device management differ in regards to deployment?',
+    options: [
+      { key: 'A', text: 'Traditional campus device management allows a network to scale more quickly than with Cisco DNA Center device management.' },
+      { key: 'B', text: 'Cisco DNA Center device management can deploy a network more quickly than traditional campus device management.' },
+      { key: 'C', text: 'Cisco DNA Center device management can be implemented at a lower cost than most traditional campus device management options.' },
+      { key: 'D', text: 'Traditional campus device management schemes can typically deploy patches and updates more quickly than Cisco DNA Center device management.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — จุดขายหลักของ Cisco DNA Center คือความเร็วในการติดตั้งใช้งาน (deployment) ผ่านการรวมศูนย์และการทำงานอัตโนมัติ ⭐\n\n📊 เปรียบเทียบสองวิธี\nด้าน                  Traditional ⭐            Cisco DNA Center ⭐\nวิธีคอนฟิก             ทีละอุปกรณ์ผ่าน CLI ⭐      รวมศูนย์จากหน้าเดียว ⭐\nเวลาติดตั้ง 100 สวิตช์  หลายวันถึงหลายสัปดาห์ ⭐    ไม่กี่ชั่วโมง ⭐\nความสม่ำเสมอ          ขึ้นกับฝีมือแต่ละคน ⭐       ใช้เทมเพลตเดียวกันทั้งหมด ⭐\nโอกาสพิมพ์ผิด          สูงมาก ⭐                 แทบไม่มี ⭐\nอุปกรณ์ใหม่            ต้องมีคนไปคอนฟิกที่หน้างาน ⭐  Plug and Play อัตโนมัติ ⭐\nการตรวจสอบสุขภาพ      ต้องไล่ดูทีละตัว           แดชบอร์ดรวม ⭐\n\n🚀 DNA Center เร่งการติดตั้งได้อย่างไร\n1️⃣ Network Plug and Play (PnP) ⭐\n• แกะกล่องสวิตช์ใหม่ เสียบสาย เปิดเครื่อง\n• อุปกรณ์ติดต่อกลับมายัง DNA Center โดยอัตโนมัติ ⭐\n• รับ IOS เวอร์ชันที่ถูกต้องและคอนฟิกทั้งหมดลงไปเอง ⭐\n→ ไม่ต้องส่งวิศวกรไปที่สาขาเลย ⭐\n\n2️⃣ Templates และ Design profiles ⭐\n• ออกแบบคอนฟิกมาตรฐานไว้ครั้งเดียว แล้วนำไปใช้กับอุปกรณ์นับร้อยพร้อมกัน ⭐\n\n3️⃣ Software Image Management (SWIM) ⭐\n• อัปเกรด IOS ทั้งเครือข่ายตามตารางเวลาที่กำหนดไว้ล่วงหน้า ⭐\n\n4️⃣ นโยบายแบบนามธรรม ⭐\n• กำหนดเจตนาว่า "กลุ่มแขกห้ามเข้าถึงเซิร์ฟเวอร์การเงิน" ⭐\n• DNA Center แปลงเป็น ACL และ SGT ที่เหมาะสมบนอุปกรณ์ทุกตัวให้เอง ⭐\n\n✅ ทำไม B ถูก: การรวมศูนย์การจัดการพร้อมกับความสามารถ Plug and Play และการใช้เทมเพลต ทำให้ DNA Center ติดตั้งเครือข่ายได้เร็วกว่าการไล่คอนฟิกทีละอุปกรณ์อย่างมีนัยสำคัญ\n\n❌ ทำไมข้ออื่นผิด:\nA. กลับด้าน — การขยายเครือข่ายด้วยวิธีดั้งเดิมช้ากว่า เพราะต้องคอนฟิกอุปกรณ์ใหม่ทุกตัวด้วยมือ ⭐\nC. ตัวลวงที่ดี — DNA Center มีค่าใช้จ่ายเริ่มต้นที่ "สูงกว่า" เพราะต้องซื้อทั้งอุปกรณ์คอนโทรลเลอร์และไลเซนส์ ⭐ ประโยชน์ที่ได้คือลดค่าดำเนินงานในระยะยาว ไม่ใช่ต้นทุนเริ่มต้นที่ถูกกว่า และโจทย์ก็ถามเรื่อง deployment ไม่ใช่เรื่องต้นทุน\nD. กลับด้านเช่นกัน — DNA Center มีฟีเจอร์ SWIM ที่กระจายแพตช์และอัปเดตไปทั้งเครือข่ายได้พร้อมกัน ซึ่งเร็วกว่าการไล่อัปเกรดทีละตัวอย่างมาก ⭐\n\n📗 จำไว้สอบ: DNA Center = รวมศูนย์ ⭐ + อัตโนมัติ ⭐ + นโยบายเชิงเจตนา ⭐ + ติดตั้งเร็ว ⭐',
+  },
+  {
+    id: 712,
+    kind: 'single',
+    prompt: 'Which purpose does a northbound API serve in a controller-based networking architecture?',
+    options: [
+      { key: 'A', text: 'facilitates communication between the controller and the applications' },
+      { key: 'B', text: 'reports device errors to a controller' },
+      { key: 'C', text: 'generates statistics for network hardware and traffic' },
+      { key: 'D', text: 'communicates between the controller and the physical network hardware' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ให้จินตนาการแผนภาพแนวตั้ง โดยมีคอนโทรลเลอร์อยู่ตรงกลาง ⭐\n\n🧭 โครงสร้างสามชั้นของ SDN\n┌─────────────────────────┐\n│ Application Layer       │ แอปพลิเคชัน สคริปต์ ระบบ orchestration\n└──────────┬──────────────┘\n   Northbound API ⭐ ← หันขึ้น "เหนือ" ไปหาแอป ⭐\n┌──────────┴──────────────┐\n│ Control Layer           │ SDN Controller เช่น DNA Center, APIC\n└──────────┬──────────────┘\n   Southbound API ⭐ ← หันลง "ใต้" ไปหาอุปกรณ์ ⭐\n┌──────────┴──────────────┐\n│ Infrastructure Layer    │ สวิตช์ เราเตอร์ AP จริง\n└─────────────────────────┘\n\n⬆️ Northbound API ⭐\n• เชื่อมคอนโทรลเลอร์กับ "แอปพลิเคชัน" ที่อยู่เหนือขึ้นไป ⭐\n• ใช้ REST API เป็นหลัก ส่งข้อมูลด้วย JSON หรือ XML ผ่าน HTTPS ⭐\n• ให้นักพัฒนาสั่งงานเครือข่ายด้วยโค้ดได้ เช่น สร้าง VLAN ใหม่ผ่านสคริปต์ Python ⭐\n• ตัวอย่าง: Cisco DNA Center Intent API ⭐\n\n⬇️ Southbound API ⭐\n• เชื่อมคอนโทรลเลอร์กับ "อุปกรณ์จริง" ที่อยู่ใต้ลงไป ⭐\n• ใช้โปรโตคอลอย่าง OpenFlow, NETCONF, RESTCONF, OpFlex หรือแม้แต่ SSH/SNMP ⭐\n• ใช้ส่งตารางส่งต่อและคอนฟิกลงไปยังฮาร์ดแวร์ ⭐\n\n💡 เคล็ดลับจำ\nNorth = เหนือ = ขึ้นไปหาแอป ⭐\nSouth = ใต้ = ลงไปหาอุปกรณ์ ⭐\n\n✅ ทำไม A ถูก: northbound API ทำหน้าที่เป็นสะพานให้แอปพลิเคชันสื่อสารกับคอนโทรลเลอร์ เพื่อแสดงเจตนาว่าต้องการให้เครือข่ายทำอะไร\n\n❌ ทำไมข้ออื่นผิด:\nB. การรายงานข้อผิดพลาดจากอุปกรณ์ขึ้นมายังคอนโทรลเลอร์เดินทางผ่าน southbound API ⭐\nC. การรวบรวมสถิติของฮาร์ดแวร์และทราฟฟิกก็เป็นข้อมูลที่ไหลขึ้นมาจากอุปกรณ์ผ่าน southbound API เช่นกัน ⭐\nD. ตัวลวงหลัก — การสื่อสารระหว่างคอนโทรลเลอร์กับฮาร์ดแวร์จริงคือนิยามของ southbound API ⭐ ซึ่งเป็นทิศทางตรงข้าม\n\n📗 จำไว้สอบ: Northbound = REST API ไปหาแอป ⭐ • Southbound = OpenFlow/NETCONF ไปหาอุปกรณ์ ⭐',
+  },
+  {
+    id: 713,
+    kind: 'single',
+    prompt: 'What benefit does controller-based networking provide versus traditional networking?',
+    options: [
+      { key: 'A', text: 'allows configuration and monitoring of the network from one centralized point' },
+      { key: 'B', text: 'provides an added layer of security to protect from DDoS attacks' },
+      { key: 'C', text: 'combines control and data plane functionality on a single device to minimize latency' },
+      { key: 'D', text: 'moves from a two-tier to a three-tier network architecture to provide maximum redundancy' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ประโยชน์หลักที่สุดของสถาปัตยกรรมแบบคอนโทรลเลอร์คือ "การรวมศูนย์" ⭐ ทั้งการตั้งค่าและการเฝ้าระวัง\n\n📊 เปรียบเทียบสองแนวทาง\nด้าน                 Traditional ⭐              Controller-based ⭐\nจุดจัดการ             ทีละอุปกรณ์ผ่าน CLI ⭐        หน้าจอเดียวรวมศูนย์ ⭐\nControl plane        กระจายอยู่ทุกตัว ⭐           รวมศูนย์ที่คอนโทรลเลอร์ ⭐\nการเปลี่ยนนโยบาย      ต้องแก้ทุกอุปกรณ์ด้วยมือ ⭐     กำหนดครั้งเดียวกระจายเอง ⭐\nการเฝ้าระวัง          ไล่ดูทีละตัว หรือใช้ SNMP ⭐   แดชบอร์ดรวม ⭐\nความสม่ำเสมอ         ขึ้นกับฝีมือแต่ละคน ⭐         รับประกันด้วยเทมเพลต ⭐\nการเชื่อมกับระบบอื่น    ยาก ต้องเขียนสคริปต์เอง ⭐    ผ่าน REST API มาตรฐาน ⭐\n\n🎯 การรวมศูนย์ให้ประโยชน์อย่างไร\n1️⃣ ลดข้อผิดพลาดจากมนุษย์ ⭐\nคอนฟิกจากแหล่งเดียวย่อมไม่มีทางที่สวิตช์ตัวที่ 47 จะตั้งค่าต่างจากตัวอื่น ⭐\n\n2️⃣ มองเห็นภาพรวมทั้งเครือข่าย ⭐\nคอนโทรลเลอร์รู้โครงสร้างทั้งหมด จึงคำนวณเส้นทางที่ดีที่สุดในระดับ "ทั้งเครือข่าย" ได้ ⭐ ต่างจากอุปกรณ์แต่ละตัวที่เห็นเพียงเพื่อนบ้านของตน\n\n3️⃣ เปลี่ยนแปลงได้เร็ว ⭐\nสร้าง VLAN ใหม่ทั่วทั้งวิทยาเขตได้ในไม่กี่นาที แทนที่จะใช้เวลาหลายชั่วโมง ⭐\n\n4️⃣ เปิดทางให้ระบบอัตโนมัติ ⭐\nREST API ทำให้เชื่อมต่อกับระบบ ITSM หรือสคริปต์ภายในองค์กรได้ ⭐\n\n✅ ทำไม A ถูก: การตั้งค่าและเฝ้าระวังเครือข่ายทั้งหมดจากจุดศูนย์กลางจุดเดียวคือประโยชน์ที่นิยามสถาปัตยกรรมแบบคอนโทรลเลอร์และเป็นเหตุผลหลักที่องค์กรเลือกใช้\n\n❌ ทำไมข้ออื่นผิด:\nB. คอนโทรลเลอร์ไม่ได้เพิ่มการป้องกัน DDoS โดยตรง ⭐ การป้องกัน DDoS ต้องใช้ไฟร์วอลล์ การจำกัดอัตรา หรือบริการกรองทราฟฟิกเฉพาะทาง\nC. กลับด้านโดยสิ้นเชิง — สถาปัตยกรรมแบบคอนโทรลเลอร์ "แยก" control plane ออกจาก data plane ⭐ ไม่ใช่รวมเข้าด้วยกัน การรวมสองระนาบไว้ในอุปกรณ์เดียวคือลักษณะของเครือข่ายแบบดั้งเดิม\nD. จำนวนชั้นของสถาปัตยกรรม (two-tier หรือ three-tier) เป็นเรื่องของการออกแบบทางกายภาพ ⭐ ไม่เกี่ยวข้องกับการใช้คอนโทรลเลอร์ และคอนโทรลเลอร์ก็ใช้ได้กับทั้งสองแบบ\n\n📗 จำไว้สอบ: controller-based = แยก control plane ออกมารวมศูนย์ ⭐ • data plane ยังอยู่บนอุปกรณ์ ⭐',
+  },
+  {
+    id: 714,
+    kind: 'single',
+    prompt: 'What is an advantage of Cisco DNA Center versus traditional campus device management?',
+    options: [
+      { key: 'A', text: 'It is designed primarily to provide network assurance.' },
+      { key: 'B', text: 'It supports numerous extensibility options, including cross-domain adapters and third-party SDKs.' },
+      { key: 'C', text: 'It supports high availability for management functions when operating in cluster mode.' },
+      { key: 'D', text: 'It enables easy autodiscovery of network elements in a brownfield deployment.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — โจทย์ถามหา "ข้อได้เปรียบเหนือการจัดการแบบดั้งเดิม" ⭐ จึงต้องเลือกสิ่งที่การจัดการแบบเดิมทำไม่ได้เลย\n\n🔌 ความสามารถด้านการขยายของ DNA Center\n1️⃣ REST API แบบเปิด ⭐\n• Intent API ให้แอปพลิเคชันภายนอกสั่งงานเครือข่ายด้วยโค้ดได้ ⭐\n• ใช้ JSON ผ่าน HTTPS ซึ่งเป็นมาตรฐานที่ทุกภาษาโปรแกรมรองรับ ⭐\n\n2️⃣ Cross-domain adapters ⭐\n• เชื่อมโยง DNA Center เข้ากับโดเมนอื่นในองค์กร ⭐\n• เช่น เชื่อมกับ Cisco ACI ในศูนย์ข้อมูล หรือ SD-WAN ในเครือข่ายสาขา ⭐\n• ทำให้นโยบายเดียวกันถูกบังคับใช้ข้ามทั้งวิทยาเขต ศูนย์ข้อมูล และ WAN ⭐\n\n3️⃣ SDK สำหรับบุคคลที่สาม ⭐\n• ให้ผู้พัฒนาสร้างแอปพลิเคชันที่ทำงานร่วมกับ DNA Center ได้ ⭐\n• รองรับการเชื่อมต่อกับอุปกรณ์ของผู้ผลิตรายอื่นผ่าน Multivendor SDK ⭐\n\n4️⃣ Integrations สำเร็จรูป ⭐\n• เชื่อมกับ ServiceNow เพื่อสร้างตั๋วอัตโนมัติเมื่อพบปัญหา ⭐\n• เชื่อมกับ Cisco ISE เพื่อบังคับใช้นโยบายตามตัวตนผู้ใช้ ⭐\n\n💡 ทำไมข้อนี้จึงเป็นข้อได้เปรียบที่แท้จริง\nการจัดการแบบดั้งเดิมด้วย CLI ไม่มีทางเชื่อมต่อกับระบบอื่นได้อย่างเป็นมาตรฐานเลย ⭐\n→ ต้องเขียนสคริปต์ที่ "ขูดข้อความ" จากผลลัพธ์ของคำสั่ง show ซึ่งเปราะบางมาก ⭐\n→ พอ IOS อัปเกรดแล้วรูปแบบผลลัพธ์เปลี่ยน สคริปต์ก็พังทันที ⭐\n\n✅ ทำไม B ถูก: ความสามารถในการขยายผ่าน API, adapter ข้ามโดเมน และ SDK ของบุคคลที่สาม เป็นสิ่งที่การจัดการอุปกรณ์แบบดั้งเดิมไม่มีเลย จึงเป็นข้อได้เปรียบที่ชัดเจนที่สุด\n\n❌ ทำไมข้ออื่นผิด:\nA. network assurance เป็นความสามารถที่โดดเด่นของ DNA Center จริง ⭐ แต่คำว่า "primarily" ทำให้ผิด เพราะ DNA Center ออกแบบมาเพื่อทั้งการออกแบบ การจัดเตรียม การกำหนดนโยบาย และการรับประกันคุณภาพ ไม่ใช่เพื่อ assurance เป็นหลักเพียงอย่างเดียว ⭐\nC. high availability ในโหมดคลัสเตอร์มีอยู่จริง ⭐ แต่ระบบจัดการแบบดั้งเดิมหลายตัวก็มีคุณสมบัตินี้เช่นกัน จึงไม่ใช่ข้อได้เปรียบที่เป็นเอกลักษณ์\nD. autodiscovery ใน brownfield deployment ก็ทำได้ ⭐ แต่เครื่องมือจัดการเครือข่ายแบบดั้งเดิมอย่าง CiscoWorks หรือ Prime Infrastructure ก็ค้นหาอุปกรณ์อัตโนมัติได้เช่นกัน ตัวลวงที่ดี\n\n📗 จำไว้สอบ: สี่เสาหลักของ DNA Center — Design ⭐ • Policy ⭐ • Provision ⭐ • Assurance ⭐',
+  },
+  {
+    id: 715,
+    kind: 'drag',
+    image: v4q715,
+    prompt: 'Drag and drop the characteristics of networking from the left onto the correct networking types on the right.',
+    categories: [
+      { name: 'Controller-Based Networking', items: ['focused on network', 'user input is a policy', 'uses allow list security model'] },
+      { name: 'Traditional Networking', items: ['focused on devices', 'user input is a configuration', 'uses block list security model'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ความแตกต่างระหว่างสองแนวทางสรุปได้เป็นสามมิติ ⭐\n\n1️⃣ มุมมองการทำงาน\nTraditional → focused on devices ⭐\n• ผู้ดูแลคิดเป็นรายอุปกรณ์ "สวิตช์ตัวนี้ต้องคอนฟิกอะไรบ้าง" ⭐\n• เข้าไปแก้ทีละเครื่องผ่าน CLI\n\nController-Based → focused on network ⭐\n• ผู้ดูแลคิดในภาพรวม "เครือข่ายทั้งหมดต้องทำงานอย่างไร" ⭐\n• คอนโทรลเลอร์แปลงเจตนานั้นเป็นคอนฟิกของแต่ละอุปกรณ์ให้เอง ⭐\n\n2️⃣ สิ่งที่ผู้ใช้ป้อนเข้าไป\nTraditional → user input is a configuration ⭐\n• ป้อนคำสั่งที่เจาะจงว่า "ทำอย่างไร" เช่น\n interface gi0/1 / switchport access vlan 10 ⭐\n\nController-Based → user input is a policy ⭐\n• ป้อนเจตนาว่า "ต้องการอะไร" เช่น "กลุ่มแขกห้ามเข้าถึงเซิร์ฟเวอร์การเงิน" ⭐\n• คอนโทรลเลอร์แปลงเป็น ACL, SGT และคอนฟิกที่เหมาะสมบนอุปกรณ์ทุกตัว ⭐\n→ นี่คือแนวคิด Intent-Based Networking ⭐\n\n3️⃣ รูปแบบความปลอดภัย\nTraditional → uses block list security model ⭐\n• อนุญาตทุกอย่างเป็นค่าเริ่มต้น แล้วค่อยบล็อกสิ่งที่ไม่ต้องการทีละอย่าง ⭐\n• ปัญหาคือต้องคาดเดาภัยคุกคามให้ครบทุกรูปแบบ ซึ่งเป็นไปไม่ได้ ⭐\n\nController-Based → uses allow list security model ⭐\n• ปฏิเสธทุกอย่างเป็นค่าเริ่มต้น แล้วอนุญาตเฉพาะที่จำเป็น ⭐\n• ปลอดภัยกว่ามากเพราะสิ่งที่ไม่รู้จักจะถูกบล็อกโดยอัตโนมัติ ⭐\n• เป็นรากฐานของแนวคิด zero-trust ⭐\n\n💡 เคล็ดลับจำ\nTraditional = device + configuration + block list ⭐\nController = network + policy + allow list ⭐\n\n📗 จำไว้สอบ: allow list (whitelist) ปลอดภัยกว่า block list (blacklist) เสมอ ⭐ เพราะปฏิเสธสิ่งที่ไม่รู้จักโดยปริยาย',
+  },
+  {
+    id: 716,
+    kind: 'multi',
+    prompt: 'What are two fundamentals of virtualization? (Choose two.)',
+    options: [
+      { key: 'A', text: 'It allows logical network devices to move traffic between virtual machines and the rest of the physical network.' },
+      { key: 'B', text: 'It allows multiple operating systems and applications to run independently on one physical server.' },
+      { key: 'C', text: 'It allows a physical router to directly connect NICs from each virtual machine into the network.' },
+      { key: 'D', text: 'It requires that some servers, virtual machines, and network gear reside on the Internet.' },
+      { key: 'E', text: 'The environment must be configured with one hypervisor that serves solely as a network manager to monitor SNMP traffic.' },
+    ],
+    correct: ['A', 'B'],
+    explanation:
+      '📘 แนวคิด — เวอร์ชวลไลเซชันมีสองแกนหลัก คือการแบ่งทรัพยากรทางกายภาพให้ใช้ร่วมกัน และการเชื่อมโยงเครื่องเสมือนเข้ากับเครือข่ายจริง ⭐\n\n1️⃣ รันหลายระบบปฏิบัติการบนเครื่องเดียว (ตัวเลือก B) ⭐\nHypervisor ทำหน้าที่แบ่ง CPU หน่วยความจำ สตอเรจ และ I/O ให้เครื่องเสมือนแต่ละตัว ⭐\n• แต่ละ VM มีระบบปฏิบัติการของตัวเองที่เป็นอิสระ ⭐\n• VM หนึ่งค้างหรือถูกเจาะ ไม่กระทบตัวอื่น ⭐\n• รันได้ทั้ง Windows, Linux และ IOS-XE พร้อมกันบนเครื่องเดียว ⭐\n\nสองประเภทของ hypervisor\nType 1 (bare metal) ⭐ → ติดตั้งลงบนฮาร์ดแวร์โดยตรง เช่น VMware ESXi, Microsoft Hyper-V, KVM ⭐ ประสิทธิภาพสูง ใช้ในศูนย์ข้อมูล\nType 2 (hosted) ⭐ → ติดตั้งบนระบบปฏิบัติการอีกที เช่น VirtualBox, VMware Workstation ⭐ ใช้บนเครื่องส่วนตัว\n\n2️⃣ อุปกรณ์เครือข่ายเชิงตรรกะเชื่อม VM เข้ากับเครือข่ายจริง (ตัวเลือก A) ⭐\nvSwitch (virtual switch) ⭐ ทำงานเป็นซอฟต์แวร์ภายใน hypervisor\n• มี virtual port ให้ VM แต่ละตัวเชื่อมต่อผ่าน vNIC ⭐\n• เรียนรู้ MAC address และส่งต่อเฟรมเหมือนสวิตช์จริงทุกประการ ⭐\n• รองรับ VLAN tagging และ trunk ⭐\n• เชื่อมออกสู่โลกภายนอกผ่าน physical NIC ของเซิร์ฟเวอร์ ⭐\n→ ทราฟฟิกระหว่าง VM สองตัวบนเครื่องเดียวกันไม่ต้องออกไปนอกเซิร์ฟเวอร์เลย ⭐\n\n✅ ทำไม A และ B ถูก: B คือหลักการพื้นฐานที่สุดของเวอร์ชวลไลเซชัน คือการแบ่งเครื่องหนึ่งเครื่องให้หลายระบบใช้ร่วมกันอย่างเป็นอิสระ ส่วน A อธิบายบทบาทของ vSwitch ซึ่งเป็นองค์ประกอบที่ขาดไม่ได้ในการทำให้ VM สื่อสารกับเครือข่ายจริงได้\n\n❌ ทำไมข้ออื่นผิด:\nC. VM ไม่ได้เชื่อมต่อ NIC เข้ากับเราเตอร์โดยตรง ⭐ ทราฟฟิกต้องผ่าน vNIC ไปยัง vSwitch แล้วจึงออกทาง physical NIC ของโฮสต์ (ยกเว้นกรณีพิเศษอย่าง SR-IOV หรือ PCI passthrough ซึ่งไม่ใช่รูปแบบทั่วไป)\nD. เวอร์ชวลไลเซชันทำงานได้ดีในศูนย์ข้อมูลส่วนตัวที่ไม่ต่ออินเทอร์เน็ตเลยก็ได้ ⭐ ไม่มีข้อกำหนดใดบังคับเรื่องนี้\nE. hypervisor มีหน้าที่จัดสรรทรัพยากรฮาร์ดแวร์ให้เครื่องเสมือน ⭐ ไม่ใช่ระบบเฝ้าระวังทราฟฟิก SNMP และไม่มีข้อกำหนดว่าต้องมี hypervisor พิเศษสำหรับงานนี้\n\n📗 จำไว้สอบ: Hypervisor = แบ่งทรัพยากร ⭐ • vSwitch = เชื่อม VM เข้าเครือข่าย ⭐ • Type 1 บน hardware • Type 2 บน OS ⭐',
+  },
+  {
+    id: 717,
+    kind: 'single',
+    prompt: 'How does Cisco DNA Center gather data from the network?',
+    options: [
+      { key: 'A', text: 'Devices use the call-home protocol to periodically send data to the controller' },
+      { key: 'B', text: 'Devices establish an IPsec tunnel to exchange data with the controller' },
+      { key: 'C', text: 'The Cisco CLI Analyzer tool gathers data from each licensed network device and streams it to the controller' },
+      { key: 'D', text: 'Network devices use different services like SNMP, syslog, and streaming telemetry to send data to the controller' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — DNA Center ไม่ได้ใช้โปรโตคอลเดียว แต่รวบรวมข้อมูลจาก "หลายแหล่งพร้อมกัน" เพื่อให้เห็นภาพที่สมบูรณ์ ⭐\n\n📡 แหล่งข้อมูลที่ DNA Center ใช้\n1️⃣ SNMP ⭐\n• สอบถามค่าต่าง ๆ เป็นระยะ เช่น CPU หน่วยความจำ สถานะอินเทอร์เฟซ ⭐\n• รับ trap เมื่อเกิดเหตุการณ์สำคัญ ⭐\n\n2️⃣ Syslog ⭐\n• รับข้อความบันทึกเหตุการณ์แบบเรียลไทม์ เช่น อินเทอร์เฟซ down หรือเพื่อนบ้าน OSPF หาย ⭐\n\n3️⃣ Streaming telemetry ⭐ ← ทันสมัยที่สุด\n• อุปกรณ์ "ผลัก" ข้อมูลขึ้นมาเองอย่างต่อเนื่องแทนที่จะรอให้ถาม ⭐\n• ใช้ NETCONF หรือ gRPC เป็นช่องทาง ⭐\n• ได้ข้อมูลถี่กว่าและใช้ทรัพยากรน้อยกว่าการ poll ด้วย SNMP มาก ⭐\n\n4️⃣ NETCONF / RESTCONF ⭐\n• ใช้อ่านและเขียนคอนฟิกในรูปแบบข้อมูลที่มีโครงสร้าง (YANG model) ⭐\n\n5️⃣ CLI ผ่าน SSH ⭐\n• ใช้สำหรับคำสั่งที่ยังไม่มี API รองรับ ⭐\n\n6️⃣ NetFlow ⭐\n• เก็บข้อมูลการไหลของทราฟฟิกเพื่อวิเคราะห์แอปพลิเคชันและพฤติกรรม ⭐\n\n🔍 ทำไมต้องใช้หลายแหล่ง\nแต่ละโปรโตคอลให้มุมมองที่ต่างกัน ⭐\n• SNMP บอกสถานะปัจจุบันของอุปกรณ์\n• Syslog บอกว่าเกิดอะไรขึ้นเมื่อไร\n• Telemetry บอกแนวโน้มแบบละเอียดตามเวลาจริง\n• NetFlow บอกว่าใครคุยกับใครด้วยแอปอะไร\n→ เมื่อรวมกันจึงเกิดเป็นความสามารถ Assurance ที่วิเคราะห์สาเหตุของปัญหาได้ ⭐\n\n✅ ทำไม D ถูก: DNA Center รวบรวมข้อมูลจากบริการหลายชนิดพร้อมกัน ทั้ง SNMP, syslog และ streaming telemetry เพื่อสร้างภาพรวมของสุขภาพเครือข่ายที่ครบถ้วน\n\n❌ ทำไมข้ออื่นผิด:\nA. call-home เป็นฟีเจอร์ที่ส่งการแจ้งเตือนไปยัง Cisco Smart Call Home สำหรับงานสนับสนุนและการจัดการไลเซนส์ ⭐ ไม่ใช่กลไกหลักที่ DNA Center ใช้\nB. IPsec ใช้สร้างอุโมงค์ VPN ที่ปลอดภัยระหว่างไซต์ ⭐ ไม่ใช่ช่องทางเก็บข้อมูลเฝ้าระวัง\nC. Cisco CLI Analyzer เป็นเครื่องมือช่วยวิเคราะห์ผลลัพธ์คำสั่งสำหรับวิศวกรที่ทำงานกับ TAC ⭐ ไม่ได้เกี่ยวข้องกับการเก็บข้อมูลของ DNA Center เลย\n\n📗 จำไว้สอบ: DNA Center ใช้ SNMP ⭐ + syslog ⭐ + streaming telemetry ⭐ + NetFlow ⭐ + NETCONF ⭐ รวมกันทั้งหมด',
+  },
+  {
+    id: 718,
+    kind: 'single',
+    prompt: 'Which statement compares traditional networks and controller-based networks?',
+    options: [
+      { key: 'A', text: 'Only controller-based networks decouple the control plane and the data plane.' },
+      { key: 'B', text: 'Traditional and controller-based networks abstract policies from device configurations.' },
+      { key: 'C', text: 'Only traditional networks natively support centralized management.' },
+      { key: 'D', text: 'Only traditional networks offer a centralized control plane.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ความแตกต่างที่เป็นแก่นที่สุดคือ "การแยก control plane ออกจาก data plane" ⭐\n\n🏗️ เครือข่ายแบบดั้งเดิม\nอุปกรณ์แต่ละตัวมีทั้งสามระนาบอยู่ในตัวเอง ⭐\n┌────────────────────┐\n│ Router / Switch    │\n│ ├─ Control plane   │ รัน OSPF/EIGRP/STP สร้างตารางเอง\n│ ├─ Data plane      │ ส่งต่อแพ็กเก็ตตามตารางนั้น\n│ └─ Mgmt plane      │ SSH, SNMP\n└────────────────────┘\n→ control plane "กระจาย" อยู่ทุกตัว ⭐ แต่ละตัวตัดสินใจเองโดยอิสระ\n→ อุปกรณ์แลกเปลี่ยนข้อมูลกันผ่านโปรโตคอลเราต์ติ้งเพื่อให้ได้มุมมองที่ตรงกัน ⭐\n\n🏗️ เครือข่ายแบบคอนโทรลเลอร์\n┌─────────────────────┐\n│ SDN Controller      │\n│ └─ Control plane    │ รวมศูนย์ คำนวณเส้นทางให้ทั้งเครือข่าย\n└──────────┬──────────┘\n  Southbound API ⭐ (OpenFlow / NETCONF)\n┌──────────┴──────────┐\n│ Switch / Router     │\n│ └─ Data plane       │ ส่งต่อแพ็กเก็ตตามที่คอนโทรลเลอร์สั่งเท่านั้น\n└─────────────────────┘\n→ control plane ถูก "ถอด" ออกจากอุปกรณ์ไปรวมไว้ที่คอนโทรลเลอร์ ⭐\n→ data plane ยังคงอยู่บนอุปกรณ์ เพราะการส่งต่อแพ็กเก็ตต้องทำที่ฮาร์ดแวร์เพื่อความเร็ว ⭐\n\n💡 ประโยชน์ของการแยกสองระนาบ\n• คอนโทรลเลอร์เห็นภาพรวมทั้งเครือข่าย จึงคำนวณเส้นทางที่เหมาะที่สุดในระดับ global ได้ ⭐\n• เปลี่ยนพฤติกรรมการส่งต่อได้ทันทีโดยไม่ต้องรอโปรโตคอลเราต์ติ้งลู่เข้า ⭐\n• อุปกรณ์กลายเป็นฮาร์ดแวร์ทั่วไปที่ราคาถูกลงได้ ⭐\n\n✅ ทำไม A ถูก: การแยก control plane ออกจาก data plane เป็นคุณลักษณะที่นิยามเครือข่ายแบบคอนโทรลเลอร์และเป็นสิ่งที่เครือข่ายแบบดั้งเดิมไม่มี\n\n❌ ทำไมข้ออื่นผิด:\nB. เครือข่ายแบบดั้งเดิมไม่ได้แยกนโยบายออกจากคอนฟิก ⭐ ผู้ดูแลต้องแปลงนโยบายเป็นคำสั่ง CLI ด้วยตัวเองทีละอุปกรณ์ มีเพียงเครือข่ายแบบคอนโทรลเลอร์เท่านั้นที่ทำ policy abstraction ได้\nC. กลับด้าน — การจัดการแบบรวมศูนย์เป็นคุณสมบัติของเครือข่ายแบบคอนโทรลเลอร์ ⭐ ส่วนแบบดั้งเดิมต้องจัดการทีละอุปกรณ์\nD. กลับด้านเช่นกัน — เครือข่ายแบบดั้งเดิมมี control plane ที่ "กระจาย" อยู่ทุกอุปกรณ์ ⭐ ส่วนแบบคอนโทรลเลอร์ต่างหากที่รวมศูนย์\n\n📗 จำไว้สอบ: SDN ถอด control plane ออกไปรวมศูนย์ ⭐ แต่ data plane ยังกระจายอยู่บนอุปกรณ์เสมอ ⭐',
+  },
+  {
+    id: 719,
+    kind: 'multi',
+    prompt: 'What are two benefits of network automation? (Choose two.)',
+    options: [
+      { key: 'A', text: 'reduced hardware footprint' },
+      { key: 'B', text: 'reduced operational costs' },
+      { key: 'C', text: 'faster changes with more reliable results' },
+      { key: 'D', text: 'fewer network failures' },
+      { key: 'E', text: 'increased network security' },
+    ],
+    correct: ['B', 'C'],
+    explanation:
+      '📘 แนวคิด — ระบบอัตโนมัติให้ประโยชน์ที่ "วัดได้โดยตรง" สองข้อ คือลดค่าดำเนินงานและเปลี่ยนแปลงได้เร็วขึ้นพร้อมกับผลลัพธ์ที่แน่นอนกว่า ⭐\n\n1️⃣ ลดค่าดำเนินงาน (ตัวเลือก B) ⭐\n• งานซ้ำซากที่เคยใช้เวลาหลายชั่วโมงเหลือไม่กี่นาที ⭐\n• วิศวกรมีเวลาไปทำงานที่สร้างมูลค่าสูงกว่า เช่น การออกแบบสถาปัตยกรรม ⭐\n• ลดค่าใช้จ่ายในการส่งคนไปที่หน้างาน ⭐\n\nตัวอย่างที่เห็นภาพ\nสร้าง VLAN ใหม่บนสวิตช์ 200 ตัว\n• ด้วยมือ → 200 × 3 นาที ≈ 10 ชั่วโมง ⭐\n• ด้วย Ansible playbook → ประมาณ 5 นาที ⭐\n\n2️⃣ เปลี่ยนแปลงเร็วขึ้นและผลลัพธ์น่าเชื่อถือกว่า (ตัวเลือก C) ⭐\n• สคริปต์รันคำสั่งชุดเดิมเป๊ะทุกครั้ง ไม่มีพิมพ์ผิด ไม่มีข้ามขั้นตอน ⭐\n• คอนฟิกถูกเก็บใน Git จึงมีประวัติการเปลี่ยนแปลงและย้อนกลับได้ ⭐\n• ทดสอบในแล็บก่อนแล้วนำไปใช้จริงด้วยสคริปต์เดียวกัน ⭐\n\n💡 ทำไมความน่าเชื่อถือจึงสำคัญ\nสถิติในวงการระบุว่าเหตุขัดข้องของเครือข่ายส่วนใหญ่เกิดจาก "ความผิดพลาดของมนุษย์ขณะเปลี่ยนคอนฟิก" ⭐\n→ ระบบอัตโนมัติกำจัดตัวแปรนี้ออกไป ⭐\n\n✅ ทำไม B และ C ถูก: ทั้งสองเป็นประโยชน์โดยตรงที่เกิดขึ้นทันทีเมื่อนำระบบอัตโนมัติมาใช้ และเป็นเหตุผลหลักที่องค์กรลงทุนในเรื่องนี้\n\n❌ ทำไมข้ออื่นผิด:\nA. ระบบอัตโนมัติเป็นเรื่องของ "ซอฟต์แวร์" ⭐ ไม่ได้ลดจำนวนสวิตช์หรือเราเตอร์ที่ต้องใช้ การลดจำนวนฮาร์ดแวร์เป็นประโยชน์ของเวอร์ชวลไลเซชันมากกว่า ⭐\nD. ตัวลวงที่ดี — ระบบอัตโนมัติลดความผิดพลาดจากมนุษย์ได้จริง ⭐ แต่ไม่ได้ลดเหตุขัดข้องจากสายขาด อุปกรณ์เสีย หรือไฟดับ และถ้าสคริปต์เขียนผิด ก็อาจกระจายความผิดพลาดไปทั้งเครือข่ายได้เร็วกว่าเดิมเสียอีก ⭐\nE. ตัวลวงที่ดีเช่นกัน — ระบบอัตโนมัติช่วยบังคับใช้นโยบายความปลอดภัยได้อย่างสม่ำเสมอ ⭐ แต่ตัวมันเองไม่ได้เพิ่มความปลอดภัย และการที่สคริปต์มีสิทธิ์เข้าถึงอุปกรณ์ทุกตัวยังเป็นความเสี่ยงใหม่ที่ต้องจัดการด้วย ⭐\n\n📗 จำไว้สอบ: ประโยชน์หลักของ automation = เร็วขึ้น ⭐ + สม่ำเสมอ ⭐ + ถูกลง ⭐ ไม่ใช่ปลอดภัยขึ้นหรือฮาร์ดแวร์น้อยลง',
+  },
+  {
+    id: 720,
+    kind: 'multi',
+    prompt: 'Which two encoding methods are supported by REST APIs? (Choose two.)',
+    options: [
+      { key: 'A', text: 'SGML' },
+      { key: 'B', text: 'YAML' },
+      { key: 'C', text: 'XML' },
+      { key: 'D', text: 'JSON' },
+      { key: 'E', text: 'EBCDIC' },
+    ],
+    correct: ['C', 'D'],
+    explanation:
+      '📘 แนวคิด — REST API แลกเปลี่ยนข้อมูลด้วยรูปแบบหลักสองอย่างคือ JSON และ XML ⭐ โดย JSON เป็นที่นิยมมากกว่าในปัจจุบัน\n\n📄 JSON (JavaScript Object Notation) ⭐\n• กระชับ อ่านง่าย และแยกวิเคราะห์ได้เร็ว ⭐\n• เป็นรูปแบบมาตรฐานของ Cisco DNA Center Intent API และ RESTCONF ⭐\n{\n "hostname": "SW1",\n "interfaces": ["Gi0/1", "Gi0/2"],\n "vlan": 10,\n "enabled": true\n}\nชนิดข้อมูลที่รองรับ: string, number, boolean, null, array, object ⭐\n\n📄 XML (eXtensible Markup Language) ⭐\n• ใช้แท็กเปิดปิดคล้าย HTML ⭐\n• เยิ่นเย้อกว่า JSON แต่รองรับ schema validation ได้ละเอียดกว่า ⭐\n• เป็นรูปแบบบังคับของ NETCONF ⭐\n<device>\n <hostname>SW1</hostname>\n <vlan>10</vlan>\n</device>\n\n🔧 ระบุรูปแบบอย่างไรในการเรียก API\nใช้ HTTP header สองตัว ⭐\nAccept: application/json ⭐ ← บอกว่า "ไคลเอนต์ต้องการรับ" รูปแบบใด\nContent-Type: application/json ⭐ ← บอกว่า "ข้อมูลที่ส่งไป" อยู่ในรูปแบบใด\n\n💡 แล้ว YAML ล่ะ\nYAML ใช้กันมากใน Ansible playbook และไฟล์คอนฟิกของเครื่องมือ DevOps ⭐\nแต่ไม่ใช่รูปแบบมาตรฐานที่ REST API ใช้แลกเปลี่ยนข้อมูล ⭐ นี่คือจุดที่ข้อสอบชอบดัก\n\n✅ ทำไม C และ D ถูก: JSON และ XML เป็นสองรูปแบบมาตรฐานที่ REST API ใช้เข้ารหัสข้อมูลในคำขอและการตอบกลับ และเป็นสองรูปแบบที่ Cisco ระบุไว้ในเอกสารหลักสูตร\n\n❌ ทำไมข้ออื่นผิด:\nA. SGML เป็นภาษาต้นแบบที่ HTML และ XML พัฒนามาจาก ⭐ ปัจจุบันไม่มีการใช้งานโดยตรงแล้ว\nB. ตัวลวงหลัก — YAML เป็นรูปแบบที่ใช้เขียนไฟล์คอนฟิกและ Ansible playbook ⭐ ไม่ใช่รูปแบบที่ REST API ใช้แลกเปลี่ยนข้อมูล\nE. EBCDIC เป็นชุดรหัสอักขระของเครื่องเมนเฟรม IBM ⭐ เป็นคนละเรื่องกับการเข้ารหัสข้อมูลของ API โดยสิ้นเชิง\n\n📗 จำไว้สอบ: REST = JSON หรือ XML ⭐ • NETCONF = XML เท่านั้น ⭐ • Ansible = YAML ⭐ แยกสามอย่างนี้ให้ชัด',
+  },
+  {
+    id: 721,
+    kind: 'multi',
+    prompt: 'What are two characteristics of a controller-based network? (Choose two.)',
+    options: [
+      { key: 'A', text: 'It uses Telnet to report system issues.' },
+      { key: 'B', text: 'The administrator can make configuration updates from the CLI.' },
+      { key: 'C', text: 'It uses northbound and southbound APIs to communicate between architectural layers.' },
+      { key: 'D', text: 'It decentralizes the control plane, which allows each device to make its own forwarding decisions.' },
+      { key: 'E', text: 'It moves the control plane to a central point.' },
+    ],
+    correct: ['C', 'E'],
+    explanation:
+      '📘 แนวคิด — สองลักษณะที่นิยามเครือข่ายแบบคอนโทรลเลอร์คือ "การรวมศูนย์ control plane" และ "การสื่อสารผ่าน API สองทิศทาง" ⭐\n\n1️⃣ ย้าย control plane ไปรวมศูนย์ (ตัวเลือก E) ⭐\nเครือข่ายแบบดั้งเดิม\n• อุปกรณ์แต่ละตัวรัน OSPF, EIGRP, STP เอง แล้วสร้างตารางของตัวเอง ⭐\n• control plane "กระจาย" อยู่ทุกตัว ⭐\n\nเครือข่ายแบบคอนโทรลเลอร์\n• คอนโทรลเลอร์คำนวณเส้นทางให้ทั้งเครือข่ายจากมุมมองภาพรวม ⭐\n• อุปกรณ์เหลือเพียง data plane ที่ส่งต่อแพ็กเก็ตตามที่ได้รับคำสั่ง ⭐\n→ ได้เส้นทางที่เหมาะที่สุดในระดับทั้งเครือข่าย ไม่ใช่แค่ระดับอุปกรณ์เดียว ⭐\n\n2️⃣ ใช้ API สองทิศทาง (ตัวเลือก C) ⭐\nNorthbound API ⭐ → เชื่อมคอนโทรลเลอร์กับแอปพลิเคชันที่อยู่ชั้นบน\n• ใช้ REST API ส่งข้อมูลด้วย JSON หรือ XML ผ่าน HTTPS ⭐\n• ให้แอปแสดง "เจตนา" ว่าต้องการอะไรจากเครือข่าย ⭐\n\nSouthbound API ⭐ → เชื่อมคอนโทรลเลอร์กับอุปกรณ์จริงที่อยู่ชั้นล่าง\n• ใช้ OpenFlow, NETCONF, RESTCONF หรือ OpFlex ⭐\n• ส่งตารางส่งต่อและคอนฟิกลงไปยังฮาร์ดแวร์ ⭐\n\n✅ ทำไม C และ E ถูก: E คือการเปลี่ยนแปลงเชิงสถาปัตยกรรมที่เป็นหัวใจของแนวคิด SDN ส่วน C คือกลไกที่ทำให้ทั้งสามชั้นสื่อสารกันได้ ทั้งสองข้อเป็นลักษณะเฉพาะที่เครือข่ายแบบดั้งเดิมไม่มี\n\n❌ ทำไมข้ออื่นผิด:\nA. Telnet ไม่เข้ารหัสและไม่ใช่เครื่องมือรายงานปัญหา ⭐ การรายงานเหตุการณ์ใช้ syslog, SNMP trap หรือ streaming telemetry\nB. ตัวลวงที่ดี — แม้จะยังเข้า CLI ของอุปกรณ์ได้อยู่ ⭐ แต่นั่นไม่ใช่ "ลักษณะเฉพาะ" ของเครือข่ายแบบคอนโทรลเลอร์ เพราะเครือข่ายแบบดั้งเดิมก็ใช้ CLI เช่นกัน อีกทั้งแนวคิดของคอนโทรลเลอร์คือให้จัดการจากส่วนกลางแทนการเข้า CLI ทีละเครื่อง ⭐\nD. กลับด้านโดยสิ้นเชิง — การกระจาย control plane ให้แต่ละอุปกรณ์ตัดสินใจเองคือลักษณะของเครือข่ายแบบ "ดั้งเดิม" ⭐ ไม่ใช่แบบคอนโทรลเลอร์\n\n📗 จำไว้สอบ: SDN = control plane รวมศูนย์ ⭐ + northbound/southbound API ⭐ • data plane ยังอยู่บนอุปกรณ์ ⭐',
+  },
+  {
+    id: 722,
+    kind: 'single',
+    prompt: 'Which output displays a JSON data representation?',
+    options: [
+      { key: 'A', text: '{ "response": { "taskId": {}; "url": "string" }; "version": "string" }  — ใช้เครื่องหมาย ; คั่นสมาชิก' },
+      { key: 'B', text: '{ "response"- { "taskId"- {}, "url"- "string" }, "version"- "string" }  — ใช้เครื่องหมาย - แทน :' },
+      { key: 'C', text: '{ "response": { "taskId": {}, "url": "string" }, "version": "string" }  — ใช้ : คั่นคีย์กับค่า และ , คั่นสมาชิก' },
+      { key: 'D', text: '{ "response", { "taskId", {}; "url", "string" }; "version", "string" }  — ใช้ , แทน : และ ; คั่นสมาชิก' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — JSON มีกฎไวยากรณ์ที่เข้มงวดมาก ⭐ ผิดแม้แต่อักขระเดียวก็จะแยกวิเคราะห์ไม่ผ่าน\n\n📏 กฎของ JSON ที่ต้องจำ\n1️⃣ คู่คีย์กับค่าคั่นด้วย "โคลอน" ( : ) ⭐ ห้ามใช้ยัติภังค์หรือจุลภาค\n2️⃣ สมาชิกแต่ละตัวคั่นด้วย "จุลภาค" ( , ) ⭐ ห้ามใช้อัฒภาค\n3️⃣ คีย์ต้องอยู่ในเครื่องหมายอัญประกาศคู่ ( " " ) เสมอ ⭐\n4️⃣ วัตถุใช้ปีกกา { } ⭐\n5️⃣ อาร์เรย์ใช้วงเล็บเหลี่ยม [ ] ⭐\n6️⃣ ห้ามมีจุลภาคหลังสมาชิกตัวสุดท้าย (trailing comma) ⭐\n\n🔍 ตรวจสอบตัวเลือก C ที่ถูกต้อง\n{\n "response": { ⭐ โคลอนคั่นคีย์กับค่า\n "taskId": {}, ⭐ จุลภาคคั่นสมาชิก\n "url": "string" ⭐ สมาชิกตัวสุดท้ายในวัตถุย่อย ไม่มีจุลภาคต่อท้าย\n }, ⭐ จุลภาคหลังปิดวัตถุย่อย\n "version": "string" ⭐\n}\n→ ถูกต้องตามกฎทุกข้อ ⭐\n\n❌ วิเคราะห์ตัวเลือกที่ผิด\nA. ใช้อัฒภาค ( ; ) คั่นสมาชิกแทนจุลภาค ⭐ JSON ไม่รู้จักอัฒภาคเลย\nB. ใช้ยัติภังค์ ( - ) แทนโคลอน ⭐ ทำให้แยกคีย์กับค่าไม่ได้\nD. ใช้จุลภาคแทนโคลอน และใช้อัฒภาคคั่นสมาชิก ⭐ ผิดทั้งสองกฎพร้อมกัน\n\n📊 ชนิดข้อมูลที่ JSON รองรับ\nString  → "hello" ⭐ ต้องใช้อัญประกาศคู่เท่านั้น\nNumber  → 42 หรือ 3.14 ⭐ ไม่ใส่อัญประกาศ\nBoolean → true หรือ false ⭐ ตัวพิมพ์เล็กทั้งหมด\nNull    → null ⭐\nObject  → { } ⭐\nArray   → [ ] ⭐\n\n✅ ทำไม C ถูก: เป็นตัวเลือกเดียวที่ใช้โคลอนคั่นระหว่างคีย์กับค่า และใช้จุลภาคคั่นระหว่างสมาชิก ซึ่งเป็นไวยากรณ์ที่ถูกต้องของ JSON\n\n📗 จำไว้สอบ: JSON ใช้ : คั่นคีย์กับค่า ⭐ และ , คั่นสมาชิก ⭐ ไม่มีอัฒภาคในไวยากรณ์ JSON เลย',
+  },
+  {
+    id: 723,
+    kind: 'drag',
+    image: v4q723,
+    prompt: 'Drag and drop the descriptions from the left onto the configuration-management technologies on the right.',
+    categories: [
+      { name: 'Ansible', items: ['uses SSH for remote device communication', 'uses YAML for fundamental configuration elements'] },
+      { name: 'Chef', items: ['uses TCP port 10002 for configuration push jobs', 'uses Ruby for fundamental configuration elements'] },
+      { name: 'Puppet', items: ['fundamental configuration elements are stored in a manifest', 'uses TCP 8140 for communication'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ต้องจำสามอย่างของแต่ละเครื่องมือ คือ "ภาษาที่ใช้" "พอร์ต" และ "ชื่อไฟล์คอนฟิก" ⭐\n\n📊 ตารางเปรียบเทียบสามเครื่องมือ\nคุณสมบัติ        Ansible ⭐        Puppet ⭐         Chef ⭐\nภาษา            YAML ⭐          Puppet DSL ⭐     Ruby ⭐\nชื่อไฟล์คอนฟิก     Playbook ⭐      Manifest ⭐       Recipe / Cookbook ⭐\nพอร์ต            TCP 22 (SSH) ⭐   TCP 8140 ⭐      TCP 10002 ⭐\nต้องติดตั้ง agent   ✘ Agentless ⭐    ✔ ต้องมี ⭐       ✔ ต้องมี ⭐\nรูปแบบการทำงาน    Push ⭐          Pull ⭐          Push/Pull ⭐\n\n1️⃣ Ansible ⭐\n• uses SSH for remote device communication ⭐\n จุดเด่นที่สุดคือ "agentless" ⭐ ไม่ต้องติดตั้งซอฟต์แวร์ใด ๆ บนอุปกรณ์ปลายทาง เพียงแค่มี SSH ก็ใช้งานได้ทันที\n → เหมาะกับอุปกรณ์เครือข่ายมากที่สุด เพราะสวิตช์และเราเตอร์ติดตั้ง agent ไม่ได้ ⭐\n• uses YAML for fundamental configuration elements ⭐\n Playbook เขียนด้วย YAML ซึ่งอ่านง่ายและใช้การเยื้องบรรทัดกำหนดโครงสร้าง ⭐\n\n2️⃣ Puppet ⭐\n• fundamental configuration elements are stored in a manifest ⭐\n ไฟล์ manifest มีนามสกุล .pp เขียนด้วยภาษาเฉพาะของ Puppet ที่ใช้ไวยากรณ์ลูกศร => ⭐\n• uses TCP 8140 for communication ⭐\n Puppet agent บนอุปกรณ์จะ "ดึง" (pull) คอนฟิกจาก Puppet master ผ่านพอร์ตนี้เป็นระยะ ⭐\n\n3️⃣ Chef ⭐\n• uses Ruby for fundamental configuration elements ⭐\n Recipe เขียนด้วยภาษา Ruby และหลาย recipe รวมกันเป็น cookbook ⭐\n• uses TCP port 10002 for configuration push jobs ⭐\n เป็นพอร์ตที่ Chef server ใช้ผลักคอนฟิกไปยัง client ⭐\n\n💡 เคล็ดลับจำ\nAnsible → A แทน Agentless ⭐ ใช้ SSH และ YAML\nPuppet → มี manifest เหมือน "ประกาศ" ⭐ พอร์ต 8140\nChef → เชฟทำอาหารตาม recipe ในภาษา Ruby ⭐ พอร์ต 10002\n\n📗 จำไว้สอบ: Ansible เป็นตัวเดียวที่ไม่ต้องติดตั้ง agent ⭐ จึงเป็นที่นิยมที่สุดในงานเครือข่าย',
+  },
+  {
+    id: 724,
+    kind: 'multi',
+    prompt: 'Which two capabilities of Cisco DNA Center make it more extensible as compared to traditional campus device management? (Choose two.)',
+    options: [
+      { key: 'A', text: 'REST APIs that allow for external applications to interact natively' },
+      { key: 'B', text: 'adapters that support all families of Cisco IOS software' },
+      { key: 'C', text: 'SDKs that support interaction with third-party network equipment' },
+      { key: 'D', text: 'modular design that is upgradable as needed' },
+      { key: 'E', text: 'customized versions for small, medium, and large enterprises' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '📘 แนวคิด — คำว่า extensible หมายถึง "ความสามารถในการต่อขยายและเชื่อมกับระบบอื่น" ⭐ ซึ่งวัดกันที่ API และ SDK\n\n🔌 สองความสามารถหลักที่ทำให้ DNA Center ขยายได้\n1️⃣ REST API (ตัวเลือก A) ⭐\n• Intent API ให้แอปพลิเคชันภายนอกสั่งงานเครือข่ายด้วยโค้ดได้โดยตรง ⭐\n• ใช้ HTTPS ส่งข้อมูลรูปแบบ JSON ซึ่งเป็นมาตรฐานที่ทุกภาษาโปรแกรมรองรับ ⭐\n• ตัวอย่างการใช้งานจริง\n ▸ สคริปต์ Python สร้าง VLAN ใหม่ทั่วทั้งวิทยาเขต ⭐\n ▸ ระบบ ServiceNow สร้างตั๋วอัตโนมัติเมื่อ DNA Center ตรวจพบปัญหา ⭐\n ▸ แดชบอร์ดของบริษัทดึงข้อมูลสุขภาพเครือข่ายมาแสดง ⭐\n\n2️⃣ SDK สำหรับอุปกรณ์ของผู้ผลิตรายอื่น (ตัวเลือก C) ⭐\n• Multivendor Support SDK ให้ผู้พัฒนาสร้าง Device Package สำหรับอุปกรณ์ที่ไม่ใช่ของ Cisco ⭐\n• ทำให้ DNA Center บริหารจัดการอุปกรณ์ของผู้ผลิตรายอื่นได้ในหน้าจอเดียวกัน ⭐\n• สำคัญมากเพราะเครือข่ายจริงในองค์กรมักมีอุปกรณ์หลายยี่ห้อปะปนกัน ⭐\n\n💡 ทำไมสองข้อนี้จึงเป็น "ข้อได้เปรียบ"\nการจัดการแบบดั้งเดิมด้วย CLI ไม่มีทางเชื่อมกับระบบอื่นอย่างเป็นมาตรฐานได้เลย ⭐\n→ ต้องเขียนสคริปต์ที่ "ขูดข้อความ" จากผลลัพธ์คำสั่ง show ซึ่งเปราะบางมาก ⭐\n→ พอ IOS อัปเกรดแล้วรูปแบบผลลัพธ์เปลี่ยนเพียงเล็กน้อย สคริปต์ก็พังทันที ⭐\n\n✅ ทำไม A และ C ถูก: REST API เปิดทางให้แอปพลิเคชันภายนอกเข้ามาทำงานร่วมกับ DNA Center ได้โดยตรง ส่วน SDK ขยายขอบเขตการจัดการไปยังอุปกรณ์นอกระบบนิเวศของ Cisco ทั้งสองข้อคือความหมายของคำว่า extensible อย่างแท้จริง\n\n❌ ทำไมข้ออื่นผิด:\nB. DNA Center ไม่ได้รองรับ IOS "ทุกตระกูล" ⭐ มีข้อกำหนดเรื่องรุ่นและเวอร์ชันขั้นต่ำที่ชัดเจน อุปกรณ์รุ่นเก่าหลายรุ่นไม่รองรับเลย\nD. ตัวลวงที่ดี — DNA Center มีสถาปัตยกรรมแบบ modular จริง ⭐ แต่การอัปเกรดโมดูลภายในเป็นเรื่องของ "ตัวผลิตภัณฑ์เอง" ไม่ใช่ความสามารถให้ระบบภายนอกมาต่อขยาย\nE. DNA Center มีหลายขนาดตามจำนวนอุปกรณ์ที่รองรับก็จริง ⭐ แต่นั่นคือการปรับขนาด (scaling) ไม่ใช่ความสามารถในการต่อขยาย (extensibility)\n\n📗 จำไว้สอบ: extensible = API ⭐ + SDK ⭐ + integration กับระบบอื่น ⭐ ไม่ใช่เรื่องขนาดหรือรุ่นที่รองรับ',
+  },
+  {
+    id: 725,
+    kind: 'drag',
+    image: v4q725,
+    prompt: 'Drag and drop the descriptions of device management from the left onto the types of device management on the right.',
+    categories: [
+      { name: 'Cisco DNA Center Device Management', items: ['monitors the cloud for software updates', 'uses CLI templates to apply a consistent configuration to multiple devices at an individual location', 'uses NetFlow to analyze potential security threats throughout the network and take appropriate action on that traffic'] },
+      { name: 'Traditional Device Management', items: ['implements changes via an SSH terminal', 'manages device configurations on a per-device basis', 'security is managed near the perimeter of the network with firewalls, VPNs, and IPS'] },
+    ],
+    explanation:
+      '📘 แนวคิด — แยกได้จากสามมิติ คือ "วิธีเปลี่ยนคอนฟิก" "ขอบเขตการจัดการ" และ "แนวคิดด้านความปลอดภัย" ⭐\n\n🖥️ Traditional Device Management\n1️⃣ implements changes via an SSH terminal ⭐\nผู้ดูแลเปิดเทอร์มินัล SSH เข้าไปยังอุปกรณ์แต่ละตัวแล้วพิมพ์คำสั่งด้วยมือ ⭐\n→ ช้า เสี่ยงพิมพ์ผิด และไม่มีบันทึกการเปลี่ยนแปลงที่เป็นระบบ ⭐\n\n2️⃣ manages device configurations on a per-device basis ⭐\nแต่ละอุปกรณ์มีคอนฟิกของตัวเองที่ไม่เชื่อมโยงกัน ⭐\n→ การเปลี่ยนนโยบายหนึ่งอย่างต้องไล่แก้ทุกเครื่อง ⭐\n\n3️⃣ security is managed near the perimeter with firewalls, VPNs, and IPS ⭐\nแนวคิดแบบ "ปราสาทและคูเมือง" ⭐ ป้องกันหนาแน่นที่ขอบเครือข่าย แต่ภายในเชื่อใจกันหมด\n→ จุดอ่อนคือถ้าผู้โจมตีเข้ามาได้แล้ว จะเคลื่อนที่ภายในได้อย่างอิสระ ⭐\n\n🎛️ Cisco DNA Center Device Management\n1️⃣ monitors the cloud for software updates ⭐\nระบบ SWIM ตรวจสอบเวอร์ชัน IOS ใหม่จากคลาวด์ของ Cisco และแจ้งเตือนพร้อมช่องโหว่ที่แก้ไข ⭐\n→ อัปเกรดทั้งเครือข่ายตามตารางเวลาที่กำหนดไว้ล่วงหน้าได้ ⭐\n\n2️⃣ uses CLI templates to apply a consistent configuration to multiple devices ⭐\nสร้างเทมเพลตครั้งเดียวแล้วนำไปใช้กับอุปกรณ์นับร้อยพร้อมกัน ⭐\n→ รับประกันว่าทุกเครื่องได้คอนฟิกที่เหมือนกันเป๊ะ ⭐\n\n3️⃣ uses NetFlow to analyze potential security threats and take appropriate action ⭐\nแนวคิดแบบ zero-trust ⭐ ตรวจสอบทราฟฟิกทั่วทั้งเครือข่ายไม่ใช่แค่ที่ขอบ\n→ Encrypted Traffic Analytics ตรวจจับมัลแวร์ในทราฟฟิกที่เข้ารหัสได้โดยไม่ต้องถอดรหัส ⭐\n→ เมื่อพบภัยคุกคามสามารถสั่งกักกันอุปกรณ์นั้นโดยอัตโนมัติ ⭐\n\n💡 เคล็ดลับจำ\nคำว่า "per-device", "SSH terminal", "perimeter" → Traditional ⭐\nคำว่า "cloud", "templates", "throughout the network" → DNA Center ⭐\n\n📗 จำไว้สอบ: Traditional = ขอบเครือข่าย + ทีละเครื่อง ⭐ • DNA Center = ทั่วทั้งเครือข่าย + เทมเพลตรวมศูนย์ ⭐',
+  },
+  {
+    id: 726,
+    kind: 'single',
+    prompt: 'What software-defined architecture plane assists network devices with making packet-forwarding decisions by providing Layer 2 reachability and Layer 3 routing information?',
+    options: [
+      { key: 'A', text: 'management plane' },
+      { key: 'B', text: 'control plane' },
+      { key: 'C', text: 'data plane' },
+      { key: 'D', text: 'policy plane' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "providing information" ⭐ ระนาบที่ "จัดหาข้อมูล" ให้คือ control plane ส่วนระนาบที่ "ใช้ข้อมูล" คือ data plane\n\n🧠 Control plane ทำอะไรบ้าง\n• รันโปรโตคอลเราต์ติ้ง OSPF, EIGRP, BGP เพื่อสร้างข้อมูล Layer 3 ⭐\n• สร้างและดูแลตาราง RIB (Routing Information Base) ⭐\n• รัน STP เพื่อสร้างโทโพโลยีที่ปลอดลูปในระดับ Layer 2 ⭐\n• เรียนรู้ MAC address และสร้างตาราง CAM ⭐\n• ประมวลผล ARP เพื่อแมป IP เข้ากับ MAC ⭐\n→ ผลลัพธ์ทั้งหมดถูกส่งลงไปให้ data plane ใช้ในรูปของ FIB และ adjacency table ⭐\n\n⚡ Data plane ทำอะไร\n• รับแพ็กเก็ตเข้ามา แล้วค้นหาปลายทางใน FIB ⭐\n• ส่งออกทางอินเทอร์เฟซที่ถูกต้อง ⭐\n• ใส่หรือถอดแท็ก 802.1Q ⭐\n• บังคับใช้ ACL และ QoS ⭐\n→ ทำงานด้วยฮาร์ดแวร์ ASIC เพื่อความเร็วระดับสายส่ง ⭐\n\n🖥️ Management plane ทำอะไร\n• ให้ช่องทางเข้าถึงเพื่อบริหารจัดการ เช่น SSH, HTTPS, SNMP, syslog ⭐\n• ไม่เกี่ยวข้องกับการตัดสินใจส่งต่อแพ็กเก็ตเลย ⭐\n\n💡 จุดที่ต้องแยกให้ชัด\nโจทย์ใช้คำว่า "assists ... by providing information" ⭐\n→ ผู้ที่ "จัดหา" ข้อมูล = control plane ⭐\n→ ผู้ที่ "ใช้" ข้อมูลตัดสินใจส่งต่อจริง = data plane ⭐\nถ้าโจทย์ถามว่า "ใครส่งต่อแพ็กเก็ต" คำตอบจะเป็น data plane แต่โจทย์นี้ถามว่าใครให้ข้อมูล ⭐\n\n✅ ทำไม B ถูก: control plane เป็นระนาบที่สร้างและจัดหาทั้งข้อมูลการเข้าถึงระดับ Layer 2 (ตาราง MAC และโทโพโลยี STP) และข้อมูลเส้นทางระดับ Layer 3 (ตารางเราต์ติ้ง) ให้อุปกรณ์นำไปใช้ในการส่งต่อแพ็กเก็ต\n\n❌ ทำไมข้ออื่นผิด:\nA. management plane ดูแลการเข้าถึงเพื่อบริหารจัดการอุปกรณ์ ⭐ ไม่ได้สร้างข้อมูลเส้นทางใด ๆ\nC. ตัวลวงหลัก — data plane เป็นผู้ "ใช้" ข้อมูลที่ control plane สร้างให้ ⭐ ไม่ใช่ผู้จัดหาข้อมูล\nD. policy plane ไม่ใช่ระนาบมาตรฐานในสถาปัตยกรรมเครือข่าย ⭐ มีเพียงสามระนาบคือ control, data และ management\n\n📗 จำไว้สอบ: Control = สร้างตาราง ⭐ • Data = ใช้ตารางส่งต่อ ⭐ • Management = เข้าถึงเพื่อดูแล ⭐',
+  },
+  {
+    id: 727,
+    kind: 'multi',
+    prompt: 'What are two benefits of controller-based networking compared to traditional networking? (Choose two.)',
+    options: [
+      { key: 'A', text: 'controller-based increases network bandwidth usage, while traditional lightens the load on the network' },
+      { key: 'B', text: 'controller-based reduces network configuration complexity, while traditional increases the potential for errors' },
+      { key: 'C', text: 'controller-based allows for fewer network failures, while traditional increases failure rates' },
+      { key: 'D', text: 'controller-based provides centralization of key IT functions, while traditional requires distributed management functions' },
+      { key: 'E', text: 'controller-based inflates software costs, while traditional decreases individual licensing costs' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — ต้องเลือกข้อที่เปรียบเทียบได้ถูกต้อง "ทั้งสองฝั่ง" ของประโยค ⭐ หลายตัวเลือกถูกครึ่งเดียวหรือกลับด้าน\n\n1️⃣ ลดความซับซ้อนของคอนฟิก (ตัวเลือก B) ⭐\nแบบดั้งเดิม\n• ผู้ดูแลต้องแปลงนโยบายเป็นคำสั่ง CLI เองทีละอุปกรณ์ ⭐\n• สร้าง VLAN บนสวิตช์ 100 ตัว = พิมพ์คำสั่งชุดเดิม 100 ครั้ง ⭐\n• โอกาสพิมพ์ผิดหรือข้ามเครื่องสูงมาก ⭐\n\nแบบคอนโทรลเลอร์\n• กำหนดเจตนาครั้งเดียวจากหน้าจอเดียว ⭐\n• คอนโทรลเลอร์แปลงเป็นคอนฟิกที่ถูกต้องบนทุกอุปกรณ์ให้เอง ⭐\n• ไม่มีโอกาสพิมพ์ผิดเพราะไม่ได้พิมพ์ด้วยมือ ⭐\n\n2️⃣ รวมศูนย์หน้าที่สำคัญของฝ่ายไอที (ตัวเลือก D) ⭐\nแบบดั้งเดิม → หน้าที่กระจายอยู่ทุกอุปกรณ์ ⭐\n• การจัดเตรียม การเฝ้าระวัง การบังคับนโยบาย ต้องทำที่แต่ละเครื่อง\n\nแบบคอนโทรลเลอร์ → รวมไว้ที่จุดเดียว ⭐\n• Design, Policy, Provision และ Assurance ทำจากคอนโทรลเลอร์ทั้งหมด ⭐\n• เห็นภาพรวมทั้งเครือข่ายได้จากแดชบอร์ดเดียว ⭐\n\n✅ ทำไม B และ D ถูก: ทั้งสองข้อเปรียบเทียบสองแนวทางได้ถูกต้องครบทั้งสองฝั่ง และเป็นประโยชน์ที่วัดได้จริงของสถาปัตยกรรมแบบคอนโทรลเลอร์\n\n❌ ทำไมข้ออื่นผิด:\nA. ผิดทั้งประโยค — คอนโทรลเลอร์ไม่ได้เพิ่มการใช้แบนด์วิดท์อย่างมีนัยสำคัญ ⭐ ทราฟฟิกควบคุมที่วิ่งระหว่างคอนโทรลเลอร์กับอุปกรณ์มีปริมาณน้อยมากเมื่อเทียบกับทราฟฟิกผู้ใช้\nC. ตัวลวงที่ดี — คอนโทรลเลอร์ลดความผิดพลาดจากมนุษย์ได้จริง ⭐ แต่ไม่ได้ลดเหตุขัดข้องทางกายภาพ เช่น สายขาดหรืออุปกรณ์เสีย และคอนโทรลเลอร์เองก็อาจกลายเป็นจุดล้มเหลวจุดเดียว (single point of failure) ได้ถ้าไม่ทำ HA ⭐\nE. กล่าวถึงเรื่องต้นทุนซึ่งไม่ใช่ "ประโยชน์" ⭐ อีกทั้งยังบรรยายว่าคอนโทรลเลอร์ทำให้ค่าซอฟต์แวร์แพงขึ้น ซึ่งเป็นข้อเสียไม่ใช่ข้อดี\n\n📗 จำไว้สอบ: ประโยชน์ของ controller-based = รวมศูนย์ ⭐ + ลดความซับซ้อน ⭐ + สม่ำเสมอ ⭐ + เชื่อมกับระบบอื่นผ่าน API ⭐',
+  },
+  {
+    id: 728,
+    kind: 'single',
+    prompt: 'Which type of API allows SDN controllers to dynamically make changes to the network?',
+    options: [
+      { key: 'A', text: 'northbound API' },
+      { key: 'B', text: 'REST API' },
+      { key: 'C', text: 'SOAP API' },
+      { key: 'D', text: 'southbound API' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "SDN controllers ... make changes to the network" ⭐ คือคอนโทรลเลอร์เป็นผู้ส่งคำสั่ง "ลงไป" ยังอุปกรณ์ ซึ่งเป็นทิศทางของ southbound\n\n🧭 ทิศทางของ API ในสถาปัตยกรรม SDN\n┌─────────────────────┐\n│ Applications        │\n└──────────┬──────────┘\n  Northbound API ⭐ ← แอปสั่งงานคอนโทรลเลอร์\n┌──────────┴──────────┐\n│ SDN Controller      │\n└──────────┬──────────┘\n  Southbound API ⭐ ← คอนโทรลเลอร์สั่งงานอุปกรณ์ ⭐ ← คำตอบ\n┌──────────┴──────────┐\n│ Network Devices     │\n└─────────────────────┘\n\n⬇️ Southbound API ทำอะไรได้บ้าง\n• ส่งตาราง flow entry ลงไปยังสวิตช์ ⭐\n• เปลี่ยนเส้นทางการส่งต่อแบบทันทีทันใด ⭐\n• ผลักคอนฟิกและนโยบายลงไปยังอุปกรณ์ ⭐\n• รับข้อมูลสถิติและสถานะกลับขึ้นมา ⭐\n\n📊 โปรโตคอลที่ใช้เป็น southbound\nโปรโตคอล   ลักษณะเด่น\nOpenFlow ⭐ มาตรฐานเปิดจาก ONF ควบคุม flow table ได้โดยตรง ⭐\nNETCONF ⭐  ใช้ XML บน SSH จัดการคอนฟิกตามแบบจำลอง YANG ⭐\nRESTCONF ⭐ ใช้ HTTP/JSON เข้าถึงข้อมูล YANG แบบ RESTful ⭐\nOpFlex ⭐   ของ Cisco ใช้ใน ACI ส่ง "นโยบาย" ให้อุปกรณ์ตีความเอง ⭐\nSNMP/SSH   วิธีดั้งเดิมที่ยังใช้ได้ ⭐\n\n💡 ทำไมไม่ใช่ REST API\nREST เป็น "รูปแบบสถาปัตยกรรม" ไม่ใช่ทิศทาง ⭐\n→ REST มักถูกใช้เป็น northbound API ⭐ (เช่น DNA Center Intent API)\n→ แต่ก็ใช้เป็น southbound ได้ผ่าน RESTCONF ⭐\n→ คำถามถามถึง "ทิศทาง" ที่คอนโทรลเลอร์เปลี่ยนแปลงเครือข่าย จึงต้องตอบ southbound ⭐\n\n✅ ทำไม D ถูก: southbound API คือช่องทางที่คอนโทรลเลอร์ใช้ส่งคำสั่งลงไปยังสวิตช์และเราเตอร์เพื่อเปลี่ยนแปลงพฤติกรรมของเครือข่ายแบบทันทีทันใด\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงหลัก — northbound API เป็นทิศทางที่ "แอปพลิเคชันสั่งงานคอนโทรลเลอร์" ⭐ ไม่ใช่คอนโทรลเลอร์สั่งงานอุปกรณ์\nB. REST เป็นรูปแบบสถาปัตยกรรมของ API ไม่ใช่ทิศทาง ⭐ และมักถูกใช้เป็น northbound มากกว่า\nC. SOAP เป็นโปรโตคอลแลกเปลี่ยนข้อความรุ่นเก่าที่ใช้ XML และมีความเยิ่นเย้อสูง ⭐ ปัจจุบันถูกแทนที่ด้วย REST เกือบทั้งหมด\n\n📗 จำไว้สอบ: North = ขึ้นไปหาแอป (REST) ⭐ • South = ลงไปหาอุปกรณ์ (OpenFlow/NETCONF) ⭐',
+  },
+  {
+    id: 729,
+    kind: 'drag',
+    image: v4q729,
+    prompt: 'Drag and drop the AAA terms from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'tracks activity', items: ['accounting'] },
+      { name: 'updates session attributes', items: ['CoA'] },
+      { name: 'verifies access rights', items: ['authorization'] },
+      { name: 'verifies identity', items: ['authentication'] },
+    ],
+    explanation:
+      '📘 แนวคิด — นอกจาก AAA สามตัวแล้ว โจทย์นี้ยังเพิ่ม CoA ซึ่งเป็นกลไกที่ทำงานร่วมกันเข้ามาด้วย ⭐\n\n1️⃣ verifies identity → authentication ⭐\n"พิสูจน์ตัวตน" คือการตรวจสอบว่าผู้ที่อ้างตัวเป็นคนนั้นจริงหรือไม่ ⭐\nใช้หลักฐานจากสามหมวด คือสิ่งที่รู้ สิ่งที่มี และสิ่งที่เป็น ⭐\naaa authentication login default group tacacs+ local ⭐\n\n2️⃣ verifies access rights → authorization ⭐\n"ตรวจสอบสิทธิ์การเข้าถึง" คือการตัดสินว่าผู้ใช้ที่ยืนยันตัวตนแล้วนั้นเข้าถึงทรัพยากรใดหรือสั่งคำสั่งใดได้บ้าง ⭐\naaa authorization exec default group tacacs+ ⭐\n\n3️⃣ tracks activity → accounting ⭐\n"ติดตามกิจกรรม" คือการบันทึกว่าผู้ใช้ทำอะไรไปบ้าง ใช้ทรัพยากรเท่าไร และนานแค่ไหน ⭐\naaa accounting commands 15 default start-stop group tacacs+ ⭐\n\n4️⃣ updates session attributes → CoA ⭐\nCoA ย่อมาจาก Change of Authorization ⭐\n• กำหนดไว้ใน RFC 5176 เป็นส่วนขยายของ RADIUS ⭐\n• ปกติ RADIUS ทำงานแบบที่ไคลเอนต์ต้องถามก่อนเซิร์ฟเวอร์จึงตอบ ⭐\n• CoA ให้เซิร์ฟเวอร์ "ส่งคำสั่งกลับมาเอง" ไปยัง NAS เพื่อเปลี่ยนคุณลักษณะของเซสชันที่กำลังทำงานอยู่ ⭐ โดยไม่ต้องให้ผู้ใช้ตัดการเชื่อมต่อแล้วล็อกอินใหม่\n\n💡 ตัวอย่างการใช้ CoA ในงานจริง\nสถานการณ์: Cisco ISE ตรวจพบว่าเครื่องของพนักงานคนหนึ่งติดมัลแวร์ ⭐\n→ ISE ส่งข้อความ CoA ไปยังสวิตช์ที่เครื่องนั้นเชื่อมต่ออยู่ ⭐\n→ สวิตช์ย้ายพอร์ตนั้นเข้าสู่ quarantine VLAN ทันที ⭐\n→ ผู้ใช้ยังคงเชื่อมต่ออยู่ แต่ถูกจำกัดให้เข้าถึงได้เฉพาะเซิร์ฟเวอร์แก้ไขปัญหา ⭐\n→ เมื่อเครื่องถูกทำความสะอาดแล้ว ISE ส่ง CoA อีกครั้งเพื่อคืนสิทธิ์ ⭐\n\n📊 CoA ทำอะไรได้บ้าง\n• CoA-Request → เปลี่ยนคุณลักษณะของเซสชัน เช่น VLAN, ACL หรือ SGT ⭐\n• Disconnect-Request → ตัดเซสชันทิ้งทันที ⭐\n• Reauthenticate → บังคับให้ยืนยันตัวตนใหม่ ⭐\n\n📗 จำไว้สอบ: CoA เป็นส่วนขยายของ RADIUS ที่ให้เซิร์ฟเวอร์เปลี่ยนสิทธิ์ของเซสชันที่กำลังทำงานอยู่ได้ ⭐ เป็นหัวใจของระบบ Cisco ISE',
+  },
+  {
+    id: 730,
+    kind: 'single',
+    prompt: 'Which option about JSON is true?',
+    options: [
+      { key: 'A', text: 'uses predefined tags or angle brackets () to delimit markup text' },
+      { key: 'B', text: 'used to describe structured data that includes arrays' },
+      { key: 'C', text: 'used for storing information' },
+      { key: 'D', text: 'similar to HTML, it is more verbose than XML' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — JSON เป็นรูปแบบ "แลกเปลี่ยนข้อมูลที่มีโครงสร้าง" ⭐ และรองรับอาร์เรย์เป็นชนิดข้อมูลพื้นฐาน\n\n📊 ชนิดข้อมูลที่ JSON รองรับ\nชนิด      ตัวอย่าง               หมายเหตุ\nString ⭐  "SW1"                ต้องใช้อัญประกาศคู่ ⭐\nNumber ⭐  42 หรือ 3.14         ไม่ใส่อัญประกาศ ⭐\nBoolean ⭐ true หรือ false      ตัวพิมพ์เล็กทั้งหมด ⭐\nNull ⭐    null                 ตัวพิมพ์เล็ก ⭐\nObject ⭐  { "key": "value" }   ใช้ปีกกา ⭐\nArray ⭐   [ "a", "b", "c" ]    ใช้วงเล็บเหลี่ยม ⭐ ← จุดที่โจทย์เน้น\n\n🔍 ตัวอย่างที่แสดงทั้งอาร์เรย์และวัตถุซ้อนกัน\n{\n "device": "SW1",\n "vlans": [10, 20, 30], ⭐ อาร์เรย์ของตัวเลข\n "interfaces": [ ⭐ อาร์เรย์ของวัตถุ\n { "name": "Gi0/1", "status": "up" },\n { "name": "Gi0/2", "status": "down" }\n ],\n "managed": true\n}\n→ แสดงให้เห็นว่า JSON บรรยายข้อมูลที่มีโครงสร้างซับซ้อนและซ้อนกันหลายชั้นได้ ⭐\n\n📊 เปรียบเทียบ JSON กับ XML\nคุณสมบัติ       JSON ⭐              XML\nไวยากรณ์        ปีกกาและวงเล็บเหลี่ยม ⭐  แท็กเปิดปิด ⭐\nความยาว        กระชับกว่ามาก ⭐       เยิ่นเย้อกว่า ⭐\nรองรับอาร์เรย์    ✔ โดยกำเนิด ⭐        ต้องจำลองด้วยแท็กซ้ำ ⭐\nความเร็วในการแยกวิเคราะห์ เร็วกว่า ⭐    ช้ากว่า\nใช้กับ           REST API ⭐          NETCONF, SOAP ⭐\n\n✅ ทำไม B ถูก: JSON ถูกออกแบบมาเพื่อบรรยายข้อมูลที่มีโครงสร้าง และรองรับอาร์เรย์เป็นชนิดข้อมูลพื้นฐานในตัวเอง ซึ่งเป็นคำอธิบายที่ครบถ้วนและถูกต้องที่สุด\n\n❌ ทำไมข้ออื่นผิด:\nA. การใช้แท็กที่กำหนดไว้ล่วงหน้าหรือวงเล็บมุมเป็นลักษณะของ XML และ HTML ⭐ JSON ใช้ปีกกาและวงเล็บเหลี่ยมแทน\nC. ตัวลวงที่ดี — JSON เก็บข้อมูลได้จริง ⭐ แต่คำอธิบายนี้กว้างเกินไปจนใช้บรรยายรูปแบบไฟล์ใดก็ได้ ไม่ได้ระบุลักษณะเฉพาะของ JSON เลย\nD. ผิดสองชั้น — JSON ไม่ได้คล้าย HTML และ "กระชับกว่า" XML อย่างชัดเจน ไม่ใช่เยิ่นเย้อกว่า ⭐ ตัวเลือกนี้กล่าวตรงข้ามกับความจริง\n\n📗 จำไว้สอบ: JSON รองรับหกชนิดข้อมูล — string ⭐ number ⭐ boolean ⭐ null ⭐ object ⭐ array ⭐',
+  },
+  {
+    id: 731,
+    kind: 'single',
+    prompt: 'Which option best describes an API?',
+    options: [
+      { key: 'A', text: 'a contract that describes how various components communicate and exchange data with each other' },
+      { key: 'B', text: 'an architectural style (versus a protocol) for designing applications' },
+      { key: 'C', text: 'a stateless client-server model' },
+      { key: 'D', text: 'request a certain type of data by specifying the URL path that models the data' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — API ย่อมาจาก Application Programming Interface ⭐ เป็นคำนิยามกว้างที่ครอบคลุมทุกกลไกที่ให้ซอฟต์แวร์คุยกัน\n\n🤝 API คือ "สัญญา" อย่างไร\nAPI กำหนดข้อตกลงล่วงหน้าว่า ⭐\n• เรียกใช้ได้ที่ endpoint ไหน เช่น /dna/intent/api/v1/network-device ⭐\n• ใช้เมธอดอะไร เช่น GET, POST, PUT, DELETE ⭐\n• ต้องส่งพารามิเตอร์อะไรบ้างและในรูปแบบใด ⭐\n• จะได้รับข้อมูลกลับมาในโครงสร้างแบบไหน ⭐\n• รหัสสถานะที่เป็นไปได้มีอะไรบ้าง เช่น 200, 401, 404 ⭐\n→ ตราบใดที่ทั้งสองฝ่ายทำตามสัญญานี้ ก็เปลี่ยนโค้ดภายในได้อย่างอิสระโดยไม่กระทบกัน ⭐\n\n💡 อุปมาที่เข้าใจง่าย\nAPI เปรียบเหมือน "เมนูอาหารในร้าน" ⭐\n• เมนูบอกว่าสั่งอะไรได้บ้างและต้องบอกอย่างไร ⭐\n• คุณไม่จำเป็นต้องรู้ว่าครัวปรุงอย่างไร ⭐\n• ถ้าร้านเปลี่ยนเตาหรือเปลี่ยนพ่อครัว คุณก็ยังสั่งด้วยวิธีเดิมได้ ⭐\n\n📊 ทำไมตัวเลือกอื่นจึงเป็นคำตอบที่แคบเกินไป\nตัวเลือก B, C และ D ล้วนบรรยาย "REST" ซึ่งเป็นเพียง API หนึ่งประเภท ⭐\nประเภทของ API มีอีกมาก เช่น\n• SOAP API ⭐ ใช้ XML และมีสัญญาแบบ WSDL\n• gRPC ⭐ ใช้ protocol buffer ประสิทธิภาพสูง\n• GraphQL ⭐ ให้ไคลเอนต์ระบุได้ว่าต้องการฟิลด์ไหนบ้าง\n• Library API ⭐ เช่น ฟังก์ชันในไลบรารีของภาษาโปรแกรม\n→ ทั้งหมดนี้เป็น API แต่ไม่ใช่ REST ⭐\n\n✅ ทำไม A ถูก: คำว่า "สัญญาที่อธิบายวิธีที่องค์ประกอบต่าง ๆ สื่อสารและแลกเปลี่ยนข้อมูลกัน" เป็นนิยามที่กว้างพอจะครอบคลุม API ทุกประเภท และตรงกับความหมายที่แท้จริงของคำนี้\n\n❌ ทำไมข้ออื่นผิด:\nB. "รูปแบบสถาปัตยกรรมสำหรับออกแบบแอปพลิเคชัน" คือนิยามของ REST โดยเฉพาะ ⭐ ไม่ใช่ของ API ทั้งหมด\nC. "โมเดลไคลเอนต์-เซิร์ฟเวอร์แบบไร้สถานะ" คือหนึ่งในหลักการหกข้อของ REST ⭐ API หลายประเภทมีสถานะได้\nD. "ขอข้อมูลโดยระบุ URL path" คือลักษณะการทำงานของ RESTful API ⭐ ไม่ใช่ทุก API ที่ทำงานผ่าน URL\n\n📗 จำไว้สอบ: API = คำกว้าง ⭐ • REST = รูปแบบหนึ่งของ API ⭐ • อย่าสับสนสองคำนี้',
+  },
+  {
+    id: 732,
+    kind: 'drag',
+    image: v4q732,
+    prompt: 'Drag and drop the characteristics of a cloud environment from the left onto the correct examples on the right.',
+    categories: [
+      { name: 'One or more clients can be hosted with the same physical or virtual infrastructure', items: ['multitenancy'] },
+      { name: 'Resources can be added and removed as needed to support current workload and tasks', items: ['scalability'] },
+      { name: 'Tasks can be migrated to different physical locations to increase efficiency or reduce cost', items: ['workload movement'] },
+      { name: 'Resources are dedicated only when necessary instead of on a permanent basis', items: ['on-demand'] },
+      { name: 'Tasks and data residing on a failed server can be seamlessly migrated to other physical resources', items: ['resiliency'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ห้าคุณลักษณะพื้นฐานของสภาพแวดล้อมคลาวด์ตามนิยามของ NIST ⭐\n\n1️⃣ multitenancy (การใช้ทรัพยากรร่วมกันหลายผู้เช่า) ⭐\n"ลูกค้าหนึ่งรายหรือมากกว่าสามารถถูกโฮสต์อยู่บนโครงสร้างพื้นฐานทางกายภาพหรือเสมือนเดียวกัน"\n• ผู้ให้บริการใช้ฮาร์ดแวร์ชุดเดียวรองรับลูกค้าหลายราย ⭐\n• แต่ละรายถูกแยกออกจากกันด้วยเวอร์ชวลไลเซชันและ VLAN/VRF ⭐\n• ทำให้ต้นทุนต่อรายลดลงมาก เพราะแบ่งกันใช้ทรัพยากรเดียวกัน ⭐\n\n2️⃣ scalability (ความสามารถในการปรับขนาด) ⭐\n"เพิ่มหรือลดทรัพยากรได้ตามความต้องการเพื่อรองรับภาระงานปัจจุบัน"\n• Scale up ⭐ = เพิ่มสเปกให้เครื่องเดิม เช่น เพิ่ม CPU และ RAM\n• Scale out ⭐ = เพิ่มจำนวนเครื่อง เช่น จาก 2 เป็น 10 เซิร์ฟเวอร์\n• ตัวอย่าง: เว็บขายของเพิ่มเซิร์ฟเวอร์ช่วงเทศกาลลดราคา แล้วลดลงเมื่อผ่านไป ⭐\n\n3️⃣ workload movement (การย้ายภาระงาน) ⭐\n"งานสามารถถูกย้ายไปยังสถานที่ทางกายภาพอื่นเพื่อเพิ่มประสิทธิภาพหรือลดต้นทุน"\n• ย้าย VM ข้ามศูนย์ข้อมูลหรือข้ามภูมิภาคได้ ⭐\n• เหตุผลที่ย้าย เช่น ย้ายไปใกล้ผู้ใช้เพื่อลดความหน่วง หรือย้ายไปภูมิภาคที่ค่าไฟถูกกว่า ⭐\n• เทคโนโลยีที่รองรับ: VMware vMotion, live migration ⭐\n\n4️⃣ on-demand (ตามความต้องการ) ⭐\n"ทรัพยากรถูกจัดสรรเฉพาะเมื่อจำเป็น แทนที่จะจองไว้อย่างถาวร"\n• ลูกค้าสั่งเปิดเครื่องเสมือนเองได้ทันทีผ่านพอร์ทัลโดยไม่ต้องติดต่อใคร ⭐\n• จ่ายตามที่ใช้จริง (pay-as-you-go) ⭐\n• ต่างจากศูนย์ข้อมูลแบบเดิมที่ต้องซื้อเซิร์ฟเวอร์เผื่อไว้ล่วงหน้าหลายเดือน ⭐\n\n5️⃣ resiliency (ความทนทานต่อความล้มเหลว) ⭐\n"งานและข้อมูลที่อยู่บนเซิร์ฟเวอร์ที่ล้มเหลว สามารถถูกย้ายไปยังทรัพยากรทางกายภาพอื่นได้อย่างราบรื่น"\n• เมื่อเซิร์ฟเวอร์เสีย VM จะถูกย้ายไปรันบนเครื่องอื่นโดยอัตโนมัติ ⭐\n• เทคโนโลยีที่รองรับ: VMware HA, availability zone, การจำลองข้อมูลข้ามที่ตั้ง ⭐\n\n💡 จุดที่สับสนง่ายที่สุด\nscalability = "ปรับขนาดตามภาระงาน" ⭐\non-demand = "จัดสรรเมื่อจำเป็นและจ่ายตามใช้" ⭐\nworkload movement = "ย้ายเพื่อประสิทธิภาพหรือต้นทุน" ⭐\nresiliency = "ย้ายเพราะเครื่องเสีย" ⭐\n→ สังเกตคำว่า failed server ในข้อ 5 ซึ่งแยก resiliency ออกจาก workload movement ได้ชัดเจน ⭐\n\n📗 จำไว้สอบ: คำสำคัญบอกใบ้ — same infrastructure = multitenancy ⭐ • added/removed = scalability ⭐ • failed server = resiliency ⭐',
+  },
+  {
+    id: 733,
+    kind: 'single',
+    prompt: 'Which of the following is the JSON encoding of a dictionary or hash?',
+    options: [
+      { key: 'A', text: '{"key": "value"}' },
+      { key: 'B', text: '["key", "value"]' },
+      { key: 'C', text: '{"key", "value"}' },
+      { key: 'D', text: '("key": "value")' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — dictionary หรือ hash คือโครงสร้างข้อมูลแบบ "คู่คีย์กับค่า" ⭐ ซึ่งใน JSON แทนด้วย object ที่ใช้ปีกกา\n\n📊 การจับคู่ระหว่างชื่อเรียกในแต่ละภาษา\nภาษา/รูปแบบ   ชื่อเรียกโครงสร้างคู่คีย์-ค่า\nPython ⭐      dictionary (dict) ⭐\nRuby ⭐        hash ⭐\nJavaScript ⭐  object ⭐\nJSON ⭐        object ⭐ ใช้ปีกกา { } ⭐\n→ ทั้งหมดคือแนวคิดเดียวกัน เพียงเรียกชื่อต่างกัน ⭐\n\n🔤 ไวยากรณ์ที่ถูกต้อง\n{ "key": "value" } ⭐\n① ปีกกา { } ครอบทั้งหมด ⭐ บ่งบอกว่าเป็น object\n② คีย์อยู่ในอัญประกาศคู่ ⭐\n③ โคลอน ( : ) คั่นระหว่างคีย์กับค่า ⭐\n④ ค่าอยู่ในอัญประกาศคู่ถ้าเป็น string ⭐\n\n🔍 วิเคราะห์ตัวเลือกที่ผิด\nB. ["key", "value"] ⭐\n→ ใช้วงเล็บเหลี่ยมซึ่งหมายถึง "array" ไม่ใช่ object ⭐\n→ นี่คือรายการที่มีสมาชิกสองตัวคือ "key" และ "value" ไม่ได้จับคู่กันแต่อย่างใด ⭐\n\nC. {"key", "value"} ⭐\n→ ใช้ปีกกาถูกต้อง แต่คั่นด้วยจุลภาคแทนโคลอน ⭐\n→ JSON จะแยกวิเคราะห์ไม่ผ่านทันที เพราะไม่รู้ว่าตัวไหนเป็นคีย์ตัวไหนเป็นค่า ⭐\n\nD. ("key": "value") ⭐\n→ ใช้วงเล็บกลมซึ่ง "ไม่มีความหมายใด ๆ ในไวยากรณ์ JSON เลย" ⭐\n→ JSON รู้จักเพียงปีกกาสำหรับ object และวงเล็บเหลี่ยมสำหรับ array ⭐\n\n💡 ตัวอย่างที่ซับซ้อนขึ้น\n{\n "hostname": "R1", ⭐ คู่คีย์-ค่าแบบ string\n "uptime": 48720, ⭐ คู่คีย์-ค่าแบบ number\n "interfaces": ["Gi0/1", "Gi0/2"], ⭐ ค่าเป็น array\n "location": { "site": "HQ", "floor": 3 } ⭐ ค่าเป็น object ซ้อนอีกชั้น\n}\n\n✅ ทำไม A ถูก: {"key": "value"} ใช้ปีกกาซึ่งแทน object และใช้โคลอนคั่นคีย์กับค่า ตรงตามไวยากรณ์ของ JSON สำหรับโครงสร้างแบบ dictionary หรือ hash\n\n📗 จำไว้สอบ: ปีกกา { } = object/dictionary ⭐ • วงเล็บเหลี่ยม [ ] = array/list ⭐ • โคลอน : คั่นคีย์กับค่าเสมอ ⭐',
+  },
+  {
+    id: 734,
+    kind: 'single',
+    prompt: 'Which role does a hypervisor provide for each virtual machine in server virtualization?',
+    options: [
+      { key: 'A', text: 'infrastructure-as-a-service' },
+      { key: 'B', text: 'Software-as-a-service' },
+      { key: 'C', text: 'control and distribution of physical resources' },
+      { key: 'D', text: 'services as a hardware controller' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — hypervisor เป็นซอฟต์แวร์ชั้นกลางที่ทำหน้าที่ "ควบคุมและแบ่งปันทรัพยากรทางกายภาพ" ให้เครื่องเสมือนแต่ละตัว ⭐\n\n⚙️ hypervisor แบ่งอะไรบ้าง\n1️⃣ CPU ⭐\n• จัดตารางเวลาให้ vCPU ของแต่ละ VM ได้ใช้แกนประมวลผลจริงสลับกันไป ⭐\n• VM มองเห็นเสมือนว่ามีซีพียูของตัวเอง ⭐\n\n2️⃣ หน่วยความจำ ⭐\n• จองพื้นที่ RAM ให้แต่ละ VM และแยกออกจากกันอย่างเด็ดขาด ⭐\n• VM หนึ่งไม่สามารถอ่านหน่วยความจำของอีก VM ได้ ⭐\n• เทคนิคขั้นสูง เช่น ballooning และ page sharing ช่วยให้จองเกินจริงได้ ⭐\n\n3️⃣ สตอเรจ ⭐\n• สร้างดิสก์เสมือนที่แท้จริงคือไฟล์บนดิสก์จริง เช่น .vmdk หรือ .vhdx ⭐\n\n4️⃣ เครือข่าย ⭐\n• สร้าง vNIC ให้แต่ละ VM และ vSwitch เพื่อเชื่อมออกสู่ NIC จริง ⭐\n\n🛡️ หน้าที่สำคัญอีกอย่างคือการแยกส่วน (isolation)\n• VM แต่ละตัวทำงานแยกจากกันโดยสมบูรณ์ ⭐\n• VM หนึ่งค้างหรือถูกเจาะ ไม่กระทบตัวอื่นเลย ⭐\n• สามารถรัน Windows, Linux และ IOS-XE พร้อมกันบนเครื่องเดียวได้ ⭐\n\n📊 สองประเภทของ hypervisor\nType 1 (bare metal) ⭐\n• ติดตั้งลงบนฮาร์ดแวร์โดยตรง ไม่มีระบบปฏิบัติการรองอยู่ข้างใต้ ⭐\n• ตัวอย่าง: VMware ESXi, Microsoft Hyper-V, KVM, Citrix XenServer ⭐\n• ประสิทธิภาพสูง ใช้ในศูนย์ข้อมูล ⭐\n\nType 2 (hosted) ⭐\n• ติดตั้งเป็นโปรแกรมบนระบบปฏิบัติการอีกทีหนึ่ง ⭐\n• ตัวอย่าง: VirtualBox, VMware Workstation, Parallels ⭐\n• สะดวกสำหรับการทดสอบบนเครื่องส่วนตัว แต่ประสิทธิภาพต่ำกว่า ⭐\n\n✅ ทำไม C ถูก: การควบคุมและกระจายทรัพยากรทางกายภาพ ทั้ง CPU หน่วยความจำ สตอเรจ และเครือข่าย ไปยังเครื่องเสมือนแต่ละตัว คือบทบาทหลักของ hypervisor\n\n❌ ทำไมข้ออื่นผิด:\nA. IaaS เป็น "รูปแบบบริการคลาวด์" ที่ผู้ให้บริการเสนอขาย ⭐ hypervisor เป็นเพียงเทคโนโลยีเบื้องหลังที่ทำให้ IaaS เป็นไปได้ แต่ตัวมันเองไม่ใช่บริการ\nB. SaaS คือการให้บริการซอฟต์แวร์สำเร็จรูปผ่านเบราว์เซอร์ ⭐ ไม่เกี่ยวข้องกับหน้าที่ของ hypervisor เลย\nD. ตัวลวงที่ดี — hypervisor "จัดการ" ทรัพยากรฮาร์ดแวร์ก็จริง ⭐ แต่ hardware controller หมายถึงวงจรควบคุมอุปกรณ์ระดับล่าง เช่น RAID controller หรือ disk controller ซึ่งเป็นฮาร์ดแวร์คนละอย่าง\n\n📗 จำไว้สอบ: Hypervisor = แบ่งและควบคุมทรัพยากรจริงให้ VM ⭐ • Type 1 บนฮาร์ดแวร์ ⭐ • Type 2 บนระบบปฏิบัติการ ⭐',
+  },
+  {
+    id: 735,
+    kind: 'single',
+    prompt: 'What is the function of a server?',
+    options: [
+      { key: 'A', text: 'It transmits packets between hosts in the same broadcast domain.' },
+      { key: 'B', text: 'It provides shared applications to end users.' },
+      { key: 'C', text: 'It routes traffic between Layer 3 devices.' },
+      { key: 'D', text: 'It creates security zones between trusted and untrusted networks.' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — เซิร์ฟเวอร์คืออุปกรณ์ที่ "ให้บริการ" แก่ไคลเอนต์หลายรายพร้อมกัน ⭐ ไม่ใช่อุปกรณ์เครือข่ายที่ส่งต่อทราฟฟิก\n\n🖥️ หน้าที่ของเซิร์ฟเวอร์\n• รันแอปพลิเคชันและบริการที่ผู้ใช้หลายคนเรียกใช้ร่วมกัน ⭐\n• รับคำขอจากไคลเอนต์หลายรายพร้อมกันแล้วตอบกลับ ⭐\n• จัดเก็บและให้บริการข้อมูลจากส่วนกลาง ⭐\n\n📊 ประเภทของเซิร์ฟเวอร์ที่พบบ่อย\nประเภท           บริการที่ให้\nWeb server ⭐     หน้าเว็บผ่าน HTTP/HTTPS ⭐\nFile server ⭐    ไฟล์ที่ใช้ร่วมกันผ่าน SMB หรือ NFS ⭐\nEmail server ⭐   อีเมลผ่าน SMTP, POP3, IMAP ⭐\nDatabase server ⭐ ข้อมูลผ่าน SQL ⭐\nDNS server ⭐     แปลงชื่อโดเมนเป็นที่อยู่ IP ⭐\nDHCP server ⭐    แจกที่อยู่ IP อัตโนมัติ ⭐\nApplication server ⭐ แอปพลิเคชันขององค์กร เช่น ERP ⭐\n\n💡 ลักษณะที่ทำให้ต่างจากเครื่องผู้ใช้ทั่วไป\n• ออกแบบให้ทำงานต่อเนื่อง 24 ชั่วโมงตลอดปี ⭐\n• มีชิ้นส่วนสำรอง เช่น พาวเวอร์ซัพพลายคู่และ RAID ⭐\n• รองรับการเชื่อมต่อพร้อมกันจำนวนมาก ⭐\n• มักตั้งอยู่ในศูนย์ข้อมูลที่ควบคุมอุณหภูมิและความปลอดภัย ⭐\n\n✅ ทำไม B ถูก: การให้บริการแอปพลิเคชันที่ผู้ใช้ปลายทางเรียกใช้ร่วมกันคือนิยามและเหตุผลของการมีอยู่ของเซิร์ฟเวอร์\n\n❌ ทำไมข้ออื่นผิด:\nA. การส่งต่อแพ็กเก็ตระหว่างโฮสต์ในโดเมนบรอดแคสต์เดียวกันคือหน้าที่ของ "สวิตช์" ⭐\nC. การส่งต่อทราฟฟิกระหว่างอุปกรณ์ Layer 3 คือหน้าที่ของ "เราเตอร์" ⭐\nD. การสร้างโซนความปลอดภัยระหว่างเครือข่ายที่เชื่อถือได้กับที่เชื่อถือไม่ได้คือหน้าที่ของ "ไฟร์วอลล์" ⭐\n\n📗 จำไว้สอบ: Server = ให้บริการ ⭐ • Switch = ส่งต่อในโดเมนเดียวกัน ⭐ • Router = ส่งต่อข้ามเครือข่าย ⭐ • Firewall = แบ่งโซน ⭐',
+  },
+  {
+    id: 736,
+    kind: 'single',
+    prompt: 'Which CRUD operation modifies an existing table or view?',
+    options: [
+      { key: 'A', text: 'read' },
+      { key: 'B', text: 'update' },
+      { key: 'C', text: 'replace' },
+      { key: 'D', text: 'create' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — CRUD คือชุดปฏิบัติการพื้นฐานสี่อย่างที่ใช้กับข้อมูลถาวร ⭐ ซึ่งจับคู่กับเมธอดของ HTTP ในงาน REST API\n\n📊 ตาราง CRUD ที่ต้องจำ\nCRUD ⭐    HTTP Method ⭐   SQL ⭐     ความหมาย\nCreate ⭐  POST ⭐          INSERT ⭐  สร้างข้อมูลใหม่ ⭐\nRead ⭐    GET ⭐           SELECT ⭐  อ่านข้อมูลโดยไม่แก้ไข ⭐\nUpdate ⭐  PUT / PATCH ⭐   UPDATE ⭐  แก้ไขข้อมูลที่มีอยู่แล้ว ⭐ ← คำตอบ\nDelete ⭐  DELETE ⭐        DELETE ⭐  ลบข้อมูล ⭐\n\n🔧 ความต่างระหว่าง PUT กับ PATCH\nPUT ⭐ → แทนที่ทรัพยากรทั้งชิ้น ต้องส่งข้อมูลครบทุกฟิลด์ ⭐\nPATCH ⭐ → แก้ไขเฉพาะบางฟิลด์ ส่งเฉพาะส่วนที่เปลี่ยน ⭐\n\nตัวอย่าง\n// PUT — ต้องส่งครบ\nPUT /api/devices/1\n{ "hostname": "SW1-NEW", "location": "HQ", "vlan": 10 }\n\n// PATCH — ส่งเฉพาะที่เปลี่ยน\nPATCH /api/devices/1\n{ "hostname": "SW1-NEW" } ⭐\n\n💡 การใช้งานจริงกับ Cisco DNA Center\nCreate → POST /dna/intent/api/v1/network-device ⭐ เพิ่มอุปกรณ์ใหม่เข้าระบบ\nRead → GET /dna/intent/api/v1/network-device ⭐ ดึงรายการอุปกรณ์ทั้งหมด\nUpdate → PUT /dna/intent/api/v1/network-device ⭐ แก้ไขข้อมูลอุปกรณ์เดิม\nDelete → DELETE /dna/intent/api/v1/network-device/{id} ⭐ ถอดอุปกรณ์ออก\n\n✅ ทำไม B ถูก: update คือปฏิบัติการที่แก้ไขข้อมูลซึ่งมีอยู่แล้วให้เปลี่ยนไปตามที่ต้องการ ตรงกับคำว่า modifies an existing ในโจทย์\n\n❌ ทำไมข้ออื่นผิด:\nA. read เป็นการอ่านข้อมูลออกมาดูเท่านั้น ไม่มีการเปลี่ยนแปลงใด ๆ ⭐\nC. ตัวลวงที่ดี — replace ไม่ใช่หนึ่งในสี่ปฏิบัติการของ CRUD ⭐ แม้เมธอด PUT จะมีพฤติกรรมคล้ายการแทนที่ก็ตาม แต่ชื่อที่ถูกต้องในกรอบ CRUD คือ update\nD. create เป็นการสร้างข้อมูลใหม่ที่ยังไม่เคยมี ⭐ ไม่ใช่การแก้ไขของเดิม\n\n📗 จำไว้สอบ: CRUD = Create/Read/Update/Delete ⭐ ตรงกับ POST/GET/PUT/DELETE ⭐ ท่องคู่นี้ให้ขึ้นใจ',
+  },
+  {
+    id: 737,
+    kind: 'single',
+    prompt: 'In software-defined architectures, which plane is distributed and responsible for traffic forwarding?',
+    options: [
+      { key: 'A', text: 'management plane' },
+      { key: 'B', text: 'policy plane' },
+      { key: 'C', text: 'data plane' },
+      { key: 'D', text: 'control plane' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — โจทย์ให้เบาะแสสองคำที่ชี้ไปยังคำตอบเดียวกัน คือ "distributed" (กระจาย) และ "traffic forwarding" (ส่งต่อทราฟฟิก) ⭐\n\n🏗️ ระนาบใดกระจาย ระนาบใดรวมศูนย์\nระนาบ            ใน SDN อยู่ที่ไหน\nControl plane ⭐  รวมศูนย์ที่คอนโทรลเลอร์ ⭐\nData plane ⭐     กระจายอยู่บนอุปกรณ์ทุกตัว ⭐ ← คำตอบ\nManagement plane รวมศูนย์ที่คอนโทรลเลอร์เช่นกัน ⭐\n\n⚡ ทำไม data plane จึงต้องกระจาย\n1️⃣ ความเร็ว ⭐\nการส่งต่อแพ็กเก็ตต้องทำที่ระดับฮาร์ดแวร์ ASIC เพื่อให้ได้ความเร็วระดับสายส่ง ⭐\n→ สวิตช์สมัยใหม่ส่งต่อได้หลายพันล้านแพ็กเก็ตต่อวินาที ⭐\n\n2️⃣ ความหน่วง ⭐\nถ้าต้องส่งทุกแพ็กเก็ตไปถามคอนโทรลเลอร์ก่อน จะเกิดความหน่วงมหาศาลจนใช้งานไม่ได้ ⭐\n\n3️⃣ ความทนทาน ⭐\nถ้าคอนโทรลเลอร์ล่ม อุปกรณ์ยังคงส่งต่อทราฟฟิกตามตารางที่ได้รับมาก่อนหน้าได้ ⭐\n→ เครือข่ายไม่หยุดทำงานทันที เพียงแต่ไม่สามารถเปลี่ยนแปลงเส้นทางใหม่ได้\n\n🔧 data plane ทำอะไรบ้าง\n• ค้นหาปลายทางใน FIB แล้วส่งออกอินเทอร์เฟซที่ถูกต้อง ⭐\n• ค้นหา MAC address ในตาราง CAM ⭐\n• ใส่และถอดแท็ก 802.1Q ⭐\n• บังคับใช้ ACL และจัดคิวตามนโยบาย QoS ⭐\n• ทำ NAT และการแปลงที่อยู่ ⭐\n• ทิ้งแพ็กเก็ตที่ TTL หมดอายุ ⭐\n\n💡 อุปมาที่จำง่าย\nControl plane = สมองที่วางแผนเส้นทาง ⭐ (รวมศูนย์ใน SDN)\nData plane = ขาที่เดินตามแผนนั้น ⭐ (ต้องมีอยู่ทุกจุด)\n\n✅ ทำไม C ถูก: data plane เป็นระนาบที่ทำหน้าที่ส่งต่อทราฟฟิกจริงและยังคงกระจายอยู่บนอุปกรณ์ทุกตัวแม้ในสถาปัตยกรรมแบบ software-defined เพราะการส่งต่อต้องเกิดขึ้นที่ฮาร์ดแวร์เพื่อความเร็ว\n\n❌ ทำไมข้ออื่นผิด:\nA. management plane ดูแลการเข้าถึงเพื่อบริหารจัดการ เช่น SSH และ SNMP ⭐ และถูกรวมศูนย์ในสถาปัตยกรรม SDN\nB. policy plane ไม่ใช่ระนาบมาตรฐาน ⭐ มีเพียงสามระนาบคือ control, data และ management\nD. ตัวลวงหลัก — control plane เป็นระนาบที่ถูก "รวมศูนย์" ในสถาปัตยกรรม SDN ⭐ ซึ่งตรงข้ามกับคำว่า distributed ในโจทย์ และมันสร้างตารางแต่ไม่ได้ส่งต่อแพ็กเก็ตเอง\n\n📗 จำไว้สอบ: SDN รวมศูนย์ control plane ⭐ แต่ data plane ยังกระจายอยู่บนอุปกรณ์เสมอ ⭐',
+  },
+  {
+    id: 738,
+    kind: 'single',
+    image: v4q738,
+    prompt: 'Refer to the exhibit. Which type of configuration is represented in the output?',
+    options: [
+      { key: 'A', text: 'Ansible' },
+      { key: 'B', text: 'JSON' },
+      { key: 'C', text: 'Chef' },
+      { key: 'D', text: 'Puppet' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องจำ "ลายเซ็นทางไวยากรณ์" ของแต่ละเครื่องมือให้ได้ ⭐ ตัวชี้ขาดของข้อนี้คือลูกศรอ้วน =>\n\n🔍 อ่าน exhibit\ncisco_ospf_vrf { "R1 default":\n ensure => \'present\', ⭐ ← ลูกศรอ้วน\n auto_cost => \'100\', ⭐\n}\n\n🎯 ลายเซ็นที่ชี้ไปยัง Puppet\n1️⃣ ลูกศรอ้วน => ⭐ ← ตัวชี้ขาด\nเป็นตัวดำเนินการเฉพาะของ Puppet DSL ที่ใช้กำหนดค่าให้แอตทริบิวต์ ⭐\nไม่มีในภาษาใดอีกเลยในบรรดาตัวเลือก\n\n2️⃣ รูปแบบการประกาศทรัพยากร ⭐\nresource_type { \'title\':\n attribute => value,\n}\n→ ตรงกับโครงสร้างของ exhibit ทุกประการ ⭐\n\n3️⃣ คีย์เวิร์ด ensure ⭐\nเป็นแอตทริบิวต์มาตรฐานของ Puppet ที่ระบุ "สถานะที่ต้องการ" ⭐\nค่าที่ใช้บ่อยคือ present, absent, running, stopped ⭐\n→ สะท้อนแนวคิด declarative ที่บอกว่า "อยากให้เป็นอย่างไร" ไม่ใช่ "ทำอย่างไร" ⭐\n\n📊 ลายเซ็นของแต่ละเครื่องมือ\nเครื่องมือ  ลายเซ็นที่สังเกตได้\nAnsible ⭐   YAML — ขึ้นต้นด้วย --- ใช้ยัติภังค์นำหน้ารายการและโคลอนคั่นคีย์-ค่า ⭐\n - name: Configure OSPF\n ios_config:\nPuppet ⭐    ลูกศรอ้วน => และปีกกาครอบทรัพยากร ⭐ ← exhibit นี้\nChef ⭐      Ruby — ใช้ do ... end และ block ⭐\n cisco_ospf "R1" do\n action :create\n end\nJSON ⭐      โคลอนคั่นคีย์-ค่า จุลภาคคั่นสมาชิก คีย์อยู่ในอัญประกาศคู่ทั้งหมด ⭐\n\n✅ ทำไม D ถูก: ลูกศรอ้วน => คู่กับรูปแบบการประกาศทรัพยากรและคีย์เวิร์ด ensure เป็นไวยากรณ์เฉพาะของ Puppet manifest อย่างชัดเจน\n\n❌ ทำไมข้ออื่นผิด:\nA. Ansible เขียนด้วย YAML ซึ่งใช้การเยื้องบรรทัดกำหนดโครงสร้างและใช้โคลอนคั่นคีย์กับค่า ⭐ ไม่มีปีกกาและไม่มีลูกศร\nB. JSON ต้องใช้โคลอนคั่นคีย์กับค่าเสมอ ⭐ ไม่มีลูกศร => ในไวยากรณ์เลย และคีย์ทุกตัวต้องอยู่ในอัญประกาศคู่\nC. Chef เขียนด้วย Ruby ซึ่งใช้บล็อก do ... end ⭐ และไม่ใช้ลูกศรอ้วนในรูปแบบนี้ ตัวลวงที่ดี\n\n📗 จำไว้สอบ: เห็น => ให้นึกถึง Puppet ⭐ • เห็น --- และการเยื้องบรรทัด ให้นึกถึง Ansible/YAML ⭐ • เห็น do...end ให้นึกถึง Chef/Ruby ⭐',
+  },
+  {
+    id: 739,
+    kind: 'single',
+    prompt: 'Which configuration management mechanism uses TCP port 22 by default when communicating with managed nodes?',
+    options: [
+      { key: 'A', text: 'Ansible' },
+      { key: 'B', text: 'Python' },
+      { key: 'C', text: 'Puppet' },
+      { key: 'D', text: 'Chef' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — TCP พอร์ต 22 คือพอร์ตของ SSH ⭐ และ Ansible เป็นเครื่องมือเดียวในตัวเลือกที่ใช้ SSH เป็นช่องทางหลัก\n\n📊 พอร์ตที่แต่ละเครื่องมือใช้\nเครื่องมือ    พอร์ต            ต้องติดตั้ง agent?\nAnsible ⭐    TCP 22 (SSH) ⭐   ✘ Agentless ⭐ ← คำตอบ\nPuppet ⭐     TCP 8140 ⭐       ✔ ต้องมี Puppet agent ⭐\nChef ⭐       TCP 10002 ⭐      ✔ ต้องมี Chef client ⭐\nSaltStack    TCP 4505/4506 ⭐  ✔ ต้องมี Salt minion ⭐\n\n🌟 จุดเด่นที่สุดของ Ansible คือ agentless\nไม่ต้องติดตั้งซอฟต์แวร์ใด ๆ บนอุปกรณ์ปลายทางเลย ⭐\nต้องการเพียงสองอย่าง\n① SSH ที่เปิดใช้งานอยู่ ⭐\n② Python บนเครื่องปลายทาง (สำหรับเซิร์ฟเวอร์ Linux) ⭐\n→ สำหรับอุปกรณ์เครือข่าย Ansible ใช้โหมด network_cli ที่ส่งคำสั่งผ่าน SSH โดยตรง จึงไม่ต้องมี Python บนสวิตช์เลย ⭐\n\n💡 ทำไม agentless จึงสำคัญมากในงานเครือข่าย\nสวิตช์และเราเตอร์เป็นระบบปิดที่ติดตั้งซอฟต์แวร์เพิ่มไม่ได้ ⭐\n→ Puppet และ Chef จึงใช้กับอุปกรณ์เครือข่ายได้ยาก เพราะต้องมี agent\n→ Ansible จึงกลายเป็นเครื่องมือยอดนิยมอันดับหนึ่งสำหรับ network automation ⭐\n\n🔧 ตัวอย่าง Ansible playbook สำหรับอุปกรณ์ Cisco\n---\n- name: Configure VLAN\n hosts: switches\n gather_facts: no\n tasks:\n - name: Create VLAN 10\n ios_vlan:\n vlan_id: 10\n name: SALES ⭐\n\n📊 รูปแบบการทำงาน push เทียบกับ pull\nAnsible ⭐ → Push model ⭐ เครื่องควบคุมผลักคอนฟิกไปยังอุปกรณ์เมื่อสั่งรัน\nPuppet ⭐ → Pull model ⭐ agent บนอุปกรณ์ดึงคอนฟิกจาก master เป็นระยะทุก 30 นาที\n\n✅ ทำไม A ถูก: Ansible ใช้ SSH บน TCP พอร์ต 22 เป็นช่องทางสื่อสารกับ managed node ทั้งหมด และไม่ต้องติดตั้ง agent ใด ๆ ซึ่งเป็นเอกลักษณ์ที่แยกมันออกจากเครื่องมืออื่น\n\n❌ ทำไมข้ออื่นผิด:\nB. Python เป็น "ภาษาโปรแกรม" ไม่ใช่เครื่องมือจัดการคอนฟิก ⭐ แม้ Ansible จะเขียนด้วย Python ก็ตาม\nC. Puppet ใช้ TCP พอร์ต 8140 และต้องติดตั้ง agent บนอุปกรณ์ปลายทาง ⭐\nD. Chef ใช้ TCP พอร์ต 10002 สำหรับงาน push และต้องติดตั้ง Chef client ⭐\n\n📗 จำไว้สอบ: Ansible = SSH 22 + agentless + push ⭐ • Puppet = 8140 + agent + pull ⭐ • Chef = 10002 + agent ⭐',
+  },
+  {
+    id: 740,
+    kind: 'single',
+    prompt: 'What does an SDN controller use as a communication protocol to relay forwarding changes to a southbound API?',
+    options: [
+      { key: 'A', text: 'Java' },
+      { key: 'B', text: 'REST' },
+      { key: 'C', text: 'OpenFlow' },
+      { key: 'D', text: 'XML' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — OpenFlow เป็นโปรโตคอล southbound มาตรฐานที่คอนโทรลเลอร์ใช้ส่ง "การเปลี่ยนแปลงการส่งต่อ" ลงไปยังอุปกรณ์โดยตรง ⭐\n\n🔧 OpenFlow ทำงานอย่างไร\n1. คอนโทรลเลอร์เชื่อมต่อกับสวิตช์ผ่าน TCP พอร์ต 6653 ⭐ (เดิมใช้ 6633)\n2. คอนโทรลเลอร์ส่งข้อความ Flow-Mod ลงไปเพื่อเพิ่ม แก้ไข หรือลบรายการใน flow table ⭐\n3. สวิตช์นำรายการเหล่านั้นไปใช้ส่งต่อแพ็กเก็ตทันที ⭐\n\n📊 โครงสร้างของ flow entry\nส่วนประกอบ      หน้าที่\nMatch fields ⭐  เงื่อนไขที่ใช้จับแพ็กเก็ต เช่น MAC, IP, พอร์ต, VLAN ⭐\nPriority ⭐      ลำดับความสำคัญเมื่อมีหลายรายการที่ตรงกัน ⭐\nCounters ⭐      นับจำนวนแพ็กเก็ตและไบต์ที่ตรงกับรายการนี้ ⭐\nInstructions ⭐  สิ่งที่ต้องทำ เช่น forward ออกพอร์ตใด, drop, หรือแก้ไขส่วนหัว ⭐\nTimeouts ⭐      อายุของรายการก่อนถูกลบอัตโนมัติ ⭐\n\n💡 สิ่งที่ทำให้ OpenFlow แตกต่าง\nOpenFlow เข้าไปควบคุม "flow table ในฮาร์ดแวร์" ของสวิตช์โดยตรง ⭐\n→ ไม่ได้ส่งคำสั่งคอนฟิกแบบที่ NETCONF ทำ ⭐\n→ จึงเปลี่ยนพฤติกรรมการส่งต่อได้ทันทีในระดับมิลลิวินาที ⭐\n→ เป็นมาตรฐานเปิดที่ดูแลโดย Open Networking Foundation (ONF) ⭐\n\n📊 โปรโตคอล southbound อื่น ๆ\nโปรโตคอล    ใช้ทำอะไร\nOpenFlow ⭐  ควบคุม flow table โดยตรง ⭐ ← คำตอบ\nNETCONF ⭐   จัดการคอนฟิกด้วย XML บน SSH ตามแบบจำลอง YANG ⭐\nRESTCONF ⭐  เข้าถึงข้อมูล YANG แบบ RESTful ด้วย HTTP/JSON ⭐\nOpFlex ⭐    ของ Cisco ใช้ใน ACI ส่ง "นโยบาย" ให้อุปกรณ์ตีความเอง ⭐\nSNMP/SSH ⭐  วิธีดั้งเดิมที่ยังใช้ได้อยู่ ⭐\n\n✅ ทำไม C ถูก: OpenFlow เป็นโปรโตคอลสื่อสารที่คอนโทรลเลอร์ SDN ใช้ส่งการเปลี่ยนแปลงตารางการส่งต่อลงไปยังอุปกรณ์ผ่านช่องทาง southbound โดยเฉพาะ\n\n❌ ทำไมข้ออื่นผิด:\nA. Java เป็นภาษาโปรแกรม ⭐ ไม่ใช่โปรโตคอลสื่อสาร (แม้คอนโทรลเลอร์บางตัวจะเขียนด้วย Java ก็ตาม)\nB. ตัวลวงหลัก — REST เป็นรูปแบบสถาปัตยกรรมที่มักใช้เป็น northbound API ⭐ คือระหว่างแอปพลิเคชันกับคอนโทรลเลอร์ ไม่ใช่ระหว่างคอนโทรลเลอร์กับอุปกรณ์\nD. XML เป็นรูปแบบการเข้ารหัสข้อมูล ⭐ ไม่ใช่โปรโตคอล แม้ NETCONF จะใช้ XML เป็นรูปแบบข้อมูลก็ตาม\n\n📗 จำไว้สอบ: OpenFlow = TCP 6653 ⭐ • ควบคุม flow table โดยตรง ⭐ • เป็น southbound มาตรฐานเปิดจาก ONF ⭐',
+  },
+  {
+    id: 741,
+    kind: 'single',
+    prompt: 'What uses HTTP messages to transfer data to applications residing on different hosts?',
+    options: [
+      { key: 'A', text: 'OpenStack' },
+      { key: 'B', text: 'OpFlex' },
+      { key: 'C', text: 'REST' },
+      { key: 'D', text: 'OpenFlow' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — REST ถูกออกแบบมาให้ทำงาน "บน HTTP โดยตรง" ⭐ จึงใช้เมธอดและรหัสสถานะของ HTTP เป็นกลไกหลัก\n\n🔧 REST ใช้ HTTP อย่างไร\nเมธอดของ HTTP ⭐\nGET ⭐    → อ่านข้อมูล (Read)\nPOST ⭐   → สร้างข้อมูลใหม่ (Create)\nPUT ⭐    → แก้ไขทั้งชิ้น (Update)\nPATCH ⭐  → แก้ไขบางส่วน (Update)\nDELETE ⭐ → ลบข้อมูล (Delete)\n\nรหัสสถานะของ HTTP ⭐\n2xx ⭐ → สำเร็จ เช่น 200 OK, 201 Created\n3xx ⭐ → เปลี่ยนเส้นทาง เช่น 301 Moved\n4xx ⭐ → ไคลเอนต์ผิด เช่น 401 Unauthorized, 404 Not Found\n5xx ⭐ → เซิร์ฟเวอร์ผิด เช่น 500 Internal Server Error\n\n🌐 ตัวอย่างการเรียกใช้จริง\nGET https://dnac.example.com/dna/intent/api/v1/network-device\nHeaders:\n X-Auth-Token: eyJhbGciOi... ⭐\n Accept: application/json ⭐\n→ เซิร์ฟเวอร์ตอบกลับด้วยรหัส 200 พร้อมข้อมูล JSON ⭐\n\n📏 หลักการหกข้อของ REST\n1. Client-Server ⭐ แยกหน้าที่ไคลเอนต์กับเซิร์ฟเวอร์ออกจากกัน\n2. Stateless ⭐ เซิร์ฟเวอร์ไม่เก็บสถานะของเซสชัน ทุกคำขอต้องมีข้อมูลครบในตัวเอง\n3. Cacheable ⭐ ไคลเอนต์นำผลลัพธ์ก่อนหน้ามาใช้ซ้ำได้\n4. Uniform Interface ⭐ ใช้รูปแบบการเรียกที่สม่ำเสมอ\n5. Layered System ⭐ มีชั้นกลางได้ เช่น พร็อกซีหรือ load balancer\n6. Code on Demand (ทางเลือก) ⭐\n\n✅ ทำไม C ถูก: REST คือรูปแบบสถาปัตยกรรมที่ใช้ข้อความ HTTP เป็นกลไกในการรับส่งข้อมูลระหว่างแอปพลิเคชันที่อยู่คนละโฮสต์ ซึ่งตรงกับคำถามพอดี\n\n❌ ทำไมข้ออื่นผิด:\nA. OpenStack เป็นแพลตฟอร์มโอเพนซอร์สสำหรับสร้างคลาวด์ ⭐ ไม่ใช่โปรโตคอลรับส่งข้อมูล (แม้ตัวมันเองจะมี REST API ให้ใช้ก็ตาม)\nB. OpFlex เป็นโปรโตคอล southbound ของ Cisco ที่ใช้ใน ACI เพื่อส่งนโยบายลงไปยังอุปกรณ์ ⭐ ไม่ได้ทำงานระหว่างแอปพลิเคชันบนโฮสต์ต่าง ๆ\nD. OpenFlow เป็นโปรโตคอล southbound ที่ทำงานบน TCP พอร์ต 6653 เพื่อควบคุม flow table ของสวิตช์ ⭐ ไม่ได้ใช้ HTTP\n\n📗 จำไว้สอบ: REST ทำงานบน HTTP/HTTPS ⭐ ใช้ JSON หรือ XML เป็นรูปแบบข้อมูล ⭐ และเป็น northbound API ที่พบบ่อยที่สุด ⭐',
+  },
+  {
+    id: 742,
+    kind: 'single',
+    prompt: 'Which JSON data type is an unordered set of attribute-value pairs?',
+    options: [
+      { key: 'A', text: 'string' },
+      { key: 'B', text: 'array' },
+      { key: 'C', text: 'Boolean' },
+      { key: 'D', text: 'object' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญมีสองคำ คือ "unordered" (ไม่มีลำดับ) และ "attribute-value pairs" (คู่คีย์กับค่า) ⭐ ซึ่งตรงกับนิยามของ object\n\n📊 ชนิดข้อมูลของ JSON ทั้งหมด\nชนิด      สัญลักษณ์   มีลำดับหรือไม่   ตัวอย่าง\nObject ⭐  { } ⭐      ไม่มีลำดับ ⭐    { "name": "SW1", "vlan": 10 } ⭐\nArray ⭐   [ ] ⭐      มีลำดับ ⭐      [ "Gi0/1", "Gi0/2", "Gi0/3" ] ⭐\nString ⭐  " "        -             "hello" ⭐\nNumber ⭐  ไม่มี       -             42 หรือ 3.14 ⭐\nBoolean ⭐ ไม่มี       -             true หรือ false ⭐\nNull ⭐    ไม่มี       -             null ⭐\n\n🔍 ทำไม object จึงไม่มีลำดับ\nการเข้าถึงข้อมูลใน object ใช้ "ชื่อคีย์" ไม่ใช่ตำแหน่ง ⭐\n{ "vlan": 10, "name": "SW1" }\nกับ\n{ "name": "SW1", "vlan": 10 }\n→ ทั้งสองมีความหมายเหมือนกันทุกประการ ⭐ เพราะเข้าถึงด้วย obj["name"] ไม่ใช่ obj[0]\n\n🔍 ทำไม array จึงมีลำดับ\nการเข้าถึงข้อมูลใน array ใช้ "ดัชนีตำแหน่ง" ⭐\n[ "Gi0/1", "Gi0/2" ] → arr[0] คือ "Gi0/1" เสมอ ⭐\nถ้าสลับเป็น [ "Gi0/2", "Gi0/1" ] ความหมายจะเปลี่ยนไปทันที ⭐\n\n💡 ตัวอย่างที่ผสมทั้งสองชนิด\n{\n "device": "SW1", ⭐ object เก็บคู่คีย์-ค่า\n "uplinks": [ ⭐ array เก็บรายการที่มีลำดับ\n { "port": "Gi0/1", "speed": 1000 }, ⭐ object ซ้อนใน array\n { "port": "Gi0/2", "speed": 1000 }\n ]\n}\n\n✅ ทำไม D ถูก: object คือชนิดข้อมูลที่เก็บกลุ่มของคู่แอตทริบิวต์กับค่าโดยไม่ผูกกับลำดับ ตรงกับคำนิยามในโจทย์ทุกประการ\n\n❌ ทำไมข้ออื่นผิด:\nA. string เป็นข้อความธรรมดาที่อยู่ในอัญประกาศคู่ ⭐ ไม่มีโครงสร้างคีย์กับค่า\nB. ตัวลวงหลัก — array เก็บชุดของค่าเช่นกัน ⭐ แต่ "มีลำดับ" และสมาชิกไม่ได้เป็นคู่คีย์กับค่า จึงขัดกับทั้งสองคำสำคัญในโจทย์\nC. Boolean มีได้เพียงสองค่าคือ true หรือ false ⭐ ไม่ใช่โครงสร้างเก็บข้อมูลหลายรายการ\n\n📗 จำไว้สอบ: Object = { } ไม่มีลำดับ เข้าถึงด้วยคีย์ ⭐ • Array = [ ] มีลำดับ เข้าถึงด้วยดัชนี ⭐',
+  },
+  {
+    id: 743,
+    kind: 'single',
+    prompt: 'Which protocol is used in Software Defined Access (SDA) to provide a tunnel between two edge nodes in different fabrics?',
+    options: [
+      { key: 'A', text: 'Generic Router Encapsulation (GRE)' },
+      { key: 'B', text: 'Virtual Local Area Network (VLAN)' },
+      { key: 'C', text: 'Virtual Extensible LAN (VXLAN)' },
+      { key: 'D', text: 'Point-to-Point Protocol (PPP)' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — Cisco SD-Access ใช้ VXLAN เป็นโปรโตคอลห่อหุ้มข้อมูล (data plane encapsulation) ระหว่างโหนดในแฟบริก ⭐\n\n🏗️ สามองค์ประกอบของ SD-Access fabric\n1️⃣ Control plane → LISP ⭐\n• Locator/ID Separation Protocol ⭐\n• แยก "ตัวตน" ของอุปกรณ์ (EID) ออกจาก "ตำแหน่ง" ในเครือข่าย (RLOC) ⭐\n• Control Plane Node ทำหน้าที่เป็นฐานข้อมูลแมประหว่างสองอย่างนี้ ⭐\n\n2️⃣ Data plane → VXLAN ⭐ ← ข้อที่โจทย์ถาม\n• ห่อเฟรม Layer 2 ไว้ในแพ็กเก็ต UDP แล้วส่งข้ามเครือข่าย Layer 3 ⭐\n• ใช้ UDP พอร์ต 4789 ⭐\n• VNI (VXLAN Network Identifier) ยาว 24 บิต ⭐ รองรับได้ถึง 16 ล้านเครือข่าย เทียบกับ VLAN ที่มีเพียง 4094 ⭐\n\n3️⃣ Policy plane → Cisco TrustSec (SGT) ⭐\n• Scalable Group Tag ถูกพกไปในส่วนหัวของ VXLAN ⭐\n• ทำให้บังคับใช้นโยบายตาม "กลุ่มผู้ใช้" ได้โดยไม่ต้องอิงที่อยู่ IP ⭐\n\n🔧 โครงสร้างแพ็กเก็ต VXLAN\n[Outer MAC][Outer IP][Outer UDP 4789][VXLAN header + VNI + SGT][Inner MAC][Inner IP][ข้อมูล] ⭐\n→ เฟรมเดิมถูกห่อไว้ทั้งหมด จึงส่งข้ามเครือข่าย Layer 3 ใดก็ได้ ⭐\n\n💡 ทำไม VXLAN จึงเหนือกว่า VLAN\nคุณสมบัติ        VLAN ⭐         VXLAN ⭐\nจำนวนที่รองรับ    4094 ⭐        16 ล้าน ⭐\nขอบเขต          Layer 2 เท่านั้น ⭐  ข้าม Layer 3 ได้ ⭐\nการขยายข้ามไซต์   ทำได้ยาก ⭐      ทำได้ง่าย ⭐\nพก SGT ไปด้วย    ✘             ✔ ⭐\n\n✅ ทำไม C ถูก: VXLAN เป็นโปรโตคอลห่อหุ้มที่ SD-Access ใช้สร้างอุโมงค์ระหว่าง edge node เพื่อขนส่งทราฟฟิกข้ามแฟบริกพร้อมกับพกข้อมูลนโยบายไปด้วย\n\n❌ ทำไมข้ออื่นผิด:\nA. GRE เป็นโปรโตคอลห่อหุ้มทั่วไปที่ใช้ในงาน VPN แบบดั้งเดิม ⭐ แต่ไม่รองรับ VNI ขนาด 24 บิตและไม่สามารถพก SGT ได้ จึงไม่ใช่โปรโตคอลที่ SD-Access เลือกใช้\nB. VLAN ทำงานเฉพาะภายในโดเมน Layer 2 เดียว ⭐ ไม่สามารถขยายข้ามเครือข่าย Layer 3 ได้ และจำกัดที่ 4094 รายการ\nD. PPP เป็นโปรโตคอลชั้น Data Link สำหรับลิงก์แบบจุดต่อจุด เช่น สายซีเรียลหรือ DSL ⭐ ไม่เกี่ยวกับแฟบริกของ SD-Access\n\n📗 จำไว้สอบ: SD-Access = LISP (control) ⭐ + VXLAN (data) ⭐ + TrustSec/SGT (policy) ⭐ • VXLAN ใช้ UDP 4789 ⭐',
+  },
+  {
+    id: 744,
+    kind: 'single',
+    prompt: 'Which plane is centralized by an SDN controller?',
+    options: [
+      { key: 'A', text: 'management-plane' },
+      { key: 'B', text: 'data-plane' },
+      { key: 'C', text: 'services-plane' },
+      { key: 'D', text: 'control-plane' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — หัวใจของ SDN คือการ "ถอด control plane ออกจากอุปกรณ์แล้วนำไปรวมไว้ที่คอนโทรลเลอร์" ⭐\n\n🏗️ ก่อนและหลังการใช้ SDN\nแบบดั้งเดิม — ทุกอย่างอยู่ในอุปกรณ์เดียว\n┌────────────────────┐\n│ Router / Switch    │\n│ ├─ Control plane   │ รัน OSPF/EIGRP/STP เอง\n│ ├─ Data plane      │ ส่งต่อแพ็กเก็ต\n│ └─ Mgmt plane      │ SSH, SNMP\n└────────────────────┘\n\nแบบ SDN — แยกออกจากกัน\n┌─────────────────────┐\n│ SDN Controller      │\n│ └─ Control plane    │ ← รวมศูนย์ตรงนี้ ⭐\n└──────────┬──────────┘\n  Southbound API ⭐\n┌──────────┴──────────┐\n│ Switch / Router     │\n│ └─ Data plane       │ ← ยังกระจายอยู่ ⭐\n└─────────────────────┘\n\n🧠 คอนโทรลเลอร์ทำอะไรเมื่อรับ control plane มา\n• เห็นโทโพโลยีของทั้งเครือข่ายในภาพเดียว ⭐\n• คำนวณเส้นทางที่เหมาะที่สุดในระดับ global ไม่ใช่แค่มุมมองของอุปกรณ์เดียว ⭐\n• สร้างตารางส่งต่อแล้วผลักลงไปยังอุปกรณ์ผ่าน southbound API ⭐\n• เปลี่ยนพฤติกรรมการส่งต่อได้ทันทีโดยไม่ต้องรอโปรโตคอลเราต์ติ้งลู่เข้า ⭐\n\n⚡ ทำไม data plane จึงยังต้องกระจายอยู่\n• การส่งต่อแพ็กเก็ตต้องทำที่ฮาร์ดแวร์ ASIC เพื่อความเร็วระดับสายส่ง ⭐\n• ถ้าต้องส่งทุกแพ็กเก็ตไปถามคอนโทรลเลอร์ จะเกิดความหน่วงจนใช้งานไม่ได้ ⭐\n• เมื่อคอนโทรลเลอร์ล่ม อุปกรณ์ยังส่งต่อทราฟฟิกตามตารางเดิมได้ ⭐\n\n✅ ทำไม D ถูก: control plane คือระนาบที่ SDN ย้ายออกจากอุปกรณ์แต่ละตัวไปรวมศูนย์ไว้ที่คอนโทรลเลอร์ ซึ่งเป็นนิยามหลักของสถาปัตยกรรมนี้\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงที่ดี — management plane ถูกรวมศูนย์ไปด้วยในทางปฏิบัติ ⭐ แต่ไม่ใช่ระนาบที่เป็น "แก่น" ของนิยาม SDN คำจำกัดความของ SDN ระบุชัดเจนว่าคือการแยก control plane ออกจาก data plane\nB. data plane ยังคงกระจายอยู่บนอุปกรณ์ทุกตัวเสมอ ⭐ เพราะต้องส่งต่อแพ็กเก็ตที่ฮาร์ดแวร์เพื่อความเร็ว\nC. ไม่มี services plane ในสถาปัตยกรรมมาตรฐาน ⭐ มีเพียงสามระนาบคือ control, data และ management\n\n📗 จำไว้สอบ: นิยาม SDN คือ "แยก control plane ออกจาก data plane แล้วรวมศูนย์ control plane" ⭐',
+  },
+  {
+    id: 745,
+    kind: 'single',
+    prompt: 'Where is the interface between the control plane and data plane within the software-defined architecture?',
+    options: [
+      { key: 'A', text: 'application layer and the management layer' },
+      { key: 'B', text: 'application layer and the infrastructure layer' },
+      { key: 'C', text: 'control layer and the application layer' },
+      { key: 'D', text: 'control layer and the infrastructure layer' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องแมปชื่อ "ระนาบ" (plane) เข้ากับชื่อ "ชั้น" (layer) ให้ถูกต้อง ⭐\n\n🧭 การจับคู่ระหว่าง plane กับ layer\nplane                  layer ที่ตรงกัน\nApplication ⭐          Application layer ⭐\nControl plane ⭐        Control layer ⭐\nData plane ⭐           Infrastructure layer ⭐ ← จุดที่สับสนบ่อย\n\n→ คำว่า "data plane" กับ "infrastructure layer" หมายถึงสิ่งเดียวกัน ⭐ คืออุปกรณ์เครือข่ายจริงที่ส่งต่อแพ็กเก็ต\n\n🏗️ โครงสร้างสามชั้นของ SDN\n┌───────────────────────────┐\n│ Application Layer         │ แอปพลิเคชัน สคริปต์ ระบบ orchestration\n└─────────────┬─────────────┘\n   Northbound API ⭐ ← อินเทอร์เฟซระหว่าง application กับ control ⭐\n┌─────────────┴─────────────┐\n│ Control Layer             │ SDN Controller\n└─────────────┬─────────────┘\n   Southbound API ⭐ ← อินเทอร์เฟซระหว่าง control กับ infrastructure ⭐ ← คำตอบ\n┌─────────────┴─────────────┐\n│ Infrastructure Layer      │ สวิตช์ เราเตอร์ AP (data plane) ⭐\n└───────────────────────────┘\n\n🔗 southbound API ทำอะไร\n• ส่งตารางส่งต่อและคอนฟิกจากคอนโทรลเลอร์ลงไปยังอุปกรณ์ ⭐\n• รับข้อมูลสถิติและสถานะกลับขึ้นมา ⭐\n• โปรโตคอลที่ใช้: OpenFlow, NETCONF, RESTCONF, OpFlex ⭐\n\n💡 วิธีตอบโจทย์ประเภทนี้\n① แปลง "control plane" → Control layer ⭐\n② แปลง "data plane" → Infrastructure layer ⭐\n③ อินเทอร์เฟซระหว่างสองชั้นนี้คือ southbound API ⭐\n→ ตัวเลือกที่ระบุทั้ง control layer และ infrastructure layer จึงเป็นคำตอบ\n\n✅ ทำไม D ถูก: control plane คือ control layer และ data plane คือ infrastructure layer อินเทอร์เฟซระหว่างสองชั้นนี้คือ southbound API ซึ่งเป็นจุดที่โจทย์ถามถึง\n\n❌ ทำไมข้ออื่นผิด:\nA. application layer กับ management layer ไม่ใช่คู่ที่ตรงกับ control plane และ data plane ⭐ อีกทั้ง management layer ก็ไม่ใช่ชื่อชั้นมาตรฐานในโมเดลนี้\nB. อินเทอร์เฟซระหว่าง application layer กับ infrastructure layer ไม่มีอยู่โดยตรง ⭐ ทุกอย่างต้องผ่านคอนโทรลเลอร์ที่อยู่ตรงกลางเสมอ\nC. ตัวลวงที่ดี — อินเทอร์เฟซระหว่าง control layer กับ application layer คือ "northbound API" ⭐ ซึ่งเป็นคนละจุดกับที่โจทย์ถาม\n\n📗 จำไว้สอบ: data plane = infrastructure layer ⭐ • ตรงกลางคือ southbound API ⭐ • control ↔ application คือ northbound API ⭐',
+  },
+  {
+    id: 746,
+    kind: 'single',
+    prompt: 'Why would a network administrator choose to implement automation in a network environment?',
+    options: [
+      { key: 'A', text: 'To simplify the process of maintaining a consistent configuration state across all devices' },
+      { key: 'B', text: 'To centralize device information storage' },
+      { key: 'C', text: 'To implement centralized user account management' },
+      { key: 'D', text: 'To deploy the management plane separately from the rest of the network' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — เหตุผลหลักของการนำระบบอัตโนมัติมาใช้คือ "ความสม่ำเสมอของคอนฟิกทั่วทั้งเครือข่าย" ⭐\n\n⚠️ ปัญหาที่เรียกว่า configuration drift\nเมื่อคอนฟิกด้วยมือทีละอุปกรณ์เป็นเวลานาน จะเกิดปรากฏการณ์ที่แต่ละเครื่องค่อย ๆ ต่างกันไปเรื่อย ๆ ⭐\nสาเหตุที่พบบ่อย\n• วิศวกรคนละคนมีสไตล์การตั้งค่าต่างกัน ⭐\n• การแก้ปัญหาเร่งด่วนตอนตีสองที่ไม่มีใครจดบันทึกไว้ ⭐\n• สวิตช์ที่ถูกเพิ่มเข้ามาภายหลังไม่ได้รับคอนฟิกมาตรฐานครบ ⭐\n• การพิมพ์ผิดที่ไม่มีใครสังเกตเห็น ⭐\n→ ผลคือเครือข่ายที่ "ควรเหมือนกัน" กลับมีพฤติกรรมต่างกัน ทำให้แก้ปัญหายากมาก ⭐\n\n🔧 ระบบอัตโนมัติแก้ปัญหานี้อย่างไร\n1️⃣ กำหนดสถานะที่ต้องการไว้เป็นโค้ด ⭐\nเช่นเขียนไว้ว่าทุกสวิตช์ต้องมี VLAN 10, 20, 30 และเปิด SSH เท่านั้น\n\n2️⃣ ใช้หลักการ idempotent ⭐\nรันสคริปต์ซ้ำกี่ครั้งผลลัพธ์ก็เหมือนเดิม ⭐\n→ ถ้าคอนฟิกถูกต้องอยู่แล้วจะไม่ทำอะไร ถ้าเบี่ยงเบนไปจะแก้กลับให้ตรงตามที่กำหนด ⭐\n\n3️⃣ เก็บคอนฟิกไว้ใน Git ⭐\n• มีประวัติการเปลี่ยนแปลงทุกครั้งว่าใครแก้อะไรเมื่อไร ⭐\n• ย้อนกลับไปเวอร์ชันก่อนหน้าได้ทันทีเมื่อเกิดปัญหา ⭐\n• ผ่านการตรวจทานจากเพื่อนร่วมงานก่อนนำไปใช้จริง ⭐\n→ แนวคิดนี้เรียกว่า Infrastructure as Code ⭐\n\n✅ ทำไม A ถูก: การรักษาให้คอนฟิกของอุปกรณ์ทุกตัวอยู่ในสถานะที่สม่ำเสมอตรงกันคือประโยชน์หลักและเป็นเหตุผลอันดับแรกที่องค์กรนำระบบอัตโนมัติมาใช้\n\n❌ ทำไมข้ออื่นผิด:\nB. การเก็บข้อมูลอุปกรณ์ไว้ที่ส่วนกลางเป็นหน้าที่ของระบบจัดการเครือข่ายหรือ CMDB ⭐ ไม่ใช่วัตถุประสงค์หลักของระบบอัตโนมัติ\nC. การจัดการบัญชีผู้ใช้แบบรวมศูนย์เป็นหน้าที่ของระบบ AAA อย่าง RADIUS หรือ TACACS+ ⭐\nD. การแยก management plane ออกจากส่วนอื่นเป็นแนวคิดเรื่อง out-of-band management ⭐ ซึ่งเป็นการออกแบบเครือข่าย ไม่ใช่ระบบอัตโนมัติ\n\n📗 จำไว้สอบ: automation แก้ปัญหา configuration drift ⭐ ด้วยหลักการ Infrastructure as Code และ idempotency ⭐',
+  },
+  {
+    id: 747,
+    kind: 'multi',
+    prompt: 'Which two events occur automatically when a device is added to Cisco DNA Center? (Choose two.)',
+    options: [
+      { key: 'A', text: 'The device is placed into the Managed state.' },
+      { key: 'B', text: 'The device is placed into the Unmanaged state.' },
+      { key: 'C', text: 'The device is assigned to the Local site.' },
+      { key: 'D', text: 'The device is assigned to the Global site.' },
+      { key: 'E', text: 'The device is placed into the Provisioned state.' },
+    ],
+    correct: ['A', 'D'],
+    explanation:
+      '📘 แนวคิด — เมื่ออุปกรณ์ถูกค้นพบและเพิ่มเข้าสู่ Cisco DNA Center สำเร็จ ระบบจะดำเนินการสองอย่างโดยอัตโนมัติ ⭐\n\n1️⃣ อุปกรณ์เข้าสู่สถานะ Managed (ตัวเลือก A) ⭐\nสถานะของอุปกรณ์ใน DNA Center\nสถานะ           ความหมาย\nManaged ⭐       DNA Center เชื่อมต่อได้ เก็บข้อมูลได้ และจัดการได้เต็มรูปแบบ ⭐\nUnreachable ⭐   ติดต่ออุปกรณ์ไม่ได้ในขณะนี้ ⭐\nPartial Collection Failure ⭐ เก็บข้อมูลได้บางส่วน ⭐\n→ เมื่อค้นพบสำเร็จและตรวจสอบข้อมูลรับรองผ่าน อุปกรณ์จะเข้าสู่ Managed ทันที ⭐\n\n2️⃣ อุปกรณ์ถูกกำหนดให้อยู่ที่ Global site (ตัวเลือก D) ⭐\nโครงสร้างลำดับชั้นของไซต์ใน DNA Center\nGlobal ⭐ ← ระดับบนสุด มีอยู่แล้วเสมอโดยไม่ต้องสร้าง ⭐\n └── Area (เช่น ประเทศไทย)\n └── Building (เช่น อาคาร A)\n └── Floor (เช่น ชั้น 3)\n→ อุปกรณ์ใหม่ที่ยังไม่ได้ถูกจัดวางจะถูกวางไว้ที่ Global โดยอัตโนมัติ ⭐\n→ ผู้ดูแลต้องย้ายไปยังไซต์ที่ถูกต้องด้วยตนเองในภายหลัง ⭐\n\n🔄 ขั้นตอนการทำงานทั้งหมด\n1. Discovery — DNA Center ค้นหาอุปกรณ์ด้วยช่วง IP, CDP หรือ LLDP ⭐\n2. ตรวจสอบข้อมูลรับรอง — SSH, SNMP และ NETCONF ⭐\n3. เก็บข้อมูลสินค้าคงคลัง — รุ่น หมายเลขซีเรียล เวอร์ชัน IOS ⭐\n4. อุปกรณ์เข้าสู่สถานะ Managed และถูกวางไว้ที่ Global site ⭐\n5. ผู้ดูแลย้ายอุปกรณ์ไปยังไซต์ที่ถูกต้อง ⭐\n6. จากนั้นจึงทำ Provision เพื่อผลักคอนฟิกและนโยบายลงไป ⭐\n\n✅ ทำไม A และ D ถูก: ทั้งสองเหตุการณ์เกิดขึ้นเองทันทีเมื่อการค้นพบอุปกรณ์สำเร็จ โดยไม่ต้องให้ผู้ดูแลสั่งเพิ่มเติมใด ๆ\n\n❌ ทำไมข้ออื่นผิด:\nB. Unmanaged ไม่ใช่สถานะที่อุปกรณ์จะได้รับเมื่อเพิ่มเข้าระบบสำเร็จ ⭐ ถ้าติดต่อไม่ได้จะแสดงเป็น Unreachable แทน\nC. ไม่มีไซต์ชื่อ Local ในลำดับชั้นของ DNA Center ⭐ ระดับบนสุดคือ Global เสมอ\nE. ตัวลวงที่ดี — Provisioned เป็นสถานะที่เกิดขึ้น "หลังจาก" ผู้ดูแลสั่ง provision ด้วยตนเอง ⭐ ไม่ใช่สิ่งที่เกิดขึ้นอัตโนมัติตอนเพิ่มอุปกรณ์\n\n📗 จำไว้สอบ: ลำดับใน DNA Center คือ Discover → Managed + Global site ⭐ → ย้ายไปไซต์จริง → Provision ⭐',
+  },
+  {
+    id: 748,
+    kind: 'multi',
+    prompt: 'Which two components are needed to create an Ansible script that configures a VLAN on a switch? (Choose two.)',
+    options: [
+      { key: 'A', text: 'playbook' },
+      { key: 'B', text: 'recipe' },
+      { key: 'C', text: 'model' },
+      { key: 'D', text: 'cookbook' },
+      { key: 'E', text: 'task' },
+    ],
+    correct: ['A', 'E'],
+    explanation:
+      '📘 แนวคิด — ต้องแยกให้ออกว่าศัพท์ใดเป็นของ Ansible และศัพท์ใดเป็นของ Chef ⭐\n\n📊 ศัพท์เฉพาะของแต่ละเครื่องมือ\nเครื่องมือ  ศัพท์ที่ใช้\nAnsible ⭐  Playbook ⭐, Task ⭐, Play, Module, Inventory, Role ⭐\nChef ⭐     Recipe ⭐, Cookbook ⭐, Resource\nPuppet ⭐   Manifest ⭐, Module, Class, Resource\n\n📄 Playbook คืออะไร (ตัวเลือก A) ⭐\nไฟล์ YAML ที่รวบรวมชุดงานทั้งหมดที่ต้องการให้ทำ ⭐\n• เป็นไฟล์หลักที่สั่งรันด้วยคำสั่ง ansible-playbook ⭐\n• ภายในประกอบด้วยหนึ่งหรือหลาย play ⭐\n• แต่ละ play ระบุว่าจะทำงานกับโฮสต์กลุ่มใด ⭐\n\n📋 Task คืออะไร (ตัวเลือก E) ⭐\nหน่วยงานย่อยที่สุดที่เรียกใช้โมดูลหนึ่งตัวเพื่อทำสิ่งหนึ่ง ⭐\n• เช่น "สร้าง VLAN 10" หรือ "ตั้งชื่อ VLAN" ⭐\n• หลาย task รวมกันอยู่ภายใต้ play เดียว ⭐\n\n🔧 ตัวอย่าง playbook สำหรับสร้าง VLAN\n---\n- name: Configure VLAN on switches ⭐ ← เริ่ม play\n hosts: access_switches ⭐ ← เลือกกลุ่มโฮสต์จาก inventory\n gather_facts: no\n tasks: ⭐ ← ส่วนของ task\n - name: Create VLAN 10 ⭐ ← task ที่ 1\n ios_vlan:\n vlan_id: 10\n name: SALES\n state: present\n\n - name: Assign VLAN to interface ⭐ ← task ที่ 2\n ios_l2_interface:\n name: GigabitEthernet0/1\n mode: access\n access_vlan: 10\n\n🏗️ ลำดับชั้นของ Ansible\nInventory ⭐ → รายชื่ออุปกรณ์ที่จะจัดการ\n └── Playbook ⭐ → ไฟล์ YAML ที่รวมทุกอย่าง\n └── Play ⭐ → จับคู่ชุดงานกับกลุ่มโฮสต์\n └── Task ⭐ → งานย่อยหนึ่งอย่าง\n └── Module ⭐ → โค้ดที่ทำงานจริง เช่น ios_vlan\n\n✅ ทำไม A และ E ถูก: playbook เป็นไฟล์หลักที่บรรจุคำสั่งทั้งหมด ส่วน task คือหน่วยงานย่อยภายในที่ระบุการกระทำแต่ละอย่าง ทั้งสองเป็นองค์ประกอบที่ขาดไม่ได้ในการเขียนสคริปต์ Ansible\n\n❌ ทำไมข้ออื่นผิด:\nB. recipe เป็นศัพท์ของ Chef ที่เขียนด้วยภาษา Ruby ⭐\nC. model เป็นคำกว้าง ๆ ที่ไม่ใช่องค์ประกอบเฉพาะของ Ansible ⭐ (คำที่ใกล้เคียงในบริบทอื่นคือ YANG data model ของ NETCONF)\nD. cookbook เป็นศัพท์ของ Chef ที่ใช้รวม recipe หลายตัวเข้าด้วยกัน ⭐\n\n📗 จำไว้สอบ: Ansible = playbook + task ⭐ • Chef = cookbook + recipe ⭐ • Puppet = manifest ⭐',
+  },
+  {
+    id: 749,
+    kind: 'single',
+    prompt: 'In software-defined architecture, which plane handles switching for traffic through a Cisco router?',
+    options: [
+      { key: 'A', text: 'control' },
+      { key: 'B', text: 'data' },
+      { key: 'C', text: 'management' },
+      { key: 'D', text: 'application' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — คำสำคัญคือ "switching for traffic through" ⭐ คือการส่งต่อทราฟฟิกที่วิ่ง "ผ่าน" อุปกรณ์ ซึ่งเป็นงานของ data plane\n\n⚡ Data plane ทำอะไรบ้าง\n• รับแพ็กเก็ตเข้ามาทางอินเทอร์เฟซหนึ่ง ⭐\n• ค้นหาปลายทางใน FIB (Forwarding Information Base) ⭐\n• เขียนทับ MAC ต้นทางและปลายทางใหม่ ⭐\n• ลดค่า TTL ลงหนึ่ง แล้วคำนวณ checksum ใหม่ ⭐\n• ส่งออกทางอินเทอร์เฟซที่ถูกต้อง ⭐\n• บังคับใช้ ACL, QoS และ NAT ระหว่างทาง ⭐\n→ ทั้งหมดนี้ทำด้วยฮาร์ดแวร์ ASIC เพื่อความเร็วระดับสายส่ง ⭐\n\n🔑 คำศัพท์ที่ใช้เรียก data plane\n• Data plane ⭐\n• Forwarding plane ⭐\n• CEF (Cisco Express Forwarding) — ชื่อที่ Cisco ใช้เรียกกลไกนี้ ⭐\n→ ทั้งหมดหมายถึงสิ่งเดียวกัน\n\n📊 แยกความแตกต่างของทราฟฟิกสองประเภท\nTransit traffic ⭐ → ทราฟฟิกที่วิ่ง "ผ่าน" เราเตอร์ไปยังปลายทางอื่น\n→ จัดการโดย data plane ⭐ ← ที่โจทย์ถาม\n\nControl traffic ⭐ → ทราฟฟิกที่ "ส่งถึงตัวเราเตอร์เอง" เช่น OSPF hello, BGP update\n→ ถูกส่งขึ้นไปให้ control plane ประมวลผลด้วย CPU ⭐\n\nManagement traffic ⭐ → SSH, SNMP, syslog ที่ส่งถึงตัวเราเตอร์\n→ จัดการโดย management plane ⭐\n\n💡 ทำไม data plane ต้องเร็วเป็นพิเศษ\nเราเตอร์ระดับองค์กรต้องส่งต่อได้หลายล้านแพ็กเก็ตต่อวินาที ⭐\n→ ถ้าใช้ CPU ประมวลผลทุกแพ็กเก็ตจะทำไม่ทันแน่นอน\n→ จึงต้องใช้ ASIC ที่ออกแบบมาเฉพาะสำหรับงานนี้ ⭐\n\n✅ ทำไม B ถูก: การสลับและส่งต่อทราฟฟิกที่วิ่งผ่านเราเตอร์คือหน้าที่โดยตรงของ data plane ซึ่งทำงานด้วยฮาร์ดแวร์และยังคงอยู่บนอุปกรณ์แม้ในสถาปัตยกรรมแบบ SDN\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงหลัก — control plane "สร้างตาราง" ที่ data plane นำไปใช้ ⭐ แต่ไม่ได้ส่งต่อแพ็กเก็ตเอง และใน SDN ถูกย้ายไปรวมศูนย์ที่คอนโทรลเลอร์\nC. management plane ให้ช่องทางเข้าถึงเพื่อบริหารจัดการอุปกรณ์ ⭐ ไม่เกี่ยวกับการส่งต่อทราฟฟิกผู้ใช้\nD. application layer อยู่เหนือคอนโทรลเลอร์และไม่ได้แตะต้องแพ็กเก็ตจริงเลย ⭐\n\n📗 จำไว้สอบ: Data plane = ส่งต่อ (ASIC) ⭐ • Control plane = คิดและสร้างตาราง (CPU) ⭐ • Management plane = เข้าถึงเพื่อดูแล ⭐',
+  },
+  {
+    id: 750,
+    kind: 'multi',
+    prompt: 'What are two southbound APIs? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Thrift' },
+      { key: 'B', text: 'DSC' },
+      { key: 'C', text: 'CORBA' },
+      { key: 'D', text: 'NETCONF' },
+      { key: 'E', text: 'OpenFlow' },
+    ],
+    correct: ['D', 'E'],
+    explanation:
+      '📘 แนวคิด — southbound API คือช่องทางที่คอนโทรลเลอร์ใช้ "สั่งงานลงไปยังอุปกรณ์เครือข่ายจริง" ⭐\n\n📊 โปรโตคอล southbound ที่ใช้จริง\n1️⃣ OpenFlow ⭐\n• มาตรฐานเปิดจาก Open Networking Foundation (ONF) ⭐\n• ใช้ TCP พอร์ต 6653 ⭐ (เดิมคือ 6633)\n• ควบคุม flow table ในฮาร์ดแวร์ของสวิตช์โดยตรง ⭐\n• คอนโทรลเลอร์ส่งข้อความ Flow-Mod เพื่อเพิ่ม แก้ไข หรือลบ flow entry ⭐\n\n2️⃣ NETCONF ⭐\n• กำหนดไว้ใน RFC 6241 ⭐\n• ใช้ XML เป็นรูปแบบข้อมูล ส่งผ่าน SSH บนพอร์ต 830 ⭐\n• จัดการคอนฟิกตามแบบจำลอง YANG ⭐\n• มีคุณสมบัติสำคัญคือรองรับ transaction ⭐ ทำให้ย้อนกลับได้ทั้งชุดถ้าคำสั่งใดล้มเหลว\n• แยก running config, candidate config และ startup config ออกจากกัน ⭐\n\n3️⃣ โปรโตคอล southbound อื่นที่ควรรู้\nRESTCONF ⭐ → เข้าถึงข้อมูล YANG แบบ RESTful ด้วย HTTP และ JSON ⭐\nOpFlex ⭐ → ของ Cisco ใช้ใน ACI ส่ง "นโยบาย" ให้อุปกรณ์ตีความเอง ⭐\nSNMP และ SSH/CLI ⭐ → วิธีดั้งเดิมที่ยังใช้ได้อยู่ ⭐\ngRPC / gNMI ⭐ → ใช้กับ streaming telemetry สมัยใหม่ ⭐\n\n⬆️ เทียบกับ northbound API\nnorthbound เชื่อมคอนโทรลเลอร์กับ "แอปพลิเคชัน" ⭐\n• ใช้ REST API เป็นหลัก ส่งข้อมูล JSON ผ่าน HTTPS ⭐\n• ตัวอย่าง: Cisco DNA Center Intent API ⭐\n\n✅ ทำไม D และ E ถูก: ทั้ง NETCONF และ OpenFlow เป็นโปรโตคอลที่คอนโทรลเลอร์ใช้สื่อสารลงไปยังอุปกรณ์เครือข่ายเพื่อส่งคอนฟิกและตารางการส่งต่อ ซึ่งเป็นนิยามของ southbound API\n\n❌ ทำไมข้ออื่นผิด:\nA. Thrift เป็นเฟรมเวิร์ก RPC ที่พัฒนาโดย Facebook สำหรับให้บริการซอฟต์แวร์ข้ามภาษาสื่อสารกัน ⭐ ไม่ใช่โปรโตคอลควบคุมอุปกรณ์เครือข่าย\nB. DSC ไม่ใช่โปรโตคอล southbound ⭐ (คำที่ใกล้เคียงคือ PowerShell DSC ซึ่งเป็นเครื่องมือจัดการคอนฟิกของ Windows)\nC. CORBA เป็นสถาปัตยกรรมกลางสำหรับให้วัตถุในระบบต่าง ๆ เรียกใช้กันได้ ซึ่งเป็นเทคโนโลยีรุ่นเก่ามาก ⭐ ไม่เกี่ยวข้องกับ SDN\n\n📗 จำไว้สอบ: Southbound = OpenFlow ⭐ NETCONF ⭐ RESTCONF ⭐ OpFlex ⭐ • Northbound = REST ⭐',
+  },
+  {
+    id: 751,
+    kind: 'single',
+    prompt: 'What makes Cisco DNA Center different from traditional network management applications and their management of networks?',
+    options: [
+      { key: 'A', text: 'Its modular design allows the implementation of different versions to meet the specific needs of an organization.' },
+      { key: 'B', text: 'It only supports auto-discovery of network elements in a greenfield deployment.' },
+      { key: 'C', text: 'It omits support high availability of management functions when operating in cluster mode.' },
+      { key: 'D', text: 'It abstracts policy from the actual device configuration.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — สิ่งที่แยก DNA Center ออกจากเครื่องมือจัดการเครือข่ายรุ่นก่อนอย่างชัดเจนคือ "การแยกนโยบายออกจากคอนฟิกของอุปกรณ์" ⭐\n\n🎯 Policy abstraction คืออะไร\nผู้ดูแลแสดง "เจตนา" ว่าต้องการอะไร โดยไม่ต้องบอกว่าทำอย่างไร ⭐\nจากนั้นคอนโทรลเลอร์แปลงเจตนานั้นเป็นคอนฟิกที่เหมาะสมบนอุปกรณ์แต่ละตัวให้เอง ⭐\n\n📊 เปรียบเทียบสองวิธีคิด\nวิธีดั้งเดิม — ผู้ดูแลต้องแปลงเอง ⭐\nนโยบาย: "แขกห้ามเข้าถึงเซิร์ฟเวอร์การเงิน"\nต้องลงมือทำเอง\n• สร้าง VLAN สำหรับแขกบนสวิตช์ทุกตัว ⭐\n• เขียน ACL บนเราเตอร์ทุกตัว ⭐\n• ตั้งค่าไฟร์วอลล์ ⭐\n• ตรวจสอบว่าไม่มีเครื่องใดตกหล่น ⭐\n→ ใช้เวลานาน เสี่ยงผิดพลาด และเมื่อนโยบายเปลี่ยนต้องไล่แก้ใหม่ทั้งหมด ⭐\n\nวิธี DNA Center — คอนโทรลเลอร์แปลงให้ ⭐\nผู้ดูแลกำหนดใน GUI ว่า\n"Scalable Group ชื่อ Guest ห้ามเข้าถึง Scalable Group ชื่อ Finance-Servers" ⭐\nDNA Center จัดการต่อให้เอง\n• สร้าง SGT ให้ทั้งสองกลุ่ม ⭐\n• ผลักนโยบายลงไปยัง Cisco ISE ⭐\n• สร้างและกระจาย ACL ไปยังอุปกรณ์ทุกตัวในแฟบริก ⭐\n• เมื่อมีอุปกรณ์ใหม่เข้ามา นโยบายจะถูกนำไปใช้โดยอัตโนมัติ ⭐\n\n💡 ข้อดีที่ตามมา\n• นโยบายเป็นอิสระจากรุ่นและยี่ห้อของอุปกรณ์ ⭐\n• เปลี่ยนนโยบายครั้งเดียวมีผลทั่วทั้งเครือข่ายทันที ⭐\n• ตรวจสอบได้ง่ายว่านโยบายถูกบังคับใช้จริงหรือไม่ ⭐\n→ นี่คือหัวใจของแนวคิด Intent-Based Networking ⭐\n\n✅ ทำไม D ถูก: การแยกนโยบายออกจากคอนฟิกของอุปกรณ์เป็นความแตกต่างเชิงแนวคิดที่แท้จริง และเป็นสิ่งที่เครื่องมือจัดการเครือข่ายแบบดั้งเดิมทำไม่ได้เลย\n\n❌ ทำไมข้ออื่นผิด:\nA. การมีสถาปัตยกรรมแบบ modular ไม่ใช่ความแตกต่างเชิงหลักการ ⭐ เครื่องมือจัดการหลายตัวก็ออกแบบเป็นโมดูลเช่นกัน\nB. ผิดข้อเท็จจริง — DNA Center รองรับทั้ง greenfield (เครือข่ายใหม่) และ brownfield (เครือข่ายที่มีอยู่แล้ว) ⭐ คำว่า "only" ทำให้ข้อความนี้ผิด\nC. ผิดข้อเท็จจริงเช่นกัน — DNA Center "รองรับ" high availability ในโหมดคลัสเตอร์สามโหนด ⭐ คำว่า omits กล่าวตรงข้ามกับความจริง\n\n📗 จำไว้สอบ: Intent-Based Networking = บอกว่า "ต้องการอะไร" ไม่ใช่ "ทำอย่างไร" ⭐ คอนโทรลเลอร์แปลงเจตนาเป็นคอนฟิกให้เอง ⭐',
+  },
+  {
+    id: 752,
+    kind: 'single',
+    prompt: 'Which API is used in controller-based architectures to interact with edge devices?',
+    options: [
+      { key: 'A', text: 'southbound' },
+      { key: 'B', text: 'overlay' },
+      { key: 'C', text: 'northbound' },
+      { key: 'D', text: 'underlay' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — คำว่า "edge devices" หมายถึงสวิตช์และเราเตอร์จริงที่อยู่ชั้นล่างสุดของสถาปัตยกรรม ⭐ การติดต่อกับพวกมันใช้ southbound API\n\n🧭 ตำแหน่งของแต่ละ API\n┌─────────────────────────┐\n│ Applications            │\n└────────────┬────────────┘\n  Northbound API ⭐ ← REST/JSON ระหว่างแอปกับคอนโทรลเลอร์\n┌────────────┴────────────┐\n│ SDN Controller          │\n└────────────┬────────────┘\n  Southbound API ⭐ ← OpenFlow/NETCONF ระหว่างคอนโทรลเลอร์กับอุปกรณ์ ⭐ ← คำตอบ\n┌────────────┴────────────┐\n│ Edge Devices            │ สวิตช์ เราเตอร์ AP\n└─────────────────────────┘\n\n⬇️ southbound API ทำอะไรบ้าง\n• ส่งตารางการส่งต่อลงไปยังอุปกรณ์ ⭐\n• ผลักคอนฟิกและนโยบาย ⭐\n• รับข้อมูลสถิติ สถานะ และการแจ้งเตือนกลับขึ้นมา ⭐\n• ค้นพบและระบุอุปกรณ์ที่เชื่อมต่ออยู่ ⭐\n\n📊 โปรโตคอลที่ใช้\nOpenFlow ⭐  TCP 6653 ควบคุม flow table โดยตรง ⭐\nNETCONF ⭐   SSH 830 ใช้ XML ตามแบบจำลอง YANG ⭐\nRESTCONF ⭐  HTTP/JSON เข้าถึงข้อมูล YANG ⭐\nOpFlex ⭐    ของ Cisco ใช้ใน ACI ส่งนโยบายให้อุปกรณ์ตีความ ⭐\nSNMP/SSH ⭐  วิธีดั้งเดิมที่ยังใช้ได้ ⭐\n\n💡 ทำไมสองตัวเลือกที่เหลือจึงไม่ใช่ API\noverlay และ underlay เป็นคำที่ใช้เรียก "ชั้นของเครือข่าย" ⭐ ไม่ใช่ประเภทของ API\n• Underlay ⭐ = เครือข่ายกายภาพจริงที่ทำหน้าที่ส่งต่อแพ็กเก็ต IP พื้นฐาน ⭐\n• Overlay ⭐ = เครือข่ายเสมือนที่สร้างทับ underlay ด้วยการห่อหุ้ม เช่น VXLAN ⭐\n→ ใน SD-Access ทั้งสองชั้นทำงานร่วมกัน แต่ไม่ใช่ API ⭐\n\n✅ ทำไม A ถูก: southbound API คือช่องทางที่คอนโทรลเลอร์ใช้ติดต่อกับอุปกรณ์เครือข่ายที่อยู่ชั้นล่าง เพื่อส่งคำสั่งและรับข้อมูลสถานะกลับมา\n\n❌ ทำไมข้ออื่นผิด:\nB. overlay เป็นชั้นเครือข่ายเสมือนที่สร้างทับเครือข่ายกายภาพ ⭐ ไม่ใช่ประเภทของ API\nC. ตัวลวงหลัก — northbound API เชื่อมคอนโทรลเลอร์กับ "แอปพลิเคชัน" ที่อยู่ชั้นบน ⭐ ไม่ใช่กับอุปกรณ์\nD. underlay เป็นเครือข่ายกายภาพพื้นฐานที่รองรับ overlay ⭐ ไม่ใช่ API เช่นกัน\n\n📗 จำไว้สอบ: North = ขึ้นไปหาแอป ⭐ • South = ลงไปหาอุปกรณ์ ⭐ • Overlay/Underlay = ชั้นเครือข่าย ไม่ใช่ API ⭐',
+  },
+  {
+    id: 753,
+    kind: 'drag',
+    image: v4q753,
+    prompt: 'Drag and drop the statements about networking from the left onto the corresponding networking types on the right.',
+    categories: [
+      { name: 'Controller-Based Networking', items: ['This type allows better control over how networks work and how networks are configured.', 'This type enables networks to integrate with applications through APIs.', 'This type provisions resources from a centralized location.'] },
+      { name: 'Traditional Networking', items: ['New devices are configured using the physical infrastructure.', 'This type requires a distributed control plane.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — แยกได้จากคำสำคัญสามคำ คือ "centralized" "APIs" และ "distributed" ⭐\n\n🎛️ Controller-Based Networking (สามข้อ)\n1️⃣ "allows better control over how networks work and how networks are configured" ⭐\nคอนโทรลเลอร์เห็นภาพรวมของเครือข่ายทั้งหมด จึงควบคุมพฤติกรรมได้ละเอียดกว่า ⭐\n→ กำหนดนโยบายครั้งเดียวแล้วบังคับใช้ทั่วทั้งเครือข่ายได้ทันที ⭐\n\n2️⃣ "enables networks to integrate with applications through APIs" ⭐\nnorthbound API เปิดทางให้แอปพลิเคชันสั่งงานเครือข่ายด้วยโค้ดได้ ⭐\n→ เช่น ระบบ ITSM สร้าง VLAN อัตโนมัติเมื่อมีคำขอใหม่ ⭐\n→ เป็นสิ่งที่เครือข่ายแบบดั้งเดิมทำไม่ได้เลยอย่างเป็นมาตรฐาน ⭐\n\n3️⃣ "provisions resources from a centralized location" ⭐\nจัดเตรียมทรัพยากรจากจุดเดียว ⭐\n→ สร้าง VLAN บนสวิตช์ 200 ตัวจากหน้าจอเดียวในไม่กี่นาที ⭐\n\n🖥️ Traditional Networking (สองข้อ)\n1️⃣ "New devices are configured using the physical infrastructure." ⭐\nอุปกรณ์ใหม่ต้องมีคนไปคอนฟิกที่หน้างานผ่านสายคอนโซล หรือ SSH เข้าไปทีละเครื่อง ⭐\n→ ต่างจาก Plug and Play ของ DNA Center ที่อุปกรณ์ติดต่อกลับมาขอคอนฟิกเอง ⭐\n\n2️⃣ "This type requires a distributed control plane." ⭐\nอุปกรณ์แต่ละตัวรันโปรโตคอลเราต์ติ้งเองและสร้างตารางของตัวเอง ⭐\n→ ต้องแลกเปลี่ยนข้อมูลกันเพื่อให้ได้มุมมองที่ตรงกัน ⭐\n→ ใช้เวลาลู่เข้า (convergence) และแต่ละตัวเห็นภาพเพียงบางส่วน ⭐\n\n💡 เคล็ดลับจำ\nคำว่า centralized, API, better control → Controller-Based ⭐\nคำว่า physical infrastructure, distributed → Traditional ⭐\n\n📗 จำไว้สอบ: Traditional = control plane กระจาย ⭐ • Controller-based = control plane รวมศูนย์ + API ⭐',
+  },
+  {
+    id: 754,
+    kind: 'single',
+    image: v4q754,
+    prompt: 'Refer to the exhibit. What is represented beginning with line 1 and ending with line 5?',
+    options: [
+      { key: 'A', text: 'object' },
+      { key: 'B', text: 'value' },
+      { key: 'C', text: 'key' },
+      { key: 'D', text: 'array' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องดูที่ "อักขระเปิดและปิด" ของบล็อกที่โจทย์ระบุ ⭐\n\n🔍 อ่าน exhibit\n1 [ ⭐ ← เปิดด้วยวงเล็บเหลี่ยม\n2 { "switch": "3750", "port": e2 },\n3 { "router": "2951", "port": e20 },\n4 { "switch": "3750", "port": e23 }\n5 ] ⭐ ← ปิดด้วยวงเล็บเหลี่ยม\n\n🎯 วิเคราะห์\nบรรทัดที่ 1 ถึง 5 เริ่มด้วย [ และจบด้วย ] ⭐\n→ วงเล็บเหลี่ยมใน JSON หมายถึง "array" เสมอ ⭐\n→ ภายในมีสมาชิกสามตัว แต่ละตัวเป็น object ที่ใช้ปีกกา { } ⭐\n\n📊 โครงสร้างที่เห็น\nArray ⭐ (บรรทัด 1-5)\n ├── Object ที่ 1 ⭐ (บรรทัด 2) — { "switch": "3750", "port": e2 }\n ├── Object ที่ 2 ⭐ (บรรทัด 3) — { "router": "2951", "port": e20 }\n └── Object ที่ 3 ⭐ (บรรทัด 4) — { "switch": "3750", "port": e23 }\n\n💡 ทำไมไม่ใช่ object\nแม้ "ภายใน" array จะมี object อยู่สามตัว ⭐ แต่โจทย์ถามถึงโครงสร้างที่ครอบทั้งหมดตั้งแต่บรรทัด 1 ถึง 5 ⭐\n→ ตัวที่ครอบคือวงเล็บเหลี่ยม จึงเป็น array ⭐\n→ ถ้าโจทย์ถามถึงเฉพาะบรรทัดที่ 2 คำตอบจึงจะเป็น object ⭐\n\n📊 สัญลักษณ์ที่ต้องจำใน JSON\nสัญลักษณ์  ความหมาย        เข้าถึงด้วย\n[ ] ⭐     Array ⭐         ดัชนีตำแหน่ง เช่น arr[0] ⭐\n{ } ⭐     Object ⭐        ชื่อคีย์ เช่น obj["switch"] ⭐\n" " ⭐     String ⭐        -\n:  ⭐      คั่นคีย์กับค่า ⭐   -\n,  ⭐      คั่นสมาชิก ⭐      -\n\n✅ ทำไม D ถูก: บล็อกตั้งแต่บรรทัดที่ 1 ถึง 5 เปิดด้วย [ และปิดด้วย ] ซึ่งเป็นสัญลักษณ์ของ array ใน JSON โดยภายในบรรจุ object สามตัวเป็นสมาชิก\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงหลัก — object ใช้ปีกกา { } ⭐ ซึ่งปรากฏอยู่ในบรรทัดที่ 2, 3 และ 4 แต่ไม่ใช่โครงสร้างที่ครอบทั้งบล็อก\nB. value คือค่าที่อยู่ทางขวาของโคลอน เช่น "3750" หรือ e2 ⭐ ไม่ใช่โครงสร้างทั้งก้อน\nC. key คือชื่อที่อยู่ทางซ้ายของโคลอน เช่น "switch" หรือ "port" ⭐\n\n📗 จำไว้สอบ: [ ] = array มีลำดับ ⭐ • { } = object ไม่มีลำดับ ⭐ ดูที่อักขระเปิดปิดเสมอ',
+  },
+  {
+    id: 755,
+    kind: 'single',
+    prompt: 'Which CRUD operation corresponds to the HTTP GET method?',
+    options: [
+      { key: 'A', text: 'create' },
+      { key: 'B', text: 'read' },
+      { key: 'C', text: 'delete' },
+      { key: 'D', text: 'update' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — CRUD จับคู่กับเมธอดของ HTTP แบบหนึ่งต่อหนึ่ง ⭐ ต้องท่องตารางนี้ให้ขึ้นใจ\n\n📊 ตารางจับคู่ CRUD กับ HTTP\nCRUD ⭐    HTTP ⭐        SQL ⭐     ความหมาย\nCreate ⭐  POST ⭐        INSERT ⭐  สร้างข้อมูลใหม่ ⭐\nRead ⭐    GET ⭐         SELECT ⭐  อ่านข้อมูล ⭐ ← คำตอบ\nUpdate ⭐  PUT / PATCH ⭐ UPDATE ⭐  แก้ไขข้อมูลเดิม ⭐\nDelete ⭐  DELETE ⭐      DELETE ⭐  ลบข้อมูล ⭐\n\n🔍 คุณสมบัติสำคัญของ GET\n1️⃣ Safe ⭐\nไม่เปลี่ยนแปลงข้อมูลบนเซิร์ฟเวอร์เลย ⭐ เรียกกี่ครั้งก็ไม่ทำให้อะไรเปลี่ยน\n\n2️⃣ Idempotent ⭐\nเรียกซ้ำกี่ครั้งผลลัพธ์ก็เหมือนเดิม ⭐\n\n3️⃣ Cacheable ⭐\nผลลัพธ์ถูกเก็บไว้ใช้ซ้ำได้ ทั้งที่เบราว์เซอร์และที่พร็อกซี ⭐\n\n4️⃣ พารามิเตอร์อยู่ใน URL ⭐\nGET /api/devices?type=switch&site=HQ ⭐\n→ ไม่มี request body ⭐\n\n🔧 ตัวอย่างการใช้งานกับ Cisco DNA Center\n// อ่านรายการอุปกรณ์ทั้งหมด\nGET /dna/intent/api/v1/network-device ⭐\nHeaders: X-Auth-Token: eyJhbGciOi...\n\n// อ่านข้อมูลอุปกรณ์เฉพาะตัว\nGET /dna/intent/api/v1/network-device/{id} ⭐\n\n// ตอบกลับ\nHTTP/1.1 200 OK ⭐\nContent-Type: application/json\n{ "response": [ { "hostname": "SW1", "family": "Switches" } ] }\n\n⚠️ ข้อควรระวัง\nห้ามใช้ GET สำหรับการกระทำที่เปลี่ยนแปลงข้อมูล ⭐\n→ เพราะเบราว์เซอร์และพร็อกซีอาจเรียกซ้ำโดยอัตโนมัติ ⭐\n→ ซึ่งจะทำให้เกิดการเปลี่ยนแปลงที่ไม่ได้ตั้งใจ\n\n✅ ทำไม B ถูก: GET เป็นเมธอดที่ใช้ดึงข้อมูลออกมาจากเซิร์ฟเวอร์โดยไม่เปลี่ยนแปลงสิ่งใด ซึ่งตรงกับปฏิบัติการ Read ในชุด CRUD\n\n❌ ทำไมข้ออื่นผิด:\nA. create ตรงกับ POST ซึ่งใช้สร้างทรัพยากรใหม่ ⭐\nC. delete ตรงกับ DELETE ซึ่งใช้ลบทรัพยากร ⭐\nD. update ตรงกับ PUT หรือ PATCH ซึ่งใช้แก้ไขทรัพยากรที่มีอยู่แล้ว ⭐\n\n📗 จำไว้สอบ: POST=Create ⭐ GET=Read ⭐ PUT=Update ⭐ DELETE=Delete ⭐ ท่องเรียงกันสี่คู่นี้',
+  },
+  {
+    id: 756,
+    kind: 'single',
+    prompt: 'What differentiates device management enabled by Cisco DNA Center from traditional campus device management?',
+    options: [
+      { key: 'A', text: 'CLI-oriented device' },
+      { key: 'B', text: 'centralized' },
+      { key: 'C', text: 'device-by-device hands-on' },
+      { key: 'D', text: 'per-device' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — สามในสี่ตัวเลือกล้วนบรรยาย "การจัดการแบบดั้งเดิม" ทั้งสิ้น ⭐ เหลือเพียงข้อเดียวที่บรรยาย DNA Center\n\n🔍 วิเคราะห์ตัวเลือกทั้งสี่\nA. CLI-oriented ⭐ → บรรยาย Traditional (เข้า CLI ทีละเครื่อง)\nB. centralized ⭐ → บรรยาย DNA Center ⭐ ← คำตอบ\nC. device-by-device hands-on ⭐ → บรรยาย Traditional (ลงมือทีละเครื่อง)\nD. per-device ⭐ → บรรยาย Traditional (จัดการรายอุปกรณ์)\n→ เมื่อสามข้อพูดถึงสิ่งเดียวกัน จึงเหลือเพียง B ที่ต่างออกไป ⭐\n\n📊 เปรียบเทียบสองแนวทาง\nด้าน               Traditional ⭐          DNA Center ⭐\nจุดจัดการ           ทีละอุปกรณ์ ⭐          หน้าจอเดียวรวมศูนย์ ⭐\nวิธีเข้าถึง          CLI ผ่าน SSH ⭐         GUI และ REST API ⭐\nคอนฟิก 100 เครื่อง   ทำ 100 ครั้ง ⭐         ทำครั้งเดียว ⭐\nความสม่ำเสมอ       ขึ้นกับฝีมือแต่ละคน ⭐    รับประกันด้วยเทมเพลต ⭐\nการเฝ้าระวัง        ไล่ดูทีละตัว ⭐          แดชบอร์ดรวม ⭐\nการอัปเกรด IOS      ทีละเครื่อง ⭐          SWIM ทั้งเครือข่าย ⭐\n\n🎯 การรวมศูนย์ครอบคลุมอะไรบ้าง\n1️⃣ Design ⭐ — ออกแบบลำดับชั้นของไซต์ ที่อยู่ IP และโปรไฟล์ไร้สายจากที่เดียว\n2️⃣ Policy ⭐ — กำหนดนโยบายเข้าถึงและ QoS ครั้งเดียวใช้ได้ทั่วเครือข่าย\n3️⃣ Provision ⭐ — ผลักคอนฟิกลงอุปกรณ์นับร้อยพร้อมกัน\n4️⃣ Assurance ⭐ — เฝ้าระวังสุขภาพเครือข่ายและวิเคราะห์สาเหตุปัญหาจากแดชบอร์ดเดียว\n\n✅ ทำไม B ถูก: การรวมศูนย์การจัดการไว้ที่จุดเดียวคือความแตกต่างพื้นฐานที่สุดของ DNA Center เมื่อเทียบกับการจัดการแบบดั้งเดิมที่ต้องทำทีละอุปกรณ์\n\n❌ ทำไมข้ออื่นผิด:\nA. การจัดการที่เน้น CLI เป็นลักษณะของวิธีดั้งเดิม ⭐ ส่วน DNA Center ใช้ GUI และ API เป็นหลัก\nC. การลงมือทำทีละเครื่องด้วยตนเองเป็นลักษณะของวิธีดั้งเดิมโดยตรง ⭐\nD. การจัดการรายอุปกรณ์ก็เป็นลักษณะของวิธีดั้งเดิมเช่นกัน ⭐\n\n📗 จำไว้สอบ: DNA Center = รวมศูนย์ ⭐ + อัตโนมัติ ⭐ + นโยบายเชิงเจตนา ⭐ • Traditional = ทีละเครื่องผ่าน CLI ⭐',
+  },
+  {
+    id: 757,
+    kind: 'drag',
+    image: v4q757,
+    prompt: 'Drag and drop the statements about networking from the left onto the corresponding networking types on the right.',
+    categories: [
+      { name: 'Controller-Based Networking', items: ['This type deploys a consistent configuration across multiple devices.', 'Southbound APIs are used to apply configurations.'] },
+      { name: 'Traditional Networking', items: ['A distributed control plane is needed.', 'This type requires a distributed management plane.'] },
+      { name: 'ไม่ใช้ (ตัวลวง)', items: ['Northbound APIs interact with end devices.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — โจทย์มีข้อความห้าข้อแต่มีช่องวางเพียงสี่ช่อง ⭐ ข้อความที่ "ผิดข้อเท็จจริง" คือข้อที่ไม่ถูกใช้\n\n🎛️ Controller-Based Networking\n1️⃣ "This type deploys a consistent configuration across multiple devices." ⭐\nคอนโทรลเลอร์ใช้เทมเพลตเดียวกันผลักลงอุปกรณ์นับร้อยพร้อมกัน ⭐\n→ รับประกันว่าทุกเครื่องได้คอนฟิกที่เหมือนกันเป๊ะ ไม่มี configuration drift ⭐\n\n2️⃣ "Southbound APIs are used to apply configurations." ⭐\nsouthbound API คือช่องทางที่คอนโทรลเลอร์ใช้ส่งคอนฟิกลงไปยังอุปกรณ์ ⭐\n→ ใช้โปรโตคอลอย่าง OpenFlow, NETCONF, RESTCONF หรือ OpFlex ⭐\n\n🖥️ Traditional Networking\n1️⃣ "A distributed control plane is needed." ⭐\nอุปกรณ์แต่ละตัวรัน OSPF, EIGRP และ STP เอง แล้วสร้างตารางของตัวเอง ⭐\n→ ต้องแลกเปลี่ยนข้อมูลกันจนกว่าจะได้มุมมองที่ตรงกัน ⭐\n\n2️⃣ "This type requires a distributed management plane." ⭐\nการบริหารจัดการต้องทำที่อุปกรณ์แต่ละตัว ⭐\n→ SSH เข้าไปทีละเครื่อง ตั้งค่า SNMP ทีละเครื่อง ⭐\n→ ไม่มีจุดรวมศูนย์ให้ควบคุมทั้งหมด\n\n❌ ข้อความที่ไม่ถูกใช้และเหตุผล\n"Northbound APIs interact with end devices." ⭐\nข้อความนี้ "ผิดข้อเท็จจริง" ⭐\n• northbound API เชื่อมคอนโทรลเลอร์กับ "แอปพลิเคชัน" ที่อยู่ชั้นบน ⭐\n• ส่วนที่ติดต่อกับอุปกรณ์ปลายทางคือ southbound API ⭐\n→ จึงไม่สามารถจัดเข้าหมวดใดได้เลย เพราะไม่เป็นความจริงทั้งสองฝั่ง ⭐\n\n💡 เคล็ดลับจำ\nคำว่า distributed → Traditional เสมอ ⭐\nคำว่า consistent, southbound API → Controller-Based ⭐\nข้อความที่ผิดข้อเท็จจริง → เป็นตัวลวงที่ไม่ถูกใช้ ⭐\n\n📗 จำไว้สอบ: Northbound = คอนโทรลเลอร์ ↔ แอปพลิเคชัน ⭐ • Southbound = คอนโทรลเลอร์ ↔ อุปกรณ์ ⭐ อย่าสลับกัน',
+  },
+  {
+    id: 758,
+    kind: 'multi',
+    prompt: 'Which two REST API status-code classes represent errors? (Choose two.)',
+    options: [
+      { key: 'A', text: '1XX' },
+      { key: 'B', text: '2XX' },
+      { key: 'C', text: '3XX' },
+      { key: 'D', text: '4XX' },
+      { key: 'E', text: '5XX' },
+    ],
+    correct: ['D', 'E'],
+    explanation:
+      '📘 แนวคิด — รหัสสถานะของ HTTP แบ่งเป็นห้ากลุ่มตามหลักแรก ⭐ และมีสองกลุ่มที่หมายถึงข้อผิดพลาด\n\n📊 ห้ากลุ่มของรหัสสถานะ HTTP\nกลุ่ม   ความหมาย                 ตัวอย่าง\n1XX ⭐  Informational (ให้ข้อมูล) ⭐  100 Continue ⭐\n2XX ⭐  Success (สำเร็จ) ⭐         200 OK, 201 Created, 204 No Content ⭐\n3XX ⭐  Redirection (เปลี่ยนเส้นทาง) ⭐ 301 Moved Permanently, 304 Not Modified ⭐\n4XX ⭐  Client Error (ไคลเอนต์ผิด) ⭐ 400, 401, 403, 404 ⭐ ← ข้อผิดพลาด\n5XX ⭐  Server Error (เซิร์ฟเวอร์ผิด) ⭐ 500, 502, 503 ⭐ ← ข้อผิดพลาด\n\n🔴 4XX — ความผิดอยู่ที่ฝั่งไคลเอนต์ ⭐\n400 Bad Request ⭐ → รูปแบบคำขอไม่ถูกต้อง เช่น JSON ผิดไวยากรณ์\n401 Unauthorized ⭐ → ยังไม่ได้ยืนยันตัวตน หรือโทเคนหมดอายุ ⭐\n403 Forbidden ⭐ → ยืนยันตัวตนแล้วแต่ไม่มีสิทธิ์เข้าถึงทรัพยากรนี้ ⭐\n404 Not Found ⭐ → ไม่พบทรัพยากรที่ระบุ ⭐\n405 Method Not Allowed ⭐ → ใช้เมธอดผิด เช่น ส่ง POST ไปยัง endpoint ที่รับเฉพาะ GET\n429 Too Many Requests ⭐ → เรียกถี่เกินขีดจำกัด\n\n🔴 5XX — ความผิดอยู่ที่ฝั่งเซิร์ฟเวอร์ ⭐\n500 Internal Server Error ⭐ → เซิร์ฟเวอร์เกิดข้อผิดพลาดภายใน\n502 Bad Gateway ⭐ → เซิร์ฟเวอร์กลางได้รับคำตอบที่ไม่ถูกต้องจากต้นทาง\n503 Service Unavailable ⭐ → เซิร์ฟเวอร์ไม่พร้อมให้บริการชั่วคราว\n504 Gateway Timeout ⭐ → รอคำตอบจากต้นทางนานเกินไป\n\n💡 จุดที่ต้องแยกให้ชัด\n401 กับ 403 สับสนกันบ่อยมาก ⭐\n401 = "คุณเป็นใคร ยังไม่รู้จัก" → ปัญหาที่ authentication ⭐\n403 = "รู้ว่าคุณเป็นใคร แต่คุณไม่มีสิทธิ์" → ปัญหาที่ authorization ⭐\n\n✅ ทำไม D และ E ถูก: 4XX แทนข้อผิดพลาดที่เกิดจากฝั่งไคลเอนต์ และ 5XX แทนข้อผิดพลาดที่เกิดจากฝั่งเซิร์ฟเวอร์ ทั้งสองกลุ่มจึงหมายถึงข้อผิดพลาด\n\n❌ ทำไมข้ออื่นผิด:\nA. 1XX เป็นการตอบกลับเชิงข้อมูลที่บอกว่ากำลังดำเนินการต่อ ⭐ ไม่ใช่ข้อผิดพลาด\nB. 2XX หมายถึงคำขอสำเร็จ ⭐ ตรงข้ามกับข้อผิดพลาดโดยสิ้นเชิง\nC. 3XX บอกให้ไคลเอนต์ไปยังตำแหน่งใหม่หรือใช้ข้อมูลที่แคชไว้ ⭐ ไม่ใช่ข้อผิดพลาด\n\n📗 จำไว้สอบ: 2XX สำเร็จ ⭐ • 4XX ไคลเอนต์ผิด ⭐ • 5XX เซิร์ฟเวอร์ผิด ⭐ • 401 = ไม่รู้จัก • 403 = ไม่มีสิทธิ์ ⭐',
+  },
+  {
+    id: 759,
+    kind: 'single',
+    prompt: 'How do servers connect to the network in a virtual environment?',
+    options: [
+      { key: 'A', text: 'a cable connected to a physical switch on the network' },
+      { key: 'B', text: 'wireless to an access point that is physically connected to the network' },
+      { key: 'C', text: 'a virtual switch that links to an access point that is physically connected to the network' },
+      { key: 'D', text: 'a software switch on a hypervisor that is physically connected to the network' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — เซิร์ฟเวอร์เสมือนไม่มีพอร์ตทางกายภาพให้เสียบสาย ⭐ จึงต้องเชื่อมผ่าน vSwitch ที่เป็นซอฟต์แวร์อยู่ภายใน hypervisor\n\n🔌 เส้นทางของทราฟฟิกจาก VM ออกสู่เครือข่าย\nVM ⭐\n ↓ ผ่าน vNIC (การ์ดเครือข่ายเสมือน) ⭐\nvSwitch ⭐ (สวิตช์ซอฟต์แวร์ภายใน hypervisor)\n ↓ ผ่าน uplink port\nPhysical NIC ⭐ ของเซิร์ฟเวอร์จริง\n ↓ ผ่านสาย\nPhysical Switch ⭐ ในแร็ค\n\n🔧 vSwitch ทำอะไรได้บ้าง\n• เรียนรู้ MAC address และส่งต่อเฟรมเหมือนสวิตช์จริงทุกประการ ⭐\n• มี virtual port ให้ VM แต่ละตัวเชื่อมต่อ ⭐\n• รองรับ VLAN tagging และการตั้งค่า trunk ⭐\n• ทำ port mirroring และควบคุมทราฟฟิกได้ ⭐\n• เชื่อมออกสู่โลกภายนอกผ่าน physical NIC หรือหลายใบรวมกันเป็น NIC teaming ⭐\n\n💡 จุดที่น่าสนใจ\nทราฟฟิกระหว่าง VM สองตัวที่อยู่บนโฮสต์เดียวกัน "ไม่ต้องออกไปนอกเซิร์ฟเวอร์เลย" ⭐\n→ vSwitch สลับเฟรมให้ภายในหน่วยความจำโดยตรง ⭐\n→ เร็วมากเพราะไม่ต้องผ่านสายและสวิตช์จริง ⭐\n→ แต่ก็เป็นความท้าทายด้านความปลอดภัย เพราะทราฟฟิกนี้มองไม่เห็นจากอุปกรณ์เครือข่ายภายนอก ⭐\n\n📊 ตัวอย่าง vSwitch ของแต่ละแพลตฟอร์ม\nแพลตฟอร์ม        ชื่อ vSwitch\nVMware ESXi ⭐    vSphere Standard Switch / Distributed Switch ⭐\nMicrosoft Hyper-V ⭐ Hyper-V Virtual Switch ⭐\nKVM/Linux ⭐      Linux Bridge หรือ Open vSwitch (OVS) ⭐\nCisco ⭐          Nexus 1000V ⭐\n\n✅ ทำไม D ถูก: เซิร์ฟเวอร์เสมือนเชื่อมต่อกับเครือข่ายผ่านสวิตช์ซอฟต์แวร์ที่ทำงานอยู่ใน hypervisor ซึ่งตัว hypervisor เองเชื่อมต่อกับเครือข่ายจริงผ่าน physical NIC\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงที่ดี — สายจริงเชื่อมต่ออยู่กับ "เซิร์ฟเวอร์กายภาพ" ไม่ใช่กับ VM ⭐ VM ไม่มีพอร์ตกายภาพให้เสียบสายเลย\nB. เซิร์ฟเวอร์ในศูนย์ข้อมูลใช้การเชื่อมต่อแบบมีสายเสมอ ⭐ ไม่ได้ต่อผ่าน Wi-Fi\nC. VM ไม่ได้เชื่อมกับ access point ⭐ access point เป็นอุปกรณ์สำหรับเครือข่ายไร้สายของผู้ใช้ ไม่เกี่ยวข้องกับสถาปัตยกรรมเวอร์ชวลไลเซชันในศูนย์ข้อมูล\n\n📗 จำไว้สอบ: VM → vNIC → vSwitch → physical NIC → physical switch ⭐ ท่องลำดับนี้ให้ได้',
+  },
+  {
+    id: 760,
+    kind: 'single',
+    prompt: 'What is the function of the controller in a software-defined network?',
+    options: [
+      { key: 'A', text: 'forwarding packets' },
+      { key: 'B', text: 'multicast replication at the hardware level' },
+      { key: 'C', text: 'making routing decisions' },
+      { key: 'D', text: 'fragmenting and reassembling packets' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คอนโทรลเลอร์รับหน้าที่ของ control plane ทั้งหมด ⭐ ซึ่งงานหลักคือการตัดสินใจเรื่องเส้นทาง\n\n🧠 คอนโทรลเลอร์ทำอะไรบ้าง\n• เก็บภาพรวมของโทโพโลยีทั้งเครือข่ายไว้ในมุมมองเดียว ⭐\n• คำนวณเส้นทางที่เหมาะที่สุดจากมุมมองระดับ global ⭐\n• สร้างตารางการส่งต่อสำหรับอุปกรณ์แต่ละตัว ⭐\n• ผลักตารางเหล่านั้นลงไปผ่าน southbound API ⭐\n• บังคับใช้นโยบายทั่วทั้งเครือข่าย ⭐\n\n⚖️ เปรียบเทียบกับเครือข่ายแบบดั้งเดิม\nแบบดั้งเดิม\n• เราเตอร์แต่ละตัวรัน OSPF หรือ EIGRP เอง ⭐\n• แต่ละตัวเห็นเพียงข้อมูลที่เพื่อนบ้านบอกมา ⭐\n• การตัดสินใจจึงเป็นแบบกระจายและอาจไม่ใช่ทางเลือกที่ดีที่สุดในภาพรวม ⭐\n\nแบบ SDN\n• คอนโทรลเลอร์เห็นทุกลิงก์ ทุกโหนด และภาระงานของแต่ละเส้นทาง ⭐\n• คำนวณเส้นทางโดยพิจารณาปัจจัยได้หลากหลายกว่า เช่น ความหน่วง ภาระงาน และนโยบายทางธุรกิจ ⭐\n• เปลี่ยนเส้นทางได้ทันทีโดยไม่ต้องรอโปรโตคอลลู่เข้า ⭐\n\n⚡ สิ่งที่คอนโทรลเลอร์ "ไม่ทำ"\nงานที่ต้องประมวลผลทุกแพ็กเก็ตยังคงอยู่ที่ data plane บนอุปกรณ์ ⭐\n• การส่งต่อแพ็กเก็ตจริง ⭐\n• การทำสำเนามัลติแคสต์ที่ระดับฮาร์ดแวร์ ⭐\n• การแบ่งและประกอบแพ็กเก็ตใหม่ ⭐\n→ เพราะงานเหล่านี้ต้องทำที่ ASIC เพื่อความเร็วระดับสายส่ง ⭐\n→ ถ้าส่งไปให้คอนโทรลเลอร์ทำ จะเกิดคอขวดและความหน่วงมหาศาลทันที ⭐\n\n✅ ทำไม C ถูก: การตัดสินใจเรื่องเส้นทางเป็นหน้าที่ของ control plane ซึ่งถูกย้ายมารวมศูนย์ไว้ที่คอนโทรลเลอร์ในสถาปัตยกรรม SDN\n\n❌ ทำไมข้ออื่นผิด:\nA. การส่งต่อแพ็กเก็ตเป็นงานของ data plane ที่ยังคงอยู่บนอุปกรณ์และทำงานด้วยฮาร์ดแวร์ ⭐\nB. การทำสำเนามัลติแคสต์ที่ระดับฮาร์ดแวร์เป็นงานของ ASIC บนสวิตช์โดยตรง ⭐ คำว่า "at the hardware level" ในตัวเลือกก็บอกอยู่แล้วว่าไม่ใช่งานของซอฟต์แวร์คอนโทรลเลอร์\nD. การแบ่งและประกอบแพ็กเก็ตเกิดขึ้นระหว่างการส่งต่อ จึงเป็นงานของ data plane ⭐\n\n📗 จำไว้สอบ: Controller = คิดและตัดสินใจ (control plane) ⭐ • Switch/Router = ลงมือส่งต่อ (data plane) ⭐',
+  },
+  {
+    id: 761,
+    kind: 'drag',
+    image: v4q761,
+    prompt: 'Drag and drop the HTTP methods used with REST-based APIs from the left onto the descriptions on the right.',
+    categories: [
+      { name: 'creates a resource and returns its URI in the response header', items: ['POST'] },
+      { name: 'creates or replaces a previously modified resource using information in the request body', items: ['PUT'] },
+      { name: 'removes a resource', items: ['DELETE'] },
+      { name: "retrieves a list of a resource's URIs", items: ['GET'] },
+      { name: 'updates a resource using instructions included in the request body', items: ['PATCH'] },
+    ],
+    explanation:
+      '📘 แนวคิด — เมธอดของ HTTP แต่ละตัวมีความหมายและพฤติกรรมเฉพาะตัว ⭐ ข้อนี้ต้องแยก POST กับ PUT และ PUT กับ PATCH ให้ออก\n\n1️⃣ POST → "สร้างทรัพยากรและคืนค่า URI ในส่วนหัวของการตอบกลับ" ⭐\n• ใช้สร้างทรัพยากรใหม่ที่ยังไม่มีอยู่ ⭐\n• เซิร์ฟเวอร์เป็นผู้กำหนด URI ให้ แล้วส่งกลับมาในส่วนหัว Location ⭐\n• ตอบกลับด้วยรหัส 201 Created ⭐\n• "ไม่ใช่ idempotent" ⭐ เรียกซ้ำสามครั้งจะได้ทรัพยากรใหม่สามชิ้น\nPOST /api/devices → 201 Created + Location: /api/devices/42 ⭐\n\n2️⃣ PUT → "สร้างหรือแทนที่ทรัพยากรที่เคยแก้ไขไว้ โดยใช้ข้อมูลใน request body" ⭐\n• ไคลเอนต์เป็นผู้ระบุ URI เอง ⭐\n• ต้องส่งข้อมูล "ครบทุกฟิลด์" เพราะเป็นการแทนที่ทั้งชิ้น ⭐\n• เป็น idempotent ⭐ เรียกซ้ำกี่ครั้งผลลัพธ์เหมือนเดิม\nPUT /api/devices/42 พร้อมข้อมูลครบทุกฟิลด์ ⭐\n\n3️⃣ PATCH → "อัปเดตทรัพยากรด้วยคำสั่งที่อยู่ใน request body" ⭐\n• แก้ไข "เฉพาะบางฟิลด์" ที่ต้องการเปลี่ยน ⭐\n• ส่งเฉพาะส่วนที่เปลี่ยน ไม่ต้องส่งทั้งชิ้น ⭐\nPATCH /api/devices/42 พร้อมข้อมูล { "hostname": "SW1-NEW" } เท่านั้น ⭐\n\n4️⃣ GET → "ดึงรายการ URI ของทรัพยากร" ⭐\n• อ่านข้อมูลอย่างเดียว ไม่เปลี่ยนแปลงสิ่งใดบนเซิร์ฟเวอร์ ⭐\n• เป็นทั้ง safe และ idempotent ⭐\n• ผลลัพธ์แคชได้ ⭐\n\n5️⃣ DELETE → "ลบทรัพยากร" ⭐\n• เป็น idempotent ⭐ ลบซ้ำก็ยังคงถูกลบอยู่ดี\nDELETE /api/devices/42 → 204 No Content ⭐\n\n📊 สรุปความต่างที่สำคัญ\nเมธอด   Idempotent?  ระบุ URI โดยใคร   ส่งข้อมูลเท่าไร\nPOST ⭐  ✘ ⭐         เซิร์ฟเวอร์ ⭐      ครบ\nPUT ⭐   ✔ ⭐         ไคลเอนต์ ⭐        ครบทุกฟิลด์ ⭐\nPATCH ⭐ ✔ (ปกติ)     ไคลเอนต์          เฉพาะที่เปลี่ยน ⭐\nGET ⭐   ✔ ⭐         -                ไม่มี body ⭐\nDELETE ⭐ ✔ ⭐        ไคลเอนต์          ไม่มี body\n\n📗 จำไว้สอบ: POST สร้างใหม่ (เซิร์ฟเวอร์ตั้ง URI) ⭐ • PUT แทนที่ทั้งชิ้น ⭐ • PATCH แก้บางส่วน ⭐',
+  },
+  {
+    id: 762,
+    kind: 'single',
+    prompt: 'What is a function of a southbound API?',
+    options: [
+      { key: 'A', text: 'Use orchestration to provision a virtual server configuration from a web server' },
+      { key: 'B', text: 'Automate configuration changes between a server and a switching fabric' },
+      { key: 'C', text: 'Manage flow control between an SDN controller and a switching fabric' },
+      { key: 'D', text: 'Facilitate the information exchange between an SDN controller and application' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — southbound API เชื่อม "คอนโทรลเลอร์" กับ "อุปกรณ์เครือข่าย" ⭐ ต้องมีสองคำนี้อยู่ในตัวเลือกจึงจะถูก\n\n🧭 ทิศทางของ API\n┌─────────────────────┐\n│ Applications        │\n└──────────┬──────────┘\n  Northbound API ⭐ ← แอป ↔ คอนโทรลเลอร์\n┌──────────┴──────────┐\n│ SDN Controller      │\n└──────────┬──────────┘\n  Southbound API ⭐ ← คอนโทรลเลอร์ ↔ switching fabric ⭐ ← คำตอบ\n┌──────────┴──────────┐\n│ Switching Fabric    │\n└─────────────────────┘\n\n🔧 southbound API ทำอะไรบ้าง\n• ควบคุมการไหลของทราฟฟิก (flow control) โดยส่ง flow entry ลงไปยังสวิตช์ ⭐\n• ผลักคอนฟิกและนโยบายลงไปยังอุปกรณ์ ⭐\n• รับข้อมูลสถิติ สถานะ และการแจ้งเตือนกลับขึ้นมา ⭐\n• ค้นพบและระบุอุปกรณ์ที่เชื่อมต่ออยู่ ⭐\n\n📊 โปรโตคอลที่ใช้\nOpenFlow ⭐  TCP 6653 ควบคุม flow table โดยตรง ⭐\nNETCONF ⭐   SSH 830 ใช้ XML ตามแบบจำลอง YANG ⭐\nRESTCONF ⭐  HTTP/JSON เข้าถึงข้อมูล YANG ⭐\nOpFlex ⭐    ของ Cisco ใช้ใน ACI ⭐\n\n🔍 วิเคราะห์ตัวเลือกทีละข้อ\nA. "จาก web server ไปยัง virtual server" ⭐ → ไม่มีคำว่าคอนโทรลเลอร์เลย และเป็นเรื่องของ orchestration ในระบบเซิร์ฟเวอร์ ไม่ใช่ SDN\nB. "ระหว่าง server กับ switching fabric" ⭐ → ผิดที่ต้นทาง ควรเป็น "คอนโทรลเลอร์" ไม่ใช่ "เซิร์ฟเวอร์" ตัวลวงที่ดี\nC. "ระหว่าง SDN controller กับ switching fabric" ⭐ → ถูกต้องทั้งสองฝั่ง ← คำตอบ\nD. "ระหว่าง SDN controller กับ application" ⭐ → นี่คือนิยามของ northbound API ตัวลวงหลัก\n\n✅ ทำไม C ถูก: การจัดการการไหลของทราฟฟิกระหว่างคอนโทรลเลอร์ SDN กับ switching fabric คือหน้าที่หลักของ southbound API ผ่านโปรโตคอลอย่าง OpenFlow\n\n📗 จำไว้สอบ: มองหาคำว่า "controller" คู่กับ "device/fabric" = southbound ⭐ • "controller" คู่กับ "application" = northbound ⭐',
+  },
+  {
+    id: 763,
+    kind: 'single',
+    prompt: 'Which script paradigm does Puppet use?',
+    options: [
+      { key: 'A', text: 'recipes and cookbooks' },
+      { key: 'B', text: 'playbooks and roles' },
+      { key: 'C', text: 'strings and marionettes' },
+      { key: 'D', text: 'manifests and modules' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — เครื่องมือจัดการคอนฟิกแต่ละตัวใช้ศัพท์เฉพาะของตนเอง ⭐ ต้องจำให้ครบทั้งสามชุด\n\n📊 ศัพท์ของแต่ละเครื่องมือ\nเครื่องมือ  ไฟล์หลัก        หน่วยรวม      ภาษา          พอร์ต\nPuppet ⭐   Manifest ⭐     Module ⭐     Puppet DSL ⭐  8140 ⭐\nChef ⭐     Recipe ⭐       Cookbook ⭐   Ruby ⭐        10002 ⭐\nAnsible ⭐  Playbook ⭐     Role ⭐       YAML ⭐        22 (SSH) ⭐\n\n📄 Manifest ของ Puppet\n• ไฟล์นามสกุล .pp ⭐\n• เขียนด้วยภาษาเฉพาะของ Puppet ที่ใช้ลูกศรอ้วน => ⭐\n• เป็นภาษาแบบ declarative คือบอกว่า "อยากให้เป็นอย่างไร" ไม่ใช่ "ทำอย่างไร" ⭐\n\nตัวอย่าง manifest\nnode \'switch1.example.com\' {\n cisco_vlan { \'10\':\n ensure => present, ⭐ ลูกศรอ้วน\n vlan_name => \'SALES\',\n }\n}\n\n📦 Module ของ Puppet\n• โครงสร้างโฟลเดอร์มาตรฐานที่รวม manifest, template และไฟล์ประกอบไว้ด้วยกัน ⭐\n• นำกลับมาใช้ซ้ำและแบ่งปันผ่าน Puppet Forge ได้ ⭐\n\n🔄 รูปแบบการทำงานของ Puppet\nเป็นแบบ Pull model ⭐\n1. Puppet agent บนอุปกรณ์ติดต่อไปยัง Puppet master ทุก 30 นาทีตามค่าดีฟอลต์ ⭐\n2. ส่งข้อมูลสถานะปัจจุบันของตนไปให้ ⭐\n3. Master คำนวณ catalog แล้วส่งกลับมา ⭐\n4. Agent ปรับคอนฟิกให้ตรงตาม catalog นั้น ⭐\n→ ต่างจาก Ansible ที่เป็น Push model คือเครื่องควบคุมผลักคอนฟิกไปเมื่อสั่งรัน ⭐\n\n✅ ทำไม D ถูก: manifest และ module เป็นศัพท์เฉพาะของ Puppet โดย manifest คือไฟล์ที่บรรยายสถานะที่ต้องการ ส่วน module คือหน่วยที่รวม manifest หลายไฟล์ไว้ด้วยกัน\n\n❌ ทำไมข้ออื่นผิด:\nA. recipe และ cookbook เป็นศัพท์ของ Chef ที่เขียนด้วยภาษา Ruby ⭐\nB. playbook และ role เป็นศัพท์ของ Ansible ที่เขียนด้วย YAML ⭐\nC. strings และ marionettes ไม่ใช่ศัพท์ทางเทคนิคใด ๆ ⭐ เป็นการเล่นคำจากชื่อ Puppet ที่แปลว่าหุ่นเชิด\n\n📗 จำไว้สอบ: Puppet = manifest ⭐ • Chef = recipe/cookbook ⭐ • Ansible = playbook ⭐',
+  },
+  {
+    id: 764,
+    kind: 'single',
+    prompt: 'Which set of methods is supported with the REST API?',
+    options: [
+      { key: 'A', text: 'GET, PUT, ERASE, CHANGE' },
+      { key: 'B', text: 'GET, POST, MOD, ERASE' },
+      { key: 'C', text: 'GET, PUT, POST, DELETE' },
+      { key: 'D', text: 'GET, POST, ERASE, CHANGE' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — REST ใช้เมธอดมาตรฐานของ HTTP เท่านั้น ⭐ ไม่มีเมธอดที่ตั้งชื่อเอง\n\n📊 เมธอดมาตรฐานของ HTTP\nเมธอด    CRUD ⭐    หน้าที่\nGET ⭐    Read ⭐    อ่านข้อมูล ไม่เปลี่ยนแปลงสิ่งใด ⭐\nPOST ⭐   Create ⭐  สร้างทรัพยากรใหม่ ⭐\nPUT ⭐    Update ⭐  แทนที่ทรัพยากรทั้งชิ้น ⭐\nPATCH ⭐  Update ⭐  แก้ไขบางส่วนของทรัพยากร ⭐\nDELETE ⭐ Delete ⭐  ลบทรัพยากร ⭐\nHEAD ⭐   -          เหมือน GET แต่ได้เฉพาะส่วนหัว ⭐\nOPTIONS ⭐ -         สอบถามว่า endpoint นี้รองรับเมธอดใดบ้าง ⭐\n\n❌ เมธอดที่ "ไม่มีอยู่จริง"\nERASE ⭐ → ไม่มีในมาตรฐาน HTTP เลย ⭐ (สิ่งที่ถูกต้องคือ DELETE)\nCHANGE ⭐ → ไม่มีเช่นกัน ⭐ (สิ่งที่ถูกต้องคือ PUT หรือ PATCH)\nMOD ⭐ → ไม่มีเช่นกัน ⭐\n→ ตัวเลือก A, B และ D ล้วนมีเมธอดปลอมอย่างน้อยหนึ่งตัว จึงตัดออกได้ทันที ⭐\n\n🔧 ตัวอย่างการใช้งานจริงกับ Cisco DNA Center\n// Read — ดึงรายการอุปกรณ์\nGET /dna/intent/api/v1/network-device ⭐\n\n// Create — เพิ่มอุปกรณ์ใหม่\nPOST /dna/intent/api/v1/network-device ⭐\nBody: { "ipAddress": ["10.1.1.1"], "snmpVersion": "v3" }\n\n// Update — แก้ไขข้อมูลอุปกรณ์\nPUT /dna/intent/api/v1/network-device ⭐\n\n// Delete — ถอดอุปกรณ์ออก\nDELETE /dna/intent/api/v1/network-device/{id} ⭐\n\n💡 เคล็ดลับทำข้อสอบ\nถ้าเห็นเมธอดที่ "ไม่คุ้นตา" ให้ตัดตัวเลือกนั้นทิ้งทันที ⭐\nเมธอดที่มีจริงมีเพียงไม่กี่ตัว และ CCNA เน้นเพียงสี่ตัวหลักคือ GET, POST, PUT และ DELETE ⭐\n\n✅ ทำไม C ถูก: GET, PUT, POST และ DELETE เป็นเมธอดมาตรฐานของ HTTP ที่ REST API รองรับและตรงกับปฏิบัติการ CRUD ทั้งสี่อย่างพอดี\n\n❌ ทำไมข้ออื่นผิด:\nA. ERASE และ CHANGE ไม่ใช่เมธอดของ HTTP ⭐\nB. MOD และ ERASE ไม่ใช่เมธอดของ HTTP ⭐\nD. ERASE และ CHANGE ไม่ใช่เมธอดของ HTTP ⭐\n\n📗 จำไว้สอบ: สี่เมธอดหลัก GET/POST/PUT/DELETE ⭐ ตรงกับ Read/Create/Update/Delete ⭐',
+  },
+  {
+    id: 765,
+    kind: 'single',
+    prompt: 'Which technology is appropriate for communication between an SDN controller and applications running over the network?',
+    options: [
+      { key: 'A', text: 'Southbound API' },
+      { key: 'B', text: 'REST API' },
+      { key: 'C', text: 'NETCONF' },
+      { key: 'D', text: 'OpenFlow' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — การสื่อสารระหว่างคอนโทรลเลอร์กับ "แอปพลิเคชัน" คือทิศทาง northbound ⭐ ซึ่งเทคโนโลยีที่ใช้กันคือ REST API\n\n🧭 ทิศทางและเทคโนโลยีที่ใช้\n┌─────────────────────┐\n│ Applications        │\n└──────────┬──────────┘\n  REST API ⭐ ← northbound ⭐ คำตอบของข้อนี้\n┌──────────┴──────────┐\n│ SDN Controller      │\n└──────────┬──────────┘\n  OpenFlow / NETCONF ⭐ ← southbound ⭐\n┌──────────┴──────────┐\n│ Network Devices     │\n└─────────────────────┘\n\n🌐 ทำไม REST จึงเหมาะกับ northbound\n1️⃣ ทำงานบน HTTP/HTTPS ⭐\nทุกภาษาโปรแกรมมีไลบรารีสำหรับเรียก HTTP อยู่แล้ว ⭐ นักพัฒนาจึงเริ่มใช้งานได้ทันที\n\n2️⃣ ใช้ JSON ซึ่งอ่านง่ายและกระชับ ⭐\nแปลงเป็นโครงสร้างข้อมูลในภาษาต่าง ๆ ได้ทันที ⭐\n\n3️⃣ เป็น stateless ⭐\nแต่ละคำขอเป็นอิสระต่อกัน จึงขยายระบบได้ง่าย ⭐\n\n4️⃣ ผ่านไฟร์วอลล์ได้ง่าย ⭐\nเพราะใช้พอร์ต 443 ซึ่งเปิดอยู่แล้วแทบทุกที่ ⭐\n\n🔧 ตัวอย่าง northbound API ของ Cisco\nCisco DNA Center Intent API ⭐\nGET https://dnac/dna/intent/api/v1/network-device\nHeaders: X-Auth-Token: eyJhbGciOi... ⭐\n\n✅ ทำไม B ถูก: REST API เป็นเทคโนโลยีมาตรฐานที่ใช้ในทิศทาง northbound เพื่อให้แอปพลิเคชันสื่อสารกับคอนโทรลเลอร์ SDN\n\n❌ ทำไมข้ออื่นผิด:\nA. southbound API เป็นทิศทางที่คอนโทรลเลอร์สื่อสารกับ "อุปกรณ์เครือข่าย" ⭐ ไม่ใช่กับแอปพลิเคชัน ตัวลวงหลัก\nC. NETCONF เป็นโปรโตคอล southbound ที่ใช้ XML บน SSH พอร์ต 830 เพื่อจัดการคอนฟิกอุปกรณ์ ⭐\nD. OpenFlow เป็นโปรโตคอล southbound ที่ควบคุม flow table ของสวิตช์โดยตรงผ่าน TCP 6653 ⭐\n\n📗 จำไว้สอบ: แอป ↔ คอนโทรลเลอร์ = REST (northbound) ⭐ • คอนโทรลเลอร์ ↔ อุปกรณ์ = OpenFlow/NETCONF (southbound) ⭐',
+  },
+  {
+    id: 766,
+    kind: 'drag',
+    image: v4q766,
+    prompt: 'Drag and drop each characteristic of device-management technologies from the left onto the deployment type on the right.',
+    categories: [
+      { name: 'Cisco DNA Center', items: ['orchestrates background device configuration', 'supports centralized software management', 'supports open APIs'] },
+      { name: 'Traditional', items: ['provides greater flexibility for custom and non-standard configurations', 'relies on per-device management', 'uses individual software management'] },
+    ],
+    explanation:
+      '📘 แนวคิด — คำสำคัญที่ชี้ขาดคือ "centralized/open" เทียบกับ "per-device/individual" ⭐\n\n🎛️ Cisco DNA Center\n1️⃣ orchestrates background device configuration ⭐\nคอนโทรลเลอร์จัดการคอนฟิกเบื้องหลังให้เอง ⭐\n→ ผู้ดูแลกำหนดเจตนา คอนโทรลเลอร์แปลงเป็นคำสั่งบนอุปกรณ์แต่ละตัว ⭐\n→ รวมถึง Plug and Play ที่อุปกรณ์ใหม่รับคอนฟิกได้เองโดยไม่ต้องมีคนไปหน้างาน ⭐\n\n2️⃣ supports centralized software management ⭐\nระบบ SWIM (Software Image Management) ⭐\n→ ตรวจสอบเวอร์ชัน IOS ของอุปกรณ์ทุกตัวจากที่เดียว ⭐\n→ กระจายอิมเมจใหม่และอัปเกรดตามตารางเวลาที่กำหนดไว้ล่วงหน้า ⭐\n\n3️⃣ supports open APIs ⭐\nREST API แบบเปิดให้ระบบภายนอกเชื่อมต่อได้ ⭐\n→ รวมถึง SDK สำหรับอุปกรณ์ของผู้ผลิตรายอื่น ⭐\n\n🖥️ Traditional\n1️⃣ provides greater flexibility for custom and non-standard configurations ⭐\nนี่คือ "ข้อดีที่แท้จริง" ของวิธีดั้งเดิม ⭐\n→ เข้า CLI แล้วพิมพ์คำสั่งอะไรก็ได้ที่ IOS รองรับ ⭐\n→ คอนโทรลเลอร์อาจไม่รองรับคำสั่งที่แปลกหรือเฉพาะทางบางอย่าง ⭐\n→ จึงเป็นเหตุผลที่วิศวกรบางคนยังต้องเข้า CLI อยู่แม้จะมี DNA Center แล้ว ⭐\n\n2️⃣ relies on per-device management ⭐\nจัดการทีละอุปกรณ์ ⭐ SSH เข้าไปทีละเครื่อง\n\n3️⃣ uses individual software management ⭐\nอัปเกรด IOS ทีละเครื่องด้วยมือ ⭐\n→ คัดลอกอิมเมจผ่าน TFTP แล้วรีบูตทีละตัว ⭐\n→ ใช้เวลานานมากและอาจเกิดเวอร์ชันไม่ตรงกันในเครือข่าย ⭐\n\n💡 จุดที่น่าสังเกต\nข้อ 1 ของ Traditional เป็นข้อความ "เชิงบวก" ⭐ ซึ่งเตือนว่าวิธีดั้งเดิมไม่ได้แย่ไปทุกด้าน\n→ ความยืดหยุ่นในการปรับแต่งคือสิ่งที่ระบบอัตโนมัติมักแลกไป ⭐\n\n📗 จำไว้สอบ: คำว่า centralized/open API → DNA Center ⭐ • per-device/individual/custom → Traditional ⭐',
+  },
+  {
+    id: 767,
+    kind: 'single',
+    prompt: 'What is the function of `off-the-shelf` switches in a controller-based network?',
+    options: [
+      { key: 'A', text: 'setting packet-handling policies' },
+      { key: 'B', text: 'forwarding packets' },
+      { key: 'C', text: 'providing a central view of the deployed network' },
+      { key: 'D', text: 'making routing decisions' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ในเครือข่ายแบบคอนโทรลเลอร์ สวิตช์ถูกลดบทบาทเหลือเพียง "อุปกรณ์ส่งต่อแพ็กเก็ต" ⭐ ส่วนสมองทั้งหมดย้ายไปอยู่ที่คอนโทรลเลอร์\n\n💡 off-the-shelf switch หมายถึงอะไร\nเรียกอีกอย่างว่า white box switch หรือ commodity switch ⭐\n• เป็นฮาร์ดแวร์ทั่วไปที่ไม่ผูกกับผู้ผลิตรายใด ⭐\n• ราคาถูกกว่าสวิตช์แบรนด์ดังมาก เพราะไม่ต้องจ่ายค่าซอฟต์แวร์และฟีเจอร์ที่ซับซ้อน ⭐\n• ทำหน้าที่เพียงส่งต่อแพ็กเก็ตตามตารางที่ได้รับมา ⭐\n\n🏗️ การแบ่งหน้าที่ในเครือข่ายแบบคอนโทรลเลอร์\nคอนโทรลเลอร์รับผิดชอบ ⭐\n• กำหนดนโยบายการจัดการแพ็กเก็ต ⭐ (ตัวเลือก A)\n• ให้มุมมองรวมของเครือข่ายทั้งหมด ⭐ (ตัวเลือก C)\n• ตัดสินใจเรื่องเส้นทาง ⭐ (ตัวเลือก D)\n\nสวิตช์รับผิดชอบ ⭐\n• ส่งต่อแพ็กเก็ตตามตารางที่คอนโทรลเลอร์ส่งลงมา ⭐ (ตัวเลือก B) ← คำตอบ\n\n→ สังเกตว่าสามในสี่ตัวเลือกล้วนเป็นหน้าที่ของคอนโทรลเลอร์ ⭐ เหลือเพียง B ที่เป็นหน้าที่ของสวิตช์\n\n⚡ ทำไมสวิตช์ยังต้องส่งต่อแพ็กเก็ตเอง\n• การส่งต่อต้องทำที่ฮาร์ดแวร์ ASIC เพื่อความเร็วระดับสายส่ง ⭐\n• สวิตช์สมัยใหม่ส่งต่อได้หลายพันล้านแพ็กเก็ตต่อวินาที ⭐\n• ถ้าส่งทุกแพ็กเก็ตไปให้คอนโทรลเลอร์ประมวลผล จะเกิดคอขวดทันที ⭐\n• เมื่อคอนโทรลเลอร์ล่ม สวิตช์ยังส่งต่อตามตารางเดิมได้ต่อไป ⭐\n\n✅ ทำไม B ถูก: ในสถาปัตยกรรมแบบคอนโทรลเลอร์ สวิตช์ทำหน้าที่เพียงส่งต่อแพ็กเก็ตตามตารางที่ได้รับ ส่วนการตัดสินใจทั้งหมดอยู่ที่คอนโทรลเลอร์\n\n❌ ทำไมข้ออื่นผิด:\nA. การกำหนดนโยบายการจัดการแพ็กเก็ตเป็นหน้าที่ของคอนโทรลเลอร์ ⭐ ซึ่งแปลงนโยบายเป็น flow entry แล้วส่งลงไป\nC. การให้มุมมองรวมของเครือข่ายทั้งหมดคือหน้าที่ของคอนโทรลเลอร์ ⭐ สวิตช์เห็นเพียงพอร์ตของตัวเอง\nD. การตัดสินใจเรื่องเส้นทางเป็นงานของ control plane ⭐ ซึ่งถูกย้ายไปรวมศูนย์ที่คอนโทรลเลอร์แล้ว\n\n📗 จำไว้สอบ: Controller = สมอง (control plane) ⭐ • Switch = กล้ามเนื้อ (data plane) ⭐',
+  },
+  {
+    id: 768,
+    kind: 'single',
+    prompt: 'Which REST method updates an object in the Cisco DNA Center Intent API?',
+    options: [
+      { key: 'A', text: 'CHANGE' },
+      { key: 'B', text: 'UPDATE' },
+      { key: 'C', text: 'POST' },
+      { key: 'D', text: 'PUT' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — Cisco DNA Center Intent API เป็น REST API ที่ใช้เมธอดมาตรฐานของ HTTP ⭐ การอัปเดตวัตถุใช้ PUT\n\n📊 เมธอดที่ Intent API ใช้\nการกระทำ   เมธอด ⭐   ตัวอย่าง endpoint\nสร้าง      POST ⭐    POST /dna/intent/api/v1/network-device ⭐\nอ่าน       GET ⭐     GET /dna/intent/api/v1/network-device ⭐\nอัปเดต ⭐   PUT ⭐     PUT /dna/intent/api/v1/network-device ⭐ ← คำตอบ\nลบ        DELETE ⭐  DELETE /dna/intent/api/v1/network-device/{id} ⭐\n\n🔧 ตัวอย่างการเรียก PUT\nPUT https://dnac.example.com/dna/intent/api/v1/network-device\nHeaders:\n X-Auth-Token: eyJhbGciOiJIUzI1NiJ9... ⭐\n Content-Type: application/json ⭐\nBody:\n{\n "ipAddress": ["10.1.1.1"],\n "snmpVersion": "v3",\n "snmpUserName": "netadmin" ⭐\n}\n\n💡 คุณสมบัติของ PUT\n• เป็น idempotent ⭐ เรียกซ้ำกี่ครั้งผลลัพธ์เหมือนเดิม\n• แทนที่ทรัพยากรทั้งชิ้น จึงต้องส่งข้อมูลครบทุกฟิลด์ ⭐\n• ถ้าทรัพยากรนั้นยังไม่มีอยู่ บาง API จะสร้างให้ใหม่ ⭐\n\n⚠️ ข้อควรระวังของ Intent API\nคำขอส่วนใหญ่เป็นแบบ asynchronous ⭐\n→ เมื่อส่ง PUT ไปแล้ว API จะตอบกลับด้วย taskId ทันที ⭐\n→ ต้องเรียก GET /dna/intent/api/v1/task/{taskId} เพื่อตรวจสอบว่างานเสร็จหรือยัง ⭐\n→ นี่คือเหตุผลที่ผลตอบกลับของ DNA Center มักมีฟิลด์ชื่อ taskId และ url อยู่ด้วย ⭐\n\n✅ ทำไม D ถูก: PUT เป็นเมธอดมาตรฐานของ HTTP ที่ใช้อัปเดตทรัพยากรที่มีอยู่แล้ว และเป็นเมธอดที่ Cisco DNA Center Intent API ใช้สำหรับการแก้ไขวัตถุ\n\n❌ ทำไมข้ออื่นผิด:\nA. CHANGE ไม่ใช่เมธอดของ HTTP เลย ⭐ เป็นชื่อที่แต่งขึ้น\nB. ตัวลวงที่ดีที่สุด — UPDATE เป็นชื่อของ "ปฏิบัติการ CRUD" ⭐ แต่ไม่ใช่ชื่อเมธอดของ HTTP เมธอดที่ทำหน้าที่นี้คือ PUT หรือ PATCH\nC. POST ใช้ "สร้าง" ทรัพยากรใหม่ ⭐ ไม่ใช่การแก้ไขของเดิม\n\n📗 จำไว้สอบ: CRUD update ⭐ ตรงกับ HTTP method PUT ⭐ อย่าสับสนชื่อปฏิบัติการกับชื่อเมธอด',
+  },
+  {
+    id: 769,
+    kind: 'single',
+    image: v4q769,
+    prompt: 'Refer to the exhibit. How many JSON objects are represented?',
+    options: [
+      { key: 'A', text: '1' },
+      { key: 'B', text: '2' },
+      { key: 'C', text: '3' },
+      { key: 'D', text: '4' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — นับ object โดยดูที่ "จำนวนคู่ปีกกา { }" ⭐ ไม่ใช่นับจำนวนคีย์หรือจำนวนสมาชิกในอาร์เรย์\n\n🔍 อ่าน exhibit\n{ ⭐ ← ปีกกาเปิด\n "SW1" : ["Ten-GigabitEthernet0/0", "Ten-GigabitEthernet0/1"], ⭐\n "SW2" : ["Ten-GigabitEthernet0/0", "Ten-GigabitEthernet0/1"], ⭐\n "SW3" : ["Ten-GigabitEthernet0/0", "Ten-GigabitEthernet0/1"], ⭐\n "SW4" : ["Ten-GigabitEthernet0/0", "Ten-GigabitEthernet0/1"] ⭐\n} ⭐ ← ปีกกาปิด\n\n🔢 นับให้ถูกต้อง\nปีกกา { } → มีเพียงคู่เดียว ⭐ → จึงมี object เพียง 1 ตัว ⭐\nคีย์ → มี 4 ตัว คือ SW1, SW2, SW3, SW4 ⭐\nอาร์เรย์ → มี 4 ชุด แต่ละชุดมีสมาชิก 2 ตัว ⭐\n\n→ คำตอบคือ 1 object ที่มี 4 คีย์ และค่าของแต่ละคีย์เป็นอาร์เรย์ ⭐\n\n⚠️ กับดักของข้อนี้\nหลายคนเห็นสวิตช์สี่ตัวแล้วตอบ 4 ทันที ⭐\nแต่ SW1 ถึง SW4 เป็นเพียง "คีย์" ภายใน object เดียวกัน ⭐ ไม่ใช่ object แยกกัน\n→ ถ้าจะเป็น 4 object ต้องเขียนแบบนี้แทน\n[\n { "SW1": [...] }, ⭐ object ที่ 1\n { "SW2": [...] }, ⭐ object ที่ 2\n { "SW3": [...] }, ⭐ object ที่ 3\n { "SW4": [...] } ⭐ object ที่ 4\n]\n→ สังเกตว่าต้องมีปีกกาสี่คู่และครอบด้วยวงเล็บเหลี่ยม ⭐\n\n💡 วิธีนับที่ไม่ผิด\nนับเฉพาะ "ปีกกาเปิด {" ⭐ จำนวนที่ได้คือจำนวน object\n→ ใน exhibit นี้มีปีกกาเปิดเพียงตัวเดียว จึงมี 1 object ⭐\n\n✅ ทำไม A ถูก: exhibit มีปีกกาเปิดปิดเพียงคู่เดียวที่ครอบทั้งหมด จึงเป็น JSON object เดียวที่บรรจุคู่คีย์กับค่าไว้สี่คู่\n\n📗 จำไว้สอบ: นับ object = นับปีกกาเปิด { ⭐ • นับ array = นับวงเล็บเหลี่ยมเปิด [ ⭐',
+  },
+  {
+    id: 770,
+    kind: 'single',
+    prompt: 'Which definition describes JWT in regard to REST API security?',
+    options: [
+      { key: 'A', text: 'an encrypted JSON token that is used for authentication' },
+      { key: 'B', text: 'an encrypted JSON token that is used for authorization' },
+      { key: 'C', text: 'an encoded JSON token that is used to securely exchange information' },
+      { key: 'D', text: 'an encoded JSON token that is used for authentication' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ต้องแยกสองคำให้ออก คือ "encoded" (เข้ารหัสรูปแบบ) กับ "encrypted" (เข้ารหัสลับ) ⭐ JWT เป็นแบบแรก\n\n🔤 JWT คืออะไร\nJSON Web Token ⭐ กำหนดไว้ใน RFC 7519\nประกอบด้วยสามส่วนคั่นด้วยจุด ⭐\nheader.payload.signature ⭐\n\n1️⃣ Header ⭐\n{ "alg": "HS256", "typ": "JWT" } ⭐ ระบุอัลกอริทึมที่ใช้เซ็น\n\n2️⃣ Payload ⭐\n{ "sub": "admin", "role": "netadmin", "exp": 1735689600 } ⭐ ข้อมูลที่ต้องการส่ง\n\n3️⃣ Signature ⭐\nลายเซ็นที่คำนวณจาก header + payload + secret key ⭐\n\n⚠️ จุดที่สำคัญที่สุด — encoded ไม่ใช่ encrypted ⭐\n• ทั้ง header และ payload ถูกเข้ารหัสด้วย Base64URL เท่านั้น ⭐\n• Base64 เป็นเพียงการ "แปลงรูปแบบ" ไม่ใช่การปกปิด ⭐\n• ใครก็ตามที่ได้ token ไปสามารถถอด Base64 แล้วอ่านเนื้อหาได้ทันที ⭐\n→ ห้ามใส่ข้อมูลลับ เช่น รหัสผ่านหรือเลขบัตรเครดิต ลงใน payload เด็ดขาด ⭐\n\n🔐 แล้วลายเซ็นมีไว้ทำอะไร\nลายเซ็นรับประกัน "ความสมบูรณ์" ไม่ใช่ "ความลับ" ⭐\n→ ถ้าใครแก้ไข payload ลายเซ็นจะไม่ตรงกันและเซิร์ฟเวอร์จะปฏิเสธทันที ⭐\n→ แต่ยังอ่านเนื้อหาได้อยู่ดี ⭐\n→ ความลับต้องพึ่ง HTTPS ในการขนส่ง ⭐\n\n💡 ทำไม C จึงถูกกว่า A, B และ D\nคำว่า "securely exchange information" ⭐ ครอบคลุมทั้งการใช้ยืนยันตัวตนและการให้สิทธิ์\n→ JWT ใช้ได้ทั้งสองอย่าง จึงไม่ควรระบุเจาะจงเพียงอย่างใดอย่างหนึ่ง ⭐\nและคำว่า "encoded" ถูกต้องตามข้อเท็จจริง ต่างจากคำว่า "encrypted" ⭐\n\n✅ ทำไม C ถูก: JWT เป็นโทเคนที่เข้ารหัสด้วย Base64URL ไม่ใช่การเข้ารหัสลับ และใช้แลกเปลี่ยนข้อมูลอย่างปลอดภัยด้วยลายเซ็นดิจิทัลที่รับประกันความสมบูรณ์\n\n❌ ทำไมข้ออื่นผิด:\nA. คำว่า encrypted ผิดข้อเท็จจริง ⭐ JWT ไม่ได้เข้ารหัสลับเนื้อหา (มีมาตรฐาน JWE ที่ทำได้ แต่ JWT ทั่วไปไม่ใช่)\nB. ผิดที่คำว่า encrypted เช่นเดียวกับข้อ A ⭐\nD. คำว่า encoded ถูกต้อง ⭐ แต่ระบุการใช้งานแคบเกินไปว่าเพื่อ authentication เท่านั้น ในขณะที่ JWT ใช้เพื่อ authorization และการส่งข้อมูลทั่วไปได้ด้วย ตัวลวงที่ดี\n\n📗 จำไว้สอบ: JWT = encoded (Base64) ไม่ใช่ encrypted ⭐ • payload อ่านได้ ⭐ • ลายเซ็นกันการปลอมแปลง ⭐',
+  },
+  {
+    id: 771,
+    kind: 'single',
+    image: v4q771,
+    prompt: 'Refer to the exhibit. What is identified by the word `switch` within line 2 of the JSON Schema?',
+    options: [
+      { key: 'A', text: 'array' },
+      { key: 'B', text: 'value' },
+      { key: 'C', text: 'object' },
+      { key: 'D', text: 'key' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ในคู่ข้อมูลของ JSON สิ่งที่อยู่ "ทางซ้ายของโคลอน" คือ key ⭐ และสิ่งที่อยู่ทางขวาคือ value\n\n🔍 อ่าน exhibit\n1 [\n2 { "switch": "3750", "port": e2 }, ⭐ ← บรรทัดที่โจทย์ถาม\n3 { "router": "2951", "port": e20 },\n4 { "switch": "3750", "port": e23 }\n5 ]\n\n🎯 แยกส่วนของบรรทัดที่ 2\n{ "switch" : "3750" , "port" : e2 }\n ↑ key ⭐ ↑ value ⭐ ↑ key ⭐ ↑ value ⭐\n→ คำว่า switch อยู่ทางซ้ายของโคลอน จึงเป็น key ⭐\n→ ค่า "3750" อยู่ทางขวา จึงเป็น value ⭐\n\n📊 องค์ประกอบของ JSON ในบรรทัดนี้\nองค์ประกอบ        ตัวอย่างจาก exhibit\nObject ⭐          { "switch": "3750", "port": e2 } ทั้งก้อน ⭐\nKey ⭐             "switch" และ "port" ⭐\nValue ⭐           "3750" และ e2 ⭐\nArray ⭐           บรรทัดที่ 1 ถึง 5 ทั้งหมด (เพราะครอบด้วย [ ]) ⭐\n\n💡 กฎของ key ใน JSON\n• ต้องเป็น string และอยู่ในอัญประกาศคู่เสมอ ⭐\n• ต้องไม่ซ้ำกันภายใน object เดียวกัน ⭐\n• ใช้เป็นตัวอ้างอิงในการเข้าถึงข้อมูล เช่น obj["switch"] ⭐\n\n⚠️ ข้อสังเกตจาก exhibit\nค่า e2, e20 และ e23 ไม่ได้อยู่ในอัญประกาศ ⭐ ซึ่งตามหลักแล้วผิดไวยากรณ์ JSON\n→ แต่โจทย์ไม่ได้ถามเรื่องนี้ จึงไม่กระทบคำตอบ ⭐\n\n✅ ทำไม D ถูก: คำว่า switch ปรากฏอยู่ในอัญประกาศคู่และอยู่ทางซ้ายของโคลอน ซึ่งเป็นตำแหน่งของ key ในคู่คีย์กับค่าของ JSON\n\n❌ ทำไมข้ออื่นผิด:\nA. array คือโครงสร้างที่ครอบด้วยวงเล็บเหลี่ยม ⭐ ซึ่งในที่นี้คือบรรทัดที่ 1 ถึง 5 ทั้งหมด ไม่ใช่คำว่า switch\nB. value คือสิ่งที่อยู่ทางขวาของโคลอน ⭐ ซึ่งในกรณีนี้คือ "3750"\nC. object คือทั้งก้อนที่ครอบด้วยปีกกา ⭐ คือ { "switch": "3750", "port": e2 } ไม่ใช่คำว่า switch เพียงคำเดียว\n\n📗 จำไว้สอบ: ซ้ายของโคลอน = key ⭐ • ขวาของโคลอน = value ⭐ • { } = object ⭐ • [ ] = array ⭐',
+  },
+  {
+    id: 772,
+    kind: 'single',
+    image: v4q772,
+    prompt: 'Refer to the exhibit. Which type of JSON data is shown?',
+    options: [
+      { key: 'A', text: 'boolean' },
+      { key: 'B', text: 'array' },
+      { key: 'C', text: 'key' },
+      { key: 'D', text: 'object' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ดูที่ "อักขระที่ครอบทั้งก้อน" ⭐ ปีกกาหมายถึง object เสมอ\n\n🔍 อ่าน exhibit\n{"Employee\'s name": "Arthur"} ⭐\n\n🎯 วิเคราะห์\n• เปิดด้วย { และปิดด้วย } ⭐ → เป็น object ⭐\n• ภายในมีคู่คีย์กับค่าหนึ่งคู่ ⭐\n ▸ key = "Employee\'s name" ⭐\n ▸ value = "Arthur" ⭐\n• คั่นด้วยโคลอน ⭐ ตามไวยากรณ์ที่ถูกต้อง\n\n📊 สรุปสัญลักษณ์ของ JSON\nสัญลักษณ์   ชนิดข้อมูล      ตัวอย่าง\n{ } ⭐      Object ⭐       { "name": "Arthur" } ⭐ ← exhibit นี้\n[ ] ⭐      Array ⭐        [ "a", "b" ] ⭐\n" " ⭐      String ⭐       "Arthur" ⭐\nไม่มี        Number ⭐       42 ⭐\nไม่มี        Boolean ⭐      true หรือ false ⭐\nไม่มี        Null ⭐         null ⭐\n\n💡 ข้อสังเกตเกี่ยวกับอะพอสทรอฟีในคีย์\nคีย์ "Employee\'s name" มีอะพอสทรอฟีอยู่ข้างใน ⭐\n→ ใช้ได้ตามปกติเพราะ JSON ใช้ "อัญประกาศคู่" เป็นตัวคั่น อะพอสทรอฟีจึงเป็นเพียงอักขระธรรมดา ⭐\n→ แต่ถ้าจะใส่อัญประกาศคู่ไว้ข้างใน ต้องเขียนเป็น \\" เพื่อหลีกอักขระ ⭐\n\n⚠️ กับดักของข้อนี้\nตัวเลือก C คือ "key" ⭐\n→ ในก้อนนี้ "มีคีย์อยู่จริง" คือ "Employee\'s name" ⭐\n→ แต่โจทย์ถามว่า "ข้อมูลทั้งก้อนที่แสดงเป็นชนิดใด" ⭐ ไม่ได้ถามถึงส่วนประกอบภายใน\n→ ทั้งก้อนคือ object เพราะครอบด้วยปีกกา ⭐\n\n✅ ทำไม D ถูก: ข้อมูลที่แสดงครอบด้วยปีกกาและบรรจุคู่คีย์กับค่าอยู่ภายใน ซึ่งเป็นนิยามของ JSON object\n\n❌ ทำไมข้ออื่นผิด:\nA. boolean มีได้เพียง true หรือ false เท่านั้น ⭐ ซึ่งไม่ปรากฏใน exhibit เลย\nB. array ต้องครอบด้วยวงเล็บเหลี่ยม [ ] ⭐ ไม่ใช่ปีกกา\nC. key เป็นเพียง "ส่วนประกอบหนึ่ง" ภายใน object ⭐ ไม่ใช่ชนิดของข้อมูลทั้งก้อน ตัวลวงที่ดี\n\n📗 จำไว้สอบ: เห็นปีกกาครอบ = object ⭐ • เห็นวงเล็บเหลี่ยมครอบ = array ⭐ ดูที่อักขระนอกสุดเสมอ',
+  },
+  {
+    id: 773,
+    kind: 'drag',
+    image: v4q773,
+    prompt: 'Drag and drop the characteristics from the left onto the technology types on the right.',
+    categories: [
+      { name: 'Configuration Management', items: ['This type of technology enables consistent configuration of infrastructure resources.', 'Puppet is used for this type of technology.'] },
+      { name: 'Orchestration', items: ['This type of technology provides automation across multiple technologies and domains.', 'Ansible is used for this type of technology.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — Configuration Management ดูแล "สถานะของอุปกรณ์แต่ละตัว" ส่วน Orchestration ประสานงาน "ข้ามหลายระบบ" ⭐\n\n🔧 Configuration Management\n1️⃣ "enables consistent configuration of infrastructure resources" ⭐\n• มุ่งรักษาให้อุปกรณ์แต่ละตัวอยู่ใน "สถานะที่ต้องการ" อย่างสม่ำเสมอ ⭐\n• ป้องกันปัญหา configuration drift ที่แต่ละเครื่องค่อย ๆ ต่างกันไป ⭐\n• ใช้หลักการ idempotent คือรันซ้ำกี่ครั้งผลลัพธ์ก็เหมือนเดิม ⭐\n\n2️⃣ "Puppet is used for this type of technology" ⭐\n• Puppet เป็นเครื่องมือ configuration management โดยแท้ ⭐\n• ใช้ manifest แบบ declarative ที่บอกว่า "อยากให้เป็นอย่างไร" ⭐\n• agent บนอุปกรณ์ดึงคอนฟิกมาตรวจสอบและแก้ไขทุก 30 นาที ⭐\n\n🎼 Orchestration\n1️⃣ "provides automation across multiple technologies and domains" ⭐\n• ประสานงานหลายขั้นตอนที่ข้ามระบบและโดเมนต่างกัน ⭐\n• ตัวอย่างขั้นตอนการติดตั้งแอปใหม่\n ▸ สร้างเครื่องเสมือนบนคลาวด์ ⭐\n ▸ ตั้งค่า VLAN บนสวิตช์ ⭐\n ▸ เพิ่มกฎบนไฟร์วอลล์ ⭐\n ▸ ลงทะเบียนกับ load balancer ⭐\n ▸ ตั้งค่าระบบเฝ้าระวัง ⭐\n→ ทั้งหมดต้องทำตามลำดับที่ถูกต้องและข้ามหลายเทคโนโลยี ⭐\n\n2️⃣ "Ansible is used for this type of technology" ⭐\n• Ansible โดดเด่นเรื่องการเรียงลำดับงานเป็นขั้นตอน ⭐\n• playbook ระบุงานเป็นลำดับที่ชัดเจนตั้งแต่ต้นจนจบ ⭐\n• เชื่อมต่อกับระบบอื่นได้หลากหลายผ่านโมดูลนับพันตัว ⭐\n\n💡 หมายเหตุสำคัญ\nในทางปฏิบัติ Ansible ทำได้ทั้งสองอย่าง ⭐ ทั้ง configuration management และ orchestration\nแต่เมื่อโจทย์จับคู่กับ Puppet ซึ่งเป็น configuration management โดยเฉพาะ ⭐\n→ Ansible จึงถูกจัดให้อยู่ฝั่ง orchestration เพื่อแสดงจุดเด่นที่ต่างกัน ⭐\n\n📊 สรุปความต่าง\nด้าน            Configuration Management ⭐  Orchestration ⭐\nขอบเขต          อุปกรณ์แต่ละตัว ⭐            ข้ามหลายระบบ ⭐\nเป้าหมาย        รักษาสถานะให้คงที่ ⭐         ทำงานตามลำดับให้ครบ ⭐\nลักษณะ          declarative ⭐              workflow ⭐\n\n📗 จำไว้สอบ: Config Management = สถานะของแต่ละเครื่อง ⭐ • Orchestration = ประสานงานข้ามระบบ ⭐',
+  },
+  {
+    id: 774,
+    kind: 'single',
+    prompt: 'Which communication interaction takes place when a southbound API is used?',
+    options: [
+      { key: 'A', text: 'between the SDN controller and PCs on the network' },
+      { key: 'B', text: 'between the SDN controller and switches and routers on the network' },
+      { key: 'C', text: 'between the SDN controller and services and applications on the network' },
+      { key: 'D', text: 'between network applications and switches and routers on the network' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — southbound API เชื่อมสองสิ่งเท่านั้น คือ "คอนโทรลเลอร์" กับ "อุปกรณ์เครือข่าย" ⭐\n\n🧭 แผนภาพที่ต้องจำ\n┌─────────────────────────┐\n│ Applications            │\n└────────────┬────────────┘\n  Northbound API ⭐ ← controller ↔ applications\n┌────────────┴────────────┐\n│ SDN Controller          │\n└────────────┬────────────┘\n  Southbound API ⭐ ← controller ↔ switches/routers ⭐ ← คำตอบ\n┌────────────┴────────────┐\n│ Switches & Routers      │\n└─────────────────────────┘\n\n🔍 วิเคราะห์ตัวเลือกทีละข้อ\nA. "controller กับ PCs" ⭐\n→ คอนโทรลเลอร์ไม่ได้สื่อสารกับเครื่องผู้ใช้โดยตรง ⭐ PC เป็นเพียงโฮสต์ปลายทางที่ส่งทราฟฟิกผ่านเครือข่าย\n\nB. "controller กับ switches และ routers" ⭐\n→ ถูกต้อง นี่คือนิยามของ southbound API ⭐ ← คำตอบ\n\nC. "controller กับ services และ applications" ⭐\n→ นี่คือนิยามของ northbound API ⭐ ตัวลวงหลัก\n\nD. "network applications กับ switches และ routers" ⭐\n→ แอปพลิเคชันไม่ได้คุยกับอุปกรณ์โดยตรง ⭐ ต้องผ่านคอนโทรลเลอร์ที่อยู่ตรงกลางเสมอ นี่คือหลักการสำคัญของสถาปัตยกรรม SDN ⭐\n\n📊 โปรโตคอลที่ใช้ในแต่ละทิศทาง\nทิศทาง         โปรโตคอล\nNorthbound ⭐  REST API พร้อม JSON/XML ⭐\nSouthbound ⭐  OpenFlow ⭐, NETCONF ⭐, RESTCONF ⭐, OpFlex ⭐, SNMP/SSH ⭐\n\n💡 ทำไมแอปจึงห้ามคุยกับอุปกรณ์โดยตรง\nการบังคับให้ผ่านคอนโทรลเลอร์ทำให้ ⭐\n• มีจุดควบคุมนโยบายเพียงจุดเดียว ⭐\n• ตรวจสอบและบันทึกได้ครบถ้วน ⭐\n• แอปไม่ต้องรู้รายละเอียดของอุปกรณ์แต่ละยี่ห้อ ⭐\n\n✅ ทำไม B ถูก: southbound API คือช่องทางสื่อสารระหว่างคอนโทรลเลอร์ SDN กับสวิตช์และเราเตอร์ในเครือข่าย เพื่อส่งคอนฟิกและตารางการส่งต่อลงไป\n\n📗 จำไว้สอบ: South = ลงไปหาอุปกรณ์ ⭐ • North = ขึ้นไปหาแอป ⭐ • แอปกับอุปกรณ์ไม่คุยกันโดยตรง ⭐',
+  },
+  {
+    id: 775,
+    kind: 'multi',
+    prompt: 'What are two characteristics of a public cloud implementation? (Choose two.)',
+    options: [
+      { key: 'A', text: 'It is owned and maintained by one party, but it is shared among multiple organizations' },
+      { key: 'B', text: 'It enables an organization to fully customize how it deploys network resources' },
+      { key: 'C', text: 'It provides services that are accessed over the Internet' },
+      { key: 'D', text: 'It is a data center on the public Internet that maintains cloud services for only one company' },
+      { key: 'E', text: 'It supports network resources from a centralized third-party provider and privately-owned virtual resources' },
+    ],
+    correct: ['A', 'C'],
+    explanation:
+      '📘 แนวคิด — public cloud มีสองลักษณะสำคัญ คือ "ผู้ให้บริการรายเดียวเป็นเจ้าของแต่ลูกค้าหลายรายใช้ร่วมกัน" และ "เข้าถึงผ่านอินเทอร์เน็ต" ⭐\n\n📊 สี่รูปแบบของคลาวด์\nรูปแบบ        ใครเป็นเจ้าของ      ใครใช้            เข้าถึงอย่างไร\nPublic ⭐      ผู้ให้บริการรายเดียว ⭐  หลายองค์กรร่วมกัน ⭐  อินเทอร์เน็ต ⭐\nPrivate ⭐     องค์กรเดียว ⭐       องค์กรนั้นเท่านั้น ⭐   เครือข่ายภายในหรือ VPN ⭐\nHybrid ⭐      ผสมทั้งสองแบบ ⭐     องค์กรเดียว ⭐        ทั้งสองทาง ⭐\nCommunity ⭐   กลุ่มองค์กรร่วมกัน ⭐   องค์กรในกลุ่ม ⭐      ตามที่ตกลง ⭐\n\n1️⃣ ผู้ให้บริการรายเดียวเป็นเจ้าของแต่แชร์กันหลายองค์กร (ตัวเลือก A) ⭐\n• AWS, Microsoft Azure, Google Cloud เป็นเจ้าของโครงสร้างพื้นฐานทั้งหมด ⭐\n• ลูกค้านับล้านรายใช้ฮาร์ดแวร์ชุดเดียวกันโดยถูกแยกด้วยเวอร์ชวลไลเซชัน ⭐\n• คุณสมบัตินี้เรียกว่า multitenancy ⭐\n• เป็นเหตุผลที่ต้นทุนต่อรายถูกลงมาก เพราะประหยัดจากขนาด ⭐\n\n2️⃣ ให้บริการที่เข้าถึงผ่านอินเทอร์เน็ต (ตัวเลือก C) ⭐\n• ผู้ใช้เข้าถึงบริการผ่านอินเทอร์เน็ตสาธารณะ ⭐\n• ไม่ต้องมีสายเชื่อมต่อเฉพาะ (แม้จะมีทางเลือกอย่าง AWS Direct Connect ก็ตาม) ⭐\n• เข้าถึงได้จากทุกที่ทั่วโลก ⭐\n\n✅ ทำไม A และ C ถูก: ทั้งสองข้อคือคุณลักษณะที่นิยาม public cloud ตามมาตรฐาน NIST คือความเป็น multitenancy และการเข้าถึงผ่านเครือข่ายสาธารณะ\n\n❌ ทำไมข้ออื่นผิด:\nB. การปรับแต่งการติดตั้งทรัพยากรได้อย่างอิสระเต็มที่เป็นลักษณะของ private cloud ⭐ ใน public cloud ลูกค้าถูกจำกัดด้วยตัวเลือกที่ผู้ให้บริการเตรียมไว้\nD. ศูนย์ข้อมูลที่ให้บริการเพียงบริษัทเดียวคือนิยามของ private cloud ⭐ ตัวเลือกนี้ขัดกับหลักการ multitenancy โดยตรง\nE. การผสมทรัพยากรจากผู้ให้บริการภายนอกกับทรัพยากรเสมือนที่องค์กรเป็นเจ้าของเองคือนิยามของ hybrid cloud ⭐ ตัวลวงที่ดี\n\n📗 จำไว้สอบ: Public = แชร์กันหลายองค์กรผ่านอินเทอร์เน็ต ⭐ • Private = องค์กรเดียว ⭐ • Hybrid = ผสมทั้งสอง ⭐',
+  },
+  {
+    id: 776,
+    kind: 'drag',
+    image: v4q776,
+    prompt: 'Drag and drop the descriptions from the left on to the correct configuration-management technologies on the right.',
+    categories: [
+      { name: 'Ansible', items: ['uses SSH for remote device communication', 'uses YAML for fundamental configuration elements'] },
+      { name: 'Chef', items: ['uses TCP port 10002 for configuration push jobs', 'uses Ruby for fundamental configuration elements'] },
+      { name: 'Puppet', items: ['fundamental configuration elements are stored in a manifest', 'uses TCP 8140 for communication'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ต้องจำสามอย่างของแต่ละเครื่องมือให้แม่น คือ "ภาษา" "พอร์ต" และ "ชื่อไฟล์" ⭐\n\n📊 ตารางสรุปที่ต้องท่องให้ได้\nคุณสมบัติ         Ansible ⭐         Puppet ⭐          Chef ⭐\nภาษาที่ใช้เขียน      YAML ⭐           Puppet DSL ⭐      Ruby ⭐\nชื่อไฟล์คอนฟิก      Playbook ⭐       Manifest (.pp) ⭐   Recipe / Cookbook ⭐\nพอร์ต             TCP 22 (SSH) ⭐    TCP 8140 ⭐        TCP 10002 ⭐\nต้องติดตั้ง agent    ✘ Agentless ⭐     ✔ Puppet agent ⭐   ✔ Chef client ⭐\nรูปแบบการทำงาน     Push ⭐           Pull ⭐            Push/Pull ⭐\n\n1️⃣ Ansible ⭐\n• uses SSH for remote device communication ⭐\n จุดเด่นที่สุดคือไม่ต้องติดตั้ง agent เลย ⭐ ใช้เพียง SSH ที่เปิดอยู่แล้ว\n → เหมาะกับอุปกรณ์เครือข่ายมากที่สุด เพราะสวิตช์และเราเตอร์ติดตั้ง agent ไม่ได้ ⭐\n• uses YAML for fundamental configuration elements ⭐\n Playbook เขียนด้วย YAML ที่ใช้การเยื้องบรรทัดกำหนดโครงสร้าง อ่านง่ายแม้ไม่เคยเขียนโปรแกรม ⭐\n\n2️⃣ Chef ⭐\n• uses Ruby for fundamental configuration elements ⭐\n Recipe เขียนด้วยภาษา Ruby เต็มรูปแบบ จึงยืดหยุ่นสูงแต่ต้องมีพื้นฐานการเขียนโปรแกรม ⭐\n• uses TCP port 10002 for configuration push jobs ⭐\n เป็นพอร์ตที่ Chef server ใช้ผลักคอนฟิกไปยัง client ⭐\n\n3️⃣ Puppet ⭐\n• fundamental configuration elements are stored in a manifest ⭐\n ไฟล์ .pp เขียนด้วยภาษาเฉพาะที่ใช้ลูกศรอ้วน => ⭐\n• uses TCP 8140 for communication ⭐\n Puppet agent ดึงคอนฟิกจาก master ผ่านพอร์ตนี้ทุก 30 นาทีตามค่าดีฟอลต์ ⭐\n\n💡 เคล็ดลับจำพอร์ต\nAnsible = 22 ⭐ (เลขน้อยที่สุด เพราะใช้ SSH ที่มีอยู่แล้ว)\nPuppet = 8140 ⭐\nChef = 10002 ⭐ (เลขมากที่สุด)\n→ เรียงจากน้อยไปมาก: Ansible → Puppet → Chef ⭐\n\n📗 จำไว้สอบ: Ansible เป็นตัวเดียวที่ agentless ⭐ จึงเป็นที่นิยมที่สุดในงาน network automation',
+  },
+  {
+    id: 777,
+    kind: 'drag',
+    image: v4q777,
+    prompt: 'Drag and drop the REST API call methods for HTTP from the left onto the actions they perform on the right. Not all methods are used.',
+    categories: [
+      { name: 'creates a resource on the server', items: ['POST'] },
+      { name: 'reads data from the server', items: ['GET'] },
+      { name: 'removes a resource from the server', items: ['DELETE'] },
+      { name: 'updates an entry in the database', items: ['PUT'] },
+      { name: 'ไม่ใช้ (ตัวลวง)', items: ['PATCH'] },
+    ],
+    explanation:
+      '📘 แนวคิด — โจทย์มีห้าเมธอดแต่มีช่องวางเพียงสี่ช่อง ⭐ ตรงกับ CRUD สี่ปฏิบัติการพอดี\n\n📊 การจับคู่ CRUD กับ HTTP\nCRUD ⭐    HTTP ⭐   คำบรรยายในโจทย์\nCreate ⭐  POST ⭐   "creates a resource on the server" ⭐\nRead ⭐    GET ⭐    "reads data from the server" ⭐\nUpdate ⭐  PUT ⭐    "updates an entry in the database" ⭐\nDelete ⭐  DELETE ⭐ "removes a resource from the server" ⭐\n\n1️⃣ POST → สร้างทรัพยากรบนเซิร์ฟเวอร์ ⭐\n• เซิร์ฟเวอร์เป็นผู้กำหนด URI ให้กับทรัพยากรใหม่ ⭐\n• ตอบกลับด้วยรหัส 201 Created พร้อมส่วนหัว Location ⭐\n• ไม่ใช่ idempotent ⭐ เรียกสามครั้งได้ทรัพยากรสามชิ้น\n\n2️⃣ GET → อ่านข้อมูลจากเซิร์ฟเวอร์ ⭐\n• เป็นทั้ง safe และ idempotent ⭐ ไม่เปลี่ยนแปลงสิ่งใด\n• ผลลัพธ์แคชได้ ⭐\n• พารามิเตอร์อยู่ใน URL ไม่มี request body ⭐\n\n3️⃣ PUT → อัปเดตรายการในฐานข้อมูล ⭐\n• แทนที่ทรัพยากรทั้งชิ้น จึงต้องส่งข้อมูลครบทุกฟิลด์ ⭐\n• เป็น idempotent ⭐\n• ไคลเอนต์เป็นผู้ระบุ URI เอง ⭐\n\n4️⃣ DELETE → ลบทรัพยากรออกจากเซิร์ฟเวอร์ ⭐\n• เป็น idempotent ⭐ ลบซ้ำก็ยังคงถูกลบอยู่\n• ตอบกลับด้วยรหัส 204 No Content ⭐\n\n❌ เมธอดที่ไม่ได้ใช้\nPATCH ⭐\n• ใช้แก้ไข "เฉพาะบางฟิลด์" ไม่ใช่ทั้งชิ้น ⭐\n• ไม่อยู่ในชุด CRUD สี่ปฏิบัติการมาตรฐาน ⭐\n• เนื่องจากช่อง "updates" ถูก PUT ครองไปแล้ว PATCH จึงเหลือเป็นตัวที่ไม่ถูกใช้ ⭐\n\n💡 PUT เทียบกับ PATCH\nPUT /api/devices/42 ⭐\n{ "hostname": "SW1", "location": "HQ", "vlan": 10 } ← ต้องส่งครบทุกฟิลด์ ⭐\n\nPATCH /api/devices/42 ⭐\n{ "hostname": "SW1-NEW" } ← ส่งเฉพาะที่เปลี่ยน ⭐\n\n📗 จำไว้สอบ: CRUD สี่ตัว = POST/GET/PUT/DELETE ⭐ • PATCH เป็นตัวเสริมที่แก้เฉพาะบางส่วน ⭐',
+  },
+  {
+    id: 778,
+    kind: 'drag',
+    image: v4q778,
+    prompt: 'Drag and drop the REST principles from the left onto their definitions on the right.',
+    categories: [
+      { name: 'divides architecture components into the consumers and producers of a service', items: ['client-server'] },
+      { name: 'divides the architecture into a hierarchy of levels', items: ['layered system'] },
+      { name: 'enables the client to reuse a previous response for subsequent equivalent requests', items: ['cacheable'] },
+      { name: 'operates without any stored session information on the server', items: ['stateless'] },
+      { name: 'simplifies the communication between components, regardless of the architecture supporting them', items: ['uniform interface'] },
+    ],
+    explanation:
+      '📘 แนวคิด — REST มีข้อจำกัดทางสถาปัตยกรรมหกข้อ ⭐ โจทย์นี้ถามห้าข้อที่เป็นข้อบังคับ\n\n1️⃣ client-server ⭐\n"แบ่งองค์ประกอบของสถาปัตยกรรมออกเป็นผู้บริโภคและผู้ผลิตบริการ"\n• ไคลเอนต์ = ผู้ขอใช้บริการ ⭐\n• เซิร์ฟเวอร์ = ผู้ให้บริการ ⭐\n• แยกหน้าที่ออกจากกันชัดเจน ⭐ ทำให้พัฒนาสองฝั่งอย่างอิสระได้\n\n2️⃣ stateless ⭐\n"ทำงานโดยไม่มีการเก็บข้อมูลเซสชันไว้บนเซิร์ฟเวอร์"\n• ทุกคำขอต้องมีข้อมูลครบถ้วนในตัวเอง ⭐ รวมถึงข้อมูลยืนยันตัวตน\n• เซิร์ฟเวอร์ไม่จำว่าไคลเอนต์เคยขออะไรมาก่อน ⭐\n• ประโยชน์คือขยายระบบได้ง่าย เพราะคำขอจะไปตกที่เซิร์ฟเวอร์ตัวใดก็ได้ ⭐\n• นี่คือเหตุผลที่ REST API ต้องส่งโทเคนไปทุกครั้ง เช่น X-Auth-Token ⭐\n\n3️⃣ cacheable ⭐\n"ทำให้ไคลเอนต์นำการตอบกลับก่อนหน้ามาใช้ซ้ำสำหรับคำขอที่เทียบเท่ากันในภายหลัง"\n• เซิร์ฟเวอร์ระบุได้ว่าการตอบกลับใดแคชได้และนานเท่าไร ⭐\n• ใช้ส่วนหัว Cache-Control และ ETag ⭐\n• ลดภาระของเซิร์ฟเวอร์และเพิ่มความเร็วให้ไคลเอนต์ ⭐\n\n4️⃣ layered system ⭐\n"แบ่งสถาปัตยกรรมออกเป็นลำดับชั้น"\n• ระหว่างไคลเอนต์กับเซิร์ฟเวอร์อาจมีชั้นกลางได้ เช่น พร็อกซี, load balancer หรือ API gateway ⭐\n• ไคลเอนต์ไม่จำเป็นต้องรู้ว่ากำลังคุยกับเซิร์ฟเวอร์จริงหรือชั้นกลาง ⭐\n• ทำให้เพิ่มความปลอดภัยและกระจายภาระได้โดยไม่กระทบไคลเอนต์ ⭐\n\n5️⃣ uniform interface ⭐\n"ทำให้การสื่อสารระหว่างองค์ประกอบง่ายขึ้น โดยไม่ขึ้นกับสถาปัตยกรรมที่รองรับ"\n• ใช้รูปแบบการเรียกที่สม่ำเสมอ คือ URI ระบุทรัพยากร และเมธอด HTTP ระบุการกระทำ ⭐\n• ไม่ว่าเบื้องหลังจะเขียนด้วยภาษาใดหรือรันบนระบบใด ไคลเอนต์ก็เรียกใช้ด้วยวิธีเดียวกัน ⭐\n\n💡 ข้อที่หกที่ไม่ได้ถามในโจทย์\nCode on Demand ⭐ — เซิร์ฟเวอร์ส่งโค้ดให้ไคลเอนต์รันได้ เช่น JavaScript\n→ เป็นข้อ "ทางเลือก" ข้อเดียวในหกข้อ ⭐\n\n📗 จำไว้สอบ: stateless เป็นข้อที่ออกสอบบ่อยที่สุด ⭐ เพราะเป็นเหตุผลที่ REST ต้องส่งโทเคนไปทุกคำขอ',
+  },
+  {
+    id: 779,
+    kind: 'drag',
+    image: v4q779,
+    prompt: 'Drag and drop the Ansible terms from the left onto the right.',
+    categories: [
+      { name: 'collection of actions to perform on target devices, expressed in YAML format', items: ['playbook'] },
+      { name: 'device with Ansible installed that manages target devices', items: ['control node'] },
+      { name: 'network device, without Ansible installed, upon which commands can be executed', items: ['managed node'] },
+      { name: 'specific action to be performed on one or more target devices', items: ['task'] },
+      { name: 'unit of Python code to be executed', items: ['module'] },
+      { name: 'Ansible file that defines the target devices upon which commands and tasks can be executed', items: ['inventory'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ต้องรู้จักองค์ประกอบทั้งหกของ Ansible และลำดับชั้นของมัน ⭐\n\n🏗️ ลำดับชั้นของ Ansible\nControl Node ⭐ (เครื่องที่ติดตั้ง Ansible)\n ├── Inventory ⭐ (รายชื่อเป้าหมาย)\n └── Playbook ⭐ (ไฟล์ YAML รวมงานทั้งหมด)\n └── Play (จับคู่งานกับกลุ่มโฮสต์)\n └── Task ⭐ (งานย่อยหนึ่งอย่าง)\n └── Module ⭐ (โค้ด Python ที่ทำงานจริง)\n ↓ ผ่าน SSH\n Managed Node ⭐ (อุปกรณ์ปลายทาง)\n\n1️⃣ playbook ⭐\n"ชุดการกระทำที่จะทำกับอุปกรณ์เป้าหมาย เขียนในรูปแบบ YAML"\n• ไฟล์หลักที่สั่งรันด้วยคำสั่ง ansible-playbook ⭐\n• ภายในประกอบด้วยหนึ่งหรือหลาย play ⭐\n\n2️⃣ control node ⭐\n"อุปกรณ์ที่ติดตั้ง Ansible ไว้และทำหน้าที่จัดการอุปกรณ์เป้าหมาย"\n• ต้องเป็นระบบปฏิบัติการตระกูล Linux หรือ macOS ⭐ (Windows รองรับผ่าน WSL)\n• เป็นเครื่องเดียวที่ต้องมี Ansible ติดตั้งอยู่ ⭐\n\n3️⃣ managed node ⭐\n"อุปกรณ์เครือข่ายที่ไม่ได้ติดตั้ง Ansible แต่สามารถสั่งคำสั่งไปทำงานได้"\n• คือสวิตช์ เราเตอร์ หรือเซิร์ฟเวอร์ปลายทาง ⭐\n• "ไม่ต้องติดตั้งอะไรเลย" ⭐ นี่คือคุณสมบัติ agentless ที่เป็นจุดขายของ Ansible\n\n4️⃣ task ⭐\n"การกระทำเฉพาะอย่างที่จะทำกับอุปกรณ์เป้าหมายหนึ่งเครื่องหรือมากกว่า"\n• หน่วยงานย่อยที่สุดใน playbook ⭐\n• แต่ละ task เรียกใช้โมดูลหนึ่งตัว ⭐\n\n5️⃣ module ⭐\n"หน่วยของโค้ด Python ที่จะถูกเรียกทำงาน"\n• เป็นโค้ดจริงที่ทำงานเบื้องหลัง ⭐\n• Ansible มีโมดูลสำเร็จรูปหลายพันตัว เช่น ios_vlan, ios_config, ios_facts ⭐\n\n6️⃣ inventory ⭐\n"ไฟล์ของ Ansible ที่กำหนดอุปกรณ์เป้าหมายที่จะสั่งคำสั่งและงานไปทำ"\n• ไฟล์รายชื่อโฮสต์ในรูปแบบ INI หรือ YAML ⭐\n• จัดกลุ่มโฮสต์ได้ เช่น [switches] และ [routers] ⭐\n\n💡 ตัวอย่าง inventory\n[access_switches] ⭐\nsw1.example.com\nsw2.example.com\n\n[core_switches] ⭐\ncore1.example.com\n\n📗 จำไว้สอบ: Control node ติดตั้ง Ansible ⭐ • Managed node ไม่ต้องติดตั้งอะไรเลย ⭐ นี่คือหัวใจของ agentless',
+  },
+  {
+    id: 780,
+    kind: 'single',
+    image: v4q780,
+    prompt: 'Refer to the exhibit. How many objects, keys, and JSON list values are present?',
+    options: [
+      { key: 'A', text: 'Three objects, two keys, and three JSON list values' },
+      { key: 'B', text: 'Three objects, three keys, and two JSON list values' },
+      { key: 'C', text: 'One object, three keys, and three JSON list values' },
+      { key: 'D', text: 'One object, three keys, and two JSON list values' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ต้องนับสามอย่างแยกกัน คือ object (ปีกกา) key (ชื่อทางซ้ายของโคลอน) และ list (วงเล็บเหลี่ยม) ⭐\n\n🔍 อ่าน exhibit\n{ ⭐ ← ปีกกาเปิด (object เดียว)\n "Test_Questions" : [ ⭐ ← key ที่ 1, list ที่ 1\n "Automation",\n "Configuration",\n ],\n "Test_Exam_Level" : [ ⭐ ← key ที่ 2, list ที่ 2\n "CCNA",\n "CCNP",\n ],\n "Test_Response" : [ ⭐ ← key ที่ 3, list ที่ 3\n "Correct",\n "Incorrect",\n ],\n} ⭐ ← ปีกกาปิด\n\n🔢 นับทีละอย่าง\n1️⃣ นับ object → ดูปีกกาเปิด { ⭐\nมีเพียงคู่เดียวที่ครอบทั้งหมด → 1 object ⭐\n\n2️⃣ นับ key → ดูชื่อที่อยู่ในอัญประกาศทางซ้ายของโคลอน ⭐\n• "Test_Questions" ⭐\n• "Test_Exam_Level" ⭐\n• "Test_Response" ⭐\n→ รวม 3 keys ⭐\n\n3️⃣ นับ JSON list → ดูวงเล็บเหลี่ยมเปิด [ ⭐\n• list ของ Test_Questions ⭐\n• list ของ Test_Exam_Level ⭐\n• list ของ Test_Response ⭐\n→ รวม 3 lists ⭐\n\n✅ สรุป: 1 object, 3 keys, 3 JSON list values ⭐ ตรงกับตัวเลือก C\n\n⚠️ กับดักที่ต้องระวัง\nกับดักที่ 1 — นับ list เป็นจำนวนสมาชิกข้างใน ⭐\n→ แต่ละ list มีสมาชิก 2 ตัว รวมทั้งหมด 6 ตัว ⭐ แต่โจทย์ถามจำนวน "list" ไม่ใช่จำนวนสมาชิก\n\nกับดักที่ 2 — นับ object เป็น 3 เพราะเห็นสามกลุ่ม ⭐\n→ แต่ทั้งสามกลุ่มอยู่ในปีกกาคู่เดียวกัน จึงเป็น object เดียว ⭐\n→ ถ้าจะเป็น 3 object ต้องมีปีกกาสามคู่แยกกัน\n\n💡 วิธีนับที่ไม่ผิด\nObject → นับ { ที่เปิด ⭐\nKey → นับชื่อในอัญประกาศที่ตามด้วยโคลอน ⭐\nList/Array → นับ [ ที่เปิด ⭐\n\n✅ ทำไม C ถูก: exhibit มีปีกกาครอบเพียงคู่เดียวจึงเป็น 1 object ภายในมีคีย์สามตัว และค่าของแต่ละคีย์เป็นอาร์เรย์จึงมี 3 list\n\n📗 จำไว้สอบ: นับตามสัญลักษณ์เสมอ — { } คือ object ⭐ [ ] คือ list ⭐ ชื่อก่อนโคลอนคือ key ⭐',
+  },
+  {
+    id: 781,
+    kind: 'multi',
+    prompt: 'Which two primary drivers support the need for network automation? (Choose two.)',
+    options: [
+      { key: 'A', text: 'Increasing reliance on self-diagnostic and self-healing' },
+      { key: 'B', text: 'Eliminating training needs' },
+      { key: 'C', text: 'Policy-driven provisioning of resources' },
+      { key: 'D', text: 'Reducing hardware footprint' },
+      { key: 'E', text: 'Providing a single entry point for resource provisioning' },
+    ],
+    correct: ['C', 'E'],
+    explanation:
+      '📘 แนวคิด — แรงขับเคลื่อนหลักของระบบอัตโนมัติคือ "การจัดเตรียมทรัพยากรตามนโยบาย" และ "การมีจุดเข้าถึงเพียงจุดเดียว" ⭐\n\n1️⃣ Policy-driven provisioning (ตัวเลือก C) ⭐\nเปลี่ยนจากการสั่งงานทีละคำสั่ง มาเป็นการประกาศเจตนา ⭐\n\nแบบเดิม — บอกว่าทำอย่างไร ⭐\ninterface gi0/1\n switchport mode access\n switchport access vlan 10\n→ ต้องพิมพ์ซ้ำบนทุกอุปกรณ์และทุกพอร์ต ⭐\n\nแบบใหม่ — บอกว่าต้องการอะไร ⭐\n"พอร์ตที่เชื่อมกับกล้องวงจรปิด ให้อยู่ใน VLAN 10 พร้อม QoS สำหรับวิดีโอ" ⭐\n→ ระบบแปลงเป็นคอนฟิกบนอุปกรณ์ทุกตัวให้เอง ⭐\n→ เมื่อมีสวิตช์ใหม่เข้ามา นโยบายจะถูกนำไปใช้โดยอัตโนมัติ ⭐\n\n2️⃣ จุดเข้าถึงเพียงจุดเดียว (ตัวเลือก E) ⭐\nแบบเดิม ⭐\n• สร้าง VLAN → SSH เข้าสวิตช์ทีละตัว\n• เปิดพอร์ตไฟร์วอลล์ → เข้าหน้าจอไฟร์วอลล์\n• สร้างเครื่องเสมือน → เข้าคอนโซลของ VMware\n→ ต้องรู้เครื่องมือหลายตัวและทำหลายที่ ⭐\n\nแบบใหม่ ⭐\n• เรียก API เดียวหรือใช้พอร์ทัลเดียว ⭐\n• ระบบ orchestration ประสานงานกับทุกระบบให้เอง ⭐\n• ผู้ขอใช้บริการไม่ต้องรู้ว่าเบื้องหลังมีระบบอะไรบ้าง ⭐\n\n✅ ทำไม C และ E ถูก: ทั้งสองข้อเป็นแรงขับเคลื่อนเชิงธุรกิจที่แท้จริง — C เปลี่ยนวิธีคิดจากคำสั่งเป็นนโยบาย ส่วน E ลดความซับซ้อนในการขอใช้ทรัพยากรให้เหลือจุดเดียว\n\n❌ ทำไมข้ออื่นผิด:\nA. ตัวลวงที่ดี — ระบบที่วินิจฉัยและซ่อมแซมตัวเองได้เป็น "เป้าหมายปลายทาง" ของ AI-driven networking ⭐ แต่ยังไม่ใช่แรงขับเคลื่อนหลักในระดับพื้นฐานของระบบอัตโนมัติตามหลักสูตร CCNA\nB. ผิดโดยสิ้นเชิง — ระบบอัตโนมัติ "เพิ่ม" ความต้องการฝึกอบรม ⭐ เพราะวิศวกรเครือข่ายต้องเรียนรู้ Python, YAML, REST API และ Git เพิ่มเติมจากความรู้เดิม\nD. การลดจำนวนฮาร์ดแวร์เป็นประโยชน์ของเวอร์ชวลไลเซชัน ⭐ ระบบอัตโนมัติเป็นเรื่องของซอฟต์แวร์ล้วน ๆ ไม่ได้ทำให้ต้องใช้สวิตช์น้อยลง\n\n📗 จำไว้สอบ: automation ขับเคลื่อนด้วย policy-driven ⭐ + single entry point ⭐ + ความสม่ำเสมอ ⭐',
+  },
+  {
+    id: 782,
+    kind: 'single',
+    prompt: 'What is an expected outcome when network management automation is deployed?',
+    options: [
+      { key: 'A', text: 'A distributed management plane must be used.' },
+      { key: 'B', text: 'Complexity increases when new device configurations are added.' },
+      { key: 'C', text: 'Custom applications are needed to configure network devices.' },
+      { key: 'D', text: 'Software upgrades are performed from a central controller.' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ผลลัพธ์ที่คาดหวังจากระบบอัตโนมัติคือการรวมศูนย์ ⭐ ซึ่งรวมถึงการอัปเกรดซอฟต์แวร์จากจุดเดียว\n\n🔄 การอัปเกรด IOS สองแบบ\nแบบดั้งเดิม — ทีละเครื่อง ⭐\n1. ดาวน์โหลดอิมเมจ IOS มาไว้ที่เซิร์ฟเวอร์ TFTP\n2. SSH เข้าสวิตช์ตัวที่ 1\n3. copy tftp: flash: ⭐\n4. ตรวจสอบค่า MD5\n5. boot system flash:...\n6. reload\n7. รอสวิตช์บูตเสร็จ แล้วตรวจสอบผล\n8. ทำซ้ำกับสวิตช์ตัวที่ 2 ถึง 200 ⭐\n→ ใช้เวลาหลายสัปดาห์และเสี่ยงที่บางเครื่องจะได้เวอร์ชันไม่ตรงกัน ⭐\n\nแบบอัตโนมัติ — จากคอนโทรลเลอร์ ⭐\n1. อัปโหลดอิมเมจเข้าคลังของ DNA Center ครั้งเดียว ⭐\n2. กำหนดให้เป็น golden image สำหรับอุปกรณ์แต่ละตระกูล ⭐\n3. ระบบตรวจสอบความพร้อมก่อนอัปเกรดโดยอัตโนมัติ ⭐ เช่น พื้นที่แฟลชเพียงพอหรือไม่\n4. กำหนดตารางเวลาให้ทำนอกเวลาทำการ ⭐\n5. ระบบทยอยอัปเกรดทั้งเครือข่ายและรายงานผล ⭐\n→ ฟีเจอร์นี้ชื่อ SWIM (Software Image Management) ⭐\n\n💡 ประโยชน์ที่ตามมา\n• ทุกอุปกรณ์ใช้เวอร์ชันเดียวกัน ลดปัญหาที่เกิดจากความแตกต่างของเวอร์ชัน ⭐\n• ปิดช่องโหว่ด้านความปลอดภัยได้รวดเร็วทั่วทั้งเครือข่าย ⭐\n• มีบันทึกว่าอุปกรณ์ใดอัปเกรดเมื่อไรและสำเร็จหรือไม่ ⭐\n\n✅ ทำไม D ถูก: การอัปเกรดซอฟต์แวร์จากคอนโทรลเลอร์ส่วนกลางเป็นผลลัพธ์โดยตรงและวัดได้ของการนำระบบอัตโนมัติมาใช้ในการบริหารจัดการเครือข่าย\n\n❌ ทำไมข้ออื่นผิด:\nA. กลับด้าน — ระบบอัตโนมัติทำให้ management plane "รวมศูนย์" ⭐ ไม่ใช่กระจาย การกระจายเป็นลักษณะของวิธีดั้งเดิม\nB. กลับด้านเช่นกัน — ระบบอัตโนมัติ "ลด" ความซับซ้อนเมื่อเพิ่มอุปกรณ์ใหม่ ⭐ เพราะเทมเพลตเดิมถูกนำไปใช้โดยอัตโนมัติ\nC. ไม่จำเป็นต้องเขียนแอปเอง ⭐ เครื่องมือสำเร็จรูปอย่าง DNA Center, Ansible หรือ Puppet ใช้งานได้ทันที (การเขียนแอปเองเป็นทางเลือกเสริมผ่าน REST API เท่านั้น)\n\n📗 จำไว้สอบ: SWIM = การจัดการอิมเมจซอฟต์แวร์แบบรวมศูนย์ของ DNA Center ⭐ พร้อมแนวคิด golden image ⭐',
+  },
+  {
+    id: 783,
+    kind: 'single',
+    image: v4q783,
+    prompt: 'Refer to the exhibit. What is represented by `R1` and `SW1` within the JSON output?',
+    options: [
+      { key: 'A', text: 'object' },
+      { key: 'B', text: 'value' },
+      { key: 'C', text: 'key' },
+      { key: 'D', text: 'array' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — สิ่งที่อยู่ "ภายในอาร์เรย์" คือ value ⭐ ส่วน key คือชื่อที่อยู่ทางซ้ายของโคลอน\n\n🔍 อ่าน exhibit\n{\n "Routers": ["R1", "R2", "R3"], ⭐\n "Switches": ["SW1", "SW2", "SW3"] ⭐\n}\n\n🎯 แยกส่วนประกอบ\nObject ⭐ → ทั้งก้อนที่ครอบด้วย { } ⭐\nKey ⭐ → "Routers" และ "Switches" ⭐ อยู่ทางซ้ายของโคลอน\nArray ⭐ → ["R1", "R2", "R3"] และ ["SW1", "SW2", "SW3"] ⭐ ครอบด้วย [ ]\nValue ⭐ → "R1", "R2", "R3", "SW1", "SW2", "SW3" ⭐ ← สมาชิกภายในอาร์เรย์ ← คำตอบ\n\n📊 ตารางสรุป\nส่วนประกอบ  ตัวอย่างจาก exhibit\nObject ⭐    ทั้งก้อน { ... } ⭐\nKey ⭐       "Routers", "Switches" ⭐\nArray ⭐     [ "R1", "R2", "R3" ] ⭐\nValue ⭐     "R1", "SW1" และสมาชิกอื่น ๆ ⭐\n\n💡 ทำไม R1 และ SW1 จึงเป็น value\n• อยู่ทางขวาของโคลอน ⭐\n• อยู่ภายในวงเล็บเหลี่ยม จึงเป็นสมาชิกของอาร์เรย์ ⭐\n• เข้าถึงด้วยดัชนีตำแหน่ง เช่น data["Routers"][0] ได้ค่า "R1" ⭐\n• ไม่ได้ทำหน้าที่เป็นชื่ออ้างอิงให้สิ่งใด จึงไม่ใช่ key ⭐\n\n⚠️ กับดักของข้อนี้\nชื่อ R1 และ SW1 ดูเหมือน "ชื่ออุปกรณ์" ⭐ ทำให้หลายคนคิดว่าเป็น key\nแต่ในโครงสร้าง JSON นี้ ทั้งคู่เป็นเพียงข้อความที่เก็บอยู่ในรายการ ⭐\n→ ถ้าจะเป็น key ต้องเขียนแบบนี้แทน\n{\n "R1": { "type": "router" }, ⭐ ← R1 เป็น key\n "SW1": { "type": "switch" } ⭐\n}\n\n✅ ทำไม B ถูก: R1 และ SW1 เป็นสมาชิกที่อยู่ภายในอาร์เรย์ซึ่งเป็นค่าของคีย์ "Routers" และ "Switches" จึงจัดเป็น value ไม่ใช่ key\n\n❌ ทำไมข้ออื่นผิด:\nA. object คือทั้งก้อนที่ครอบด้วยปีกกา ⭐ ไม่ใช่ข้อความเดี่ยว ๆ\nC. ตัวลวงหลัก — key ในโครงสร้างนี้คือ "Routers" และ "Switches" ⭐ ซึ่งอยู่ทางซ้ายของโคลอน\nD. array คือ ["R1", "R2", "R3"] ทั้งชุด ⭐ ไม่ใช่สมาชิกตัวเดียว\n\n📗 จำไว้สอบ: ซ้ายโคลอน = key ⭐ • ขวาโคลอน หรือในวงเล็บเหลี่ยม = value ⭐',
+  },
+  {
+    id: 784,
+    kind: 'drag',
+    image: v4q784,
+    prompt: 'Drag and drop the statements about networking from the left onto the corresponding networking types on the right.',
+    categories: [
+      { name: 'Traditional Networking', items: ['Maintenance costs are higher than with other networking options.', 'This type implements changes individually at each device.'] },
+      { name: 'Controller-Based Networking', items: ['This type provides a centralized view of the network.', 'This type leverages controllers to handle network management.'] },
+    ],
+    explanation:
+      '📘 แนวคิด — คำสำคัญที่ชี้ขาดคือ "individually at each device" เทียบกับ "centralized" ⭐\n\n🖥️ Traditional Networking\n1️⃣ "Maintenance costs are higher than with other networking options." ⭐\nทำไมค่าบำรุงรักษาจึงสูงกว่า\n• ต้องใช้เวลาของวิศวกรมากในการคอนฟิกทีละเครื่อง ⭐\n• ต้องส่งคนไปที่สาขาเมื่อมีอุปกรณ์ใหม่ ⭐\n• การแก้ปัญหาใช้เวลานานเพราะต้องไล่ตรวจทีละอุปกรณ์ ⭐\n• ความผิดพลาดจากมนุษย์นำไปสู่เหตุขัดข้องที่มีต้นทุนสูง ⭐\n→ แม้ค่าอุปกรณ์เริ่มต้นจะถูกกว่า แต่ค่าดำเนินงานระยะยาวสูงกว่ามาก ⭐\n\n2️⃣ "This type implements changes individually at each device." ⭐\nการเปลี่ยนแปลงต้องทำที่อุปกรณ์แต่ละตัว ⭐\n→ SSH เข้าไปทีละเครื่องแล้วพิมพ์คำสั่ง ⭐\n→ เปลี่ยน VLAN บนสวิตช์ 100 ตัว = ทำงาน 100 ครั้ง ⭐\n\n🎛️ Controller-Based Networking\n1️⃣ "This type provides a centralized view of the network." ⭐\nคอนโทรลเลอร์เห็นภาพรวมของทั้งเครือข่ายในหน้าจอเดียว ⭐\n→ รู้โทโพโลยี สถานะของทุกลิงก์ และภาระงานของแต่ละเส้นทาง ⭐\n→ ใช้ข้อมูลนี้คำนวณเส้นทางที่เหมาะที่สุดในระดับ global ⭐\n→ แดชบอร์ด Assurance แสดงสุขภาพเครือข่ายทั้งหมดในที่เดียว ⭐\n\n2️⃣ "This type leverages controllers to handle network management." ⭐\nใช้คอนโทรลเลอร์เป็นตัวกลางจัดการทุกอย่าง ⭐\n→ ผู้ดูแลคุยกับคอนโทรลเลอร์ ไม่ได้คุยกับอุปกรณ์โดยตรง ⭐\n→ คอนโทรลเลอร์แปลงเจตนาเป็นคอนฟิกแล้วส่งลงไปผ่าน southbound API ⭐\n\n💡 เคล็ดลับจำ\nคำว่า individually, each device, higher costs → Traditional ⭐\nคำว่า centralized, controllers → Controller-Based ⭐\n\n📗 จำไว้สอบ: Traditional = ต้นทุนอุปกรณ์ต่ำแต่ค่าดำเนินงานสูง ⭐ • Controller-based = ลงทุนเริ่มต้นสูงแต่ค่าดำเนินงานต่ำ ⭐',
+  },
+  {
+    id: 785,
+    kind: 'single',
+    prompt: 'Which HTTP status code is returned after a successful REST API request?',
+    options: [
+      { key: 'A', text: '200' },
+      { key: 'B', text: '301' },
+      { key: 'C', text: '404' },
+      { key: 'D', text: '500' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — รหัสในกลุ่ม 2XX หมายถึงสำเร็จ ⭐ และ 200 OK คือรหัสที่พบบ่อยที่สุด\n\n📊 รหัสสถานะกลุ่ม 2XX ที่ควรรู้\nรหัส   ชื่อ              ใช้เมื่อใด\n200 ⭐  OK ⭐            คำขอสำเร็จและมีข้อมูลตอบกลับ ⭐ ← คำตอบ\n201 ⭐  Created ⭐       สร้างทรัพยากรใหม่สำเร็จ มักตอบจาก POST ⭐\n202 ⭐  Accepted ⭐      รับคำขอแล้วแต่ยังประมวลผลไม่เสร็จ (asynchronous) ⭐\n204 ⭐  No Content ⭐    สำเร็จแต่ไม่มีข้อมูลส่งกลับ มักตอบจาก DELETE ⭐\n\n📊 ห้ากลุ่มของรหัสสถานะ HTTP\nกลุ่ม   ความหมาย         ตัวอย่าง\n1XX ⭐  Informational ⭐  100 Continue ⭐\n2XX ⭐  Success ⭐        200, 201, 204 ⭐\n3XX ⭐  Redirection ⭐    301 Moved Permanently, 304 Not Modified ⭐\n4XX ⭐  Client Error ⭐   400, 401, 403, 404 ⭐\n5XX ⭐  Server Error ⭐   500, 502, 503 ⭐\n\n🔧 ตัวอย่างการตอบกลับที่สำเร็จ\nHTTP/1.1 200 OK ⭐\nContent-Type: application/json\n{\n "response": [\n { "hostname": "SW1", "family": "Switches", "reachabilityStatus": "Reachable" }\n ],\n "version": "1.0"\n}\n\n💡 การจับคู่เมธอดกับรหัสที่ควรได้\nGET ⭐ → 200 OK ⭐\nPOST ⭐ → 201 Created ⭐ (หรือ 202 Accepted ถ้าเป็น asynchronous)\nPUT ⭐ → 200 OK หรือ 204 No Content ⭐\nDELETE ⭐ → 204 No Content ⭐\n\n✅ ทำไม A ถูก: 200 OK เป็นรหัสมาตรฐานที่เซิร์ฟเวอร์ตอบกลับเมื่อคำขอ REST API สำเร็จและมีข้อมูลส่งกลับมาให้\n\n❌ ทำไมข้ออื่นผิด:\nB. 301 Moved Permanently หมายถึงทรัพยากรถูกย้ายไปยังตำแหน่งใหม่อย่างถาวร ⭐ ไคลเอนต์ต้องเรียกไปยัง URL ใหม่แทน\nC. 404 Not Found หมายถึงไม่พบทรัพยากรที่ระบุ ⭐ เป็นข้อผิดพลาดฝั่งไคลเอนต์\nD. 500 Internal Server Error หมายถึงเซิร์ฟเวอร์เกิดข้อผิดพลาดภายใน ⭐ เป็นข้อผิดพลาดฝั่งเซิร์ฟเวอร์\n\n📗 จำไว้สอบ: 2XX สำเร็จ ⭐ • 3XX เปลี่ยนเส้นทาง ⭐ • 4XX ไคลเอนต์ผิด ⭐ • 5XX เซิร์ฟเวอร์ผิด ⭐',
+  },
+  {
+    id: 786,
+    kind: 'single',
+    prompt: 'With REST API, which standard HTTP header tells a server which media type is expected by the client?',
+    options: [
+      { key: 'A', text: 'Accept-Encoding: gzip. deflate' },
+      { key: 'B', text: 'Accept-Patch: text/example; charset=utf-8' },
+      { key: 'C', text: 'Content-Type: application/json; charset=utf-8' },
+      { key: 'D', text: 'Accept: application/json' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — ต้องแยกให้ออกระหว่าง "สิ่งที่ไคลเอนต์อยากได้รับ" กับ "สิ่งที่กำลังส่งไป" ⭐\n\n📊 ส่วนหัวที่เกี่ยวข้องกับชนิดสื่อ\nส่วนหัว                ความหมาย\nAccept ⭐              ไคลเอนต์บอกว่า "ฉันต้องการรับ" รูปแบบใด ⭐ ← คำตอบ\nContent-Type ⭐        บอกว่า "ข้อมูลที่ส่งไปในข้อความนี้" เป็นรูปแบบใด ⭐\nAccept-Encoding ⭐     ไคลเอนต์บอกว่ารองรับการบีบอัดแบบใด ⭐\nAccept-Language ⭐     ไคลเอนต์บอกว่าต้องการภาษาใด ⭐\nAccept-Patch ⭐        เซิร์ฟเวอร์บอกว่ารองรับรูปแบบใดสำหรับ PATCH ⭐\n\n🔧 ตัวอย่างที่เห็นความต่างชัดเจน\nPOST /dna/intent/api/v1/network-device HTTP/1.1\nHost: dnac.example.com\nContent-Type: application/json ⭐ ← "ข้อมูลที่ฉันส่งไป" เป็น JSON\nAccept: application/json ⭐ ← "ข้อมูลที่ฉันอยากได้กลับ" เป็น JSON\nX-Auth-Token: eyJhbGciOi...\n\n{ "ipAddress": ["10.1.1.1"] } ← เนื้อหาที่ส่งไป ตรงกับ Content-Type ⭐\n\n💡 ทำไมต้องมีทั้งสองตัว\nเพราะข้อมูล "ขาไป" กับ "ขากลับ" อาจเป็นคนละรูปแบบได้ ⭐\nเช่น ส่งไปเป็น XML แต่อยากได้กลับเป็น JSON\nContent-Type: application/xml ⭐\nAccept: application/json ⭐\n\n📄 ค่าที่พบบ่อยของ media type\napplication/json ⭐ ← ใช้มากที่สุดใน REST API\napplication/xml ⭐\ntext/html ⭐\ntext/plain ⭐\napplication/x-www-form-urlencoded ⭐\n\n💡 การระบุหลายรูปแบบพร้อมค่าความชอบ\nAccept: application/json;q=0.9, application/xml;q=0.5 ⭐\n→ ค่า q คือ quality value บอกลำดับความชอบ ⭐ ยิ่งสูงยิ่งอยากได้มากกว่า\n\n✅ ทำไม D ถูก: ส่วนหัว Accept เป็นวิธีที่ไคลเอนต์บอกเซิร์ฟเวอร์ว่าต้องการได้รับข้อมูลตอบกลับในรูปแบบสื่อชนิดใด ตรงกับคำว่า expected by the client ในโจทย์\n\n❌ ทำไมข้ออื่นผิด:\nA. Accept-Encoding ระบุวิธีการ "บีบอัด" ที่ไคลเอนต์รองรับ เช่น gzip หรือ deflate ⭐ ไม่ใช่ชนิดของสื่อ\nB. Accept-Patch เป็นส่วนหัวที่ "เซิร์ฟเวอร์" ใช้บอกว่ารองรับรูปแบบใดสำหรับเมธอด PATCH ⭐ ไม่ใช่สิ่งที่ไคลเอนต์ส่งไป\nC. ตัวลวงหลัก — Content-Type บอกรูปแบบของข้อมูลที่ "กำลังส่งไปในข้อความนี้" ⭐ ไม่ใช่รูปแบบที่ไคลเอนต์คาดหวังจะได้รับกลับมา\n\n📗 จำไว้สอบ: Accept = อยากได้อะไรกลับมา ⭐ • Content-Type = กำลังส่งอะไรไป ⭐ สองตัวนี้สับสนกันบ่อยที่สุด',
+  },
+  {
+    id: 787,
+    kind: 'single',
+    image: v4q787,
+    prompt: 'Refer to the exhibit. How many objects are present in the given JSON-encoded data?',
+    options: [
+      { key: 'A', text: 'One' },
+      { key: 'B', text: 'Four' },
+      { key: 'C', text: 'Seven' },
+      { key: 'D', text: 'Nine' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — นับ object โดยนับ "ปีกกาเปิด {" ทุกตัว รวมถึงที่ซ้อนอยู่ภายในอาร์เรย์ด้วย ⭐\n\n🔍 ไล่นับทีละชั้น\n{ ⭐ #1 ← ปีกกานอกสุด\n "aaaUser": { ⭐ #2\n "attributes": { ⭐ #3\n "pwd": "password1",\n "firstName": "Abraham",\n "lastName": "Lincoln",\n "phone": "5555551212",\n "email": "test@cisco.com"\n },\n "children": [{ ⭐ #4 ← object ที่ไม่มีชื่อ อยู่ในอาร์เรย์\n "aaaUserDomain": { ⭐ #5\n "attributes": { ⭐ #6\n "name": "ExampleCisco"\n },\n "children": [{ ⭐ #7 ← object ที่ไม่มีชื่อ อยู่ในอาร์เรย์ชั้นใน\n "aaaUserRole": { ⭐ #8\n "attributes": { ⭐ #9\n "name": "admin"\n }\n }\n }]\n }\n }]\n }\n}\n\n🔢 สรุปการนับ\n#1 object นอกสุด ⭐\n#2 aaaUser ⭐\n#3 attributes ของ aaaUser ⭐\n#4 object ในอาร์เรย์ children ชั้นแรก ⭐\n#5 aaaUserDomain ⭐\n#6 attributes ของ aaaUserDomain ⭐\n#7 object ในอาร์เรย์ children ชั้นใน ⭐\n#8 aaaUserRole ⭐\n#9 attributes ของ aaaUserRole ⭐\n→ รวมทั้งหมด 9 objects ⭐\n\n⚠️ จุดที่คนนับพลาดบ่อยที่สุด\nรูปแบบ "children": [{ ⭐ มีปีกกาซ่อนอยู่หลังวงเล็บเหลี่ยม\n→ วงเล็บเหลี่ยม [ เปิดอาร์เรย์ ⭐\n→ ปีกกา { ที่ตามมาทันทีเปิด object ที่ไม่มีชื่ออยู่ในอาร์เรย์นั้น ⭐\n→ ถ้ามองข้ามจุดนี้จะนับได้เพียง 7 ซึ่งเป็นตัวลวงในตัวเลือก C ⭐\n\n💡 วิธีตรวจสอบว่านับถูก\nนับปีกกาปิด } ให้ได้เท่ากับปีกกาเปิด ⭐\nในโค้ดนี้จะเห็นปีกกาปิดเรียงกันลงมาเป็นขั้นบันไดที่ท้ายไฟล์ ⭐ ซึ่งต้องมีจำนวนตรงกันคือ 9 ตัว\n\n💡 หมายเหตุเรื่องโครงสร้าง\nนี่คือรูปแบบข้อมูลของ Cisco ACI (APIC REST API) ⭐\nซึ่งใช้โครงสร้างแบบต้นไม้ที่มี attributes และ children ซ้อนกันเป็นชั้น ๆ ⭐\n\n✅ ทำไม D ถูก: เมื่อไล่นับปีกกาเปิดทุกตัวรวมถึง object ที่ไม่มีชื่อซึ่งอยู่ภายในอาร์เรย์ children ทั้งสองชั้น จะได้ทั้งหมด 9 objects\n\n❌ ทำไมข้ออื่นผิด:\nA. หนึ่งคือจำนวน object นอกสุดเท่านั้น ⭐ ไม่ได้นับที่ซ้อนอยู่ภายใน\nB. สี่อาจมาจากการนับเฉพาะ object ที่มีชื่อชัดเจน ⭐ ซึ่งไม่ครบ\nC. เจ็ดคือผลของการมองข้าม object ที่ไม่มีชื่อในอาร์เรย์ children สองตัว ⭐ ตัวลวงที่ดีที่สุดของข้อนี้\n\n📗 จำไว้สอบ: นับ object = นับ { ทุกตัว ⭐ • อย่าลืม { ที่ซ่อนอยู่หลัง [ ⭐',
+  },
+  {
+    id: 788,
+    kind: 'single',
+    prompt: 'What is the purpose of the Cisco DNA Center controller?',
+    options: [
+      { key: 'A', text: 'to securely manage and deploy network devices' },
+      { key: 'B', text: 'to scan a network and generate a Layer 2 network diagram' },
+      { key: 'C', text: 'to secure physical access to a data center' },
+      { key: 'D', text: 'to provide Layer 3 services to autonomous access points' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — Cisco DNA Center เป็นแพลตฟอร์มรวมศูนย์สำหรับ "บริหารจัดการและติดตั้งอุปกรณ์เครือข่ายอย่างปลอดภัย" ⭐\n\n🏛️ สี่เสาหลักของ DNA Center\n1️⃣ Design ⭐\n• ออกแบบลำดับชั้นของไซต์ ตั้งแต่ Global → Area → Building → Floor ⭐\n• กำหนดแผนที่อยู่ IP และโปรไฟล์เครือข่ายไร้สาย ⭐\n• สร้างเทมเพลตคอนฟิกมาตรฐาน ⭐\n\n2️⃣ Policy ⭐\n• กำหนดนโยบายเข้าถึงตามกลุ่มผู้ใช้ด้วย SGT ⭐\n• กำหนดนโยบาย QoS สำหรับแอปพลิเคชัน ⭐\n• ทำงานร่วมกับ Cisco ISE ในการบังคับใช้ ⭐\n\n3️⃣ Provision ⭐\n• Plug and Play ให้อุปกรณ์ใหม่รับคอนฟิกเองโดยไม่ต้องมีคนไปหน้างาน ⭐\n• ผลักคอนฟิกไปยังอุปกรณ์นับร้อยพร้อมกัน ⭐\n• SWIM จัดการอิมเมจ IOS แบบรวมศูนย์ ⭐\n\n4️⃣ Assurance ⭐\n• เฝ้าระวังสุขภาพเครือข่ายแบบเรียลไทม์ ⭐\n• วิเคราะห์สาเหตุที่แท้จริงของปัญหา ⭐\n• ให้คะแนนสุขภาพของไคลเอนต์และอุปกรณ์ ⭐\n\n🔐 ความปลอดภัยในการจัดการ\n• ใช้ HTTPS และ SSH ในการติดต่อกับอุปกรณ์ ⭐\n• รองรับ RBAC เพื่อจำกัดสิทธิ์ของผู้ดูแลแต่ละคน ⭐\n• บันทึกทุกการเปลี่ยนแปลงเพื่อการตรวจสอบย้อนหลัง ⭐\n→ นี่คือที่มาของคำว่า "securely" ในตัวเลือก ⭐\n\n✅ ทำไม A ถูก: การบริหารจัดการและติดตั้งอุปกรณ์เครือข่ายจากส่วนกลางอย่างปลอดภัยคือวัตถุประสงค์หลักและครอบคลุมที่สุดของ Cisco DNA Center\n\n❌ ทำไมข้ออื่นผิด:\nB. ตัวลวงที่ดี — DNA Center สร้างแผนผังโทโพโลยีได้จริง ⭐ แต่นั่นเป็นเพียงฟีเจอร์ย่อยหนึ่งอย่าง ไม่ใช่วัตถุประสงค์หลักของแพลตฟอร์ม อีกทั้งยังแสดงได้ทั้ง Layer 2 และ Layer 3 ไม่ใช่แค่ Layer 2\nC. การรักษาความปลอดภัยทางกายภาพของศูนย์ข้อมูลเป็นเรื่องของประตู บัตรผ่าน และกล้องวงจรปิด ⭐ ไม่เกี่ยวกับซอฟต์แวร์จัดการเครือข่าย\nD. DNA Center จัดการ AP แบบ lightweight ที่ทำงานร่วมกับ WLC ⭐ ส่วน autonomous AP เป็นอุปกรณ์ที่ทำงานอิสระโดยไม่ต้องมีคอนโทรลเลอร์ จึงไม่ใช่เป้าหมายของ DNA Center\n\n📗 จำไว้สอบ: DNA Center = Design ⭐ Policy ⭐ Provision ⭐ Assurance ⭐ ท่องสี่คำนี้ให้ครบ',
+  },
+  {
+    id: 789,
+    kind: 'single',
+    prompt: 'What is the function of the controller in a software-defined network?',
+    options: [
+      { key: 'A', text: 'forwarding packets' },
+      { key: 'B', text: 'multicast replication at the hardware level' },
+      { key: 'C', text: 'setting packet-handling policies' },
+      { key: 'D', text: 'fragmenting and reassembling packets' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — คอนโทรลเลอร์รับหน้าที่ของ control plane ทั้งหมด ⭐ ซึ่งรวมถึงการ "กำหนดนโยบาย" ว่าแพ็กเก็ตแต่ละประเภทจะถูกจัดการอย่างไร\n\n🧠 คอนโทรลเลอร์กำหนดนโยบายอะไรบ้าง\n• แพ็กเก็ตจากซับเน็ตใดไปยังปลายทางใด ให้ส่งออกทางเส้นทางไหน ⭐\n• ทราฟฟิกประเภทใดควรถูกทิ้งหรืออนุญาต ⭐\n• ทราฟฟิกใดควรได้รับลำดับความสำคัญสูง ⭐\n• กลุ่มผู้ใช้ใดเข้าถึงทรัพยากรใดได้บ้าง ⭐\n→ นโยบายเหล่านี้ถูกแปลงเป็น flow entry แล้วส่งลงไปยังอุปกรณ์ผ่าน southbound API ⭐\n\n📊 การแบ่งหน้าที่ในสถาปัตยกรรม SDN\nหน้าที่                        ใครทำ\nกำหนดนโยบายจัดการแพ็กเก็ต ⭐    Controller ⭐ ← คำตอบ\nคำนวณเส้นทางที่ดีที่สุด ⭐        Controller ⭐\nสร้างตารางการส่งต่อ ⭐          Controller ⭐\nส่งต่อแพ็กเก็ตจริง ⭐            Switch/Router (data plane) ⭐\nทำสำเนามัลติแคสต์ที่ฮาร์ดแวร์ ⭐   Switch (ASIC) ⭐\nแบ่งและประกอบแพ็กเก็ต ⭐        Router (data plane) ⭐\n\n⚡ ทำไมงานที่เหลือต้องอยู่บนอุปกรณ์\nงานที่ต้องประมวลผล "ทุกแพ็กเก็ต" ต้องทำที่ ASIC เพื่อความเร็วระดับสายส่ง ⭐\n→ สวิตช์สมัยใหม่จัดการได้หลายพันล้านแพ็กเก็ตต่อวินาที ⭐\n→ ถ้าส่งไปให้คอนโทรลเลอร์ทุกแพ็กเก็ต จะเกิดคอขวดและความหน่วงมหาศาลทันที ⭐\n→ คอนโทรลเลอร์จึงทำงานที่ระดับ "นโยบาย" ไม่ใช่ระดับ "แพ็กเก็ต" ⭐\n\n💡 อุปมาที่จำง่าย\nคอนโทรลเลอร์ = ผู้ออกกฎจราจร ⭐ กำหนดว่าถนนไหนเดินรถทางเดียว ตรงไหนห้ามเลี้ยว\nสวิตช์ = รถที่วิ่งตามกฎนั้น ⭐ ไม่ได้ออกกฎเอง เพียงปฏิบัติตาม\n\n✅ ทำไม C ถูก: การกำหนดนโยบายว่าแพ็กเก็ตแต่ละประเภทจะถูกจัดการอย่างไรเป็นหน้าที่ของ control plane ซึ่งถูกรวมศูนย์ไว้ที่คอนโทรลเลอร์ในสถาปัตยกรรม SDN\n\n❌ ทำไมข้ออื่นผิด:\nA. การส่งต่อแพ็กเก็ตเป็นงานของ data plane ที่ยังคงอยู่บนอุปกรณ์และทำงานด้วยฮาร์ดแวร์ ⭐\nB. คำว่า "at the hardware level" ในตัวเลือกบอกอยู่แล้วว่าเป็นงานของ ASIC บนสวิตช์ ⭐ ไม่ใช่งานของซอฟต์แวร์คอนโทรลเลอร์\nD. การแบ่งและประกอบแพ็กเก็ตเกิดขึ้นระหว่างการส่งต่อ จึงเป็นงานของ data plane ⭐\n\n📗 จำไว้สอบ: Controller = ออกนโยบายและตัดสินใจ ⭐ • Device = ลงมือส่งต่อตามนโยบายนั้น ⭐',
+  },
+  {
+    id: 790,
+    kind: 'single',
+    image: v4q790,
+    prompt: 'Refer to the exhibit. A network engineer must configure NETCONF. After creating the configuration, the engineer gets output from the command show line but not from show running-config. Which command completes the configuration?',
+    options: [
+      { key: 'A', text: 'Device(config)# netconf lock-time 500' },
+      { key: 'B', text: 'Device(config)# netconf max-message 1000' },
+      { key: 'C', text: 'Device(config)# no netconf ssh acl 1' },
+      { key: 'D', text: 'Device(config)# netconf max-sessions 100' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — อาการที่ว่า "บางคำสั่งทำงานได้ บางคำสั่งไม่ได้" ในบริบทของ NETCONF ชี้ไปที่การกรองด้วย ACL ⭐\n\n🔍 อ่าน exhibit\nDevice# configure terminal\nDevice(config)# netconf ssh acl 1 ⭐ ← ตัวปัญหา\nDevice(config)# netconf lock-time 100\nDevice(config)# netconf max-sessions 1 ⭐\nDevice(config)# netconf max-message 1000\n\n🎯 คำสั่ง netconf ssh acl 1 ทำอะไร\nจำกัดว่า "เฉพาะที่อยู่ IP ที่ผ่าน ACL หมายเลข 1 เท่านั้น" ที่เข้าถึง NETCONF ผ่าน SSH ได้ ⭐\n→ ถ้า ACL 1 ไม่ได้ถูกสร้างขึ้น หรือไม่ได้อนุญาตที่อยู่ของสถานีจัดการ ⭐\n→ การเรียกดูข้อมูลบางส่วนจะถูกปฏิเสธ ⭐\n→ ซึ่งอธิบายอาการที่ show running-config ไม่คืนผลลัพธ์กลับมา ⭐\n\n🔧 วิธีแก้\nตัวเลือกที่ 1 — ลบการจำกัดออก ⭐\nDevice(config)# no netconf ssh acl 1 ⭐\n→ เปิดให้เข้าถึง NETCONF ได้จากทุกที่อยู่\n\nตัวเลือกที่ 2 — สร้าง ACL ให้ถูกต้อง (ปลอดภัยกว่าในงานจริง)\nDevice(config)# access-list 1 permit 10.1.1.0 0.0.0.255 ⭐\n\n→ ในบรรดาตัวเลือกที่ให้มา มีเพียง C ที่แก้ปัญหานี้ได้ ⭐\n\n📚 ความรู้เพิ่มเติมเกี่ยวกับ NETCONF\n• กำหนดไว้ใน RFC 6241 ⭐\n• ใช้ XML เป็นรูปแบบข้อมูล ส่งผ่าน SSH บนพอร์ต 830 ⭐\n• จัดการคอนฟิกตามแบบจำลอง YANG ⭐\n• รองรับ transaction ⭐ ทำให้ย้อนกลับได้ทั้งชุดถ้าคำสั่งใดล้มเหลว\n• แยก running config, candidate config และ startup config ออกจากกัน ⭐\n\n🔧 คำสั่งเปิดใช้งาน NETCONF\nDevice(config)# netconf-yang ⭐ สำหรับ IOS-XE รุ่นใหม่\nDevice(config)# netconf ssh ⭐ สำหรับรุ่นเก่า\n\n✅ ทำไม C ถูก: คำสั่ง netconf ssh acl 1 จำกัดการเข้าถึงไว้ตาม ACL ที่ไม่ได้ถูกกำหนดให้ถูกต้อง การลบข้อจำกัดนี้ออกจึงทำให้ NETCONF ตอบสนองคำสั่งได้ครบถ้วน\n\n❌ ทำไมข้ออื่นผิด:\nA. netconf lock-time กำหนดระยะเวลาที่เซสชันล็อกคอนฟิกไว้ได้ ⭐ ไม่เกี่ยวกับการกรองการเข้าถึง\nB. netconf max-message กำหนดขนาดข้อความสูงสุด ⭐ ซึ่งถูกตั้งไว้ที่ 1000 แล้วใน exhibit และการตั้งซ้ำไม่ช่วยอะไร\nD. netconf max-sessions กำหนดจำนวนเซสชันพร้อมกันสูงสุด ⭐ การเพิ่มเป็น 100 อาจช่วยเรื่องจำนวนผู้ใช้พร้อมกัน แต่ไม่ได้แก้ปัญหาการถูก ACL กรอง ตัวลวงที่ดี\n\n📗 จำไว้สอบ: NETCONF = SSH 830 ⭐ + XML ⭐ + YANG model ⭐ + รองรับ transaction ⭐',
+  },
+  {
+    id: 791,
+    kind: 'single',
+    prompt: 'Which statement identifies the functionality of virtual machines?',
+    options: [
+      { key: 'A', text: 'Virtualized servers run most efficiently when they are physically connected to a switch that is separate from the hypervisor' },
+      { key: 'B', text: 'The hypervisor can virtualize physical components including CPU, memory, and storage' },
+      { key: 'C', text: 'Each hypervisor can support a single virtual machine and a single software switch' },
+      { key: 'D', text: 'The hypervisor communicates on Layer 3 without the need for additional resources' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — หน้าที่หลักของ hypervisor คือการจำลองทรัพยากรทางกายภาพให้กลายเป็นทรัพยากรเสมือนที่แบ่งกันใช้ได้ ⭐\n\n⚙️ hypervisor จำลองอะไรบ้าง\n1️⃣ CPU ⭐\n• สร้าง vCPU ให้แต่ละ VM ⭐\n• จัดตารางเวลาให้ vCPU ทั้งหมดผลัดกันใช้แกนประมวลผลจริง ⭐\n• VM มองเห็นเสมือนว่ามีซีพียูเป็นของตัวเอง ⭐\n\n2️⃣ Memory ⭐\n• จองพื้นที่ RAM ให้แต่ละ VM และแยกออกจากกันเด็ดขาด ⭐\n• VM หนึ่งไม่สามารถอ่านหน่วยความจำของอีก VM ได้ ⭐\n• เทคนิคอย่าง ballooning และ page sharing ช่วยให้จองเกินจริงได้ ⭐\n\n3️⃣ Storage ⭐\n• สร้างดิสก์เสมือนที่แท้จริงคือไฟล์บนดิสก์จริง เช่น .vmdk หรือ .vhdx ⭐\n• รองรับการสร้าง snapshot เพื่อย้อนกลับสถานะได้ ⭐\n\n4️⃣ Network ⭐\n• สร้าง vNIC ให้แต่ละ VM ⭐\n• สร้าง vSwitch เพื่อเชื่อมออกสู่ physical NIC ⭐\n\n🛡️ ผลลัพธ์ที่ได้\n• รัน Windows, Linux และ IOS-XE พร้อมกันบนเครื่องเดียวได้ ⭐\n• VM หนึ่งค้างหรือถูกเจาะ ไม่กระทบตัวอื่นเลย ⭐\n• ใช้ทรัพยากรของเซิร์ฟเวอร์ได้คุ้มค่ากว่าเดิมมาก ⭐ จากเดิมที่เซิร์ฟเวอร์กายภาพหนึ่งเครื่องมักใช้ CPU เพียง 10 ถึง 15 เปอร์เซ็นต์\n\n✅ ทำไม B ถูก: การจำลองส่วนประกอบทางกายภาพทั้ง CPU หน่วยความจำ และสตอเรจ ให้กลายเป็นทรัพยากรเสมือนที่ VM แต่ละตัวใช้ได้ คือหน้าที่หลักและนิยามของ hypervisor\n\n❌ ทำไมข้ออื่นผิด:\nA. ตรงข้ามกับความจริง — เซิร์ฟเวอร์เสมือนต้องเชื่อมต่อผ่าน vSwitch ที่อยู่ "ภายใน" hypervisor เสมอ ⭐ ไม่มีทางที่ VM จะต่อเข้าสวิตช์จริงโดยข้าม hypervisor ได้\nC. ผิดข้อเท็จจริง — hypervisor หนึ่งตัวรองรับ VM ได้หลายสิบหรือหลายร้อยตัวขึ้นกับทรัพยากร ⭐ และรองรับ vSwitch ได้หลายตัวเช่นกัน\nD. hypervisor ไม่ได้สื่อสารที่ Layer 3 โดยตรง ⭐ vSwitch ทำงานที่ Layer 2 เป็นหลัก และการกำหนดเส้นทางระดับ Layer 3 ต้องใช้อุปกรณ์หรือ VM ที่ทำหน้าที่เราต์ติ้งเพิ่มเติม\n\n📗 จำไว้สอบ: Hypervisor แบ่ง CPU ⭐ Memory ⭐ Storage ⭐ Network ⭐ • Type 1 บนฮาร์ดแวร์ • Type 2 บน OS ⭐',
+  },
+  {
+    id: 792,
+    kind: 'single',
+    prompt: 'Which network plane is centralized and manages routing decisions?',
+    options: [
+      { key: 'A', text: 'management plane' },
+      { key: 'B', text: 'data plane' },
+      { key: 'C', text: 'policy plane' },
+      { key: 'D', text: 'control plane' },
+    ],
+    correct: ['D'],
+    explanation:
+      '📘 แนวคิด — โจทย์ให้เบาะแสสองคำที่ชี้ไปยังคำตอบเดียวกัน คือ "centralized" (รวมศูนย์) และ "manages routing decisions" (จัดการการตัดสินใจเรื่องเส้นทาง) ⭐\n\n🧠 Control plane ทำอะไรบ้าง\n• รันโปรโตคอลเราต์ติ้ง OSPF, EIGRP, BGP ⭐\n• คำนวณเส้นทางที่ดีที่สุดด้วยอัลกอริทึม เช่น SPF หรือ DUAL ⭐\n• สร้างและดูแลตาราง RIB (Routing Information Base) ⭐\n• สร้าง FIB แล้วส่งลงไปให้ data plane ใช้ ⭐\n• รัน STP เพื่อสร้างโทโพโลยีที่ปลอดลูป ⭐\n• ประมวลผล ARP และ Neighbor Discovery ⭐\n\n🏗️ ทำไมจึงเป็นระนาบที่ถูกรวมศูนย์\nนิยามของ SDN ระบุชัดเจนว่าคือ "การแยก control plane ออกจาก data plane แล้วนำ control plane ไปรวมศูนย์" ⭐\n\nแบบดั้งเดิม → control plane กระจายอยู่ทุกอุปกรณ์ ⭐\n• แต่ละตัวคำนวณเส้นทางเอง เห็นเพียงข้อมูลจากเพื่อนบ้าน ⭐\n\nแบบ SDN → control plane อยู่ที่คอนโทรลเลอร์ ⭐\n• เห็นโทโพโลยีทั้งเครือข่ายในภาพเดียว ⭐\n• คำนวณเส้นทางที่เหมาะที่สุดในระดับ global ⭐\n• เปลี่ยนเส้นทางได้ทันทีโดยไม่ต้องรอโปรโตคอลลู่เข้า ⭐\n\n📊 สรุปสามระนาบ\nระนาบ            หน้าที่                    ใน SDN อยู่ที่ไหน\nControl plane ⭐  ตัดสินใจเรื่องเส้นทาง ⭐      รวมศูนย์ ⭐ ← คำตอบ\nData plane ⭐     ส่งต่อแพ็กเก็ตจริง ⭐        กระจายบนอุปกรณ์ ⭐\nManagement plane ⭐ เข้าถึงเพื่อบริหารจัดการ ⭐  รวมศูนย์เช่นกัน ⭐\n\n✅ ทำไม D ถูก: control plane เป็นระนาบที่รับผิดชอบการตัดสินใจเรื่องเส้นทางและเป็นระนาบที่ถูกรวมศูนย์ไว้ที่คอนโทรลเลอร์ในสถาปัตยกรรมแบบ software-defined\n\n❌ ทำไมข้ออื่นผิด:\nA. management plane ดูแลการเข้าถึงเพื่อบริหารจัดการ เช่น SSH, SNMP และ syslog ⭐ ไม่ได้ตัดสินใจเรื่องเส้นทาง\nB. data plane ใช้ตารางที่ control plane สร้างให้เพื่อส่งต่อแพ็กเก็ต ⭐ และยังคงกระจายอยู่บนอุปกรณ์ ไม่ได้รวมศูนย์\nC. ไม่มี policy plane ในสถาปัตยกรรมมาตรฐาน ⭐ มีเพียงสามระนาบคือ control, data และ management\n\n📗 จำไว้สอบ: Control plane = สมองที่คิดเส้นทาง ⭐ ถูกรวมศูนย์ใน SDN ⭐ • Data plane = ขาที่เดินตาม ยังกระจายอยู่ ⭐',
+  },
+  {
+    id: 793,
+    kind: 'single',
+    prompt: 'What is a benefit of using private IPv4 addressing?',
+    options: [
+      { key: 'A', text: 'Multiple companies can use the same addresses without conflicts.' },
+      { key: 'B', text: 'Direct connectivity is provided to internal hosts from outside an enterprise network.' },
+      { key: 'C', text: 'Communication to the internet is reachable without the use of NAT.' },
+      { key: 'D', text: 'All external hosts are provided with secure communication to the internet.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ที่อยู่ส่วนตัวตาม RFC 1918 ถูกสงวนไว้ให้ "ใครก็ใช้ได้" ⭐ เพราะไม่มีการส่งต่อบนอินเทอร์เน็ตสาธารณะ จึงไม่มีทางชนกัน\n\n📊 สามช่วงที่อยู่ส่วนตัว\nคลาส   ช่วงที่อยู่                        จำนวนที่อยู่\nA ⭐    10.0.0.0 – 10.255.255.255 (/8) ⭐   ~16.7 ล้าน ⭐\nB ⭐    172.16.0.0 – 172.31.255.255 (/12) ⭐ ~1 ล้าน ⭐\nC ⭐    192.168.0.0 – 192.168.255.255 (/16) ⭐ ~65,536 ⭐\n\n🌍 ทำไมจึงใช้ซ้ำกันได้โดยไม่ชนกัน\n• เราเตอร์ของ ISP ทุกตัวถูกตั้งค่าให้ "ทิ้ง" แพ็กเก็ตที่มีที่อยู่ RFC 1918 ⭐\n• ที่อยู่เหล่านี้จึงไม่เคยปรากฏในตารางเส้นทางของอินเทอร์เน็ตเลย ⭐\n• บริษัท A ใช้ 192.168.1.0/24 และบริษัท B ก็ใช้ 192.168.1.0/24 ได้พร้อมกัน ⭐\n• ทั้งสองไม่มีทางเห็นกันโดยตรง จึงไม่เกิดความขัดแย้ง ⭐\n\n💰 ประโยชน์ที่แท้จริง\n1️⃣ อนุรักษ์ที่อยู่ IPv4 สาธารณะ ⭐\nองค์กรที่มีผู้ใช้หนึ่งหมื่นคนอาจใช้ที่อยู่สาธารณะเพียงไม่กี่ตัวผ่าน PAT ⭐\n\n2️⃣ ไม่ต้องขอจัดสรรที่อยู่จากผู้ให้บริการ ⭐\nองค์กรออกแบบแผนที่อยู่ภายในได้อย่างอิสระ ⭐\n\n3️⃣ เพิ่มการป้องกันหนึ่งชั้น ⭐\nโฮสต์ภายในไม่สามารถถูกติดต่อจากอินเทอร์เน็ตโดยตรง ⭐\n\n✅ ทำไม A ถูก: การที่หลายบริษัทใช้ช่วงที่อยู่เดียวกันได้พร้อมกันโดยไม่ขัดแย้งกัน คือคุณสมบัติพื้นฐานและประโยชน์หลักของที่อยู่ส่วนตัวตาม RFC 1918\n\n❌ ทำไมข้ออื่นผิด:\nB. ตรงข้ามกับความจริง — ที่อยู่ส่วนตัว "ป้องกัน" ไม่ให้เข้าถึงโฮสต์ภายในจากภายนอกได้โดยตรง ⭐ ถ้าต้องการให้เข้าถึงได้ต้องทำ static NAT หรือ port forwarding\nC. กลับด้านโดยสิ้นเชิง — ที่อยู่ส่วนตัว "จำเป็นต้องใช้ NAT" เพื่อออกอินเทอร์เน็ต ⭐ ถ้าไม่มี NAT แพ็กเก็ตจะถูก ISP ทิ้งทันที\nD. ที่อยู่ส่วนตัวไม่ได้ให้การเข้ารหัสหรือความปลอดภัยในการสื่อสารใด ๆ ⭐ ความปลอดภัยของการสื่อสารต้องพึ่ง TLS, IPsec หรือ VPN\n\n📗 จำไว้สอบ: RFC 1918 มีสามช่วง — 10/8 ⭐ 172.16/12 ⭐ 192.168/16 ⭐ ท่องให้ขึ้นใจ',
+  },
+  {
+    id: 794,
+    kind: 'single',
+    image: v4q794,
+    prompt: 'Refer to the exhibit. A network engineer must provide configured IP addressing details to investigate a firewall rule issue. Which subnet and mask identify what is configured on the en0 interface?',
+    options: [
+      { key: 'A', text: '10.8.0.0/16' },
+      { key: 'B', text: '10.8.64.0/18' },
+      { key: 'C', text: '10.8.128.0/19' },
+      { key: 'D', text: '10.8.138.0/24' },
+    ],
+    correct: ['C'],
+    explanation:
+      '📘 แนวคิด — ต้องแปลงเน็ตมาสก์ที่แสดงเป็นเลขฐานสิบหกให้เป็น prefix length แล้วคำนวณหาที่อยู่เครือข่าย ⭐\n\n🔍 อ่าน exhibit\nen0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500\n inet 10.8.138.14 netmask 0xffffe000 broadcast 10.8.159.255 ⭐\n\n1️⃣ แปลง 0xffffe000 เป็นเลขฐานสิบ ⭐\nแยกทีละไบต์\n0xff = 255 ⭐\n0xff = 255 ⭐\n0xe0 = 224 ⭐\n0x00 = 0 ⭐\n→ ได้เน็ตมาสก์ 255.255.224.0 ⭐\n\n2️⃣ แปลงเป็น prefix length ⭐\n255 = 11111111 → 8 บิต\n255 = 11111111 → 8 บิต\n224 = 11100000 → 3 บิต ⭐\n0 = 00000000 → 0 บิต\n→ รวม 8 + 8 + 3 = /19 ⭐\n\n3️⃣ หาที่อยู่เครือข่าย ⭐\nบล็อกไซส์ของออกเทตที่สาม = 256 − 224 = 32 ⭐\nขอบเขตของซับเน็ตในออกเทตที่สาม: 0, 32, 64, 96, 128, 160, 192, 224 ⭐\nโฮสต์มีออกเทตที่สามเป็น 138\n138 ÷ 32 = 4.31 → ปัดลงเป็น 4\n4 × 32 = 128 ⭐\n→ ที่อยู่เครือข่ายคือ 10.8.128.0/19 ⭐\n\n4️⃣ ตรวจสอบด้วยค่า broadcast ⭐\nซับเน็ต 10.8.128.0/19 ครอบคลุมออกเทตที่สามตั้งแต่ 128 ถึง 159 ⭐\n→ ที่อยู่บรอดแคสต์คือ 10.8.159.255 ⭐\n→ ตรงกับค่า broadcast ที่ปรากฏใน exhibit พอดี ⭐ ยืนยันว่าคำนวณถูกต้อง\n\n📊 สรุปข้อมูลของซับเน็ตนี้\nNetwork  : 10.8.128.0/19 ⭐\nMask     : 255.255.224.0 ⭐\nHost แรก : 10.8.128.1\nHost สุดท้าย: 10.8.159.254\nBroadcast: 10.8.159.255 ⭐\nจำนวนโฮสต์: 2^13 − 2 = 8190 ⭐\n\n💡 ตารางแปลงเลขฐานสิบหกที่ควรจำ\n0xff = 255 ⭐ • 0xfe = 254 ⭐ • 0xfc = 252 ⭐ • 0xf8 = 248 ⭐\n0xf0 = 240 ⭐ • 0xe0 = 224 ⭐ • 0xc0 = 192 ⭐ • 0x80 = 128 ⭐\n\n✅ ทำไม C ถูก: เน็ตมาสก์ 0xffffe000 คือ 255.255.224.0 หรือ /19 และที่อยู่ 10.8.138.14 ตกอยู่ในซับเน็ต 10.8.128.0/19 ซึ่งสอดคล้องกับค่าบรอดแคสต์ 10.8.159.255 ที่แสดงใน exhibit\n\n❌ ทำไมข้ออื่นผิด:\nA. /16 คือเน็ตมาสก์ 255.255.0.0 หรือ 0xffff0000 ⭐ ไม่ตรงกับค่าที่แสดง\nB. /18 คือเน็ตมาสก์ 255.255.192.0 หรือ 0xffffc000 ⭐ และที่อยู่เครือข่ายจะเป็น 10.8.128.0 เช่นกันแต่ prefix ผิด\nD. /24 คือเน็ตมาสก์ 255.255.255.0 หรือ 0xffffff00 ⭐ ซึ่งจะให้บรอดแคสต์เป็น 10.8.138.255 ไม่ใช่ 10.8.159.255\n\n📗 จำไว้สอบ: บน macOS และ BSD คำสั่ง ifconfig แสดงเน็ตมาสก์เป็นเลขฐานสิบหก ⭐ ต้องแปลงเป็นฐานสิบก่อนเสมอ',
+  },
+  {
+    id: 795,
+    kind: 'multi',
+    prompt: 'What are two characteristics of a small office / home office connection environment? (Choose two.)',
+    options: [
+      { key: 'A', text: 'It requires 10Gb ports on all uplinks.' },
+      { key: 'B', text: 'It supports between 1 and 50 users.' },
+      { key: 'C', text: 'It supports between 50 and 100 users.' },
+      { key: 'D', text: 'A router port connects to a broadband connection.' },
+      { key: 'E', text: 'It requires a core, distribution, and access layer architecture.' },
+    ],
+    correct: ['B', 'D'],
+    explanation:
+      '📘 แนวคิด — SOHO (Small Office / Home Office) เป็นเครือข่ายขนาดเล็กที่เน้นความเรียบง่ายและต้นทุนต่ำ ⭐\n\n📊 ลักษณะของเครือข่าย SOHO\nด้าน              ลักษณะ\nจำนวนผู้ใช้ ⭐       1 ถึง 50 คน ⭐\nอุปกรณ์ ⭐          มักเป็นเครื่องเดียวที่รวมทุกอย่างไว้ ⭐\nการเชื่อมต่อ WAN ⭐  บรอดแบนด์ เช่น เคเบิล, DSL หรือไฟเบอร์ ⭐\nสถาปัตยกรรม ⭐      แบนราบ ไม่มีลำดับชั้น ⭐\nความเร็วอัปลิงก์ ⭐   ทั่วไปคือ 100 Mbps ถึง 1 Gbps ⭐\n\n🏠 อุปกรณ์รวมทุกอย่างในเครื่องเดียว\nเราเตอร์ SOHO ทั่วไปมีทุกอย่างอยู่ในกล่องเดียว ⭐\n• พอร์ต WAN สำหรับต่อกับโมเด็มบรอดแบนด์ ⭐ ← ตัวเลือก D\n• สวิตช์ในตัวประมาณ 4 ถึง 8 พอร์ต ⭐\n• จุดเข้าถึงไร้สายในตัว ⭐\n• เซิร์ฟเวอร์ DHCP ⭐\n• NAT/PAT สำหรับแปลงที่อยู่ ⭐\n• ไฟร์วอลล์พื้นฐาน ⭐\n→ ต่างจากเครือข่ายองค์กรที่แยกอุปกรณ์แต่ละหน้าที่ออกจากกัน ⭐\n\n📊 เปรียบเทียบขนาดของเครือข่าย\nประเภท          จำนวนผู้ใช้      สถาปัตยกรรม\nSOHO ⭐          1–50 ⭐        แบนราบ อุปกรณ์เดียว ⭐\nBranch office ⭐  50–200 ⭐      Collapsed core (สองชั้น) ⭐\nCampus ⭐        200+ ⭐        Three-tier เต็มรูปแบบ ⭐\n\n✅ ทำไม B และ D ถูก: จำนวนผู้ใช้ 1 ถึง 50 คนเป็นเกณฑ์มาตรฐานที่นิยาม SOHO และการใช้พอร์ตของเราเตอร์เชื่อมต่อกับบรอดแบนด์เป็นวิธีเชื่อมต่อออกสู่อินเทอร์เน็ตที่พบในสภาพแวดล้อมนี้\n\n❌ ทำไมข้ออื่นผิด:\nA. พอร์ต 10 Gbps เป็นความเร็วระดับศูนย์ข้อมูลหรืออัปลิงก์ของเครือข่ายองค์กรขนาดใหญ่ ⭐ SOHO ใช้เพียง 100 Mbps ถึง 1 Gbps ก็เพียงพอ\nC. 50 ถึง 100 คนเกินขนาดของ SOHO แล้ว ⭐ จัดเป็นสำนักงานสาขาซึ่งต้องการอุปกรณ์และการออกแบบที่ซับซ้อนกว่า\nE. สถาปัตยกรรมสามชั้นคือ core, distribution และ access ใช้กับเครือข่ายวิทยาเขตขนาดใหญ่ ⭐ SOHO ใช้อุปกรณ์เพียงเครื่องเดียวจึงไม่มีลำดับชั้นใด ๆ\n\n📗 จำไว้สอบ: SOHO = 1-50 ผู้ใช้ ⭐ + อุปกรณ์รวมทุกอย่าง ⭐ + ต่อบรอดแบนด์ ⭐ + สถาปัตยกรรมแบนราบ ⭐',
+  },
+  {
+    id: 796,
+    kind: 'single',
+    prompt: 'Which element of a virtualization solution manages virtualized services and enables connections between virtualized services and external interfaces?',
+    options: [
+      { key: 'A', text: 'software' },
+      { key: 'B', text: 'network functionality' },
+      { key: 'C', text: 'virtual machine' },
+      { key: 'D', text: 'hardware' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — โจทย์บรรยายหน้าที่สองอย่าง คือ "จัดการบริการเสมือน" และ "เชื่อมบริการเสมือนเข้ากับอินเทอร์เฟซภายนอก" ⭐ ซึ่งเป็นบทบาทของส่วนเครือข่ายในโซลูชันเวอร์ชวลไลเซชัน\n\n🌐 network functionality ในสภาพแวดล้อมเสมือนคืออะไร\nประกอบด้วยองค์ประกอบเชิงตรรกะที่ทำหน้าที่เครือข่าย ⭐\n• vNIC ⭐ — การ์ดเครือข่ายเสมือนของแต่ละ VM\n• vSwitch ⭐ — สวิตช์ซอฟต์แวร์ที่เชื่อม VM เข้าด้วยกันและออกสู่ภายนอก\n• Port group / VLAN ⭐ — จัดกลุ่มและแยกทราฟฟิกของแต่ละบริการ\n• Uplink ⭐ — การเชื่อมต่อจาก vSwitch ไปยัง physical NIC\n\n🔗 ทำหน้าที่เชื่อมโยงอย่างไร\nVM ⭐\n ↓ ผ่าน vNIC ⭐\nvSwitch ⭐ ← จัดการทราฟฟิกระหว่างบริการเสมือนทั้งหมด\n ↓ ผ่าน uplink\nPhysical NIC ⭐ ← อินเทอร์เฟซภายนอก\n ↓\nเครือข่ายจริง ⭐\n\n💡 สองบทบาทที่ตรงกับโจทย์\n1️⃣ "manages virtualized services" ⭐\n• vSwitch สลับทราฟฟิกระหว่าง VM ที่อยู่บนโฮสต์เดียวกันโดยไม่ต้องออกไปนอกเซิร์ฟเวอร์เลย ⭐\n• แยกบริการแต่ละอย่างด้วย VLAN หรือ port group ⭐\n• ควบคุมแบนด์วิดท์และนโยบายความปลอดภัยของแต่ละพอร์ต ⭐\n\n2️⃣ "enables connections to external interfaces" ⭐\n• เชื่อม vSwitch เข้ากับ physical NIC เพื่อออกสู่เครือข่ายจริง ⭐\n• รองรับ NIC teaming เพื่อความทนทานและเพิ่มแบนด์วิดท์ ⭐\n\n📊 สี่องค์ประกอบของโซลูชันเวอร์ชวลไลเซชัน\nองค์ประกอบ            หน้าที่\nHardware ⭐            เซิร์ฟเวอร์จริง CPU RAM ดิสก์ NIC ⭐\nSoftware (Hypervisor) ⭐ แบ่งและจัดสรรทรัพยากรให้ VM ⭐\nVirtual Machine ⭐      ระบบปฏิบัติการและแอปที่รันอยู่ ⭐\nNetwork functionality ⭐ เชื่อมโยงทุกอย่างเข้าด้วยกันและออกสู่ภายนอก ⭐ ← คำตอบ\n\n✅ ทำไม B ถูก: ส่วนของ network functionality ซึ่งประกอบด้วย vSwitch และ vNIC ทำหน้าที่ทั้งจัดการทราฟฟิกระหว่างบริการเสมือนและเชื่อมต่อบริการเหล่านั้นออกสู่อินเทอร์เฟซทางกายภาพภายนอก\n\n❌ ทำไมข้ออื่นผิด:\nA. software เป็นคำกว้างที่หมายรวมถึง hypervisor และแอปพลิเคชันทั้งหมด ⭐ ไม่ได้ระบุเจาะจงถึงหน้าที่เชื่อมโยงเครือข่ายตามที่โจทย์บรรยาย\nC. virtual machine เป็น "ผู้ใช้บริการ" เครือข่าย ⭐ ไม่ใช่ผู้จัดการหรือผู้เชื่อมโยง\nD. hardware คือเซิร์ฟเวอร์และการ์ดเครือข่ายจริง ⭐ ซึ่งเป็นปลายทางของการเชื่อมต่อ แต่ไม่ได้ทำหน้าที่จัดการบริการเสมือน\n\n📗 จำไว้สอบ: vSwitch = หัวใจของ network functionality ⭐ • เชื่อม VM เข้าด้วยกันและออกสู่ physical NIC ⭐',
+  },
+  {
+    id: 797,
+    kind: 'single',
+    prompt: 'Which group of channels in the 802.11b/g/n/ac/ax 2.4 GHz frequency bands are nonoverlapping channels?',
+    options: [
+      { key: 'A', text: 'channels 1, 5, and 10' },
+      { key: 'B', text: 'channels 1, 6, and 11' },
+      { key: 'C', text: 'channels 1, 5, and 11' },
+      { key: 'D', text: 'channels 1, 6, and 10' },
+    ],
+    correct: ['B'],
+    explanation:
+      '📘 แนวคิด — ย่าน 2.4 GHz มี 11 ช่องสัญญาณในอเมริกาเหนือ แต่มีเพียงสามช่องที่ไม่ทับซ้อนกันเลย ⭐\n\n📡 เหตุผลทางคณิตศาสตร์\n• แต่ละช่องสัญญาณกว้าง 22 MHz ⭐\n• ช่องที่อยู่ติดกันห่างกันเพียง 5 MHz ⭐\n→ ช่อง 1 ครอบคลุม 2401 ถึง 2423 MHz ⭐\n→ ช่อง 2 ครอบคลุม 2406 ถึง 2428 MHz ⭐ ทับซ้อนกับช่อง 1 อย่างมาก\n\n🔢 คำนวณระยะห่างที่ต้องการ\nต้องห่างกันอย่างน้อย 22 MHz ÷ 5 MHz = 4.4 ⭐ ปัดขึ้นเป็น 5 ช่อง\n→ ช่อง 1, 6, 11 ห่างกันช่องละ 5 ⭐\n→ ช่อง 1 = 2401-2423 MHz ⭐\n→ ช่อง 6 = 2426-2448 MHz ⭐\n→ ช่อง 11 = 2451-2473 MHz ⭐\n→ ไม่มีส่วนใดทับซ้อนกันเลย ⭐\n\n❌ ทำไมตัวเลือกอื่นทับซ้อนกัน\nA. ช่อง 1, 5, 10 ⭐\n ช่อง 1 และ 5 ห่างกันเพียง 4 → ทับซ้อนกัน ⭐\nC. ช่อง 1, 5, 11 ⭐\n ช่อง 1 และ 5 ห่างกันเพียง 4 → ทับซ้อนกัน ⭐\nD. ช่อง 1, 6, 10 ⭐\n ช่อง 6 และ 10 ห่างกันเพียง 4 → ทับซ้อนกัน ⭐\n→ มีเพียง B ที่ทุกคู่ห่างกัน 5 ช่องพอดี ⭐\n\n⚠️ ผลเสียเมื่อใช้ช่องที่ทับซ้อนกัน\n• เกิดสัญญาณรบกวนแบบ co-channel interference ⭐\n• อุปกรณ์ต้องรอคิวส่งนานขึ้นเพราะกลไก CSMA/CA ⭐\n• ปริมาณงานที่ส่งได้ลดลงอย่างมาก ⭐\n• เกิดการส่งซ้ำและความหน่วงสูงขึ้น ⭐\n\n💡 การออกแบบเซลล์ในทางปฏิบัติ\nวาง AP สลับช่อง 1, 6, 11 แบบรังผึ้ง ⭐\n AP1(ch 1) AP2(ch 6) AP3(ch 11)\n AP4(ch 11) AP5(ch 1) AP6(ch 6)\n→ AP ที่อยู่ติดกันไม่มีทางใช้ช่องเดียวกัน ⭐\n→ ควรให้เซลล์ซ้อนทับกันประมาณ 15 ถึง 20 เปอร์เซ็นต์เพื่อให้โรมมิ่งราบรื่น ⭐\n\n💡 หมายเหตุเรื่องช่อง 12, 13 และ 14\nบางประเทศอนุญาตให้ใช้ช่อง 12 และ 13 ได้ ⭐ ซึ่งจะทำให้มีช่องไม่ทับซ้อนได้ถึงสี่ช่อง คือ 1, 5, 9, 13 ⭐\nแต่มาตรฐานที่ CCNA ใช้อ้างอิงคือ 1, 6, 11 ⭐\n\n✅ ทำไม B ถูก: ช่อง 1, 6 และ 11 เป็นชุดเดียวในย่าน 2.4 GHz ที่ห่างกันเพียงพอจนสเปกตรัมไม่ทับซ้อนกันเลย จึงเป็นมาตรฐานที่ใช้ในการออกแบบเครือข่ายไร้สายทั่วโลก\n\n📗 จำไว้สอบ: 2.4 GHz มีเพียงสามช่องที่ไม่ทับซ้อน คือ 1, 6, 11 ⭐ • ส่วน 5 GHz มีมากถึง 23 ช่องขึ้นไป ⭐',
+  },
+  {
+    id: 798,
+    kind: 'single',
+    prompt: 'What is a function of Layer 3 switches?',
+    options: [
+      { key: 'A', text: 'They route traffic between devices in different VLANs.' },
+      { key: 'B', text: 'They transmit broadcast traffic when operating in Layer 3 mode exclusively.' },
+      { key: 'C', text: 'They move frames between endpoints limited to IP addresses.' },
+      { key: 'D', text: 'They forward Ethernet frames between VLANs using only MAC addresses.' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — สวิตช์ Layer 3 หรือ multilayer switch ทำได้ทั้งการสลับเฟรมแบบ Layer 2 และการกำหนดเส้นทางแบบ Layer 3 ⭐ หน้าที่เด่นที่สุดคือ inter-VLAN routing\n\n🔀 ทำไมต้องมีการกำหนดเส้นทางระหว่าง VLAN\nแต่ละ VLAN คือโดเมนบรอดแคสต์ที่แยกจากกัน และเป็นซับเน็ต IP คนละวง ⭐\n→ อุปกรณ์ใน VLAN 10 (10.1.10.0/24) คุยกับ VLAN 20 (10.1.20.0/24) โดยตรงไม่ได้ ⭐\n→ ต้องมีอุปกรณ์ Layer 3 มากำหนดเส้นทางให้ ⭐\n\n🔧 คอนฟิก inter-VLAN routing บนสวิตช์ Layer 3\nSW(config)# ip routing ⭐ ← ต้องเปิดก่อน มิฉะนั้นจะไม่กำหนดเส้นทางเลย\nSW(config)# interface vlan 10\nSW(config-if)# ip address 10.1.10.1 255.255.255.0 ⭐ SVI เป็น gateway ของ VLAN 10\nSW(config-if)# no shutdown\nSW(config)# interface vlan 20\nSW(config-if)# ip address 10.1.20.1 255.255.255.0 ⭐\n\n📊 สามวิธีทำ inter-VLAN routing\nวิธี                    ข้อดี                  ข้อเสีย\nเราเตอร์แยกขาต่อ VLAN ⭐   เรียบง่าย              เปลืองพอร์ตมาก ⭐\nRouter-on-a-stick ⭐     ใช้พอร์ตเดียว ⭐        ทราฟฟิกวิ่งขึ้นลงบนลิงก์เดียว เป็นคอขวด ⭐\nLayer 3 switch (SVI) ⭐   เร็วที่สุด ใช้ ASIC ⭐   ราคาสูงกว่า ⭐\n\n⚡ ทำไม Layer 3 switch จึงเร็วกว่าเราเตอร์\n• กำหนดเส้นทางด้วยฮาร์ดแวร์ ASIC ไม่ใช่ซอฟต์แวร์ ⭐\n• ได้ความเร็วระดับสายส่งหลายสิบกิกะบิตต่อวินาที ⭐\n• เหมาะกับทราฟฟิกภายในองค์กรที่มีปริมาณสูงมาก ⭐\n\n✅ ทำไม A ถูก: การกำหนดเส้นทางให้ทราฟฟิกวิ่งระหว่างอุปกรณ์ที่อยู่คนละ VLAN คือหน้าที่หลักที่ทำให้สวิตช์ Layer 3 แตกต่างจากสวิตช์ Layer 2 ธรรมดา\n\n❌ ทำไมข้ออื่นผิด:\nB. สวิตช์ Layer 3 "จำกัด" โดเมนบรอดแคสต์ไว้ภายในแต่ละ VLAN ⭐ ไม่ได้ส่งต่อบรอดแคสต์ข้าม VLAN ซึ่งเป็นเหตุผลหลักของการแบ่ง VLAN ตั้งแต่แรก\nC. การส่งเฟรมระหว่างปลายทางโดยจำกัดที่ที่อยู่ IP เป็นคำอธิบายที่สับสน ⭐ เฟรมเป็นหน่วยของ Layer 2 ส่วนที่อยู่ IP เป็นของ Layer 3 อีกทั้งสวิตช์ Layer 3 ก็ใช้ทั้ง MAC และ IP ตามบริบท\nD. ตัวลวงที่ดี — การส่งต่อโดยใช้ MAC address อย่างเดียวคือการทำงานของสวิตช์ Layer 2 ⭐ และไม่สามารถข้าม VLAN ได้ การข้าม VLAN ต้องอาศัยข้อมูล Layer 3 เสมอ\n\n📗 จำไว้สอบ: สวิตช์ Layer 3 ต้องสั่ง ip routing ก่อนเสมอ ⭐ แล้วสร้าง SVI ให้แต่ละ VLAN เป็น default gateway ⭐',
+  },
+  {
+    id: 799,
+    kind: 'drag',
+    image: v4q799,
+    prompt: 'Drag and drop the RF terms from the left onto the corresponding statements on the right.',
+    categories: [
+      { name: 'measure of the minimum power required to decode a radio signal without excessive errors', items: ['receiver sensitivity'] },
+      { name: 'measure of the total unwanted signals at the receiver', items: ['noise floor'] },
+      { name: 'deviation from the propagation path that occurs when a signal encounters an obstacle', items: ['reflection'] },
+      { name: 'reduction of energy in a signal as it travels away from the access point and encounters free space or obstacles', items: ['absorption'] },
+      { name: 'relative power of the desired radio signal to unwanted signals at the receiver', items: ['signal-to-noise ratio'] },
+    ],
+    explanation:
+      '📘 แนวคิด — ศัพท์ RF ทั้งห้าคำนี้อธิบายคุณภาพและพฤติกรรมของคลื่นวิทยุในสภาพแวดล้อมจริง ⭐\n\n1️⃣ receiver sensitivity ⭐\n"ค่าวัดกำลังส่งขั้นต่ำที่จำเป็นในการถอดรหัสสัญญาณวิทยุโดยไม่มีข้อผิดพลาดมากเกินไป"\n• วัดเป็น dBm และเป็นค่าติดลบเสมอ ⭐ เช่น -90 dBm\n• ยิ่งค่าติดลบมาก แปลว่ารับสัญญาณอ่อนได้ดีกว่า ⭐\n• อัตราข้อมูลที่สูงขึ้นต้องการสัญญาณที่แรงขึ้น ⭐ เช่น 54 Mbps ต้องการราว -76 dBm แต่ 6 Mbps ต้องการเพียง -90 dBm\n\n2️⃣ noise floor ⭐\n"ค่าวัดของสัญญาณที่ไม่ต้องการทั้งหมดที่ตัวรับ"\n• คือระดับพื้นฐานของสัญญาณรบกวนในสภาพแวดล้อมนั้น ⭐\n• แหล่งที่มา เช่น เตาไมโครเวฟ อุปกรณ์บลูทูธ โทรศัพท์ไร้สาย และ AP ของเพื่อนบ้าน ⭐\n• ค่าปกติในอาคารอยู่ราว -90 ถึง -95 dBm ⭐\n\n3️⃣ reflection ⭐\n"การเบี่ยงเบนออกจากเส้นทางการแพร่กระจายที่เกิดขึ้นเมื่อสัญญาณพบสิ่งกีดขวาง"\n• คลื่นสะท้อนกลับเมื่อชนพื้นผิวเรียบ เช่น โลหะ กระจก หรือคอนกรีต ⭐\n• ทำให้เกิดปัญหา multipath คือสัญญาณเดินทางหลายเส้นทางแล้วมาถึงตัวรับไม่พร้อมกัน ⭐\n• เทคโนโลยี MIMO ใน 802.11n ขึ้นไปเปลี่ยน multipath ให้กลายเป็นข้อได้เปรียบแทน ⭐\n\n4️⃣ absorption ⭐\n"การลดลงของพลังงานในสัญญาณขณะเดินทางออกห่างจากจุดเข้าถึงและพบกับอากาศว่างหรือสิ่งกีดขวาง"\n• วัสดุดูดซับพลังงานคลื่นแล้วเปลี่ยนเป็นความร้อน ⭐\n• น้ำและร่างกายมนุษย์ดูดซับได้มากที่สุด ⭐ ห้องประชุมที่มีคนแน่นจึงสัญญาณแย่ลงชัดเจน\n• ผนังอิฐ คอนกรีต และไม้ก็ดูดซับได้มากเช่นกัน ⭐\n\n5️⃣ signal-to-noise ratio (SNR) ⭐\n"กำลังสัมพัทธ์ของสัญญาณวิทยุที่ต้องการเทียบกับสัญญาณที่ไม่ต้องการที่ตัวรับ"\n• คำนวณจาก SNR = ความแรงสัญญาณ − noise floor ⭐\n• ตัวอย่าง: สัญญาณ -65 dBm กับ noise floor -95 dBm → SNR = 30 dB ⭐\n• เกณฑ์ที่ควรมี: ข้อมูลทั่วไปอย่างน้อย 20 dB ⭐ • เสียงและวิดีโออย่างน้อย 25 dB ⭐\n\n💡 จุดที่ต้องแยกให้ออก\nreflection = สัญญาณ "เด้งกลับ" ⭐\nabsorption = สัญญาณ "ถูกดูดหายไป" ⭐\nสองคำนี้สับสนกันบ่อยที่สุดในหมวด RF\n\n📗 จำไว้สอบ: SNR = Signal − Noise ⭐ • ต้องการอย่างน้อย 20 dB สำหรับข้อมูล และ 25 dB สำหรับเสียง ⭐',
+  },
+  {
+    id: 800,
+    kind: 'single',
+    prompt: 'Which cable type must be used to interconnect one switch using 1000 BASE-SX GBIC modules and another switch using 1000 BASE-SX SFP modules?',
+    options: [
+      { key: 'A', text: 'LC to SC' },
+      { key: 'B', text: 'SC to SC' },
+      { key: 'C', text: 'LC to LC' },
+      { key: 'D', text: 'SC to ST' },
+    ],
+    correct: ['A'],
+    explanation:
+      '📘 แนวคิด — ต้องจำว่าโมดูลแต่ละแบบใช้หัวต่อชนิดใด ⭐ GBIC ใช้ SC ส่วน SFP ใช้ LC\n\n📊 หัวต่อของแต่ละโมดูล\nโมดูล      ขนาด           หัวต่อ ⭐\nGBIC ⭐    ใหญ่ รุ่นเก่า ⭐   SC ⭐ (Subscriber Connector) ⭐\nSFP ⭐     เล็ก ทันสมัย ⭐   LC ⭐ (Lucent Connector) ⭐\nSFP+ ⭐    เล็ก 10 Gbps ⭐  LC ⭐\nQSFP ⭐    40/100 Gbps ⭐  MPO/MTP ⭐\n\n🔌 ลักษณะของหัวต่อแต่ละแบบ\nSC (Subscriber Connector) ⭐\n• หัวต่อทรงสี่เหลี่ยมขนาดใหญ่ ⭐\n• ใช้กลไกดันเข้าดึงออก (push-pull) ⭐\n• เฟอร์รูลขนาด 2.5 มิลลิเมตร ⭐\n• ใช้กับ GBIC ซึ่งเป็นเทคโนโลยีรุ่นเก่า ⭐\n\nLC (Lucent Connector) ⭐\n• หัวต่อขนาดเล็กประมาณครึ่งหนึ่งของ SC ⭐\n• มีคันล็อกคล้ายหัว RJ-45 ⭐\n• เฟอร์รูลขนาด 1.25 มิลลิเมตร ⭐\n• จัดเป็น SFF (Small Form Factor) จึงใส่ได้หนาแน่นกว่า ⭐\n• ใช้กับ SFP และ SFP+ ⭐\n\n🎯 วิเคราะห์โจทย์\nสวิตช์ตัวที่ 1 ใช้ GBIC → ต้องการหัว SC ⭐\nสวิตช์ตัวที่ 2 ใช้ SFP → ต้องการหัว LC ⭐\n→ ต้องใช้สายที่มีหัวต่างกันสองฝั่ง เรียกว่า hybrid patch cable ⭐\n→ คือสาย LC to SC ⭐\n\n💡 ข้อควรทราบเพิ่มเติม\nทั้งสองฝั่งเป็น 1000BASE-SX เหมือนกัน ⭐\n→ ใช้ไฟเบอร์แบบ multimode ⭐\n→ ความยาวคลื่น 850 นาโนเมตร ⭐\n→ ระยะทางสูงสุดประมาณ 220 ถึง 550 เมตรขึ้นกับชนิดของไฟเบอร์ ⭐\n→ สายต้องเป็น multimode ทั้งเส้น เพียงแต่หัวต่อสองฝั่งต่างชนิดกัน ⭐\n\n✅ ทำไม A ถูก: GBIC ใช้หัวต่อแบบ SC ส่วน SFP ใช้หัวต่อแบบ LC จึงต้องใช้สายไฟเบอร์ที่มีหัว LC อยู่ฝั่งหนึ่งและหัว SC อยู่อีกฝั่งหนึ่ง\n\n❌ ทำไมข้ออื่นผิด:\nB. SC ทั้งสองฝั่งจะเสียบเข้ากับโมดูล SFP ไม่ได้ ⭐ เพราะ SFP รับเฉพาะหัว LC\nC. LC ทั้งสองฝั่งจะเสียบเข้ากับโมดูล GBIC ไม่ได้ ⭐ เพราะ GBIC รับเฉพาะหัว SC\nD. ST เป็นหัวต่อทรงกลมแบบบิดล็อกที่ใช้กับอุปกรณ์รุ่นเก่ามาก ⭐ ไม่ได้ใช้กับทั้ง GBIC และ SFP ในบริบทนี้\n\n📗 จำไว้สอบ: GBIC = SC (ใหญ่) ⭐ • SFP = LC (เล็ก) ⭐ • จำง่าย ๆ ว่าโมดูลเล็กใช้หัวเล็ก ⭐',
   },
 ]
