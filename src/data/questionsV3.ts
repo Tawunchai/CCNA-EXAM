@@ -181,7 +181,7 @@ export const QUESTIONS_V3: Question[] = [
     image: v3q2,
     prompt: 'Drag and drop the HTTP methods used with REST-Based APIs from the left onto the descriptions on the right.',
     categories: [
-      { name: 'creates a resource and returns to URI in the response header', items: ['POST'] },
+      { name: 'creates a resource and returns its URI in the response header', items: ['POST'] },
       { name: 'creates or replaces a previously modified resource using information in the request body', items: ['PUT'] },
       { name: 'removes a resource', items: ['DELETE'] },
       { name: "retrieves a list of a resource's URIs", items: ['GET'] },
@@ -491,6 +491,8 @@ export const QUESTIONS_V3: Question[] = [
       '📘 แนวคิด — ไวยากรณ์ static NAT\n\nip nat inside source static <inside-local> <inside-global>\n• inside local = IP จริงของเครื่องภายใน (private) → 10.1.1.1\n• inside global = IP สาธารณะที่ใช้แทนเครื่องนั้นเมื่อออกเน็ต → 209.165.200.225\n• ลำดับคือ "ของจริงก่อน แล้วค่อยของปลอม" (local → global) ⭐\n\nคำศัพท์ NAT 4 ตัวที่ต้องแยกให้ออก:\n• Inside local = IP private ของโฮสต์ภายใน\n• Inside global = IP public ที่ NAT แปลงให้โฮสต์ภายใน\n• Outside global = IP จริงของเซิร์ฟเวอร์ภายนอก\n• Outside local = IP ที่โฮสต์ภายในมองเห็นเซิร์ฟเวอร์ภายนอกเป็น\n\n✅ ทำไม D ถูก: ใช้ inside source (แปลง source ของทราฟฟิกที่ออกจากฝั่ง inside) และเรียงถูกลำดับ local (10.1.1.1) → global (209.165.200.225)\n\n❌ ทำไมข้ออื่นผิด:\nA. ip nat outside source ใช้แปลง IP ของฝั่งภายนอก (เช่นเวลาซับเน็ตซ้อนทับกัน) ไม่ใช่กรณีนี้\nB. ใช้ inside source ถูกแล้ว แต่สลับลำดับ — กลายเป็นบอกว่า IP จริงคือ 209.165.200.225 และแปลงเป็น 10.1.1.1\nC. ผิดทั้งทิศทาง (outside) และแม้ลำดับจะดูถูก แต่ความหมายกลายเป็นแปลง IP ภายนอก\n\n💡 อย่าลืมประกาศ ip nat inside บนอินเทอร์เฟซขา LAN และ ip nat outside บนขา WAN มิฉะนั้น NAT จะไม่ทำงาน\n\n📗 จำไว้สอบ: static NAT = 1:1 ถาวร | dynamic NAT = ดึงจาก pool | PAT/overload = หลายเครื่องต่อ 1 IP แยกด้วยหมายเลขพอร์ต',
   },
   {
+    // ไม่มี image: ตารางเราต์ที่โจทย์อ้างถึงถูกพิมพ์ไว้ในตัว prompt แล้ว ตอบได้ครบโดยไม่ต้องมีรูป
+    // → ตั้งใจไม่ใส่ image ห้ามมองว่าเป็นรูปตกหล่น
     id: 22,
     kind: 'single',
     prompt:
@@ -917,9 +919,9 @@ export const QUESTIONS_V3: Question[] = [
       { key: 'D', text: '2001:701:104b:1111::1/64' },
       { key: 'E', text: '::ffff:10.14.101.1/96' },
     ],
-    correct: ['D', 'E'],
+    correct: ['A', 'D'],
     explanation:
-      '📘 แนวคิด — คัดที่อยู่ IPv6 ที่ "ใช้เป็น source/ปลายทางของยูนิแคสต์ได้จริง" ออกจากตัวลวง\n\nกฎที่ใช้ตัดตัวเลือก:\n1️⃣ ที่อยู่ multicast (FF00::/8) ห้ามใช้เป็น source address เด็ดขาด\n2️⃣ ที่อยู่ IPv6 มี "::" ย่อได้เพียงครั้งเดียวต่อที่อยู่\n3️⃣ แต่ละกลุ่ม (hextet) มีเลขฐานสิบหกได้สูงสุด 4 ตัว\n\n🔍 ไล่ตัด:\n• A. 2002::512:1204b:1111::1/64 → มี "::" ถึงสองครั้ง ✘ และกลุ่ม "1204b" มี 5 หลัก ✘ → รูปแบบผิดสองจุด\n• B. ff06:… → ขึ้นต้น FF = multicast ✘\n• C. FF02::0001:FF00:0000/104 → ขึ้นต้น FF02 = multicast (เป็นรูปแบบ solicited-node) ✘\n• D. 2001:701:104b:1111::1/64 → global unicast ที่รูปแบบถูกต้อง ✔ ⭐ ใช้ตั้งบนอินเทอร์เฟซของเราเตอร์เพื่อคุยกันบนลิงก์ร่วมได้\n• E. ::ffff:10.14.101.1/96 → เป็น IPv4-mapped IPv6 address ที่รูปแบบถูกต้องตามไวยากรณ์ ✔\n\n✅ ทำไม D, E ถูก: เหลือเพียงสองตัวเลือกนี้ที่ผ่านการตรวจรูปแบบและไม่ใช่ multicast\n\n⚠️ หมายเหตุ: ข้อนี้เป็นคำถามที่เขียนไม่ดี — ในทางปฏิบัติที่อยู่แบบ ::ffff:x.x.x.x ใช้ภายใน stack ของโฮสต์เพื่อให้แอป IPv6 คุยกับ IPv4 ได้ ไม่ได้ถูกตั้งบนอินเทอร์เฟซเราเตอร์จริง ๆ และในโลกจริงเราเตอร์ใช้ "link-local (FE80::/10)" เป็นหลักในการคุยกันบนลิงก์ร่วม แต่ตัวเลือกไม่มีให้ จึงต้องตอบด้วยวิธีตัดตัวเลือกตามรูปแบบที่ถูกต้อง\n\n📗 จำไว้สอบ: FF00::/8 = multicast (ห้ามเป็น source) • "::" ย่อได้ครั้งเดียว • hextet ยาวได้ไม่เกิน 4 หลัก • เราเตอร์เพื่อนบ้าน IPv6 ปกติคุยกันด้วย link-local',
+      '📘 แนวคิด — การเชื่อมสองเราเตอร์บนลิงก์เดียวกันต้องใช้ที่อยู่ "ยูนิแคสต์" ⭐ ไม่ใช่มัลติแคสต์ และไม่ใช่ที่อยู่พิเศษที่ใช้ภายใน stack\n\n📊 แยกประเภทตัวเลือก\n• A. 2002::512:1204b:1111::1/64 → ขึ้นต้นด้วย 2002 = global unicast (2000::/3) ⭐ ตั้งบนอินเทอร์เฟซเราเตอร์ได้ ✔\n• B. ff06:… → ขึ้นต้น FF = multicast ⭐ ห้ามใช้เป็น source address ✘\n• C. FF02::0001:FF00:0000/104 → solicited-node multicast ⭐ ใช้ในกระบวนการ NDP ไม่ได้ตั้งเป็นที่อยู่ของอินเทอร์เฟซ ✘\n• D. 2001:701:104b:1111::1/64 → global unicast ⭐ ✔\n• E. ::ffff:10.14.101.1/96 → IPv4-mapped IPv6 ⭐ ใช้ภายใน socket ของแอปพลิเคชันเพื่อให้โค้ด IPv6 คุยกับปลายทาง IPv4 ได้ ⭐ ไม่เคยถูกตั้งบนอินเทอร์เฟซเราเตอร์และไม่ถูกเราต์บนเครือข่าย ✘\n\n✅ ทำไม A และ D ถูก: เป็นที่อยู่ยูนิแคสต์เพียงสองรายการในชุดนี้ จึงเป็นคู่เดียวที่ใช้เชื่อมเราเตอร์บนลิงก์ร่วมกันได้\n\n⚠️ หมายเหตุ — ต้นฉบับพิมพ์ผิด\nตัวเลือก A ที่ข้อสอบให้มาคือ 2002::512:1204b:1111::1/64 ซึ่ง "ไม่ใช่ IPv6 ที่ถูกไวยากรณ์" เพราะมี :: สองครั้งในที่อยู่เดียว และมีกลุ่ม 1204b ที่ยาว 5 หลัก (ต้องไม่เกิน 4 หลัก) ⭐\nข้อสอบจริงตั้งใจให้มันเป็น global unicast จึงยังนับเป็นคำตอบ แต่อย่าจำรูปแบบนี้ไปใช้ ⭐ ให้ยึดหลักแทนว่า "ขึ้นต้น 2000::/3 = global unicast จึงใช้เชื่อมลิงก์ได้"\n\n💡 ในโลกจริงเราเตอร์ IPv6 เพื่อนบ้านคุยกันด้วย link-local (FE80::/10) เป็นหลัก ⭐ แต่โจทย์ไม่มีตัวเลือกนั้นให้\n\n📗 จำไว้สอบ: FF00::/8 = multicast ⭐ | 2000::/3 = global unicast ⭐ | ::ffff:/96 = IPv4-mapped ใช้ในซ็อกเก็ตเท่านั้น ⭐ | กฎ IPv6: ใช้ :: ได้ครั้งเดียว และแต่ละกลุ่มยาวไม่เกิน 4 หลัก ⭐\n\n🔎 หมายเหตุการตรวจสอบ: ปรับให้ตรงกับ V4 #935 ซึ่งเป็นบั้งค์ต้นแบบ (เดิม V3 ตอบ D,E)',
   },
   {
     id: 50,
@@ -1189,7 +1191,7 @@ export const QUESTIONS_V3: Question[] = [
     options: [
       {
         key: 'A',
-        text: 'Option A — SW1 Gi0/1 trunk allowed 5,7,9,108 (ไม่ตั้ง native) / Gi0/2 trunk allowed 7,9,108 ; SW2 Gi0/1 trunk allowed 7 / Gi0/7 trunk allowed 5,7,9,108',
+        text: 'Option A — SW1 Gi0/1 trunk allowed 5,7,9,108 (no native vlan) / Gi0/2 trunk allowed 7,9,108 ; SW2 Gi0/1 trunk allowed 7 / Gi0/7 trunk allowed 5,7,9,108',
       },
       {
         key: 'B',
@@ -1197,7 +1199,7 @@ export const QUESTIONS_V3: Question[] = [
       },
       {
         key: 'C',
-        text: 'Option C — SW1 Gi0/1 trunk allowed 5,7,9,108 + native vlan 5 / Gi0/2 trunk allowed 5,7,9,108 ; SW2 Gi0/1 mode access + access vlan 7 / Gi0/7 trunk allowed 7,9,108 (ไม่ตั้ง native)',
+        text: 'Option C — SW1 Gi0/1 trunk allowed 5,7,9,108 + native vlan 5 / Gi0/2 trunk allowed 5,7,9,108 ; SW2 Gi0/1 mode access + access vlan 7 / Gi0/7 trunk allowed 7,9,108 (no native vlan)',
       },
       {
         key: 'D',
@@ -1419,9 +1421,9 @@ export const QUESTIONS_V3: Question[] = [
       { key: 'C', text: 'lldp run (global) / interface gi1/0/1 / lldp enable' },
       { key: 'D', text: 'no cdp run (global) / interface gi1/0/1 / lldp transmit / lldp receive' },
     ],
-    correct: ['D'],
+    correct: ['C'],
     explanation:
-      '📘 แนวคิด — เลือกโปรโตคอลค้นหาเพื่อนบ้านให้ถูกกับสภาพแวดล้อม\n• เครือข่ายนี้เป็น multivendor และโทรศัพท์เป็นยี่ห้ออื่น (non-Cisco) → CDP ซึ่งเป็นของ Cisco ใช้ไม่ได้ ต้องใช้ LLDP (มาตรฐาน IEEE 802.1AB) ⭐\n• ขอบเขตคำสั่ง:\n  ‑ ระดับ global: cdp run / no cdp run และ lldp run / no lldp run\n  ‑ ระดับ interface: cdp enable / no cdp enable และ lldp transmit / lldp receive ⭐ (LLDP ไม่มีคำสั่งชื่อ lldp enable)\n• โจทย์ต้องการ: เปิดโปรโตคอลค้นหาเพื่อนบ้าน "เฉพาะพอร์ตที่ต่อโทรศัพท์" และให้พอร์ตอื่น "ปิดอยู่"\n\n✅ ทำไม D ถูก: เป็นตัวเลือกเดียวที่ใช้คำสั่งถูกไวยากรณ์ทั้งหมด — no cdp run ปิด CDP ทั้งเครื่อง (เพราะ CDP เปิดอยู่โดยค่าเริ่มต้นและใช้กับโทรศัพท์ non-Cisco ไม่ได้) แล้วเปิด LLDP เฉพาะ Gi1/0/1 ด้วย lldp transmit และ lldp receive\n\n❌ ทำไมข้ออื่นผิด:\nA. ยังใช้ CDP ซึ่งโทรศัพท์ non-Cisco ไม่รองรับ และสลับขอบเขตคำสั่ง (no cdp enable เป็นคำสั่งระดับ interface แต่ไปสั่งที่ global ส่วน cdp run เป็น global กลับไปสั่งที่ interface)\nB. สลับขอบเขตเช่นกัน — lldp enable ไม่ใช่คำสั่ง global และ lldp run ไม่ใช่คำสั่งระดับ interface\nC. ไวยากรณ์ระดับ interface ผิด (ไม่มีคำสั่ง lldp enable บน IOS ต้องใช้ lldp transmit / lldp receive)\n\n⚠️ หมายเหตุ: ข้อนี้เขียนไม่สมบูรณ์ — ในทางปฏิบัติ LLDP ปิดอยู่โดยค่าเริ่มต้น จึงต้องสั่ง lldp run ที่ระดับ global เพิ่มอีกหนึ่งบรรทัดด้วย ตัวเลือก D จึงเป็นเพียง "คำตอบที่ดีที่สุด" เพราะเป็นตัวเดียวที่ใช้ LLDP กับคำสั่งระดับ interface ได้ถูกต้อง และปิด CDP สำหรับพอร์ตที่เหลือ\n\n📗 จำไว้สอบ: CDP เปิดโดยค่าเริ่มต้น (Cisco เท่านั้น) | LLDP ปิดโดยค่าเริ่มต้น (ข้ามยี่ห้อได้) • global = cdp run / lldp run | interface = cdp enable / lldp transmit / lldp receive',
+      '📘 แนวคิด — เลือกโปรโตคอลค้นหาเพื่อนบ้านให้ถูกกับสภาพแวดล้อม ⭐\n• เครือข่ายนี้เป็น multivendor และโทรศัพท์เป็นยี่ห้ออื่น (non-Cisco) → CDP ซึ่งเป็นของ Cisco ใช้ไม่ได้ ต้องใช้ LLDP (มาตรฐาน IEEE 802.1AB) ⭐\n• อ่าน exhibit: SW1 มี cdp run อยู่แล้ว และ Gi1/0/1 ตั้ง voice vlan 10 / access vlan 11 ให้โทรศัพท์ ⭐\n\n🔑 กุญแจของข้อนี้ — LLDP ปิดอยู่โดยค่าเริ่มต้น ⭐\nถ้าไม่สั่ง lldp run ที่ระดับ global ก่อน LLDP จะไม่ทำงานเลย ⭐ ไม่ว่าจะไปตั้งอะไรที่ระดับอินเทอร์เฟซก็ตาม\n→ ตัวเลือกที่ถูกต้องจึงต้องมี lldp run อยู่ด้วยเสมอ ⭐\n\n📋 ขอบเขตคำสั่งที่ถูกต้อง\n• ระดับ global: cdp run / no cdp run และ lldp run / no lldp run ⭐\n• ระดับ interface: cdp enable / no cdp enable และ lldp transmit / lldp receive ⭐\n\n✅ ทำไม C ถูก: เป็นตัวเลือกเดียวที่สั่ง lldp run ที่ระดับ global (เปิด LLDP ให้ทำงานจริง) แล้วจึงไปเปิดใช้ที่ Gi1/0/1 ซึ่งเป็นพอร์ตที่ต่อโทรศัพท์ non-Cisco ⭐\n\n❌ ทำไมข้ออื่นผิด:\nA. ยังใช้ CDP ซึ่งโทรศัพท์ non-Cisco ไม่รองรับ และสลับขอบเขตคำสั่ง (no cdp enable เป็นคำสั่งระดับ interface แต่ไปสั่งที่ global ส่วน cdp run เป็น global กลับไปสั่งที่ interface) ✘\nB. สลับขอบเขต — lldp enable ไม่ใช่คำสั่ง global และ lldp run ไม่ใช่คำสั่งระดับ interface ✘\nD. ตัวลวงที่แนบเนียนที่สุด ⭐ ใช้ lldp transmit / lldp receive ซึ่งเป็นคำสั่งระดับ interface ที่ถูกไวยากรณ์ก็จริง แต่ "ไม่มี lldp run" เลยสักบรรทัด ⭐ LLDP จึงยังปิดอยู่ทั้งเครื่องและคอนฟิกชุดนี้ใช้งานไม่ได้จริง ✘ ส่วน no cdp run ก็ไม่ใช่สิ่งที่โจทย์ต้องการ (โจทย์ให้เปิด LLDP ไม่ได้ให้ปิด CDP)\n\n💡 หมายเหตุเรื่องคำสั่ง lldp enable\nบน IOS รุ่นทั่วไปคำสั่งระดับอินเทอร์เฟซคือ lldp transmit และ lldp receive ⭐ ข้อสอบชุดนี้เขียนย่อเป็น lldp enable แต่ประเด็นที่ใช้ตัดสินคือ "มี lldp run ที่ global หรือไม่" ⭐ ไม่ใช่ชื่อคำสั่งระดับอินเทอร์เฟซ\n\n📗 จำไว้สอบ: CDP เปิดโดยค่าเริ่มต้น (Cisco เท่านั้น) ⭐ | LLDP ปิดโดยค่าเริ่มต้น ต้อง lldp run ก่อนเสมอ (ข้ามยี่ห้อได้) ⭐ | global = cdp run / lldp run | interface = cdp enable / lldp transmit / lldp receive ⭐\n\n🔎 หมายเหตุการตรวจสอบ: ปรับให้ตรงกับ V4 #843 ซึ่งเป็นบั้งค์ต้นแบบ (เดิม V3 ตอบ D)',
   },
   {
     id: 80,
@@ -2598,9 +2600,9 @@ export const QUESTIONS_V3: Question[] = [
       },
       { key: 'E', text: 'ip route 0.0.0.0 0.0.0.0 198.51.100.1 / ip route 0.0.0.0 0.0.0.0 203.0.113.1' },
     ],
-    correct: ['B', 'E'],
+    correct: ['C', 'E'],
     explanation:
-      '📘 แนวคิด — จะให้ static route "แบ่งโหลด" ได้ ต้องมี prefix เท่ากัน AD เท่ากัน และ metric เท่ากัน\n\n✅ ทำไม E ถูก: static default route สองเส้นชี้คนละ ISP โดยไม่ระบุ AD → ทั้งคู่ได้ AD = 1 เท่ากัน และเป็น 0.0.0.0/0 เหมือนกัน → ถูกติดตั้งลงตารางเราต์ทั้งคู่และแบ่งโหลดกันแบบ equal-cost ✔\n\n✅ ทำไม B ถูก: ต้องเข้าใจเทคนิค "แบ่งครึ่งอินเทอร์เน็ต"\n• ip route 0.0.0.0 128.0.0.0 … คือ 0.0.0.0/1 → ครอบครึ่งล่างของโลก (0.0.0.0 – 127.255.255.255)\n• ip route 128.0.0.0 128.0.0.0 … คือ 128.0.0.0/1 → ครอบครึ่งบน (128.0.0.0 – 255.255.255.255)\n• สองเส้นนี้เป็น /1 เหมือนกัน จึงชนะ default /0 ด้วย longest prefix match และแบ่งทราฟฟิกอินเทอร์เน็ตออกเป็นสองครึ่งไปคนละ ISP ✔ ส่วนสองบรรทัด /0 ที่ตามมาเป็นตัวสำรองที่ไม่ถูกใช้งาน\n\n❌ ทำไมข้ออื่นผิด:\nA. เส้นที่สองระบุ AD = 2 กลายเป็น floating static → จะไม่ถูกติดตั้งเลยตราบใดที่เส้นแรกยังใช้ได้ ไม่เกิดการแบ่งโหลด\nC. มีเพียง "128.0.0.0 128.0.0.0" กับ "0.0.0.0 128.0.0.0" ก็จริง แต่เขียนแบบนี้จะได้ /1 ทั้งคู่ที่ครอบคนละครึ่ง — ประเด็นคือชุดนี้ขาดเส้นทางสำรอง เมื่อ ISP ใดล่ม ทราฟฟิกครึ่งนั้นจะไม่มีทางไปเลย (ไม่มี default route รองรับ) จึงไม่ตอบโจทย์เรื่อง redundancy\nD. AD = 255 หมายถึง "unreachable" เราเตอร์จะไม่ติดตั้งเส้นทางนั้นลงตารางเราต์เด็ดขาด → สองบรรทัดแรกใช้ไม่ได้เลย\n\n📗 จำไว้สอบ: AD 255 = ไม่ติดตั้ง • 0.0.0.0/1 + 128.0.0.0/1 = ครอบทั้งอินเทอร์เน็ตและชนะ default route • equal-cost load balance ต้อง prefix + AD + metric เท่ากันหมด',
+      '📘 แนวคิด — โจทย์ถามหา "ชุดคำสั่งสองชุด" ที่แต่ละชุดทำให้เกิดการแบ่งโหลดไปสอง ISP ได้ด้วยตัวเอง ⭐\nเงื่อนไขของการแบ่งโหลดด้วย static route คือ prefix เท่ากัน AD เท่ากัน และ metric เท่ากัน ⭐\n\n✅ ทำไม E ถูก — วิธีที่ 1: default route คู่ขนาน ⭐\nip route 0.0.0.0 0.0.0.0 198.51.100.1\nip route 0.0.0.0 0.0.0.0 203.0.113.1\n→ ทั้งคู่เป็น 0.0.0.0/0 เหมือนกันและไม่ระบุ AD จึงได้ AD = 1 เท่ากัน ⭐ ถูกติดตั้งลงตารางเราต์ทั้งสองเส้นและแบ่งโหลดแบบ equal-cost ✔\n\n✅ ทำไม C ถูก — วิธีที่ 2: แบ่งครึ่งอินเทอร์เน็ตด้วย /1 ⭐\nip route 0.0.0.0 128.0.0.0 198.51.100.1   → 0.0.0.0/1 ครอบครึ่งล่าง (0.0.0.0 – 127.255.255.255) ⭐\nip route 128.0.0.0 128.0.0.0 203.0.113.1  → 128.0.0.0/1 ครอบครึ่งบน (128.0.0.0 – 255.255.255.255) ⭐\n→ ทราฟฟิกอินเทอร์เน็ตถูกแบ่งเป็นสองครึ่งไปคนละ ISP ✔ เป็นเทคนิคมาตรฐานที่ใช้กันจริงเวลาต้องการแบ่งโหลดแบบคาดเดาได้ ⭐\n\n❌ ทำไมข้ออื่นผิด:\nA. เส้นที่สองระบุ AD = 2 กลายเป็น floating static ⭐ จะไม่ถูกติดตั้งเลยตราบใดที่เส้นแรกยังใช้ได้ → เป็นการสำรอง ไม่ใช่การแบ่งโหลด ✘\nB. ตัวลวงที่ดีที่สุด ⭐ เอาชุด C กับชุด E มาต่อกันเป็นชุดเดียว ทั้งที่โจทย์ให้เลือก "สองชุด" แยกกัน ⭐ อีกทั้งสองบรรทัด /0 ที่ต่อท้ายจะไม่ถูกใช้งานเลย เพราะ /1 ชนะด้วย longest prefix match เสมอ ✘\nD. AD = 255 หมายถึง unreachable ⭐ เราเตอร์จะไม่ติดตั้งเส้นทางนั้นลงตารางเราต์เด็ดขาด → สองบรรทัดแรกใช้ไม่ได้เลย ✘\n\n📗 จำไว้สอบ: AD 255 = ไม่ติดตั้ง ⭐ | 0.0.0.0/1 + 128.0.0.0/1 = ครอบทั้งอินเทอร์เน็ตและชนะ default route ⭐ | equal-cost load balance ต้อง prefix + AD + metric เท่ากันหมด ⭐\n\n🔎 หมายเหตุการตรวจสอบ: ปรับให้ตรงกับ V4 #1045 ซึ่งเป็นบั้งค์ต้นแบบ (เดิม V3 ตอบ B,E)',
   },
   {
     id: 153,
@@ -3508,15 +3510,15 @@ export const QUESTIONS_V3: Question[] = [
     prompt:
       'Drag and drop the configuration management terms from the left onto the descriptions on the right. Not all terms are used.',
     categories: [
-      { name: 'easy-to-manage deployment option that may lack scalability', items: ['agent'] },
+      { name: 'daemon that determines when the central authority has updates available', items: ['agent'] },
       { name: 'device hardware that runs without embedded management features', items: ['agentless'] },
       { name: 'to automatically install or deploy a configuration or update', items: ['provision'] },
-      { name: 'daemon that determines when the central authority has updates available', items: ['pull'] },
+      { name: 'easy-to-manage deployment option that may lack scalability', items: ['pull'] },
       { name: 'model in which the central server sends updates to nodes on an as-needed basis', items: ['push'] },
       { name: 'ไม่ใช้ (ตัวลวง)', items: ['post'] },
     ],
     explanation:
-      '⚠️ หมายเหตุ: เฉลยต้นฉบับสลับ "pull" กับ "provision" (ตอบ pull = ติดตั้ง/deploy และ provision = daemon ที่คอยเช็คอัปเดต) ซึ่งขัดกับนิยามมาตรฐาน — provisioning หมายถึงการจัดเตรียม/ติดตั้ง ส่วน pull model คือฝั่งโหนดเป็นคนไปดึงอัปเดตมาเอง คำตอบที่ถูกต้องคือตามที่จัดไว้ด้านบน\n\n⚠️⚠️ หมายเหตุความไม่แน่นอน (อ่านก่อน): คู่ "easy-to-manage deployment option that may lack scalability" กับ "device hardware that runs without embedded management features" เป็นจุดที่ข้อสอบเขียนกำกวมที่สุด ⭐ ที่นี่ตอบ agent / agentless ตามลำดับ เพราะวลี "runs without embedded management features" ชี้ไปที่ agentless ตรงตัวที่สุด — แต่มีอีกสำนักตอบสลับกัน โดยให้เหตุผลว่า agentless คือแบบที่ deploy ง่าย (ไม่ต้องติดตั้งอะไรบนโหนด) แต่ scale ไม่ดีเพราะ control node ทำงานเองทั้งหมดผ่าน SSH ⭐ หาเฉลยทางการยืนยันไม่ได้ ถ้าเจอในห้องสอบให้ชั่งน้ำหนักเอง ส่วนอีก 3 ช่อง (pull / push / provision) ถูกต้องแน่นอน\n\n📘 แนวคิด — ศัพท์ configuration management ที่ออกสอบ\n• Agent ⭐ → รูปแบบที่ต้องติดตั้งซอฟต์แวร์ตัวแทนลงบนอุปกรณ์ปลายทางก่อน (Puppet, Chef) → ตั้งค่าง่ายเมื่อเป็นระบบไม่ใหญ่ แต่พอมีอุปกรณ์เป็นพัน ๆ ตัวการดูแล agent ทุกตัวกลายเป็นภาระ จึงมีข้อจำกัดด้าน scalability\n• Agentless ⭐ → ไม่ต้องติดตั้งอะไรบนอุปกรณ์ปลายทาง ใช้ช่องทางที่มีอยู่แล้วอย่าง SSH/NETCONF (Ansible) → เหมาะกับอุปกรณ์เครือข่ายที่ปิด ไม่ยอมให้ติดตั้งซอฟต์แวร์เพิ่ม\n• Provision ⭐ → การจัดเตรียม/ติดตั้ง/นำคอนฟิกหรืออัปเดตไปลงบนอุปกรณ์โดยอัตโนมัติ\n• Pull model ⭐ → โหนดปลายทางรัน daemon ที่คอยไปถามเซิร์ฟเวอร์กลางเป็นระยะว่า "มีอะไรใหม่ไหม" ถ้ามีก็ดึงมาเอง (Puppet ใช้โมเดลนี้ ค่าเริ่มต้นทุก 30 นาที)\n• Push model ⭐ → เซิร์ฟเวอร์กลางเป็นฝ่ายส่งคอนฟิกไปยังโหนดเมื่อจำเป็น (Ansible ใช้โมเดลนี้ — ผู้ดูแลกดรัน playbook แล้วมันวิ่งไปหาอุปกรณ์)\n• Post → เป็น HTTP method ไม่ใช่ศัพท์ configuration management จึงเป็นตัวลวงที่ไม่ถูกใช้\n\n📗 จำไว้สอบ: Ansible = agentless + push + YAML | Puppet/Chef = agent + pull + Ruby',
+      '📌 จุดที่คนตอบผิดบ่อยที่สุดในข้อนี้คือคู่ agent กับ pull ⭐\n• "daemon that determines when the central authority has updates available" → ตอบ agent ⭐ เพราะคำว่า daemon คือ "ตัวซอฟต์แวร์ที่รันค้างอยู่บนอุปกรณ์" ซึ่งก็คือนิยามของ agent ตรงตัว ⭐ ไม่ใช่ชื่อโมเดล\n• "easy-to-manage deployment option that may lack scalability" → ตอบ pull ⭐ เพราะคำถามนี้ถามถึง "โมเดลการนำไปใช้" ไม่ใช่ตัวซอฟต์แวร์ ⭐ pull model ดูแลง่ายเพราะโหนดวิ่งเข้ามาหาเซิร์ฟเวอร์เอง แต่พอโหนดเยอะขึ้นเซิร์ฟเวอร์กลางจะถูกถล่มด้วยคำขอเป็นระยะ จึงมีเพดานเรื่อง scalability ⭐\n→ สังเกตว่าคู่ pull กับ push ต้องอยู่คนละช่องที่เป็น "โมเดล" ทั้งคู่ ⭐ ส่วน agent กับ agentless เป็นคู่ที่พูดถึง "ตัวซอฟต์แวร์บนอุปกรณ์"\n\n📘 แนวคิด — ศัพท์ configuration management ที่ออกสอบ\n• Agent ⭐ → รูปแบบที่ต้องติดตั้งซอฟต์แวร์ตัวแทนลงบนอุปกรณ์ปลายทางก่อน (Puppet, Chef) → ตั้งค่าง่ายเมื่อเป็นระบบไม่ใหญ่ แต่พอมีอุปกรณ์เป็นพัน ๆ ตัวการดูแล agent ทุกตัวกลายเป็นภาระ จึงมีข้อจำกัดด้าน scalability\n• Agentless ⭐ → ไม่ต้องติดตั้งอะไรบนอุปกรณ์ปลายทาง ใช้ช่องทางที่มีอยู่แล้วอย่าง SSH/NETCONF (Ansible) → เหมาะกับอุปกรณ์เครือข่ายที่ปิด ไม่ยอมให้ติดตั้งซอฟต์แวร์เพิ่ม\n• Provision ⭐ → การจัดเตรียม/ติดตั้ง/นำคอนฟิกหรืออัปเดตไปลงบนอุปกรณ์โดยอัตโนมัติ\n• Pull model ⭐ → โหนดปลายทางรัน daemon ที่คอยไปถามเซิร์ฟเวอร์กลางเป็นระยะว่า "มีอะไรใหม่ไหม" ถ้ามีก็ดึงมาเอง (Puppet ใช้โมเดลนี้ ค่าเริ่มต้นทุก 30 นาที)\n• Push model ⭐ → เซิร์ฟเวอร์กลางเป็นฝ่ายส่งคอนฟิกไปยังโหนดเมื่อจำเป็น (Ansible ใช้โมเดลนี้ — ผู้ดูแลกดรัน playbook แล้วมันวิ่งไปหาอุปกรณ์)\n• Post → เป็น HTTP method ไม่ใช่ศัพท์ configuration management จึงเป็นตัวลวงที่ไม่ถูกใช้\n\n📗 จำไว้สอบ: Ansible = agentless + push + YAML ⭐ | Puppet/Chef = agent + pull + Ruby ⭐\n\n🔎 หมายเหตุการตรวจสอบ: ปรับให้ตรงกับ V4 #1028 ซึ่งเป็นบั้งค์ต้นแบบ (เดิม V3 สลับ agent กับ pull)',
   },
   {
     id: 209,
@@ -4295,15 +4297,15 @@ export const QUESTIONS_V3: Question[] = [
     prompt:
       'A router received three destination prefixes: 10.0.0.0/8, 10.0.0.0/16, and 10.0.0.0/24. When the show ip route command is executed, which output does it return?',
     options: [
-      { key: 'A', text: 'O E2 10.0.0.0/24 [110/5] via 192.168.3.1, Ethernet2  (เฉพาะ /24)' },
+      { key: 'A', text: 'O E2 10.0.0.0/24 [110/5] via 192.168.3.1, Ethernet2  (only the /24)' },
       {
         key: 'B',
-        text: 'O E2 10.0.0.0/16 [110/5] via 192.168.2.1, Ethernet1 + O E2 10.0.0.0/24 [110/5] via 192.168.3.1, Ethernet2  (เฉพาะ /16 และ /24)',
+        text: 'O E2 10.0.0.0/16 [110/5] via 192.168.2.1, Ethernet1 + O E2 10.0.0.0/24 [110/5] via 192.168.3.1, Ethernet2  (only the /16 and the /24)',
       },
-      { key: 'C', text: 'O E2 10.0.0.0/8 [110/5] via 192.168.1.1, Ethernet0  (เฉพาะ /8)' },
+      { key: 'C', text: 'O E2 10.0.0.0/8 [110/5] via 192.168.1.1, Ethernet0  (only the /8)' },
       {
         key: 'D',
-        text: 'O E2 10.0.0.0/8 + O E2 10.0.0.0/16 + O E2 10.0.0.0/24  (ทั้งสามเส้นทาง)',
+        text: 'O E2 10.0.0.0/8 + O E2 10.0.0.0/16 + O E2 10.0.0.0/24  (all three routes)',
       },
     ],
     correct: ['D'],

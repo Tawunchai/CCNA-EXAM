@@ -27,14 +27,16 @@ function rekey(bank: Question[], label: string, offset: number): Question[] {
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
 
-/** Identity of a question for de-duplication: the stem plus the set of answer
- *  texts. The three banks share ~470 questions verbatim; without this the same
- *  item could be drawn twice in one sitting. Variants that share a stem but
- *  carry a different exhibit and a different answer set survive as separate
- *  questions, which is intended — they test different things.
+/** Identity of a question for de-duplication: the stem, the set of answer texts,
+ *  and the exhibit. The banks share ~470 questions verbatim; without this the
+ *  same item could be drawn twice in one sitting.
  *
- *  V4 overlaps V1–V3 heavily on the wording of the *stem*, but its option sets
- *  are frequently reworded, so the de-duplicator keeps the variants apart. */
+ *  The exhibit is part of the identity because several families reuse one stem
+ *  and one option set across two or three different screenshots, so the picture
+ *  is the only thing that decides the answer — V4 #593 / #1124 / #1227 ("which
+ *  setting must be modified") key DNS / default gateway / subnet mask purely on
+ *  their exhibits. Keying on stem + options alone collapsed those into a single
+ *  question and silently dropped the rest of the family from the pool. */
 function identity(q: Question): string {
   const body =
     q.kind === 'drag'
@@ -46,16 +48,34 @@ function identity(q: Question): string {
           .map((o) => norm(o.text))
           .sort()
           .join('|')
-  return `${norm(q.prompt)}##${body}`
+  const exhibit = `${q.image ?? ''}+${q.image2 ?? ''}`
+  return `${norm(q.prompt)}##${body}##${exhibit}`
 }
 
-/** Every question from V1 + V2 + V3 + V4, de-duplicated, with unique ids. */
+/** Every question from V1 + V2 + V3 + V4, de-duplicated, with unique ids.
+ *
+ *  V4 is merged FIRST because it is the reference bank: it was audited question
+ *  by question against the source PDF and the exhibits, so where it disagrees
+ *  with an older bank on a *genuinely shared* item, V4 is the verified one —
+ *  e.g. V4 #770 defines JWT as "used to securely exchange information" (RFC
+ *  7519) where V2 #801 says "used for authentication". Since the loop below
+ *  keeps whichever copy it sees first, putting V4 last meant 835 of its
+ *  questions — and their corrected keys and explanations — never reached the
+ *  pool. Do not reorder without re-verifying those keys.
+ *
+ *  Beware of reading a cross-bank key difference as a cross-bank error: several
+ *  families reuse one stem and one option set over *different* screenshots, so
+ *  each bank is right about its own picture. V4 #452 keys 10.165.20.126 while
+ *  V1 #545 and V3 #11 key .166, and all three are correct — V4's exhibit shows
+ *  a static route to 10.1.12.112/28, the other two show 10.1.2.112/28, which is
+ *  the only one that covers the 10.1.2.126 destination. Including the exhibit in
+ *  identity() above is what keeps all three alive as separate questions. */
 export const EXAM_POOL: Question[] = (() => {
   const merged = [
+    ...rekey(QUESTIONS_V4, 'V4', ID_OFFSET.v4),
     ...rekey(QUESTIONS, 'V1', ID_OFFSET.v1),
     ...rekey(QUESTIONS_V2, 'V2', ID_OFFSET.v2),
     ...rekey(QUESTIONS_V3, 'V3', ID_OFFSET.v3),
-    ...rekey(QUESTIONS_V4, 'V4', ID_OFFSET.v4),
   ]
   const seen = new Set<string>()
   const out: Question[] = []

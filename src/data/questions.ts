@@ -5380,8 +5380,8 @@ export const QUESTIONS: Question[] = [
       'Refer to the exhibit. Which configuration must be applied to the router that configures PAT to translate all addresses in VLAN 200 (192.168.100.32/27) while allowing devices on VLAN 100 (192.168.100.0/27) to use their own IP addresses?',
     options: [
       { key: 'A', text: 'access-list 99 permit 209.165.201.2 0.0.0.0 / ip nat inside source list 99 interface gi1/0/0 overload / interface gi2/0/1.200 / ip nat inside / interface gi1/0/0 / ip nat outside' },
-      { key: 'B', text: 'access-list 99 permit 209.165.201.2 255.255.255.255 / ip nat inside source list 99 interface gi1/0/0 overload / ...' },
-      { key: 'C', text: 'access-list 99 permit 192.168.100.0 0.0.0.255 / ip nat inside source list 99 interface gi1/0/0 overload / ...' },
+      { key: 'B', text: 'access-list 99 permit 209.165.201.2 255.255.255.255 / ip nat inside source list 99 interface gi1/0/0 overload / interface gi2/0/1.200 / ip nat inside / interface gi1/0/0 / ip nat outside' },
+      { key: 'C', text: 'access-list 99 permit 192.168.100.0 0.0.0.255 / ip nat inside source list 99 interface gi1/0/0 overload / interface gi2/0/1.200 / ip nat inside / interface gi1/0/0 / ip nat outside' },
       { key: 'D', text: 'access-list 99 permit 192.168.100.32 0.0.0.31 / ip nat inside source list 99 interface gi1/0/0 overload / interface gi2/0/1.200 / ip nat inside / interface gi1/0/0 / ip nat outside' },
     ],
     correct: ['D'],
@@ -5491,6 +5491,8 @@ export const QUESTIONS: Question[] = [
       '📘 แนวคิด — จำว่าโปรโตคอลชั้นแอปฯ ตัวไหนวิ่งบน TCP (ต้องการความน่าเชื่อถือ) หรือ UDP (เน้นเร็ว/เบา):\n\n🔵 TCP (reliable, มี handshake):\n• FTP (20/21) — โอนไฟล์ต้องครบถ้วน\n• SMTP (25) — ส่งอีเมลต้องไม่ตกหล่น\n• SSH (22) — เซสชันจัดการอุปกรณ์ต้องเสถียร\n\n🟢 UDP (เบา/เร็ว/ไม่ต้อง handshake):\n• DHCP (67/68) — broadcast ขอ IP ตอนบูต\n• SNMP (161/162) — โพลสถานะจำนวนมาก เน้นเบา\n• TFTP (69) — โอนไฟล์แบบง่าย ไม่ต้อง login\n\n📗 จำไว้สอบ: กลุ่ม UDP ที่ต้องจำ = DHCP, SNMP, TFTP, DNS(query), SYSLOG, NTP, VoIP-RTP • ที่เหลือส่วนใหญ่ (FTP, SMTP, SSH, HTTP/S, Telnet) = TCP',
   },
   {
+    // ไม่มี image: ข้อมูลที่โจทย์อ้างถึง (exhibit) ถูกพิมพ์ไว้ในตัว prompt แล้ว ตอบได้ครบโดยไม่ต้องมีรูป
+    // → ตั้งใจไม่ใส่ image ห้ามมองว่าเป็นรูปตกหล่น
     id: 337,
     kind: 'single',
     prompt:
@@ -5815,6 +5817,8 @@ export const QUESTIONS: Question[] = [
       '📘 แนวคิด — ระดับความรุนแรง syslog มี 0–7 (ยิ่งเลขน้อยยิ่งร้ายแรง) ท่องด้วยประโยค "Every Awesome Cisco Engineer Will Need Ice-cream Daily":\n• 0 Emergency\n• 1 Alert\n• 2 Critical\n• 3 Error\n• 4 Warning\n• 5 Notification\n• 6 Informational ⭐\n• 7 Debugging\n\n✅ ทำไม D ถูก: ข้อความ "informational" = ระดับ 6\n\n❌ ทำไมข้ออื่นผิด:\nA. 0 = Emergency (ระบบใช้งานไม่ได้)\nB. 2 = Critical\nC. 4 = Warning\n\n📗 จำไว้สอบ: 0 Emergency … 4 Warning, 5 Notification, 6 Informational, 7 Debugging',
   },
   {
+    // ไม่มี image: ข้อมูลที่โจทย์อ้างถึง (exhibit) ถูกพิมพ์ไว้ในตัว prompt แล้ว ตอบได้ครบโดยไม่ต้องมีรูป
+    // → ตั้งใจไม่ใส่ image ห้ามมองว่าเป็นรูปตกหล่น
     id: 359,
     kind: 'single',
     prompt:
@@ -7621,7 +7625,7 @@ export const QUESTIONS: Question[] = [
       { key: 'A', text: 'ntp authenticate / ntp authentication-key 2 md5 CISCO123 / ntp source Loopback0 / ntp access-group server-only 10 / ntp master 2 / access-list 10 permit 209.165.200.225' },
       { key: 'B', text: 'ntp authenticate / ntp authentication-key 2 md5 CISCO123 / ntp source Loopback0 / ntp access-group server-only 10 / ntp stratum 2 / access-list 10 permit udp host 209.165.200.225 any eq 123' },
       { key: 'C', text: 'ntp authenticate / ntp authentication-key 2 sha1 CISCO123 / ntp source Loopback0 / ntp access-group server-only 10 / ntp master 2 / access-list 10 permit udp host 209.165.200.225 any eq 123' },
-      { key: 'D', text: 'ntp authenticate / ntp authentication-key 2 md5 CISCO123 / ntp interface Loopback0 / ntp access-group server-only 10 ...' },
+      { key: 'D', text: 'ntp authenticate / ntp authentication-key 2 md5 CISCO123 / ntp interface Loopback0 / ntp access-group server-only 10 / ntp master 2 / access-list 10 permit 209.165.200.225' },
     ],
     correct: ['A'],
     explanation:
@@ -12583,20 +12587,20 @@ export const QUESTIONS: Question[] = [
       {
         name: 'Authorization',
         items: [
-          'It enables the device to allow user- or group-based access.',
           'It restricts the CLI commands that a user can perform.',
+          'It leverages a RADIUS server to grant user access to a reverse Telnet session.',
         ],
       },
       {
-        name: 'ไม่ใช้ (ตัวลวง — เป็นงานของ Authentication)',
+        name: 'ไม่ใช้ (ตัวลวง)',
         items: [
-          'It leverages a RADIUS server to grant user access to a reverse Telnet session.',
           'It verifies the user and password before granting access to the device.',
+          'It enables the device to allow user- or group-based access.',
         ],
       },
     ],
     explanation:
-      '⚠️ หมายเหตุ (แก้เฉลย): เดิมชุดนี้วาง "leverages a RADIUS server … reverse Telnet session" ไว้ใต้ Authorization — แก้ให้เป็นตัวลวงของ Authentication ตามที่ข้อสอบชุดนี้ออกแบบไว้ (ตรงกับ V1 ข้อ 802 / ข้อ 1239, V2 ข้อ 732 และ V3 ข้อ 222 / ข้อ 316)\n\n📘 แนวคิด — AAA สามตัว A แยกหน้าที่ชัดเจน\n\n🔑 กุญแจของข้อนี้: ข้อสอบวางประโยคไว้ 6 ประโยค = Authentication 2 + Authorization 2 + Accounting 2 พอดี ⭐ โจทย์เปิดช่องให้แค่ Accounting กับ Authorization จึงเหลือคู่ของ Authentication เป็นตัวลวง\n\n🔹 Authentication — "คุณคือใคร" (ตัวลวงทั้งคู่ในข้อนี้)\n• "It verifies the user and password before granting access to the device." → ตรวจตัวตนก่อนให้เข้า ⭐\n• "It leverages a RADIUS server to grant user access to a reverse Telnet session." → ยืนยันตัวตนก่อนเปิดเซสชัน reverse Telnet ⭐\n  💡 reverse Telnet = telnet เข้าอุปกรณ์หนึ่ง แล้วต่อจากอุปกรณ์นั้นออกไปยังพอร์ตคอนโซลของอีกเครื่อง (ใช้กับ terminal server)\n  💡 เกร็ดเชิงลึก: บน IOS จริงมีคำสั่ง aaa authorization reverse-access อยู่ด้วย ประโยคนี้จึงตีความเป็น authorization ก็ได้ — แต่ชุดข้อสอบนี้ออกแบบให้เป็นคู่ของ Authentication เพราะอีกสองประโยคเป็น authorization เต็มตัวและมีช่องแค่ 2 ช่อง ⭐\n\n🔹 Authorization — "คุณทำอะไรได้บ้าง" ⭐\n• "It enables the device to allow user- or group-based access." → ให้สิทธิ์ตามผู้ใช้หรือกลุ่ม หลังยืนยันตัวตนผ่านแล้ว ⭐\n• "It restricts the CLI commands that a user can perform." → จำกัดคำสั่งที่พิมพ์ได้ (command authorization ผ่าน TACACS+) ⭐\n\n🔹 Accounting — "คุณทำอะไรไปแล้วบ้าง" ⭐\n• "It records the amount of time for which a user accesses the network on a remote server." → บันทึกระยะเวลาการใช้งาน ⭐\n• "It uses TACACS+ to log the configuration commands entered by a network administrator." → command accounting เพื่อ audit trail ⭐\n\n⚠️ ระวัง: ประโยคที่พูดถึง "CLI commands" มีสองแบบ — restricts (จำกัดว่าพิมพ์ได้ไหม) = Authorization | logs (บันทึกว่าพิมพ์อะไรไป) = Accounting ⭐\n\n📗 จำไว้สอบ: Authentication = ใคร • Authorization = ทำอะไรได้ • Accounting = ทำอะไรไปแล้ว ⭐ • TACACS+ (TCP 49) แยกทั้งสาม A ได้ ส่วน RADIUS รวม Authn+Authz',
+      '📘 แนวคิด — AAA สามตัว A แยกหน้าที่ชัดเจน ⭐\n\n🔑 กุญแจของข้อนี้: โจทย์เปิดช่องให้เฉพาะ Accounting กับ Authorization ช่องละ 2 ประโยค ⭐ จึงต้องคัดสองประโยคที่เหลือออกเป็นตัวลวง\n\n🔹 Authorization — "คุณทำอะไรได้บ้าง" ⭐\n• "It restricts the CLI commands that a user can perform." → จำกัดคำสั่งที่พิมพ์ได้ (command authorization ผ่าน TACACS+) ⭐\n• "It leverages a RADIUS server to grant user access to a reverse Telnet session." → การ "grant access" ให้เข้าถึงบริการ reverse Telnet คือการให้สิทธิ์ใช้ทรัพยากร ⭐ บน IOS มีคำสั่งตรงตัวคือ aaa authorization reverse-access ⭐ จึงเป็น authorization ไม่ใช่ authentication\n  💡 reverse Telnet = telnet เข้าอุปกรณ์หนึ่ง แล้วต่อจากอุปกรณ์นั้นออกไปยังพอร์ตคอนโซลของอีกเครื่อง (ใช้กับ terminal server) ⭐\n\n🔹 Accounting — "คุณทำอะไรไปแล้วบ้าง" ⭐\n• "It records the amount of time for which a user accesses the network on a remote server." → บันทึกระยะเวลาการใช้งาน ⭐\n• "It uses TACACS+ to log the configuration commands entered by a network administrator." → command accounting เพื่อ audit trail ⭐\n\n🔸 ตัวลวงทั้งสอง (เป็นงานของ Authentication และ Authorization ที่ช่องเต็มแล้ว) ⭐\n• "It verifies the user and password before granting access to the device." → ตรวจตัวตน = Authentication ⭐ ซึ่งโจทย์ไม่ได้เปิดช่องไว้\n• "It enables the device to allow user- or group-based access." → เป็น authorization เช่นกัน แต่ช่อง Authorization มีเพียง 2 ช่องและถูกใช้ไปแล้วด้วยสองประโยคที่เจาะจงกว่า ⭐\n\n⚠️ ระวัง: ประโยคที่พูดถึง "CLI commands" มีสองแบบ — restricts (จำกัดว่าพิมพ์ได้ไหม) = Authorization | logs (บันทึกว่าพิมพ์อะไรไป) = Accounting ⭐\n\n📗 จำไว้สอบ: Authentication = ใคร • Authorization = ทำอะไรได้ • Accounting = ทำอะไรไปแล้ว ⭐ • TACACS+ (TCP 49) แยกทั้งสาม A ได้ ส่วน RADIUS รวม Authn+Authz ⭐\n\n🔎 หมายเหตุการตรวจสอบ: ปรับให้ตรงกับ V4 #667 ซึ่งเป็นบั้งค์ต้นแบบ (เดิมวาง reverse Telnet ไว้เป็นตัวลวง)',
   },
   {
     id: 770,
@@ -13089,15 +13093,15 @@ export const QUESTIONS: Question[] = [
     prompt:
       'Drag and drop the configuration management terms from the left onto the descriptions on the right. Not all terms are used.',
     categories: [
-      { name: 'daemon that determines when the central authority has updates available', items: ['pull'] },
+      { name: 'daemon that determines when the central authority has updates available', items: ['agent'] },
       { name: 'model in which the central server sends updates to nodes on an as-needed basis', items: ['push'] },
-      { name: 'easy-to-manage deployment option that may lack scalability', items: ['agent'] },
+      { name: 'easy-to-manage deployment option that may lack scalability', items: ['pull'] },
       { name: 'device hardware that runs without embedded management features', items: ['agentless'] },
       { name: 'to automatically install or deploy a configuration or update', items: ['provision'] },
       { name: 'ไม่ใช้ (ตัวลวง)', items: ['post'] },
     ],
     explanation:
-      '⚠️ หมายเหตุความไม่แน่นอน (อ่านก่อน): คู่ "easy-to-manage deployment option that may lack scalability" กับ "device hardware that runs without embedded management features" เป็นจุดที่ข้อสอบเขียนกำกวมที่สุดในชุดนี้ ⭐ ที่นี่ตอบ agent / agentless ตามลำดับ เพราะวลี "runs without embedded management features" ชี้ไปที่ agentless ตรงตัวที่สุด — แต่มีอีกสำนักตอบสลับกัน โดยให้เหตุผลว่า agentless คือแบบที่ deploy ง่าย (ไม่ต้องติดตั้งอะไรบนโหนด) แต่ scale ไม่ดีเพราะ control node ทำงานเองทั้งหมดผ่าน SSH ⭐ ผมหาเฉลยทางการยืนยันไม่ได้ ถ้าเจอในห้องสอบให้ชั่งน้ำหนักเอง ส่วนอีก 3 ช่อง (pull / push / provision) ถูกต้องแน่นอน\n\n📘 แนวคิด — ศัพท์ configuration management ที่ออกสอบ\n\n🔹 Pull model ⭐\n• โหนดปลายทางรัน daemon ที่คอย "ถามเข้าไป" เป็นระยะว่าเซิร์ฟเวอร์กลางมีอัปเดตใหม่หรือยัง\n• ตัวอย่าง: Puppet agent (ดีฟอลต์เช็กทุก 30 นาที), Chef client\n• ข้อดี: ขยายขนาดได้ดี เพราะภาระกระจายไปที่โหนด และทะลุ NAT/ไฟร์วอลล์ขาเข้าได้\n\n🔹 Push model ⭐\n• เซิร์ฟเวอร์กลางเป็นฝ่าย "ยิงคอนฟิกออกไป" หาโหนดเมื่อจำเป็น\n• ตัวอย่าง: Ansible (ผลักผ่าน SSH), SaltStack\n• ข้อดี: ควบคุมจังหวะเวลาได้แน่นอน เห็นผลทันที\n\n🔹 Agent ⭐\n• ต้องติดตั้งซอฟต์แวร์ลงบนอุปกรณ์ทุกตัวที่จะจัดการ\n• ตัวอย่าง: Puppet, Chef\n\n🔹 Agentless ⭐\n• ไม่ต้องติดตั้งอะไรบนอุปกรณ์ ใช้ช่องทางที่มีอยู่แล้วอย่าง SSH/NETCONF\n• ตัวอย่าง: Ansible → เหมาะกับอุปกรณ์เครือข่ายที่ติดตั้งซอฟต์แวร์เพิ่มไม่ได้\n\n🔹 Provision ⭐\n• การติดตั้งหรือจ่ายคอนฟิก/อัปเดตให้อุปกรณ์โดยอัตโนมัติ (เช่น zero-touch provisioning)\n\n🔹 Post — เป็นเมท็อดของ HTTP ไม่ใช่ศัพท์ configuration management จึงเป็นตัวลวง\n\n📗 จำไว้สอบ: Ansible = agentless + push + YAML + SSH ⭐ • Puppet = agent + pull + TCP 8140 • Chef = agent + pull + Ruby',
+      '📌 จุดที่คนตอบผิดบ่อยที่สุดในข้อนี้คือคู่ agent กับ pull ⭐\n• "daemon that determines when the central authority has updates available" → ตอบ agent ⭐ เพราะคำว่า daemon คือ "ตัวซอฟต์แวร์ที่รันค้างอยู่บนอุปกรณ์" ซึ่งก็คือนิยามของ agent ตรงตัว ⭐ ไม่ใช่ชื่อโมเดล\n• "easy-to-manage deployment option that may lack scalability" → ตอบ pull ⭐ เพราะคำถามนี้ถามถึง "โมเดลการนำไปใช้" ไม่ใช่ตัวซอฟต์แวร์ ⭐ pull model ดูแลง่ายเพราะโหนดวิ่งเข้ามาหาเซิร์ฟเวอร์เอง แต่พอโหนดเยอะขึ้นเซิร์ฟเวอร์กลางจะถูกถล่มด้วยคำขอเป็นระยะ จึงมีเพดานเรื่อง scalability ⭐\n→ สังเกตว่าคู่ pull กับ push ต้องอยู่คนละช่องที่เป็น "โมเดล" ทั้งคู่ ⭐ ส่วน agent กับ agentless เป็นคู่ที่พูดถึง "ตัวซอฟต์แวร์บนอุปกรณ์"\n\n🔎 หมายเหตุการตรวจสอบ: ปรับให้ตรงกับ V4 #1028 ซึ่งเป็นบั้งค์ต้นแบบ (เดิม V1 สลับ agent กับ pull)\n\n📘 แนวคิด — ศัพท์ configuration management ที่ออกสอบ\n\n🔹 Pull model ⭐\n• โหนดปลายทางรัน daemon ที่คอย "ถามเข้าไป" เป็นระยะว่าเซิร์ฟเวอร์กลางมีอัปเดตใหม่หรือยัง\n• ตัวอย่าง: Puppet agent (ดีฟอลต์เช็กทุก 30 นาที), Chef client\n• ข้อดี: ขยายขนาดได้ดี เพราะภาระกระจายไปที่โหนด และทะลุ NAT/ไฟร์วอลล์ขาเข้าได้\n\n🔹 Push model ⭐\n• เซิร์ฟเวอร์กลางเป็นฝ่าย "ยิงคอนฟิกออกไป" หาโหนดเมื่อจำเป็น\n• ตัวอย่าง: Ansible (ผลักผ่าน SSH), SaltStack\n• ข้อดี: ควบคุมจังหวะเวลาได้แน่นอน เห็นผลทันที\n\n🔹 Agent ⭐\n• ต้องติดตั้งซอฟต์แวร์ลงบนอุปกรณ์ทุกตัวที่จะจัดการ\n• ตัวอย่าง: Puppet, Chef\n\n🔹 Agentless ⭐\n• ไม่ต้องติดตั้งอะไรบนอุปกรณ์ ใช้ช่องทางที่มีอยู่แล้วอย่าง SSH/NETCONF\n• ตัวอย่าง: Ansible → เหมาะกับอุปกรณ์เครือข่ายที่ติดตั้งซอฟต์แวร์เพิ่มไม่ได้\n\n🔹 Provision ⭐\n• การติดตั้งหรือจ่ายคอนฟิก/อัปเดตให้อุปกรณ์โดยอัตโนมัติ (เช่น zero-touch provisioning)\n\n🔹 Post — เป็นเมท็อดของ HTTP ไม่ใช่ศัพท์ configuration management จึงเป็นตัวลวง\n\n📗 จำไว้สอบ: Ansible = agentless + push + YAML + SSH ⭐ • Puppet = agent + pull + TCP 8140 • Chef = agent + pull + Ruby',
   },
   {
     id: 800,
@@ -15417,6 +15421,8 @@ export const QUESTIONS: Question[] = [
       '📘 แนวคิด — Ansible ทำงานอย่างไร\n• เป็นเครื่องมือ agentless ⭐ — ไม่ต้องติดตั้งซอฟต์แวร์ใด ๆ บนอุปกรณ์ปลายทาง\n• ใช้ push model ⭐ — เครื่องควบคุม (control node) เป็นฝ่ายยิงคำสั่งออกไปหาอุปกรณ์\n• ช่องทางที่ใช้คือ SSH (พอร์ต 22) ⭐ ซึ่งมีอยู่แล้วในอุปกรณ์เครือข่ายและเซิร์ฟเวอร์ทุกตัว\n  (สำหรับ Windows ใช้ WinRM แทน)\n• กับเซิร์ฟเวอร์ Linux: Ansible จะคัดลอกโมดูล Python ขึ้นไปรันบนเครื่องปลายทางผ่าน SSH แล้วลบทิ้ง\n• กับอุปกรณ์เครือข่าย: โมดูลรันบน control node แล้วส่งคำสั่ง CLI หรือ NETCONF/RESTCONF ผ่าน SSH ไปให้\n\n📗 องค์ประกอบของ Ansible ที่ออกสอบ:\n• Inventory  → ไฟล์ที่ระบุรายชื่ออุปกรณ์ปลายทางและกลุ่ม ⭐\n• Playbook   → ชุดงานที่จะทำ เขียนด้วย YAML ⭐\n• Module     → หน่วยการทำงานสำเร็จรูป (เช่น ios_config, ios_facts)\n• Task/Play  → งานย่อยแต่ละขั้นในหนึ่ง playbook\n• Idempotent → รัน playbook ซ้ำกี่ครั้ง ผลลัพธ์บนอุปกรณ์ก็เหมือนเดิม ⭐\n\n📗 เทียบกับเครื่องมืออื่น:\n• Puppet → มี agent, ใช้ pull model, พอร์ต TCP 8140, ภาษา Puppet DSL\n• Chef   → มี agent, ใช้ pull model, ภาษา Ruby (cookbook/recipe)\n• SaltStack → รองรับทั้ง push และ pull\n\n✅ ทำไม A ถูก: Ansible ใช้ SSH เป็นช่องทางส่งโมดูลและคำสั่งไปยังอุปกรณ์\n\n❌ ทำไมข้ออื่นผิด:\nB. SNMP ใช้เฝ้าระวังและอ่านค่า ไม่ใช่ช่องทางที่ Ansible ใช้ส่งงาน\nC. Kerberos เป็นระบบยืนยันตัวตนด้วยตั๋ว ไม่ใช่โปรโตคอลขนส่ง\nD. Telnet ไม่เข้ารหัส Ansible ไม่ได้ใช้เป็นค่าเริ่มต้น\n\n📗 จำไว้สอบ: Ansible = agentless + push + SSH + YAML ⭐ • Puppet/Chef = agent + pull • idempotent = รันซ้ำได้ผลเท่าเดิม',
   },
   {
+    // ไม่มี image: ข้อมูลที่โจทย์อ้างถึง (exhibit) ถูกพิมพ์ไว้ในตัว prompt แล้ว ตอบได้ครบโดยไม่ต้องมีรูป
+    // → ตั้งใจไม่ใส่ image ห้ามมองว่าเป็นรูปตกหล่น
     id: 937,
     kind: 'single',
     prompt:
