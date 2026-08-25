@@ -47,29 +47,59 @@ const ctx = await browser.newContext({ viewport: { width: 1600, height: 1000 }, 
 
 | Check | How | Expect |
 |---|---|---|
-| White theme wins | `getComputedStyle(document.body).backgroundColor` | `rgb(255, 255, 255)` |
-| Full-width layout | `#root` bounding width | == viewport width |
-| Options not shuffled | `$$eval('.opt-key', e => e.textContent)` | `A,B,C,D…` in order |
-| Question count | start screen text | mentions `300` |
-| Grading works | click `.opt`, click `ตรวจคำตอบ` | `.opt.correct` appears |
-| Explanation renders | `.feedback-body` text | contains `📘`, `✅`, `❌` |
+| Canvas theme wins | `getComputedStyle(document.body).backgroundColor` | `rgb(238, 242, 247)` |
+| No sideways scroll | `documentElement.scrollWidth <= innerWidth` | true, desktop *and* 390px |
+| Exhibit never upscaled | `.exhibit img` rect width vs `naturalWidth` | rect ≤ natural (see below) |
+| Options re-lettered | `$$eval('.opt-key', e => e.textContent)` | `A B C D` in order |
+| Bank window honoured | `.qcard-no` ids over a BIG part paper | all inside the part's range |
+| Grading works | press `a`, press `Enter` | `.opt.is-key` appears, `.exp` card renders |
+| Explanation renders | `.exp-body` text | contains `📘`, `✅`, `❌` |
+| Scroll resets | scroll down, click `ข้อถัดไป` | `window.scrollY === 0` |
 | No runtime errors | `page.on('pageerror')` | none |
 
 Question order is **randomized**, so to reach a specific question you must loop:
-read `.qnum-badge` (`Q123`), click `ข้อถัดไป`, repeat until the id matches.
+read `.qcard-no` (`Question #123`), click `ข้อถัดไป`, repeat until the id matches.
+
+The app is **keyboard-drivable**, which makes drivers much shorter: `a`–`e` (or
+`1`–`5`) selects, `Enter` reveals then advances, `←`/`→` move between questions.
 
 ### Probes worth running
 
+- **Exhibit sizing** is the single easiest thing to regress. The screenshots are
+  ~680×390 native; an earlier `.exhibit img { width: 100% }` blew them up 50%
+  into a blurry full-screen wall. Assert the rendered width never exceeds
+  `naturalWidth`, and that `.exhibit-zoom` opens `.lightbox` with the image at
+  1:1 (`max-w-none`), Esc closing it.
 - Force-click a different option **after** grading → inputs must all be
   `disabled` and the marks must not change (answer is locked).
-- `ตรวจคำตอบ` button must be **gone** after grading (no re-grade).
+- `Reveal Solution` must be **gone** after grading (no re-grade).
 - Screenshot a question whose explanation contains `┌` — ASCII tables must
   stay aligned. Thai text inside table cells breaks alignment; if you see
   drift, the fix is to convert that table to a bullet list, not to fight CSS.
+- **Option shuffling** (`.switch-row input`, on by default) re-letters the
+  options *and* rewrites every option letter in the explanation. The check
+  that actually catches a regression is not "did the order change" — it is:
+  load the bank in node (`loadBank.cjs` pattern: strip the `import` lines,
+  drop the `: Question[]` annotation, `new Function` the rest), then for each
+  question confirm the text behind `.opt.is-key` equals the text of the bank's
+  `correct` letters, and that the letters listed under `❌ ทำไมข้ออื่นผิด:` are
+  exactly the non-key options with no duplicates. With the switch off, the
+  rendered order must equal the bank's order exactly.
 
 ## Gotchas
 
-- `.feedback-body` is `white-space: pre-wrap` + mono-first font on purpose.
+- `.exp-body` is `white-space: pre-wrap` + mono-first font on purpose.
   Switching it to `pre-line` collapses the indentation in the explanations.
-- Drag questions render `.drag-category`, not `.opt` — a driver that assumes
-  `.opt` exists will hang on them. Check `.qkind-badge` first.
+- Drag questions render `.dd-item` (left) and `.dd-target` (right), not
+  `.opt` — a driver that assumes `.opt` exists will hang on them. Check
+  `.qcard-kind` first.
+- Click a drag target on its `.dd-target-label`, not the box centre: the
+  centre may sit over an already-placed `.dd-chip`, whose own handler pulls
+  that chip back out, so a naive fill loop nets one placement.
+- On the start screen, **do not** select panels with `.panel:nth-of-type(n)` —
+  `nth-of-type` counts every sibling `div`, so it silently picks the wrong
+  panel and the test "fails" against a perfectly good app. Filter by heading:
+  `page.locator('.panel').filter({ has: page.locator('h2:has-text("…")') })`.
+- The sidebar is `position: sticky` with its own `overflow-y: auto`. If you
+  remove that overflow, the bottom of a 2085-question navigator becomes
+  unreachable — a stuck element does not scroll with the page.

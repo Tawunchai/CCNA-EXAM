@@ -1,38 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 
 /* ─────────────────────────────────────────────────────────────
-   Design tokens — a single clean white "exam sheet" identity.
-   Exposed to Tailwind as utilities: bg-brand, text-ink, border-line, …
+   Design tokens.
+
+   The app is a *workspace*, not a document: a soft blue-grey canvas
+   with white cards floating on it, so a question reads as one object
+   you are working on rather than as text poured onto the page. Every
+   surface, line and accent below is picked against that canvas.
    ───────────────────────────────────────────────────────────── */
 @theme {
-  /* neutrals, biased slightly cool toward the Cisco-blue accent */
-  --color-ink: #0b2b3c;
-  --color-body: #51616e;
+  /* surfaces, from the page backdrop up to the raised card */
+  --color-canvas: #eef2f7;
   --color-paper: #ffffff;
-  --color-panel: #f6f8fa;
-  --color-panel-2: #eef2f6;
-  --color-line: #e3e9ef;
-  --color-line-strong: #cfd8e0;
+  --color-panel: #f5f7fa;
+  --color-panel-2: #e9eef4;
+  --color-line: #e2e8f0;
+  --color-line-strong: #c8d3e0;
+
+  /* text */
+  --color-ink: #0f2333;
+  --color-body: #52657a;
+  --color-muted: #7e90a3;
 
   /* accent — Cisco blue */
-  --color-brand: #0a6fb5;
-  --color-brand-ink: #075a94;
-  --color-brand-soft: #e8f2fa;
-  --color-brand-line: #9fc7e6;
+  --color-brand: #0d74c4;
+  --color-brand-ink: #0a5b9c;
+  --color-brand-soft: #e7f2fb;
+  --color-brand-line: #a6cdea;
 
-  /* semantic (kept separate from the accent) */
-  --color-ok: #1f9d55;
-  --color-ok-soft: #e7f6ee;
-  --color-err: #d64545;
-  --color-err-soft: #fbeaea;
-  --color-warn: #c07d1e;
-  --color-warn-soft: #fbf1de;
+  /* the question bar: the one saturated block on the page */
+  --color-sheet: #2f6fdb;
+  --color-sheet-ink: #245bb8;
 
-  --font-sans: system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* semantic */
+  --color-ok: #17945a;
+  --color-ok-soft: #e6f6ee;
+  --color-ok-line: #a8ddc2;
+  --color-err: #d13b3b;
+  --color-err-soft: #fceded;
+  --color-err-line: #f0b8b8;
+  --color-warn: #b87514;
+  --color-warn-soft: #fdf3e2;
+  --color-warn-line: #e8cd9a;
+
+  --font-sans: 'Inter', 'Noto Sans Thai', system-ui, 'Segoe UI', Roboto, sans-serif;
   --font-mono: ui-monospace, 'Cascadia Code', 'SF Mono', Consolas, monospace;
 
-  --shadow-card: 0 1px 2px rgb(11 43 60 / 0.06);
-  --shadow-pop: 0 6px 20px -8px rgb(11 43 60 / 0.18), 0 2px 6px -2px rgb(11 43 60 / 0.08);
+  --shadow-card: 0 1px 2px rgb(15 35 51 / 0.04), 0 1px 3px rgb(15 35 51 / 0.06);
+  --shadow-raise: 0 2px 4px rgb(15 35 51 / 0.04), 0 8px 24px -12px rgb(15 35 51 / 0.18);
+  --shadow-pop: 0 12px 32px -12px rgb(15 35 51 / 0.28);
 }
 
 /* The exam sheet deliberately commits to one light world — the viewer's OS
@@ -42,16 +59,16 @@
     color-scheme: light;
   }
   body {
-    @apply m-0 bg-paper font-sans text-[16px] leading-relaxed text-body antialiased;
+    @apply m-0 bg-canvas font-sans text-[15px] leading-relaxed text-body antialiased;
   }
   #root {
-    @apply mx-auto flex min-h-svh w-full flex-col bg-paper text-left;
+    @apply mx-auto flex min-h-svh w-full flex-col text-left;
   }
   h1 {
-    @apply m-0 text-3xl font-bold tracking-tight text-ink text-balance;
+    @apply m-0 text-[30px] leading-tight font-extrabold tracking-tight text-ink text-balance;
   }
   h2 {
-    @apply m-0 text-xl font-semibold tracking-tight text-ink text-balance;
+    @apply m-0 text-[17px] font-bold tracking-tight text-ink;
   }
   p {
     @apply m-0;
@@ -59,382 +76,675 @@
 }
 
 @layer components {
-  /* ── buttons ───────────────────────────────────────────── */
+  /* ═══ buttons ═══════════════════════════════════════════════ */
   .btn {
-    @apply cursor-pointer rounded-lg border-[1.5px] border-transparent px-4.5 py-2.5 text-[15px]
-           font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-transparent
+           px-4 py-2.5 text-[14px] font-semibold whitespace-nowrap transition-all
+           disabled:cursor-not-allowed disabled:opacity-45
            focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand;
   }
   .btn-primary {
-    @apply bg-brand text-white shadow-card hover:not-disabled:bg-brand-ink;
+    @apply bg-brand text-white shadow-card hover:not-disabled:bg-brand-ink hover:not-disabled:shadow-raise;
   }
   .btn-outline {
-    @apply border-line-strong bg-paper text-ink hover:not-disabled:border-brand hover:not-disabled:text-brand-ink;
+    @apply border-line-strong bg-paper text-ink shadow-card
+           hover:not-disabled:border-brand hover:not-disabled:text-brand-ink;
+  }
+  .btn-ghost {
+    @apply text-body hover:not-disabled:bg-panel-2 hover:not-disabled:text-ink;
   }
   .btn-sm {
-    @apply px-3 py-1.75 text-[13px];
+    @apply px-3 py-1.5 text-[13px];
+  }
+  /* The two actions on a question, styled after the source pages. */
+  .btn-solve {
+    @apply bg-sheet text-white shadow-card hover:not-disabled:bg-sheet-ink hover:not-disabled:shadow-raise;
+  }
+  .btn-slate {
+    @apply border-line-strong bg-panel text-ink hover:not-disabled:bg-panel-2;
   }
 
-  /* ── start screen ──────────────────────────────────────── */
-  .start-screen {
-    @apply mx-auto w-full max-w-170 px-6 py-14;
+  /* ═══ small chips ═══════════════════════════════════════════ */
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-panel px-2.5 py-1
+           text-[12px] font-semibold text-body whitespace-nowrap tabular-nums;
   }
-  .start-brand {
-    @apply mb-4.5 inline-flex items-center gap-2 rounded-full border border-brand-line
-           bg-brand-soft px-3 py-1.25 font-mono text-xs font-bold tracking-[1.5px]
-           text-brand-ink uppercase;
+  .chip-brand {
+    @apply border-brand-line bg-brand-soft text-brand-ink;
   }
-  .subtitle {
-    @apply mb-7 max-w-[60ch] leading-relaxed text-body;
+  .chip-ok {
+    @apply border-ok-line bg-ok-soft text-ok;
   }
-  .start-card {
-    @apply rounded-2xl border border-line bg-panel p-7;
+  .chip-err {
+    @apply border-err-line bg-err-soft text-err;
   }
-  .start-options {
-    @apply mb-6 grid grid-cols-[repeat(auto-fit,minmax(120px,1fr))] gap-3;
-  }
-  .bank-switch {
-    @apply mb-7 grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-3;
-  }
-  .bank-option {
-    @apply flex cursor-pointer flex-col items-start gap-0.5 rounded-xl border border-line-strong
-           bg-paper px-4 py-3 text-left transition-colors
-           hover:border-brand hover:text-brand-ink;
-  }
-  .bank-option.is-active {
-    @apply border-brand bg-brand-soft text-brand-ink;
-  }
-  .bank-option-label {
-    @apply text-sm font-bold;
-  }
-  .bank-option-note {
-    @apply font-mono text-xs text-body;
-  }
-  .bank-option.is-active .bank-option-note {
-    @apply text-brand-ink;
-  }
-  .bank-badge {
-    @apply rounded-md border border-brand-line bg-brand-soft px-2 py-0.5
-           font-mono text-[11px] font-bold tracking-wide text-brand-ink;
+  .chip-urgent {
+    @apply border-err-line bg-err-soft font-bold text-err;
   }
 
-  /* ── drag-drop exam mode button ────────────────────────── */
-  .mode-btn {
-    @apply mt-3 flex w-full cursor-pointer items-center gap-3.5 rounded-xl border-[1.5px]
-           border-dashed border-line-strong bg-paper px-4 py-3.5 text-left
-           transition-colors hover:border-brand hover:bg-brand-soft/40;
-  }
-  .mode-btn.is-active {
-    @apply border-solid border-brand bg-brand-soft;
-  }
-  .mode-btn-icon {
-    @apply grid size-10 shrink-0 place-items-center rounded-lg border border-line
-           bg-panel text-xl leading-none;
-  }
-  .mode-btn.is-active .mode-btn-icon {
-    @apply border-brand-line bg-paper;
-  }
-  .mode-btn-text {
-    @apply flex min-w-0 flex-col gap-0.5;
-  }
-  .mode-btn-label {
-    @apply text-[15px] font-bold text-ink;
-  }
-  .mode-btn.is-active .mode-btn-label {
-    @apply text-brand-ink;
-  }
-  .mode-btn-note {
-    @apply text-[13px] leading-snug text-body;
-  }
-  .mode-btn-check {
-    @apply ml-auto shrink-0 font-bold text-brand;
-  }
-  .start-tips {
-    @apply m-0 list-disc pl-5 text-sm leading-8 text-body marker:text-brand;
-  }
-
-  /* ── shell / sticky exam toolbar ───────────────────────── */
+  /* ═══ app shell ═════════════════════════════════════════════ */
   .app-shell {
-    @apply flex min-h-svh w-full flex-col;
+    @apply flex min-h-svh w-full flex-col bg-canvas;
   }
-  .app-header {
-    @apply sticky top-0 z-10 border-b border-line bg-paper/90 backdrop-blur-md backdrop-saturate-150;
+  .topbar {
+    @apply sticky top-0 z-30 border-b border-line bg-paper/85 backdrop-blur-md backdrop-saturate-150;
   }
-  .app-header-bar {
-    @apply mx-auto flex max-w-280 flex-wrap items-center justify-between gap-3 px-8 py-3.5;
+  .topbar-inner {
+    @apply mx-auto flex h-14 w-full max-w-[1500px] items-center gap-4 px-5;
   }
-  .app-header-left {
-    @apply flex items-baseline gap-3 text-ink;
+  .topbar-brand {
+    @apply flex shrink-0 items-center gap-2.5;
   }
-  .app-header-right {
-    @apply flex items-center gap-3.5 text-[13px];
+  .topbar-mark {
+    @apply grid size-8 place-items-center rounded-lg bg-brand text-[13px] font-extrabold text-white;
   }
-  .app-title {
-    @apply text-[15px] font-bold tracking-wide text-ink;
+  .topbar-title {
+    @apply text-[14px] leading-tight font-bold tracking-tight text-ink;
   }
-  .dot-cisco {
-    @apply text-brand;
+  .topbar-sub {
+    @apply block text-[11px] font-medium tracking-wide text-muted uppercase;
   }
-  .score-text strong {
-    @apply text-ok;
+  /* The centre column collapses first when the bar gets tight. */
+  .topbar-mid {
+    @apply hidden min-w-0 flex-1 items-center gap-3 md:flex;
   }
-  .progress-text {
-    @apply text-[13px] text-body tabular-nums;
+  .topbar-right {
+    @apply ml-auto flex shrink-0 items-center gap-2;
   }
-  .timer,
-  .score-text {
-    @apply inline-flex items-center gap-1.5 text-[13px] text-body tabular-nums;
+  .meter {
+    @apply h-1.5 w-full max-w-56 overflow-hidden rounded-full bg-panel-2;
   }
-  .progress-track {
-    @apply h-0.75 bg-panel-2;
-  }
-  .progress-fill {
-    @apply h-full bg-brand transition-[width] duration-300 ease-out;
-  }
-  .app-main {
-    @apply mx-auto w-full max-w-280 flex-1 px-8 pt-8 pb-18;
+  .meter-fill {
+    @apply h-full rounded-full bg-brand transition-[width] duration-300 ease-out;
   }
 
-  /* ── question card ─────────────────────────────────────── */
-  .question-card {
-    @apply mb-5 rounded-2xl border border-line bg-paper p-6 shadow-card;
+  /* ═══ quiz layout: question column + sticky sidebar ═════════ */
+  .quiz-layout {
+    @apply mx-auto grid w-full max-w-[1500px] flex-1 grid-cols-1 items-start gap-5 px-5 py-5
+           lg:grid-cols-[minmax(0,1fr)_320px];
   }
+  .quiz-main {
+    @apply flex min-w-0 flex-col gap-5;
+  }
+  /* The sidebar is pinned, but a 2085-question navigator is taller than the
+     viewport — without its own scroll the bottom of it becomes unreachable,
+     because a stuck element does not scroll with the page. */
+  .quiz-aside {
+    @apply flex flex-col gap-4
+           lg:sticky lg:top-[4.75rem] lg:max-h-[calc(100svh-5.75rem)] lg:overflow-y-auto lg:pr-1;
+  }
+
+  /* ═══ question card ═════════════════════════════════════════ */
+  .qcard {
+    @apply overflow-hidden rounded-xl border border-line bg-paper shadow-card;
+  }
+  .qcard-head {
+    @apply flex flex-wrap items-center gap-x-3 gap-y-1 px-5 py-3 text-white;
+    background: var(--color-sheet);
+  }
+  .qcard-no {
+    @apply text-[15px] font-bold tracking-tight;
+  }
+  .qcard-origin {
+    @apply rounded bg-white/20 px-1.5 py-0.5 font-mono text-[11px] font-bold tracking-wide;
+  }
+  .qcard-kind {
+    @apply text-[12px] font-medium text-white/85;
+  }
+  .qcard-topic {
+    @apply ml-auto text-[13px] font-medium text-white/95 italic;
+  }
+  .qcard-body {
+    @apply px-6 py-6;
+  }
+  /* Prev/next live in their own tinted strip so they never read as an answer. */
+  .qcard-foot {
+    @apply flex items-center justify-between gap-3 border-t border-line bg-panel px-5 py-3;
+  }
+
+  /* ── exhibit ────────────────────────────────────────────────
+     Never upscale. The screenshots in this bank are ~680×390 native;
+     stretching them to the card width blew them up 50% into a blurry
+     wall of pixels, which is what the redesign started from. They are
+     shown at natural size, capped by height, and the zoom overlay is
+     what handles the ones that are genuinely too small to read. */
   .exhibit {
-    @apply mb-4.5 overflow-hidden rounded-xl border border-line bg-white;
+    @apply relative mb-5 flex flex-col items-center gap-3 rounded-lg border border-line-strong
+           bg-panel p-3;
   }
   .exhibit img {
-    @apply block h-auto w-full;
+    @apply block h-auto max-h-[58vh] w-auto max-w-full rounded bg-white object-contain;
   }
-  /* Two-part exhibits stack; a rule keeps the seam between them readable. */
-  .exhibit img + img {
-    @apply border-t border-line;
+  .exhibit-zoom {
+    @apply absolute top-2 right-2 cursor-pointer rounded-md border border-line-strong bg-paper/90
+           px-2.5 py-1 text-[12px] font-semibold text-ink opacity-0 shadow-card backdrop-blur-sm
+           transition-opacity hover:bg-paper focus-visible:opacity-100;
   }
-  .q-head {
-    @apply mb-3 flex items-center gap-2.5;
+  .exhibit:hover .exhibit-zoom {
+    @apply opacity-100;
   }
-  .qnum-badge {
-    @apply inline-flex shrink-0 rounded-md bg-brand px-2.5 py-0.75 font-mono text-xs
-           font-bold tracking-wide text-white;
-  }
-  .qkind-badge {
-    @apply rounded-full border border-line-strong px-2 py-0.5 text-[11px] font-bold
-           tracking-wider text-body uppercase;
-  }
-  .prompt {
-    @apply mb-1.5 text-[17px] leading-relaxed font-semibold whitespace-pre-line text-ink;
-  }
-  .hint {
-    @apply mb-3.5 text-[13px] font-semibold text-brand-ink;
+  @media (pointer: coarse) {
+    .exhibit-zoom {
+      @apply opacity-100;
+    }
   }
 
-  /* ── options (A/B/C/D) ─────────────────────────────────── */
-  .options {
-    @apply my-4 flex flex-col gap-2.5;
+  /* ── lightbox: the exhibit at 1:1, pan by scrolling ───────── */
+  .lightbox {
+    @apply fixed inset-0 z-50 flex flex-col gap-3 p-4;
+    background: rgb(15 35 51 / 0.72);
+    backdrop-filter: blur(3px);
+  }
+  .lightbox-bar {
+    @apply flex shrink-0 items-center justify-between gap-3 text-[13px] font-semibold text-white;
+  }
+  .lightbox-scroll {
+    @apply flex-1 overflow-auto rounded-xl bg-white p-4 shadow-pop;
+  }
+  .lightbox-scroll img {
+    @apply mx-auto block h-auto max-w-none;
+  }
+  .lightbox-scroll img + img {
+    @apply mt-4 border-t border-line pt-4;
+  }
+
+  /* ── stem ───────────────────────────────────────────────── */
+  .prompt {
+    @apply text-[16px] leading-7 font-medium whitespace-pre-line text-ink;
+  }
+  .subhint {
+    @apply mt-2 text-[13px] leading-snug text-muted;
+  }
+
+  /* ── options ────────────────────────────────────────────────
+     Kept as the plain indented `A. / B. / C.` list of a printed exam
+     page, but each line is a full-width hit target with its own
+     surface — a 500-question session is a lot of clicking, and text
+     you have to aim at is the wrong shape for that. */
+  .opts {
+    @apply mt-5 flex flex-col gap-1;
   }
   .opt {
-    @apply flex cursor-pointer items-start gap-3 rounded-xl border-[1.5px] border-line bg-paper
-           px-3.5 py-3 transition-colors hover:border-brand-line hover:bg-panel
-           has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2
+    @apply flex cursor-pointer items-start gap-3 rounded-lg border border-transparent py-2.5 pr-3 pl-4
+           transition-colors hover:border-line hover:bg-panel
+           has-[input:focus-visible]:outline-2 has-[input:focus-visible]:-outline-offset-2
            has-[input:focus-visible]:outline-brand;
-  }
-  .opt.selected {
-    @apply border-brand bg-brand-soft;
-  }
-  .opt.correct {
-    @apply border-ok bg-ok-soft;
-  }
-  .opt.incorrect {
-    @apply border-err bg-err-soft;
   }
   .opt input {
     @apply pointer-events-none absolute opacity-0;
   }
-  .opt-key {
-    @apply inline-flex size-6.5 shrink-0 items-center justify-center rounded-full
-           border-[1.5px] border-line-strong bg-panel-2 text-[13px] font-bold text-ink;
+  .opt.is-picked {
+    @apply border-brand-line bg-brand-soft;
   }
-  .opt.selected .opt-key {
+  .opt.is-key {
+    @apply border-ok-line bg-ok-soft;
+  }
+  .opt.is-wrong {
+    @apply border-err-line bg-err-soft;
+  }
+  .opt.is-dim {
+    @apply cursor-default opacity-60 hover:border-transparent hover:bg-transparent;
+  }
+  .opt-key {
+    @apply grid size-6 shrink-0 place-items-center rounded-md border border-line-strong bg-panel
+           text-[12px] font-bold text-body tabular-nums;
+  }
+  .opt.is-picked .opt-key {
     @apply border-brand bg-brand text-white;
   }
-  .opt.correct .opt-key {
+  .opt.is-key .opt-key {
     @apply border-ok bg-ok text-white;
   }
-  .opt.incorrect .opt-key {
+  .opt.is-wrong .opt-key {
     @apply border-err bg-err text-white;
   }
   .opt-text {
-    @apply flex-1 pt-0.75 font-mono text-[13.5px] leading-normal wrap-break-word whitespace-pre-wrap text-ink;
+    @apply flex-1 pt-0.5 text-[14.5px] leading-normal wrap-break-word whitespace-pre-wrap text-ink;
   }
-  .mark {
-    @apply self-center rounded-md px-2 py-0.75 text-[11.5px] font-bold whitespace-nowrap;
+  .opt-flag {
+    @apply ml-2 shrink-0 self-center rounded px-2 py-0.5 text-[11px] font-bold whitespace-nowrap;
   }
-  .mark.ok {
-    @apply bg-ok-soft text-ok;
+  .opt-flag.is-ok {
+    @apply bg-ok text-white;
   }
-  .mark.bad {
-    @apply bg-err-soft text-err;
+  .opt-flag.is-bad {
+    @apply bg-err text-white;
   }
 
-  /* ── feedback / explanation ────────────────────────────── */
-  .feedback {
-    @apply rounded-xl border border-l-[5px] px-5 py-4.5;
+  /* ── the action row ─────────────────────────────────────── */
+  .actions {
+    @apply mt-6 flex flex-wrap items-center gap-2.5;
   }
-  .feedback.good {
-    @apply border-ok bg-ok-soft;
+  .verdict {
+    @apply inline-flex items-center gap-2 rounded-lg px-3.5 py-2 text-[13.5px] font-bold;
   }
-  .feedback.bad {
-    @apply border-err bg-err-soft;
+  .verdict.is-ok {
+    @apply bg-ok-soft text-ok;
   }
-  .feedback-title {
-    @apply mb-3 border-b border-line-strong pb-2.5 text-[15.5px] font-extrabold text-ink;
+  .verdict.is-bad {
+    @apply bg-err-soft text-err;
+  }
+  .action-note {
+    @apply text-[12.5px] text-muted;
+  }
+
+  /* ═══ explanation ═══════════════════════════════════════════
+     Its own card, below the question — an explanation runs to 40+
+     lines here and reads far better as a separate document than as a
+     tail glued onto the answer options. */
+  .exp {
+    @apply overflow-hidden rounded-xl border border-line bg-paper shadow-card;
+  }
+  .exp-head {
+    @apply flex flex-wrap items-center gap-2 border-b border-line px-5 py-3;
+  }
+  .exp.is-ok .exp-head {
+    @apply border-ok-line bg-ok-soft;
+  }
+  .exp.is-bad .exp-head {
+    @apply border-err-line bg-err-soft;
+  }
+  .exp-title {
+    @apply text-[15px] font-extrabold text-ink;
+  }
+  .exp-key {
+    @apply ml-auto rounded-md border border-line-strong bg-paper px-2.5 py-1 font-mono text-[12.5px] font-bold text-ink;
   }
   /* Explanations mix Thai prose with indented calculations and ASCII tables.
      pre-wrap keeps that layout; mono-first keeps the box characters aligned
      while Thai falls back to a proportional face. */
-  .feedback-body {
-    @apply overflow-x-auto font-mono text-[13.5px] leading-[1.9] whitespace-pre-wrap text-ink;
+  .exp-body {
+    @apply overflow-x-auto px-5 py-4 font-mono text-[13px] leading-[1.95] whitespace-pre-wrap text-ink;
   }
-  .option-notes {
-    @apply mt-2.5 list-disc pl-4.5 leading-7;
+  .exp-notes {
+    @apply mx-5 mt-1 mb-4 list-disc rounded-lg border border-line bg-panel px-4 py-3 pl-8 text-[13.5px] leading-7;
   }
 
-  /* ── drag & drop ───────────────────────────────────────── */
-  .drag-pool {
-    @apply my-3.5 flex min-h-13 flex-wrap gap-2.5 rounded-xl border-[1.5px] border-dashed
-           border-line-strong bg-panel p-3.5;
+  /* ═══ drag & drop ═══════════════════════════════════════════ */
+  .dd-board {
+    @apply mt-5 grid grid-cols-2 items-start gap-4;
   }
-  .pool-empty {
-    @apply p-2 text-[13px] text-body italic;
+  .dd-col {
+    @apply min-w-0;
   }
-  .chip {
-    @apply cursor-grab rounded-lg border-[1.5px] border-line-strong bg-paper px-3 py-2.5
-           font-mono text-[13px] shadow-card transition-colors select-none hover:border-brand;
+  .dd-col-head {
+    @apply mb-2.5 border-b border-line pb-1.5 text-[11px] font-bold tracking-widest text-muted uppercase;
   }
-  .chip.picked {
+  .dd-list {
+    @apply flex flex-col gap-2;
+  }
+  .dd-item {
+    @apply cursor-grab rounded-lg border border-line-strong bg-paper px-3.5 py-2.5 text-[13.5px]
+           leading-snug text-ink shadow-card transition-all select-none
+           hover:-translate-y-px hover:border-brand hover:shadow-raise;
+  }
+  .dd-item.is-picked {
+    @apply border-brand bg-brand-soft shadow-raise;
+  }
+  /* A placed item keeps its seat as a spent outline so the left column never
+     re-flows under the cursor mid-question. */
+  .dd-item.is-used {
+    @apply cursor-pointer border-dashed border-line-strong bg-panel text-muted shadow-none
+           hover:translate-y-0 hover:border-line-strong hover:shadow-none;
+  }
+  .dd-item.is-used .dd-item-text {
+    @apply line-through;
+  }
+  .dd-target {
+    @apply rounded-lg border border-line bg-panel p-3 transition-colors;
+  }
+  .dd-target.is-armed {
+    @apply cursor-pointer border-dashed border-brand-line bg-brand-soft/40;
+  }
+  .dd-target.is-over {
     @apply border-brand bg-brand-soft;
   }
-  .chip.placed {
-    @apply cursor-pointer shadow-none;
+  .dd-target.is-ok {
+    @apply border-ok-line bg-ok-soft;
   }
-  .chip.chip-ok {
-    @apply border-ok bg-ok-soft;
+  .dd-target.is-bad {
+    @apply border-err-line bg-err-soft;
   }
-  .chip.chip-bad {
-    @apply border-err bg-err-soft;
+  .dd-target-label {
+    @apply mb-2 text-[13.5px] font-bold text-ink;
   }
-  .drag-categories {
-    @apply mb-4.5 grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-3.5;
+  .dd-slots {
+    @apply flex flex-col gap-1.5;
   }
-  .drag-category {
-    @apply min-h-24 rounded-xl border-[1.5px] border-line bg-panel p-3.5 transition-colors hover:border-brand-line;
+  .dd-chip {
+    @apply cursor-pointer rounded-md border border-brand-line bg-paper px-2.5 py-2 text-[13px] leading-snug text-ink;
   }
-  .drag-category.cat-ok {
-    @apply border-ok;
+  .dd-chip.is-ok {
+    @apply border-ok-line bg-ok-soft;
   }
-  .drag-category.cat-bad {
-    @apply border-err;
+  .dd-chip.is-bad {
+    @apply border-err-line bg-err-soft;
   }
-  .drag-category-title {
-    @apply mb-2.5 text-sm font-bold text-ink;
+  .dd-slot-empty {
+    @apply h-9 rounded-md border border-dashed border-line-strong bg-paper/70;
   }
-  .drag-category-slots {
-    @apply flex min-h-9.5 flex-wrap gap-2;
-  }
-  .correct-answer-note {
+  .dd-answer {
     @apply mt-2.5 border-t border-dashed border-line-strong pt-2 text-[12.5px] text-body;
   }
 
-  /* ── navigation + navigator grid ───────────────────────── */
-  /* Lives inside .question-card, directly above the explanation — the divider
-     is what keeps it from reading as part of the answer options. */
-  .nav-buttons {
-    @apply mt-6 flex justify-between gap-3 border-t border-dashed border-line pt-5;
+  /* ═══ sidebar ═══════════════════════════════════════════════ */
+  .side-card {
+    @apply rounded-xl border border-line bg-paper p-4 shadow-card;
   }
-  .nav-buttons:not(:last-child) {
-    @apply mb-6;
+  .side-title {
+    @apply mb-3 text-[11px] font-bold tracking-widest text-muted uppercase;
   }
-  .navigator {
-    @apply border-t border-line pt-5;
+  .stat-grid {
+    @apply grid grid-cols-2 gap-2;
   }
-  .navigator-legend {
-    @apply mb-3.5 flex flex-wrap gap-3.5 text-[12.5px] text-body;
+  .stat {
+    @apply rounded-lg border border-line bg-panel px-3 py-2;
   }
-  .navigator-legend span {
+  .stat-num {
+    @apply block text-[19px] leading-tight font-extrabold text-ink tabular-nums;
+  }
+  .stat.is-ok .stat-num {
+    @apply text-ok;
+  }
+  .stat.is-bad .stat-num {
+    @apply text-err;
+  }
+  .stat-label {
+    @apply block text-[11.5px] font-medium text-muted;
+  }
+  .side-progress {
+    @apply mt-3 flex items-center gap-2.5 text-[12px] font-semibold text-body tabular-nums;
+  }
+
+  /* ── navigator ──────────────────────────────────────────── */
+  .nav-pages {
+    @apply mb-3 flex flex-wrap gap-1.5;
+  }
+  .nav-page {
+    @apply cursor-pointer rounded-md border border-line bg-panel px-2 py-1 font-mono text-[11px]
+           font-semibold text-body transition-colors hover:border-brand hover:text-brand-ink;
+  }
+  .nav-page.is-active {
+    @apply border-brand bg-brand text-white;
+  }
+  /* 21 blocks of chips is a wall; past a handful the picker becomes one row. */
+  .nav-jump {
+    @apply mb-3 flex items-center gap-1.5;
+  }
+  .nav-jump select {
+    @apply min-w-0 flex-1 cursor-pointer rounded-md border border-line bg-panel px-2 py-1.5
+           font-mono text-[12px] font-semibold text-ink;
+  }
+  .nav-step {
+    @apply grid size-7 shrink-0 cursor-pointer place-items-center rounded-md border border-line
+           bg-panel text-[13px] font-bold text-body transition-colors
+           hover:border-brand hover:text-brand-ink disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .nav-grid {
+    @apply grid grid-cols-[repeat(auto-fill,minmax(34px,1fr))] gap-1.5;
+  }
+  .nav-btn {
+    @apply cursor-pointer rounded-md border border-line bg-paper py-1.5 font-mono text-[11.5px]
+           font-semibold text-body transition-colors hover:border-brand hover:text-brand-ink;
+  }
+  .nav-btn.is-answered {
+    @apply border-warn-line bg-warn-soft text-warn;
+  }
+  .nav-btn.is-correct {
+    @apply border-ok-line bg-ok-soft text-ok;
+  }
+  .nav-btn.is-incorrect {
+    @apply border-err-line bg-err-soft text-err;
+  }
+  .nav-btn.is-current {
+    @apply border-brand bg-brand font-bold text-white outline-2 outline-offset-1 outline-brand-line;
+  }
+  .legend {
+    @apply mt-3 flex flex-wrap gap-x-3 gap-y-1.5 text-[11.5px] text-muted;
+  }
+  .legend span {
     @apply inline-flex items-center gap-1.5;
   }
   .dot {
-    @apply inline-block size-2.5 rounded-full border-[1.5px] border-line-strong;
+    @apply inline-block size-2.5 rounded-sm border;
   }
   .dot-current {
     @apply border-brand bg-brand;
   }
   .dot-answered {
-    @apply border-warn bg-warn;
+    @apply border-warn-line bg-warn-soft;
   }
   .dot-correct {
-    @apply border-ok bg-ok;
+    @apply border-ok-line bg-ok-soft;
   }
   .dot-incorrect {
-    @apply border-err bg-err;
+    @apply border-err-line bg-err-soft;
   }
   .dot-empty {
-    @apply bg-paper;
-  }
-  .navigator-grid {
-    @apply grid grid-cols-[repeat(auto-fill,minmax(40px,1fr))] gap-2;
-  }
-  .nav-btn {
-    @apply cursor-pointer rounded-lg border-[1.5px] border-line-strong bg-paper py-2
-           font-mono text-[13px] font-semibold text-ink transition-colors hover:border-brand;
-  }
-  .nav-btn.answered {
-    @apply border-warn bg-warn-soft;
-  }
-  .nav-btn.correct {
-    @apply border-ok bg-ok-soft;
-  }
-  .nav-btn.incorrect {
-    @apply border-err bg-err-soft;
-  }
-  .nav-btn.current {
-    @apply outline-2 outline-offset-1 outline-brand;
+    @apply border-line-strong bg-paper;
   }
 
-  /* ── summary ───────────────────────────────────────────── */
-  .summary-screen {
-    @apply mx-auto w-full max-w-190 px-6 pt-11 pb-16;
+  /* ── keyboard hints ─────────────────────────────────────── */
+  .keys {
+    @apply flex flex-col gap-1.5 text-[12px] text-body;
   }
-  .summary-screen h1 {
-    @apply mb-6 text-center;
+  .keys div {
+    @apply flex items-center justify-between gap-2;
   }
-  .start-screen h1 {
-    @apply mb-3;
+  .kbd {
+    @apply rounded border border-line-strong border-b-2 bg-panel px-1.5 py-0.5 font-mono
+           text-[11px] font-bold text-ink;
   }
-  .score-panel {
-    @apply mb-7 rounded-2xl border border-line bg-panel px-6 py-8 text-center;
+
+  /* ═══ start screen ══════════════════════════════════════════ */
+  .start {
+    @apply mx-auto w-full max-w-[880px] px-5 py-12;
   }
-  .score-ring {
-    @apply mx-auto mb-2 grid size-32 place-items-center rounded-full;
+  .hero-badge {
+    @apply mb-4 inline-flex items-center gap-2 rounded-full border border-brand-line bg-brand-soft
+           px-3 py-1 font-mono text-[11px] font-bold tracking-[1.5px] text-brand-ink uppercase;
+  }
+  .hero-sub {
+    @apply mt-3 mb-8 max-w-[62ch] text-[15px] leading-relaxed text-body;
+  }
+  .cta {
+    @apply mb-8;
+  }
+  .cta-btn {
+    @apply flex w-full cursor-pointer items-center gap-4 rounded-2xl px-6 py-5 text-left text-white
+           transition-all;
+    background: linear-gradient(135deg, var(--color-sheet) 0%, var(--color-brand-ink) 100%);
+    box-shadow: var(--shadow-raise);
+  }
+  .cta-btn:hover {
+    @apply -translate-y-0.5;
+    box-shadow: var(--shadow-pop);
+  }
+  .cta-icon {
+    @apply grid size-12 shrink-0 place-items-center rounded-xl bg-white/15 text-2xl;
+  }
+  .cta-text {
+    @apply flex min-w-0 flex-1 flex-col gap-1;
+  }
+  .cta-title {
+    @apply text-[19px] font-extrabold tracking-tight;
+  }
+  .cta-note {
+    @apply text-[13.5px] leading-relaxed text-white/85;
+  }
+  .cta-go {
+    @apply shrink-0 text-2xl;
+  }
+  .weights {
+    @apply mt-3 flex flex-wrap justify-center gap-1.5;
+  }
+  .weight-chip {
+    @apply rounded-full border border-line bg-paper px-3 py-1 text-[12px] text-body;
+  }
+  .weight-chip strong {
+    @apply text-brand-ink;
+  }
+  .weight-chip em {
+    @apply font-bold text-ink not-italic;
+  }
+
+  .panel {
+    @apply mb-4 rounded-xl border border-line bg-paper p-5 shadow-card;
+  }
+  .panel-head {
+    @apply mb-1 flex items-baseline gap-2;
+  }
+  .panel-note {
+    @apply mb-4 max-w-[70ch] text-[13px] leading-relaxed text-muted;
+  }
+  .choice-grid {
+    @apply grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-2.5;
+  }
+  .choice {
+    @apply flex cursor-pointer flex-col items-start gap-0.5 rounded-lg border border-line bg-panel
+           px-3.5 py-3 text-left transition-all hover:-translate-y-px hover:border-brand hover:shadow-card;
+  }
+  .choice.is-active {
+    @apply border-brand bg-brand-soft shadow-card;
+  }
+  .choice-label {
+    @apply text-[14px] font-bold text-ink;
+  }
+  .choice.is-active .choice-label {
+    @apply text-brand-ink;
+  }
+  .choice-range {
+    @apply font-mono text-[12.5px] font-semibold text-body;
+  }
+  .choice-count {
+    @apply font-mono text-[11.5px] text-muted;
+  }
+  .mode-btn {
+    @apply flex w-full cursor-pointer items-center gap-3.5 rounded-lg border border-dashed border-line-strong
+           bg-panel px-4 py-3.5 text-left transition-colors hover:border-brand hover:bg-brand-soft/50;
+  }
+  .mode-btn.is-active {
+    @apply border-solid border-brand bg-brand-soft;
+  }
+  .mode-icon {
+    @apply grid size-10 shrink-0 place-items-center rounded-lg border border-line bg-paper text-xl;
+  }
+  .mode-text {
+    @apply flex min-w-0 flex-col gap-0.5;
+  }
+  .mode-label {
+    @apply text-[14.5px] font-bold text-ink;
+  }
+  .mode-note {
+    @apply text-[13px] leading-snug text-body;
+  }
+  .mode-check {
+    @apply ml-auto shrink-0 font-bold text-brand;
+  }
+  .switch-row {
+    @apply flex cursor-pointer items-start gap-3 rounded-lg border border-line bg-panel px-4 py-3.5
+           transition-colors hover:border-brand has-[input:focus-visible]:outline-2
+           has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-brand;
+  }
+  .switch-row input {
+    @apply mt-0.5 size-4.5 shrink-0 cursor-pointer accent-[var(--color-brand)];
+  }
+  .switch-label {
+    @apply block text-[14.5px] font-bold text-ink;
+  }
+  .switch-note {
+    @apply block text-[13px] leading-snug text-body;
+  }
+  .count-grid {
+    @apply grid grid-cols-[repeat(auto-fit,minmax(104px,1fr))] gap-2.5;
+  }
+  .tips {
+    @apply m-0 mt-4 list-disc pl-5 text-[13px] leading-7 text-body marker:text-brand-line;
+  }
+
+  /* ═══ summary ═══════════════════════════════════════════════ */
+  .sum {
+    @apply mx-auto w-full max-w-[980px] px-5 py-12;
+  }
+  .sum-hero {
+    @apply mb-6 rounded-2xl border border-line bg-paper px-6 py-8 text-center shadow-card;
+  }
+  .ring {
+    @apply mx-auto mb-3 grid size-32 place-items-center rounded-full;
     background: conic-gradient(var(--color-brand) calc(var(--pct) * 1%), var(--color-panel-2) 0);
   }
-  .score-ring-inner {
+  .ring-inner {
     @apply grid size-25 place-items-center rounded-full bg-paper text-[26px] font-extrabold text-ink tabular-nums;
   }
-  .score-big {
-    @apply text-3xl font-extrabold text-ink tabular-nums;
+  .sum-verdict {
+    @apply mb-2 inline-block rounded-full px-4 py-1.5 text-[15px] font-bold;
   }
-  .score-sub {
-    @apply my-2.5 mb-5 text-[14.5px] text-body;
+  .sum-verdict.is-pass {
+    @apply bg-ok-soft text-ok;
   }
-  .review-heading {
-    @apply mb-1 text-sm font-bold tracking-wide text-ink uppercase;
+  .sum-verdict.is-fail {
+    @apply bg-err-soft text-err;
+  }
+  .sum-big {
+    @apply text-[28px] font-extrabold text-ink tabular-nums;
+  }
+  .sum-sub {
+    @apply mx-auto mt-1 mb-5 max-w-[60ch] text-[14px] text-body;
+  }
+  .sum-note {
+    @apply mx-auto mt-1 mb-4 max-w-[60ch] text-[12px] leading-relaxed text-muted;
+  }
+  .section-title {
+    @apply mt-6 mb-2.5 text-[12px] font-bold tracking-widest text-muted uppercase;
+  }
+  .domain-table {
+    @apply flex flex-col gap-2;
+  }
+  .domain-row {
+    @apply flex items-center gap-3 rounded-lg border border-line bg-paper px-4 py-3 shadow-card;
+  }
+  .domain-name {
+    @apply flex w-60 shrink-0 items-center gap-2 text-[13.5px] font-semibold text-ink;
+  }
+  .domain-name small {
+    @apply block text-[12px] font-normal text-muted;
+  }
+  .domain-code {
+    @apply shrink-0 rounded bg-brand-soft px-1.5 py-0.5 text-[11.5px] font-bold text-brand-ink;
+  }
+  .domain-bar-wrap {
+    @apply min-w-0 flex-1;
+  }
+  .domain-bar {
+    @apply h-2.5 w-full overflow-hidden rounded-full bg-panel-2;
+  }
+  .domain-bar-fill {
+    @apply h-full rounded-full transition-[width] duration-500;
+  }
+  .domain-bar-fill.ok {
+    @apply bg-ok;
+  }
+  .domain-bar-fill.mid {
+    @apply bg-warn;
+  }
+  .domain-bar-fill.low {
+    @apply bg-err;
+  }
+  .domain-score {
+    @apply w-18 shrink-0 text-right text-[13.5px] font-bold text-ink tabular-nums;
+  }
+  .domain-score small {
+    @apply block text-[12px] font-normal text-muted;
+  }
+  .advice {
+    @apply mt-4 rounded-lg border border-warn-line bg-warn-soft px-4 py-3 text-[13.5px] text-ink;
   }
   .review-list {
-    @apply flex flex-col gap-2.5;
+    @apply flex flex-col gap-2;
   }
   .review-item {
-    @apply cursor-pointer rounded-xl border border-line bg-paper px-4 py-3 transition
-           hover:border-brand-line hover:shadow-card;
+    @apply cursor-pointer rounded-lg border border-line bg-paper px-4 py-3 shadow-card transition-all
+           hover:-translate-y-px hover:border-brand-line hover:shadow-raise;
   }
   .review-ok {
     @apply border-l-4 border-l-ok;
@@ -446,26 +756,56 @@
     @apply border-l-4 border-l-line-strong;
   }
   .review-badge {
-    @apply mb-1 flex items-center gap-2 text-sm font-bold text-ink;
+    @apply mb-1 flex flex-wrap items-center gap-2 text-[13.5px] font-bold text-ink;
+  }
+  .review-domain {
+    @apply rounded bg-brand-soft px-1.5 py-0.5 text-[11.5px] font-bold text-brand-ink;
   }
   .review-origid {
-    @apply font-mono text-xs font-normal text-body;
+    @apply font-mono text-[11.5px] font-normal text-muted;
   }
   .review-prompt {
     @apply line-clamp-2 text-[13px] whitespace-pre-line text-body;
   }
 }
 
-/* Tighter gutters on small screens */
+/* ── narrow screens ──────────────────────────────────────── */
+@media (max-width: 1023px) {
+  /* Two facing columns of drag targets do not survive a tablet — stack the
+     answers above the boxes they drop into. */
+  .dd-board {
+    @apply grid-cols-1 gap-5;
+  }
+}
+
 @media (max-width: 640px) {
-  .app-header-bar {
-    @apply px-4 py-2.5;
+  .topbar-inner {
+    @apply h-13 gap-2 px-3;
   }
-  .app-main {
-    @apply px-4 pt-5 pb-14;
+  .quiz-layout {
+    @apply gap-4 px-3 py-4;
   }
-  .question-card {
+  .qcard-body {
     @apply px-4 py-5;
+  }
+  .qcard-head {
+    @apply px-4;
+  }
+  .exp-body {
+    @apply px-4 text-[12.5px];
+  }
+  .opt {
+    @apply pl-2.5;
+  }
+  .start,
+  .sum {
+    @apply px-4 py-8;
+  }
+  .domain-name {
+    @apply w-32;
+  }
+  .domain-name small {
+    @apply hidden;
   }
 }
 
@@ -475,153 +815,5 @@
   *::after {
     transition: none !important;
     animation: none !important;
-  }
-}
-
-/* ─────────────────────────────────────────────────────────────
-   Mock-exam mode — the "Start EXAM CCNA" call to action, the
-   countdown urgency state, and the per-domain result breakdown.
-   ───────────────────────────────────────────────────────────── */
-.exam-cta {
-  @apply w-full max-w-3xl mb-6;
-}
-.exam-cta-btn {
-  @apply w-full flex items-center gap-4 text-left rounded-2xl px-6 py-5 cursor-pointer;
-  background: linear-gradient(135deg, var(--color-brand) 0%, var(--color-brand-ink) 100%);
-  border: 1px solid var(--color-brand-ink);
-  box-shadow: var(--shadow-pop);
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
-}
-.exam-cta-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 28px -10px rgb(10 111 181 / 0.5);
-}
-.exam-cta-btn:active {
-  transform: translateY(0);
-}
-.exam-cta-icon {
-  @apply text-3xl shrink-0;
-}
-.exam-cta-text {
-  @apply flex flex-col gap-1 min-w-0 flex-1;
-}
-.exam-cta-title {
-  @apply text-xl font-bold tracking-tight text-white;
-}
-.exam-cta-note {
-  @apply text-sm leading-relaxed;
-  color: rgb(255 255 255 / 0.86);
-}
-.exam-cta-go {
-  @apply text-2xl shrink-0 text-white;
-}
-.exam-cta-weights {
-  @apply flex flex-wrap gap-2 mt-3 justify-center;
-}
-.exam-weight-chip {
-  @apply text-xs rounded-full px-3 py-1 border;
-  background: var(--color-panel);
-  border-color: var(--color-line);
-  color: var(--color-body);
-}
-.exam-weight-chip strong {
-  color: var(--color-brand-ink);
-}
-.exam-weight-chip em {
-  @apply not-italic font-semibold;
-  color: var(--color-ink);
-}
-
-.timer.is-urgent {
-  color: var(--color-err);
-  font-weight: 700;
-}
-
-.exam-verdict {
-  @apply text-base font-bold rounded-full px-4 py-1.5 mb-1;
-}
-.exam-verdict.is-pass {
-  background: var(--color-ok-soft);
-  color: var(--color-ok);
-}
-.exam-verdict.is-fail {
-  background: var(--color-err-soft);
-  color: var(--color-err);
-}
-.exam-passnote {
-  @apply text-xs leading-relaxed max-w-md text-center mt-1 mb-3;
-  color: var(--color-body);
-}
-
-.domain-table {
-  @apply w-full max-w-3xl flex flex-col gap-2 mb-8;
-}
-.domain-row {
-  @apply flex items-center gap-3 rounded-xl border px-4 py-3;
-  background: var(--color-paper);
-  border-color: var(--color-line);
-}
-.domain-name {
-  @apply flex items-center gap-2 text-sm font-medium shrink-0;
-  color: var(--color-ink);
-  width: 15rem;
-}
-.domain-name small {
-  @apply block text-xs font-normal;
-  color: var(--color-body);
-}
-.domain-code {
-  @apply text-xs font-bold rounded px-1.5 py-0.5 shrink-0;
-  background: var(--color-brand-soft);
-  color: var(--color-brand-ink);
-}
-.domain-bar-wrap {
-  @apply flex-1 min-w-0;
-}
-.domain-bar {
-  @apply h-2.5 w-full rounded-full overflow-hidden;
-  background: var(--color-panel-2);
-}
-.domain-bar-fill {
-  @apply h-full rounded-full;
-  transition: width 0.4s ease;
-}
-.domain-bar-fill.ok {
-  background: var(--color-ok);
-}
-.domain-bar-fill.mid {
-  background: var(--color-warn);
-}
-.domain-bar-fill.low {
-  background: var(--color-err);
-}
-.domain-score {
-  @apply text-sm font-bold text-right shrink-0;
-  color: var(--color-ink);
-  width: 4.5rem;
-}
-.domain-score small {
-  @apply block text-xs font-normal;
-  color: var(--color-body);
-}
-
-.exam-advice {
-  @apply w-full max-w-3xl text-sm rounded-xl border px-4 py-3 mb-8;
-  background: var(--color-warn-soft);
-  border-color: var(--color-warn);
-  color: var(--color-ink);
-}
-.review-domain {
-  @apply text-xs font-bold rounded px-1.5 py-0.5;
-  background: var(--color-brand-soft);
-  color: var(--color-brand-ink);
-}
-
-@media (max-width: 640px) {
-  .domain-name {
-    width: 9rem;
-  }
-  .domain-name small {
-    @apply hidden;
   }
 }

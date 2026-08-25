@@ -42,25 +42,25 @@ function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview
   const weakest = perDomain.filter((r) => r.count > 0).sort((a, b) => a.pct - b.pct)
 
   return (
-    <div className="summary-screen exam-summary">
-      <span className="start-brand">● CCNA 200-301 · Mock Exam Result</span>
+    <div className="sum">
+      <span className="hero-badge">● CCNA 200-301 · Mock Exam Result</span>
       <h1>ผลสอบจำลอง CCNA</h1>
 
-      <div className="score-panel">
-        <div className="score-ring" style={{ '--pct': percent } as CSSProperties}>
-          <div className="score-ring-inner">{percent}%</div>
+      <div className="sum-hero mt-5">
+        <div className="ring" style={{ '--pct': percent } as CSSProperties}>
+          <div className="ring-inner">{percent}%</div>
         </div>
-        <div className={`exam-verdict ${passed ? 'is-pass' : 'is-fail'}`}>
+        <div className={`sum-verdict ${passed ? 'is-pass' : 'is-fail'}`}>
           {passed ? '✅ ผ่านเกณฑ์อ้างอิง' : '❌ ยังไม่ถึงเกณฑ์อ้างอิง'}
         </div>
-        <div className="score-big">
+        <div className="sum-big">
           {correctCount} / {total}
         </div>
-        <div className="score-sub">
+        <div className="sum-sub">
           ตอบไปทั้งหมด {answeredCount} ข้อ · ไม่ได้ตอบ {total - answeredCount} ข้อ · ใช้เวลา {fmt(elapsed)} จาก{' '}
           {EXAM_MINUTES} นาที
         </div>
-        <p className="exam-passnote">
+        <p className="sum-note">
           เกณฑ์อ้างอิง {PASS_REFERENCE_PERCENT}% — Cisco <strong>ไม่ได้ประกาศคะแนนผ่านอย่างเป็นทางการ</strong>{' '}
           ตัวเลขนี้เป็นค่าที่ผู้สอบรายงานกันทั่วไป (ราว 825/1000) ใช้เป็นแนวเทียบเท่านั้น
         </p>
@@ -69,7 +69,7 @@ function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview
         </button>
       </div>
 
-      <div className="review-heading">คะแนนแยกตามหมวด (ตามน้ำหนักข้อสอบจริง)</div>
+      <div className="section-title">คะแนนแยกตามหมวด (ตามน้ำหนักข้อสอบจริง)</div>
       <div className="domain-table">
         {perDomain.map((r) => (
           <div className="domain-row" key={r.domain.id}>
@@ -97,7 +97,7 @@ function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview
       </div>
 
       {weakest.length > 0 && (
-        <div className="exam-advice">
+        <div className="advice">
           <strong>ควรทบทวนก่อน:</strong>{' '}
           {weakest
             .slice(0, 3)
@@ -106,7 +106,7 @@ function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview
         </div>
       )}
 
-      <div className="review-heading">ทบทวนรายข้อ (แตะเพื่อดูเฉลยและคำอธิบาย)</div>
+      <div className="section-title">ทบทวนรายข้อ (แตะเพื่อดูเฉลยและคำอธิบาย)</div>
       <div className="review-list">
         {questions.map((q, i) => {
           const a = answers[i]

@@ -15,16 +15,18 @@ function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
   const percent = checkedCount > 0 ? Math.round((correctCount / checkedCount) * 100) : 0
 
   return (
-    <div className="summary-screen">
+    <div className="sum">
+      <span className="hero-badge">● CCNA 200-301 · Practice Result</span>
       <h1>สรุปผลการทำข้อสอบ</h1>
-      <div className="score-panel">
-        <div className="score-ring" style={{ '--pct': percent } as CSSProperties}>
-          <div className="score-ring-inner">{percent}%</div>
+
+      <div className="sum-hero mt-5">
+        <div className="ring" style={{ '--pct': percent } as CSSProperties}>
+          <div className="ring-inner">{percent}%</div>
         </div>
-        <div className="score-big">
+        <div className="sum-big">
           {correctCount} / {checkedCount || total}
         </div>
-        <div className="score-sub">
+        <div className="sum-sub">
           ตอบถูก {correctCount} จากที่ตรวจแล้ว {checkedCount} ข้อ (จากทั้งหมด {total} ข้อ)
         </div>
         <button className="btn btn-primary" onClick={onRestart}>
@@ -32,7 +34,7 @@ function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
         </button>
       </div>
 
-      <div className="review-heading">ทบทวนรายข้อ (แตะเพื่อกลับไปดู)</div>
+      <div className="section-title">ทบทวนรายข้อ (แตะเพื่อกลับไปดู)</div>
       <div className="review-list">
         {questions.map((q, i) => {
           const a = answers[i]
@@ -44,9 +46,7 @@ function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
                 {status === 'bad' && '❌'}
                 {status === 'skip' && '⬜'}
                 <span>ข้อ {i + 1}</span>
-                <span className="review-origid">
-                  {q.source ? `(${q.source})` : `(#${q.id} ในต้นฉบับ)`}
-                </span>
+                <span className="review-origid">{q.source ? `(${q.source})` : `(#${q.id} ในต้นฉบับ)`}</span>
               </div>
               <div className="review-prompt">{q.prompt}</div>
             </div>

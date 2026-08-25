@@ -1,12 +1,14 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { QUESTIONS } from './data/questions'
 import { QUESTIONS_V2 } from './data/questionsV2'
 import { QUESTIONS_V3 } from './data/questionsV3'
 import { QUESTIONS_V4 } from './data/questionsV4'
+import { V4_PART_BY_ID } from './data/v4Parts'
 import { DRAG_QUESTIONS } from './data/dragBank'
 import { shuffle } from './utils/shuffle'
+import { randomizeOptions } from './utils/randomizeOptions'
 import { gradeChoice, gradeDrag } from './utils/grade'
-import type { AnswerState, ChoiceQuestion, DragQuestion, Option, Question } from './types'
+import type { AnswerState, ChoiceQuestion, DragQuestion, Question } from './types'
 import StartScreen from './components/StartScreen'
 import type { BankId } from './components/StartScreen'
 import QuestionCard from './components/QuestionCard'
@@ -15,7 +17,7 @@ import Navigator from './components/Navigator'
 import SummaryScreen from './components/SummaryScreen'
 import ExamSummary from './components/ExamSummary'
 import { buildExam, EXAM_MINUTES } from './data/examBuilder'
-import type { DomainId } from './data/domains'
+import { classifyDomain, DOMAINS, type DomainId } from './data/domains'
 
 type Screen = 'start' | 'quiz' | 'summary'
 type Mode = 'practice' | 'exam'
@@ -27,10 +29,32 @@ const BANKS: Record<BankId, Question[]> = {
   v2: QUESTIONS_V2,
   v3: QUESTIONS_V3,
   v4: QUESTIONS_V4,
+  v4a: V4_PART_BY_ID.v4a.questions,
+  v4b: V4_PART_BY_ID.v4b.questions,
+  v4c: V4_PART_BY_ID.v4c.questions,
+  v4d: V4_PART_BY_ID.v4d.questions,
   drag: DRAG_QUESTIONS,
 }
 
-const BANK_LABELS: Record<BankId, string> = { v1: 'V1', v2: 'V2', v3: 'V3', v4: 'BIG', drag: 'DRAG' }
+const BANK_LABELS: Record<BankId, string> = {
+  v1: 'V1',
+  v2: 'V2',
+  v3: 'V3',
+  v4: 'BIG',
+  v4a: 'BIG 1/4',
+  v4b: 'BIG 2/4',
+  v4c: 'BIG 3/4',
+  v4d: 'BIG 4/4',
+  drag: 'DRAG',
+}
+
+/** "Topic 1" … "Topic 6" on the question bar — the blueprint domain number. */
+const TOPIC_NUMBER: Record<DomainId, number> = DOMAINS.reduce(
+  (acc, d, i) => ((acc[d.id] = i + 1), acc),
+  {} as Record<DomainId, number>,
+)
+
+const OPTION_KEYS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
 function emptyAnswer(q: Question): AnswerState {
   if (q.kind === 'drag') {
@@ -50,10 +74,11 @@ function formatTime(totalSeconds: number) {
 function App() {
   const [screen, setScreen] = useState<Screen>('start')
   const [mode, setMode] = useState<Mode>('practice')
-  const [bank, setBank] = useState<BankId>('v1')
+  const [bank, setBank] = useState<BankId>('v4')
+  const [shuffleOptions, setShuffleOptions] = useState(true)
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([])
   const [examDomains, setExamDomains] = useState<DomainId[]>([])
-  const [displayOptions, setDisplayOptions] = useState<Record<number, Option[]>>({})
+  const [topics, setTopics] = useState<number[]>([])
   const [dragPools, setDragPools] = useState<Record<number, string[]>>({})
   const [answers, setAnswers] = useState<AnswerState[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -65,23 +90,34 @@ function App() {
     return () => clearInterval(t)
   }, [screen])
 
-  /** Shared setup for both modes: freeze option order, shuffle drag chips. */
-  function loadPaper(picked: Question[], domains: DomainId[], nextMode: Mode) {
-    const opts: Record<number, Option[]> = {}
+  // "ข้อถัดไป" sits at the bottom of the card, so without this you land on the
+  // next question already scrolled past its exhibit and stem.
+  useEffect(() => {
+    if (screen === 'quiz') window.scrollTo(0, 0)
+  }, [screen, currentIndex])
+
+  /**
+   * Shared setup for both modes.
+   *
+   * When the shuffle switch is on, each choice question is re-dealt here — the
+   * options are shuffled and re-lettered A → B → C, and the answer key, the
+   * per-option notes and every option letter the Thai explanation mentions are
+   * rewritten to match (see `utils/randomizeOptions`). The paper therefore
+   * carries its *own* copy of each question; the banks in `data/` are never
+   * mutated, so the next sitting deals a fresh order.
+   */
+  function loadPaper(source: Question[], domains: DomainId[], nextMode: Mode) {
+    const picked = shuffleOptions ? randomizeOptions(source) : source
     const pools: Record<number, string[]> = {}
     picked.forEach((q) => {
       if (q.kind === 'drag') {
         pools[q.id] = shuffle((q as DragQuestion).categories.flatMap((c) => c.items))
-      } else {
-        // Keep answer options in their original A → B → C → D order (do not shuffle);
-        // only the question order is randomized.
-        opts[q.id] = (q as ChoiceQuestion).options
       }
     })
     setMode(nextMode)
     setQuizQuestions(picked)
     setExamDomains(domains)
-    setDisplayOptions(opts)
+    setTopics(picked.map((q) => TOPIC_NUMBER[classifyDomain(q)]))
     setDragPools(pools)
     setAnswers(picked.map(emptyAnswer))
     setCurrentIndex(0)
@@ -189,6 +225,59 @@ function App() {
     updateAnswer(currentIndex, { ...currentAnswer, checked: true, correct })
   }
 
+  const goPrev = useCallback(() => setCurrentIndex((i) => Math.max(0, i - 1)), [])
+  const goNext = useCallback(
+    () => setCurrentIndex((i) => Math.min(quizQuestions.length - 1, i + 1)),
+    [quizQuestions.length],
+  )
+
+  /**
+   * Keyboard driving. Working through 500 questions in a sitting is mostly
+   * "pick a letter, reveal, move on" — doing that with the mouse alone is the
+   * difference between an hour and two. The handler is held in a ref so the
+   * listener is attached once and still sees fresh state on every keystroke.
+   */
+  function handleKey(e: KeyboardEvent) {
+    if (screen !== 'quiz' || e.metaKey || e.ctrlKey || e.altKey) return
+    const el = e.target as HTMLElement | null
+    if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable)) return
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault()
+      goPrev()
+      return
+    }
+    if (e.key === 'ArrowRight') {
+      e.preventDefault()
+      goNext()
+      return
+    }
+    if (!current || current.kind === 'drag') return
+    const q = current as ChoiceQuestion
+    if (e.key === 'Enter') {
+      e.preventDefault()
+      if (currentAnswer.checked || mode === 'exam') goNext()
+      else if (currentAnswer.kind !== 'drag' && currentAnswer.selected.length > 0) checkChoice()
+      return
+    }
+    const letter = e.key.toUpperCase()
+    const byLetter = OPTION_KEYS.includes(letter) ? letter : null
+    // 1–8 select by position, for keyboards where the letter row is awkward.
+    const byNumber = /^[1-8]$/.test(e.key) ? OPTION_KEYS[Number(e.key) - 1] : null
+    const pick = byLetter ?? byNumber
+    if (pick && q.options.some((o) => o.key === pick)) {
+      e.preventDefault()
+      toggleChoice(pick)
+    }
+  }
+
+  const keyRef = useRef(handleKey)
+  keyRef.current = handleKey
+  useEffect(() => {
+    const listener = (e: KeyboardEvent) => keyRef.current(e)
+    window.addEventListener('keydown', listener)
+    return () => window.removeEventListener('keydown', listener)
+  }, [])
+
   const statuses = useMemo(
     () =>
       answers.map((a) => ({
@@ -199,10 +288,13 @@ function App() {
     [answers],
   )
 
+  const total = quizQuestions.length
   const answeredCount = statuses.filter((s) => s.checked).length
   const correctCount = statuses.filter((s) => s.checked && s.correct).length
+  const wrongCount = answeredCount - correctCount
   // Exam mode gives no running score — only how much of the paper is filled in.
   const filledCount = statuses.filter((s) => s.answered).length
+  const doneCount = mode === 'exam' ? filledCount : answeredCount
   const remaining = Math.max(0, EXAM_SECONDS - seconds)
 
   if (screen === 'start') {
@@ -210,14 +302,12 @@ function App() {
       <StartScreen
         bank={bank}
         total={BANKS[bank].length}
-        bankTotals={{
-          v1: BANKS.v1.length,
-          v2: BANKS.v2.length,
-          v3: BANKS.v3.length,
-          v4: BANKS.v4.length,
-          drag: BANKS.drag.length,
-        }}
+        bankTotals={
+          Object.fromEntries(Object.entries(BANKS).map(([id, qs]) => [id, qs.length])) as Record<BankId, number>
+        }
+        shuffleOptions={shuffleOptions}
         onBankChange={setBank}
+        onShuffleOptionsChange={setShuffleOptions}
         onStart={startQuiz}
         onStartExam={startExam}
       />
@@ -245,64 +335,61 @@ function App() {
 
   if (!current) return null
 
-  // Rendered inside the question card, above the explanation — a graded
-  // explanation runs long, and burying "next" under it made every question end
-  // with a scroll.
   const navButtons = (
-    <div className="nav-buttons">
-      <button
-        className="btn btn-outline"
-        disabled={currentIndex === 0}
-        onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
-      >
+    <>
+      <button className="btn btn-outline btn-sm" disabled={currentIndex === 0} onClick={goPrev}>
         ← ข้อก่อนหน้า
       </button>
-      {currentIndex === quizQuestions.length - 1 ? (
-        <button className="btn btn-primary" onClick={() => (mode === 'exam' ? submitExam() : setScreen('summary'))}>
+      <span className="action-note">
+        {currentIndex + 1} / {total}
+      </span>
+      {currentIndex === total - 1 ? (
+        <button className="btn btn-primary btn-sm" onClick={() => (mode === 'exam' ? submitExam() : setScreen('summary'))}>
           {mode === 'exam' ? 'ส่งข้อสอบ / ตรวจผล' : 'เสร็จสิ้น / ดูสรุปผล'}
         </button>
       ) : (
-        <button
-          className="btn btn-outline"
-          onClick={() => setCurrentIndex((i) => Math.min(quizQuestions.length - 1, i + 1))}
-        >
+        <button className="btn btn-outline btn-sm" onClick={goNext}>
           ข้อถัดไป →
         </button>
       )}
-    </div>
+    </>
   )
 
   return (
     <div className="app-shell">
-      <header className="app-header">
-        <div className="app-header-bar">
-          <div className="app-header-left">
-            <span className="app-title">
-              CCNA 200-301 <span className="dot-cisco">●</span>{' '}
-              {mode === 'exam' ? 'Mock Exam' : bank === 'drag' ? 'Drag-Drop Exam' : 'Practice Exam'}
-            </span>
-            <span className="bank-badge">{mode === 'exam' ? 'EXAM' : BANK_LABELS[bank]}</span>
-            <span className="progress-text">
-              ข้อ {currentIndex + 1} / {quizQuestions.length}
+      <header className="topbar">
+        <div className="topbar-inner">
+          <div className="topbar-brand">
+            <span className="topbar-mark">CC</span>
+            <span>
+              <span className="topbar-title">CCNA 200-301</span>
+              <span className="topbar-sub">
+                {mode === 'exam' ? 'Mock Exam' : bank === 'drag' ? 'Drag-Drop' : 'Practice'}
+              </span>
             </span>
           </div>
-          <div className="app-header-right">
+
+          <div className="topbar-mid">
+            <span className="chip chip-brand">{mode === 'exam' ? 'EXAM' : BANK_LABELS[bank]}</span>
+            <span className="chip">
+              ข้อ {currentIndex + 1} / {total}
+            </span>
+            <div className="meter">
+              <div className="meter-fill" style={{ width: `${((currentIndex + 1) / total) * 100}%` }} />
+            </div>
+          </div>
+
+          <div className="topbar-right">
             {mode === 'exam' ? (
               <>
-                <span className={`timer${remaining <= 300 ? ' is-urgent' : ''}`}>⏱ เหลือ {formatTime(remaining)}</span>
-                <span className="score-text">
-                  ตอบแล้ว <strong>{filledCount}</strong>/{quizQuestions.length}
-                </span>
+                <span className={`chip${remaining <= 300 ? ' chip-urgent' : ''}`}>⏱ {formatTime(remaining)}</span>
                 <button className="btn btn-primary btn-sm" onClick={submitExam}>
                   ส่งข้อสอบ
                 </button>
               </>
             ) : (
               <>
-                <span className="timer">⏱ {formatTime(seconds)}</span>
-                <span className="score-text">
-                  ถูก <strong>{correctCount}</strong>/{answeredCount} ที่ตรวจแล้ว
-                </span>
+                <span className="chip">⏱ {formatTime(seconds)}</span>
                 <button className="btn btn-outline btn-sm" onClick={() => setScreen('summary')}>
                   ดูสรุปผล
                 </button>
@@ -310,42 +397,109 @@ function App() {
             )}
           </div>
         </div>
-        <div className="progress-track">
-          <div
-            className="progress-fill"
-            style={{ width: `${((currentIndex + 1) / quizQuestions.length) * 100}%` }}
-          />
-        </div>
       </header>
 
-      <main className="app-main">
-        {current.kind === 'drag' ? (
-          <DragDropQuestion
-            question={current as DragQuestion}
-            pool={dragPools[current.id] ?? []}
-            placement={currentAnswer.kind === 'drag' ? currentAnswer.placement : {}}
-            checked={currentAnswer.checked}
-            onPlace={placeDragItem}
-            onRemove={removeDragItem}
-            onCheck={checkDrag}
-            nav={navButtons}
-            examMode={mode === 'exam'}
-          />
-        ) : (
-          <QuestionCard
-            question={current as ChoiceQuestion}
-            options={displayOptions[current.id] ?? []}
-            selected={currentAnswer.kind !== 'drag' ? currentAnswer.selected : []}
-            checked={currentAnswer.checked}
-            onToggle={toggleChoice}
-            onCheck={checkChoice}
-            nav={navButtons}
-            examMode={mode === 'exam'}
-          />
-        )}
+      <div className="quiz-layout">
+        <main className="quiz-main">
+          {current.kind === 'drag' ? (
+            <DragDropQuestion
+              key={current.id}
+              question={current as DragQuestion}
+              topic={topics[currentIndex] ?? 1}
+              pool={dragPools[current.id] ?? []}
+              placement={currentAnswer.kind === 'drag' ? currentAnswer.placement : {}}
+              checked={currentAnswer.checked}
+              onPlace={placeDragItem}
+              onRemove={removeDragItem}
+              onCheck={checkDrag}
+              nav={navButtons}
+              examMode={mode === 'exam'}
+            />
+          ) : (
+            <QuestionCard
+              key={current.id}
+              question={current as ChoiceQuestion}
+              topic={topics[currentIndex] ?? 1}
+              selected={currentAnswer.kind !== 'drag' ? currentAnswer.selected : []}
+              checked={currentAnswer.checked}
+              onToggle={toggleChoice}
+              onCheck={checkChoice}
+              nav={navButtons}
+              examMode={mode === 'exam'}
+            />
+          )}
+        </main>
 
-        <Navigator statuses={statuses} currentIndex={currentIndex} onJump={setCurrentIndex} />
-      </main>
+        <aside className="quiz-aside">
+          <div className="side-card">
+            <div className="side-title">ความคืบหน้า</div>
+            <div className="stat-grid">
+              <div className="stat">
+                <span className="stat-num">
+                  {doneCount}
+                  <span className="text-muted text-[13px] font-semibold">/{total}</span>
+                </span>
+                <span className="stat-label">{mode === 'exam' ? 'ตอบแล้ว' : 'ตรวจแล้ว'}</span>
+              </div>
+              <div className="stat">
+                <span className="stat-num">{total - doneCount}</span>
+                <span className="stat-label">เหลืออีก</span>
+              </div>
+              {mode === 'exam' ? (
+                <div className="stat col-span-2">
+                  <span className="stat-num">{formatTime(remaining)}</span>
+                  <span className="stat-label">เวลาที่เหลือ (จาก {EXAM_MINUTES} นาที)</span>
+                </div>
+              ) : (
+                <>
+                  <div className="stat is-ok">
+                    <span className="stat-num">{correctCount}</span>
+                    <span className="stat-label">ถูก</span>
+                  </div>
+                  <div className="stat is-bad">
+                    <span className="stat-num">{wrongCount}</span>
+                    <span className="stat-label">ผิด</span>
+                  </div>
+                </>
+              )}
+            </div>
+            <div className="side-progress">
+              <div className="meter">
+                <div className="meter-fill" style={{ width: `${(doneCount / total) * 100}%` }} />
+              </div>
+              {answeredCount > 0 && mode !== 'exam' && (
+                <span>{Math.round((correctCount / answeredCount) * 100)}% ถูก</span>
+              )}
+            </div>
+          </div>
+
+          <Navigator statuses={statuses} currentIndex={currentIndex} onJump={setCurrentIndex} />
+
+          {/* Nothing to press on a phone. */}
+          <div className="side-card hidden lg:block">
+            <div className="side-title">ปุ่มลัด</div>
+            <div className="keys">
+              <div>
+                <span>เลือกคำตอบ</span>
+                <span>
+                  <kbd className="kbd">A</kbd> … <kbd className="kbd">E</kbd> / <kbd className="kbd">1</kbd>–
+                  <kbd className="kbd">5</kbd>
+                </span>
+              </div>
+              <div>
+                <span>{mode === 'exam' ? 'ข้อถัดไป' : 'เฉลย / ข้อถัดไป'}</span>
+                <kbd className="kbd">Enter</kbd>
+              </div>
+              <div>
+                <span>ย้อน / ถัดไป</span>
+                <span>
+                  <kbd className="kbd">←</kbd> <kbd className="kbd">→</kbd>
+                </span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
     </div>
   )
 }

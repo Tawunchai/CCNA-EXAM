@@ -1,87 +1,109 @@
-import type { ReactNode } from 'react'
-import type { ChoiceQuestion, Option } from '../types'
+import { useState, type ReactNode } from 'react'
+import type { ChoiceQuestion } from '../types'
 import { gradeChoice } from '../utils/grade'
+import ExamCard from './ExamCard'
 
 interface Props {
   question: ChoiceQuestion
-  options: Option[]
+  /** Blueprint domain number (1–6), shown as "Topic n" the way a dump page does. */
+  topic: number
   selected: string[]
   checked: boolean
   onToggle: (key: string) => void
   onCheck: () => void
-  /** Prev/next controls, rendered above the explanation so it stays reachable
-   *  without scrolling past a long feedback body. */
+  /** Prev/next controls, rendered in the card footer. */
   nav?: ReactNode
   /** Mock-exam sitting: no per-question grading, so the check button is hidden
    *  and answers stay editable until the whole paper is submitted. */
   examMode?: boolean
 }
 
-function QuestionCard({ question, options, selected, checked, onToggle, onCheck, nav, examMode }: Props) {
+function QuestionCard({ question, topic, selected, checked, onToggle, onCheck, nav, examMode }: Props) {
+  const [showExplanation, setShowExplanation] = useState(true)
   const isMulti = question.kind === 'multi'
+  const isCorrect = checked && gradeChoice(question, selected)
 
-  function optionClass(opt: Option) {
-    const isSelected = selected.includes(opt.key)
-    const isCorrect = question.correct.includes(opt.key)
-    if (!checked) return isSelected ? 'opt selected' : 'opt'
-    if (isCorrect) return 'opt correct'
-    if (isSelected && !isCorrect) return 'opt incorrect'
-    return 'opt'
+  function optionClass(key: string) {
+    const isSelected = selected.includes(key)
+    const isKey = question.correct.includes(key)
+    if (!checked) return isSelected ? 'opt is-picked' : 'opt'
+    if (isKey) return 'opt is-key'
+    if (isSelected) return 'opt is-wrong'
+    return 'opt is-dim'
   }
 
   return (
-    <div className="question-card">
-      {question.image && (
-        <div className="exhibit">
-          <img src={question.image} alt={`exhibit for question ${question.id}`} />
-          {question.image2 && <img src={question.image2} alt={`exhibit for question ${question.id} (2)`} />}
+    <>
+      <ExamCard
+        id={question.id}
+        source={question.source}
+        topic={topic}
+        kind={isMulti ? `Multiple choice · choose ${question.correct.length}` : 'Single choice'}
+        image={question.image}
+        image2={question.image2}
+        prompt={question.prompt}
+        footer={nav}
+      >
+        {isMulti && !/choose/i.test(question.prompt) && (
+          <p className="subhint">(Choose {question.correct.length}.)</p>
+        )}
+
+        <div className="opts">
+          {question.options.map((opt) => (
+            <label key={opt.key} className={optionClass(opt.key)}>
+              <input
+                type={isMulti ? 'checkbox' : 'radio'}
+                name={`q-${question.id}`}
+                checked={selected.includes(opt.key)}
+                disabled={checked}
+                onChange={() => onToggle(opt.key)}
+              />
+              <span className="opt-key">{opt.key}</span>
+              <span className="opt-text">{opt.text}</span>
+              {checked && question.correct.includes(opt.key) && <span className="opt-flag is-ok">Correct</span>}
+              {checked && selected.includes(opt.key) && !question.correct.includes(opt.key) && (
+                <span className="opt-flag is-bad">Your answer</span>
+              )}
+            </label>
+          ))}
         </div>
-      )}
-      <div className="q-head">
-        <span className="qnum-badge">Q{question.id}</span>
-        <span className="qkind-badge">{isMulti ? `Multiple choice · ${question.correct.length}` : 'Single choice'}</span>
-      </div>
-      <p className="prompt">{question.prompt}</p>
-      {isMulti && <p className="hint">เลือกได้มากกว่า 1 คำตอบ — Choose {question.correct.length}</p>}
 
-      <div className="options">
-        {options.map((opt) => (
-          <label key={opt.key} className={optionClass(opt)}>
-            <input
-              type={isMulti ? 'checkbox' : 'radio'}
-              name={`q-${question.id}`}
-              checked={selected.includes(opt.key)}
-              disabled={checked}
-              onChange={() => onToggle(opt.key)}
-            />
-            <span className="opt-key">{opt.key}</span>
-            <span className="opt-text">{opt.text}</span>
-            {checked && question.correct.includes(opt.key) && <span className="mark ok">✔ คำตอบที่ถูก</span>}
-            {checked && selected.includes(opt.key) && !question.correct.includes(opt.key) && (
-              <span className="mark bad">✘ ที่คุณเลือก (ไม่ถูก)</span>
-            )}
-          </label>
-        ))}
-      </div>
+        <div className="actions">
+          {!checked && !examMode && (
+            <button className="btn btn-solve" disabled={selected.length === 0} onClick={onCheck}>
+              Reveal Solution
+            </button>
+          )}
+          {!checked && !examMode && selected.length === 0 && (
+            <span className="action-note">เลือกคำตอบก่อน หรือกดปุ่ม A–E บนคีย์บอร์ด</span>
+          )}
+          {!checked && examMode && <span className="action-note">โหมดสอบ — เฉลยทั้งหมดจะแสดงหลังส่งข้อสอบ</span>}
+          {checked && (
+            <>
+              <span className={`verdict ${isCorrect ? 'is-ok' : 'is-bad'}`}>
+                {isCorrect ? '✔ Correct' : '✘ Incorrect'} — Correct Answer: {question.correct.join(', ')}
+              </span>
+              <button
+                className="btn btn-slate btn-sm"
+                aria-expanded={showExplanation}
+                onClick={() => setShowExplanation((v) => !v)}
+              >
+                {showExplanation ? 'ซ่อนคำอธิบาย' : 'ดูคำอธิบาย'}
+              </button>
+            </>
+          )}
+        </div>
+      </ExamCard>
 
-      {!checked && !examMode && (
-        <button className="btn btn-primary" disabled={selected.length === 0} onClick={onCheck}>
-          ตรวจคำตอบ
-        </button>
-      )}
-
-      {nav}
-
-      {checked && (
-        <div className={`feedback ${gradeChoice(question, selected) ? 'good' : 'bad'}`}>
-          <div className="feedback-title">
-            {gradeChoice(question, selected) ? '✅ ถูกต้อง!' : '❌ ยังไม่ถูก'}
-            {' — '}
-            เฉลย: {question.correct.join(', ')}
+      {checked && showExplanation && (
+        <div className={`exp ${isCorrect ? 'is-ok' : 'is-bad'}`}>
+          <div className="exp-head">
+            <span className="exp-title">{isCorrect ? '✅ ถูกต้อง!' : '❌ ยังไม่ถูก'}</span>
+            <span className="exp-key">เฉลย: {question.correct.join(', ')}</span>
           </div>
-          <div className="feedback-body">{question.explanation}</div>
+          <div className="exp-body">{question.explanation}</div>
           {question.optionNotes && (
-            <ul className="option-notes">
+            <ul className="exp-notes">
               {Object.entries(question.optionNotes).map(([k, v]) => (
                 <li key={k}>
                   <strong>{k}.</strong> {v}
@@ -91,7 +113,7 @@ function QuestionCard({ question, options, selected, checked, onToggle, onCheck,
           )}
         </div>
       )}
-    </div>
+    </>
   )
 }
 
