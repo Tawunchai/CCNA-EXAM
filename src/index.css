@@ -166,12 +166,14 @@
   .quiz-main {
     @apply flex min-w-0 flex-col gap-5;
   }
-  /* The sidebar is pinned, but a 2085-question navigator is taller than the
-     viewport — without its own scroll the bottom of it becomes unreachable,
-     because a stuck element does not scroll with the page. */
+  /* The sidebar is pinned and deliberately has NO scrollbar of its own: the
+     navigator pages in blocks of 50 (see components/Navigator) and the keyboard
+     card drops out on short viewports, which keeps the whole column inside the
+     screen. If you ever make these cards taller, shrink the block size rather
+     than adding overflow back — a nested scrollbar next to the page scrollbar
+     is exactly what this layout is avoiding. */
   .quiz-aside {
-    @apply flex flex-col gap-4
-           lg:sticky lg:top-[4.75rem] lg:max-h-[calc(100svh-5.75rem)] lg:overflow-y-auto lg:pr-1;
+    @apply flex flex-col gap-4 lg:sticky lg:top-[4.75rem];
   }
 
   /* ═══ question card ═════════════════════════════════════════ */
@@ -190,6 +192,9 @@
   }
   .qcard-kind {
     @apply text-[12px] font-medium text-white/85;
+  }
+  .qcard-free {
+    @apply rounded bg-white/25 px-1.5 py-0.5 text-[11px] font-bold whitespace-nowrap;
   }
   .qcard-topic {
     @apply ml-auto text-[13px] font-medium text-white/95 italic;
@@ -452,6 +457,9 @@
   .stat-label {
     @apply block text-[11.5px] font-medium text-muted;
   }
+  .side-note {
+    @apply mt-2.5 rounded-md border border-line bg-panel px-2.5 py-1.5 text-[11.5px] leading-snug text-muted;
+  }
   .side-progress {
     @apply mt-3 flex items-center gap-2.5 text-[12px] font-semibold text-body tabular-nums;
   }
@@ -496,6 +504,13 @@
   .nav-btn.is-incorrect {
     @apply border-err-line bg-err-soft text-err;
   }
+  /* Ungraded items get a slate swatch: neither a score nor a gap. */
+  .nav-btn.is-free {
+    @apply border-line-strong bg-panel text-muted;
+  }
+  .nav-btn.is-free-done {
+    @apply border-line-strong bg-panel-2 font-bold text-body;
+  }
   .nav-btn.is-current {
     @apply border-brand bg-brand font-bold text-white outline-2 outline-offset-1 outline-brand-line;
   }
@@ -522,6 +537,9 @@
   }
   .dot-empty {
     @apply border-line-strong bg-paper;
+  }
+  .dot-free {
+    @apply border-line-strong bg-panel-2;
   }
 
   /* ── keyboard hints ─────────────────────────────────────── */
@@ -761,6 +779,9 @@
   .review-domain {
     @apply rounded bg-brand-soft px-1.5 py-0.5 text-[11.5px] font-bold text-brand-ink;
   }
+  .review-free {
+    @apply rounded bg-panel-2 px-1.5 py-0.5 text-[11px] font-bold text-muted;
+  }
   .review-origid {
     @apply font-mono text-[11.5px] font-normal text-muted;
   }
@@ -805,6 +826,15 @@
     @apply w-32;
   }
   .domain-name small {
+    @apply hidden;
+  }
+}
+
+/* Below this height the three sidebar cards no longer fit together, so the
+   least important one (the keyboard cheatsheet) steps aside rather than
+   introducing a scrollbar. */
+@media (max-height: 860px) {
+  .keys-card {
     @apply hidden;
   }
 }

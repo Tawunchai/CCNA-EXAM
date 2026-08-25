@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from 'react'
 import type { ChoiceQuestion } from '../types'
 import { gradeChoice } from '../utils/grade'
+import { isUngraded } from '../utils/scoring'
 import ExamCard from './ExamCard'
 
 interface Props {
@@ -42,6 +43,7 @@ function QuestionCard({ question, topic, selected, checked, onToggle, onCheck, n
         image={question.image}
         image2={question.image2}
         prompt={question.prompt}
+        ungraded={isUngraded(question)}
         footer={nav}
       >
         {isMulti && !/choose/i.test(question.prompt) && (

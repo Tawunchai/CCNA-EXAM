@@ -23,6 +23,20 @@ interface BaseQuestion {
    * per-version banks leave it undefined and fall back to showing `id`.
    */
   source?: string
+  /**
+   * Keep the question in the bank, but leave it out of every score.
+   *
+   * Set on the items that came through the dump but are not CCNA 200-301
+   * material — a stray SAP question and a block of Cisco Firepower/FTD items
+   * that belong to CCNP Security 300-710. They are still worth reading, so
+   * they stay; they just must not move the percentage either way.
+   *
+   * `utils/scoring.ts#isUngraded` is the only thing that should read this — it
+   * also treats the LAB/SIMULATION items as ungraded, because their prompt
+   * already promises "ไม่คิดคะแนน" and they carry a single dummy option that
+   * would otherwise score as correct every time.
+   */
+  ungraded?: boolean
 }
 
 export interface ChoiceQuestion extends BaseQuestion {

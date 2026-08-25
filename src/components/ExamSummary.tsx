@@ -2,6 +2,7 @@ import type { CSSProperties } from 'react'
 import type { AnswerState, Question } from '../types'
 import { DOMAINS, type DomainId } from '../data/domains'
 import { EXAM_MINUTES, PASS_REFERENCE_PERCENT } from '../data/examBuilder'
+import { isUngraded, scorePaper } from '../utils/scoring'
 
 interface Props {
   questions: Question[]
@@ -24,17 +25,26 @@ function fmt(totalSeconds: number) {
 
 function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview }: Props) {
   const total = questions.length
-  const correctCount = answers.filter((a) => a.correct).length
-  const answeredCount = answers.filter((a) =>
-    a.kind === 'drag' ? Object.values(a.placement).some((v) => v.length > 0) : a.selected.length > 0,
+  const score = scorePaper(questions, answers)
+  const correctCount = score.correct
+  const answeredCount = answers.filter((a, i) =>
+    isUngraded(questions[i])
+      ? false
+      : a.kind === 'drag'
+        ? Object.values(a.placement).some((v) => v.length > 0)
+        : a.selected.length > 0,
   ).length
   // The per-domain quota equals the domain's blueprint weight, so a plain
-  // correct/total is already the weighted score — no extra maths needed.
-  const percent = total > 0 ? Math.round((correctCount / total) * 1000) / 10 : 0
+  // correct/total is already the weighted score — no extra maths needed. The
+  // denominator is the *graded* count so an off-blueprint item cannot cost you
+  // a point by sitting in the paper unanswered.
+  const percent = score.graded > 0 ? Math.round((correctCount / score.graded) * 1000) / 10 : 0
   const passed = percent >= PASS_REFERENCE_PERCENT
 
   const perDomain = DOMAINS.map((d) => {
-    const idx = domains.map((x, i) => (x === d.id ? i : -1)).filter((i) => i >= 0)
+    const idx = domains
+      .map((x, i) => (x === d.id && !isUngraded(questions[i]) ? i : -1))
+      .filter((i) => i >= 0)
     const got = idx.filter((i) => answers[i]?.correct).length
     return { domain: d, count: idx.length, correct: got, pct: idx.length ? (got / idx.length) * 100 : 0 }
   })
@@ -54,11 +64,12 @@ function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview
           {passed ? '✅ ผ่านเกณฑ์อ้างอิง' : '❌ ยังไม่ถึงเกณฑ์อ้างอิง'}
         </div>
         <div className="sum-big">
-          {correctCount} / {total}
+          {correctCount} / {score.graded}
         </div>
         <div className="sum-sub">
-          ตอบไปทั้งหมด {answeredCount} ข้อ · ไม่ได้ตอบ {total - answeredCount} ข้อ · ใช้เวลา {fmt(elapsed)} จาก{' '}
+          ตอบไปทั้งหมด {answeredCount} ข้อ · ไม่ได้ตอบ {score.graded - answeredCount} ข้อ · ใช้เวลา {fmt(elapsed)} จาก{' '}
           {EXAM_MINUTES} นาที
+          {score.ungraded > 0 && ` · ไม่คิดคะแนน ${score.ungraded} ข้อ (จากทั้งหมด ${total} ข้อ)`}
         </div>
         <p className="sum-note">
           เกณฑ์อ้างอิง {PASS_REFERENCE_PERCENT}% — Cisco <strong>ไม่ได้ประกาศคะแนนผ่านอย่างเป็นทางการ</strong>{' '}
@@ -110,17 +121,19 @@ function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview
       <div className="review-list">
         {questions.map((q, i) => {
           const a = answers[i]
+          const free = isUngraded(q)
           const answered =
             a && (a.kind === 'drag' ? Object.values(a.placement).some((v) => v.length > 0) : a.selected.length > 0)
-          const status = !answered ? 'skip' : a.correct ? 'ok' : 'bad'
+          const status = free ? 'skip' : !answered ? 'skip' : a.correct ? 'ok' : 'bad'
           const d = DOMAINS.find((x) => x.id === domains[i])
           return (
             <div key={q.id} className={`review-item review-${status}`} onClick={() => onReview(i)}>
               <div className="review-badge">
                 {status === 'ok' && '✅'}
                 {status === 'bad' && '❌'}
-                {status === 'skip' && '⬜'}
+                {status === 'skip' && (free ? '➖' : '⬜')}
                 <span>ข้อ {i + 1}</span>
+                {free && <span className="review-free">ไม่คิดคะแนน</span>}
                 {d && <span className="review-domain">{d.code}</span>}
                 <span className="review-origid">{q.source ?? `#${q.id}`}</span>
               </div>

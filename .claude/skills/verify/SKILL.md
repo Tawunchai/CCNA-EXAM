@@ -55,6 +55,8 @@ const ctx = await browser.newContext({ viewport: { width: 1600, height: 1000 }, 
 | Grading works | press `a`, press `Enter` | `.opt.is-key` appears, `.exp` card renders |
 | Explanation renders | `.exp-body` text | contains `📘`, `✅`, `❌` |
 | Scroll resets | scroll down, click `ข้อถัดไป` | `window.scrollY === 0` |
+| Sidebar has no scrollbar | `.quiz-aside` scrollHeight vs clientHeight | equal; `overflow-y: visible` |
+| Ungraded items score nothing | answer a `.qcard-free` card | ถูก/ผิด stat tiles unchanged |
 | No runtime errors | `page.on('pageerror')` | none |
 
 Question order is **randomized**, so to reach a specific question you must loop:
@@ -100,6 +102,19 @@ The app is **keyboard-drivable**, which makes drivers much shorter: `a`–`e` (o
   `nth-of-type` counts every sibling `div`, so it silently picks the wrong
   panel and the test "fails" against a perfectly good app. Filter by heading:
   `page.locator('.panel').filter({ has: page.locator('h2:has-text("…")') })`.
-- The sidebar is `position: sticky` with its own `overflow-y: auto`. If you
-  remove that overflow, the bottom of a 2085-question navigator becomes
-  unreachable — a stuck element does not scroll with the page.
+- The sidebar is `position: sticky` and must have **no scrollbar of its own** —
+  a nested scrollbar beside the page scrollbar was a reported complaint. It
+  fits because the navigator pages in blocks of 50 (`Navigator.PAGE`) and the
+  keyboard card is hidden under `@media (max-height: 860px)`. If a sidebar card
+  grows, shrink the block size; do not put `overflow-y` back.
+- **Scoring skips ungraded questions** (`utils/scoring.ts#isUngraded`): the 9
+  off-blueprint strays flagged `ungraded: true` in the bank, plus the 36
+  `[LAB — ไม่คิดคะแนน] SIMULATION` walk-throughs, which carry a single dummy
+  option that would otherwise score correct every time. They render a
+  `.qcard-free` pill and a neutral navigator swatch, and `EXAM_POOL` leaves them
+  out so a mock paper is 100 scoreable questions.
+  The trap: `[LAB — OSPF]`, `[LAB — EtherChannel]` and the other nine
+  topic-tagged LAB items are **ordinary four-option questions that must keep
+  counting** — match on `ไม่คิดคะแนน`/`SIMULATION`, never on `[LAB` alone.
+  Assert it in node: every ungraded question is either `ungraded: true` or has
+  exactly one option.

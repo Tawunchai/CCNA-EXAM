@@ -1,5 +1,6 @@
 import type { CSSProperties } from 'react'
 import type { AnswerState, Question } from '../types'
+import { isUngraded, scorePaper } from '../utils/scoring'
 
 interface Props {
   questions: Question[]
@@ -10,9 +11,8 @@ interface Props {
 
 function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
   const total = questions.length
-  const checkedCount = answers.filter((a) => a.checked).length
-  const correctCount = answers.filter((a) => a.checked && a.correct).length
-  const percent = checkedCount > 0 ? Math.round((correctCount / checkedCount) * 100) : 0
+  const score = scorePaper(questions, answers)
+  const { checked: checkedCount, correct: correctCount, percent } = score
 
   return (
     <div className="sum">
@@ -27,8 +27,14 @@ function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
           {correctCount} / {checkedCount || total}
         </div>
         <div className="sum-sub">
-          ตอบถูก {correctCount} จากที่ตรวจแล้ว {checkedCount} ข้อ (จากทั้งหมด {total} ข้อ)
+          ตอบถูก {correctCount} จากที่ตรวจแล้ว {checkedCount} ข้อ (คิดคะแนน {score.graded} ข้อ จากทั้งหมด {total} ข้อ)
         </div>
+        {score.ungraded > 0 && (
+          <p className="sum-note">
+            ไม่นับคะแนน {score.ungraded} ข้อ — ข้อ LAB/SIMULATION และข้อที่อยู่นอกขอบเขต CCNA 200-301
+            ตอบถูกหรือผิดก็ไม่มีผลกับเปอร์เซ็นต์
+          </p>
+        )}
         <button className="btn btn-primary" onClick={onRestart}>
           สุ่มข้อสอบใหม่
         </button>
@@ -38,14 +44,16 @@ function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
       <div className="review-list">
         {questions.map((q, i) => {
           const a = answers[i]
-          const status = !a || !a.checked ? 'skip' : a.correct ? 'ok' : 'bad'
+          const free = isUngraded(q)
+          const status = free ? 'skip' : !a || !a.checked ? 'skip' : a.correct ? 'ok' : 'bad'
           return (
             <div key={q.id} className={`review-item review-${status}`} onClick={() => onReview(i)}>
               <div className="review-badge">
                 {status === 'ok' && '✅'}
                 {status === 'bad' && '❌'}
-                {status === 'skip' && '⬜'}
+                {status === 'skip' && (free ? '➖' : '⬜')}
                 <span>ข้อ {i + 1}</span>
+                {free && <span className="review-free">ไม่คิดคะแนน</span>}
                 <span className="review-origid">{q.source ? `(${q.source})` : `(#${q.id} ในต้นฉบับ)`}</span>
               </div>
               <div className="review-prompt">{q.prompt}</div>

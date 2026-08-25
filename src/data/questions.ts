@@ -8228,9 +8228,14 @@ export const QUESTIONS: Question[] = [
       { key: 'C', text: 'The management interface must be reassigned if LAG is disabled.' },
       { key: 'D', text: 'Multiple untagged interfaces on the same port must be supported.' },
     ],
-    correct: ['C'],
+    // แก้เฉลย C → B (26-08-2026): โจทย์เดียวกันนี้อยู่ที่ V4 #283 และ V4 #1734
+    // เดิมทั้งสามที่เฉลยไม่ตรงกัน ยึดตามคู่มือ Cisco Wireless Controller
+    // Configuration Guide หัวข้อ Restrictions on Link Aggregation:
+    // "When you enable LAG or make any changes to the LAG configuration, you must
+    // immediately reboot the controller"
+    correct: ['B'],
     explanation:
-      '📘 แนวคิด — LAG (Link Aggregation) บน WLC รวมพอร์ตกายภาพทั้งหมดเป็น bundle เดียว. ข้อกำหนดสำคัญ: เมื่อ "ปิด (disable)" LAG อินเทอร์เฟซที่เคยผูกกับ LAG (เช่น management interface) จะต้องถูก "กำหนดใหม่ (reassign)" ให้ไปยังพอร์ตกายภาพเฉพาะพอร์ต\n\n✅ ทำไม C ถูก: ถ้าปิด LAG → ต้อง reassign management interface ไปยังพอร์ตกายภาพ (มิฉะนั้นการจัดการจะขาด)\n\n❌ ทำไมข้ออื่นผิด:\nA. LAG ใช้ทุกพอร์ตรวมกัน ไม่ต้องระบุพอร์ตขาเข้า/ออกแยก\nB. (ในหลายรุ่นต้อง reboot จริง แต่ประโยคนี้ไม่ใช่ "ข้อกำหนดหลัก" ที่โจทย์เน้นเรื่อง interface mapping) — ข้อ C อธิบายผลกระทบต่อ interface ได้ตรงกว่า\nD. LAG ไม่ได้ต้องรองรับ untagged interface หลายตัวบนพอร์ตเดียว\n\n📗 จำไว้สอบ: WLC LAG = static bundle (รวมทุกพอร์ต) • ปิด LAG แล้วต้อง reassign interfaces ไปพอร์ตกายภาพ',
+      '📘 แนวคิด — ข้อกำหนดของ Link Aggregation (LAG) บน Cisco WLC\n1️⃣ ต้องรีบูตคอนโทรลเลอร์ทุกครั้งหลังเปิด ปิด หรือแก้ไข LAG ⭐ เพราะเป็นการเปลี่ยนโครงสร้างพอร์ตระดับล่าง\n2️⃣ WLC รองรับ EtherChannel แบบ static เท่านั้น ฝั่งสวิตช์จึงต้องตั้ง channel-group ... mode on (ไม่มี LACP/PAgP)\n3️⃣ เมื่อเปิด LAG ทุกอินเทอร์เฟซจะแมปเข้ามัดโดยอัตโนมัติ ไม่ต้องผูกพอร์ตทีละตัว\n4️⃣ มีพอร์ตกายภาพที่ใช้งานได้เพียงพอร์ตเดียวก็ยังส่งทราฟฟิกไคลเอนต์ได้\n\n✅ ทำไม B ถูก: คู่มือ Cisco (Restrictions on Link Aggregation) เขียนไว้ตรงตัวว่า "When you enable LAG or make any changes to the LAG configuration, you must immediately reboot the controller" ⭐ การรีบูตจึงเป็นเงื่อนไขบังคับที่ครอบคลุมทั้งตอน "configure" และตอน "remove" ตรงกับที่โจทย์ถาม ถ้าไม่รีบูต การตั้งค่า LAG จะยังไม่มีผล\n\n❌ ทำไมข้ออื่นผิด:\nA. ตรงข้ามกับจุดประสงค์ของ LAG — เมื่อเปิด LAG แล้วไม่ต้องระบุพอร์ตขาเข้า/ขาออกอีกต่อไป ระบบจัดการเองทั้งหมด\nC. ⭐ ตัวลวงที่แข็งที่สุด — ตอนปิด LAG ต้องผูกอินเทอร์เฟซกลับไปยังพอร์ตกายภาพจริง แต่เป็นผลที่ตามมาเฉพาะกรณี "removing" เท่านั้น ไม่ครอบคลุมกรณี "configuring" ที่โจทย์ถามควบคู่กัน จึงไม่ใช่คำตอบที่ดีที่สุด\nD. ตรงข้าม — บนพอร์ตหนึ่งรองรับ untagged interface ได้เพียงตัวเดียว\n\n📗 จำไว้สอบ: WLC LAG = static bundle (mode on ฝั่งสวิตช์) • แก้ LAG เมื่อไร ต้องรีบูตเมื่อนั้น • ปิด LAG แล้วค่อยไปผูกอินเทอร์เฟซกับพอร์ตกายภาพ',
   },
   {
     id: 515,

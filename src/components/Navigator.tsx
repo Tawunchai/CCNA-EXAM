@@ -4,6 +4,8 @@ interface ItemStatus {
   answered: boolean
   checked: boolean
   correct: boolean
+  /** Cannot be right or wrong — painted neutral instead of green/red. */
+  ungraded: boolean
 }
 
 interface Props {
@@ -14,8 +16,11 @@ interface Props {
 
 /** A "ทำทั้งหมด" sitting is 2085 questions; one flat grid of that many buttons
  *  is unusable (and slow). The navigator pages them in blocks of this size and
- *  follows whichever block you are currently in. */
-const PAGE = 100
+ *  follows whichever block you are currently in.
+ *
+ *  50 rather than 100 so the whole sidebar fits the viewport without needing a
+ *  scrollbar of its own — a block of 100 was ~8 rows too tall. */
+const PAGE = 50
 
 function Navigator({ statuses, currentIndex, onJump }: Props) {
   const pageCount = Math.ceil(statuses.length / PAGE)
@@ -62,7 +67,8 @@ function Navigator({ statuses, currentIndex, onJump }: Props) {
         {slice.map((s, i) => {
           const index = start + i
           let cls = 'nav-btn'
-          if (s.checked) cls += s.correct ? ' is-correct' : ' is-incorrect'
+          if (s.ungraded) cls += s.checked || s.answered ? ' is-free-done' : ' is-free'
+          else if (s.checked) cls += s.correct ? ' is-correct' : ' is-incorrect'
           else if (s.answered) cls += ' is-answered'
           if (index === currentIndex) cls += ' is-current'
           return (
@@ -88,6 +94,9 @@ function Navigator({ statuses, currentIndex, onJump }: Props) {
         </span>
         <span>
           <i className="dot dot-empty" /> ยังไม่ตอบ
+        </span>
+        <span>
+          <i className="dot dot-free" /> ไม่คิดคะแนน
         </span>
       </div>
     </div>

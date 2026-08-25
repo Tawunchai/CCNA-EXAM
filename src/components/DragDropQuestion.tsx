@@ -1,6 +1,7 @@
 import { useState, type DragEvent, type ReactNode } from 'react'
 import type { DragQuestion } from '../types'
 import ExamCard from './ExamCard'
+import { isUngraded } from '../utils/scoring'
 
 interface Props {
   question: DragQuestion
@@ -92,6 +93,7 @@ function DragDropQuestion({
         image={question.image}
         image2={question.image2}
         prompt={question.prompt}
+        ungraded={isUngraded(question)}
         footer={nav}
       >
         <p className="subhint">

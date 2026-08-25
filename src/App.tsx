@@ -18,6 +18,7 @@ import SummaryScreen from './components/SummaryScreen'
 import ExamSummary from './components/ExamSummary'
 import { buildExam, EXAM_MINUTES } from './data/examBuilder'
 import { classifyDomain, DOMAINS, type DomainId } from './data/domains'
+import { isUngraded, scorePaper } from './utils/scoring'
 
 type Screen = 'start' | 'quiz' | 'summary'
 type Mode = 'practice' | 'exam'
@@ -280,18 +281,22 @@ function App() {
 
   const statuses = useMemo(
     () =>
-      answers.map((a) => ({
+      answers.map((a, i) => ({
         answered: a.kind === 'drag' ? Object.values(a.placement).some((v) => v.length > 0) : a.selected.length > 0,
         checked: a.checked,
         correct: a.correct,
+        // The navigator paints these neutral rather than green/red — a question
+        // that cannot be right or wrong should not look like either.
+        ungraded: quizQuestions[i] ? isUngraded(quizQuestions[i]) : false,
       })),
-    [answers],
+    [answers, quizQuestions],
   )
 
   const total = quizQuestions.length
+  // Progress counts every question you still have to work through; the score
+  // counts only the graded ones (see utils/scoring).
+  const score = useMemo(() => scorePaper(quizQuestions, answers), [quizQuestions, answers])
   const answeredCount = statuses.filter((s) => s.checked).length
-  const correctCount = statuses.filter((s) => s.checked && s.correct).length
-  const wrongCount = answeredCount - correctCount
   // Exam mode gives no running score — only how much of the paper is filled in.
   const filledCount = statuses.filter((s) => s.answered).length
   const doneCount = mode === 'exam' ? filledCount : answeredCount
@@ -453,11 +458,11 @@ function App() {
               ) : (
                 <>
                   <div className="stat is-ok">
-                    <span className="stat-num">{correctCount}</span>
+                    <span className="stat-num">{score.correct}</span>
                     <span className="stat-label">ถูก</span>
                   </div>
                   <div className="stat is-bad">
-                    <span className="stat-num">{wrongCount}</span>
+                    <span className="stat-num">{score.wrong}</span>
                     <span className="stat-label">ผิด</span>
                   </div>
                 </>
@@ -467,16 +472,20 @@ function App() {
               <div className="meter">
                 <div className="meter-fill" style={{ width: `${(doneCount / total) * 100}%` }} />
               </div>
-              {answeredCount > 0 && mode !== 'exam' && (
-                <span>{Math.round((correctCount / answeredCount) * 100)}% ถูก</span>
-              )}
+              {score.checked > 0 && mode !== 'exam' && <span>{score.percent}% ถูก</span>}
             </div>
+            {score.ungraded > 0 && (
+              <p className="side-note">
+                ในชุดนี้มี {score.ungraded} ข้อที่ไม่คิดคะแนน — คิดคะแนนจาก {score.graded} ข้อ
+              </p>
+            )}
           </div>
 
           <Navigator statuses={statuses} currentIndex={currentIndex} onJump={setCurrentIndex} />
 
-          {/* Nothing to press on a phone. */}
-          <div className="side-card hidden lg:block">
+          {/* Nothing to press on a phone, and it is the card that gives way on
+              a short screen so the sidebar never needs its own scrollbar. */}
+          <div className="side-card keys-card hidden lg:block">
             <div className="side-title">ปุ่มลัด</div>
             <div className="keys">
               <div>

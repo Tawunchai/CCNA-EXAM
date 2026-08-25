@@ -4,6 +4,7 @@ import { QUESTIONS_V3 } from './questionsV3'
 import { QUESTIONS_V4 } from './questionsV4'
 import { classifyDomain, DOMAINS, type DomainId } from './domains'
 import { shuffle } from '../utils/shuffle'
+import { isUngraded } from '../utils/scoring'
 import type { ChoiceQuestion, Question } from '../types'
 
 /** A full mock sitting: 100 items, 120 minutes — the shape of the real 200-301. */
@@ -80,6 +81,10 @@ export const EXAM_POOL: Question[] = (() => {
   const seen = new Set<string>()
   const out: Question[] = []
   for (const q of merged) {
+    // A mock sitting must be 100 *scoreable* questions, so the ungraded items
+    // (LAB walk-throughs and the off-blueprint Firepower/SAP strays) are kept
+    // out of the pool entirely rather than taking up a slot and the clock.
+    if (isUngraded(q)) continue
     const key = identity(q)
     if (seen.has(key)) continue
     seen.add(key)

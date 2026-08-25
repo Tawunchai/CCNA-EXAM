@@ -9,6 +9,8 @@ interface Props {
   image?: string
   image2?: string
   prompt: string
+  /** Off-blueprint or LAB item — say so on the card, since it cannot score. */
+  ungraded?: boolean
   children: ReactNode
   /** Prev/next strip, rendered in the card's own footer. */
   footer?: ReactNode
@@ -22,7 +24,7 @@ interface Props {
  * position in the paper (that is what the top bar and the navigator show), so a
  * question can be looked up in the PDF while the paper order stays random.
  */
-function ExamCard({ id, source, topic, kind, image, image2, prompt, children, footer }: Props) {
+function ExamCard({ id, source, topic, kind, image, image2, prompt, ungraded, children, footer }: Props) {
   const [zoomed, setZoomed] = useState(false)
   const parsed = source?.match(/^(\S+)\s*#(\d+)$/)
   const number = parsed ? parsed[2] : String(id)
@@ -49,6 +51,7 @@ function ExamCard({ id, source, topic, kind, image, image2, prompt, children, fo
           <span className="qcard-no">Question #{number}</span>
           {origin && <span className="qcard-origin">{origin}</span>}
           <span className="qcard-kind">{kind}</span>
+          {ungraded && <span className="qcard-free">ไม่คิดคะแนน</span>}
           <span className="qcard-topic">Topic {topic}</span>
         </div>
         <div className="qcard-body">
