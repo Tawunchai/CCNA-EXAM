@@ -1,6 +1,8 @@
 import type { CSSProperties } from 'react'
 import type { AnswerState, Question } from '../types'
 import { isUngraded, scorePaper } from '../utils/scoring'
+import { collectWrong } from '../utils/review'
+import WrongAnswers from './WrongAnswers'
 
 interface Props {
   questions: Question[]
@@ -13,6 +15,7 @@ function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
   const total = questions.length
   const score = scorePaper(questions, answers)
   const { checked: checkedCount, correct: correctCount, percent } = score
+  const wrong = collectWrong(questions, answers)
 
   return (
     <div className="sum">
@@ -39,6 +42,14 @@ function SummaryScreen({ questions, answers, onRestart, onReview }: Props) {
           สุ่มข้อสอบใหม่
         </button>
       </div>
+
+      <WrongAnswers
+        items={wrong}
+        title="ข้อที่ตอบผิด — CCNA 200-301 (Practice)"
+        subtitle={`ตรวจแล้ว ${checkedCount} ข้อ · ถูก ${correctCount} ข้อ (${percent}%) · ผิด ${wrong.length} ข้อ · ${new Date().toLocaleDateString('th-TH')}`}
+        fileStem="CCNA-wrong-answers"
+        onReview={onReview}
+      />
 
       <div className="section-title">ทบทวนรายข้อ (แตะเพื่อกลับไปดู)</div>
       <div className="review-list">

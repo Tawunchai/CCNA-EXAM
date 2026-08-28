@@ -3,6 +3,8 @@ import type { AnswerState, Question } from '../types'
 import { DOMAINS, type DomainId } from '../data/domains'
 import { EXAM_MINUTES, PASS_REFERENCE_PERCENT } from '../data/examBuilder'
 import { isUngraded, scorePaper } from '../utils/scoring'
+import { collectWrong } from '../utils/review'
+import WrongAnswers from './WrongAnswers'
 
 interface Props {
   questions: Question[]
@@ -50,6 +52,8 @@ function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview
   })
 
   const weakest = perDomain.filter((r) => r.count > 0).sort((a, b) => a.pct - b.pct)
+  // Submitting marks the whole paper graded, so this also picks up the blanks.
+  const wrong = collectWrong(questions, answers)
 
   return (
     <div className="sum">
@@ -116,6 +120,14 @@ function ExamSummary({ questions, domains, answers, elapsed, onRestart, onReview
             .join(' · ')}
         </div>
       )}
+
+      <WrongAnswers
+        items={wrong}
+        title="ข้อที่ตอบผิด — CCNA 200-301 (สอบจำลอง)"
+        subtitle={`คะแนน ${correctCount}/${score.graded} (${percent}%) · ผิด/ไม่ได้ตอบ ${wrong.length} ข้อ · ใช้เวลา ${fmt(elapsed)} · ${new Date().toLocaleDateString('th-TH')}`}
+        fileStem="CCNA-mock-wrong-answers"
+        onReview={onReview}
+      />
 
       <div className="section-title">ทบทวนรายข้อ (แตะเพื่อดูเฉลยและคำอธิบาย)</div>
       <div className="review-list">

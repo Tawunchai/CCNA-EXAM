@@ -757,6 +757,67 @@
   .advice {
     @apply mt-4 rounded-lg border border-warn-line bg-warn-soft px-4 py-3 text-[13.5px] text-ink;
   }
+  /* ── wrong answers, pulled out of the review list ── */
+  .wrong-bar {
+    @apply mb-2 flex flex-wrap items-center justify-between gap-3 rounded-lg border border-err-line
+           bg-err-soft px-4 py-3;
+  }
+  .wrong-bar-opts {
+    @apply flex flex-wrap items-center gap-x-5 gap-y-2;
+  }
+  .wrong-check {
+    @apply flex cursor-pointer items-center gap-2 text-[13px] font-semibold text-ink select-none;
+  }
+  .wrong-check input {
+    @apply size-4 shrink-0 accent-brand;
+  }
+  .wrong-check-note {
+    @apply text-[12px] font-normal text-muted;
+  }
+  .wrong-hint {
+    @apply mb-3 text-[12px] leading-relaxed text-muted;
+  }
+  .wrong-empty {
+    @apply rounded-lg border border-ok-line bg-ok-soft px-4 py-6 text-center text-[14px] font-semibold text-ok;
+  }
+  .wrong-list {
+    @apply flex flex-col gap-2;
+  }
+  .wrong-item {
+    @apply cursor-pointer rounded-lg border border-line border-l-4 border-l-err bg-paper px-4 py-3
+           shadow-card transition-all hover:-translate-y-px hover:border-brand-line hover:shadow-raise;
+  }
+  .wrong-head {
+    @apply mb-1 flex flex-wrap items-center gap-2;
+  }
+  .wrong-no {
+    @apply text-[13.5px] font-bold text-ink;
+  }
+  .wrong-blank {
+    @apply rounded bg-warn-soft px-1.5 py-0.5 text-[11px] font-bold text-warn;
+  }
+  .wrong-prompt {
+    @apply line-clamp-3 text-[13px] whitespace-pre-line text-body;
+  }
+  .wrong-ans {
+    @apply mt-2 flex flex-col gap-1 border-t border-dashed border-line pt-2;
+  }
+  .wrong-row {
+    @apply flex gap-2 text-[13px];
+  }
+  .wrong-tag {
+    @apply w-16 shrink-0 font-bold;
+  }
+  .wrong-row.is-ok .wrong-tag {
+    @apply text-ok;
+  }
+  .wrong-row.is-bad .wrong-tag {
+    @apply text-err;
+  }
+  .wrong-val {
+    @apply min-w-0 flex-1 wrap-break-word whitespace-pre-line text-ink;
+  }
+
   .review-list {
     @apply flex flex-col gap-2;
   }
