@@ -618,6 +618,9 @@
   .choice-grid {
     @apply grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-2.5;
   }
+  .choice-grid-dense {
+    @apply grid-cols-[repeat(auto-fill,minmax(118px,1fr))];
+  }
   .choice {
     @apply flex cursor-pointer flex-col items-start gap-0.5 rounded-lg border border-line bg-panel
            px-3.5 py-3 text-left transition-all hover:-translate-y-px hover:border-brand hover:shadow-card;

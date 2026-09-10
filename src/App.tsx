@@ -3,7 +3,7 @@ import { QUESTIONS } from './data/questions'
 import { QUESTIONS_V2 } from './data/questionsV2'
 import { QUESTIONS_V3 } from './data/questionsV3'
 import { QUESTIONS_V4 } from './data/questionsV4'
-import { V4_PART_BY_ID } from './data/v4Parts'
+import { V4_PART_BY_ID, V4_SLICES } from './data/v4Parts'
 import { DRAG_QUESTIONS } from './data/dragBank'
 import { shuffle } from './utils/shuffle'
 import { randomizeOptions } from './utils/randomizeOptions'
@@ -34,6 +34,7 @@ const BANKS: Record<BankId, Question[]> = {
   v4b: V4_PART_BY_ID.v4b.questions,
   v4c: V4_PART_BY_ID.v4c.questions,
   v4d: V4_PART_BY_ID.v4d.questions,
+  ...Object.fromEntries(V4_SLICES.map((s) => [s.id, s.questions])),
   drag: DRAG_QUESTIONS,
 }
 
@@ -46,6 +47,7 @@ const BANK_LABELS: Record<BankId, string> = {
   v4b: 'BIG 2/4',
   v4c: 'BIG 3/4',
   v4d: 'BIG 4/4',
+  ...Object.fromEntries(V4_SLICES.map((s) => [s.id, `BIG ${s.from}–${s.to}`])),
   drag: 'DRAG',
 }
 

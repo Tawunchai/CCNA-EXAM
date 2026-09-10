@@ -1,8 +1,8 @@
 import { DOMAINS } from '../data/domains'
 import { EXAM_MINUTES, EXAM_POOL, EXAM_TOTAL } from '../data/examBuilder'
-import { V4_PARTS } from '../data/v4Parts'
+import { V4_PARTS, V4_SLICES, type V4PartId, type V4SliceId } from '../data/v4Parts'
 
-export type BankId = 'v1' | 'v2' | 'v3' | 'v4' | 'v4a' | 'v4b' | 'v4c' | 'v4d' | 'drag'
+export type BankId = 'v1' | 'v2' | 'v3' | 'v4' | V4PartId | V4SliceId | 'drag'
 
 interface Props {
   bank: BankId
@@ -36,6 +36,15 @@ function StartScreen({
 }: Props) {
   const counts = OPTIONS.filter((n) => n < total)
   const isDrag = bank === 'drag'
+  const part = V4_PARTS.find((p) => p.id === bank)
+  const slice = V4_SLICES.find((s) => s.id === bank)
+  const bankName = isDrag
+    ? 'Drag-Drop'
+    : part
+      ? `BIG ส่วนที่ ${part.index} (ข้อ ${part.from}–${part.to})`
+      : slice
+        ? `BIG ชุดที่ ${slice.index} (ข้อ ${slice.from}–${slice.to})`
+        : BANKS.find((b) => b.id === bank)?.label ?? bank
 
   return (
     <div className="start">
@@ -121,6 +130,33 @@ function StartScreen({
 
       <div className="panel">
         <div className="panel-head">
+          <h2>BIG CCNA ทีละ 200 ข้อ</h2>
+          <span className="chip chip-brand">{V4_SLICES.length} ชุด</span>
+        </div>
+        <p className="panel-note">
+          คลังเดียวกันแบ่งสั้นลงเป็นชุดละ 200 ข้อ (ข้อ 1–200, 201–400, … ถึงข้อ {V4_SLICES[V4_SLICES.length - 1].to})
+          — เลขข้อยังเป็นเลขเดิมของ BIG เหมือนแบบแบ่ง 4 ส่วนด้านบน
+        </p>
+        <div className="choice-grid choice-grid-dense">
+          {V4_SLICES.map((s) => (
+            <button
+              key={s.id}
+              className={`choice${bank === s.id ? ' is-active' : ''}`}
+              aria-pressed={bank === s.id}
+              onClick={() => onBankChange(s.id)}
+            >
+              <span className="choice-label">ชุดที่ {s.index}</span>
+              <span className="choice-range">
+                ข้อ {s.from}–{s.to}
+              </span>
+              <span className="choice-count">{s.questions.length} ข้อ</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="panel">
+        <div className="panel-head">
           <h2>ฝึกเฉพาะข้อลากวาง</h2>
         </div>
         <p className="panel-note">รวมข้อ drag-and-drop จากทั้ง 4 ชุด — ฝั่งซ้ายคือรายการที่ลาก ฝั่งขวาคือกล่องที่ต้องวาง</p>
@@ -163,7 +199,7 @@ function StartScreen({
           <h2>เลือกจำนวนข้อที่ต้องการทำ</h2>
         </div>
         <p className="panel-note">
-          ชุดที่เลือกอยู่: <strong className="text-ink">{isDrag ? 'Drag-Drop' : BANKS.find((b) => b.id === bank)?.label ?? `BIG ส่วนที่ ${bank.slice(-1).toUpperCase()}`}</strong>{' '}
+          ชุดที่เลือกอยู่: <strong className="text-ink">{bankName}</strong>{' '}
           · {total} ข้อ
         </p>
         <div className="count-grid">
