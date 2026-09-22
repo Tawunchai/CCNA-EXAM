@@ -1,4 +1,5 @@
 import type { ChoiceQuestion } from '../types'
+import { absoluteUrl, escapeHtml, printHtml } from './printFrame'
 import { questionRef, type WrongItem, type WrongLine } from './review'
 
 export interface SheetOptions {
@@ -14,11 +15,8 @@ export interface SheetOptions {
   fileName: string
 }
 
-const esc = (s: string) =>
-  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
-
-/** Vite hands out root-relative asset URLs; the print frame has a base of its own. */
-const absolute = (src: string) => new URL(src, document.baseURI).href
+const esc = escapeHtml
+const absolute = absoluteUrl
 
 /**
  * A4 at 12–13mm margins gives a 186mm text column, and everything below is
@@ -144,75 +142,9 @@ ${opts.separateKey ? keySectionHtml(items) : ''}
 </body></html>`
 }
 
-/** Resolve once every exhibit has settled, so `print()` never captures a blank box. */
-function imagesSettled(doc: Document) {
-  const pending = Array.from(doc.images).filter((img) => !img.complete)
-  if (pending.length === 0) return Promise.resolve()
-  return Promise.race([
-    Promise.all(
-      pending.map(
-        (img) =>
-          new Promise<void>((res) => {
-            img.onload = img.onerror = () => res()
-          }),
-      ),
-    ).then(() => undefined),
-    new Promise<void>((res) => setTimeout(res, 8000)),
-  ])
-}
-
 /**
- * The app's own title, held while a sheet is printing.
- *
- * A second download started before the first has cleaned up must not capture
- * the *first* sheet's file name as the thing to restore — that would leave the
- * browser tab named `CCNA-wrong-answers-…` for the rest of the session. Only
- * the outermost print takes the snapshot, and only it puts the title back.
- */
-let printsInFlight = 0
-let hostTitle = ''
-
-/**
- * Hand the sheet to the browser's own PDF writer.
- *
- * An off-screen same-origin iframe rather than `window.open`: there is no popup
- * to be blocked, and nothing is left behind in a tab afterwards. The host
- * document's title is borrowed for the duration because that — not the frame's
- * — is what Chrome pre-fills the "Save as PDF" file name with.
+ * Hand the sheet to the browser's own PDF writer (see `utils/printFrame.ts`).
  */
 export async function printWrongSheet(items: WrongItem[], opts: SheetOptions) {
-  const frame = document.createElement('iframe')
-  frame.setAttribute('aria-hidden', 'true')
-  frame.style.cssText = 'position:fixed;right:0;bottom:0;width:1px;height:1px;border:0;opacity:0'
-  document.body.appendChild(frame)
-
-  const win = frame.contentWindow
-  const doc = frame.contentDocument
-  if (!win || !doc) {
-    frame.remove()
-    return
-  }
-
-  doc.open()
-  doc.write(buildSheetHtml(items, opts))
-  doc.close()
-  await imagesSettled(doc)
-
-  if (printsInFlight === 0) hostTitle = document.title
-  printsInFlight++
-  let cleaned = false
-  const cleanup = () => {
-    if (cleaned) return
-    cleaned = true
-    printsInFlight--
-    if (printsInFlight === 0) document.title = hostTitle
-    frame.remove()
-  }
-  document.title = opts.fileName
-  win.addEventListener('afterprint', () => setTimeout(cleanup, 400), { once: true })
-  // Safety net: not every browser fires `afterprint` when the dialog is cancelled.
-  setTimeout(cleanup, 120_000)
-
-  win.focus()
-  win.print()
+  await printHtml(buildSheetHtml(items, opts), { fileName: opts.fileName })
 }

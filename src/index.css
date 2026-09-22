@@ -640,6 +640,28 @@
   .choice-count {
     @apply font-mono text-[11.5px] text-muted;
   }
+  /* ── a set card with its own PDF download under it ── */
+  .choice-wrap {
+    @apply flex flex-col;
+  }
+  .choice-wrap .choice {
+    @apply flex-1 rounded-b-none border-b-0 hover:translate-y-0 hover:shadow-none;
+  }
+  .choice-dl {
+    @apply flex cursor-pointer items-center justify-center gap-1 rounded-b-lg border border-t-0 border-line
+           bg-panel-2 px-2 py-1.5 font-mono text-[11px] font-bold text-body transition-colors
+           hover:not-disabled:border-brand hover:not-disabled:bg-brand-soft hover:not-disabled:text-brand-ink
+           disabled:cursor-not-allowed disabled:opacity-55;
+  }
+  .choice-wrap.is-active .choice-dl {
+    @apply border-brand bg-brand-soft text-brand-ink;
+  }
+  .dl-bar {
+    @apply mb-4 flex flex-col gap-2 rounded-lg border border-brand-line bg-brand-soft px-4 py-3;
+  }
+  .dl-hint {
+    @apply text-[12.5px] leading-relaxed text-body;
+  }
   .mode-btn {
     @apply flex w-full cursor-pointer items-center gap-3.5 rounded-lg border border-dashed border-line-strong
            bg-panel px-4 py-3.5 text-left transition-colors hover:border-brand hover:bg-brand-soft/50;

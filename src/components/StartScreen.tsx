@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import { DOMAINS } from '../data/domains'
 import { EXAM_MINUTES, EXAM_POOL, EXAM_TOTAL } from '../data/examBuilder'
-import { V4_PARTS, V4_SLICES, type V4PartId, type V4SliceId } from '../data/v4Parts'
+import { V4_PARTS, V4_SLICES, type V4Part, type V4PartId, type V4SliceId } from '../data/v4Parts'
+import { printBankSheet } from '../utils/bankSheet'
 
 export type BankId = 'v1' | 'v2' | 'v3' | 'v4' | V4PartId | V4SliceId | 'drag'
 
@@ -24,6 +26,11 @@ const BANKS: { id: BankId; label: string }[] = [
   { id: 'v4', label: 'BIG CCNA' },
 ]
 
+const today = () => new Date().toISOString().slice(0, 10)
+
+/** Exhibits in a set, for the "n questions have a picture" note next to the download. */
+const withImages = (qs: { image?: string }[]) => qs.filter((q) => q.image).length
+
 function StartScreen({
   bank,
   total,
@@ -35,6 +42,29 @@ function StartScreen({
   onStartExam,
 }: Props) {
   const counts = OPTIONS.filter((n) => n < total)
+  /** Which set is being handed to the print dialog, so its button can say so. */
+  const [sheetBusy, setSheetBusy] = useState<string | null>(null)
+  const [sheetImages, setSheetImages] = useState(true)
+
+  /**
+   * Export one 200-question set as a PDF: questions in their original BIG
+   * order, answers gathered at the very back, no explanations. It goes through
+   * the browser's own "Save as PDF" — the same route the wrong-answer sheet
+   * takes — so Thai renders with the system fonts and nothing has to be bundled.
+   */
+  async function downloadSlice(s: V4Part<V4SliceId>) {
+    setSheetBusy(s.id)
+    try {
+      await printBankSheet(s.questions, {
+        title: `BIG CCNA — ชุดที่ ${s.index} (ข้อ ${s.from}–${s.to})`,
+        subtitle: `CCNA 200-301 · ${s.questions.length} ข้อ · เรียงตามเลขข้อเดิมของ BIG · ออกไฟล์เมื่อ ${today()}`,
+        includeImages: sheetImages,
+        fileName: `CCNA-BIG-set${s.index}-q${s.from}-${s.to}-${today()}`,
+      })
+    } finally {
+      setSheetBusy(null)
+    }
+  }
   const isDrag = bank === 'drag'
   const part = V4_PARTS.find((p) => p.id === bank)
   const slice = V4_SLICES.find((s) => s.id === bank)
@@ -137,20 +167,44 @@ function StartScreen({
           คลังเดียวกันแบ่งสั้นลงเป็นชุดละ 200 ข้อ (ข้อ 1–200, 201–400, … ถึงข้อ {V4_SLICES[V4_SLICES.length - 1].to})
           — เลขข้อยังเป็นเลขเดิมของ BIG เหมือนแบบแบ่ง 4 ส่วนด้านบน
         </p>
+
+        <div className="dl-bar">
+          <label className="wrong-check">
+            <input type="checkbox" checked={sheetImages} onChange={(e) => setSheetImages(e.target.checked)} />
+            แนบรูป exhibit ในไฟล์ PDF <span className="wrong-check-note">(ปิดได้ถ้าอยากได้ไฟล์เล็ก)</span>
+          </label>
+          <span className="dl-hint">
+            ปุ่ม <strong className="text-ink">⬇ PDF</strong> ในแต่ละชุด = โจทย์ + ตัวเลือกเรียงตามเลขข้อ
+            แล้วเก็บ <strong className="text-ink">เฉลยไว้หน้าสุดท้าย</strong> (ไม่มีคำอธิบาย) —
+            กดแล้วเลือกปลายทางเป็น “Save as PDF” ในหน้าต่างพิมพ์ของเบราว์เซอร์
+          </span>
+        </div>
+
         <div className="choice-grid choice-grid-dense">
           {V4_SLICES.map((s) => (
-            <button
-              key={s.id}
-              className={`choice${bank === s.id ? ' is-active' : ''}`}
-              aria-pressed={bank === s.id}
-              onClick={() => onBankChange(s.id)}
-            >
-              <span className="choice-label">ชุดที่ {s.index}</span>
-              <span className="choice-range">
-                ข้อ {s.from}–{s.to}
-              </span>
-              <span className="choice-count">{s.questions.length} ข้อ</span>
-            </button>
+            <div key={s.id} className={`choice-wrap${bank === s.id ? ' is-active' : ''}`}>
+              <button
+                className={`choice${bank === s.id ? ' is-active' : ''}`}
+                aria-pressed={bank === s.id}
+                onClick={() => onBankChange(s.id)}
+              >
+                <span className="choice-label">ชุดที่ {s.index}</span>
+                <span className="choice-range">
+                  ข้อ {s.from}–{s.to}
+                </span>
+                <span className="choice-count">{s.questions.length} ข้อ</span>
+                <span className="choice-count">{withImages(s.questions)} รูป</span>
+              </button>
+              <button
+                className="choice-dl"
+                disabled={sheetBusy !== null}
+                aria-busy={sheetBusy === s.id}
+                title={`ดาวน์โหลด PDF ชุดที่ ${s.index} (ข้อ ${s.from}–${s.to}) — เฉลยอยู่หน้าสุดท้าย`}
+                onClick={() => downloadSlice(s)}
+              >
+                {sheetBusy === s.id ? 'กำลังเตรียม…' : '⬇ PDF'}
+              </button>
+            </div>
           ))}
         </div>
       </div>
