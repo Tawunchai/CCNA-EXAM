@@ -35,8 +35,8 @@ const esc = escapeHtml
  * sized against it: 9.5–10pt type, so a prompt and four options take about a
  * fifth of a page; exhibits capped at 118×58mm, so a question with a topology
  * still leaves room for its options; `break-inside: avoid` on every block, so
- * no question is split across the fold. The key at the back runs three columns
- * of letters — 200 rows would otherwise sprawl over several pages.
+ * no question is split across the fold. The key at the back runs two columns —
+ * 200 rows in one would otherwise sprawl over several pages.
  */
 const PAPER_CSS = `
 @page { size: A4 portrait; margin: 13mm 12mm 12mm; }
@@ -76,8 +76,6 @@ body {
 .drops li { font-size: 9.5pt; font-weight: 600; padding: 0.9mm 0 1.6mm; border-bottom: 0.5pt dashed #c3cfdc; }
 .sec { break-before: page; page-break-before: always; }
 .sec h2 { margin: 0 0 3mm; font-size: 13pt; border-bottom: 1pt solid #1e5fbf; padding-bottom: 2mm; }
-.sec h2.again { margin-top: 7mm; }
-.keys { columns: 3; column-gap: 6mm; }
 .keys-wide { columns: 2; column-gap: 7mm; }
 .kr {
   break-inside: avoid; page-break-inside: avoid;
@@ -133,8 +131,8 @@ function questionHtml(q: Question, opts: BankSheetOptions) {
   </article>`
 }
 
-/** Just the letters — what a whole set is checked against in one pass. */
-function shortKey(q: Question) {
+/** The letter(s) the app marks correct — what a whole set is checked against at a glance. */
+function answerKeys(q: Question) {
   if (q.kind === 'drag') return 'ลากวาง'
   return q.options
     .filter((o) => q.correct.includes(o.key))
@@ -142,8 +140,8 @@ function shortKey(q: Question) {
     .join(', ')
 }
 
-/** The same key again with the answer text, for the ones worth reading back. */
-function longKeyText(q: Question) {
+/** The text those letters stand for, so a wrong tick can be read back without flipping pages. */
+function answerText(q: Question) {
   if (q.kind === 'drag') return q.categories.map((c) => `${c.name} → ${c.items.join(' · ')}`).join(' | ')
   const picked = q.options.filter((o) => q.correct.includes(o.key))
   // LAB walk-throughs carry a single placeholder option; their real answer is the
@@ -152,23 +150,19 @@ function longKeyText(q: Question) {
   return picked.map((o) => o.text).join(' | ')
 }
 
+/** One block at the very back: number, letter(s), and the answer text. Nothing else. */
 function keySectionHtml(questions: Question[]) {
-  const short = questions
-    .map((q) => `<div class="kr"><b>${esc(questionRef(q).number)}</b> <span class="kk">${esc(shortKey(q))}</span></div>`)
-    .join('')
-  const long = questions
+  const rows = questions
     .map(
       (q) =>
         `<div class="kr"><b>${esc(questionRef(q).number)}</b> <span class="kk">${esc(
-          shortKey(q),
-        )}</span> <span class="kt">${esc(longKeyText(q))}</span></div>`,
+          answerKeys(q),
+        )}</span> <span class="kt">${esc(answerText(q))}</span></div>`,
     )
     .join('')
   return `<section class="sec">
     <h2>เฉลย</h2>
-    <div class="keys">${short}</div>
-    <h2 class="again">เฉลย (พร้อมข้อความคำตอบ)</h2>
-    <div class="keys-wide">${long}</div>
+    <div class="keys-wide">${rows}</div>
   </section>`
 }
 
